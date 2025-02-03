@@ -1,5 +1,6 @@
 # hm: VSCode workspace
 *.code-workspace
+.hm_local/ 
 
 
 # Byte-compiled / optimized / DLL files
