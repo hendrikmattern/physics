@@ -31,3 +31,11 @@
     * use either Juypter Lab or Notebook with the file of your choice
     * `jupyter lab .\<filename>.ipynb`
     * `jupyter notebook .\<filename>.ipynb`
+
+
+# Convert slides notebook to static page (*.ipynb -> *.html)
+* *make sure slide/sub-slide types properly set*
+* run `jupyter nbconvert notebook_name.ipynb --to slides --post serve --no-input --no-prompt --SlidesExporter.reveal_number='c/t'` 
+* `--SlidesExporter.reveal_number='c/t'` enables slide numbers
+* one can add additional argument like `--mathjax` to enable math rendering via mathjax
+* open html in browser
