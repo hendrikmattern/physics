@@ -4,6 +4,8 @@ This gitlab contains the material for Physics I &amp; II
 ## Acknowledgement:
 The script is based on the following material and courses which are highly recommend to check out:
 * `GIANCOLI, Douglas C. Physics for scientists and engineers with modern physics. Pearson Education, 2023.`
+* `STROPPE, Heribert; STREITENBERGER, Peter; SPECHT, Eckard. Physik: Beispiele und Aufgaben. Carl Hanser Verlag GmbH Co KG, 2020.`
+* `SERWAY, Raymond A.; JEWETT, John W. Physics for Scientists and Engineers, Volume 2. Cengage Learning, 2021.`
 * [Physics I](https://github.com/cdohl/Physics1.git) by Prof. Ohl
 * [Walter Lewin Lectures on Physics (MIT) on YouTube](https://youtube.com/playlist?list=PLERGeJGfknBR3pXCPlV3bgb_qHCSNOdBf&si=9Uv3aYAABmSH9kYP)
 * [Crash Course Physics on YouTube](https://youtube.com/playlist?list=PL8dPuuaLjXtN0ge7yDk_UA0ldZJdhwkoV&si=HB5bw0XsU94_l1JX)  with Dr. Shini Somara
