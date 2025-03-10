@@ -39,3 +39,9 @@
 * `--SlidesExporter.reveal_number='c/t'` enables slide numbers
 * one can add additional argument like `--mathjax` to enable math rendering via mathjax
 * open html in browser
+
+# Convert script to html/pdf (pdf required pandoc and latex)
+jupyter nbconvert 'physics2/2_01_script.ipynb' --no-input --to html
+jupyter nbconvert 'physics2/2_01_script.ipynb' --no-input --to pdf
+
+
