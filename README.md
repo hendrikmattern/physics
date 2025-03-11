@@ -11,6 +11,7 @@ The script is based on the following material and courses which are highly recom
 * [Crash Course Physics on YouTube](https://youtube.com/playlist?list=PL8dPuuaLjXtN0ge7yDk_UA0ldZJdhwkoV&si=HB5bw0XsU94_l1JX)  with Dr. Shini Somara
 * [Physik I für Ingenieure](https://www.amp.ovgu.de/amp/de/Lehre/Physik+I+f%C3%BCr+Ingenieure.html) &amp; [Physik II für Ingenieure](https://www.amp.ovgu.de/amp/de/Lehre/Physik+II+f%C3%BCr+Ingenieure.html) by Prof. Goldhahn (material only available for OVGU students)
 * [Learning Scientific Programming with Python](https://scipython.com/) by Christian Hill. Amazing resource for code some of which were adapted and integrated into this course 
+* [Wikibooks Physik Oberstufe](https://de.wikibooks.org/wiki/Physik_Oberstufe) is a wikibook in German with many great illustrations and examples.
 
 My deepest gratitude to these educators and their efforts without which this course would not have been possible
 

@@ -35,8 +35,9 @@
 
 # Convert slides notebook to static page (*.ipynb -> *.html)
 * *make sure slide/sub-slide types properly set*
-* run `jupyter nbconvert notebook_name.ipynb --to slides --post serve --no-input --no-prompt --SlidesExporter.reveal_number='c/t'` 
+* run `jupyter nbconvert notebook_name.ipynb --to slides --post serve --no-input --no-prompt --SlidesExporter.reveal_number='c/t' --SlidesExporter.reveal_scroll=True` 
 * `--SlidesExporter.reveal_number='c/t'` enables slide numbers
+* `--SlidesExporter.reveal_scroll=True` enables scrolling on slides (not through slides)
 * one can add additional argument like `--mathjax` to enable math rendering via mathjax
 * open html in browser
 
