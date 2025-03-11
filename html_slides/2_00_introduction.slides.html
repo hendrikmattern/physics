@@ -5,7 +5,7 @@
 <meta content="chrome=1" http-equiv="X-UA-Compatible"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
-<title>2_04_slides slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
+<title>2_00_introduction slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
   import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
@@ -7441,7 +7441,14 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="2.4.-DC-Circuits-&amp;-Kirchhoff's-Laws">2.4. DC Circuits &amp; Kirchhoff's Laws<a class="anchor-link" href="#2.4.-DC-Circuits-&amp;-Kirchhoff's-Laws">¶</a></h1><p><strong>What comes to your mind when you hear electricity?</strong></p>
+<h1 id="Physics-II---Introduction">Physics II - Introduction<a class="anchor-link" href="#Physics-II---Introduction">¶</a></h1><ul>
+<li>Electrostatics</li>
+<li>Electric circuits</li>
+<li>Electromagnetic fields</li>
+<li>Geometric and wave optics</li>
+<li>Early quantum theory and models of the atom</li>
+</ul>
+<p><small>see <a href="..%5CSyllabus.ipynb">Syllabus</a></small></p>
 </div>
 </div>
 </div>
@@ -7451,135 +7458,103 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="2.4.1-Circuits-101">2.4.1 Circuits 101<a class="anchor-link" href="#2.4.1-Circuits-101">¶</a></h2><h3 id="Basic-Circuit-Concepts">Basic Circuit Concepts<a class="anchor-link" href="#Basic-Circuit-Concepts">¶</a></h3><ul>
-<li><strong>Electric Circuit:</strong> Elements (batteries, resistors, capacitors) connected by wires.</li>
-<li><strong>Circuit States:</strong><ul>
-<li>Open: No current flow.</li>
-<li>Closed: Current flow.</li>
-<li>Short: Excessive current (hazard).</li>
+<h2 id="Jun.-Prof.-Dr.-Ing.-Hendrik-Mattern">Jun.-Prof. Dr.-Ing. Hendrik Mattern<a class="anchor-link" href="#Jun.-Prof.-Dr.-Ing.-Hendrik-Mattern">¶</a></h2><ul>
+<li>background in engineering<ul>
+<li>Bachelor in Electrical Engineering and Information Technology</li>
+<li>Master in Medical Systems Engineering</li>
 </ul>
 </li>
-<li><strong>Voltage Source (V):</strong> Provides potential difference, driving current (I).</li>
-<li><strong>Ground:</strong> Reference potential (e.g., Earth).</li>
-<li><strong>Voltage Drop:</strong> Potential difference across an element.</li>
-<li><strong>Element Connections:</strong> Series or parallel.</li>
-<li><strong>Equivalent Circuits:</strong> Simplification by combining elements.</li>
+<li>PhD and research on high field magnetic resonance imaging</li>
+<li>mail: hendrik.mattern@ovgu.de</li>
+<li>office: H92/005 (on medical campus)</li>
+<li>homepage: <a href="https://hendrikmattern.github.io/">https://hendrikmattern.github.io/</a></li>
 </ul>
-<hr/>
-<h3 id="Open-Circuit-Voltage-of-a-DC-Source">Open-Circuit Voltage of a DC Source<a class="anchor-link" href="#Open-Circuit-Voltage-of-a-DC-Source">¶</a></h3><ul>
-<li><strong>Source:</strong> Energy conversion to electrical potential.</li>
-<li><strong>Open-Circuit Voltage (V₀):</strong> Voltage without current flow.</li>
-<li><strong>Internal Resistance (R_int):</strong> Real sources have internal resistance.</li>
-<li><strong>Voltage with Current:</strong>
-$$V = V_0 - IR_{int}$$</li>
-<li><strong>Non-constant R_int:</strong> Leads to non-linear current-voltage characteristics.</li>
-<li><strong>Characterization:</strong> Understanding real-life voltage sources.</li>
-</ul>
-<hr/>
-<h3 id="Measuring-Voltages-and-Currents">Measuring Voltages and Currents<a class="anchor-link" href="#Measuring-Voltages-and-Currents">¶</a></h3><ul>
-<li><strong>Ammeter:</strong> Measures current (series connection).</li>
-<li><strong>Voltmeter:</strong> Measures voltage (parallel connection).</li>
-<li><strong>Ohmmeter:</strong> Measures resistance.</li>
-<li><strong>Multimeter:</strong> Combines ammeter, voltmeter, ohmmeter.</li>
-<li><strong>Internal Resistance:</strong><ul>
-<li>Voltmeter: High (limits current).</li>
-<li>Ammeter: Low (limits voltage drop).</li>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Course-Structure:">Course Structure:<a class="anchor-link" href="#Course-Structure:">¶</a></h2><ul>
+<li><strong>weekly lecture:</strong><ul>
+<li>presentation of the theoretical foundations of physics</li>
+<li>demonstration of experiments</li>
 </ul>
 </li>
-<li><strong>Simultaneous Measurement:</strong> Configuration choice depends on resistor and device internal resistances.</li>
-</ul>
-<hr/>
-<h2 id="2.4.2.-Analysis-Circuits-and-Kirchhoff's-Rules">2.4.2. Analysis Circuits and Kirchhoff's Rules<a class="anchor-link" href="#2.4.2.-Analysis-Circuits-and-Kirchhoff's-Rules">¶</a></h2><h3 id="Resistors-in-Series-&amp;-Parallel">Resistors in Series &amp; Parallel<a class="anchor-link" href="#Resistors-in-Series-&amp;-Parallel">¶</a></h3><ul>
-<li><strong>Series Resistors:</strong><ul>
-<li>Equivalent Resistance:
-$$R_{eq} = \sum R_i$$</li>
-<li>Voltage drops add up.</li>
+<li><strong>bi-weekly lecture tutorial:</strong><ul>
+<li>led by the instructor/teaching staff</li>
+<li>focus on conceptual exercises</li>
+<li>additional demonstrations/experiments</li>
 </ul>
 </li>
-<li><strong>Parallel Resistors:</strong><ul>
-<li>Equivalent Resistance:
-$$\frac{1}{R_{eq}} = \sum \frac{1}{R_i}$$</li>
-<li>Current splits.</li>
-<li>Net resistance is smaller than the smallest individual resistance.</li>
-</ul>
-</li>
-<li><strong>Physical Interpretation:</strong> Parallel resistors increase effective cross-sectional area.</li>
-</ul>
-<hr/>
-<h3 id="Capacitors-in-Series-&amp;-Parallel">Capacitors in Series &amp; Parallel<a class="anchor-link" href="#Capacitors-in-Series-&amp;-Parallel">¶</a></h3><ul>
-<li><strong>Parallel Capacitors:</strong><ul>
-<li>Equivalent Capacitance:
-$$C_{eq} = \sum C_i$$</li>
-<li>Voltage is the same.</li>
-<li>Total charge adds up.</li>
-</ul>
-</li>
-<li><strong>Series Capacitors:</strong><ul>
-<li>Equivalent Capacitance:
-$$\frac{1}{C_{eq}} = \sum \frac{1}{C_i}$$</li>
-<li>Charge is the same.</li>
-<li>Voltage drops add up.</li>
-<li>Net capacitance is smaller than the smallest individual capacitance.</li>
+<li><strong>bi-weekly class tutorial:</strong><ul>
+<li>active student participation (<em>voting system</em>)</li>
+<li>students present solutions to assigned physics problems</li>
+<li>tutor provides guidance and problem-solving support</li>
+<li><strong>only the Friday class tutorial takes place; the two Thursday class tutorials are canceled</strong></li>
 </ul>
 </li>
 </ul>
-<hr/>
-<h3 id="Kirchhoff's-Rules">Kirchhoff's Rules<a class="anchor-link" href="#Kirchhoff's-Rules">¶</a></h3><ul>
-<li><strong>Junction Rule (Current Conservation):</strong>
-$$\sum_i I_i = 0 \quad \text{or} \quad \sum_j I_{in,j} = \sum_k I_{out,k}$$</li>
-<li><strong>Loop Rule (Energy Conservation):</strong>
-$$\sum_i V_i = 0$$</li>
-<li><strong>Circuit Analysis Steps:</strong><ol>
-<li>Label currents.</li>
-<li>Identify unknowns.</li>
-<li>Apply junction rule.</li>
-<li>Apply loop rule.</li>
-<li>Solve equations.</li>
-<li>Vector/matrix form possible.</li>
-</ol>
-</li>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Class-tutorial-voting-system">Class tutorial voting system<a class="anchor-link" href="#Class-tutorial-voting-system">¶</a></h2><ul>
+<li>class exercise tasks will be posted on eLearning platform approx. one week before the exercise takes place</li>
+<li>tasks should be solved before the exercise takes place</li>
+<li>prior to the exercise, you indicate, which tasks you solved (in eLearning)</li>
+<li>through selection/"voting", you agree that you are able to explain and present the task and your proposed solution</li>
+<li>the solution does not have to be completely correct, however, it must be clear that you conscientiously dealt with the task and seriously attempted to solve it (otherwise all your selections/"votes"  for that exercise will be revoked)</li>
+<li>exercise instructor will pick the presenting student randomly from all students who selected the particular task</li>
 </ul>
-<hr/>
-<h2 id="2.4.3.-The-RC-Circuit">2.4.3. The RC-Circuit<a class="anchor-link" href="#2.4.3.-The-RC-Circuit">¶</a></h2><h3 id="Charging-the-Capacitor">Charging the Capacitor<a class="anchor-link" href="#Charging-the-Capacitor">¶</a></h3><ul>
-<li><strong>RC-Circuit:</strong> Resistor, capacitor, voltage source in series.</li>
-<li><strong>Charging Process:</strong> Time-dependent charge accumulation.</li>
-<li><strong>Kirchhoff's Loop Rule:</strong>
-$$V_0 = IR + \frac{Q}{C}$$</li>
-<li><strong>Differential Equation:</strong>
-$$V_0 = R\frac{dQ}{dt} + \frac{Q}{C}$$</li>
-<li><strong>Solution:</strong>
-$$Q(t) = Q_0(1 - e^{-t/RC})$$
-$$V_C(t) = V_0(1 - e^{-t/RC})$$
-$$I(t) = \frac{V_0}{R}e^{-t/RC}$$</li>
-<li><strong>Time Constant (τ = RC):</strong><ul>
-<li>Time for V_C to reach 63% of V_0.</li>
-<li>Time for I to decay to 37% of initial value.</li>
-<li>Charging is considered complete after 5τ.</li>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Exam:">Exam:<a class="anchor-link" href="#Exam:">¶</a></h2><ul>
+<li>written exam (90 min) on the contents of Physics II</li>
+<li>requirement for eligibility:<ul>
+<li>vote for at least <strong>40%</strong> of all class tutorial task</li>
 </ul>
 </li>
 </ul>
-<hr/>
-<h3 id="Discharging-the-Capacitor">Discharging the Capacitor<a class="anchor-link" href="#Discharging-the-Capacitor">¶</a></h3><ul>
-<li><strong>Circuit:</strong> Capacitor and resistor in series (no voltage source).</li>
-<li><strong>Kirchhoff's Loop Rule:</strong>
-$$IR = \frac{Q}{C}$$</li>
-<li><strong>Differential Equation:</strong>
-$$-\frac{dQ}{dt}R = \frac{Q}{C}$$</li>
-<li><strong>Solution:</strong>
-$$Q(t) = Q_0e^{-t/RC}$$
-$$V_C(t) = V_0e^{-t/RC}$$
-$$I(t) = I_0e^{-t/RC}$$</li>
-<li><strong>Decaying Voltage and Current:</strong> Exponential decrease over time.</li>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Course--resources:">Course  resources:<a class="anchor-link" href="#Course--resources:">¶</a></h2><ul>
+<li>script and slides openly available as Jupyter notebooks<ul>
+<li><a href="https://github.com/hendrikmattern/physics">https://github.com/hendrikmattern/physics</a></li>
+<li><a href="https://colab.research.google.com/github/hendrikmattern/physics">https://colab.research.google.com/github/hendrikmattern/physics</a></li>
+<li><strong>FYI:</strong> lecture/slides complement script and vice versa</li>
 </ul>
-<hr/>
-<h3 id="Periodically-Switching-On-Off">Periodically Switching On-Off<a class="anchor-link" href="#Periodically-Switching-On-Off">¶</a></h3><ul>
-<li><strong>Sawtooth Voltage:</strong> Created by periodic charging and discharging.</li>
-<li><strong>Practical Implementation:</strong> Voltage source, capacitor, two resistors, and a tube.</li>
-<li><strong>Charging Loop:</strong> Capacitor charges through one resistor.</li>
-<li><strong>Discharging Loop:</strong> Tube conducts at breakdown voltage, discharging capacitor through the other resistor.</li>
-<li><strong>Repeat Cycle:</strong> Sawtooth waveform generated.</li>
+</li>
+<li>books:<ul>
+<li><code>GIANCOLI, Douglas C. Physics for scientists and engineers with modern physics. Pearson Education, 2023.</code></li>
+<li><code>SERWAY, Raymond A.; JEWETT, John W. Physics for Scientists and Engineers, Volume 2. Cengage Learning, 2021.</code></li>
 </ul>
-<pre><code></code></pre>
+</li>
+<li><a href="https://elearning.ovgu.de/">eLearning course</a> (enrollment required)</li>
+<li><a href="https://lsf.ovgu.de/">LSF</a> (enrollment required)</li>
+</ul>
 </div>
 </div>
 </div>
@@ -7623,7 +7598,7 @@ require(
         Reveal.addEventListener('slidechanged', update);
 
         function setScrollingSlide() {
-            var scroll = false
+            var scroll = true
             if (scroll === true) {
               var h = $('.reveal').height() * 0.95;
               $('section.present').find('section')

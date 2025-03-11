@@ -8,14 +8,13 @@ def convert_notebook_to_slides(input_path, output_path):
         input_file = os.path.join(input_path, notebook)
         output_file = os.path.join(output_path, notebook.replace(".ipynb", ".slides.html"))
         command = (
-            f"jupyter nbconvert {input_file} --to slides --post serve --no-input --no-prompt "
-            f"--SlidesExporter.reveal_number='c/t' --SlidesExporter.reveal_scroll=True"
+            f"jupyter nbconvert {input_file} --to html --post serve --no-input --no-prompt --output-dir {output_path}"
         )
         os.system(command)
         # copy the output file to the output directory
-        shutil.copyfile(input_file.replace(".ipynb", ".slides.html"), output_file)
+        #shutil.copyfile(input_file.replace(".ipynb", ".slides.html"), output_file)
         # remove the original output file
-        os.remove(input_file.replace(".ipynb", ".slides.html"))        
+        #os.remove(input_file.replace(".ipynb", ".slides.html"))        
         # print the output file path
         print("Conversion complete. HTML slides saved in", output_file)
 
@@ -23,21 +22,21 @@ def convert_notebook_to_slides(input_path, output_path):
 # Define input and output directories
 physics1_folder = "./physics1"
 physics2_folder = "./physics2"
-html_slides_folder = "./html_slides"
+html_script_folder = "./html_script"
 
 # Ensure output folder exists
-os.makedirs(html_slides_folder, exist_ok=True)
+os.makedirs(html_script_folder, exist_ok=True)
 
 # List all files in the input directory
 notebooks1 = [f for f in os.listdir(physics1_folder) if f.endswith(".ipynb")]
 notebooks2 = [f for f in os.listdir(physics2_folder) if f.endswith(".ipynb")]
 
 # Filter notebooks containing 'slides' or 'introduction'
-filtered_notebooks1 = [nb for nb in notebooks1 if "slides" in nb.lower() or "introduction" in nb.lower()]
-filtered_notebooks2 = [nb for nb in notebooks2 if "slides" in nb.lower() or "introduction" in nb.lower()]
+filtered_notebooks1 = [nb for nb in notebooks1 if "script" in nb.lower() or "1_cheat_sheet" in nb.lower()]
+filtered_notebooks2 = [nb for nb in notebooks2 if "script" in nb.lower() or "2_cheat_sheet" in nb.lower()]
 
 # Convert filtered notebooks to HTML slides
-#convert_notebook_to_slides(physics1_folder, html_slides_folder)
-convert_notebook_to_slides(physics2_folder, html_slides_folder)
+#convert_notebook_to_slides(physics1_folder, html_script_folder)
+convert_notebook_to_slides(physics2_folder, html_script_folder)
 
 
