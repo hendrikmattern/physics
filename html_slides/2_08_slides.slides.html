@@ -5,7 +5,7 @@
 <meta content="chrome=1" http-equiv="X-UA-Compatible"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
-<title>2_04_slides slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
+<title>2_08_slides slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
   import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
@@ -7441,7 +7441,7 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="2.4.-DC-Circuits-&amp;-Kirchhoff's-Laws">2.4. DC Circuits &amp; Kirchhoff's Laws<a class="anchor-link" href="#2.4.-DC-Circuits-&amp;-Kirchhoff's-Laws">¶</a></h1><p><strong>Imagine you're designing a camera flash. What components would you need to quickly store and release a large amount of electrical energy, and how would you control the timing?</strong></p>
+<h1 id="2.8.-TITLE">2.8. TITLE<a class="anchor-link" href="#2.8.-TITLE">¶</a></h1><p><strong>TEASER?</strong></p>
 </div>
 </div>
 </div>
@@ -7452,13 +7452,7 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>need to design a circuit with at least<ul>
-<li>capacitor</li>
-<li>resistor</li>
-<li>voltage source</li>
-<li>switch</li>
-</ul>
-</li>
+<li>ANSWER FRAGMENT</li>
 </ul>
 </div>
 </div>
@@ -7469,135 +7463,95 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="2.4.1-Circuits-101">2.4.1 Circuits 101<a class="anchor-link" href="#2.4.1-Circuits-101">¶</a></h2><h3 id="Basic-Circuit-Concepts">Basic Circuit Concepts<a class="anchor-link" href="#Basic-Circuit-Concepts">¶</a></h3><ul>
-<li><strong>Electric Circuit:</strong> Elements (batteries, resistors, capacitors) connected by wires.</li>
-<li><strong>Circuit States:</strong><ul>
-<li>Open: No current flow.</li>
-<li>Closed: Current flow.</li>
-<li>Short: Excessive current (hazard).</li>
+<h2 id="Ovgu_fnw_logo">Ovgu_fnw_logo<a class="anchor-link" href="#Ovgu_fnw_logo">¶</a></h2><ul>
+<li>university logo for ovgu fnw</li>
+</ul>
+<h2 id="Maxwell%E2%80%99s-equations-&amp;-electromagnetic-waves">Maxwell’s equations &amp; electromagnetic waves<a class="anchor-link" href="#Maxwell%E2%80%99s-equations-&amp;-electromagnetic-waves">¶</a></h2><ul>
+<li>maxwell unified electricity and magnetism with four fundamental equations</li>
+<li>electromagnetic waves were predicted and later confirmed experimentally</li>
+<li>these concepts form the basis for modern communication and special relativity</li>
+</ul>
+<h3 id="revisiting-amp%C3%A8re's-law:-changing-electric-fields-produce-magnetic-fields">revisiting ampère's law: changing electric fields produce magnetic fields<a class="anchor-link" href="#revisiting-amp%C3%A8re's-law:-changing-electric-fields-produce-magnetic-fields">¶</a></h3><ul>
+<li>electric currents generate magnetic fields and, via faraday's law, magnetic fields generate electric fields</li>
+<li>a changing electric field produces a magnetic field; this is captured by the concept of displacement current</li>
+<li>original ampère's law in integral form is given by<br/>
+$$\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = \mu_0 I_{\text{enc}}$$</li>
+<li>displacement current is defined as<br/>
+$$I_D = \epsilon_0 \frac{d\Phi_E}{dt}$$</li>
+<li>with the correction, ampère's law becomes<br/>
+$$\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = \mu_0 I_{\text{enc}} + \mu_0 \epsilon_0 \frac{d\Phi_E}{dt}$$</li>
+<li>the magnetic field outside a capacitor is<br/>
+$$B = \frac{\mu_0 I}{2\pi r}$$</li>
+</ul>
+<h3 id="gauss's-law-for-magnetism">gauss's law for magnetism<a class="anchor-link" href="#gauss's-law-for-magnetism">¶</a></h3><ul>
+<li>the electric flux through a closed surface is<br/>
+$$\Phi_E = \oint \vec{\bf{E}} \cdot d\vec{\bf{A}} = \frac{Q_{\text{enc}}}{\epsilon_0}$$</li>
+<li>since no magnetic monopoles exist, the magnetic flux is<br/>
+$$\oint \vec{\bf{B}} \cdot d\vec{\bf{A}} = 0$$</li>
+</ul>
+<h3 id="maxwell%E2%80%99s-equations">maxwell’s equations<a class="anchor-link" href="#maxwell%E2%80%99s-equations">¶</a></h3><ul>
+<li>the four equations in integral form are:<ul>
+<li>gauss's law for electricity:<br/>
+$$\oint \vec{\bf{E}} \cdot d\vec{\bf{A}} = \frac{Q}{\epsilon_0}$$</li>
+<li>gauss's law for magnetism:<br/>
+$$\oint \vec{\bf{B}} \cdot d\vec{\bf{A}} = 0$$</li>
+<li>faraday's law of induction:<br/>
+$$\oint \vec{\bf{E}} \cdot d\vec{\bf{l}} = -\frac{d\Phi_B}{dt}$$</li>
+<li>ampère's law with maxwell correction:<br/>
+$$\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = \mu_0 I + \mu_0 \epsilon_0 \frac{d\Phi_E}{dt}$$</li>
 </ul>
 </li>
-<li><strong>Voltage Source (V):</strong> Provides potential difference, driving current (I).</li>
-<li><strong>Ground:</strong> Reference potential (e.g., Earth).</li>
-<li><strong>Voltage Drop:</strong> Potential difference across an element.</li>
-<li><strong>Element Connections:</strong> Series or parallel.</li>
-<li><strong>Equivalent Circuits:</strong> Simplification by combining elements.</li>
-</ul>
-<hr/>
-<h3 id="Open-Circuit-Voltage-of-a-DC-Source">Open-Circuit Voltage of a DC Source<a class="anchor-link" href="#Open-Circuit-Voltage-of-a-DC-Source">¶</a></h3><ul>
-<li><strong>Source:</strong> Energy conversion to electrical potential.</li>
-<li><strong>Open-Circuit Voltage (V₀):</strong> Voltage without current flow.</li>
-<li><strong>Internal Resistance (R_int):</strong> Real sources have internal resistance.</li>
-<li><strong>Voltage with Current:</strong>
-$$V = V_0 - IR_{int}$$</li>
-<li><strong>Non-constant R_int:</strong> Leads to non-linear current-voltage characteristics.</li>
-<li><strong>Characterization:</strong> Understanding real-life voltage sources.</li>
-</ul>
-<hr/>
-<h3 id="Measuring-Voltages-and-Currents">Measuring Voltages and Currents<a class="anchor-link" href="#Measuring-Voltages-and-Currents">¶</a></h3><ul>
-<li><strong>Ammeter:</strong> Measures current (series connection).</li>
-<li><strong>Voltmeter:</strong> Measures voltage (parallel connection).</li>
-<li><strong>Ohmmeter:</strong> Measures resistance.</li>
-<li><strong>Multimeter:</strong> Combines ammeter, voltmeter, ohmmeter.</li>
-<li><strong>Internal Resistance:</strong><ul>
-<li>Voltmeter: High (limits current).</li>
-<li>Ammeter: Low (limits voltage drop).</li>
+<li>in differential form the equations are:<ul>
+<li>$$\nabla \cdot \vec{\bf{E}} = \frac{\rho}{\epsilon_0}$$</li>
+<li>$$\nabla \cdot \vec{\bf{B}} = 0$$</li>
+<li>$$\nabla \times \vec{\bf{E}} = -\frac{\partial \vec{\bf{B}}}{\partial t}$$</li>
+<li>$$\nabla \times \vec{\bf{B}} = \mu_0 \vec{\bf{j}} + \mu_0 \epsilon_0 \frac{\partial \vec{\bf{E}}}{\partial t}$$</li>
 </ul>
 </li>
-<li><strong>Simultaneous Measurement:</strong> Configuration choice depends on resistor and device internal resistances.</li>
+<li>these equations not only unify electricity and magnetism but also predict electromagnetic waves</li>
 </ul>
-<hr/>
-<h2 id="2.4.2.-Analysis-Circuits-and-Kirchhoff's-Rules">2.4.2. Analysis Circuits and Kirchhoff's Rules<a class="anchor-link" href="#2.4.2.-Analysis-Circuits-and-Kirchhoff's-Rules">¶</a></h2><h3 id="Resistors-in-Series-&amp;-Parallel">Resistors in Series &amp; Parallel<a class="anchor-link" href="#Resistors-in-Series-&amp;-Parallel">¶</a></h3><ul>
-<li><strong>Series Resistors:</strong><ul>
-<li>Equivalent Resistance:
-$$R_{eq} = \sum R_i$$</li>
-<li>Voltage drops add up.</li>
-</ul>
-</li>
-<li><strong>Parallel Resistors:</strong><ul>
-<li>Equivalent Resistance:
-$$\frac{1}{R_{eq}} = \sum \frac{1}{R_i}$$</li>
-<li>Current splits.</li>
-<li>Net resistance is smaller than the smallest individual resistance.</li>
+<h3 id="electromagnetic-waves">electromagnetic waves<a class="anchor-link" href="#electromagnetic-waves">¶</a></h3><ul>
+<li>in empty space (no charges or currents) the integral equations simplify to<br/>
+$$\oint \vec{\bf{E}} \cdot d\vec{\bf{A}} = 0 \quad,\quad \oint \vec{\bf{B}} \cdot d\vec{\bf{A}} = 0$$</li>
+<li>a changing electric field produces a changing magnetic field and vice versa, enabling wave propagation</li>
+<li>sinusoidal solutions for plane waves are:<ul>
+<li>$$E = E_0 \sin(kx - \omega t)$$ with the electric field oscillating in the (y) direction</li>
+<li>$$B = B_0 \sin(kx - \omega t)$$ with the magnetic field oscillating in the (z) direction</li>
 </ul>
 </li>
-<li><strong>Physical Interpretation:</strong> Parallel resistors increase effective cross-sectional area.</li>
-</ul>
-<hr/>
-<h3 id="Capacitors-in-Series-&amp;-Parallel">Capacitors in Series &amp; Parallel<a class="anchor-link" href="#Capacitors-in-Series-&amp;-Parallel">¶</a></h3><ul>
-<li><strong>Parallel Capacitors:</strong><ul>
-<li>Equivalent Capacitance:
-$$C_{eq} = \sum C_i$$</li>
-<li>Voltage is the same.</li>
-<li>Total charge adds up.</li>
+<li>the wave parameters are defined by:<ul>
+<li>wave number: $$k = \frac{2\pi}{\lambda}$$</li>
+<li>angular frequency: $$\omega = 2\pi f$$</li>
+<li>wave velocity:<br/>
+$$\nu = \frac{\omega}{k} = \frac{1}{\sqrt{\epsilon_0 \mu_0}} = c$$</li>
 </ul>
 </li>
-<li><strong>Series Capacitors:</strong><ul>
-<li>Equivalent Capacitance:
-$$\frac{1}{C_{eq}} = \sum \frac{1}{C_i}$$</li>
-<li>Charge is the same.</li>
-<li>Voltage drops add up.</li>
-<li>Net capacitance is smaller than the smallest individual capacitance.</li>
-</ul>
-</li>
-</ul>
-<hr/>
-<h3 id="Kirchhoff's-Rules">Kirchhoff's Rules<a class="anchor-link" href="#Kirchhoff's-Rules">¶</a></h3><ul>
-<li><strong>Junction Rule (Current Conservation):</strong>
-$$\sum_i I_i = 0 \quad \text{or} \quad \sum_j I_{in,j} = \sum_k I_{out,k}$$</li>
-<li><strong>Loop Rule (Energy Conservation):</strong>
-$$\sum_i V_i = 0$$</li>
-<li><strong>Circuit Analysis Steps:</strong><ol>
-<li>Label currents.</li>
-<li>Identify unknowns.</li>
-<li>Apply junction rule.</li>
-<li>Apply loop rule.</li>
-<li>Solve equations.</li>
-<li>Vector/matrix form possible.</li>
-</ol>
-</li>
-</ul>
-<hr/>
-<h2 id="2.4.3.-The-RC-Circuit">2.4.3. The RC-Circuit<a class="anchor-link" href="#2.4.3.-The-RC-Circuit">¶</a></h2><h3 id="Charging-the-Capacitor">Charging the Capacitor<a class="anchor-link" href="#Charging-the-Capacitor">¶</a></h3><ul>
-<li><strong>RC-Circuit:</strong> Resistor, capacitor, voltage source in series.</li>
-<li><strong>Charging Process:</strong> Time-dependent charge accumulation.</li>
-<li><strong>Kirchhoff's Loop Rule:</strong>
-$$V_0 = IR + \frac{Q}{C}$$</li>
-<li><strong>Differential Equation:</strong>
-$$V_0 = R\frac{dQ}{dt} + \frac{Q}{C}$$</li>
-<li><strong>Solution:</strong>
-$$Q(t) = Q_0(1 - e^{-t/RC})$$
-$$V_C(t) = V_0(1 - e^{-t/RC})$$
-$$I(t) = \frac{V_0}{R}e^{-t/RC}$$</li>
-<li><strong>Time Constant (τ = RC):</strong><ul>
-<li>Time for V_C to reach 63% of V_0.</li>
-<li>Time for I to decay to 37% of initial value.</li>
-<li>Charging is considered complete after 5τ.</li>
+<li>the poynting vector, representing energy flux, is given by<br/>
+$$\vec{\bf{S}} = \frac{1}{\mu_0} \vec{\bf{E}} \times \vec{\bf{B}}$$</li>
+<li>the energy density of the electromagnetic field is<br/>
+$$u = \frac{1}{2} \epsilon_0 E^2 + \frac{1}{2} \frac{B^2}{\mu_0}$$</li>
+<li>radiation pressure is determined by the poynting vector:<ul>
+<li>for fully absorbed radiation:<br/>
+$$P = \frac{S}{c}$$</li>
+<li>for fully reflected radiation:<br/>
+$$P = \frac{2S}{c}$$</li>
 </ul>
 </li>
 </ul>
-<hr/>
-<h3 id="Discharging-the-Capacitor">Discharging the Capacitor<a class="anchor-link" href="#Discharging-the-Capacitor">¶</a></h3><ul>
-<li><strong>Circuit:</strong> Capacitor and resistor in series (no voltage source).</li>
-<li><strong>Kirchhoff's Loop Rule:</strong>
-$$IR = \frac{Q}{C}$$</li>
-<li><strong>Differential Equation:</strong>
-$$-\frac{dQ}{dt}R = \frac{Q}{C}$$</li>
-<li><strong>Solution:</strong>
-$$Q(t) = Q_0e^{-t/RC}$$
-$$V_C(t) = V_0e^{-t/RC}$$
-$$I(t) = I_0e^{-t/RC}$$</li>
-<li><strong>Decaying Voltage and Current:</strong> Exponential decrease over time.</li>
+<h3 id="electromagnetic-spectrum-&amp;-and-light">electromagnetic spectrum &amp; and light<a class="anchor-link" href="#electromagnetic-spectrum-&amp;-and-light">¶</a></h3><ul>
+<li>all electromagnetic waves propagate at<br/>
+$$c = \frac{1}{\sqrt{\epsilon_0 \mu_0}} = 3 \times 10^8\, \text{m/s}$$</li>
+<li>visible light spans frequencies from (4.0 \times 10^{14}) to (7.5 \times 10^{14},\text{Hz}) and wavelengths between 400 nm and 750 nm</li>
+<li>the relation between frequency and wavelength is<br/>
+$$c = \lambda f$$</li>
+<li>beyond visible light, the spectrum includes infrared, ultraviolet, radio waves, microwaves, x-rays, and gamma rays</li>
 </ul>
-<hr/>
-<h3 id="Periodically-Switching-On-Off">Periodically Switching On-Off<a class="anchor-link" href="#Periodically-Switching-On-Off">¶</a></h3><ul>
-<li><strong>Sawtooth Voltage:</strong> Created by periodic charging and discharging.</li>
-<li><strong>Practical Implementation:</strong> Voltage source, capacitor, two resistors, and a tube.</li>
-<li><strong>Charging Loop:</strong> Capacitor charges through one resistor.</li>
-<li><strong>Discharging Loop:</strong> Tube conducts at breakdown voltage, discharging capacitor through the other resistor.</li>
-<li><strong>Repeat Cycle:</strong> Sawtooth waveform generated.</li>
+<h3 id="summary">summary<a class="anchor-link" href="#summary">¶</a></h3><ul>
+<li>maxwell’s equations unify electricity and magnetism and predict electromagnetic waves</li>
+<li>the introduction of the displacement current resolves inconsistencies in ampère's law</li>
+<li>electromagnetic waves are pure field oscillations that carry energy and momentum, as described by the poynting vector</li>
+<li>these principles are fundamental to modern communication technologies and underpin special relativity</li>
 </ul>
-<pre><code></code></pre>
 </div>
 </div>
 </div>

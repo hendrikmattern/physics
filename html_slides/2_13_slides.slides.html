@@ -5,7 +5,7 @@
 <meta content="chrome=1" http-equiv="X-UA-Compatible"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
-<title>2_04_slides slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
+<title>2_13_slides slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
   import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
@@ -7441,7 +7441,7 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="2.4.-DC-Circuits-&amp;-Kirchhoff's-Laws">2.4. DC Circuits &amp; Kirchhoff's Laws<a class="anchor-link" href="#2.4.-DC-Circuits-&amp;-Kirchhoff's-Laws">¶</a></h1><p><strong>Imagine you're designing a camera flash. What components would you need to quickly store and release a large amount of electrical energy, and how would you control the timing?</strong></p>
+<h1 id="2.X.-TITLE">2.X. TITLE<a class="anchor-link" href="#2.X.-TITLE">¶</a></h1><p><strong>TEASER?</strong></p>
 </div>
 </div>
 </div>
@@ -7452,13 +7452,7 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>need to design a circuit with at least<ul>
-<li>capacitor</li>
-<li>resistor</li>
-<li>voltage source</li>
-<li>switch</li>
-</ul>
-</li>
+<li>ANSWER FRAGMENT</li>
 </ul>
 </div>
 </div>
@@ -7469,135 +7463,7 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="2.4.1-Circuits-101">2.4.1 Circuits 101<a class="anchor-link" href="#2.4.1-Circuits-101">¶</a></h2><h3 id="Basic-Circuit-Concepts">Basic Circuit Concepts<a class="anchor-link" href="#Basic-Circuit-Concepts">¶</a></h3><ul>
-<li><strong>Electric Circuit:</strong> Elements (batteries, resistors, capacitors) connected by wires.</li>
-<li><strong>Circuit States:</strong><ul>
-<li>Open: No current flow.</li>
-<li>Closed: Current flow.</li>
-<li>Short: Excessive current (hazard).</li>
-</ul>
-</li>
-<li><strong>Voltage Source (V):</strong> Provides potential difference, driving current (I).</li>
-<li><strong>Ground:</strong> Reference potential (e.g., Earth).</li>
-<li><strong>Voltage Drop:</strong> Potential difference across an element.</li>
-<li><strong>Element Connections:</strong> Series or parallel.</li>
-<li><strong>Equivalent Circuits:</strong> Simplification by combining elements.</li>
-</ul>
-<hr/>
-<h3 id="Open-Circuit-Voltage-of-a-DC-Source">Open-Circuit Voltage of a DC Source<a class="anchor-link" href="#Open-Circuit-Voltage-of-a-DC-Source">¶</a></h3><ul>
-<li><strong>Source:</strong> Energy conversion to electrical potential.</li>
-<li><strong>Open-Circuit Voltage (V₀):</strong> Voltage without current flow.</li>
-<li><strong>Internal Resistance (R_int):</strong> Real sources have internal resistance.</li>
-<li><strong>Voltage with Current:</strong>
-$$V = V_0 - IR_{int}$$</li>
-<li><strong>Non-constant R_int:</strong> Leads to non-linear current-voltage characteristics.</li>
-<li><strong>Characterization:</strong> Understanding real-life voltage sources.</li>
-</ul>
-<hr/>
-<h3 id="Measuring-Voltages-and-Currents">Measuring Voltages and Currents<a class="anchor-link" href="#Measuring-Voltages-and-Currents">¶</a></h3><ul>
-<li><strong>Ammeter:</strong> Measures current (series connection).</li>
-<li><strong>Voltmeter:</strong> Measures voltage (parallel connection).</li>
-<li><strong>Ohmmeter:</strong> Measures resistance.</li>
-<li><strong>Multimeter:</strong> Combines ammeter, voltmeter, ohmmeter.</li>
-<li><strong>Internal Resistance:</strong><ul>
-<li>Voltmeter: High (limits current).</li>
-<li>Ammeter: Low (limits voltage drop).</li>
-</ul>
-</li>
-<li><strong>Simultaneous Measurement:</strong> Configuration choice depends on resistor and device internal resistances.</li>
-</ul>
-<hr/>
-<h2 id="2.4.2.-Analysis-Circuits-and-Kirchhoff's-Rules">2.4.2. Analysis Circuits and Kirchhoff's Rules<a class="anchor-link" href="#2.4.2.-Analysis-Circuits-and-Kirchhoff's-Rules">¶</a></h2><h3 id="Resistors-in-Series-&amp;-Parallel">Resistors in Series &amp; Parallel<a class="anchor-link" href="#Resistors-in-Series-&amp;-Parallel">¶</a></h3><ul>
-<li><strong>Series Resistors:</strong><ul>
-<li>Equivalent Resistance:
-$$R_{eq} = \sum R_i$$</li>
-<li>Voltage drops add up.</li>
-</ul>
-</li>
-<li><strong>Parallel Resistors:</strong><ul>
-<li>Equivalent Resistance:
-$$\frac{1}{R_{eq}} = \sum \frac{1}{R_i}$$</li>
-<li>Current splits.</li>
-<li>Net resistance is smaller than the smallest individual resistance.</li>
-</ul>
-</li>
-<li><strong>Physical Interpretation:</strong> Parallel resistors increase effective cross-sectional area.</li>
-</ul>
-<hr/>
-<h3 id="Capacitors-in-Series-&amp;-Parallel">Capacitors in Series &amp; Parallel<a class="anchor-link" href="#Capacitors-in-Series-&amp;-Parallel">¶</a></h3><ul>
-<li><strong>Parallel Capacitors:</strong><ul>
-<li>Equivalent Capacitance:
-$$C_{eq} = \sum C_i$$</li>
-<li>Voltage is the same.</li>
-<li>Total charge adds up.</li>
-</ul>
-</li>
-<li><strong>Series Capacitors:</strong><ul>
-<li>Equivalent Capacitance:
-$$\frac{1}{C_{eq}} = \sum \frac{1}{C_i}$$</li>
-<li>Charge is the same.</li>
-<li>Voltage drops add up.</li>
-<li>Net capacitance is smaller than the smallest individual capacitance.</li>
-</ul>
-</li>
-</ul>
-<hr/>
-<h3 id="Kirchhoff's-Rules">Kirchhoff's Rules<a class="anchor-link" href="#Kirchhoff's-Rules">¶</a></h3><ul>
-<li><strong>Junction Rule (Current Conservation):</strong>
-$$\sum_i I_i = 0 \quad \text{or} \quad \sum_j I_{in,j} = \sum_k I_{out,k}$$</li>
-<li><strong>Loop Rule (Energy Conservation):</strong>
-$$\sum_i V_i = 0$$</li>
-<li><strong>Circuit Analysis Steps:</strong><ol>
-<li>Label currents.</li>
-<li>Identify unknowns.</li>
-<li>Apply junction rule.</li>
-<li>Apply loop rule.</li>
-<li>Solve equations.</li>
-<li>Vector/matrix form possible.</li>
-</ol>
-</li>
-</ul>
-<hr/>
-<h2 id="2.4.3.-The-RC-Circuit">2.4.3. The RC-Circuit<a class="anchor-link" href="#2.4.3.-The-RC-Circuit">¶</a></h2><h3 id="Charging-the-Capacitor">Charging the Capacitor<a class="anchor-link" href="#Charging-the-Capacitor">¶</a></h3><ul>
-<li><strong>RC-Circuit:</strong> Resistor, capacitor, voltage source in series.</li>
-<li><strong>Charging Process:</strong> Time-dependent charge accumulation.</li>
-<li><strong>Kirchhoff's Loop Rule:</strong>
-$$V_0 = IR + \frac{Q}{C}$$</li>
-<li><strong>Differential Equation:</strong>
-$$V_0 = R\frac{dQ}{dt} + \frac{Q}{C}$$</li>
-<li><strong>Solution:</strong>
-$$Q(t) = Q_0(1 - e^{-t/RC})$$
-$$V_C(t) = V_0(1 - e^{-t/RC})$$
-$$I(t) = \frac{V_0}{R}e^{-t/RC}$$</li>
-<li><strong>Time Constant (τ = RC):</strong><ul>
-<li>Time for V_C to reach 63% of V_0.</li>
-<li>Time for I to decay to 37% of initial value.</li>
-<li>Charging is considered complete after 5τ.</li>
-</ul>
-</li>
-</ul>
-<hr/>
-<h3 id="Discharging-the-Capacitor">Discharging the Capacitor<a class="anchor-link" href="#Discharging-the-Capacitor">¶</a></h3><ul>
-<li><strong>Circuit:</strong> Capacitor and resistor in series (no voltage source).</li>
-<li><strong>Kirchhoff's Loop Rule:</strong>
-$$IR = \frac{Q}{C}$$</li>
-<li><strong>Differential Equation:</strong>
-$$-\frac{dQ}{dt}R = \frac{Q}{C}$$</li>
-<li><strong>Solution:</strong>
-$$Q(t) = Q_0e^{-t/RC}$$
-$$V_C(t) = V_0e^{-t/RC}$$
-$$I(t) = I_0e^{-t/RC}$$</li>
-<li><strong>Decaying Voltage and Current:</strong> Exponential decrease over time.</li>
-</ul>
-<hr/>
-<h3 id="Periodically-Switching-On-Off">Periodically Switching On-Off<a class="anchor-link" href="#Periodically-Switching-On-Off">¶</a></h3><ul>
-<li><strong>Sawtooth Voltage:</strong> Created by periodic charging and discharging.</li>
-<li><strong>Practical Implementation:</strong> Voltage source, capacitor, two resistors, and a tube.</li>
-<li><strong>Charging Loop:</strong> Capacitor charges through one resistor.</li>
-<li><strong>Discharging Loop:</strong> Tube conducts at breakdown voltage, discharging capacitor through the other resistor.</li>
-<li><strong>Repeat Cycle:</strong> Sawtooth waveform generated.</li>
-</ul>
-<pre><code></code></pre>
+<p>... dummy ...</p>
 </div>
 </div>
 </div>

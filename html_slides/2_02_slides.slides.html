@@ -7441,10 +7441,47 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="2.2.-Electric-Flux-&amp;-Electric-Potential">2.2. Electric Flux &amp; Electric Potential<a class="anchor-link" href="#2.2.-Electric-Flux-&amp;-Electric-Potential">¶</a></h1><ul>
-<li>Introduction to Gauss's Law and Electric Flux</li>
-<li>Definition of Electric Potential</li>
-<li>Relation between Electric Field and Potential</li>
+<h1 id="2.2.-Electric-Flux-&amp;-Electric-Potential">2.2. Electric Flux &amp; Electric Potential<a class="anchor-link" href="#2.2.-Electric-Flux-&amp;-Electric-Potential">¶</a></h1><p><strong>Why do birds sitting on high voltage power lines not get electrocuted?</strong></p>
+<p><code>es03</code></p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
+<li><p>need to understand:</p>
+<ul>
+<li>concept of electric potential and voltage</li>
+<li>relation to electric potential energy</li>
+<li>deeper understanding of electric fields, i.e. electric flux &amp; Gauss's law</li>
+</ul>
+</li>
+<li><p>start by revisiting electric field experimentally
+<code>es05</code></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Electric-flux-for-uniform-electric-field">Electric flux for uniform electric field<a class="anchor-link" href="#Electric-flux-for-uniform-electric-field">¶</a></h2><p><code>script simulation: rectangle in field</code></p>
+<ul>
+<li>For a uniform electric field, the electric flux is defined as<br/>
+$$\Phi_E = \vec{\bf{E}} \vec{\bf{A}}$$<br/>
+where $\vec{\bf{A}}$ is the vector perpendicular to the surface with magnitude $A$</li>
+<li>Using $\cos\theta$ as the angle between $\vec{\bf{E}}$ and $\vec{\bf{A}}$, the equation can be rewritten as<br/>
+$$\Phi_E = EA\cos\theta = E_\perp A = EA_\perp$$</li>
+<li>The number of field lines $N$ passing through an area perpendicular to the field is proportional to the electric flux<br/>
+$$N \propto E_\perp A = \Phi_E$$</li>
 </ul>
 </div>
 </div>
@@ -7455,111 +7492,243 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<!-- Slide -->
-<h2 id="2.2.1.-Electric-Flux">2.2.1. Electric Flux<a class="anchor-link" href="#2.2.1.-Electric-Flux">¶</a></h2><ul>
-<li>Represents the number of electric field lines passing through a surface</li>
-<li>Mathematically expressed as:
-$$ \Phi_E = \vec{\bf{E}} \cdot \vec{\bf{A}} $$
-where $ \vec{\bf{A}} $ is perpendicular to the surface</li>
+<h2 id="Electric-flux-for-non-uniform-electric-field">Electric flux for non-uniform electric field<a class="anchor-link" href="#Electric-flux-for-non-uniform-electric-field">¶</a></h2><ul>
+<li><p>arbitrary surface can be decomposed into infinitesimal areas $d\vec{\bf{A}}$</p>
+</li>
+<li><p>for each $d\vec{\bf{A}}$, associated field is uniform</p>
+</li>
+<li><p>integral over closed surface gives the <strong>total flux though closed surface</strong>:<br/>
+$$\Phi_E = \oint \vec{\bf{E}}\, d\vec{\bf{A}}$$</p>
+</li>
+<li><p><strong>by conventions</strong></p>
+<ul>
+<li>$d\vec{\bf{A}}$ points outwards from the surface of the enclosed volume</li>
+<li>flux leaving the surface is positive</li>
+<li>flux entering the surface is negative</li>
 </ul>
-<!-- Sub-slide -->
-<h3 id="Alternative-Form">Alternative Form<a class="anchor-link" href="#Alternative-Form">¶</a></h3><ul>
-<li>Using angle $ \theta $ between $ \vec{\bf{E}} $ and $ \vec{\bf{A}} $:
-$$ \Phi_E = E A \cos \theta $$<ul>
-<li>Flux depends on the component of $ \vec{\bf{E}} $ perpendicular to $ \vec{\bf{A}} $</li>
+</li>
+<li><p><strong>consequences on net flux</strong>:</p>
+<ul>
+<li>if $\Phi_E$ is positive, there is a net flux out of the volume</li>
+<li>if $\Phi_E$ is negative, there is a net flux into the volume</li>
+<li>if $\Phi_E = 0$, there is no net flux</li>
 </ul>
 </li>
 </ul>
-<!-- Sub-slide -->
-<h3 id="Integral-Form">Integral Form<a class="anchor-link" href="#Integral-Form">¶</a></h3><ul>
-<li>For arbitrary surfaces:
-$$ \Phi_E = \int \vec{\bf{E}} \cdot d\vec{\bf{A}} $$</li>
-<li>For closed surfaces:
-$$ \Phi_E = \oint \vec{\bf{E}} \cdot d\vec{\bf{A}} $$</li>
-</ul>
-<!-- Sub-slide -->
-<h3 id="Conventions">Conventions<a class="anchor-link" href="#Conventions">¶</a></h3><ul>
-<li>$ d\vec{\bf{A}} $ points outward</li>
-<li>Flux leaving surface: <strong>Positive</strong></li>
-<li>Flux entering surface: <strong>Negative</strong></li>
-<li>If $ \Phi_E = 0 $, no net flux</li>
-</ul>
-<!-- Slide -->
-<h2 id="2.2.2.-Gauss's-Law">2.2.2. Gauss's Law<a class="anchor-link" href="#2.2.2.-Gauss's-Law">¶</a></h2><ul>
-<li>Relates electric flux to charge enclosed:
-$$ \oint \vec{\bf{E}} \cdot d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0} $$</li>
-<li>Independent of:<ul>
-<li>Charge distribution inside the surface</li>
-<li>External charges</li>
-</ul>
-</li>
-</ul>
-<!-- Sub-slide -->
-<h3 id="Thought-Experiment-(Relation-to-Coulomb's-Law)">Thought Experiment (Relation to Coulomb's Law)<a class="anchor-link" href="#Thought-Experiment-(Relation-to-Coulomb's-Law)">¶</a></h3><ul>
-<li>Consider a spherical surface enclosing a point charge:
-$$ E \cdot 4\pi r^2 = \frac{Q_{enc}}{\epsilon_0} $$
-$$ E = \frac{1}{4\pi\epsilon_0} \frac{Q}{r^2} $$</li>
-</ul>
-<!-- Sub-slide -->
-<h3 id="Superposition-&amp;-Gauss%E2%80%99s-Law">Superposition &amp; Gauss’s Law<a class="anchor-link" href="#Superposition-&amp;-Gauss%E2%80%99s-Law">¶</a></h3><ul>
-<li>Applies to multiple charges:
-$$ \oint \vec{\bf{E}} \cdot d\vec{\bf{A}} = \sum_i \frac{Q_i}{\epsilon_0} $$</li>
-</ul>
-<!-- Sub-slide -->
-<h3 id="Applications">Applications<a class="anchor-link" href="#Applications">¶</a></h3><ol>
-<li><strong>Point Charge:</strong>
-$$ E = \frac{1}{4\pi\epsilon_0} \frac{Q}{r^2} $$</li>
-<li><strong>Charged Conducting Sphere:</strong><ul>
-<li>Outside: $ E = \frac{1}{4\pi\epsilon_0} \frac{Q}{r^2} $</li>
-<li>Inside: $ E = 0 $</li>
-</ul>
-</li>
-<li><strong>Infinite Plane of Charge:</strong>
-$$ E = \frac{\sigma}{2\epsilon_0} $$</li>
-<li><strong>Parallel Plates:</strong>
-$$ E = \frac{\sigma}{\epsilon_0} $$</li>
-</ol>
-<!-- Slide -->
-<h2 id="2.2.3.-Electric-Potential">2.2.3. Electric Potential<a class="anchor-link" href="#2.2.3.-Electric-Potential">¶</a></h2><ul>
-<li>Electric potential energy for conservative forces:
-$$ W = qEd \Rightarrow \Delta U = -W $$</li>
-<li>Electric potential at a point:
-$$ V_A = \frac{U_A}{q} $$</li>
-</ul>
-<!-- Sub-slide -->
-<h3 id="Voltage:-Potential-Difference">Voltage: Potential Difference<a class="anchor-link" href="#Voltage:-Potential-Difference">¶</a></h3><ul>
-<li>Difference between two points:
-$$ V_{BA} = V_B - V_A = \frac{U_B - U_A}{q} = -\frac{W_{BA}}{q} $$</li>
-<li>Work per unit charge</li>
-</ul>
-<!-- Slide -->
-<h2 id="2.2.4.-Relation-Between-Electric-Field-&amp;-Potential">2.2.4. Relation Between Electric Field &amp; Potential<a class="anchor-link" href="#2.2.4.-Relation-Between-Electric-Field-&amp;-Potential">¶</a></h2><ul>
-<li><strong>Integral Form:</strong>
-$$ V_{BA} = -\int_A^B \vec{\bf{E}} \cdot d\vec{\bf{l}} $$</li>
-<li><strong>Uniform Field:</strong>
-$$ V_{BA} = -Ed $$</li>
-<li><strong>Point Charge:</strong>
-$$ V = \frac{1}{4\pi\epsilon_0} \frac{Q}{r} $$</li>
-</ul>
-<!-- Sub-slide -->
-<h3 id="Superposition-Principle-for-Potential">Superposition Principle for Potential<a class="anchor-link" href="#Superposition-Principle-for-Potential">¶</a></h3><ul>
-<li>Total potential:
-$$ V = \frac{1}{4\pi\epsilon_0} \int \frac{dq}{r} $$</li>
-</ul>
+<p><code>script simulation circle in field</code></p>
 </div>
 </div>
 </div>
-</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Electric-Dipoles">Electric Dipoles<a class="anchor-link" href="#Electric-Dipoles">¶</a></h2><ul>
-<li>Two equal and opposite charges ($+Q$ and $-Q$) separated by distance $l$.</li>
-<li>Dipole <strong>moment</strong>:
-$$ \vec{p} = Q \vec{l} $$</li>
+<h2 id="Gauss's-law">Gauss's law<a class="anchor-link" href="#Gauss's-law">¶</a></h2><ul>
+<li>named after Karl Friedrich Gauss (1777-1855)</li>
+<li><strong>Gauss's law</strong>: <strong>Electric flux through a closed surface is equal to the net enclosed charge divided by the permittivity of free space</strong>:<br/>
+$$\Phi_E = \oint \vec{\bf{E}}\, d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0}$$</li>
+<li>flux through surface is <strong>independent</strong> of:<ul>
+<li>distribution of the enclosed charge within the volume</li>
+<li>charges outside the surface that may affect the position but not the number of field lines</li>
 </ul>
+</li>
+<li><strong>principle of superposition applicable</strong>:
+$$\oint \vec{\bf{E}}\, d\vec{\bf{A}} = \oint \left(\sum_i \vec{\bf{E}}_i\right) d\vec{\bf{A}} = \sum_i \frac{Q_i}{\epsilon_0} = \frac{Q_{enc}}{\epsilon_0}$$</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Examples-for-Gauss's-law">Examples for Gauss's law<a class="anchor-link" href="#Examples-for-Gauss's-law">¶</a></h2><p>$$\Phi_E = \oint \vec{\bf{E}}\, d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0} &gt; 0 $$</p>
+<p><img alt="Electric-flux-surface-example" src="../img/from_wiki/Electric-flux-surface-example.svg.png" width="500"/></p>
+<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Electric-flux-surface-example.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC 4.0 International license</a>, unedited</sub></em></p>
+<hr/>
+<p>$$\Phi_E = \oint \vec{\bf{E}}\, d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0} = 0 $$</p>
+<p><img alt="Electric-flux-no-charge-inside" src="../img/from_wiki/Electric-flux-no-charge-inside.svg.png" width="500"/></p>
+<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Electric-flux-no-charge-inside.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC 3.0 Unported license</a>, unedited</sub></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Gauss's-law:-Relation-to-Coulomb's-law">Gauss's law: Relation to Coulomb's law<a class="anchor-link" href="#Gauss's-law:-Relation-to-Coulomb's-law">¶</a></h2><p><code>thought experiment</code></p>
+<ul>
+<li>consider a spherical surface (radius $r$) with a single enclosed charge $Q_{enc}$ at the center</li>
+<li>the $\vec{\bf{E}}$ field is oriented radially with the same magnitude everywhere on the surface</li>
+<li>field lines penetrate the spherical surface perpendicular to $d\vec{\bf{A}}$</li>
+<li>surface area of the sphere is $\oint dA = 4\pi r^2$</li>
+<li>This leads to Coulomb's law in electric field form:<br/>
+$$ \frac{Q_{enc}}{\epsilon_0} = \oint \vec{\bf{E}} d\vec{\bf{A}} = E \oint dA = 4 \pi r^2 E $$
+$$E = \frac{1}{4\pi\epsilon_0}\frac{Q}{r^2} \quad \textrm{with} \quad Q_{enc} = Q$$</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Complementary-nature-of-Coulomb's-and-Gauss's-law">Complementary nature of Coulomb's and Gauss's law<a class="anchor-link" href="#Complementary-nature-of-Coulomb's-and-Gauss's-law">¶</a></h2><table>
+<thead>
+<tr>
+<th></th>
+<th>Coulomb's Law</th>
+<th>Gauss's Law</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Equation</strong></td>
+<td>$ E= \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2} \leftrightarrow F= \frac{1}{4 \pi \epsilon_0} \frac{Q_1 Q_2}{r^2} $</td>
+<td>$\oint \vec{\bf{E}}\, d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0}$</td>
+</tr>
+<tr>
+<td><strong>Focus</strong></td>
+<td>Field/force &amp; (point) charges</td>
+<td>Flux through surface &amp; enclosed net charge</td>
+</tr>
+<tr>
+<td><strong>Applicability</strong></td>
+<td>Point charges, any distribution (complex)</td>
+<td>Mostly used for symmetrical distributions, although applicable to any case</td>
+</tr>
+<tr>
+<td><strong>Relevant Charge Sources</strong></td>
+<td>All charges present contribute</td>
+<td>Only enclosed charges contribute to flux calculation</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Electric-potential-energy">Electric potential energy<a class="anchor-link" href="#Electric-potential-energy">¶</a></h2><ul>
+<li>concept of <strong>conservation of energy</strong> in electricity is analogous to mechanics</li>
+<li><strong>electric potential energy is defined for conservative forces</strong>, e.g. the electrostatic force $\vec{\bf{F}}= \vec{\bf{E}}d$ (conservative force $\rightarrow$ path independence)</li>
+<li><strong>in uniform electric field</strong>, the <strong>work</strong> to move a test charge $q$ over a distance $d$ is:<br/>
+$$W = Fd = qEd$$</li>
+<li>change in <strong>potential energy</strong> $\Delta U$ from point $A$ to $B$ is:
+$$\Delta U = U_B = -W$$</li>
+<li>note the similarity to mechanics, i.e. $m g h$, but as we have two types of charge:<ul>
+<li>$\rightarrow$ <strong>the closer a charge is to a charge of the same polarity, the higher the electrostatic force, thus, the higher the electric potential energy</strong></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Voltage:-The-difference-in-electric-potential">Voltage: The difference in electric potential<a class="anchor-link" href="#Voltage:-The-difference-in-electric-potential">¶</a></h2><ul>
+<li><strong>electric potential</strong> $V$ is defined as the electric potential energy per unit charge<br/>
+$$V = \frac{U}{q}$$</li>
+<li><strong>voltage is the difference in potential</strong> between points $A$ and $B$:<br/>
+$$V_{BA} = V_B - V_A \quad \textrm{in [J/C] = [V]} $$</li>
+<li>acknowledging Alessandro Volta, the unit is called <strong>volt</strong> [V]</li>
+<li><strong>reference point</strong> (typically ground or infinity) is chosen where $V = 0$</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Putting-it-all-together">Putting it all together<a class="anchor-link" href="#Putting-it-all-together">¶</a></h2><ul>
+<li><strong>electric potential</strong> is defined at a <strong>single point</strong> in space</li>
+<li>only potential <strong>differences</strong>, i.e. voltage, are <strong>measurable</strong></li>
+<li><strong>reference point</strong> with zero potential is <strong>defined arbitrarily</strong></li>
+<li>combining the definitions gives<br/>
+$$V_{BA} = V_B - V_A = \frac{U_B}{q} - \frac{U_A}{q} = \frac{\Delta U_{BA}}{q} = -\frac{W_{BA}}{q}$$</li>
+<li><strong>work</strong> performed on a charge is given by<br/>
+$$W_{BA} = F d= -qV_{BA}$$</li>
+<li>$\rightarrow$ <strong>voltage is a measure of the work a charge can perform</strong></li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="The-electron-volt">The electron volt<a class="anchor-link" href="#The-electron-volt">¶</a></h2><ul>
+<li>electron volt (eV) is the energy gained by an electron when moving through a potential difference of 1 V<br/>
+$$1\,\textrm{eV} \approx 1.60\times 10^{-19}\,\text{J}$$</li>
+<li>handy when dealing with small energies, i.e. charged particles</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Relating-electric-potential-&amp;-electric-field">Relating electric potential &amp; electric field<a class="anchor-link" href="#Relating-electric-potential-&amp;-electric-field">¶</a></h2><ul>
+<li>analogously to mechanics, change in potential energy $\Delta U_{BA}$ from $A$ to be $B$ along the path $\vec{\bf{l}}$ is defined as:
+$$ \Delta U_{BA} = - \int_A^B \vec{\bf{F}} d\vec{\bf{l}}$$</li>
+<li>we know $V = \frac{U}{q}$ and $\vec{\bf{E}} = \frac{\vec{\bf{F}}}{q} \leftrightarrow \vec{\bf{F}} = \vec{\bf{E}} q$, therefore:
+$$ V_{BA} = -\frac{1}{q} q \int_A^B \vec{\bf{E}} d\vec{\bf{l}} $$
+$$ V_{BA} = - \int_A^B \vec{\bf{E}} d\vec{\bf{l}}$$</li>
+<li>in <strong>uniform electric field</strong>, the integral simplifies to<br/>
+$$V_{BA} = -Ed \quad \textrm{with distance} \, d$$</li>
+<li>for an infinitesimal change, the relation is<br/>
+$$dV = -\vec{\bf{E}}\, d\vec{\bf{l}}$$</li>
+<li>therefore, electric field is the gradient of the electric potential:
+$$\vec{\bf{E}} = -\textrm{grad}V = -\nabla V$$</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Equipotential-lines-&amp;-surfaces">Equipotential lines &amp; surfaces<a class="anchor-link" href="#Equipotential-lines-&amp;-surfaces">¶</a></h2><p><code>script simulation: equipotential</code></p>
+<ul>
+<li>equipotential lines (2D) and surfaces (3D) represent regions where the <strong>electric potential is constant</strong></li>
+<li><strong>moving perpendicular</strong> to the electric field ($\vec{\bf{E}}_\perp d\vec{\bf{l}}$) does not change the potential</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Unconventional-ways-to-make-light">Unconventional ways to make light<a class="anchor-link" href="#Unconventional-ways-to-make-light">¶</a></h2><p><code>es31</code></p>
 </div>
 </div>
 </div>

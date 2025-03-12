@@ -1,0 +1,10 @@
+.reveal table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.reveal table th,
+.reveal table td {
+    overflow-wrap: break-word;
+    padding: 5px;
+}

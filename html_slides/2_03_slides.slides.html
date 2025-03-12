@@ -7441,129 +7441,108 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="2.3.-TBA">2.3. TBA<a class="anchor-link" href="#2.3.-TBA">¶</a></h1><p><strong>What comes to your mind when you hear electricity?</strong></p>
+<h1 id="2.3.-Capacitance,-resistance-&amp;-current">2.3. Capacitance, resistance &amp; current<a class="anchor-link" href="#2.3.-Capacitance,-resistance-&amp;-current">¶</a></h1><p><strong>How can we store electric energy?</strong></p>
 </div>
 </div>
 </div>
-</div></section></section><section><section>
+</div><div class="fragment">
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Capacitance,-Resistance-&amp;-Current">Capacitance, Resistance &amp; Current<a class="anchor-link" href="#Capacitance,-Resistance-&amp;-Current">¶</a></h1><h2 id="Overview">Overview<a class="anchor-link" href="#Overview">¶</a></h2><p>In this chapter, we transition from static electricity to electrical current, introducing key circuit components: capacitors, batteries, and resistors. We also cover physical concepts such as dielectrics, electric energy, electric power, and Ohm's law.</p>
-<hr/>
-<h2 id="Capacitors-&amp;-Dielectrics">Capacitors &amp; Dielectrics<a class="anchor-link" href="#Capacitors-&amp;-Dielectrics">¶</a></h2><h3 id="What-is-a-Capacitor?">What is a Capacitor?<a class="anchor-link" href="#What-is-a-Capacitor?">¶</a></h3><ul>
-<li>A capacitor stores electric charge.</li>
-<li>It consists of two conductive plates separated by an insulating material.</li>
-<li>The charge ( Q ) and voltage ( V ) across the capacitor are related by:
-$$ Q = C V $$
-where ( C ) is the capacitance, a measure of the capacitor's ability to store charge.</li>
+<ul>
+<li>using circuit elements such as:<ul>
+<li>capacitors (separated charges)</li>
+<li>electric batteries (electrochemical voltage source)</li>
 </ul>
-<hr/>
-<h3 id="Capacitance-of-Different-Geometries">Capacitance of Different Geometries<a class="anchor-link" href="#Capacitance-of-Different-Geometries">¶</a></h3><h4 id="Parallel-Plate-Capacitor">Parallel-Plate Capacitor<a class="anchor-link" href="#Parallel-Plate-Capacitor">¶</a></h4><ul>
-<li>Two plates of area ( A ), separated by distance ( d ).</li>
-<li>The capacitance is:
-$$ C = \frac{\epsilon_0 A}{d} $$
-where ( \epsilon_0 ) is the permittivity of free space.</li>
+</li>
+<li>transition from <strong>static electricity to flow of charges</strong></li>
+<li>associated physical concepts: dielectrics, electric power, current, resistance, &amp; ohm's law</li>
+<li><strong>disclaimer</strong>: simplify notation for voltage to $V = V_{BA} = V_B - V_A$</li>
 </ul>
-<h4 id="Single-Isolated-Conductor">Single Isolated Conductor<a class="anchor-link" href="#Single-Isolated-Conductor">¶</a></h4><ul>
-<li>Defining potential at infinity as zero:
-$$ C = 4\pi \epsilon_0 r_B $$</li>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Capacitors-&amp;-dielectrics">Capacitors &amp; dielectrics<a class="anchor-link" href="#Capacitors-&amp;-dielectrics">¶</a></h2><h3 id="Basic-principle">Basic principle<a class="anchor-link" href="#Basic-principle">¶</a></h3><ul>
+<li>two plates with opposite charge produce an electric field and voltage</li>
+<li>capacitor stores electric charge and energy</li>
 </ul>
-<h4 id="Coaxial-Cylindrical-Capacitor">Coaxial Cylindrical Capacitor<a class="anchor-link" href="#Coaxial-Cylindrical-Capacitor">¶</a></h4><ul>
-<li>Inner radius ( r_I ), outer radius ( r_O ), length ( l ):
-$$ C = \frac{2\pi \epsilon_0 l}{\ln(r_O/r_I)} $$</li>
+<h3 id="Equation-and-geometry">Equation and geometry<a class="anchor-link" href="#Equation-and-geometry">¶</a></h3><ul>
+<li>fundamental relation: $Q = C V$</li>
+<li>simple configuration: two parallel plates of area $A$ separated by distance $d$</li>
+<li>connecting a battery charges the plates with equal magnitude but opposite sign</li>
 </ul>
-<h4 id="Spherical-Capacitor">Spherical Capacitor<a class="anchor-link" href="#Spherical-Capacitor">¶</a></h4><ul>
-<li>Inner radius ( r_I ), outer radius ( r_O ):
-$$ C = \frac{4\pi \epsilon_0 r_I r_O}{r_O - r_I} $$</li>
+<h3 id="Determining-capacitance-analytically">Determining capacitance analytically<a class="anchor-link" href="#Determining-capacitance-analytically">¶</a></h3><ul>
+<li>start from $Q = C V$ and derive $C = \frac{Q}{V}$</li>
+<li>for parallel plates, the electric field is $$E = \frac{Q}{\epsilon_0 A}$$</li>
+<li>the voltage is $$V = E d = \frac{Q d}{\epsilon_0 A}$$ leading to
+$$C = \frac{\epsilon_0 A}{d}$$</li>
+<li>other configurations:<ul>
+<li>single isolated conductor: $$C = 4 \pi \epsilon_0 r$$</li>
+<li>coaxial cylindrical capacitor: $$C = \frac{2 \pi \epsilon_0 l}{\ln(r_O/r_I)}$$</li>
+<li>spherical capacitor: $$C = \frac{4 \pi \epsilon_0 r_I r_O}{r_O - r_I}$$</li>
 </ul>
-<hr/>
-<h3 id="Energy-Stored-in-a-Capacitor">Energy Stored in a Capacitor<a class="anchor-link" href="#Energy-Stored-in-a-Capacitor">¶</a></h3><ul>
-<li>Work required to charge the capacitor:
-$$ W = \frac{1}{2} Q V $$</li>
-<li>Using ( Q = CV ), the stored energy is:
-$$ U = \frac{1}{2} C V^2 $$</li>
+</li>
 </ul>
-<hr/>
+<h3 id="Storing-electric-energy">Storing electric energy<a class="anchor-link" href="#Storing-electric-energy">¶</a></h3><ul>
+<li>work to charge a capacitor: $dW = V\,dq$</li>
+<li>integrating yields
+$$W = \frac{1}{2}\frac{Q^2}{C} = \frac{1}{2} C V^2 = \frac{1}{2} Q V$$</li>
+</ul>
 <h3 id="Dielectrics">Dielectrics<a class="anchor-link" href="#Dielectrics">¶</a></h3><ul>
-<li>A dielectric increases capacitance by a factor ( K ) (dielectric constant):
-$$ C = K C_0 $$
-where ( C_0 ) is the capacitance in a vacuum.</li>
-<li>Permittivity of a material:
-$$ \epsilon = K \epsilon_0 $$</li>
-<li>Capacitance for a parallel-plate capacitor with a dielectric:
-$$ C = \frac{\epsilon A}{d} $$</li>
+<li>inserting an insulating material increases the breakdown voltage and allows smaller gaps</li>
+<li>dielectric increases capacitance by a factor $K$: $$C = K\,C_0$$</li>
+<li>material permittivity is defined as $$\epsilon = K\,\epsilon_0$$</li>
+<li>for a parallel-plate capacitor with a dielectric: $$C = \frac{\epsilon A}{d}$$</li>
 </ul>
 <hr/>
-<h2 id="Electric-Current,-Resistance-&amp;-Ohm's-Law">Electric Current, Resistance &amp; Ohm's Law<a class="anchor-link" href="#Electric-Current,-Resistance-&amp;-Ohm's-Law">¶</a></h2><h3 id="Electric-Current">Electric Current<a class="anchor-link" href="#Electric-Current">¶</a></h3><ul>
-<li>Movement of charge due to an electric field.</li>
-<li>Defined as charge flow per unit time:
-$$ I = \frac{dQ}{dt} $$</li>
-<li>Measured in amperes (A), where ( 1 A = 1 C/s ).</li>
+<h2 id="Start-moving:-electric-current,-resistance-&amp;-ohm's-law">Start moving: electric current, resistance &amp; ohm's law<a class="anchor-link" href="#Start-moving:-electric-current,-resistance-&amp;-ohm's-law">¶</a></h2><h3 id="Electric-battery">Electric battery<a class="anchor-link" href="#Electric-battery">¶</a></h3><ul>
+<li>battery provides a voltage that drives current in a circuit</li>
+<li>historical insight: galvani discovered animal electricity and volta developed the first battery</li>
+<li>simple battery: a zinc electrode and a carbon electrode in sulfuric acid create a voltage by separating charges</li>
+<li>terminals: negative electrode (cathode) and positive electrode (anode)</li>
 </ul>
-<hr/>
-<h3 id="Electric-Battery">Electric Battery<a class="anchor-link" href="#Electric-Battery">¶</a></h3><ul>
-<li>Provides a constant potential difference.</li>
-<li>Works by separating charges through chemical reactions.</li>
-<li>Consists of electrodes (anode and cathode) and an electrolyte.</li>
+<h3 id="Electric-current">Electric current<a class="anchor-link" href="#Electric-current">¶</a></h3><ul>
+<li>average current defined as $$\bar{I} = \frac{\Delta Q}{\Delta t}$$</li>
+<li>instantaneous current defined as $$I = \frac{dQ}{dt}$$</li>
+<li>conservation of charge: current is constant throughout a continuous conductor</li>
+<li>conventional current flows from positive to negative, while electrons move from negative to positive</li>
 </ul>
-<hr/>
-<h3 id="Ohm's-Law-&amp;-Resistance">Ohm's Law &amp; Resistance<a class="anchor-link" href="#Ohm's-Law-&amp;-Resistance">¶</a></h3><ul>
-<li>Relationship between voltage, current, and resistance:
-$$ V = I R $$</li>
-<li>Resistance (( R )) measures how much a material opposes the flow of current.</li>
-<li>Unit: ohm (( \Omega )), where ( 1 \Omega = 1 V/A ).</li>
+<h3 id="Ohm's-law-&amp;-resistors">Ohm's law &amp; resistors<a class="anchor-link" href="#Ohm's-law-&amp;-resistors">¶</a></h3><ul>
+<li>ohm's law relates voltage, current, and resistance: $$V = I\,R \quad \leftrightarrow \quad I = \frac{V}{R}$$</li>
+<li>resistance quantifies the hindrance of electron flow</li>
+<li>ohmic resistors have a constant $R$, while non-ohmic resistors change with conditions such as temperature</li>
+<li>unit of resistance: ohm ($\Omega = \frac{V}{A}$)</li>
 </ul>
-<hr/>
-<h3 id="Factors-Affecting-Resistance">Factors Affecting Resistance<a class="anchor-link" href="#Factors-Affecting-Resistance">¶</a></h3><h4 id="Resistivity">Resistivity<a class="anchor-link" href="#Resistivity">¶</a></h4><ul>
-<li>Resistance depends on material and geometry:
-$$ R = \rho \frac{l}{A} $$
-where:<ul>
-<li>( \rho ) is resistivity (( \Omega \cdot m ))</li>
-<li>( l ) is length</li>
-<li>( A ) is cross-sectional area</li>
+<h3 id="Resistivity-&amp;-conductivity">Resistivity &amp; conductivity<a class="anchor-link" href="#Resistivity-&amp;-conductivity">¶</a></h3><ul>
+<li>resistance in a uniform wire: $$R = \rho\,\frac{l}{A}$$</li>
+<li>resistivity $\rho$ is a material property and conductivity is $$\sigma = \frac{1}{\rho}$$</li>
+<li>temperature dependence of resistivity can be approximated as
+$$\rho(T) = \rho_0\left(1 + \alpha\,(T - T_0)\right)$$</li>
+</ul>
+<h3 id="Electric-power">Electric power<a class="anchor-link" href="#Electric-power">¶</a></h3><ul>
+<li>electric power is the energy per unit time: $$P = \frac{dU}{dt}$$</li>
+<li>for a circuit, power can be expressed as $$P = V\,I$$</li>
+<li>using ohm's law, alternative forms are $$P = I^2\,R$$ or $$P = \frac{V^2}{R}$$</li>
+<li>unit of power: watt ($1\,\text{W} = 1\,\text{J/s}$)</li>
+</ul>
+<h3 id="Current-density-&amp;-drift-speed">Current density &amp; drift speed<a class="anchor-link" href="#Current-density-&amp;-drift-speed">¶</a></h3><ul>
+<li>current density is the current per unit cross-sectional area: $$\vec{\bf{j}} = \frac{I}{A}$$</li>
+<li>for non-uniform current, $$I = \int \vec{\bf{j}} \cdot d\vec{\bf{A}}$$</li>
+<li>microscopic perspective: electrons move with an average drift speed $v_d$</li>
+<li>relating drift speed to current:<ul>
+<li>$I = -e\,n\,A\,v_d$ where $n$ is the free electron density</li>
+<li>current density becomes $$\vec{\bf{j}} = -e\,n\,v_d$$</li>
 </ul>
 </li>
-</ul>
-<h4 id="Temperature-Dependence">Temperature Dependence<a class="anchor-link" href="#Temperature-Dependence">¶</a></h4><ul>
-<li>For small temperature changes:
-$$ \rho(T) = \rho_0 (1 + \alpha (T - T_0)) $$
-where ( \alpha ) is the temperature coefficient of resistivity.</li>
-</ul>
-<hr/>
-<h3 id="Electric-Power">Electric Power<a class="anchor-link" href="#Electric-Power">¶</a></h3><ul>
-<li>Power delivered in an electric circuit:
-$$ P = VI $$</li>
-<li>Using Ohm’s law:
-$$ P = I^2 R = \frac{V^2}{R} $$</li>
-<li>Unit: watt (W), where ( 1 W = 1 J/s ).</li>
-</ul>
-<hr/>
-<h3 id="Current-Density-&amp;-Drift-Speed">Current Density &amp; Drift Speed<a class="anchor-link" href="#Current-Density-&amp;-Drift-Speed">¶</a></h3><h4 id="Current-Density">Current Density<a class="anchor-link" href="#Current-Density">¶</a></h4><ul>
-<li>Defined as current per unit cross-sectional area:
-$$ j = \frac{I}{A} $$</li>
-</ul>
-<h4 id="Drift-Speed">Drift Speed<a class="anchor-link" href="#Drift-Speed">¶</a></h4><ul>
-<li>The average speed of charge carriers:
-$$ I = n A v_d e $$
-where:<ul>
-<li>( n ) = charge carrier density</li>
-<li>( e ) = elementary charge</li>
-<li>( v_d ) = drift speed</li>
-</ul>
-</li>
-</ul>
-<hr/>
-<h2 id="Summary">Summary<a class="anchor-link" href="#Summary">¶</a></h2><ul>
-<li>Capacitors store charge and energy.</li>
-<li>The capacitance depends on geometry and dielectric material.</li>
-<li>Electric current flows due to a potential difference.</li>
-<li>Ohm’s law relates current, voltage, and resistance.</li>
-<li>Resistance depends on material properties and temperature.</li>
-<li>Electric power describes energy transfer in circuits.</li>
-<li>Current density and drift speed provide microscopic insights into charge flow.</li>
+<li>microscopic ohm's law relates electric field and current density: $$\vec{\bf{E}} = \rho\,\vec{\bf{j}}$$</li>
 </ul>
 </div>
 </div>

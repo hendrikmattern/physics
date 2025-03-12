@@ -1,5 +1,4 @@
 import os
-import shutil
 
 
 def convert_notebook_to_slides(input_path, output_path):
@@ -9,15 +8,12 @@ def convert_notebook_to_slides(input_path, output_path):
         output_file = os.path.join(output_path, notebook.replace(".ipynb", ".slides.html"))
         command = (
             f"jupyter nbconvert {input_file} --to slides --post serve --no-input --no-prompt "
-            f"--SlidesExporter.reveal_number='c/t' --SlidesExporter.reveal_scroll=True"
+            f"--SlidesExporter.reveal_number='c/t' --SlidesExporter.reveal_scroll=True "
+            #f"--SlidesExporter.reveal_height=800 --SlidesExporter.reveal_width=800 "
+            f"--output-dir {output_path}"
         )
-        os.system(command)
-        # copy the output file to the output directory
-        shutil.copyfile(input_file.replace(".ipynb", ".slides.html"), output_file)
-        # remove the original output file
-        os.remove(input_file.replace(".ipynb", ".slides.html"))        
-        # print the output file path
-        print("Conversion complete. HTML slides saved in", output_file)
+        os.system(command)       
+        print("-------------> Conversion complete. HTML slides saved in", output_file)
 
 
 # Define input and output directories

@@ -5,7 +5,7 @@
 <meta content="chrome=1" http-equiv="X-UA-Compatible"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
-<title>2_04_slides slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
+<title>2_07_slides slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
   import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
@@ -7441,7 +7441,7 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="2.4.-DC-Circuits-&amp;-Kirchhoff's-Laws">2.4. DC Circuits &amp; Kirchhoff's Laws<a class="anchor-link" href="#2.4.-DC-Circuits-&amp;-Kirchhoff's-Laws">¶</a></h1><p><strong>Imagine you're designing a camera flash. What components would you need to quickly store and release a large amount of electrical energy, and how would you control the timing?</strong></p>
+<h1 id="2.7.-TITLE">2.7. TITLE<a class="anchor-link" href="#2.7.-TITLE">¶</a></h1><p><strong>TEASER?</strong></p>
 </div>
 </div>
 </div>
@@ -7452,13 +7452,7 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>need to design a circuit with at least<ul>
-<li>capacitor</li>
-<li>resistor</li>
-<li>voltage source</li>
-<li>switch</li>
-</ul>
-</li>
+<li>ANSWER FRAGMENT</li>
 </ul>
 </div>
 </div>
@@ -7469,135 +7463,142 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="2.4.1-Circuits-101">2.4.1 Circuits 101<a class="anchor-link" href="#2.4.1-Circuits-101">¶</a></h2><h3 id="Basic-Circuit-Concepts">Basic Circuit Concepts<a class="anchor-link" href="#Basic-Circuit-Concepts">¶</a></h3><ul>
-<li><strong>Electric Circuit:</strong> Elements (batteries, resistors, capacitors) connected by wires.</li>
-<li><strong>Circuit States:</strong><ul>
-<li>Open: No current flow.</li>
-<li>Closed: Current flow.</li>
-<li>Short: Excessive current (hazard).</li>
-</ul>
-</li>
-<li><strong>Voltage Source (V):</strong> Provides potential difference, driving current (I).</li>
-<li><strong>Ground:</strong> Reference potential (e.g., Earth).</li>
-<li><strong>Voltage Drop:</strong> Potential difference across an element.</li>
-<li><strong>Element Connections:</strong> Series or parallel.</li>
-<li><strong>Equivalent Circuits:</strong> Simplification by combining elements.</li>
+<h2 id="Ac-circuits-&amp;-electromagnetic-oscillations">Ac circuits &amp; electromagnetic oscillations<a class="anchor-link" href="#Ac-circuits-&amp;-electromagnetic-oscillations">¶</a></h2><ul>
+<li>in this chapter we combine resistance, capacity and inductance in ac circuits</li>
+<li>focus on electromagnetic oscillations and the exchange of energy between electric and magnetic fields</li>
 </ul>
 <hr/>
-<h3 id="Open-Circuit-Voltage-of-a-DC-Source">Open-Circuit Voltage of a DC Source<a class="anchor-link" href="#Open-Circuit-Voltage-of-a-DC-Source">¶</a></h3><ul>
-<li><strong>Source:</strong> Energy conversion to electrical potential.</li>
-<li><strong>Open-Circuit Voltage (V₀):</strong> Voltage without current flow.</li>
-<li><strong>Internal Resistance (R_int):</strong> Real sources have internal resistance.</li>
-<li><strong>Voltage with Current:</strong>
-$$V = V_0 - IR_{int}$$</li>
-<li><strong>Non-constant R_int:</strong> Leads to non-linear current-voltage characteristics.</li>
-<li><strong>Characterization:</strong> Understanding real-life voltage sources.</li>
+<h2 id="The-lr-circuit">The lr-circuit<a class="anchor-link" href="#The-lr-circuit">¶</a></h2><h3 id="Switching-on-the-dc-supply">Switching on the dc supply<a class="anchor-link" href="#Switching-on-the-dc-supply">¶</a></h3><ul>
+<li>consider a simple dc circuit with an ideal voltage source $V_0$, a resistor $R$ and an inductor $L$ in series</li>
+<li>applying kirchhoff's loop rule gives<br/>
+$$V_0 = L\frac{dI}{dt} + IR$$</li>
+<li>solving the differential equation yields<br/>
+$$I(t)=\frac{V_0}{R}\Bigl(1-e^{-t/\tau}\Bigr)$$<br/>
+with the time constant<br/>
+$$\tau=\frac{L}{R}$$</li>
+<li>after about $5\tau$ the current nearly reaches its steady state value</li>
+</ul>
+<h3 id="Switching-off-the-dc-supply">Switching off the dc supply<a class="anchor-link" href="#Switching-off-the-dc-supply">¶</a></h3><ul>
+<li>when the dc supply is switched off ($V_0=0$) the inductor resists the change in current</li>
+<li>kirchhoff's loop rule becomes<br/>
+$$L\frac{dI}{dt}+IR=0$$</li>
+<li>the solution for the decaying current is<br/>
+$$I(t)=I_0e^{-t/\tau}$$<br/>
+with $$\tau=\frac{L}{R}$$</li>
 </ul>
 <hr/>
-<h3 id="Measuring-Voltages-and-Currents">Measuring Voltages and Currents<a class="anchor-link" href="#Measuring-Voltages-and-Currents">¶</a></h3><ul>
-<li><strong>Ammeter:</strong> Measures current (series connection).</li>
-<li><strong>Voltmeter:</strong> Measures voltage (parallel connection).</li>
-<li><strong>Ohmmeter:</strong> Measures resistance.</li>
-<li><strong>Multimeter:</strong> Combines ammeter, voltmeter, ohmmeter.</li>
-<li><strong>Internal Resistance:</strong><ul>
-<li>Voltmeter: High (limits current).</li>
-<li>Ammeter: Low (limits voltage drop).</li>
+<h2 id="Electromagnetic-oscillations">Electromagnetic oscillations<a class="anchor-link" href="#Electromagnetic-oscillations">¶</a></h2><h3 id="Lc-circuit">Lc-circuit<a class="anchor-link" href="#Lc-circuit">¶</a></h3><ul>
+<li>the lc-circuit consists only of an inductor and a capacitor in series</li>
+<li>initially the capacitor is charged to $Q_0$, with voltage<br/>
+$$V=\frac{Q}{C}$$</li>
+<li>applying kirchhoff's rule leads to<br/>
+$$-L\frac{dI}{dt}+\frac{Q}{C}=0$$<br/>
+and using $I=-\frac{dQ}{dt}$, we obtain the differential equation<br/>
+$$\frac{d^2Q}{dt^2}+\frac{1}{LC}Q=0$$</li>
+<li>its general solution is<br/>
+$$Q(t)=Q_0\cos\Bigl(\omega t+\phi\Bigr)$$<br/>
+with the angular frequency<br/>
+$$\omega=\sqrt{\frac{1}{LC}}$$</li>
+<li>the energy oscillates between the capacitor (electric field) and the inductor (magnetic field)</li>
 </ul>
-</li>
-<li><strong>Simultaneous Measurement:</strong> Configuration choice depends on resistor and device internal resistances.</li>
-</ul>
-<hr/>
-<h2 id="2.4.2.-Analysis-Circuits-and-Kirchhoff's-Rules">2.4.2. Analysis Circuits and Kirchhoff's Rules<a class="anchor-link" href="#2.4.2.-Analysis-Circuits-and-Kirchhoff's-Rules">¶</a></h2><h3 id="Resistors-in-Series-&amp;-Parallel">Resistors in Series &amp; Parallel<a class="anchor-link" href="#Resistors-in-Series-&amp;-Parallel">¶</a></h3><ul>
-<li><strong>Series Resistors:</strong><ul>
-<li>Equivalent Resistance:
-$$R_{eq} = \sum R_i$$</li>
-<li>Voltage drops add up.</li>
-</ul>
-</li>
-<li><strong>Parallel Resistors:</strong><ul>
-<li>Equivalent Resistance:
-$$\frac{1}{R_{eq}} = \sum \frac{1}{R_i}$$</li>
-<li>Current splits.</li>
-<li>Net resistance is smaller than the smallest individual resistance.</li>
-</ul>
-</li>
-<li><strong>Physical Interpretation:</strong> Parallel resistors increase effective cross-sectional area.</li>
+<h3 id="Lrc-circuit">Lrc-circuit<a class="anchor-link" href="#Lrc-circuit">¶</a></h3><ul>
+<li>adding a resistor introduces damping into the oscillations</li>
+<li>the governing equation becomes<br/>
+$$L\frac{d^2Q}{dt^2}+R\frac{dQ}{dt}+\frac{Q}{C}=0$$</li>
+<li>the system can be underdamped, overdamped or critically damped depending on the relation between $R^2$ and $4LC$</li>
 </ul>
 <hr/>
-<h3 id="Capacitors-in-Series-&amp;-Parallel">Capacitors in Series &amp; Parallel<a class="anchor-link" href="#Capacitors-in-Series-&amp;-Parallel">¶</a></h3><ul>
-<li><strong>Parallel Capacitors:</strong><ul>
-<li>Equivalent Capacitance:
-$$C_{eq} = \sum C_i$$</li>
-<li>Voltage is the same.</li>
-<li>Total charge adds up.</li>
+<h2 id="Ac-circuits">Ac circuits<a class="anchor-link" href="#Ac-circuits">¶</a></h2><h3 id="Resistance-vs.-reactance">Resistance vs. reactance<a class="anchor-link" href="#Resistance-vs.-reactance">¶</a></h3><ul>
+<li>resistance $R$ is independent of frequency and dissipates energy as heat</li>
+<li>reactance (inductive $X_L$ and capacitive $X_C$) depends on frequency and temporarily stores energy</li>
+<li>the phase difference between voltage and current arises due to reactance</li>
 </ul>
-</li>
-<li><strong>Series Capacitors:</strong><ul>
-<li>Equivalent Capacitance:
-$$\frac{1}{C_{eq}} = \sum \frac{1}{C_i}$$</li>
-<li>Charge is the same.</li>
-<li>Voltage drops add up.</li>
-<li>Net capacitance is smaller than the smallest individual capacitance.</li>
+<h3 id="Resistor-in-an-ac-circuit">Resistor in an ac circuit<a class="anchor-link" href="#Resistor-in-an-ac-circuit">¶</a></h3><ul>
+<li>follows ohm's law:<br/>
+$$V=IR$$</li>
+<li>voltage and current are in phase</li>
+<li>the average power is given by<br/>
+$$\bar{P}=I_{rms}^2R$$</li>
 </ul>
-</li>
+<h3 id="Inductor-in-an-ac-circuit">Inductor in an ac circuit<a class="anchor-link" href="#Inductor-in-an-ac-circuit">¶</a></h3><ul>
+<li>the voltage across an inductor is<br/>
+$$V=L\frac{dI}{dt}$$</li>
+<li>for a sinusoidal current $I(t)=I_0\cos(\omega t)$ the voltage is<br/>
+$$V(t)=\omega LI_0\cos\Bigl(\omega t+\frac{\pi}{2}\Bigr)$$</li>
+<li>the inductive reactance is<br/>
+$$X_L=\omega L$$</li>
+<li>the voltage leads the current by $90^\circ$</li>
 </ul>
-<hr/>
-<h3 id="Kirchhoff's-Rules">Kirchhoff's Rules<a class="anchor-link" href="#Kirchhoff's-Rules">¶</a></h3><ul>
-<li><strong>Junction Rule (Current Conservation):</strong>
-$$\sum_i I_i = 0 \quad \text{or} \quad \sum_j I_{in,j} = \sum_k I_{out,k}$$</li>
-<li><strong>Loop Rule (Energy Conservation):</strong>
-$$\sum_i V_i = 0$$</li>
-<li><strong>Circuit Analysis Steps:</strong><ol>
-<li>Label currents.</li>
-<li>Identify unknowns.</li>
-<li>Apply junction rule.</li>
-<li>Apply loop rule.</li>
-<li>Solve equations.</li>
-<li>Vector/matrix form possible.</li>
-</ol>
-</li>
+<h3 id="Capacitor-in-an-ac-circuit">Capacitor in an ac circuit<a class="anchor-link" href="#Capacitor-in-an-ac-circuit">¶</a></h3><ul>
+<li>the voltage across a capacitor is determined by<br/>
+$$V=\frac{Q}{C}$$</li>
+<li>for a sinusoidal current the resulting voltage is<br/>
+$$V(t)=\frac{I_0}{\omega C}\cos\Bigl(\omega t-\frac{\pi}{2}\Bigr)$$</li>
+<li>the capacitive reactance is<br/>
+$$X_C=\frac{1}{\omega C}$$</li>
+<li>the voltage lags the current by $90^\circ$</li>
 </ul>
-<hr/>
-<h2 id="2.4.3.-The-RC-Circuit">2.4.3. The RC-Circuit<a class="anchor-link" href="#2.4.3.-The-RC-Circuit">¶</a></h2><h3 id="Charging-the-Capacitor">Charging the Capacitor<a class="anchor-link" href="#Charging-the-Capacitor">¶</a></h3><ul>
-<li><strong>RC-Circuit:</strong> Resistor, capacitor, voltage source in series.</li>
-<li><strong>Charging Process:</strong> Time-dependent charge accumulation.</li>
-<li><strong>Kirchhoff's Loop Rule:</strong>
-$$V_0 = IR + \frac{Q}{C}$$</li>
-<li><strong>Differential Equation:</strong>
-$$V_0 = R\frac{dQ}{dt} + \frac{Q}{C}$$</li>
-<li><strong>Solution:</strong>
-$$Q(t) = Q_0(1 - e^{-t/RC})$$
-$$V_C(t) = V_0(1 - e^{-t/RC})$$
-$$I(t) = \frac{V_0}{R}e^{-t/RC}$$</li>
-<li><strong>Time Constant (τ = RC):</strong><ul>
-<li>Time for V_C to reach 63% of V_0.</li>
-<li>Time for I to decay to 37% of initial value.</li>
-<li>Charging is considered complete after 5τ.</li>
-</ul>
-</li>
+<h3 id="Summary-of-ac-circuit-components">Summary of ac circuit components<a class="anchor-link" href="#Summary-of-ac-circuit-components">¶</a></h3><ul>
+<li>resistor: no phase shift; dissipates energy as heat</li>
+<li>inductor: voltage leads current; reactance $X_L=\omega L$</li>
+<li>capacitor: voltage lags current; reactance $X_C=\frac{1}{\omega C}$</li>
 </ul>
 <hr/>
-<h3 id="Discharging-the-Capacitor">Discharging the Capacitor<a class="anchor-link" href="#Discharging-the-Capacitor">¶</a></h3><ul>
-<li><strong>Circuit:</strong> Capacitor and resistor in series (no voltage source).</li>
-<li><strong>Kirchhoff's Loop Rule:</strong>
-$$IR = \frac{Q}{C}$$</li>
-<li><strong>Differential Equation:</strong>
-$$-\frac{dQ}{dt}R = \frac{Q}{C}$$</li>
-<li><strong>Solution:</strong>
-$$Q(t) = Q_0e^{-t/RC}$$
-$$V_C(t) = V_0e^{-t/RC}$$
-$$I(t) = I_0e^{-t/RC}$$</li>
-<li><strong>Decaying Voltage and Current:</strong> Exponential decrease over time.</li>
+<h2 id="Filters">Filters<a class="anchor-link" href="#Filters">¶</a></h2><ul>
+<li>high-pass filters allow high-frequency signals to pass while attenuating low-frequency ones</li>
+<li>low-pass filters allow low-frequency signals to pass while attenuating high-frequency ones</li>
+<li>these filters are common in signal processing and audio electronics</li>
 </ul>
 <hr/>
-<h3 id="Periodically-Switching-On-Off">Periodically Switching On-Off<a class="anchor-link" href="#Periodically-Switching-On-Off">¶</a></h3><ul>
-<li><strong>Sawtooth Voltage:</strong> Created by periodic charging and discharging.</li>
-<li><strong>Practical Implementation:</strong> Voltage source, capacitor, two resistors, and a tube.</li>
-<li><strong>Charging Loop:</strong> Capacitor charges through one resistor.</li>
-<li><strong>Discharging Loop:</strong> Tube conducts at breakdown voltage, discharging capacitor through the other resistor.</li>
-<li><strong>Repeat Cycle:</strong> Sawtooth waveform generated.</li>
+<h2 id="Impedance">Impedance<a class="anchor-link" href="#Impedance">¶</a></h2><ul>
+<li>impedance combines resistance and reactance into a complex quantity:<br/>
+$$Z=R+j\Bigl(X_L-X_C\Bigr)$$</li>
+<li>its magnitude is<br/>
+$$Z=\sqrt{R^2+\Bigl(X_L-X_C\Bigr)^2}$$</li>
+<li>the phase angle is given by<br/>
+$$\tan\phi=\frac{X_L-X_C}{R}$$</li>
+<li>impedance determines the relationship between voltage and current in ac circuits</li>
 </ul>
-<pre><code></code></pre>
+<hr/>
+<h2 id="Ac-lrc-circuit-&amp;-phasor-diagrams">Ac lrc-circuit &amp; phasor diagrams<a class="anchor-link" href="#Ac-lrc-circuit-&amp;-phasor-diagrams">¶</a></h2><ul>
+<li>in a series lrc-circuit the sum of the voltage drops equals the source voltage:<br/>
+$$V=V_R+V_L+V_C$$</li>
+<li>in the phasor diagram:<ul>
+<li>$V_R$ is drawn along the positive x-axis (in phase with the current)</li>
+<li>$V_L$ is drawn $90^\circ$ ahead of $V_R$</li>
+<li>$V_C$ is drawn $90^\circ$ behind $V_R$</li>
+</ul>
+</li>
+<li>the resultant voltage is found by vector addition:<br/>
+$$V_0=I_0Z$$<br/>
+with<br/>
+$$Z=\sqrt{R^2+\Bigl(X_L-X_C\Bigr)^2}$$</li>
+<li>similarly, for rms values:<br/>
+$$V_{rms}=I_{rms}Z$$</li>
+</ul>
+<hr/>
+<h2 id="Resonance-in-ac-circuits">Resonance in ac circuits<a class="anchor-link" href="#Resonance-in-ac-circuits">¶</a></h2><ul>
+<li>resonance occurs when the inductive and capacitive reactances cancel ($X_L=X_C$)</li>
+<li>the resonant angular frequency is<br/>
+$$\omega_0=\sqrt{\frac{1}{LC}}$$<br/>
+and the resonant frequency is<br/>
+$$f_0=\frac{1}{2\pi\sqrt{LC}}$$</li>
+<li>at resonance:<ul>
+<li>the impedance is purely resistive ($Z=R$)</li>
+<li>voltage and current are in phase ($\phi=0$)</li>
+<li>the current is maximized, with<br/>
+$$I_{max}=\frac{V_{rms}}{R}$$</li>
+</ul>
+</li>
+<li>the sharpness of the resonance depends on the value of $R$</li>
+</ul>
+<hr/>
+<h2 id="Impedance-matching">Impedance matching<a class="anchor-link" href="#Impedance-matching">¶</a></h2><ul>
+<li>maximum power transfer occurs when the source impedance matches the load impedance:<br/>
+$$Z_1=Z_2$$</li>
+<li>for purely resistive circuits, maximum power is delivered when $R_1=R_2$</li>
+<li>mismatched impedances lead to reduced power transfer efficiency and potential signal distortion</li>
+</ul>
 </div>
 </div>
 </div>

@@ -5,7 +5,7 @@
 <meta content="chrome=1" http-equiv="X-UA-Compatible"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
-<title>2_04_slides slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
+<title>2_06_slides slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
   import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
@@ -7441,7 +7441,7 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="2.4.-DC-Circuits-&amp;-Kirchhoff's-Laws">2.4. DC Circuits &amp; Kirchhoff's Laws<a class="anchor-link" href="#2.4.-DC-Circuits-&amp;-Kirchhoff's-Laws">¶</a></h1><p><strong>Imagine you're designing a camera flash. What components would you need to quickly store and release a large amount of electrical energy, and how would you control the timing?</strong></p>
+<h1 id="2.6.-TITLE">2.6. TITLE<a class="anchor-link" href="#2.6.-TITLE">¶</a></h1><p><strong>TEASER?</strong></p>
 </div>
 </div>
 </div>
@@ -7452,13 +7452,7 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>need to design a circuit with at least<ul>
-<li>capacitor</li>
-<li>resistor</li>
-<li>voltage source</li>
-<li>switch</li>
-</ul>
-</li>
+<li>ANSWER FRAGMENT</li>
 </ul>
 </div>
 </div>
@@ -7469,135 +7463,184 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="2.4.1-Circuits-101">2.4.1 Circuits 101<a class="anchor-link" href="#2.4.1-Circuits-101">¶</a></h2><h3 id="Basic-Circuit-Concepts">Basic Circuit Concepts<a class="anchor-link" href="#Basic-Circuit-Concepts">¶</a></h3><ul>
-<li><strong>Electric Circuit:</strong> Elements (batteries, resistors, capacitors) connected by wires.</li>
-<li><strong>Circuit States:</strong><ul>
-<li>Open: No current flow.</li>
-<li>Closed: Current flow.</li>
-<li>Short: Excessive current (hazard).</li>
+<h2 id="Ovgu_fnw_logo">Ovgu_fnw_logo<a class="anchor-link" href="#Ovgu_fnw_logo">¶</a></h2><ul>
+<li>university logo</li>
 </ul>
-</li>
-<li><strong>Voltage Source (V):</strong> Provides potential difference, driving current (I).</li>
-<li><strong>Ground:</strong> Reference potential (e.g., Earth).</li>
-<li><strong>Voltage Drop:</strong> Potential difference across an element.</li>
-<li><strong>Element Connections:</strong> Series or parallel.</li>
-<li><strong>Equivalent Circuits:</strong> Simplification by combining elements.</li>
+<h2 id="Electromagnets,-induction-&amp;-inductance">Electromagnets, induction &amp; inductance<a class="anchor-link" href="#Electromagnets,-induction-&amp;-inductance">¶</a></h2><ul>
+<li>explore the magnetic effects produced by electric currents</li>
+<li>understand electromagnets, induction and inductance</li>
+<li>introduce alternating current and its role in power distribution</li>
 </ul>
-<hr/>
-<h3 id="Open-Circuit-Voltage-of-a-DC-Source">Open-Circuit Voltage of a DC Source<a class="anchor-link" href="#Open-Circuit-Voltage-of-a-DC-Source">¶</a></h3><ul>
-<li><strong>Source:</strong> Energy conversion to electrical potential.</li>
-<li><strong>Open-Circuit Voltage (V₀):</strong> Voltage without current flow.</li>
-<li><strong>Internal Resistance (R_int):</strong> Real sources have internal resistance.</li>
-<li><strong>Voltage with Current:</strong>
-$$V = V_0 - IR_{int}$$</li>
-<li><strong>Non-constant R_int:</strong> Leads to non-linear current-voltage characteristics.</li>
-<li><strong>Characterization:</strong> Understanding real-life voltage sources.</li>
+<h2 id="Electromagnets">Electromagnets<a class="anchor-link" href="#Electromagnets">¶</a></h2><ul>
+<li>devices that generate magnetic fields when current flows</li>
+<li>common configurations include solenoids and toroids</li>
 </ul>
-<hr/>
-<h3 id="Measuring-Voltages-and-Currents">Measuring Voltages and Currents<a class="anchor-link" href="#Measuring-Voltages-and-Currents">¶</a></h3><ul>
-<li><strong>Ammeter:</strong> Measures current (series connection).</li>
-<li><strong>Voltmeter:</strong> Measures voltage (parallel connection).</li>
-<li><strong>Ohmmeter:</strong> Measures resistance.</li>
-<li><strong>Multimeter:</strong> Combines ammeter, voltmeter, ohmmeter.</li>
-<li><strong>Internal Resistance:</strong><ul>
-<li>Voltmeter: High (limits current).</li>
-<li>Ammeter: Low (limits voltage drop).</li>
+<h3 id="Solenoids">Solenoids<a class="anchor-link" href="#Solenoids">¶</a></h3><ul>
+<li>tightly wound helical coils of wire</li>
+<li>produce an almost uniform magnetic field inside the coil and weak field outside</li>
+<li>using ampère's law:
+$$
+\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = B\,l = \mu_0 I_{\rm enc}
+$$</li>
+<li>with loop density $n$, the field is:
+$$
+B = \mu_0 n I
+$$</li>
+<li>used in electromagnets, inductors and mri machines</li>
 </ul>
-</li>
-<li><strong>Simultaneous Measurement:</strong> Configuration choice depends on resistor and device internal resistances.</li>
+<h3 id="Toroids">Toroids<a class="anchor-link" href="#Toroids">¶</a></h3><ul>
+<li>doughnut-shaped coils where the field is confined within the core</li>
+<li>applying ampère's law:
+$$
+\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = B\,2\pi r = \mu_0 I_{\rm enc}
+$$</li>
+<li>resulting in:
+$$
+B = \frac{\mu_0 N I}{2\pi r}
+$$</li>
+<li>commonly used in power supplies and transformers</li>
 </ul>
-<hr/>
-<h2 id="2.4.2.-Analysis-Circuits-and-Kirchhoff's-Rules">2.4.2. Analysis Circuits and Kirchhoff's Rules<a class="anchor-link" href="#2.4.2.-Analysis-Circuits-and-Kirchhoff's-Rules">¶</a></h2><h3 id="Resistors-in-Series-&amp;-Parallel">Resistors in Series &amp; Parallel<a class="anchor-link" href="#Resistors-in-Series-&amp;-Parallel">¶</a></h3><ul>
-<li><strong>Series Resistors:</strong><ul>
-<li>Equivalent Resistance:
-$$R_{eq} = \sum R_i$$</li>
-<li>Voltage drops add up.</li>
+<h2 id="Electromagnetic-induction,-lenz's-law-&amp;-faraday's-law">Electromagnetic induction, lenz's law &amp; faraday's law<a class="anchor-link" href="#Electromagnetic-induction,-lenz's-law-&amp;-faraday's-law">¶</a></h2><ul>
+<li>a changing magnetic field induces an electric current</li>
+<li>discovered by henry and faraday independently</li>
+<li>forms the basis for generators, transformers and many other devices</li>
 </ul>
-</li>
-<li><strong>Parallel Resistors:</strong><ul>
-<li>Equivalent Resistance:
-$$\frac{1}{R_{eq}} = \sum \frac{1}{R_i}$$</li>
-<li>Current splits.</li>
-<li>Net resistance is smaller than the smallest individual resistance.</li>
+<h3 id="Magnetic-flux">Magnetic flux<a class="anchor-link" href="#Magnetic-flux">¶</a></h3><ul>
+<li>defined for a uniform field as:
+$$
+\Phi_B = B_\perp A = B A \cos\theta = \vec{\bf{B}} \cdot \vec{\bf{A}}
+$$</li>
+<li>here $\vec{\bf{A}}$ is the vector normal to the area $A$</li>
+<li>measured in weber [Wb]</li>
+<li>for non-uniform fields, integrate over the area:
+$$
+\Phi_B = \int \vec{\bf{B}}\, d\vec{\bf{A}}
+$$</li>
 </ul>
-</li>
-<li><strong>Physical Interpretation:</strong> Parallel resistors increase effective cross-sectional area.</li>
+<h3 id="Induced-voltage,-faraday's-law-of-induction-&amp;-lenz's-law">Induced voltage, faraday's law of induction &amp; lenz's law<a class="anchor-link" href="#Induced-voltage,-faraday's-law-of-induction-&amp;-lenz's-law">¶</a></h3><ul>
+<li>induced voltage is given by the rate of change of magnetic flux:
+$$
+V_{\rm ind} = -\frac{d\Phi_B}{dt}
+$$</li>
+<li>for a coil with $N$ loops:
+$$
+V_{\rm ind} = -N\frac{d\Phi_B}{dt}
+$$</li>
+<li>the negative sign shows that the induced current opposes the change in flux (lenz's law)</li>
 </ul>
-<hr/>
-<h3 id="Capacitors-in-Series-&amp;-Parallel">Capacitors in Series &amp; Parallel<a class="anchor-link" href="#Capacitors-in-Series-&amp;-Parallel">¶</a></h3><ul>
-<li><strong>Parallel Capacitors:</strong><ul>
-<li>Equivalent Capacitance:
-$$C_{eq} = \sum C_i$$</li>
-<li>Voltage is the same.</li>
-<li>Total charge adds up.</li>
+<h3 id="General-form-of-faraday's-law">General form of faraday's law<a class="anchor-link" href="#General-form-of-faraday's-law">¶</a></h3><ul>
+<li>a changing magnetic flux produces an electric field:
+$$
+\oint \vec{\bf{E}} \cdot d\vec{\bf{l}} = -\frac{d\Phi_B}{dt}
+$$</li>
+<li>this relation holds in both conductors and free space</li>
+<li>distinguishes non-conservative induced electric fields from static ones</li>
 </ul>
-</li>
-<li><strong>Series Capacitors:</strong><ul>
-<li>Equivalent Capacitance:
-$$\frac{1}{C_{eq}} = \sum \frac{1}{C_i}$$</li>
-<li>Charge is the same.</li>
-<li>Voltage drops add up.</li>
-<li>Net capacitance is smaller than the smallest individual capacitance.</li>
+<h2 id="Alternating-current,-generators-&amp;-transformers">Alternating current, generators &amp; transformers<a class="anchor-link" href="#Alternating-current,-generators-&amp;-transformers">¶</a></h2><ul>
+<li>alternating current (ac) is generated by converting mechanical energy into electrical energy</li>
+<li>ac circuits involve time-varying voltages and currents with sinusoidal behavior</li>
+<li>essential for generators, transformers and electric motors</li>
 </ul>
-</li>
+<h3 id="Ac-circuits">Ac circuits<a class="anchor-link" href="#Ac-circuits">¶</a></h3><ul>
+<li>sinusoidal voltage is described by:
+$$
+V(t)= V_0 \sin(2\pi f t)= V_0 \sin(\omega t)
+$$</li>
+<li>with $\omega=2\pi f$, voltage alternates between $+V_0$ and $-V_0$</li>
+<li>current is given by:
+$$
+I(t)=\frac{V(t)}{R}= I_0 \sin(\omega t)
+$$</li>
+<li>average power over a period is:
+$$
+\bar{P}= \frac{1}{2} I_0^2 R = \frac{1}{2}\frac{V_0^2}{R}
+$$</li>
+<li>rms values are defined as:
+$$
+I_{\rm RMS}= \frac{I_0}{\sqrt{2}},\quad V_{\rm RMS}= \frac{V_0}{\sqrt{2}}
+$$</li>
+<li>for example, a 220V outlet has a peak voltage $V_0\approx 311$ V</li>
 </ul>
-<hr/>
-<h3 id="Kirchhoff's-Rules">Kirchhoff's Rules<a class="anchor-link" href="#Kirchhoff's-Rules">¶</a></h3><ul>
-<li><strong>Junction Rule (Current Conservation):</strong>
-$$\sum_i I_i = 0 \quad \text{or} \quad \sum_j I_{in,j} = \sum_k I_{out,k}$$</li>
-<li><strong>Loop Rule (Energy Conservation):</strong>
-$$\sum_i V_i = 0$$</li>
-<li><strong>Circuit Analysis Steps:</strong><ol>
-<li>Label currents.</li>
-<li>Identify unknowns.</li>
-<li>Apply junction rule.</li>
-<li>Apply loop rule.</li>
-<li>Solve equations.</li>
-<li>Vector/matrix form possible.</li>
-</ol>
-</li>
+<h3 id="Induction-in-a-moving-conductor">Induction in a moving conductor<a class="anchor-link" href="#Induction-in-a-moving-conductor">¶</a></h3><ul>
+<li>moving a conductor in a uniform magnetic field induces a voltage</li>
+<li>for a rod of length $l$ moving at speed $v$:
+$$
+V_{\rm ind}= B\,l\,v
+$$</li>
+<li>derived from the change in area $dA= l\,v\,dt$</li>
+<li>valid when $l$, $v$ and $B$ are mutually perpendicular</li>
 </ul>
-<hr/>
-<h2 id="2.4.3.-The-RC-Circuit">2.4.3. The RC-Circuit<a class="anchor-link" href="#2.4.3.-The-RC-Circuit">¶</a></h2><h3 id="Charging-the-Capacitor">Charging the Capacitor<a class="anchor-link" href="#Charging-the-Capacitor">¶</a></h3><ul>
-<li><strong>RC-Circuit:</strong> Resistor, capacitor, voltage source in series.</li>
-<li><strong>Charging Process:</strong> Time-dependent charge accumulation.</li>
-<li><strong>Kirchhoff's Loop Rule:</strong>
-$$V_0 = IR + \frac{Q}{C}$$</li>
-<li><strong>Differential Equation:</strong>
-$$V_0 = R\frac{dQ}{dt} + \frac{Q}{C}$$</li>
-<li><strong>Solution:</strong>
-$$Q(t) = Q_0(1 - e^{-t/RC})$$
-$$V_C(t) = V_0(1 - e^{-t/RC})$$
-$$I(t) = \frac{V_0}{R}e^{-t/RC}$$</li>
-<li><strong>Time Constant (τ = RC):</strong><ul>
-<li>Time for V_C to reach 63% of V_0.</li>
-<li>Time for I to decay to 37% of initial value.</li>
-<li>Charging is considered complete after 5τ.</li>
+<h3 id="Electric-generators">Electric generators<a class="anchor-link" href="#Electric-generators">¶</a></h3><ul>
+<li>convert mechanical energy into electrical energy via a rotating armature in a static magnetic field</li>
+<li>the induced voltage in a rotating coil is:
+$$
+V_{\rm ind}= -\frac{d}{dt}\left(BA\cos\theta\right)
+$$</li>
+<li>with constant angular velocity $\omega$, this becomes:
+$$
+V_{\rm ind}= BA\,\omega\,\sin(\omega t)
+$$</li>
+<li>for $N$ loops, the peak voltage is $V_{\rm ind,0}= NBA\omega$</li>
+<li>principle can be reversed in electric motors</li>
 </ul>
-</li>
+<h3 id="Transformers">Transformers<a class="anchor-link" href="#Transformers">¶</a></h3><ul>
+<li>transfer ac voltage between coils through mutual induction</li>
+<li>primary voltage:
+$$
+V_1= N_1\frac{d\Phi_B}{dt}
+$$</li>
+<li>secondary voltage:
+$$
+V_2= N_2\frac{d\Phi_B}{dt}
+$$</li>
+<li>voltage ratio is:
+$$
+\frac{V_2}{V_1}= \frac{N_2}{N_1}
+$$</li>
+<li>conservation of power implies:
+$$
+I_1V_1= I_2V_2
+$$</li>
+<li>used as step-up or step-down transformers based on the turns ratio</li>
 </ul>
-<hr/>
-<h3 id="Discharging-the-Capacitor">Discharging the Capacitor<a class="anchor-link" href="#Discharging-the-Capacitor">¶</a></h3><ul>
-<li><strong>Circuit:</strong> Capacitor and resistor in series (no voltage source).</li>
-<li><strong>Kirchhoff's Loop Rule:</strong>
-$$IR = \frac{Q}{C}$$</li>
-<li><strong>Differential Equation:</strong>
-$$-\frac{dQ}{dt}R = \frac{Q}{C}$$</li>
-<li><strong>Solution:</strong>
-$$Q(t) = Q_0e^{-t/RC}$$
-$$V_C(t) = V_0e^{-t/RC}$$
-$$I(t) = I_0e^{-t/RC}$$</li>
-<li><strong>Decaying Voltage and Current:</strong> Exponential decrease over time.</li>
+<h3 id="Mutual-inductance">Mutual inductance<a class="anchor-link" href="#Mutual-inductance">¶</a></h3><ul>
+<li>relates the induced voltage in one coil to the rate of change of current in a neighboring coil</li>
+<li>defined as:
+$$
+M_{21}= \frac{N_2\Phi_{21}}{I_1}
+$$</li>
+<li>the induced voltage in coil 2 is:
+$$
+V_2= -M_{21}\frac{dI_1}{dt}
+$$</li>
+<li>depends solely on the geometry and spacing of the coils</li>
 </ul>
-<hr/>
-<h3 id="Periodically-Switching-On-Off">Periodically Switching On-Off<a class="anchor-link" href="#Periodically-Switching-On-Off">¶</a></h3><ul>
-<li><strong>Sawtooth Voltage:</strong> Created by periodic charging and discharging.</li>
-<li><strong>Practical Implementation:</strong> Voltage source, capacitor, two resistors, and a tube.</li>
-<li><strong>Charging Loop:</strong> Capacitor charges through one resistor.</li>
-<li><strong>Discharging Loop:</strong> Tube conducts at breakdown voltage, discharging capacitor through the other resistor.</li>
-<li><strong>Repeat Cycle:</strong> Sawtooth waveform generated.</li>
+<h3 id="Self-inductance-&amp;-inductors">Self-inductance &amp; inductors<a class="anchor-link" href="#Self-inductance-&amp;-inductors">¶</a></h3><ul>
+<li>self-inductance relates the induced voltage in a coil to its own changing current:
+$$
+V_{\rm ind}= -L\frac{dI}{dt}
+$$</li>
+<li>inductance $L$ is measured in henry [H]</li>
+<li>inductors are fundamental circuit elements alongside resistors and capacitors</li>
 </ul>
-<pre><code></code></pre>
+<h3 id="Energy-stored-in-the-magnetic-field">Energy stored in the magnetic field<a class="anchor-link" href="#Energy-stored-in-the-magnetic-field">¶</a></h3><ul>
+<li>power supplied to an inductor is:
+$$
+P= I\,V_{\rm ind}= I\,L\frac{dI}{dt}
+$$</li>
+<li>the work done to build up the current is:
+$$
+W= \int_0^I I\,L\,dI= \frac{1}{2}LI^2
+$$</li>
+<li>energy stored in the magnetic field is:
+$$
+U= \frac{1}{2}LI^2
+$$</li>
+<li>analogous to the energy stored in a capacitor:
+$$
+U= \frac{1}{2}CV^2
+$$</li>
+</ul>
 </div>
 </div>
 </div>
