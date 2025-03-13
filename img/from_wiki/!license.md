@@ -31,3 +31,21 @@
 <img src="../img/from_wiki/Electric-flux-no-charge-inside.svg.png" alt="Electric-flux-no-charge-inside" width="500"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Electric-flux-no-charge-inside.svg) under [CC 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en), unedited</sub>*
+
+---
+
+<img src="../img/from_wiki/capacitor_E_phi.svg.png" alt="E-field capacitor" width="500"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:VFPt_capacitor_E_phi.svg) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en), unedited</sub>*
+
+---
+
+<img src="../img/from_wiki/Galvani-frogs-legs-electricity.jpg" alt="E-field capacitor" width="500"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Galvani-frogs-legs-electricity.jpg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/ElectricCurrent.gif" alt="ElectricCurrent.gif" width="500"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:ElectricCurrent.gif) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en), unedited</sub>*

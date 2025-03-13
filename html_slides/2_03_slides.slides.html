@@ -7458,7 +7458,7 @@ main {
 </ul>
 </li>
 <li>transition from <strong>static electricity to flow of charges</strong></li>
-<li>associated physical concepts: dielectrics, electric power, current, resistance, &amp; ohm's law</li>
+<li>associated physical concepts: dielectrics, electric power, current, resistance, &amp; Ohm's law</li>
 <li><strong>disclaimer</strong>: simplify notation for voltage to $V = V_{BA} = V_B - V_A$</li>
 </ul>
 </div>
@@ -7470,79 +7470,324 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Capacitors-&amp;-dielectrics">Capacitors &amp; dielectrics<a class="anchor-link" href="#Capacitors-&amp;-dielectrics">¶</a></h2><h3 id="Basic-principle">Basic principle<a class="anchor-link" href="#Basic-principle">¶</a></h3><ul>
-<li>two plates with opposite charge produce an electric field and voltage</li>
-<li>capacitor stores electric charge and energy</li>
+<h2 id="Capacitors---Basic-concept">Capacitors - Basic concept<a class="anchor-link" href="#Capacitors---Basic-concept">¶</a></h2><ul>
+<li>two plates with opposite charge produce an electric field</li>
 </ul>
-<h3 id="Equation-and-geometry">Equation and geometry<a class="anchor-link" href="#Equation-and-geometry">¶</a></h3><ul>
-<li>fundamental relation: $Q = C V$</li>
-<li>simple configuration: two parallel plates of area $A$ separated by distance $d$</li>
-<li>connecting a battery charges the plates with equal magnitude but opposite sign</li>
+<p><img alt="E-field capacitor" src="../img/from_wiki/capacitor_E_phi.svg.png" width="500"/></p>
+<p><em><sub>from <a href="https://de.wikibooks.org/wiki/Datei:VFPt_capacitor_E_phi.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC Attribution-ShareAlike 4.0 International</a>, unedited</sub></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Capacitors---Relation-of-$V$-and-$d$">Capacitors - Relation of $V$ and $d$<a class="anchor-link" href="#Capacitors---Relation-of-$V$-and-$d$">¶</a></h2><p><code>es27</code></p>
+<ul>
+<li>simple configuration:<ul>
+<li>two parallel plates of area $A$ separated by distance $d$</li>
+<li>voltage source connected</li>
+<li>$\rightarrow$ plates accumulate charge $Q$ with equal magnitude but opposite sign</li>
 </ul>
-<h3 id="Determining-capacitance-analytically">Determining capacitance analytically<a class="anchor-link" href="#Determining-capacitance-analytically">¶</a></h3><ul>
-<li>start from $Q = C V$ and derive $C = \frac{Q}{V}$</li>
-<li>for parallel plates, the electric field is $$E = \frac{Q}{\epsilon_0 A}$$</li>
-<li>the voltage is $$V = E d = \frac{Q d}{\epsilon_0 A}$$ leading to
-$$C = \frac{\epsilon_0 A}{d}$$</li>
-<li>other configurations:<ul>
-<li>single isolated conductor: $$C = 4 \pi \epsilon_0 r$$</li>
-<li>coaxial cylindrical capacitor: $$C = \frac{2 \pi \epsilon_0 l}{\ln(r_O/r_I)}$$</li>
-<li>spherical capacitor: $$C = \frac{4 \pi \epsilon_0 r_I r_O}{r_O - r_I}$$</li>
+</li>
+</ul>
+<p><strong>What happens if we change the distance?</strong> (if $Q=\textrm{const}$)</p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
+<li><strong>voltage increases with distance</strong> (unit breakdown voltage reached)
+$$ V = V_B - V_A = - \int_A^B \vec{\bf{E}} d \vec{\bf{l}} = +E \int_A^B l = E d = \frac{Q}{\epsilon_0 A} d $$</li>
+</ul>
+<p><strong>Notes</strong>:</p>
+<ul>
+<li>electric field for two parallel planes: $E = \frac{Q}{\epsilon_0 A}$</li>
+<li>angle between $\vec{\bf{E}}$ and $d\vec{\bf{l}}$ is 180° $\rightarrow E l \cos(180°) = - E l$.</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Capacitance-$C$">Capacitance $C$<a class="anchor-link" href="#Capacitance-$C$">¶</a></h2><ul>
+<li><strong>fundamental relation</strong>: $Q = C V$</li>
+<li><strong>capacitance</strong>:<ul>
+<li>proportionality constant $C=\frac{Q}{V}$</li>
+<li>unit: <strong>farad</strong> [F] = [C/V], typically capacitors in picofarad to microfarad range</li>
+<li>capacitance determined by <strong>geometry</strong>: size, shape, relative position of plates</li>
+</ul>
+</li>
+<li>determining capacitance <strong>analytically</strong> for uniform $\vec{\bf{E}}$:
+$$V = E d = \frac{Q d}{\epsilon_0 A}$$
+$$\frac{V}{Q} =  \frac{d}{\epsilon_0 A}$$
+$$C =\frac{Q}{V}=\frac{\epsilon_0 A}{d}$$</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Storing-electric-energy">Storing electric energy<a class="anchor-link" href="#Storing-electric-energy">¶</a></h2><ul>
+<li><strong>conservation of energy</strong>:  the work $W$ required to charge the capacitor is equal to the electric energy stored in the capacitor $U$</li>
+<li>work required to move small amount of charge in presence of potential difference: $dW = -V dq$</li>
+<li>integrating over the entire charge $Q$ and with $V = \frac{q}{C}$, we get:
+$$ W = -\int_0^Q V dq = -\frac{1}{C} \int_0^Q q dq = -\frac{1}{2} \frac{Q^2}{C}$$</li>
+<li>$\rightarrow$ energy $U$ "stored" is:
+$$ U = \frac{1}{2} \frac{Q^2}{C} = \frac{1}{2} C V^2 = \frac{1}{2} Q V$$</li>
+</ul>
+<p><code>script simulation: C, Q, E, U</code></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Dielectrics">Dielectrics<a class="anchor-link" href="#Dielectrics">¶</a></h2><p><code>es21</code></p>
+<ul>
+<li>dielectrics are <strong>insulating material</strong></li>
+<li>dielectric increases capacitance by a factor $K$: $C = K\,C_0$</li>
+<li>material permittivity is defined as $\epsilon = K\,\epsilon_0$</li>
+<li>for a parallel-plate capacitor with a dielectric: $C = \frac{\epsilon A}{d}$</li>
+<li>inserting a dielectric increases the breakdown voltage and allows smaller gaps between plates</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="History-of-electric-battery:-Galvani-vs.-Volta">History of electric battery: Galvani vs. Volta<a class="anchor-link" href="#History-of-electric-battery:-Galvani-vs.-Volta">¶</a></h2><ul>
+<li>Luigi Galvani (1737-1798) connected a cupper and iron wire to a frog leg and saw muscle contraction</li>
+<li>$\rightarrow$ interpreted as <em>life-force</em></li>
+<li>Alessandro Volta (1745-1827) disagreed and realized the potential (pun intended) of dissimilar metal</li>
+<li>$\rightarrow$ combined cells of zinc &amp; silver soaked in salt solution to form a <em>battery</em> of cells</li>
+</ul>
+<p><img alt="E-field capacitor" src="../img/from_wiki/Galvani-frogs-legs-electricity.jpg" width="400"/></p>
+<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Galvani-frogs-legs-electricity.jpg">wikipedia</a>, public domain</sub></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Concept-of-electric-battery">Concept of electric battery<a class="anchor-link" href="#Concept-of-electric-battery">¶</a></h2><p><code>el23 + el25</code></p>
+<ul>
+<li>battery consists of:<ul>
+<li><strong>electrodes</strong> - metal rods connected to terminals:<ul>
+<li><strong>cathode</strong> - negative electrode e.g. Pb (lead)</li>
+<li><strong>anode</strong> - positive electrode e.g. Pb02 (lead dioxide)</li>
+</ul>
+</li>
+<li><strong>electrolyte</strong> e.g. sulfuric acid, apple, or frog leg</li>
+</ul>
+</li>
+<li>oversimplified reaction: Pb + acid $\rightarrow$ net effect of accumulation of electrons in cathode</li>
+<li>if connected, battery provides a voltage that drives current in a circuit</li>
+<li><strong>no charges are generated, merely separated, obeying the laws of conservation</strong></li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Start-moving:-electric-current,-resistance-&amp;-ohm's-law">Start moving: electric current, resistance &amp; ohm's law<a class="anchor-link" href="#Start-moving:-electric-current,-resistance-&amp;-ohm's-law">¶</a></h2><p><code>es15</code></p>
+<p><strong>Time to leave electrostatics, i.e. resting charges, and consider moving charges</strong></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Electric-current">Electric current<a class="anchor-link" href="#Electric-current">¶</a></h2><ul>
+<li>average current defined as $\bar{I} = \frac{\Delta Q}{\Delta t}$</li>
+<li>instantaneous current defined as $I = \frac{dQ}{dt}$</li>
+<li><strong>unit</strong> <em>ampere</em> [A]=[C/s] in recognition of André Ampère (1775-1836)</li>
+<li><strong>conservation of charge</strong>: current is constant throughout a continuous conductor</li>
+<li><strong>flow direction</strong>:<ul>
+<li>conventional current flows from positive to negative (Franklin), while electrons move from negative to positive (physics)</li>
+<li>directionality (usually) non-critical/yield equal results (exception e.g. Hall effect)</li>
 </ul>
 </li>
 </ul>
-<h3 id="Storing-electric-energy">Storing electric energy<a class="anchor-link" href="#Storing-electric-energy">¶</a></h3><ul>
-<li>work to charge a capacitor: $dW = V\,dq$</li>
-<li>integrating yields
-$$W = \frac{1}{2}\frac{Q^2}{C} = \frac{1}{2} C V^2 = \frac{1}{2} Q V$$</li>
-</ul>
-<h3 id="Dielectrics">Dielectrics<a class="anchor-link" href="#Dielectrics">¶</a></h3><ul>
-<li>inserting an insulating material increases the breakdown voltage and allows smaller gaps</li>
-<li>dielectric increases capacitance by a factor $K$: $$C = K\,C_0$$</li>
-<li>material permittivity is defined as $$\epsilon = K\,\epsilon_0$$</li>
-<li>for a parallel-plate capacitor with a dielectric: $$C = \frac{\epsilon A}{d}$$</li>
-</ul>
-<hr/>
-<h2 id="Start-moving:-electric-current,-resistance-&amp;-ohm's-law">Start moving: electric current, resistance &amp; ohm's law<a class="anchor-link" href="#Start-moving:-electric-current,-resistance-&amp;-ohm's-law">¶</a></h2><h3 id="Electric-battery">Electric battery<a class="anchor-link" href="#Electric-battery">¶</a></h3><ul>
-<li>battery provides a voltage that drives current in a circuit</li>
-<li>historical insight: galvani discovered animal electricity and volta developed the first battery</li>
-<li>simple battery: a zinc electrode and a carbon electrode in sulfuric acid create a voltage by separating charges</li>
-<li>terminals: negative electrode (cathode) and positive electrode (anode)</li>
-</ul>
-<h3 id="Electric-current">Electric current<a class="anchor-link" href="#Electric-current">¶</a></h3><ul>
-<li>average current defined as $$\bar{I} = \frac{\Delta Q}{\Delta t}$$</li>
-<li>instantaneous current defined as $$I = \frac{dQ}{dt}$$</li>
-<li>conservation of charge: current is constant throughout a continuous conductor</li>
-<li>conventional current flows from positive to negative, while electrons move from negative to positive</li>
-</ul>
-<h3 id="Ohm's-law-&amp;-resistors">Ohm's law &amp; resistors<a class="anchor-link" href="#Ohm's-law-&amp;-resistors">¶</a></h3><ul>
-<li>ohm's law relates voltage, current, and resistance: $$V = I\,R \quad \leftrightarrow \quad I = \frac{V}{R}$$</li>
-<li>resistance quantifies the hindrance of electron flow</li>
-<li>ohmic resistors have a constant $R$, while non-ohmic resistors change with conditions such as temperature</li>
-<li>unit of resistance: ohm ($\Omega = \frac{V}{A}$)</li>
-</ul>
-<h3 id="Resistivity-&amp;-conductivity">Resistivity &amp; conductivity<a class="anchor-link" href="#Resistivity-&amp;-conductivity">¶</a></h3><ul>
-<li>resistance in a uniform wire: $$R = \rho\,\frac{l}{A}$$</li>
-<li>resistivity $\rho$ is a material property and conductivity is $$\sigma = \frac{1}{\rho}$$</li>
-<li>temperature dependence of resistivity can be approximated as
-$$\rho(T) = \rho_0\left(1 + \alpha\,(T - T_0)\right)$$</li>
-</ul>
-<h3 id="Electric-power">Electric power<a class="anchor-link" href="#Electric-power">¶</a></h3><ul>
-<li>electric power is the energy per unit time: $$P = \frac{dU}{dt}$$</li>
-<li>for a circuit, power can be expressed as $$P = V\,I$$</li>
-<li>using ohm's law, alternative forms are $$P = I^2\,R$$ or $$P = \frac{V^2}{R}$$</li>
-<li>unit of power: watt ($1\,\text{W} = 1\,\text{J/s}$)</li>
-</ul>
-<h3 id="Current-density-&amp;-drift-speed">Current density &amp; drift speed<a class="anchor-link" href="#Current-density-&amp;-drift-speed">¶</a></h3><ul>
-<li>current density is the current per unit cross-sectional area: $$\vec{\bf{j}} = \frac{I}{A}$$</li>
-<li>for non-uniform current, $$I = \int \vec{\bf{j}} \cdot d\vec{\bf{A}}$$</li>
-<li>microscopic perspective: electrons move with an average drift speed $v_d$</li>
-<li>relating drift speed to current:<ul>
-<li>$I = -e\,n\,A\,v_d$ where $n$ is the free electron density</li>
-<li>current density becomes $$\vec{\bf{j}} = -e\,n\,v_d$$</li>
+<p><img alt="ElectricCurrent.gif" src="../img/from_wiki/ElectricCurrent.gif" width="500"/></p>
+<p><em><sub>from <a href="https://de.wikibooks.org/wiki/Datei:ElectricCurrent.gif">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC Attribution-ShareAlike 4.0 International</a>, unedited</sub></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Ohm's-law-&amp;-resistors">Ohm's law &amp; resistors<a class="anchor-link" href="#Ohm's-law-&amp;-resistors">¶</a></h2><ul>
+<li><strong>Ohm's law</strong> relates voltage, current, and resistance: $V = I\,R \, \leftrightarrow \, I = \frac{V}{R}$</li>
+<li><strong>resistance:</strong><ul>
+<li>proportionality constant which quantifies the <strong>hindrance of electron flow</strong></li>
+<li>unit of resistance: <strong>Ohm</strong> ($\Omega = \frac{V}{A}$) in recognition of Georg Simon Ohm (1787-1854)</li>
 </ul>
 </li>
-<li>microscopic ohm's law relates electric field and current density: $$\vec{\bf{E}} = \rho\,\vec{\bf{j}}$$</li>
+<li>Ohmic resistors have a constant $R$, while non-ohmic resistors change with conditions such as temperature</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Resistivity-&amp;-conductivity">Resistivity &amp; conductivity<a class="anchor-link" href="#Resistivity-&amp;-conductivity">¶</a></h2><p><code>el32 + el04</code></p>
+<ul>
+<li><p><strong>resistance</strong> in a uniform wire <strong>depends on</strong>:</p>
+<ul>
+<li>cross-sectional area $A$</li>
+<li>wire length $l$,</li>
+<li>material used, i.e.  resistivity $\rho$ in [$\Omega$ m]:
+$$ R = \rho \frac{l}{A} $$</li>
+</ul>
+</li>
+<li><p>alternative material property: conductivity: $\sigma = \frac{1}{\rho}$</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Temperature-dependency-of-resistivity">Temperature dependency of resistivity<a class="anchor-link" href="#Temperature-dependency-of-resistivity">¶</a></h2><p><code>el03</code></p>
+<ul>
+<li><strong>temperature dependence of resistivity</strong> can be approximated as
+$$\rho(T) = \rho_0\left(1 + \alpha\,(T - T_0)\right)$$<ul>
+<li>$\alpha$ being the material-specific <strong>temperature coefficient</strong> of resistivity</li>
+<li><strong>negative temperature coefficients (NTC)</strong>, i.e. lower resistance when heated, such as semiconductor which have more free electrons available at higher temperatures</li>
+<li><strong>positive temperature coefficients (PTC)</strong>, i.e. higher resistance when heated, such as many metals as the higher temperature increases the likelihood of atom-electron collision</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Electric-power">Electric power<a class="anchor-link" href="#Electric-power">¶</a></h2><ul>
+<li><strong>electric circuits transmit electric energy</strong> $\rightarrow$ amount of electric power $P$ delivered is therefore of interest (at the very least to you energy provider)</li>
+<li><strong>electric power is the energy per unit time</strong>: $P = \frac{dU}{dt}$</li>
+<li>unit: <strong>Watt</strong> [W]=[J/s]</li>
+<li>using $V = \frac{U}{q} \rightarrow dU = V dq$ as well as $I = \frac{dq}{dt} $
+$$ P = \frac{dU}{dt} = \frac{dq}{dt} V $$
+$$ P = V I $$</li>
+<li>applying Ohm's law $V = RI$, we can extend this to:
+$$ P = V I = I^2 R = \frac{V^2}{R} $$</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Current-density">Current density<a class="anchor-link" href="#Current-density">¶</a></h2><p><code>el07</code></p>
+<ul>
+<li>switch from macro- to microscopic perspective</li>
+<li><strong>current density</strong> $j$: current per unit cross-sectional area: $j = \frac{I}{A} \leftrightarrow I = j A$</li>
+<li>for non-uniform current: $I = \int \vec{\bf{j}} \cdot d\vec{\bf{A}}$</li>
+<li>$I$ is a macroscopic quantity, defined for e.g. the entire cross-section of a wire, while $\vec{\bf{j}}$ is a microscopic quantity, defined for each point.</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Drift-speed">Drift speed<a class="anchor-link" href="#Drift-speed">¶</a></h2><ul>
+<li>macroscopic perspective: electricity moves with the speed of light</li>
+<li>microscopic perspective:<ul>
+<li>electrons collide with lattice</li>
+<li>electrons move with an <strong>average drift speed</strong> $v_d \approx 0.05$ mm/s</li>
+</ul>
+</li>
+<li>relate drift speed to (macroscopic) current via number of free electron per unit volume $n = \frac{N}{A l}$:</li>
+</ul>
+<p>$$I = \frac{\Delta Q}{\Delta t}  = \frac{-e N }{\Delta t} = \frac{-e n A l}{\Delta t} = \frac{-e n A v_d \Delta t}{\Delta t}  = -e n A v_d $$
+$$ j = \frac{I}{A} = -e n v_d $$</p>
+<ul>
+<li>minus sign indicates that electrons drift in opposite direction to macroscopic current</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Microscopic-view-on-Ohm's-law">Microscopic view on Ohm's law<a class="anchor-link" href="#Microscopic-view-on-Ohm's-law">¶</a></h2><ul>
+<li>relate current density and electric field in idealized conditions:<ul>
+<li>resistances is related to the conductors geometry and resistivity: $R = \rho \frac{l}{A}$</li>
+<li>in a uniform field: $V = \int E dl = E l$</li>
+<li>current $I$ is: $I = j A$</li>
+<li>Ohm's law states: $V= RI$
+$$ V = IR $$
+$$ El = j A \rho \frac{l}{A}$$
+$$ El = j \rho l $$
+$$ E = j \rho $$</li>
+</ul>
+</li>
+<li><strong>generalization to microscopic view of Ohm's law</strong><ul>
+<li>electric field as proxy for $V$</li>
+<li>current density as proxy for $I$</li>
+<li>resistivity as proxy for $R$
+$$\vec{\bf{E}} = \rho \vec{\bf{j}} \quad \leftrightarrow \quad  \vec{\bf{j}} = \frac{1}{\rho} \vec{\bf{E}}$$</li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
