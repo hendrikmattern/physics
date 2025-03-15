@@ -18,11 +18,12 @@
 * you can upgrade packages with pip in the terminal using `pip install --upgrade <package_name>`
 * in general you might need the following packages (details in requirement.txt):
     * scipy
-    * nbconvert
+    * nbconvert	
     * jupyter notebook
     * jupyterlab_hide_code
     * jupyter lab
-
+    * (optional) selenium and webdriver-manager selenium for html2pdf print
+	
 # Run notebook with VSCode and Jupyter
 * in VS code the individual notebook cells can be run by pressing `Ctrl + Enter` (double click if you want to enter a rendered cell)
 * to open in the browser do the following:
@@ -41,8 +42,19 @@
 * one can add additional argument like `--mathjax` to enable math rendering via mathjax
 * open html in browser
 
-# Convert script to html/pdf (pdf required pandoc and latex)
+# Convert script to html or pdf (requires pandoc and latex) or webpdf (requires nbconvert[webpdf] and chromium)
+## html
 jupyter nbconvert 'physics2/2_01_script.ipynb' --no-input --to html
-jupyter nbconvert 'physics2/2_01_script.ipynb' --no-input --to pdf
 
+# html print
+pip install selenium 
+pip install webdriver-manager selenium
 
+## pdf with intermediate tex (not working properly)
+jupyter nbconvert '.\physics2\2_02_script.ipynb' --to latex --no-input --no-prompt
+pdflatex .\physics2\2_02_script.tex
+
+# pdf (not working properly)
+pandoc -f html -t pdf .\html_slides\2_02_slides.slides.html -o test.pdf --resource-path .\img\ --pdf-engine xelatex
+jupyter nbconvert 'physics2/2_01_script.ipynb' --no-input --to pdf  
+jupyter nbconvert 'physics2/2_01_script.ipynb' --no-input --no-prompt --to webpdf --allow-chromium-download
