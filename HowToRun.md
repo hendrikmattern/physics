@@ -23,6 +23,7 @@
     * jupyterlab_hide_code
     * jupyter lab
     * (optional) selenium and webdriver-manager selenium for html2pdf print
+    * (optional) mistune for markdown to html conversion
 	
 # Run notebook with VSCode and Jupyter
 * in VS code the individual notebook cells can be run by pressing `Ctrl + Enter` (double click if you want to enter a rendered cell)
