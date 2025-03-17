@@ -286,7 +286,7 @@ $$
 \mathbf{E} =
 \begin{cases}
 \frac{Q}{4\pi \varepsilon_0 r^2}, & r > r_0 \quad \text{(Outside the sphere, behaves like a point charge)} \\
-\frac{Q}{4\pi \varepsilon_0 r_0^3} r, & r < r_0 \quad \text{(Inside the sphere, increases linearly with \( r \))}
+\frac{Q}{4\pi \varepsilon_0 r_0^3} r, & r < r_0 \quad \text{(Inside the sphere, increases linearly with the radius)}
 \end{cases}
 $$
 

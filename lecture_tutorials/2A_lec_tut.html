@@ -1,0 +1,305 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Markdown to HTML</title>
+        </head>
+        <body>
+            <h1>Lecture Tutorial 2A</h1>
+<h2>Electroscope</h2>
+<p><code>es32</code></p>
+<p><strong>An electroscope detects and roughly measures electric charge using electrostatic forces.
+However, an electroscope cannot distinguish between positive &amp; negative charge.</strong></p>
+<p><strong>Structure</strong></p>
+<ul>
+<li>Metal rod and knob: Conducts charge.</li>
+<li>Thin metal leaf: Rotates due to electrostatic forces.</li>
+<li>Insulating support &amp; grounded enclosure: Prevents charge leakage &amp; minimize external electric influences.</li>
+</ul>
+<p><strong>Charging by Contact:</strong>
+A charged object touches the electroscope, transferring charge:</p>
+<ul>
+<li><strong>Positive object</strong>: Electrons leave, making the electroscope positive.</li>
+<li><strong>Negative object</strong>: Electrons transfer onto the electroscope, making it negative.</li>
+</ul>
+<p>Since the <strong>rod and leaf acquire the same charge, they repel</strong>, causing the leaf to rotate.</p>
+<p><strong>Charging by Induction:</strong> A charged object brought near the knob causes charge redistribution:</p>
+<ol>
+<li><strong>Grounding</strong>: Allows opposite charges to escape.</li>
+<li><strong>Removing the ground</strong> and then the object leaves the electroscope charged.</li>
+</ol>
+<h2>Task L2A.1.</h2>
+<p>Investigate the torques due to Coulomb's force and gravitation.
+Use simplifications of charge position as well as center of mass if necessary.</p>
+<p><strong>Given &amp; simplifications:</strong>
+Lets assume a simple model to understand the electroscope:
+A single leaf (length $l$, mass $m$) with its the center of mass at distance $l/2$ from the pivot.
+Hence, the lever for the associated gravitational torque is $l/2$.
+The force applied to the lever is $F_g \sin \theta$ for the angle $\theta$ between the vertical rod and rotated leaf (gravitational force $F_g$ points downwards in vertical direction).</p>
+<p>Let's assume, the charges on the leaf is centered at the tip and the charge on the rod is located in a single point $r$ away from the tip.
+Therefore, the repulsion due to Coulomb's force $F_e$ times the lever $l$ generate a torque as well.</p>
+<p><strong>Solution:</strong>
+At equilibrium, the torques due to repulsion and gravity balance:</p>
+<p>$$ \tau_e = \tau_g $$</p>
+<p>$$ F_e l = F_g  \frac{l}{2} \sin \theta $$</p>
+<p>$$ k \frac{|q_1 q_2|}{r^2} l = mg \frac{l}{2} \sin \theta $$</p>
+<p>$$
+k \frac{|q_1 q_2|}{r^2} = \frac{mg}{2} \sin \theta
+$$</p>
+<hr />
+<h2>Electrostatics vs. Gravitation: A comparison of Coulomb's and gravitational force</h2>
+<h3>Overview of Coulomb's Law</h3>
+<p>Coulomb's Law describes the force between two point charges. It is given by:</p>
+<p>$$
+F = k \cdot \frac{q_1 \cdot q_2}{r^2}
+$$</p>
+<p>Where:</p>
+<ul>
+<li>$F$ is the force between the charges (in Newtons, N),</li>
+<li>$k = 8.988 \times 10^9 , \text{Nm}^2/\text{C}^2 $ is Coulomb's constant,</li>
+<li>$ q_1 $ and $ q_2 $ are the magnitudes of the charges (in Coulombs, C),</li>
+<li>$ r $ is the distance between the charges (in meters, m).</li>
+</ul>
+<h3>Comparison with Gravitational Force</h3>
+<p>The gravitational force between two masses is given by Newton's Law of Universal Gravitation:</p>
+<p>$$
+F = G \cdot \frac{m_1 \cdot m_2}{r^2}
+$$</p>
+<p>Where:</p>
+<ul>
+<li>$ F $ is the gravitational force (in Newtons, N),</li>
+<li>$ G = 6.674 \times 10^{-11} , \text{Nm}^2/\text{kg}^2 $ is the gravitational constant,</li>
+<li>$ m_1 $ and $ m_2 $ are the masses (in kilograms, kg),</li>
+<li>$ r $ is the distance between the masses (in meters, m).</li>
+</ul>
+<p><strong>Similarities</strong> :</p>
+<ol>
+<li>Both forces are inversely proportional to the square of the distance between the objects.</li>
+<li>Both forces act along the line connecting the two objects.</li>
+</ol>
+<p><strong>Differences:</strong></p>
+<ol>
+<li>Coulomb's force depends on charge, while gravitational force depends on mass.</li>
+<li>Coulomb's force can be attractive or repulsive, while gravitational force is always attractive.</li>
+</ol>
+<h2>Task L2A.2.</h2>
+<p>An electro and proton are placed $1$ µm apart.
+Compute the gravitational force between them and find the distance at which the magnitude of the Coulomb force would be equally strong.</p>
+<p><strong>Given:</strong></p>
+<ul>
+<li>Distance electron-proton for gravitational force: $r_g = 1 \times 10^{-6} \textrm{m}$</li>
+<li>Charge of electron: $ q = -e = -1.602 \times 10^{-19} , \textrm{C}$</li>
+<li>Charge of proton: $ q = e = 1.602 \times 10^{-19} , \textrm{C}$</li>
+<li>Mass of electron: $ m_e = 9.109 \times 10^{-31} , \textrm{kg} $</li>
+<li>Mass of proton: $ m_p = 1.673 \times 10^{-27} , \textrm{kg} $</li>
+<li>$k = 8.988 \times 10^9 , \text{Nm}^2/\text{C}^2 $</li>
+<li>$G = 6.674 \times 10^{-11} , \text{Nm}^2/\text{kg}^2 $</li>
+</ul>
+<p>Set the two forces equal:</p>
+<p>$$ k \cdot \frac{e^2}{r^2} = G \cdot \frac{m_e \cdot m_p}{r_g^2} $$</p>
+<p>$$ r = \sqrt{\frac{k}{G} \cdot \frac{e^2}{m_e \cdot m_p} \cdot r_g^2} $$</p>
+<p>$$ r = 4.762 \times 10^{13} , \text{m}  \approx 47,620 , \text{million km}$$</p>
+<p>To put that into perspective, the distance between pluto and sun is approximately $5,906 , \textrm{million km}$ .</p>
+<h2>Task L2A.3.</h2>
+<p>Compare the relative strength of the Coulomb force and gravitational force between an electron and a proton:</p>
+<p><strong>Given:</strong></p>
+<ul>
+<li>Charge of electron: $ q = -e = -1.602 \times 10^{-19} , \textrm{C}$</li>
+<li>Charge of proton: $ q = e = 1.602 \times 10^{-19} , \textrm{C}$</li>
+<li>Mass of electron: $ m_e = 9.109 \times 10^{-31} , \textrm{kg} $</li>
+<li>Mass of proton: $ m_p = 1.673 \times 10^{-27} , \textrm{kg} $</li>
+<li>$k = 8.988 \times 10^9 , \text{Nm}^2/\text{C}^2 $</li>
+<li>$G = 6.674 \times 10^{-11} , \text{Nm}^2/\text{kg}^2 $</li>
+</ul>
+<p><strong>Solution:</strong>
+$$ \frac{F_{\text{e}}}{F_{\text{g}}} = \frac{k \cdot e^2 \cdot r^2 }{G \cdot m_e \cdot m_p \cdot r^2 } $$</p>
+<p>$$ \frac{F_{\text{e}}}{F_{\text{g}}} = \frac{k \cdot e^2}{G \cdot m_e \cdot m_p} $$</p>
+<p>$$ \frac{F_{\text{e}}}{F_{\text{g}}} = \frac{2.303 \times 10^{-28}}{1.017 \times 10^{-67}} $$</p>
+<p>$$ \frac{F_{\text{e}}}{F_{\text{g}}} = 2.264 \times 10^{39} $$</p>
+<p>The Coulomb force between an electron and a proton is approximately $ 10^{39} $ times stronger than the gravitational force between them.
+This demonstrates the enormous strength of the electromagnetic force compared to gravity.</p>
+<h2>Task L2A.4.</h2>
+<p>Determine the magnitude of the charge, $Q$, that must be placed on both the Earth and the Moon to make the magnitude of the electrostatic force between them equal in to the gravitational force.
+Assume that the Earth and Moon can be treated as point charges located at their respective centers, and that they acquire equal charges.</p>
+<p><strong>Given:</strong></p>
+<ul>
+<li>Earth's mass:  $m_E = 5.972 \times 10^{24} , \text{kg} $</li>
+<li>Moon's mass: $m_M = 7.348 \times 10^{22} , \text{kg} $</li>
+<li>average Earth-Moon distance $ r = 3.844 \times 10^8 , \text{m}$</li>
+<li>$k = 8.988 \times 10^9 , \text{Nm}^2/\text{C}^2 $</li>
+<li>$G = 6.674 \times 10^{-11} , \text{Nm}^2/\text{kg}^2 $</li>
+</ul>
+<p><strong>Solution:</strong>
+$$ G \cdot \frac{m_E \cdot m_M}{r^2} = k \cdot \frac{Q^2}{r^2} $$</p>
+<p>$$ G \cdot m_E \cdot m_M = k \cdot Q^2 $$</p>
+<p>$$ Q = \sqrt{\frac{G \cdot m_E \cdot m_M}{k}} $$</p>
+<p>$$ Q =  5.714 \times 10^{13} , \text{C} $$</p>
+<p>Both the Earth and the Moon would need to have charges of approximately $5.714 \times 10^{13} , \text{C} $ to exert the same magnitude of electrostatic and gravitational force.
+That is an absurd amount of charge, i.e. would require $3.567 \times 10^32$ elementary charges $e$ (number of stars in the observable universe is estimated to be around $10^{24}$ )</p>
+<h2>Conclusion on Electrostatics vs Gravitation</h2>
+<ul>
+<li>Coulomb's force and gravitational force share a similar dependence on distance $1/r^2$, but their magnitudes differ dramatically due to the constants $ k $ and $ G $.</li>
+<li>For charged elementary particles like electrons and protons, the Coulomb force dominates over the gravitational force by many orders of magnitude.</li>
+<li>However, for massive objects like planets and stars, the gravitational force dominates, since astronomical bodies are typically electrically neutral or have negligible net charge. This allows gravity to govern large-scale structures in the universe, such as planetary orbits, galaxy formation, and black holes, despite being vastly weaker at the microscopic scale.</li>
+</ul>
+<hr />
+<h2>Charge distributions and net force</h2>
+<p>Let's investigate the net Coulomb force for different charge distributions.</p>
+<h2>Task L2A.5.</h2>
+<p>Consider two spatially fixed charges, $+2e$ and $+4e$, placed along a straight line.
+Where should an electron be placed along this line so that it experiences zero net force due to these charges?
+Use Coulomb's Law to determine the position relative to one of the charges.</p>
+<p><strong>Given:</strong></p>
+<ul>
+<li>$Q_1 = +2e$</li>
+<li>$Q_2 = +4e$</li>
+<li>$Q_3 = -1e$</li>
+<li>$e = 1.602 \times 10^{-19} , \textrm{C}$</li>
+<li>$x$ as the relative distance between the $Q_1$ and $Q_3$ and $x-1$ relative distance from $Q_2$ to $Q_3$ such that their sum is $1$</li>
+</ul>
+<p><strong>Solution:</strong></p>
+<p>$$F_{31} = F_{32}$$
+$$ k \frac{Q_1 Q_3}{x^2} = k \frac{Q_2 Q_3}{(x-1)^2}$$
+$$ \frac{-2e^2}{x^2} = \frac{-4e^2}{(x-1)^2}$$
+$$ \frac{-2}{x^2} = \frac{-4}{x^2-2x+1}$$
+$$ \frac{1}{x^2} = \frac{2}{x^2-2x+1}$$
+$$ x^2-2x+1 = 2x^2$$
+$$ 0 = x^2 +2x -1$$
+$$ x_{1,2} = - \frac{2}{2} \pm \sqrt{\frac{4}{4} + 1} = -1 \pm \sqrt{2}$$
+$$ x = \sqrt{2} - 1 \approx 0.414 $$</p>
+<hr />
+<h2>Electric field of an electric dipole</h2>
+<p>An electric dipole consists of two equal charges but with opposite sign, i.e. $+Q$ and $-Q$.
+The charges are separated by the distance $l$.</p>
+<h2>Task 2A.6.</h2>
+<p>What is the strength of electric field produced by a dipole (assume no other external electric field present).
+Let think about any point $P$ that is placed perpendicularly away from the bisector of the dipole and at a distance $r$.</p>
+<p><strong>Given:</strong></p>
+<ul>
+<li>distance of each charge to the point $P$ with $R^2=r^2 + \frac{l^2}{4}$ (hypotenuse)</li>
+<li>Coulomb's law in electric field form $E = \frac{1}{4 \pi \varepsilon_0} \frac{Q}{R^2}$</li>
+<li>two fields produced by the positive and negative charge of the dipole, i.e. $\vec{\bf{E_+}}$ and $\vec{\bf{E_-}}$</li>
+<li>the components of the field perpendicular to the bisector cancel each other (in terms of force: repulsion away and attraction towards dipole cancel)</li>
+<li>the magnitude of the fields is $E_+ = E_- = \frac{1}{4 \pi \varepsilon_0} \frac{Q}{r^2 + \frac{l^2}{4}} $</li>
+</ul>
+<p><strong>Solution:</strong>
+$$ \vec{\bf{E}} = \vec{\bf{E_+}} + \vec{\bf{E_-}} $$</p>
+<ul>
+<li>only consider the components along x (y cancels due to symmetry, see above) with the angle $\theta$
+$$ E = 2E_+ \cos \theta = \frac{2}{4 \pi \varepsilon_0} \frac{Q}{r^2 + \frac{l^2}{4}}  $$</li>
+<li>with $\cos \theta = \frac{l}{2\sqrt{r^2 + \frac{l^2}{4}}} $
+$$ E = \frac{2}{4 \pi \varepsilon_0} \frac{Q}{r^2 + \frac{l^2}{4}} \frac{l}{2\sqrt{r^2 + \frac{l^2}{4}}} $$</li>
+</ul>
+<p>$$ E = \frac{1}{4 \pi \varepsilon_0} \frac{Q}{r^2 + \frac{l^2}{4}} \frac{l}{(r^2 + \frac{l^2}{4})^{\frac{1}{2}}} = \frac{1}{4 \pi \varepsilon_0} \frac{Q l}{(r^2 + \frac{l^2}{4})^{\frac{3}{2}}}$$</p>
+<ul>
+<li>with the <strong>dipole moment</strong> $p = Q l$
+$$ E = \frac{1}{4 \pi \varepsilon_0} \frac{p}{(r^2 + \frac{l^2}{4})^{\frac{3}{2}}}$$</li>
+<li>for $l \gg r$:
+$$ E = \frac{1}{4 \pi \varepsilon_0} \frac{p}{r^3}$$</li>
+</ul>
+<p>Thus, the electric field of the dipole decreases rapidly with increasing distance.
+From afar, i.e. $l \gg r$, the two opposite charges $+Q$ and $-Q$ effectively cancel each other.</p>
+<hr />
+<h2>Applications of Gauss's law</h2>
+<p>Lets apply Gauss's law to a non-conducting sphere.</p>
+<h2>Task L2A.7.</h2>
+<p>Derive the electric field of a non-conducting solid sphere of radius $r_0$ and total charge $Q$ which is uniformly distributed within the sphere using Gauss’s law.</p>
+<p><strong>Given:</strong></p>
+<ul>
+<li>solid sphere of charge with total charge $Q$ uniformly distributed throughout its volume</li>
+<li>radius of the sphere is $r_0$</li>
+<li>seek the electric field $\vec{\bf{E}}$ at a distance $r$:<ul>
+<li><strong>Outside the sphere</strong>: $r &gt; r_0$</li>
+<li><strong>Inside the sphere</strong>: $r &lt; r_0$</li>
+</ul>
+</li>
+<li>Gauss’s law:
+$$ \oint_S \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\text{enc}}}{\varepsilon_0} $$</li>
+</ul>
+<p><strong>Solution:</strong></p>
+<p><em>Case 1:  outside the sphere $ (r &gt; r_0) $</em></p>
+<ul>
+<li><p>choose a Gaussian surface:</p>
+<ul>
+<li>since the charge is <strong>spherically symmetric</strong>, we choose a <strong>spherical Gaussian surface</strong> of radius $r$, centered at the origin</li>
+<li>charge enclosed by this surface is the total charge $Q$</li>
+</ul>
+</li>
+<li><p>apply Gauss’s law:
+$$ \oint_S E dA = \frac{Q}{\varepsilon_0} $$</p>
+</li>
+<li><p>since $E$ is constant over the sphere and $\oint_S dA = 4 \pi r^2$:
+$$ E (4\pi r^2) = \frac{Q}{\varepsilon_0} $$
+$$ E = \frac{Q}{4\pi \varepsilon_0 r^2} $$</p>
+</li>
+</ul>
+<p>This is identical to the field of a <strong>point charge</strong> ( Q ), meaning a <strong>spherically symmetric charge distribution behaves like a point charge outside</strong>.</p>
+<p><em>Case 2: inside the sphere $(r &lt; r_0)$</em></p>
+<ul>
+<li>total charge is uniformly distributed throughout the volume</li>
+<li><strong>charge density</strong> $\rho$ is:
+$$ \rho = \frac{Q}{\frac{4}{3} \pi r_0^3} $$</li>
+<li>charge enclosed within a sphere of radius $r$ is:
+$$ Q_{\text{enc}} = \rho \cdot \frac{4}{3} \pi r^3 $$
+$$ Q_{\text{enc}} = \frac{Q}{\frac{4}{3} \pi r_0^3} \cdot \frac{4}{3} \pi r^3 $$</li>
+</ul>
+<p>$$ Q_{\text{enc}} = Q \frac{r^3}{r_0^3} $$</p>
+<ul>
+<li>apply Gauss’s law:<br />
+$$ \oint_S E dA = \frac{Q_{\text{enc}}}{\varepsilon_0} $$
+$$ E (4\pi r^2) = \frac{Q r^3}{\varepsilon_0 r_0^3} $$
+$$ E = \frac{Q}{4\pi \varepsilon_0 r_0^3} \cdot r $$</li>
+</ul>
+<p>This shows that <strong>inside the sphere, the electric field increases linearly with $r$.</strong></p>
+<p><strong>Summary:</strong><br />
+$$
+\mathbf{E} =
+\begin{cases}
+\frac{Q}{4\pi \varepsilon_0 r^2}, &amp; r &gt; r_0 \quad \text{(Outside the sphere, behaves like a point charge)} \
+\frac{Q}{4\pi \varepsilon_0 r_0^3} r, &amp; r &lt; r_0 \quad \text{(Inside the sphere, increases linearly with ( r ))}
+\end{cases}
+$$</p>
+<hr />
+<h2>Potential &amp; voltage</h2>
+<p>Lets investigate the electric potential of a point charge which, eventually, give use the <em>Coulomb potential equation</em>.</p>
+<h2>Task L2A.8.</h2>
+<p>Express the electric potential of a point charge.</p>
+<p><strong>Given:</strong></p>
+<ul>
+<li>investigate the potential difference, i.e. voltage between point $A$ and $B$: $V_{BA} = - \int_{A}^{B} \vec{\bf{E}} d\vec{\bf{l}} $</li>
+<li>the distance for point $A$ &amp; $B$ are $r_A$ &amp; $r_B$, respectively</li>
+<li>electric field due to a point charge is $ E= \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2} $ (Coulomb's law in electric field form)</li>
+<li>for the integral and a positive point charge $Q$, we consider paths oriented radially away from the charge in the symmetrical electrical field, i.e. the path $d\vec{\bf{l}}$ becomes $dr$</li>
+</ul>
+<p><strong>Solution:</strong></p>
+<ul>
+<li>combining all we know, the electric potential of a point charge can be expressed as:</li>
+</ul>
+<p>$$ V_{BA} = - \int_{A}^{B} \vec{\bf{E}} d\vec{\bf{l}} = - \frac{Q}{4 \pi \epsilon_0} \int_{r_A}^{r_B} \frac{1}{r^2} d r = -\frac{1}{4 \pi \epsilon_0} (\frac{Q}{r_B} - \frac{Q}{r_A}) $$</p>
+<ul>
+<li>if we set the electric potential zero at infinity: $V_B = 0 \textrm{ at } r_B = \infty$, we obtain the voltage $V$ at the distance $r$ of a point charge:</li>
+</ul>
+<p>$$ V = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r} \quad \textrm{for a point charge with } V=0 \textrm{ at } r=\infty$$</p>
+<p>This expression is also called the <em>Coulomb potential</em> as it originates from Coulomb's law.
+The potential is zero at infinity and increase (decreases) linearly towards the positive (negative )charge.</p>
+<p><strong>FYI:</strong> We can apply the principle of <em>superposition</em> to compute the potential due an <em>arbitrary charge distribution</em> by computing first the potential for each charge individually and, subsequently, obtain the total potential  by integrating over the potentials of all individual charges:</p>
+<p>$$ V = \frac{1}{4 \pi \epsilon_0} \int \frac{dq}{r} $$</p>
+<p>with $dq$ being a infinitesimal small portion of the charge and $r$ its distance of the point where $V$ should be determined.</p>
+
+            
+        <script>
+            MathJax = {
+                tex: {
+                    inlineMath: [['$', '$']],
+                    displayMath: [['$$', '$$']]
+                },
+                svg: {
+                    fontCache: 'global'
+                }
+            };
+        </script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+        
+        </body>
+        </html>
+        
