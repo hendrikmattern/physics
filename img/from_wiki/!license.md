@@ -49,3 +49,27 @@
 <img src="../img/from_wiki/ElectricCurrent.gif" alt="ElectricCurrent.gif" width="500"/>
 
 *<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:ElectricCurrent.gif) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en), unedited</sub>*
+
+---
+
+<img src="../img/from_wiki/Circuit_elements_cropped.svg.png" alt="Circuit elements" width="500"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Circuit_elements.svg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en), cropped</sub>*
+
+---
+
+<img src="../img/from_wiki/Stromknoten.svg.png" alt="Kirchhoff junction rule" width="500"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Stromknoten.svg) public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Kirshhoff-example.svg.png" alt="Kirchhoff loop rule" width="500"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Kirshhoff-example.svg) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Simple-RC-circuit.png" alt="RC_circuit" width="500"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Simple-RC-circuit.png) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
