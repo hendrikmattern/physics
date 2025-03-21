@@ -7517,7 +7517,10 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="2.9.-...">2.9. ...<a class="anchor-link" href="#2.9.-...">¶</a></h1>
+<h1 id="2.9.-Geometrical-optics:-Refection-&amp;-refraction">2.9. Geometrical optics: Refection &amp; refraction<a class="anchor-link" href="#2.9.-Geometrical-optics:-Refection-&amp;-refraction">¶</a></h1><p>Nowadays we know that light has particle and wave properties, a concept known as <em>wave-particle duality</em>.
+However, when light interacts with objects much larger than its tiny wavelength, its wave nature becomes less significant.
+In such scenarios, we can effectively approximate light as traveling in straight lines called rays.
+Geometric optics is this simplified model that allows us to understand <em>reflection &amp; refraction</em> as well as (in the next chapter) lenses and optical instruments.</p>
 </div>
 </div>
 </div>
@@ -7527,6 +7530,281 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="2.9.1-Ray-model-of-light">2.9.1 Ray model of light<a class="anchor-link" href="#2.9.1-Ray-model-of-light">¶</a></h1><p>The <strong>ray model of light</strong> assumes that <em>light travels in straight-line path</em>, the so-called <em>light rays</em>.
+Each ray is assumed to be an extremely narrow beam of light.</p>
+<p>This assumption of light moving in straight lines, is how we perceive and interpret our surrounding in daily life.
+While this assumption is reasonable in many circumstance it also gives rise to a number of interesting effects (see later).</p>
+<p>We will use the ray model to explain <em>reflection</em> and <em>refraction</em>.
+In a subsequent chapter, the wave aspect of light will be investigated to understand <em>interference</em>, <em>polarization</em> and <em>diffraction</em>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="2.9.2.-Reflection">2.9.2. Reflection<a class="anchor-link" href="#2.9.2.-Reflection">¶</a></h1><p>When light reaches a surface, it is either <em>reflected</em>, <em>absorbed</em> (transformed to thermal energy), and <em>transmitted</em> (if surface is not opaque).
+<em>Mirrors</em> are designed to reflect most of the light that reaches them.
+A single ray of light reaching a plane mirror will be reflected.
+The angle at which the ray will be reflected can be found by the following steps:</p>
+<ol>
+<li>find the <em>normal perpendicular to the surface</em></li>
+<li>find the <em>angle of incidence</em> $\theta_i$, defined as the angle between the normal and the incident ray</li>
+<li>the <em>angle of reflection</em> $\theta_r$, defined as the angle between the normal and the reflected ray, is equal to the angle of incidence</li>
+</ol>
+<p>Thus, the <strong>law of reflection</strong> states, <strong>the angle of incidence and the angle of reflection are equal $\theta_i = \theta_r$</strong>.</p>
+<p>This concept can be extended to <em>non-planar surfaces</em>.
+For each ray the normal is found individually.
+As most surfaces in daily life are on a microscopical scale non-planar, the will <em>reflect light into many direction</em>.
+This is called <strong>diffuse reflection</strong> and the reason why the can see objects from various orientation.</p>
+<p>In contrast, <strong>specular reflection</strong> reflects an array of parallel rays all at the same reflection angle ("Speculum" is Latin for mirror).
+Thus, an object is only visible if our eyes are a the right position w.r.t. mirror to "catch" the reflected rays.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>interactive(children=(IntSlider(value=1, description='Number of Rays', max=10, min=1), IntSlider(value=80, des…</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;function __main__.plot_reflection(num_rays, mirror_angle, ray_shift, bumpy_mirror)&gt;</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="2.9.2-Image-formation-at-plane-mirrors:-Real-vs.-virtual-images">2.9.2 Image formation at plane mirrors: Real vs. virtual images<a class="anchor-link" href="#2.9.2-Image-formation-at-plane-mirrors:-Real-vs.-virtual-images">¶</a></h2><p>Plane mirror are common in daily life, yet they are somewhat bizarre.
+Things appear to be behind the mirror's surface and directions behave strangely: up and down are the same, but left and right are swapped.</p>
+<p>To understand this, lets consider an object in front of a plane mirror.
+Let's consider two points of the object and two rays come from each point.
+The four rays are reflected at the mirror (obeying $\theta_i = \theta_r$) and reach our eye.
+Obviously the real object is in front of mirror, but we perceive is as being behind/inside the mirror.
+Interestingly, the distance of the object and mirrored image to the mirror appear to be the same.
+We call these distances <strong>object distance $d_o$</strong> (distance object to mirror, measure perpendicular to the mirror) and <strong>image distance $d_i$</strong> (distance image to mirror, measure perpendicular to the mirror) and they are <strong>equal $d_o=d_i$</strong> (true only for plane mirror).
+Further, the object's height is the same as the image's height.</p>
+<p>How does this work?
+Let's do a ray reconstruction (see simulation below).
+Beyond the incident and reflecting rays we have to extend the reflecting rays "behind" the mirror.
+Where these extended rays intersect, a <strong>image point</strong> is formed.
+The image points for all points of the object appear at the same distance as the object is positioned from the mirror, generating the mirrored object.
+We know that there is no real object inside the mirror.
+Therefore, we call this image an <strong>virtual image</strong>, i.e. the rays do not cross there, only there extension.
+In contrast, <strong>real images</strong> are generated in rays intersect.
+In other words, we could hold a piece of paper where the real image is produced a see a projection.
+This would not work for virtual images as the rays do not intersect.
+Our brains are "wired" to interpret diverging rays as images, regardless if there come from an virtual or real source.</p>
+<p>Another way to differentiate between virtual and real images is by considering their location relative to the optical instrument (i.e. lenses, see next chapter).
+For an object positioned off-center with respect to a relevant axis, a real image typically forms on the opposite side, while a virtual image appears on the same side.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>interactive(children=(FloatSlider(value=1.5, description='Object Distance', max=3.0, min=0.5), Output()), _dom…</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;function __main__.plot_image_formation(object_distance)&gt;</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="2.9.3-Image-formation-at-curved-mirrors">2.9.3 Image formation at curved mirrors<a class="anchor-link" href="#2.9.3-Image-formation-at-curved-mirrors">¶</a></h2><p>Curved mirrors are typically spherical and can be differentiated as:</p>
+<ul>
+<li><strong>convex</strong>: surface bulged towards viewer; extend the field of view; e.g. rear view mirrors</li>
+<li><strong>concave</strong>: surface bulged inwards (like a cave), magnifying mirrors; e.g. shaving/cosmetics mirrors</li>
+</ul>
+<p>Mirrors (and lenses) have <strong>focal points</strong> and a <strong>focal length</strong>.
+To define these entities, we need incoming rays parallel to the <strong>principle axis</strong>.
+The principle axis is defined as the straight line perpendicular to the spherical surface a the center of the mirror.
+By considering an <em>object infinitely far away</em> from the mirror (e.g. the Sun), we <em>obtain parallel rays</em>.
+In case of a concave mirror, these incident parallel rays will be reflected and all reflected rays intersect at a single point, the so-called <strong>focal point F</strong>.
+In other words, the focal point is the image point of an object positioned infinitely away from the mirror.
+For an convex mirror, not the reflected rays but their extension will intersect in the focal point (virtual point).
+The focal point is positioned on the principle axis and its distance to the mirror along the principle axis, is the so-called <strong>focal length f</strong>.
+Interestingly, for spherical mirrors the radius $r$ of the curvature is twice the focal length $f$:
+$$f = \frac{r}{2} \quad \leftrightarrow \quad r = 2 f$$</p>
+<p>Strictly speaking, this is only true if the spherical mirror is small compared to its curvature radius, i.e. the reflected rays have only a small angle w.r.t. principle axis, i.e. <strong>paraxial rays</strong> (very useful assumption in geometric optics).
+The reason for this is <strong>spherical aberration</strong>.
+Spherical aberration (discussed more for lenses in the next chapter) is an imaging artifact/imperfection and causes the reflecting rays to not perfectly intersect in a single point but rather in a blurry, less focused region.
+<strong>Parabolic reflectors</strong> show no spherical aberration but are more challenging, thus expansive, to make.
+However, for the remainder of this chapter, we will neglect spherical aberration.</p>
+<h4 id="Image-formation-via-ray-tracing">Image formation via ray tracing<a class="anchor-link" href="#Image-formation-via-ray-tracing">¶</a></h4><p>We know that an object infinitely far away creates an image at the focal point (real for concave and virtual for convex mirrors), but what if the object is considerably closer (but still $\geq f=\frac{r}{2}$ away from the mirror)?
+To construct the image in this case, we need at least 2 of these 3 rays and their intersection is where the image is generated:</p>
+<ul>
+<li><strong>parallel ray</strong>: ray parallel to the primary axis</li>
+<li><strong>focal point ray</strong>: ray going through the focal point at distance $f$</li>
+<li><strong>central point ray</strong>: ray going through the central point at distance $r$</li>
+</ul>
+<p>For <strong>concave mirrors</strong>, the parallel ray will be reflected by the mirror and becomes a focal point ray.
+The focal point ray will be reflected by the mirror and become a parallel ray.
+Already the intersection of these two rays tells us where the image form.
+The third ray, i.e. central point ray, is by definition perpendicular to the mirror (ray along a imaginary radius line).
+Thus, the ray will be reflected perpendicular from the mirror and intersecting with the other two rays at the image point.</p>
+<p>For <strong>convex mirrors</strong>, the same rays are used but they must be extended "behind" the mirror.
+The intersection of the extended rays shows were the virtual image is formed.</p>
+<p><strong>Note:</strong> convex mirrors (and lenses) always produce virtual images, regardless of the focal length or the position of the object.</p>
+<h4 id="Mirror-equation">Mirror equation<a class="anchor-link" href="#Mirror-equation">¶</a></h4><p>We define the <strong>object distance</strong> $d_o$ as the distance between the mirror and the object along the principal axis.
+Analogously, we define the <strong>image distance</strong> $d_i$ as the distance between the image and the mirror along the principle axis.
+Further, we need the <strong>object height</strong> $h_o$ and the <strong>image height</strong> $h_i$ to put everything into relation.
+From the ratio of the heights and distances (similar triangle), respectively, we can derive the <strong>mirror equation</strong>:
+$$\frac{h_0}{h_i}=\frac{d_0}{d_i}$$
+Due to similar triangles in our ray diagram we see that the heights relate to the distance $d_0 -f$ and $f$:
+$$\frac{h_0}{h_i}=\frac{d_0-f}{f}=\frac{d_0}{d_i}$$
+By rearranging, we obtain the final <strong>mirror equation</strong> which relates the distances of object and image via the focal length ($f=\frac{r}{2}$):
+$$\frac{1}{d_0} + \frac{1}{d_i} = \frac{1}{f}$$</p>
+<p>Note that for an infinitely far away object, i.e. $d_0 = \infty$, we obtain $d_i = f$, as expected.
+Further, for a plane mirror, i.e. $f=\frac{r}{2}=\infty$, we obtain $d_i = -d_o$ (virtual image at same distance but behind mirror).</p>
+<h4 id="Magnification">Magnification<a class="anchor-link" href="#Magnification">¶</a></h4><p><strong>Lateral magnification</strong> is defined as:
+$$m=\frac{h_i}{h_o}=-\frac{d_i}{d_0}$$</p>
+<p><strong>sign convention:</strong></p>
+<ul>
+<li>object height $h_o$ is always <em>positive</em></li>
+<li>image height $h_i$ is <em>positive</em> if the image is <em>upright</em>; it is <em>negative</em> if the image is inverted</li>
+<li>distances, i.e. $d_i$ &amp; $d_o$, are <em>positive</em> if <em>in front of mirror</em>, <em>negative</em> if <em>behind mirror</em></li>
+</ul>
+<p>For example, a magnification $m\geq1$ means that the image is at least as big as the object and upright.</p>
+<p><strong>Angular magnification</strong> reflects better our perception of magnification in daily life as it compares two images instead of the image to the object (like lateral magnification):
+$$M=\frac{\theta_C}{\theta_P}$$
+In essence, in this context, it compares the apparent size of the image formed by a convex/concave mirror (suffix $C$) with the apparent size of the object as seen in a plane mirror (suffix $P$)  when the object is at the same distance from both mirrors.
+For the same object, the angles are the angles subtended by the respective views at the observer's eye. The angles $\theta_C$ &amp; $\theta_P$ describe the apparent size of the object as seen through the curved mirror and the plane mirror, respectively.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>interactive(children=(FloatSlider(value=6.0, description='Object Distance', max=10.0, min=2.0, step=0.5), Floa…</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;function __main__.plot_concave_mirror(object_distance, focal_length, object_height)&gt;</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>interactive(children=(FloatSlider(value=9.0, description='Object Distance', max=10.0, min=1.0), FloatSlider(va…</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="2.9.4-Refraction-&amp;-Snell's-law">2.9.4 Refraction &amp; Snell's law<a class="anchor-link" href="#2.9.4-Refraction-&amp;-Snell's-law">¶</a></h2><p>The speed of light is $c\approx 300 \times 10^6 m/s$ in vacuum (virtually the same for air).
+If light is traveling though other (transparent) materials, its speed is decreased (e.g. in water $\approx \frac{3}{4}c$) due to absorption and re-emission of light by the atoms in the material.
+The <strong>index of refraction</strong> $n$ is defined as:
+$$n = \frac{c}{v}$$</p>
+<p>Typical values are: $n=1.33$ and $n=1.46$ for water and glass, respectively.</p>
+<p>If light travels from one transparent medium to another one with a different index of refraction, <strong>reflection</strong> and <strong>refraction</strong> occur at the boundary.
+While a certain portion of the light is reflected (see section before), due transparency, a fraction of the light is <strong>transmitted</strong> into the other medium.
+However, due to the different index of refraction, the light's direction changes.
+This "bending" of the light towards or away from the normal (w.r.t. boundary surface), is described by <strong>Snell's law</strong> (Willebrord Snell, 1591 - 1626)
+$$ n_1 \sin \theta_1 = n_2 \sin \theta_2 $$</p>
+<p>with $\theta_1$ as the angle of incidence, $\theta_2$ as the angle of refraction, and $n_1$ &amp; $n_2$ as the respective index of refraction.
+Form the <strong>law of refraction</strong>, we conclude that bending towards the normal occurs if $n_2 &gt; n_1$, i.e. the speed of light is slower in the second medium.
+Refraction is the reason why we perceive optical illusions at for example the air-water-surface.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="2.9.5-Total-reflection">2.9.5 Total reflection<a class="anchor-link" href="#2.9.5-Total-reflection">¶</a></h2><p>An incident ray can be refracted and reflected at the boundary between two transparent mediums, there are scenarios in which no transmission into the second medium occurs.
+According to Snell's law, the angle of refraction depends on the two indexes of refraction and the incident angle.
+If the angle of refraction is at least 90 degrees, no light is transmitted into the other medium.
+This is the so-called <strong>critical angle</strong> $\theta_c$ and it can be simply derived from Snell's law as:
+$$ n_1 90\textrm{°}= n_2 \sin \theta_c $$
+$$ \theta_c = \frac{n_1}{n_2}$$</p>
+<p>If the angle of refraction is greater than 90 degrees, <strong>total internal reflection</strong> occurs.
+This can only occur if light travels from a medium with higher to a medium with lower refraction index ($n_1 &gt; n_2$).</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>interactive(children=(FloatSlider(value=1.0, description='n1', max=2.0, min=1.0, step=0.01), FloatSlider(value…</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;function __main__.plot_refraction(n1, n2, theta_incident)&gt;</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="2.9.6-Dispersion-and-the-visible-spectrum">2.9.6 Dispersion and the visible spectrum<a class="anchor-link" href="#2.9.6-Dispersion-and-the-visible-spectrum">¶</a></h2><p>The index of refraction $n$ is actually depending on the wavelength $\lambda$.
+Thus, depending on the wave length, the degree of refraction changes.
+This is the reason why we see rainbows, but let's start more general:
+Light can have different <strong>color</strong> and <strong>intensity</strong>.
+While the intensity, i.e. brightness, depends on the energy per unit area and unit time, the color of light is represented by its wavelength (or frequency).</p>
+<p>In the previous chapter we defined the relation of wavelength and frequency via the speed of light <em>in vacuum</em>, i.e. $\lambda=\frac{c}{f}$.
+Let's be more general and define the wavelength of an electromagnetic wave in a medium as $\lambda_n$.
+The wavelength in the medium will be the speed of light within that medium $v$ divided by frequency $f$, which gives us the following insight:
+$$\lambda_n = \frac{v}{f} = \frac{c}{nf} = \frac{\lambda}{n}$$</p>
+<p>Thus, the frequency is independent of the medium light travels through (because as the wave travels though two different mediums, atoms next to each other will vibrate with the same/similar frequency, even at boundaries; no abrupt changes in frequency).
+Most likely, that is the reason why our brain's can interpret "red" as "red" in air and underwater (cells in the eye's retina being frequency and not wavelength sensitive).</p>
+<p>As while light is the superposition of all different wavelengths, a simple triangle of glass, a so-called prism, can be used to decompose white light into its components.
+This wavelength-dependent refraction of white light into is <strong>spectrum</strong> is called <strong>dispersion</strong>.
+Visible light is only a small part of the electromagnetic spectrum.
+In air, violet light has a wavelength of $400$ nm ($f \approx 7.5 \times 10^{14}$ Hz) and wavelengths shorter that that are from the so-called <strong>ultraviolet</strong> (UV) spectrum.
+Red light has a wavelength of $700$ nm ($f \approx 4.3 \times 10^{14}$ Hz) and wavelengths longer that that are from the so-called <strong>infrared</strong> (IR) spectrum.</p>
 </div>
 </div>
 </div>

@@ -7528,13 +7528,13 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="2.2.1.-Electric-flux">2.2.1. Electric flux<a class="anchor-link" href="#2.2.1.-Electric-flux">¶</a></h2><p>For a uniform electric field, the electric flux $\Phi_E$ of the field $\vec{\bf{E}}$ through an area $A$ is given by:
-$$ \Phi_E = \vec{\bf{E}} \vec{\bf{A}} $$
+$$\Phi_E = \vec{\bf{E}} \vec{\bf{A}}$$
 with $\vec{\bf{A}}$ as the vector perpendicular to the surface of $A$ and a magnitude of $A$</p>
 <p>Using $\cos \theta$ as the angle between $\vec{\bf{E}}$ &amp; $\vec{\bf{A}}$, the equation can be rewritten as:
-$$ \Phi_E = E A \cos \theta = E_{\perp} A = E A_{\perp} $$
+$$\Phi_E = E A \cos \theta = E_{\perp} A = E A_{\perp}$$
 Depending on the interpretation, either the field component perpendicular to the area, or the projection of $A$ perpendicular to $E$ is considered.</p>
 <p>Most importantly, the electric flux relates to the field lines, i.e. the strength of the electric field being represented by the density of field lines. Or framed differently, the number of field lines $N$ passing through an area perpendicular to the field is proportional to the electric flux:
-$$ N \propto E A_{\perp} = \Phi_E$$</p>
+$$N \propto E A_{\perp} = \Phi_E$$</p>
 </div>
 </div>
 </div>
@@ -7557,9 +7557,9 @@ $$ N \propto E A_{\perp} = \Phi_E$$</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Integral-form-of-electric-flux-over-a-closed-surface">Integral form of electric flux over a closed surface<a class="anchor-link" href="#Integral-form-of-electric-flux-over-a-closed-surface">¶</a></h3><p>For an arbitrary surface $\vec{\bf{A}}$, we can decompose the surface into into infinitesimal small areas $d\vec{\bf{A}}$. For each $d\vec{\bf{A}}$, the electric field within the area element is considered uniform and the area itself can be considered flat. This yields:</p>
-<p>$$ \Phi_E = \int \vec{\bf{E}} d\vec{\bf{A}} $$</p>
+<p>$$\Phi_E = \int \vec{\bf{E}} d\vec{\bf{A}}$$</p>
 <p>For Gauss's law, we need to consider the <em>total flux through a closed surface</em>. Hence, we use the integral of a closed surface $\oint$ and get:
-$$ \Phi_E = \oint \vec{\bf{E}} d\vec{\bf{A}} $$</p>
+$$\Phi_E = \oint \vec{\bf{E}} d\vec{\bf{A}}$$</p>
 <h3 id="Conventions-for-the-electric-flux-over-a-closed-surface">Conventions for the electric flux over a closed surface<a class="anchor-link" href="#Conventions-for-the-electric-flux-over-a-closed-surface">¶</a></h3><p>By convention the following is defined:</p>
 <ul>
 <li>$d\vec{\bf{A}}$ points outwards from the surface of enclosed volume</li>
@@ -7611,34 +7611,34 @@ $$ \Phi_E = \oint \vec{\bf{E}} d\vec{\bf{A}} $$</p>
 <li>the $\vec{\bf{E}}$ field will oriented radially w.r.t. enclosed charge</li>
 <li>the field line will penetrate the spherical surface perpendicular and, therefore, will be parallel to the vector $d\vec{\bf{A}}$</li>
 <li>the field will have the same magnitude throughout the surface, since the charge is centered inside the sphere and, therefore, the surface having the distance $r$ to the charge everywhere</li>
-<li>the area of the spherical surface is $\oint dA = 4\pi r^2 $</li>
+<li>the area of the spherical surface is $\oint dA = 4\pi r^2$</li>
 </ul>
-<p>$$ \frac{Q_{enc}}{\epsilon_0} = \oint \vec{\bf{E}} d\vec{\bf{A}} = \oint E dA = E \oint dA = 4 \pi r^2 E $$</p>
+<p>$$\frac{Q_{enc}}{\epsilon_0} = \oint \vec{\bf{E}} d\vec{\bf{A}} = \oint E dA = E \oint dA = 4 \pi r^2 E$$</p>
 <p>With, $Q_{enc} = Q$, we obtain Coulomb's law in the electric field form:
-$$ E= \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2} $$</p>
+$$E= \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2}$$</p>
 <p>While a spherical surface was convenient in the above thought experiment, any surface could have been used, providing the identical solution. As long as the same charge distribution is enclosed, the choice of surface will not affect the number of field lines passing through the surface. Hence, the electric flux will be the same regardless if a spherical surface $A_1$ or an arbitrarily shaped surface $A_2$ is considered:
-$$ \oint_{A1} \vec{\bf{E}} d\vec{\bf{A}} = \oint_{A2} \vec{\bf{E}} d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0}$$</p>
+$$\oint_{A1} \vec{\bf{E}} d\vec{\bf{A}} = \oint_{A2} \vec{\bf{E}} d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0}$$</p>
 <p>Coulomb's law and Gauss's law can be applied to electrics fields produced by static electric charges. Beyond that, i.e. studying electric field due to changing magnetic fields, only  Gauss's law is applicable, hence, Gauss's law is considered to be more general description of electric fields.</p>
 <!--- todo: Figures-->
 <h3 id="Superposition-&amp;-Gauss's-law">Superposition &amp; Gauss's law<a class="anchor-link" href="#Superposition-&amp;-Gauss's-law">¶</a></h3><p>Confirmed by experiments, the principle of superposition is applicable to the Gauss's law. Therefore, the enclosed charges and their net electric flux can be determined by considering portions of the enclosed charges individually and integrating over the sum of their respective fluxes:</p>
-<p>$$ \oint \vec{\bf{E}} d\vec{\bf{A}} = \oint (\sum_i \vec{\bf{E}}_i) d\vec{\bf{A}} = \frac{\sum_i Q_{i}}{\epsilon_0} = \frac{Q_{enc}}{\epsilon_0}$$</p>
+<p>$$\oint \vec{\bf{E}} d\vec{\bf{A}} = \oint (\sum_i \vec{\bf{E}}_i) d\vec{\bf{A}} = \frac{\sum_i Q_{i}}{\epsilon_0} = \frac{Q_{enc}}{\epsilon_0}$$</p>
 <h3 id="Applications-of-Gauss's-law">Applications of Gauss's law<a class="anchor-link" href="#Applications-of-Gauss's-law">¶</a></h3><!--- todo: more details; Figures-->
 <ul>
-<li>point charge: $ E= \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2} $</li>
+<li>point charge: $E= \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2}$</li>
 <li>charged spherical conducting shell:<ul>
-<li>outside $ E= \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2} $</li>
-<li>inside $ E = 0$</li>
+<li>outside: $E= \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2}$</li>
+<li>inside: $E = 0$</li>
 </ul>
 </li>
 <li>solid charged non-conducting sphere:<ul>
-<li>outside $ E= \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2} $</li>
-<li>inside $ E= \frac{1}{4 \pi \epsilon_0} \frac{Q}{r_0^3}r $</li>
+<li>outside: $E= \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2}$</li>
+<li>inside: $E= \frac{1}{4 \pi \epsilon_0} \frac{Q}{r_0^3}r$</li>
 </ul>
 </li>
-<li>long uniform line of charge:  $ E= \frac{1}{2 \pi \epsilon_0} \frac{\lambda}{R} $ with $\lambda$ as the charge per unit length</li>
-<li>infinite plane of charge: $ E = \frac{\sigma}{2 \epsilon_0}$ with $\sigma$ as the charge per unit area</li>
-<li>near any conducting surface: $ E = \frac{\sigma}{\epsilon_0}$ (can be imagined as side of a plane, thus field appears only on one side)</li>
-<li>between two closely spaced oppositely charged, parallel plates: $ E = \frac{\sigma}{\epsilon_0}$</li>
+<li>long uniform line of charge: $E= \frac{1}{2 \pi \epsilon_0} \frac{\lambda}{R}  \quad \textrm{with} \, \lambda \, \, \textrm{as the charge per unit length}$</li>
+<li>infinite plane of charge: $E = \frac{\sigma}{2 \epsilon_0} \quad \textrm{with} \, \sigma \, \textrm{as the charge per unit area}$</li>
+<li>near any conducting surface (can be imagined as side of a plane, thus field appears only on one side): $E = \frac{\sigma}{\epsilon_0}$</li>
+<li>between two closely spaced oppositely charged, parallel plates: $E = \frac{\sigma}{\epsilon_0}$</li>
 </ul>
 <p>Reminder: There cannot be any net charge within the conductor, only on its surface. Otherwise forces within the conductor would act on the electrons.</p>
 </div>
@@ -7661,7 +7661,7 @@ Further, the change in energy is independent of the path taken.</p>
 Since the electric field $E$ is defined as the force per unit charge $E = \frac{F}{q}$, we obtain:</p>
 <p>$$W = Fd = qEd$$</p>
 <p>Because the change in potential energy $\Delta U$ is equal in magnitude but opposite in sign to the work, we get:
-$$ \Delta U = U_B - U_A = -W  \quad \textrm{in [J]}$$</p>
+$$\Delta U = U_B - U_A = -W  \quad \textrm{in [J]}$$</p>
 <p>In line with mechanics, potential energy is transformed into kinetic energy $K$ while the total amount of energy is conserved.
 However, there is a conceptional difference to gravitation which we need to consider:
 While mass is positive, charge can be negative and positive.
@@ -7676,19 +7676,19 @@ The closer a particle is to the plate of the same polarity, the higher the elect
 <h3 id="Voltage:-The-difference-in-electric-potential">Voltage: The difference in electric potential<a class="anchor-link" href="#Voltage:-The-difference-in-electric-potential">¶</a></h3><p>The electric potential $V$ is defined as electric potential energy per unit charge.
 Note how electric potential is formulated analogously to the electric field (force per unit charge).
 The potential at point $A$ depends on the electric potential energy at that point divided by the charge:</p>
-<p>$$ V_A = \frac{U_A}{q}  $$</p>
+<p>$$V_A = \frac{U_A}{q}$$</p>
 <p>Like in mechanics, the potential energy at a point in space alone is not very informative, only <em>differences in potential energy</em> can be measured.
 Following the analogy with mechanics, we can chose the <em>point of zero electrical potential energy</em> arbitrarily.
 Commonly the Earth, i.e. <em>ground</em>, or a distance at infinity, i.e. $V_x = 0 \textrm{ at } r_x = \infty$, are used.</p>
 <p>In general, the potential difference between point $A$ and $B$ is :</p>
-<p>$$ V_{BA} = V_B - V_A \quad \textrm{in [J/C] =[V]}$$</p>
+<p>$$V_{BA} = V_B - V_A \quad \textrm{in [J/C] =[V]}$$</p>
 <p>Acknowledging Alessandro Volta's (1745-1827, inventor of the electric battery) contribution to the field, we refer to Joules per Coulomb $\textrm{J}/\textrm{C}$ as <em>volt</em> $\textrm{V}$ and, consequently, the potential difference as <em>voltage</em>.</p>
 <p>To summarize:</p>
 <ul>
 <li>electric potential is defined for a single point in space, i.e. $V_A$.</li>
 <li>we can only measure potential difference, i.e. voltage,</li>
 <li>we can define arbitrarily a reference point with zero electric potential, typically using ground</li>
-<li>the voltage $V_BA$ between $A$ and $B$ is the potential difference $V_{BA} = V_B - V_A$.</li>
+<li>the voltage $V_{BA}$ between $A$ and $B$ is the potential difference $V_{BA} = V_B - V_A$.</li>
 </ul>
 <h3 id="Putting-it-all-together">Putting it all together<a class="anchor-link" href="#Putting-it-all-together">¶</a></h3><p>We can combine the following into one equation:</p>
 <ul>
@@ -7696,10 +7696,10 @@ Commonly the Earth, i.e. <em>ground</em>, or a distance at infinity, i.e. $V_x =
 <li>electric potential is electric potential energy over unit charge</li>
 <li>changes in electric potential energy are equal in magnitude but opposite in sign to the performed work</li>
 </ul>
-<p>$$ V_{BA} = V_B - V_A = \frac{U_B - U_A}{q} = \frac{\Delta U_{BA}}{q} =- \frac{W_{BA}}{q} $$</p>
+<p>$$V_{BA} = V_B - V_A = \frac{U_B - U_A}{q} = \frac{\Delta U_{BA}}{q} =- \frac{W_{BA}}{q}$$</p>
 <p>This gives us the following insides:</p>
 <ul>
-<li>the electric potential difference, i.e. voltage, causes a charge to move from $A$ to $B$ which causes a difference in potential energy of the charge equal to: $ \Delta U_{BA} = q V_{BA}$</li>
+<li>the electric potential difference, i.e. voltage, causes a charge to move from $A$ to $B$ which causes a difference in potential energy of the charge equal to: $\Delta U_{BA} = q V_{BA}$</li>
 <li>as acquired energy directly relates to work, voltage is a measure of how much work a charge "can do"</li>
 </ul>
 <p>Therefore, the work as well as electric potential energy will depend on the charge and voltage $W_{BA} = -q V_{BA} $.
@@ -7723,11 +7723,11 @@ Therefore, it can be handy to work with the potential if possible.
 Let's investigate the relation between electric potential and electric field by first revisiting mechanics and subsequently apply our knowledge about electrics.
 We will see that we can express the relation by integration or by derivatives, two complementary views of the same underlying dependency.</p>
 <h3 id="Relation-via-integration">Relation via integration<a class="anchor-link" href="#Relation-via-integration">¶</a></h3><p>From mechanics, we know that the change in potential energy from point $A$ to $B$ is related to the force and the path $\vec{\bf{l}}$ between the points by:</p>
-<p>$$ \Delta U_{BA} = - \int_{A}^{B} \vec{\bf{F}} d\vec{\bf{l}}$$</p>
+<p>$$\Delta U_{BA} = - \int_{A}^{B} \vec{\bf{F}} d\vec{\bf{l}}$$</p>
 <p>The difference in electric potential, i.e. the voltage $V_{BA}$, is related to the electric potential energy by $V_{BA} = \frac{\Delta U_{BA}}{q}$.
 Further, the electric field is related to the force by $\vec{\bf{E}} = \frac{\vec{\bf{F}}}{q}$.
 Hence, we obtain:</p>
-<p>$$ V_{BA} = - \int_{A}^{B} \vec{\bf{E}} d\vec{\bf{l}}$$</p>
+<p>$$V_{BA} = - \int_{A}^{B} \vec{\bf{E}} d\vec{\bf{l}}$$</p>
 <p>Expressing the voltage as a function of the electric field can by very handy.</p>
 <p>In a <em>uniform</em> electric field, i.e. the idealized field between two oppositely charged plates, the integral simplifies to:</p>
 <p>$$ V_{BA} = - E d \quad \textrm{for uniform E-field}$$</p>
@@ -7738,52 +7738,52 @@ W.r.t. units, the electric field can be expressed in [N/C] (as used so far) or i
 <ul>
 <li>for the integral and a positive charge, we consider paths oriented radially away from the charge in the symmetrical electrical field, i.e. the path $d\vec{\bf{l}}$ becomes $dr$</li>
 <li>the distance for point $A$ &amp; $B$ are $r_A$ &amp; $r_B$, respectively</li>
-<li>the electric field due to a point charge is $ E= \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2} $ (Coulomb's law in electric field form)</li>
+<li>the electric field due to a point charge is $E= \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2}$ (Coulomb's law in electric field form)</li>
 </ul>
-<p>$$ V_{BA} = - \int_{A}^{B} \vec{\bf{E}} d\vec{\bf{l}} = - \frac{Q}{4 \pi \epsilon_0} \int_{r_A}^{r_B} \frac{1}{r^2} d r = -\frac{1}{4 \pi \epsilon_0} (\frac{Q}{r_B} - \frac{Q}{r_A}) $$</p>
+<p>$$V_{BA} = - \int_{A}^{B} \vec{\bf{E}} d\vec{\bf{l}} = - \frac{Q}{4 \pi \epsilon_0} \int_{r_A}^{r_B} \frac{1}{r^2} d r = -\frac{1}{4 \pi \epsilon_0} (\frac{Q}{r_B} - \frac{Q}{r_A})$$</p>
 <p>The two terms represent $V_B$ and $V_A$, respectively.
 If we set the electric potential zero at infinity: $V_B = 0 \textrm{ at } r_B = \infty$, we obtain the voltage $V$ at the distance $r$ of a point charge:</p>
-<p>$$ V = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r} \quad \textrm{for a point charge with } V=0 \textrm{ at } r=\infty$$</p>
+<p>$$V = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r} \quad \textrm{for a point charge with } V=0 \textrm{ at } r=\infty$$</p>
 <p>This expression is also called the <em>Coulomb potential</em> as it originates from Coulomb's law.
 The potential is zero at infinity and increase (decreases) linearly towards the positive (negative )charge.</p>
 <p>As before, we can apply the principle of <em>superposition</em> to compute the potential due an <em>arbitrary charge distribution</em> by computing first the potential for each charge individually and, subsequently, obtain the total potential  by integrating over the potentials of all individual charges:</p>
-<p>$$ V = \frac{1}{4 \pi \epsilon_0} \int \frac{dq}{r} $$</p>
+<p>$$V = \frac{1}{4 \pi \epsilon_0} \int \frac{dq}{r}$$</p>
 <p>with $dq$ being a infinitesimal small portion of the charge and $r$ its distance of the point where $V$ should be determined.</p>
 <!--- todo: HS charged conducting sphere-->
-<h3 id="Relation-via-derivative">Relation via derivative<a class="anchor-link" href="#Relation-via-derivative">¶</a></h3><p>Since we know the relation of potential and field by integration, i.e. $ V_{BA} = V_B - V_A = - \int_{A}^{B} \vec{\bf{E}} d\vec{\bf{l}}$, we can derive the differential form of the relation for an infinitesimal small voltage $dV$ as:
-$$dV = - \vec{\bf{E}} d\vec{\bf{l}}$$</p>
+<h3 id="Relation-via-derivative">Relation via derivative<a class="anchor-link" href="#Relation-via-derivative">¶</a></h3><p>Since we know the relation of potential and field by integration, we can derive the differential form of the relation for an infinitesimal small voltage $dV$ as:
+$$V_{BA} = - \int_{A}^{B} \vec{\bf{E}} d\vec{\bf{l}} \quad \leftrightarrow \quad dV = - \vec{\bf{E}} d\vec{\bf{l}}$$</p>
 <p>Given that the electric field $\vec{\bf{E}}$ is a vector, we can express the solution for each axis individually:
 $$E_x = \frac{\delta V}{\delta x}; \quad E_y = \frac{\delta V}{\delta y} \quad E_z = \frac{\delta V}{\delta z}$$</p>
 <p>This mathematical relation is a <em>partial derivative</em> also called the <em>gradient</em> of V.
 Using the <em>gradient operator</em> $\vec{\bf{\nabla}}$ (also called nabla operator or del operator), obtain the solution as
-$$ \vec{\bf{E}} = - \textrm{grad} V = - \vec{\bf{\nabla}} V $$</p>
+$$\vec{\bf{E}} = - \textrm{grad} V = - \vec{\bf{\nabla}} V$$</p>
 <p>In essence, it tells us that the electric field is proportional to the negative rate of change (a.k.a. slope) of $V$ along each dimension.</p>
 <h3 id="Electrostatic-potential-energy">Electrostatic potential energy<a class="anchor-link" href="#Electrostatic-potential-energy">¶</a></h3><p>The change in electrostatic potential energy $\Delta U_{AB}$ a test charge $q$ experiences as it moves from point $A$ to $B$ is:
-$$ \Delta U_{AB} = U_B - U_A = q ( V_B - V_A) $$</p>
+$$\Delta U_{AB} = U_B - U_A = q ( V_B - V_A)$$</p>
 <p>Suppose we have only a <em>single</em> charge, no electric force is exerted on it, hence, the electric potential energy is zero.</p>
 <p>Suppose we have a system of <em>two</em> point charges $Q_1$ and $Q_2$ with their distance $r_{12}$.
 If $Q_1$ remains stationary and $Q_2$ is brought closer, the voltage at the position of $Q_2$ and induced by the charge $Q_1$ will be:</p>
-<p>$$ V = \frac{1}{4 \pi \epsilon_0} \int \frac{Q_1}{r_{12}} $$</p>
+<p>$$V = \frac{1}{4 \pi \epsilon_0} \int \frac{Q_1}{r_{12}}$$</p>
 <p>Setting the voltage at infinity to zero, the potential energy is:
-$$ U = \frac{1}{4 \pi \epsilon_0} \int \frac{Q_1 Q_2}{r_{12}} $$</p>
+$$U = \frac{1}{4 \pi \epsilon_0} \int \frac{Q_1 Q_2}{r_{12}}$$</p>
 <p>This idea can be extended to systems with more point charges by considering the interactions between each pair of point charges.</p>
 <h3 id="The-electron-volt">The electron volt<a class="anchor-link" href="#The-electron-volt">¶</a></h3><p>While not a SI-unit, the <em>electron volt</em> (eV) is often used when dealing with energies of particles, atoms, or molecules.
 It simply relies on the idea of relating the energy to the magnitude of charge of an electron $q=e$.
 Therefore, an electron volt describes the energy required to move an electron moving through a potential difference of 1V.</p>
-<p>$$ 1 \textrm{eV} \approx 1.60 \times 10^{-19} J $$</p>
+<p>$$1 \textrm{eV} \approx 1.60 \times 10^{-19} J$$</p>
 <h3 id="Equipotential-lines-&amp;-surfaces">Equipotential lines &amp; surfaces<a class="anchor-link" href="#Equipotential-lines-&amp;-surfaces">¶</a></h3><p>We saw that changes in electric potential occur only if the path is parallel to the electric field $\vec{\bf{E}} \shortparallel d\vec{\bf{l}}$.
 Therefore, movement perpendicular to the field, i.e. $\vec{\bf{E}} \perp d\vec{\bf{l}}$, does not require any work and there is <em>no difference in electric potential</em>.
 These configurations of zero change in potential are called <em>equipotential line</em> and <em>equipotential surfaces</em> for 2D and 3D, respectively.</p>
 <!--- todo: plot for equipotential lines plates and point charge/dipole and include distance/r to plot voltage as function of space-->
 <h3 id="Electric-dipoles">Electric dipoles<a class="anchor-link" href="#Electric-dipoles">¶</a></h3><p>By combining two charges with the same magnitude but opposite sign, $+Q$ &amp; $-Q$ and separated by a distance $l$, we introduce the concept of an <em>electric dipole</em>.
 An electric dipole is associated with a <em>dipole moment</em> $\vec{\bf{p}}$:
-$$ \vec{\bf{p}} = Q \vec{\bf{l}} $$
+$$\vec{\bf{p}} = Q \vec{\bf{l}}$$
 with $\vec{\bf{l}}$ pointing from negative to positive charge.
 We refer to molecules with an non-zero dipole moment to as <em>polar molecules</em>.
 Within an uniform, external electric field $\vec{\bf{E}}$, the associated torque $\vec{\bf{\tau}}$ is:
-$$ \vec{\bf{\tau}} = \vec{\bf{p}} \times \vec{\bf{E}}$$</p>
+$$\vec{\bf{\tau}} = \vec{\bf{p}} \times \vec{\bf{E}}$$</p>
 <p>The potential energy of a electric dipole is:
-$$ U = -W = - \int \tau d \theta = p E \int \sin \theta d\theta = -p E \cos \theta = - \vec{\bf{p}} \vec{\bf{E}}$$</p>
+$$U = -W = - \int \tau d \theta = p E \int \sin \theta d\theta = -p E \cos \theta = - \vec{\bf{p}} \vec{\bf{E}}$$</p>
 <!--- todo: add more details and derive equations-->
 <!--- todo: add subsection Digital Voltages; Computer monitors; ECG-->
 </div>
