@@ -7467,6 +7467,293 @@ main {
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="geometrical-optics:-optical-instruments">geometrical optics: optical instruments<a class="anchor-link" href="#geometrical-optics:-optical-instruments">¶</a></h1><ul>
+<li>using reflection and refraction to study lenses and optical instruments</li>
+<li>covers simple devices like magnifying glasses to complex ones like telescopes and the human eye</li>
+<li>introduces key concepts such as image formation, aberrations, and optical limitations</li>
+</ul>
+<hr/>
+<h2 id="primer-on-lenses-&amp;-the-lensmaker's-equation">primer on lenses &amp; the lensmaker's equation<a class="anchor-link" href="#primer-on-lenses-&amp;-the-lensmaker's-equation">¶</a></h2><ul>
+<li>lenses have two surfaces which can be planar, convex or concave</li>
+<li>convex lenses are converging while concave lenses are diverging</li>
+<li>when a ray enters air-to-lens and then lens-to-air, it is refracted according to snell's law</li>
+<li>focal length is the same on both sides (assuming a thin lens)</li>
+</ul>
+<h3 id="lensmaker's-equation">lensmaker's equation<a class="anchor-link" href="#lensmaker's-equation">¶</a></h3><p>$$
+\\frac{1}{f} = (n-1)\\left(\\frac{1}{R_1}+\\frac{1}{R_2}\\right)
+$$</p>
+<ul>
+<li>$n$ is the index of refraction</li>
+<li>$R_1$ and $R_2$ are the radii of curvature (positive for convex, negative for concave)</li>
+</ul>
+<hr/>
+<h2 id="thin-lenses-model">thin lenses model<a class="anchor-link" href="#thin-lenses-model">¶</a></h2><ul>
+<li>approximates the lens as having negligible thickness</li>
+<li>assumes paraxial rays (small angle approximations: $\\sin(\\theta)\\approx\\theta$, $\\tan(\\theta)\\approx\\theta$, $\\cos(\\theta)\\approx1$)</li>
+<li>uses a single principal plane instead of two separate refraction planes</li>
+<li>distinguishes between real and virtual focal points</li>
+</ul>
+<hr/>
+<h2 id="image-formation-at-thin-lenses-via-ray-tracing">image formation at thin lenses via ray tracing<a class="anchor-link" href="#image-formation-at-thin-lenses-via-ray-tracing">¶</a></h2><ul>
+<li>three principal rays determine the image location:<ul>
+<li>parallel ray: travels parallel to the principal axis</li>
+<li>focal point ray: passes through the focal point</li>
+<li>central (optical center) ray: goes through the lens center with little deviation</li>
+</ul>
+</li>
+<li>for convex lenses:<ul>
+<li>parallel ray refracts through the focal point on the opposite side</li>
+</ul>
+</li>
+<li>for concave lenses:<ul>
+<li>refracted rays appear to diverge from the focal point on the same side as the object</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h2 id="thin-lens-equation-&amp;-lateral-magnification">thin lens equation &amp; lateral magnification<a class="anchor-link" href="#thin-lens-equation-&amp;-lateral-magnification">¶</a></h2><ul>
+<li>object distance $d_o$ and image distance $d_i$ are measured along the principal axis</li>
+<li>for convex lenses, the thin lens equation is:</li>
+</ul>
+<p>$$
+\\frac{1}{d_o}+\\frac{1}{d_i}=\\frac{1}{f}
+$$</p>
+<ul>
+<li>for concave lenses, the equation becomes:</li>
+</ul>
+<p>$$
+\\frac{1}{d_o}-\\frac{1}{d_i}=\\frac{1}{f}
+$$</p>
+<ul>
+<li>lateral magnification is defined as:</li>
+</ul>
+<p>$$
+m=\\frac{h_i}{h_o}=-\\frac{d_i}{d_o}
+$$</p>
+<ul>
+<li>sign conventions:<ul>
+<li>$h_o$ always positive</li>
+<li>$h_i$ positive if upright, negative if inverted</li>
+<li>$d_o$ positive for real objects</li>
+<li>$d_i$ positive for real images and negative for virtual images</li>
+<li>$f$ positive for convex and negative for concave lenses</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h2 id="combining-lenses">combining lenses<a class="anchor-link" href="#combining-lenses">¶</a></h2><ul>
+<li>analyze the first lens using the thin lens equation:<ul>
+<li>calculate $d_{i1}$ and magnification $m_1=-\\frac{d_{i1}}{d_{o1}}$</li>
+</ul>
+</li>
+<li>treat the image from the first lens as the object for the second lens<ul>
+<li>determine the second object distance $d_{o2}$ based on the lens separation and image location</li>
+</ul>
+</li>
+<li>apply the thin lens equation for the second lens:<ul>
+<li>calculate $d_{i2}$ and magnification $m_2=-\\frac{d_{i2}}{d_{o2}}$</li>
+</ul>
+</li>
+<li>total magnification is:</li>
+</ul>
+<p>$$
+m_{eff}=m_1\\times m_2
+$$</p>
+<ul>
+<li>careful use of sign conventions is crucial</li>
+</ul>
+<hr/>
+<h2 id="pinhole-cameras">pinhole cameras<a class="anchor-link" href="#pinhole-cameras">¶</a></h2><ul>
+<li>a lensless camera where a tiny pinhole focuses light onto a light-sensitive surface</li>
+<li>image formation is based on similar triangles:</li>
+</ul>
+<p>$$
+\\frac{h_i}{d_i}=\\frac{h_o}{d_o}
+$$</p>
+<ul>
+<li>optimal pinhole diameter is given by:</li>
+</ul>
+<p>$$
+d_{pin}\\approx\\sqrt{2.44\\lambda f}
+$$</p>
+<ul>
+<li>$\\lambda$ is the wavelength of light</li>
+<li>$f$ is the distance from the pinhole to the image plane</li>
+<li>advantages:<ul>
+<li>simple, inexpensive, infinite depth of field</li>
+</ul>
+</li>
+<li>disadvantages:<ul>
+<li>low light sensitivity and sharpness limited by diffraction</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h2 id="the-human-eye">the human eye<a class="anchor-link" href="#the-human-eye">¶</a></h2><ul>
+<li>functions similarly to a camera with additional biological sophistication</li>
+<li>key components:<ul>
+<li>cornea ($n\\approx1.376$): primary site of light bending</li>
+<li>iris and pupil: control light entry</li>
+<li>lens ($n\\approx1.385\\text{ to }1.405$): adjusts shape (accommodation) to focus light</li>
+<li>retina and fovea: convert light into neural signals; fovea is the sharpest point</li>
+<li>aqueous humor ($n\\approx1.336$) and vitreous humor ($n\\approx1.337$): transparent media filling the eye</li>
+</ul>
+</li>
+<li>the eye has a fixed image distance</li>
+<li>corrective lenses are used to adjust the focus for nearsightedness, farsightedness, and astigmatism</li>
+</ul>
+<h3 id="corrective-lenses">corrective lenses<a class="anchor-link" href="#corrective-lenses">¶</a></h3><ul>
+<li>nearsightedness (myopia):<ul>
+<li>image forms in front of the retina</li>
+<li>corrected using diverging (negative) lenses</li>
+</ul>
+</li>
+<li>farsightedness (hyperopia):<ul>
+<li>image forms behind the retina</li>
+<li>corrected using converging (positive) lenses</li>
+</ul>
+</li>
+<li>astigmatism:<ul>
+<li>irregular cornea or lens shape causes blurred images</li>
+<li>corrected with cylindrical lenses</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h2 id="magnifying-glass">magnifying glass<a class="anchor-link" href="#magnifying-glass">¶</a></h2><ul>
+<li>a simple magnifier that uses a single converging lens to enlarge the apparent size of objects</li>
+<li>the apparent size is based on the angular magnification $M=\\frac{\\theta'}{\\theta}$</li>
+<li>with a relaxed eye (image at infinity):<ul>
+<li>object is placed at the focal point $f$</li>
+<li>angular magnification is:</li>
+</ul>
+</li>
+</ul>
+<p>$$
+M=\\frac{N}{f}
+$$</p>
+<ul>
+<li>where $N=25\\,\\text{cm}$ is the near point</li>
+<li>when the eye is focused at the near point:<ul>
+<li>the virtual image is formed at $d_i=-N$</li>
+<li>using the thin lens equation:</li>
+</ul>
+</li>
+</ul>
+<p>$$
+\\frac{1}{f}=\\frac{1}{d_o}-\\frac{1}{N}
+$$</p>
+<ul>
+<li>the object distance becomes:</li>
+</ul>
+<p>$$
+d_o=\\frac{Nf}{N+f}
+$$</p>
+<ul>
+<li>angular magnification is then:</li>
+</ul>
+<p>$$
+M=1+\\frac{N}{f}
+$$</p>
+<ul>
+<li>a larger subtended angle leads to a larger apparent size</li>
+</ul>
+<h2 id="Telescopes">Telescopes<a class="anchor-link" href="#Telescopes">¶</a></h2><h3 id="introduction">introduction<a class="anchor-link" href="#introduction">¶</a></h3><ul>
+<li>telescopes are optical instruments designed to magnify distant objects</li>
+<li>they allow observation of celestial bodies and faraway phenomena in greater detail</li>
+</ul>
+<h3 id="components">components<a class="anchor-link" href="#components">¶</a></h3><ul>
+<li>objective lens/mirror collects light from the object and forms a real image</li>
+<li>eyepiece lens magnifies the image formed by the objective</li>
+</ul>
+<h3 id="angular-magnification">angular magnification<a class="anchor-link" href="#angular-magnification">¶</a></h3><ul>
+<li>the total angular magnification $M$ of a telescope is defined as the ratio of the angle subtended by the image at the eye to the angle subtended by the object as seen by the unaided eye</li>
+<li>for an objective with focal length $f_o$ and an eyepiece with focal length $f_e$, the magnification is given by
+$$
+M = \frac{\theta'}{\theta} = \frac{h/f_e}{h/f_o} = \frac{f_o}{f_e}
+$$</li>
+<li>with the small angle approximation $ \theta' \approx h/f_e$ and $ \theta \approx h/f_o$</li>
+</ul>
+<h3 id="image-formation">image formation<a class="anchor-link" href="#image-formation">¶</a></h3><ul>
+<li>the image of the first lens (objective) becomes the object for the second lens (eyepiece)</li>
+<li>objective lens forms a real, inverted image near its focal point</li>
+<li>eyepiece lens acts as a magnifying glass producing a virtual, inverted final image</li>
+</ul>
+<h3 id="types-of-telescopes">types of telescopes<a class="anchor-link" href="#types-of-telescopes">¶</a></h3><h4 id="refracting-telescopes-(keplerian)">refracting telescopes (keplerian)<a class="anchor-link" href="#refracting-telescopes-(keplerian)">¶</a></h4><ul>
+<li>design uses two converging lenses</li>
+<li>objective lens has a long focal length to collect light and form a real, inverted, diminished image at its focal plane</li>
+<li>eyepiece lens has a short focal length and magnifies the real image</li>
+<li>advantages include simple design and good image quality for small apertures</li>
+<li>disadvantages include heavy, expensive objective lenses and chromatic aberration</li>
+</ul>
+<h4 id="reflecting-telescopes-(newtonian)">reflecting telescopes (newtonian)<a class="anchor-link" href="#reflecting-telescopes-(newtonian)">¶</a></h4><ul>
+<li>design uses a concave mirror as the objective to collect and focus light</li>
+<li>light reflects off the primary mirror forming a real, inverted image at the focal point</li>
+<li>a secondary flat mirror reflects the image to the side for viewing through an eyepiece</li>
+<li>advantages include absence of chromatic aberration and easier manufacture of large mirrors</li>
+<li>disadvantages include diffraction effects from the secondary mirror and the need for periodic realignment</li>
+</ul>
+<hr/>
+<h2 id="Aberration">Aberration<a class="anchor-link" href="#Aberration">¶</a></h2><h3 id="introduction">introduction<a class="anchor-link" href="#introduction">¶</a></h3><ul>
+<li>aberration refers to imperfections in image formation due to the breakdown of the small angle approximation</li>
+<li>real lenses have thickness and imperfections that can lead to blurring or distortion</li>
+</ul>
+<h3 id="types-of-aberrations">types of aberrations<a class="anchor-link" href="#types-of-aberrations">¶</a></h3><ul>
+<li>monochromatic aberrations occur with a single wavelength and include spherical aberration, coma, astigmatism, curvature of field, and distortion</li>
+<li>chromatic aberration arises from dispersion where different wavelengths are refracted by different amounts</li>
+</ul>
+<h3 id="spherical-aberration">spherical aberration<a class="anchor-link" href="#spherical-aberration">¶</a></h3><ul>
+<li>occurs when rays far from the optical axis focus at different points than rays close to the axis</li>
+<li>causes a blurred image or a circle of least confusion</li>
+<li>correction methods include aspherical lenses, aperture stops, or compound lenses</li>
+</ul>
+<h3 id="coma">coma<a class="anchor-link" href="#coma">¶</a></h3><ul>
+<li>causes off-axis points to be imaged as asymmetrical, comet-shaped blurs</li>
+<li>results from off-axis rays being refracted by different amounts</li>
+<li>can be minimized using aspherical or carefully designed compound lenses</li>
+</ul>
+<h3 id="astigmatism">astigmatism<a class="anchor-link" href="#astigmatism">¶</a></h3><ul>
+<li>happens when a lens or mirror has different focal lengths in two perpendicular planes</li>
+<li>a point object is imaged as two short perpendicular line segments</li>
+<li>correction involves using a combination of lenses or cylindrical lenses</li>
+</ul>
+<h3 id="curvature-of-field">curvature of field<a class="anchor-link" href="#curvature-of-field">¶</a></h3><ul>
+<li>the image of a flat object is formed on a curved surface instead of a flat plane</li>
+<li>results in a sharp center with blurred edges or vice versa</li>
+<li>field-flattening lenses or specific lens designs can correct this aberration</li>
+</ul>
+<h3 id="distortion">distortion<a class="anchor-link" href="#distortion">¶</a></h3><ul>
+<li>causes the shape of the image to differ from the shape of the object</li>
+<li>barrel distortion makes straight lines bow outwards and pincushion distortion makes them bow inwards</li>
+<li>symmetric compound lenses or software correction can reduce distortion</li>
+</ul>
+<h3 id="chromatic-aberration">chromatic aberration<a class="anchor-link" href="#chromatic-aberration">¶</a></h3><ul>
+<li>arises because the refractive index of a lens varies with the wavelength of light</li>
+<li>results in colored fringes especially at high contrast edges</li>
+<li>achromatic doublets or apochromatic lenses are used for correction</li>
+</ul>
+<h3 id="aberrations-in-mirrors">aberrations in mirrors<a class="anchor-link" href="#aberrations-in-mirrors">¶</a></h3><ul>
+<li>spherical aberration in mirrors occurs for the same geometric reasons as in lenses</li>
+<li>parabolic mirrors can correct spherical aberration for objects at infinity</li>
+<li>mirrors do not exhibit chromatic aberration because reflection is independent of wavelength</li>
+</ul>
+<h3 id="summary-of-aberrations">summary of aberrations<a class="anchor-link" href="#summary-of-aberrations">¶</a></h3><ul>
+<li>spherical aberration: caused by the spherical shape of the lens/mirror; corrected by aspherical lenses, aperture stops, or compound lenses</li>
+<li>coma: off-axis rays cause a comet-shaped blur; minimized with aspherical or compound lenses</li>
+<li>astigmatism: different focal lengths in perpendicular planes; corrected by lens combinations or cylindrical lenses</li>
+<li>curvature of field: focal points on a curved surface lead to uneven focus; corrected with field-flattening lenses</li>
+<li>distortion: non-uniform magnification leads to curved lines; minimized with symmetric compound lenses or digital correction</li>
+<li>chromatic aberration: dispersion causes colored fringes; corrected with achromatic doublets or apochromatic lenses</li>
+</ul>
+</div>
+</div>
+</div>
 </div></section></section>
 </div>
 </div>

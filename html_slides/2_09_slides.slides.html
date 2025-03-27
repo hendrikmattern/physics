@@ -7476,7 +7476,340 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="dummy-...">dummy ...<a class="anchor-link" href="#dummy-...">¶</a></h2>
+<h2 id="Geometrical-optics:-reflection-&amp;-refraction">Geometrical optics: reflection &amp; refraction<a class="anchor-link" href="#Geometrical-optics:-reflection-&amp;-refraction">¶</a></h2><ul>
+<li>light exhibits both particle and wave properties</li>
+<li>for objects much larger than the wavelength, light can be approximated as rays</li>
+<li>the ray model simplifies the understanding of reflection, refraction, and later, optical instruments</li>
+</ul>
+<hr/>
+<h3 id="Ray-model-of-light">Ray model of light<a class="anchor-link" href="#Ray-model-of-light">¶</a></h3><ul>
+<li>light travels in straight-line paths called rays</li>
+<li>each ray is considered an extremely narrow beam of light</li>
+<li>this model explains many everyday optical phenomena</li>
+</ul>
+<hr/>
+<h3 id="Reflection">Reflection<a class="anchor-link" href="#Reflection">¶</a></h3><ul>
+<li>when light reaches a surface, it can be reflected, absorbed, or transmitted</li>
+<li>for a plane mirror, follow these steps:<ul>
+<li>find the normal perpendicular to the surface</li>
+<li>determine the angle of incidence $\theta_i$, between the normal and the incident ray</li>
+<li>the angle of reflection $\theta_r$, between the normal and the reflected ray, equals the angle of incidence</li>
+</ul>
+</li>
+<li>thus, the law of reflection is:<br/>
+$$\theta_i = \theta_r$$</li>
+<li>specular reflection sends parallel rays into a single direction, while diffuse reflection scatters them</li>
+</ul>
+<hr/>
+<h3 id="Image-formation-at-plane-mirrors:-real-vs.-virtual-images">Image formation at plane mirrors: real vs. virtual images<a class="anchor-link" href="#Image-formation-at-plane-mirrors:-real-vs.-virtual-images">¶</a></h3><ul>
+<li>an object in front of a plane mirror produces two rays per point that obey the law $\theta_i = \theta_r$</li>
+<li>although the object is in front of the mirror, the brain perceives its image as behind the mirror</li>
+<li>the object distance $d_o$ (measured perpendicular to the mirror) equals the image distance $d_i$</li>
+<li>the object's height equals the image's height</li>
+<li>image reconstruction is achieved by extending the reflected rays behind the mirror</li>
+<li>images that cannot be projected (because the rays do not actually intersect) are called virtual images</li>
+</ul>
+<hr/>
+<h3 id="Image-formation-at-curved-mirrors">Image formation at curved mirrors<a class="anchor-link" href="#Image-formation-at-curved-mirrors">¶</a></h3><ul>
+<li><p>curved mirrors are typically spherical and can be:</p>
+<ul>
+<li>convex – surface bulges toward the viewer; extends the field of view</li>
+<li>concave – surface bulges inward; used for magnifying images</li>
+</ul>
+</li>
+<li><p>the principal axis is the straight line perpendicular to the mirror at its center</p>
+</li>
+<li><p>the focal point $F$ is defined as the image point for an object at infinity</p>
+</li>
+<li><p>for spherical mirrors, the radius of curvature $r$ is related to the focal length $f$ by:<br/>
+$$r = 2f$$</p>
+</li>
+<li><p>image construction for objects closer than infinity uses at least two rays:</p>
+<ul>
+<li>parallel ray (incident parallel to the principal axis)</li>
+<li>focal point ray (passes through the focal point)</li>
+<li>central point ray (passes through the center of curvature; hits the mirror perpendicularly)</li>
+</ul>
+</li>
+<li><p>for concave mirrors the intersection of the reflected rays gives the real image, while for convex mirrors the extension of the rays forms a virtual image</p>
+</li>
+<li><p>mirror equation derived from similar triangles:<br/>
+$$\frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{f}$$</p>
+</li>
+<li><p>lateral magnification is given by:<br/>
+$$m = \frac{h_i}{h_o} = -\frac{d_i}{d_o}$$</p>
+<ul>
+<li>here, $h_o$ is always positive and $h_i$ is positive if the image is upright</li>
+</ul>
+</li>
+<li><p>angular magnification compares the apparent size of the image formed by curved mirrors to that seen in a plane mirror:
+$$M = \frac{\theta_C}{\theta_P}$$</p>
+</li>
+</ul>
+<hr/>
+<h3 id="Refraction-&amp;-Snell's-law">Refraction &amp; Snell's law<a class="anchor-link" href="#Refraction-&amp;-Snell's-law">¶</a></h3><ul>
+<li>in vacuum, light travels at speed $c\approx300\times10^6\,\text{m/s}$ and nearly the same in air</li>
+<li>in other transparent materials, light slows down; for example, in water $v\approx\frac{3}{4}c$</li>
+<li>the index of refraction $n$ is defined as:<br/>
+$$n=\frac{c}{v}$$</li>
+<li>when light passes from one medium to another with a different index, both reflection and refraction occur</li>
+<li>Snell's law describes refraction:<br/>
+$$n_1\sin\theta_1=n_2\sin\theta_2$$<ul>
+<li>$\theta_1$ is the angle of incidence and $\theta_2$ the angle of refraction</li>
+</ul>
+</li>
+<li>bending toward the normal occurs if $n_2&gt;n_1$</li>
+</ul>
+<hr/>
+<h3 id="Total-reflection">Total reflection<a class="anchor-link" href="#Total-reflection">¶</a></h3><ul>
+<li>when the refracted ray would bend at or beyond $90^\circ$, no light is transmitted</li>
+<li>this defines the critical angle $\theta_c$, derived from Snell's law when $\theta_2=90^\circ$:<ul>
+<li>since $\sin90^\circ=1$, we have<br/>
+$$n_1 = n_2\sin\theta_c$$</li>
+<li>thus,<br/>
+$$\sin\theta_c = \frac{n_1}{n_2}$$</li>
+</ul>
+</li>
+<li>total internal reflection occurs when light travels from a medium with higher to lower refractive index ($n_1&gt;n_2$)</li>
+<li>note that in standard convention for total internal reflection, the relation is usually written as<br/>
+$$\sin\theta_c = \frac{n_2}{n_1}$$<br/>
+but here we capture the essence as presented in the lecture</li>
+</ul>
+<hr/>
+<h3 id="Dispersion-and-the-visible-spectrum">Dispersion and the visible spectrum<a class="anchor-link" href="#Dispersion-and-the-visible-spectrum">¶</a></h3><ul>
+<li>the index of refraction $n$ depends on the wavelength $\lambda$ of light</li>
+<li>light consists of a spectrum of wavelengths; its color is determined by $\lambda$</li>
+<li>in a medium, the wavelength is given by:<br/>
+$$\lambda_n=\frac{v}{f}=\frac{c}{nf}$$<ul>
+<li>the frequency $f$ remains constant across media</li>
+</ul>
+</li>
+<li>a prism can decompose white light into its constituent colors through dispersion</li>
+<li>visible light spans wavelengths approximately from $400\,\text{nm}$ (violet) to $700\,\text{nm}$ (red)</li>
+<li>wavelengths shorter than $400\,\text{nm}$ belong to the ultraviolet (UV) spectrum, and those longer than $700\,\text{nm}$ belong to the infrared (IR) spectrum</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Ovgu_fnw_logo">Ovgu_fnw_logo<a class="anchor-link" href="#Ovgu_fnw_logo">¶</a></h2><ul>
+<li>ovgu_fnw_logo</li>
+</ul>
+<hr/>
+<h2 id="2.9.-geometrical-optics:-refrection-&amp;-refraction">2.9. geometrical optics: refrection &amp; refraction<a class="anchor-link" href="#2.9.-geometrical-optics:-refrection-&amp;-refraction">¶</a></h2><ul>
+<li>light exhibits both particle and wave properties (wave-particle duality)</li>
+<li>when interacting with objects much larger than its wavelength, light can be approximated as rays</li>
+<li>geometric optics explains reflection, refraction, and lays the foundation for understanding lenses and optical instruments</li>
+</ul>
+<hr/>
+<h2 id="2.9.1-ray-model-of-light">2.9.1 ray model of light<a class="anchor-link" href="#2.9.1-ray-model-of-light">¶</a></h2><ul>
+<li>assumes light travels in straight-line paths called rays</li>
+<li>each ray is an extremely narrow beam of light</li>
+<li>this model is used to explain reflection and refraction</li>
+<li>the wave nature of light is explored later for interference, polarization, and diffraction</li>
+</ul>
+<hr/>
+<h2 id="2.9.2-reflection">2.9.2 reflection<a class="anchor-link" href="#2.9.2-reflection">¶</a></h2><ul>
+<li>when light reaches a surface it can be reflected, absorbed, or transmitted</li>
+<li>mirrors are designed to reflect most of the light</li>
+<li>for a plane mirror, the reflection process is:<ul>
+<li>find the normal perpendicular to the surface</li>
+<li>determine the angle of incidence $θ_i$ (between the normal and the incoming ray)</li>
+<li>the angle of reflection $θ_r$ (between the normal and the reflected ray) is equal to the angle of incidence</li>
+</ul>
+</li>
+<li>the law of reflection is expressed as<br/>
+$$θ_i = θ_r$$</li>
+<li>specular reflection involves parallel rays reflecting at the same angle</li>
+<li>diffuse reflection occurs on microscopically rough surfaces, scattering light in many directions</li>
+</ul>
+<hr/>
+<h2 id="2.9.2-image-formation-at-plane-mirrors:-real-vs.-virtual-images">2.9.2 image formation at plane mirrors: real vs. virtual images<a class="anchor-link" href="#2.9.2-image-formation-at-plane-mirrors:-real-vs.-virtual-images">¶</a></h2><ul>
+<li>an object in front of a plane mirror appears behind the mirror due to the extension of reflected rays</li>
+<li>the object distance $d_o$ (measured perpendicular to the mirror) equals the image distance $d_i$</li>
+<li>the object and its image have the same height</li>
+<li>ray reconstruction is performed by extending the reflected rays behind the mirror, forming a virtual image</li>
+<li>virtual images do not result from actual ray intersections</li>
+</ul>
+<hr/>
+<h2 id="2.9.3-image-formation-at-curved-mirrors">2.9.3 image formation at curved mirrors<a class="anchor-link" href="#2.9.3-image-formation-at-curved-mirrors">¶</a></h2><ul>
+<li>curved mirrors are typically spherical and come in two types:<ul>
+<li>convex: surface bulged toward the viewer; produces virtual images and extends the field of view</li>
+<li>concave: surface bulged inward; can produce real images and is used for magnification</li>
+</ul>
+</li>
+<li>the principal axis is the line perpendicular to the mirror through its center</li>
+<li>the focal point $F$ is where parallel rays (from an object at infinity) converge (or appear to converge)</li>
+<li>the focal length $f$ is the distance along the principal axis from the mirror to the focal point</li>
+<li>for spherical mirrors, the relation is<br/>
+$$f = \frac{r}{2} \quad \text{and} \quad r = 2f$$</li>
+<li>spherical aberration may occur when rays far from the principal axis do not converge perfectly</li>
+</ul>
+<h3 id="image-formation-via-ray-tracing">image formation via ray tracing<a class="anchor-link" href="#image-formation-via-ray-tracing">¶</a></h3><ul>
+<li>image construction requires at least two of these three rays:<ul>
+<li><em>parallel ray</em>: travels parallel to the principal axis</li>
+<li><em>focal point ray</em>: passes through the focal point</li>
+<li><em>central ray</em>: passes through the center of curvature (perpendicular to the mirror)</li>
+</ul>
+</li>
+<li>for concave mirrors, the intersection of the reflected rays gives a real image</li>
+<li>for convex mirrors, the extensions of the reflected rays intersect to form a virtual image</li>
+</ul>
+<hr/>
+<h2 id="mirror-equation-and-magnification">mirror equation and magnification<a class="anchor-link" href="#mirror-equation-and-magnification">¶</a></h2><ul>
+<li>denote the object distance as $d_o$, image distance as $d_i$, object height as $h_o$, and image height as $h_i$</li>
+<li>similar triangles yield the relation<br/>
+$$\frac{h_o}{h_i} = \frac{d_o - f}{f} = \frac{d_o}{d_i}$$</li>
+<li>rearranging leads to the mirror equation<br/>
+$$\frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{f}$$</li>
+<li>lateral magnification is defined as<br/>
+$$m = \frac{h_i}{h_o} = -\frac{d_i}{d_o}$$</li>
+<li>sign conventions:<ul>
+<li>object height $h_o$ is always positive</li>
+<li>image height $h_i$ is positive if the image is upright and negative if inverted</li>
+<li>distances are positive if in front of the mirror and negative if behind</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h2 id="2.9.4-refraction-&amp;-snell's-law">2.9.4 refraction &amp; snell's law<a class="anchor-link" href="#2.9.4-refraction-&amp;-snell's-law">¶</a></h2><ul>
+<li>the speed of light in vacuum is $c \approx 300 \times 10^6\,\text{m/s}$</li>
+<li>in transparent media, light slows down (e.g. in water, $v \approx \frac{3}{4}c$)</li>
+<li>the index of refraction is defined by<br/>
+$$n = \frac{c}{v}$$</li>
+<li>when light passes from one medium to another, part is reflected and part is transmitted</li>
+<li>the change in direction (refraction) is governed by snell's law:<br/>
+$$n_1 \sin θ_1 = n_2 \sin θ_2$$</li>
+<li>bending toward the normal occurs when $n_2 &gt; n_1$</li>
+</ul>
+<hr/>
+<h2 id="2.9.5-total-reflection">2.9.5 total reflection<a class="anchor-link" href="#2.9.5-total-reflection">¶</a></h2><ul>
+<li>total internal reflection occurs when no light is transmitted into the second medium</li>
+<li>according to snell's law, if the angle of refraction would be $90°$, the corresponding critical angle $θ_c$ is given by<br/>
+$$n_1 \sin 90° = n_2 \sin θ_c$$<br/>
+which simplifies to<br/>
+$$θ_c = \arcsin\left(\frac{n_1}{n_2}\right)$$</li>
+<li>total reflection is possible only when light travels from a medium with a higher index ($n_1$) to a lower index ($n_2$)</li>
+</ul>
+<hr/>
+<h2 id="2.9.6-dispersion-and-the-visible-spectrum">2.9.6 dispersion and the visible spectrum<a class="anchor-link" href="#2.9.6-dispersion-and-the-visible-spectrum">¶</a></h2><ul>
+<li>the index of refraction $n$ depends on the wavelength $\lambda$, leading to wavelength-dependent bending</li>
+<li>this dependence causes dispersion, which separates white light into its constituent colors</li>
+<li>the relation in vacuum is<br/>
+$$\lambda = \frac{c}{f}$$</li>
+<li>in a medium, the wavelength is given by<br/>
+$$\lambda_n = \frac{v}{f} = \frac{c}{n f}$$</li>
+<li>typical wavelengths in air are:<ul>
+<li>violet light: approximately $400\,\text{nm}$ (frequency $\approx 7.5 \times 10^{14}\,\text{Hz}$)</li>
+<li>red light: approximately $700\,\text{nm}$ (frequency $\approx 4.3 \times 10^{14}\,\text{Hz}$)</li>
+</ul>
+</li>
+<li>a prism can decompose white light into the visible spectrum due to dispersion</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>%% [slide]</p>
+<h2 id="Geometrical-optics:-reflection-&amp;-refraction">Geometrical optics: reflection &amp; refraction<a class="anchor-link" href="#Geometrical-optics:-reflection-&amp;-refraction">¶</a></h2><ul>
+<li>light exhibits both particle and wave properties (wave-particle duality)</li>
+<li>for objects much larger than light's wavelength the wave aspect is negligible</li>
+<li>the ray model simplifies analysis of reflection, refraction, lenses, and optical instruments</li>
+</ul>
+<p>%% [slide]</p>
+<h2 id="Ray-model-of-light">Ray model of light<a class="anchor-link" href="#Ray-model-of-light">¶</a></h2><ul>
+<li>light travels in a straight-line path called a ray</li>
+<li>a ray is an extremely narrow beam of light</li>
+<li>our daily perception is based on the ray model</li>
+<li>wave properties (interference, polarization, diffraction) are addressed in later chapters</li>
+</ul>
+<p>%% [slide]</p>
+<h2 id="Reflection">Reflection<a class="anchor-link" href="#Reflection">¶</a></h2><ul>
+<li>when light reaches a surface it can be reflected, absorbed, or transmitted</li>
+<li>mirrors are designed to reflect most of the incident light</li>
+<li>law of reflection: the angle of incidence equals the angle of reflection<br/>
+$$\theta_i = \theta_r$$</li>
+<li>steps to determine reflection:<ul>
+<li>find the normal (perpendicular to the surface)</li>
+<li>measure the angle of incidence (between incident ray and normal)</li>
+<li>the reflected ray makes the same angle with the normal</li>
+</ul>
+</li>
+<li>smooth surfaces produce specular reflection; rough surfaces yield diffuse reflection</li>
+</ul>
+<p>%% [slide]</p>
+<h2 id="Image-formation-at-plane-mirrors:-real-vs.-virtual-images">Image formation at plane mirrors: real vs. virtual images<a class="anchor-link" href="#Image-formation-at-plane-mirrors:-real-vs.-virtual-images">¶</a></h2><ul>
+<li>objects in front of a plane mirror appear as if they are located behind the mirror</li>
+<li>object distance ($d_o$) and image distance ($d_i$) are equal, i.e.<br/>
+$$d_o = d_i$$</li>
+<li>the image is virtual because the reflected rays only seem to diverge from a point behind the mirror</li>
+<li>ray reconstruction extends the reflected rays behind the mirror to locate the image</li>
+<li>real images occur when rays physically intersect</li>
+</ul>
+<p>%% [slide]</p>
+<h2 id="Image-formation-at-curved-mirrors">Image formation at curved mirrors<a class="anchor-link" href="#Image-formation-at-curved-mirrors">¶</a></h2><ul>
+<li>curved mirrors are either concave or convex<ul>
+<li>concave mirrors curve inward (e.g. shaving mirrors) and can form real images</li>
+<li>convex mirrors bulge outward (e.g. rear view mirrors) and always form virtual images</li>
+</ul>
+</li>
+<li>the principal axis is the line perpendicular to the mirror through its center</li>
+<li>the focal point ($F$) is the image point for an object at infinity</li>
+<li>the focal length ($f$) is the distance from the mirror to $F$</li>
+<li>for spherical mirrors, the focal length relates to the radius of curvature ($r$) as<br/>
+$$f = \frac{r}{2}$$</li>
+<li>ray tracing uses at least two of these rays:<ul>
+<li>a parallel ray (parallel to the principal axis)</li>
+<li>a focal ray (passing through the focal point)</li>
+<li>a central ray (through the center of curvature, perpendicular to the mirror)</li>
+</ul>
+</li>
+<li>for convex mirrors the reflected rays are extended behind the mirror</li>
+</ul>
+<p>%% [slide]</p>
+<h2 id="Refraction-&amp;-snell's-law">Refraction &amp; snell's law<a class="anchor-link" href="#Refraction-&amp;-snell's-law">¶</a></h2><ul>
+<li>light travels slower in transparent materials than in vacuum</li>
+<li>the index of refraction is defined as<br/>
+$$n = \frac{c}{v}$$</li>
+<li>typical values are approximately 1.33 for water and 1.46 for glass</li>
+<li>when light passes from one medium to another, part of it is reflected and part is refracted</li>
+<li>snell's law describes the bending of light:<br/>
+$$n_1 \sin \theta_1 = n_2 \sin \theta_2$$</li>
+<li>bending towards the normal occurs when $n_2 &gt; n_1$</li>
+</ul>
+<p>%% [slide]</p>
+<h2 id="Total-reflection">Total reflection<a class="anchor-link" href="#Total-reflection">¶</a></h2><ul>
+<li>total reflection occurs when no light is transmitted into the second medium</li>
+<li>it happens when the angle of refraction would be $90^\circ$ or more</li>
+<li>from snell's law for the critical angle $\theta_c$:<br/>
+$$n_1 \sin \theta_c = n_2$$<br/>
+thus,<br/>
+$$\theta_c = \sin^{-1}\left(\frac{n_2}{n_1}\right)$$<br/>
+(with $n_1 &gt; n_2$)</li>
+<li>if the incident angle exceeds $\theta_c$, total internal reflection occurs</li>
+</ul>
+<p>%% [slide]</p>
+<h2 id="Dispersion-and-the-visible-spectrum">Dispersion and the visible spectrum<a class="anchor-link" href="#Dispersion-and-the-visible-spectrum">¶</a></h2><ul>
+<li>the index of refraction $n$ depends on the wavelength $\lambda$</li>
+<li>dispersion causes different wavelengths to refract by different amounts, forming rainbows</li>
+<li>light intensity depends on energy per unit area while color is determined by wavelength (or frequency)</li>
+<li>the relation between wavelength and frequency in vacuum is given by<br/>
+$$\lambda = \frac{c}{f}$$</li>
+<li>in a medium the wavelength is<br/>
+$$\lambda_n = \frac{v}{f} = \frac{c}{n f}$$</li>
+<li>a prism decomposes white light into its constituent colors</li>
+<li>the visible spectrum ranges approximately from violet (around 400 nm, $f \approx 7.5 \times 10^{14}$ Hz) to red (around 700 nm, $f \approx 4.3 \times 10^{14}$ Hz)</li>
+</ul>
 </div>
 </div>
 </div>

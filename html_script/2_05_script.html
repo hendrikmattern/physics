@@ -7602,6 +7602,32 @@ $$ B \propto \frac{I}{r} $$</p>
 $$B = \frac{\mu_0}{2 \pi} \frac{I}{r} $$
 with the proportionality constant $\frac{\mu_0}{2 \pi}$ .
 The constant $\mu_0$ is the <em>permeability of free space</em> and defined as $4 \pi \times 10^-7$ T m /A.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>interactive(children=(FloatSlider(value=1.0, description='Current (A)', max=1.0, min=-1.0), FloatSlider(value=…</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;function __main__.plot_magnetic_field(current, magnet_distance, magnet_angle_degrees)&gt;</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Magnetic-fields-exert-a-force-on-electric-currents">Magnetic fields exert a force on electric currents<a class="anchor-link" href="#Magnetic-fields-exert-a-force-on-electric-currents">¶</a></h3><p>If a electric current is exerting a force on a magnet and motivated by Newton's third law, a magnetic field might also exert a force on a wire running electric current.
 Ørsted conducted a simple but elegant experiment.
 He placed a straight wire in homogenous magnetic field (e.g. reasonably well approximated by a strong horseshoe magnet).
@@ -7676,7 +7702,23 @@ $$ U = - \vec{\bf{p}} \vec{\bf{B}}</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>interactive(children=(FloatSlider(value=1.0, description='B (Tesla)', max=5.0), FloatSlider(value=1.0, descrip…</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;function __main__.plot_force_simulation(B, I, l, theta_degrees)&gt;</pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7786,7 +7828,7 @@ $$ \vec{\bf{F}} = q (\vec{\bf{E}} + \vec{\bf{v}} \times \vec{\bf{B}}) $$</p>
 <h3 id="Hall-effect">Hall effect<a class="anchor-link" href="#Hall-effect">¶</a></h3><p>So far we have looked at charged particles in vacuum (or air), but a magnetic field does also influence the electrons running inside a conductor, i.e. a wire.
 We know that the force $\vec{\bf{F}}_B$ exerted by the $\vec{\bf{B}}$ field on a electron $e$ be:
 $$ \vec{\bf{F}}_B = e \vec{\bf{v}}_d \times \vec{\bf{B}}$$
-with $\vec{\bf{V}}_d$ being the drift velocity of the electron.</p>
+with $\vec{\bf{v}}_d$ being the drift velocity of the electron.</p>
 <p>Therefore, the electron will be deflected towards one side of the conducting wire.
 The resulting potential difference generates an electric field $\vec{\bf{E}}_H$ across the cross-section of the wire, which we call the <em>Hall field</em>.
 The hall field itself causes a force with the same magnitude but opposite direction to the magnetic force:
@@ -7805,7 +7847,23 @@ Last but not least, the drift velocity of charged particles can be determined wi
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>interactive(children=(FloatSlider(value=0.0, description='Magnetic Field (µT)', max=100000.0, min=-100000.0, s…</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;function __main__.hall_effect_simulation(B_field_ut, voltage, is_proton)&gt;</pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">

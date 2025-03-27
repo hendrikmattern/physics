@@ -7457,13 +7457,428 @@ main {
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Slide-1:-Wave-Optics:-Interference-&amp;-Polarization">Slide 1: Wave Optics: Interference &amp; Polarization<a class="anchor-link" href="#Slide-1:-Wave-Optics:-Interference-&amp;-Polarization">¶</a></h1><ul>
+<li>having examined geometric optics and the ray model of light, we now explore phenomena that reveal light's wave nature</li>
+<li>while the ray model is useful for macroscopic interactions, wave effects become significant at smaller scales</li>
+<li>we will focus on interference and polarization<ul>
+<li>the superposition of light waves leads to interference patterns</li>
+<li>the transverse nature of light results in polarization</li>
+</ul>
+</li>
+</ul>
+<h1 id="Slide-2:-Huygens'-Principle">Slide 2: Huygens' Principle<a class="anchor-link" href="#Slide-2:-Huygens'-Principle">¶</a></h1><h3 id="Limits-of-the-Ray-Model">Limits of the Ray Model<a class="anchor-link" href="#Limits-of-the-Ray-Model">¶</a></h3><ul>
+<li>the ray model encounters its limits when dealing with light interacting with objects comparable in size to its wavelength</li>
+<li>consider sunlight entering a dark room through a small pinhole<ul>
+<li>ray model prediction: a sharp, well-defined bright spot (projection of the hole)</li>
+<li>observation: a more complex pattern (central bright spot with concentric rings or fringes)</li>
+</ul>
+</li>
+<li>this contradicts the ray model and indicates light's wave nature</li>
+<li>the spreading of light and the formation of intricate patterns are due to interference and diffraction</li>
+</ul>
+<h3 id="Huygens'-Principle:-A-Wave-Framework">Huygens' Principle: A Wave Framework<a class="anchor-link" href="#Huygens'-Principle:-A-Wave-Framework">¶</a></h3><ul>
+<li>christian Huygens (1629-1695) proposed a principle to analyze wave propagation</li>
+<li>imagine every point of a wavefront as a source of secondary spherical wavelets</li>
+<li>these wavelets propagate outwards in all directions at the speed of the wave</li>
+<li>the new wavefront at a later time is the tangent surface to all of these secondary wavelets</li>
+</ul>
+<h3 id="Understanding-Wavefronts-and-Wavelets">Understanding Wavefronts and Wavelets<a class="anchor-link" href="#Understanding-Wavefronts-and-Wavelets">¶</a></h3><ul>
+<li><strong>wavefront</strong>: a surface connecting points of a wave that are in phase<ul>
+<li>example: ripples on a pond</li>
+<li>for light: connects points with oscillating electric and magnetic fields in the same way</li>
+</ul>
+</li>
+<li>think of a wavefront as a line (in 2D) or a surface (in 3D) of many tiny sources</li>
+<li>each tiny source emits a <strong>wavelet</strong>, spreading out like tiny ripples</li>
+</ul>
+<h3 id="Superposition-and-Wavefront-Propagation">Superposition and Wavefront Propagation<a class="anchor-link" href="#Superposition-and-Wavefront-Propagation">¶</a></h3><ul>
+<li><strong>superposition of wavelets generates the new wavefront</strong><ul>
+<li>individual wavelets interfere with each other</li>
+<li>their combined effect determines the shape and position of the wavefront at the next instant (tangent to all wavelets)</li>
+</ul>
+</li>
+<li><strong>direction of the wave's travel is perpendicular to the wavefront</strong></li>
+</ul>
+<h1 id="Slide-3:-Revisiting-Refraction-from-a-Wave-Perspective">Slide 3: Revisiting Refraction from a Wave Perspective<a class="anchor-link" href="#Slide-3:-Revisiting-Refraction-from-a-Wave-Perspective">¶</a></h1><h3 id="Refraction-and-Wave-Speed">Refraction and Wave Speed<a class="anchor-link" href="#Refraction-and-Wave-Speed">¶</a></h3><ul>
+<li>light travels from medium 1 to medium 2</li>
+<li>mediums are isotropic (same wave speed $v$ in all directions) but have different refractive indices $n_1$ and $n_2$</li>
+<li>distance traveled by a wave in time $t$: $r = vt$</li>
+<li>speed of light in a vacuum: $c$</li>
+<li>speed of light in a medium with refractive index $n$: $v = \frac{c}{n}$</li>
+<li>therefore, in our two mediums: $v_1 = \frac{c}{n_1}$ and $v_2 = \frac{c}{n_2}$</li>
+<li>consequently, distance traveled in the same time $t$ will be different: $r_1 = v_1 t \neq r_2 = v_2 t$</li>
+</ul>
+<h3 id="Deriving-Snell's-Law">Deriving Snell's Law<a class="anchor-link" href="#Deriving-Snell's-Law">¶</a></h3><ul>
+<li>for non-zero angle of incidence ($\theta_1 \neq 0$), refraction occurs (change in propagation direction)</li>
+<li>consider a wavefront approaching the interface at angle $\theta_1$</li>
+<li>point A is where one part of the wavefront first hits medium 2</li>
+<li>point B is where another part reaches the interface after time $t$</li>
+<li>during time $t$, the part at A travels $v_2 t$, while the part at B travels $v_1 t$</li>
+<li>$AB$ is the length of the wavefront segment about to cross the interface</li>
+</ul>
+<h3 id="Geometric-Derivation">Geometric Derivation<a class="anchor-link" href="#Geometric-Derivation">¶</a></h3><ul>
+<li>from the geometry:<ul>
+<li>$\sin \theta_1 = \frac{v_1 t}{AB}$</li>
+<li>$\sin \theta_2 = \frac{v_2 t}{AB}$</li>
+</ul>
+</li>
+<li>dividing the first by the second:
+$$ \frac{\sin \theta_1}{\sin \theta_2} = \frac{v_1 t / AB}{v_2 t / AB} = \frac{v_1}{v_2} $$</li>
+<li>substituting $v_1 = \frac{c}{n_1}$ and $v_2 = \frac{c}{n_2}$:
+$$ \frac{\sin \theta_1}{\sin \theta_2} = \frac{c/n_1}{c/n_2} = \frac{n_2}{n_1} $$</li>
+<li>rearranging gives Snell's Law:
+$$ n_1 \sin \theta_1 = n_2 \sin \theta_2 $$</li>
+</ul>
+<h3 id="Frequency-and-Wavelength-Changes">Frequency and Wavelength Changes<a class="anchor-link" href="#Frequency-and-Wavelength-Changes">¶</a></h3><ul>
+<li><strong>frequency of the wave does not change</strong> during refraction (determined by the source)</li>
+<li><strong>wavelength $\lambda$ does change</strong> because speed $v$ changes ($v = \lambda f \leftrightarrow \lambda = \frac{v}{f}$)</li>
+<li>ratio of wavelengths in the two mediums:
+$$ \frac{\lambda_1}{\lambda_2} = \frac{v_1 / f}{v_2 / f} = \frac{v_1}{v_2} $$</li>
+<li>since $\frac{v_1}{v_2} = \frac{n_2}{n_1}$, we have:
+$$ \frac{\lambda_1}{\lambda_2} = \frac{n_2}{n_1} $$</li>
+<li>wavelength is shorter in a medium with a higher refractive index</li>
+</ul>
+<h3 id="Wavelength-in-a-Medium">Wavelength in a Medium<a class="anchor-link" href="#Wavelength-in-a-Medium">¶</a></h3><ul>
+<li>if $\lambda$ is the wavelength in a vacuum ($n=1, v=c$), then the wavelength $\lambda_n$ in a medium with refractive index $n$ is:
+$$ \lambda_n = \frac{\lambda}{n} $$</li>
+</ul>
+<h1 id="Slide-4:-Polarization">Slide 4: Polarization<a class="anchor-link" href="#Slide-4:-Polarization">¶</a></h1><h3 id="Transverse-Nature-of-Light">Transverse Nature of Light<a class="anchor-link" href="#Transverse-Nature-of-Light">¶</a></h3><ul>
+<li>electromagnetic (EM) waves are transversal waves and can be polarized</li>
+<li><strong>plane-polarized waves</strong> (linearly polarized): oscillate in a single plane</li>
+<li>imagine a rope swung horizontally through a vertical slit: only horizontal oscillations pass</li>
+<li>unpolarized light: electric field oscillates randomly in all directions perpendicular to propagation</li>
+</ul>
+<h3 id="Polarization-by-Absorption-(Polaroids)">Polarization by Absorption (Polaroids)<a class="anchor-link" href="#Polarization-by-Absorption-(Polaroids)">¶</a></h3><ul>
+<li>polaroid sheets contain long molecules aligned parallel to each other (act like parallel slits)</li>
+<li>component of electric field parallel to molecules causes electron movement and energy transfer (absorbed)</li>
+<li>light oscillating perpendicular to molecules is transmitted</li>
+<li><strong>transmission axis</strong> (polarization axis): direction of the transmitted electric field (perpendicular to molecules)</li>
+<li>a polaroid acts as a <strong>polarizer</strong>, creating plane-polarized light from unpolarized light</li>
+</ul>
+<h3 id="Malus's-Law">Malus's Law<a class="anchor-link" href="#Malus's-Law">¶</a></h3><ul>
+<li>intensity of polarized light transmitted through a polaroid:
+$$ I = I_0 \cos^2 \theta $$<ul>
+<li>$I_0$: incident intensity</li>
+<li>$\theta$: angle between incident polarization and transmission axis</li>
+</ul>
+</li>
+<li>for unpolarized light, the transmitted intensity is halved:
+$$ I = \frac{1}{2} I_0 $$</li>
+</ul>
+<h3 id="Polaroids-as-Analyzers">Polaroids as Analyzers<a class="anchor-link" href="#Polaroids-as-Analyzers">¶</a></h3><ul>
+<li>polaroids can determine if light is polarized and its plane of polarization (intensity changes upon rotation)</li>
+<li><strong>crossed polaroids</strong> (transmission axes perpendicular) block all light</li>
+<li><strong>three polaroids</strong>: even if the first and third are crossed, placing the second at 45 degrees allows some light to pass</li>
+</ul>
+<h3 id="Polarization-by-Reflection">Polarization by Reflection<a class="anchor-link" href="#Polarization-by-Reflection">¶</a></h3><ul>
+<li>unpolarized light can be polarized upon reflection from a nonmetallic surface at non-perpendicular angles</li>
+<li>reflected light is preferentially polarized parallel to the reflecting surface</li>
+<li>light is preferentially transmitted and refracted with a polarization plane perpendicular to the surface</li>
+<li><strong>polaroid sunglasses</strong> (vertical transmission axes) reduce glare from horizontal surfaces (blocking horizontally polarized reflected light)</li>
+</ul>
+<h3 id="Brewster's-Angle">Brewster's Angle<a class="anchor-link" href="#Brewster's-Angle">¶</a></h3><ul>
+<li>degree of polarization in reflected beam varies with the angle of incidence</li>
+<li>100% polarization at the <strong>polarizing angle</strong> or <strong>Brewster's angle</strong> ($\theta_p$)</li>
+<li>Brewster's Law:
+$$ \tan \theta_p = \frac{n_2}{n_1} $$<ul>
+<li>$n_1$: refractive index of incident medium</li>
+<li>$n_2$: refractive index of reflecting medium</li>
+</ul>
+</li>
+<li>if incident from air ($n_1 = 1$):
+$$ \tan \theta_p = n_2 $$</li>
+<li>at Brewster's angle, reflected and refracted rays are perpendicular ($\theta_p + \theta_r = 90^\circ$)</li>
+</ul>
+<h1 id="Slide-5:-Scattering-in-the-Atmosphere">Slide 5: Scattering in the Atmosphere<a class="anchor-link" href="#Slide-5:-Scattering-in-the-Atmosphere">¶</a></h1><h3 id="Why-the-Sky-is-Blue">Why the Sky is Blue<a class="anchor-link" href="#Why-the-Sky-is-Blue">¶</a></h3><ul>
+<li>blue sky, red sunsets, and polarized skylight are due to light scattering by atmospheric molecules (nitrogen, oxygen)</li>
+<li>sunlight causes molecules' electrons to oscillate, re-emitting light in all directions</li>
+<li>scattered light intensity is strongest perpendicular to oscillation and zero along it</li>
+<li>observer at 90 degrees to sunlight sees plane-polarized light</li>
+<li>amount of scattering is inversely proportional to the fourth power of wavelength ($1/\lambda^4$)</li>
+<li>shorter wavelengths (blue, violet) scatter much more effectively than longer wavelengths (red, orange)</li>
+<li>blue light is preferentially scattered in all directions, making the sky appear blue</li>
+</ul>
+<h3 id="Red-Sunsets">Red Sunsets<a class="anchor-link" href="#Red-Sunsets">¶</a></h3><ul>
+<li>at sunset, sunlight travels through a much longer path in the atmosphere</li>
+<li>most blue light is scattered away during this extended passage</li>
+<li>light reaching our eyes directly from the setting sun (or reflected off clouds) is depleted in blue and appears reddish</li>
+</ul>
+<h3 id="Scattering-by-Clouds">Scattering by Clouds<a class="anchor-link" href="#Scattering-by-Clouds">¶</a></h3><ul>
+<li>scattering depends on particle size relative to wavelength</li>
+<li>air molecules (much smaller than wavelength): strong wavelength dependence ($1/\lambda^4$)</li>
+<li>clouds (water droplets or ice crystals, larger than wavelength): scatter all colors nearly uniformly, appearing white</li>
+</ul>
+<h1 id="Slide-6:-Brightness">Slide 6: Brightness<a class="anchor-link" href="#Slide-6:-Brightness">¶</a></h1><h3 id="Quantifying-Light">Quantifying Light<a class="anchor-link" href="#Quantifying-Light">¶</a></h3><ul>
+<li><strong>physical intensity</strong>: power per unit area [W/m²]</li>
+<li><strong>radiant flux</strong>: total power output [W]</li>
+<li><strong>perceived brightness</strong>: considers visible spectrum and eye's sensitivity (peak at 550 nm)</li>
+<li><strong>luminous flux</strong> ($F_l$): visual sensation, measured in lumens [lm] (1 lm = 1/683 W of 555 nm light)</li>
+<li><strong>luminous intensity</strong> ($I_l$): luminous flux per unit solid angle (steradian), unit candela [cd] (1 cd = 1 lm/sr)</li>
+<li><strong>illuminance</strong> ($E_l$): luminous flux incident on a surface per unit area, unit lumens per square meter [lm/m²]</li>
+</ul>
+<h1 id="Slide-7:-Interference:-Newton's-Rings-&amp;-Thin-Films">Slide 7: Interference: Newton's Rings &amp; Thin Films<a class="anchor-link" href="#Slide-7:-Interference:-Newton's-Rings-&amp;-Thin-Films">¶</a></h1><h3 id="Monochromatic-Light">Monochromatic Light<a class="anchor-link" href="#Monochromatic-Light">¶</a></h3><ul>
+<li><strong>monochromatic light</strong>: single wavelength or narrow range of wavelengths (e.g., lasers, specific filters)</li>
+</ul>
+<h3 id="Newton's-Rings-with-Monochromatic-Light">Newton's Rings with Monochromatic Light<a class="anchor-link" href="#Newton's-Rings-with-Monochromatic-Light">¶</a></h3><ul>
+<li>plano-convex lens with large radius of curvature on a flat glass surface creates a thin, wedge-shaped air gap</li>
+<li>illuminated from above with monochromatic light, observer sees concentric bright and dark circular rings (<strong>Newton's rings</strong>)</li>
+<li>appear where air gap thickness is a few multiples of the light's wavelength</li>
+<li><strong>interference pattern</strong> due to light reflected from two surfaces:<ul>
+<li>bottom surface of the lens (glass-air interface)</li>
+<li>top surface of the flat glass plate (air-glass interface)</li>
+</ul>
+</li>
+</ul>
+<h3 id="Path-Difference-and-Interference">Path Difference and Interference<a class="anchor-link" href="#Path-Difference-and-Interference">¶</a></h3><ul>
+<li>consider a light ray incident on the setup</li>
+<li>part reflected from the bottom of the lens</li>
+<li>part refracted into the air gap, reflected from the flat plate, and then to the observer</li>
+<li>the second part travels an extra distance of approximately twice the air gap thickness ($2t$)</li>
+<li>this extra distance is the <strong>path difference</strong></li>
+</ul>
+<h3 id="Phase-Shift-upon-Reflection">Phase Shift upon Reflection<a class="anchor-link" href="#Phase-Shift-upon-Reflection">¶</a></h3><ul>
+<li>at the point of contact (zero air gap), a dark spot is observed (destructive interference)</li>
+<li>reason: <strong>180° phase shift ($\lambda/2$ path difference)</strong> when light reflects from a medium of lower refractive index to one of higher refractive index (air to glass at the top of the flat plate)</li>
+<li>reflection from glass-air interface (bottom of the lens) has no such phase shift</li>
+<li>at the center, phase difference is $\lambda/2$ due to reflection, leading to destructive interference</li>
+</ul>
+<h3 id="Conditions-for-Rings">Conditions for Rings<a class="anchor-link" href="#Conditions-for-Rings">¶</a></h3><ul>
+<li>as distance from the center increases, air gap thickness ($t$) increases</li>
+<li>path difference ($2t$) combined with $\lambda/2$ phase shift determines interference:<ul>
+<li><strong>dark rings (destructive interference)</strong>: total path difference is half-integer multiple of wavelength
+$$ 2t + \frac{\lambda}{2} = m \lambda \implies 2t = (m - \frac{1}{2}) \lambda, \quad m = 0, 1, 2, ... $$<ul>
+<li>$m=0$ corresponds to the dark center</li>
+</ul>
+</li>
+<li><strong>bright rings (constructive interference)</strong>: total path difference is integer multiple of wavelength
+$$ 2t + \frac{\lambda}{2} = (m + \frac{1}{2}) \lambda \implies 2t = m \lambda, \quad m = 0, 1, 2, ... $$<ul>
+<li>$m=1$ is the first bright ring</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Newton's-Rings-with-White-Light">Newton's Rings with White Light<a class="anchor-link" href="#Newton's-Rings-with-White-Light">¶</a></h3><ul>
+<li>using white light (spectrum of wavelengths) results in colored concentric rings</li>
+<li>constructive interference occurs for different wavelengths at different air gap thicknesses</li>
+<li>rings closest to the center are vibrant (rainbow sequence)</li>
+<li>further from the center, rings overlap more, color contrast decreases, eventually becoming nearly white or blurry</li>
+</ul>
+<h3 id="Interference-in-Thin-Films">Interference in Thin Films<a class="anchor-link" href="#Interference-in-Thin-Films">¶</a></h3><ul>
+<li>interference also occurs in other thin films (soap bubbles, oil films on water, coatings)</li>
+<li>colors are due to interference of light reflected from the two interfaces</li>
+<li>for near-normal incidence, path difference is approximately $2nt$ ($n$: refractive index of film, $t$: thickness)</li>
+<li>phase shifts depend on refractive indices at each interface</li>
+<li>if reflection at both interfaces is lower to higher (or vice versa), phase shifts cancel</li>
+</ul>
+<h3 id="Non-Reflective-Coatings">Non-Reflective Coatings<a class="anchor-link" href="#Non-Reflective-Coatings">¶</a></h3><ul>
+<li>application of thin-film interference</li>
+<li>thin layers on optical components (lenses) with carefully chosen refractive index and thickness (often $\lambda/4$ for minimized reflection, around 550 nm)</li>
+<li>destructive interference between light reflected from air-coating and coating-glass interfaces</li>
+<li>reduces reflected light intensity, increases transmission, improves optical instrument performance</li>
+</ul>
+<h1 id="Slide-8:-Interference:-Young's-Double-Slit-Experiment">Slide 8: Interference: Young's Double-Slit Experiment<a class="anchor-link" href="#Slide-8:-Interference:-Young's-Double-Slit-Experiment">¶</a></h1><h3 id="Thomas-Young's-Experiment">Thomas Young's Experiment<a class="anchor-link" href="#Thomas-Young's-Experiment">¶</a></h3><ul>
+<li>thomas Young (1773-1829) provided strong evidence for the wave nature of light</li>
+<li>illuminated a screen with two closely spaced, narrow slits $S_1$ and $S_2$ (separation $d$)</li>
+<li>if $d$ is on the order of the wavelength, interference occurs</li>
+<li><strong>diffraction</strong> also occurs (next chapter), conceptually similar to interference at this level</li>
+</ul>
+<h3 id="Double-Slit-with-Monochromatic-Light">Double-Slit with Monochromatic Light<a class="anchor-link" href="#Double-Slit-with-Monochromatic-Light">¶</a></h3><ul>
+<li>two slits act as <strong>coherent sources</strong> (same wavelength, constant phase relationship)</li>
+<li>waves diffract and overlap behind the screen</li>
+<li>consider a point on a viewing screen (distance $L$) at an angle $\theta$</li>
+<li><strong>path difference</strong> ($\Delta$) between waves from $S_1$ and $S_2$ is approximately $\Delta = d \sin \theta$ (for $L \gg d$)</li>
+</ul>
+<h3 id="Constructive-Interference-(Bright-Fringes)">Constructive Interference (Bright Fringes)<a class="anchor-link" href="#Constructive-Interference-(Bright-Fringes)">¶</a></h3><ul>
+<li>occurs when path difference is an integer multiple of the wavelength ($\lambda$):
+$$ d \sin \theta = m \lambda, \quad m = 0, 1, 2, ... $$<ul>
+<li>$m$ is the order of the bright fringe</li>
+</ul>
+</li>
+<li><strong>central bright fringe</strong> ($m=0$) at $\theta = 0$ (zero path difference, waves in phase)</li>
+<li>first-order bright fringes ($m=1$) at angles where path difference is one wavelength</li>
+<li>distance between bright fringes is approximately constant for small angles ($\sin \theta \approx \theta$)</li>
+</ul>
+<h3 id="Destructive-Interference-(Dark-Fringes)">Destructive Interference (Dark Fringes)<a class="anchor-link" href="#Destructive-Interference-(Dark-Fringes)">¶</a></h3><ul>
+<li>occurs when path difference is a half-integer multiple of the wavelength:
+$$ d \sin \theta = (m + \frac{1}{2}) \lambda, \quad m = 0, 1, 2, ... $$</li>
+<li>waves from the two slits arrive exactly out of phase, amplitudes cancel</li>
+<li>viewing screen shows alternating bright and dark parallel fringes</li>
+</ul>
+<h3 id="Double-Slit-with-White-Light">Double-Slit with White Light<a class="anchor-link" href="#Double-Slit-with-White-Light">¶</a></h3><ul>
+<li>white light (continuous spectrum of wavelengths) results in a more complex interference pattern</li>
+<li>condition for constructive interference ($d \sin \theta = m \lambda$) depends on $\lambda$</li>
+<li>for a given order $m$ (except $m=0$), different wavelengths interfere constructively at different angles $\theta$</li>
+</ul>
+<h3 id="Colored-Fringes">Colored Fringes<a class="anchor-link" href="#Colored-Fringes">¶</a></h3><ul>
+<li><strong>central fringe</strong> ($m=0$) remains white (zero path difference for all wavelengths)</li>
+<li><strong>first-order fringes</strong> ($m=1$): violet light (shorter $\lambda$) has smaller $\theta$ than red light (longer $\lambda$)<ul>
+<li>results in a spectrum of colors (violet closest to center, red furthest)</li>
+</ul>
+</li>
+<li>higher-order fringes also show spectra but are broader and overlap more (colors less distinct)</li>
+<li>observation of colored fringes supported the idea that different colors correspond to different wavelengths</li>
+<li>enabled Young to measure wavelengths of visible light</li>
+</ul>
+</div>
+</div>
+</div>
 </div></div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>... dummy ...</p>
+<h1 id="Slide-1">Slide 1<a class="anchor-link" href="#Slide-1">¶</a></h1><h2 id="Ovgu_fnw_logo-&amp;-wave-optics:-interference-&amp;-polarization">Ovgu_fnw_logo &amp; wave optics: interference &amp; polarization<a class="anchor-link" href="#Ovgu_fnw_logo-&amp;-wave-optics:-interference-&amp;-polarization">¶</a></h2><ul>
+<li>introduction to the wave nature of light beyond the ray model</li>
+<li>focus on interference phenomena and polarization effects</li>
+<li>relevance for experimental physics in engineering studies</li>
+</ul>
+<hr/>
+<h1 id="Slide-2">Slide 2<a class="anchor-link" href="#Slide-2">¶</a></h1><h2 id="wave-optics-overview">wave optics overview<a class="anchor-link" href="#wave-optics-overview">¶</a></h2><ul>
+<li>light behaves as a wave at scales comparable to its wavelength</li>
+<li>interference arises from the superposition of waves</li>
+<li>polarization reflects the transverse oscillation of electromagnetic fields</li>
+<li>key experiments and phenomena: diffraction, refraction, Newton's rings, Young's double-slit</li>
+</ul>
+<hr/>
+<h1 id="Slide-3">Slide 3<a class="anchor-link" href="#Slide-3">¶</a></h1><h2 id="huygens'-principle">huygens' principle<a class="anchor-link" href="#huygens'-principle">¶</a></h2><ul>
+<li>every point on a wavefront acts as a source of secondary spherical wavelets</li>
+<li>new wavefront is the envelope (tangent surface) of all these wavelets</li>
+<li>explains diffraction and the spreading of light beyond simple straight-line propagation</li>
+<li>analogy: ripples from a stone in a pond, where all points on the crest contribute to the next ripple</li>
+</ul>
+<h3 id="Details-on-wavefronts">Details on wavefronts<a class="anchor-link" href="#Details-on-wavefronts">¶</a></h3><ul>
+<li>a wavefront connects points that are in phase (e.g. crest of ripples)</li>
+<li>secondary wavelets interfere, forming the new wavefront shape</li>
+<li>direction of wave propagation is perpendicular to the wavefront</li>
+</ul>
+<hr/>
+<h1 id="Slide-4">Slide 4<a class="anchor-link" href="#Slide-4">¶</a></h1><h2 id="revisiting-refraction-from-a-wave-perspective">revisiting refraction from a wave perspective<a class="anchor-link" href="#revisiting-refraction-from-a-wave-perspective">¶</a></h2><ul>
+<li>light travels with speed $v = c/n$, where $c$ is the speed in vacuum and $n$ is the refractive index</li>
+<li>distance travelled in time $t$ is given by $r = vt$</li>
+</ul>
+<h3 id="Wave-model-at-an-interface">Wave model at an interface<a class="anchor-link" href="#Wave-model-at-an-interface">¶</a></h3><ul>
+<li>two media: medium 1 with $n_1$ and medium 2 with $n_2$</li>
+<li>speeds are $v_1 = c/n_1$ and $v_2 = c/n_2$</li>
+<li>when a wavefront strikes an interface, different parts cross at different times</li>
+<li>geometry leads to bending of the wavefront and a change in propagation direction</li>
+</ul>
+<h3 id="Derivation-of-Snell's-law">Derivation of Snell's law<a class="anchor-link" href="#Derivation-of-Snell's-law">¶</a></h3><ul>
+<li>consider a wavefront hitting the interface at an angle $\theta_1$</li>
+<li>point $A$ enters medium 2 first; after time $t$, point $B$ is still in medium 1</li>
+<li>distances: in medium 2, light travels $v_2 t$; in medium 1, light travels $v_1 t$</li>
+<li>using the geometry of the wavefront segment, we obtain:
+$$
+n_1 \sin\theta_1 = n_2 \sin\theta_2
+$$</li>
+<li>note: frequency remains constant while wavelength changes ($\lambda = v/f$)</li>
+</ul>
+<hr/>
+<h1 id="Slide-5">Slide 5<a class="anchor-link" href="#Slide-5">¶</a></h1><h2 id="polarization">polarization<a class="anchor-link" href="#polarization">¶</a></h2><ul>
+<li>electromagnetic waves are transverse; the electric field oscillates perpendicular to propagation</li>
+<li>unpolarized light has random oscillations in all directions perpendicular to the propagation</li>
+<li>plane-polarized light oscillates in a single, fixed plane</li>
+</ul>
+<h3 id="Polarization-by-absorption-(polaroids)">Polarization by absorption (polaroids)<a class="anchor-link" href="#Polarization-by-absorption-(polaroids)">¶</a></h3><ul>
+<li>polaroid sheets contain long molecules aligned in parallel</li>
+<li>molecules absorb the component of the electric field oscillating parallel to them</li>
+<li>transmitted light oscillates perpendicular to the molecule alignment</li>
+<li>Malus's law governs the transmitted intensity:
+$$
+I = I_0 \cos^2\theta
+$$</li>
+<li>two crossed polaroids (axes at 90°) block all light; a third at 45° can reintroduce some transmission</li>
+</ul>
+<h3 id="Polarization-by-reflection">Polarization by reflection<a class="anchor-link" href="#Polarization-by-reflection">¶</a></h3><ul>
+<li>reflection at a nonmetallic surface polarizes light parallel to the surface</li>
+<li>maximum polarization occurs at Brewster's angle, where:
+$$
+\tan\theta_p = \frac{n_2}{n_1}
+$$</li>
+<li>at Brewster's angle, the reflected and refracted rays are perpendicular</li>
+</ul>
+<hr/>
+<h1 id="Slide-6">Slide 6<a class="anchor-link" href="#Slide-6">¶</a></h1><h2 id="scattering-in-the-atmosphere">scattering in the atmosphere<a class="anchor-link" href="#scattering-in-the-atmosphere">¶</a></h2><ul>
+<li>scattering by atmospheric molecules causes the blue sky and red sunsets</li>
+<li>electric fields of light induce oscillations in molecules, which re-emit light in all directions</li>
+<li>intensity of scattered light $\propto \frac{1}{\lambda^4}$, favoring shorter (blue) wavelengths</li>
+</ul>
+<h3 id="Detailed-effects">Detailed effects<a class="anchor-link" href="#Detailed-effects">¶</a></h3><ul>
+<li>at a 90° viewing angle, scattered light appears plane-polarized</li>
+<li>during sunset, light traverses a longer atmospheric path, scattering out most blue light</li>
+<li>clouds, composed of larger water droplets or ice crystals, scatter all wavelengths nearly equally, resulting in white appearance</li>
+</ul>
+<hr/>
+<h1 id="Slide-7">Slide 7<a class="anchor-link" href="#Slide-7">¶</a></h1><h2 id="brightness">brightness<a class="anchor-link" href="#brightness">¶</a></h2><ul>
+<li>physical intensity is measured in watts per square meter [W/m²]</li>
+<li>luminous flux $F_l$, in lumens [lm], accounts for the human eye's sensitivity (peaking at 550 nm)</li>
+<li>luminous intensity $I_l$ is the luminous flux per unit solid angle, measured in candela [cd]</li>
+<li>illuminance $E_l$ measures luminous flux per unit area (lm/m²)</li>
+<li>these measures distinguish physical energy from human-perceived brightness</li>
+</ul>
+<hr/>
+<h1 id="Slide-8">Slide 8<a class="anchor-link" href="#Slide-8">¶</a></h1><h2 id="interference:-newton's-rings-&amp;-thin-films">interference: newton's rings &amp; thin films<a class="anchor-link" href="#interference:-newton's-rings-&amp;-thin-films">¶</a></h2><ul>
+<li>setup: a plano-convex lens placed on a flat glass surface forms a thin, wedge-shaped air gap</li>
+<li>monochromatic light creates a pattern of concentric rings due to interference between reflections</li>
+</ul>
+<h3 id="Newton's-rings-details">Newton's rings details<a class="anchor-link" href="#Newton's-rings-details">¶</a></h3><ul>
+<li>light reflects from two surfaces:<ul>
+<li>bottom of the lens (glass-air interface)</li>
+<li>top of the glass plate (air-glass interface)</li>
+</ul>
+</li>
+<li>the extra path difference is approximately $2t$, where $t$ is the air gap thickness</li>
+<li>a phase shift of $\lambda/2$ occurs when light reflects from a medium of higher refractive index</li>
+</ul>
+<h3 id="Conditions-for-interference">Conditions for interference<a class="anchor-link" href="#Conditions-for-interference">¶</a></h3><ul>
+<li>dark rings (destructive interference):
+$$
+2t + \frac{\lambda}{2} = m\lambda \quad \Rightarrow \quad 2t = \left(m-\frac{1}{2}\right)\lambda
+$$</li>
+<li>bright rings (constructive interference):
+$$
+2t + \frac{\lambda}{2} = \left(m+\frac{1}{2}\right)\lambda \quad \Rightarrow \quad 2t = m\lambda
+$$</li>
+<li>using white light produces colored rings as different wavelengths satisfy the condition at different air gap thicknesses</li>
+</ul>
+<h3 id="Interference-in-thin-films">Interference in thin films<a class="anchor-link" href="#Interference-in-thin-films">¶</a></h3><ul>
+<li>similar interference occurs in soap bubbles, oil films, and non-reflective coatings</li>
+<li>for near-normal incidence, the path difference is about $2nt$, with $n$ the refractive index of the film</li>
+<li>design of non-reflective coatings uses a quarter-wavelength thickness to cause destructive interference of reflected light</li>
+</ul>
+<hr/>
+<h1 id="Slide-9">Slide 9<a class="anchor-link" href="#Slide-9">¶</a></h1><h2 id="interference:-young's-double-slit-experiment">interference: young's double-slit experiment<a class="anchor-link" href="#interference:-young's-double-slit-experiment">¶</a></h2><ul>
+<li>two closely spaced slits $S_1$ and $S_2$ act as coherent light sources</li>
+<li>light waves diffract at the slits and overlap to produce an interference pattern on a screen</li>
+</ul>
+<h3 id="Monochromatic-light-setup">Monochromatic light setup<a class="anchor-link" href="#Monochromatic-light-setup">¶</a></h3><ul>
+<li>for a viewing screen at distance $L$, the path difference at an angle $\theta$ is:
+$$
+\Delta = d\sin\theta
+$$</li>
+<li>bright fringes (constructive interference) occur when:
+$$
+d\sin\theta = m\lambda \quad (m=0,1,2,\dots)
+$$</li>
+<li>dark fringes (destructive interference) occur when:
+$$
+d\sin\theta = \left(m+\frac{1}{2}\right)\lambda \quad (m=0,1,2,\dots)
+$$</li>
+<li>the central bright fringe ($m=0$) appears white as all wavelengths constructively interfere</li>
+</ul>
+<h3 id="Young's-experiment-with-white-light">Young's experiment with white light<a class="anchor-link" href="#Young's-experiment-with-white-light">¶</a></h3><ul>
+<li>white light contains a spectrum of wavelengths</li>
+<li>the central fringe remains white while higher-order fringes separate into different colors</li>
+<li>observation of colored fringes supports that different colors correspond to different wavelengths</li>
+<li>enables experimental determination of wavelengths in the visible spectrum</li>
+</ul>
 </div>
 </div>
 </div>

@@ -7553,12 +7553,12 @@ There is an important caveat to this equation: it assumes a <strong>thin lens</s
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>interactive(children=(Checkbox(value=True, description='Double-Convex Lens'), Output()), _dom_classes=('widget…</pre>
+<pre>interactive(children=(FloatSlider(value=1.0, description='Ray Height', max=3.0, min=-3.0, step=0.5), FloatSlid…</pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>&lt;function __main__.plot_lens(is_convex)&gt;</pre>
+<pre>&lt;function __main__.plot_lens_and_ray(incident_ray_y, n_lens=1.5, lens_center_offset=-4, lens_radius=4)&gt;</pre>
 </div>
 </div>
 </div>
@@ -7619,7 +7619,23 @@ If the object's distance is smaller than the focal length, a virtual, upright, a
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>interactive(children=(Checkbox(value=True, description='Double-Convex Lens'), FloatSlider(value=3.0, descripti…</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;function __main__.plot_lens_with_rays(is_convex, radius_left_convex=3, radius_right_convex=3, center_x_left_convex=-1.5, center_x_right_convex=1.5, radius_left_concave=3, radius_right_concave=3, center_x_left_concave=1.5, center_x_right_concave=-1.5)&gt;</pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
