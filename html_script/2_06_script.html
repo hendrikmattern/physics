@@ -7565,6 +7565,23 @@ $$ B = \frac{\mu_0 N I}{2 \pi r} $$</p>
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>interactive(children=(FloatSlider(value=4.0, description='Solenoid Length', max=6.0, min=1.0), FloatSlider(val…</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;function __main__.plot_solenoid_field_wires(solenoid_length, current, num_turns)&gt;</pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7585,13 +7602,34 @@ $$ \Phi_B = B_{\perp} A = B A \cos \theta = \vec{\bf{B}} \vec{\bf{A}} $$</p>
 <p>with $\vec{\bf{B}}$ as the magnetic field.
 Further, $\vec{\bf{A}}$ is the vector perpendicular to the area $A$ enclosed by the loop.
 Instead of vector multiplication, we can use scala multiplication if we know the angle $\theta$ between $\vec{\bf{B}}$ and $\vec{\bf{A}}$ or use the project of the magnetic field perpendicular to the loop's surface area $B_{\perp}$.
-Therefore, and in perfect analogy to the electric flux, the magnetic flux $\Phi_B$ is maximal for an angle $Theta$ of 90 degrees and zero for a magnetic field being parallel to the coil.</p>
+Therefore, and in perfect analogy to the electric flux, the magnetic flux $\Phi_B$ is maximal for an angle $\theta= 90$ degrees and zero for a magnetic field being parallel to the coil.</p>
 <p>This equation can be generalized, to arbitrary coil shapes and non-uniform magnetic field by integrating the field over infinitesimal small area elements $d\vec{\bf{A}}$:
 $$ \Phi_B = \int \vec{\bf{B}} d \vec{\bf{A}}$$</p>
 <p>Note that in contrast to the electric flux $\Phi_E$, a "regular" integral instead of an integral closed surface.
 Magnetic flux is expressed in the units <em>weber</em> [Wb] = [T m²].</p>
-<h3 id="Induced-voltage,-Faraday's-law-of-induction-&amp;-Lenz's-law">Induced voltage, Faraday's law of induction &amp; Lenz's law<a class="anchor-link" href="#Induced-voltage,-Faraday's-law-of-induction-&amp;-Lenz's-law">¶</a></h3><p>We can define the <em>induced voltage</em> $V_{ind} as the change in magnetic flux over time.
-This is the so-called *Faraday's law of induction*:
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>interactive(children=(FloatSlider(value=1.0, description='Size', max=2.0, min=0.5), FloatSlider(value=0.0, des…</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Induced-voltage,-Faraday's-law-of-induction-&amp;-Lenz's-law">Induced voltage, Faraday's law of induction &amp; Lenz's law<a class="anchor-link" href="#Induced-voltage,-Faraday's-law-of-induction-&amp;-Lenz's-law">¶</a></h3><p>We can define the <em>induced voltage</em> $V_{ind}$ as the change in magnetic flux over time.
+This is the so-called <em>Faraday's law of induction</em>:
 $$ V_{ind} = - \frac{d\Phi_B}{dt} $$</p>
 <p>If the coil used contains $N$ loops, we adapt the equation to:
 $$ V_{ind} = - N \frac{d\Phi_B}{dt} $$</p>
@@ -7611,7 +7649,7 @@ The left side is the integral of the electric field along a closed path (closed 
 We know that the electric field along a path produces a voltage.<br/>
 Hence and only logically, the left side represents a voltage as well.
 This elegant relation of magnetic flux and electric field is not only valid in conductor but in general (hence the name).</p>
-<p>While there resemblance to the laws of electrostatics, the is a stark difference: The <em>force du to change magnetic fields are non-conservative</em> and, therefore, there is a path dependence. .
+<p>While there resemblance to the laws of electrostatics, the is a stark difference: The <em>force due to change magnetic fields are non-conservative</em> and, therefore, there is a path dependence.
 In static conditions, i.e. a charge a rest, the electric field begins and ends at charges and, therefore, a integral around a closed path would return zero (in other words moving a charge point $A$ via any path back to point $A$ does not change it potential energy or require any net work).
 Here, in the non static condition where we have a changing magnetic field, the integral is not zero and.
 Hence, we cannot define potential energies under there conditions and can conclude: <em>static electric field are conservative fields, electric field due to changing magnetic field are no conservative</em>.</p>
@@ -7643,7 +7681,7 @@ $$ \bar{P} = \frac{1}{2} I_0^2 R = \frac{1}{2} \frac{V_0^2}{R} $$</p>
 To obtain $I_{RMS}$ and $V_{RMS}$, we use the relation between peak and squared average $\bar{I^2} = \frac{1}{2} I_0^2$ &amp; $\bar{V^2} = \frac{1}{2} V_0^2$:</p>
 <p>$$ I_{rms} = \sqrt{\bar{I^2}} = \sqrt{\frac{1}{2} I_0^2} = \frac{I_0}{\sqrt{2}} $$
 $$ V_{rms} = \sqrt{\bar{V^2}} = \sqrt{\frac{1}{2} V_0^2} = \frac{V_0}{\sqrt{2}} $$</p>
-<p>Therefore, for a 220V outlet, the peak voltage is $\sqrt{2} * 220 \textrm{V} \approx 311 \textrm{V}  $.</p>
+<p>Therefore, for a 220V outlet, the peak voltage is $\sqrt{2} \cdot 220 \textrm{V} \approx 311 \textrm{V}  $.</p>
 <p>The average power w.r.t. RMS voltage and current is:
 $$ \bar{P} =  I_{RMS} V_{RMS}= I_{RMS}^2 R = \frac{V_{RMS}^2}{R} $$</p>
 <h3 id="Induction-in-a-moving-conductor">Induction in a moving conductor<a class="anchor-link" href="#Induction-in-a-moving-conductor">¶</a></h3><p>Lets imagine an uniform magnetic field $\vec{\bf{B}}$ and an U-shaped wire perpendicular to it.
@@ -7666,8 +7704,8 @@ Hence the induced voltage is $V_{ind} = \frac{W}{q} = \frac{q v B l}{q} = v B l 
 As the connected axle rotate the armature, a voltage $V_{ind}$ is induced in the rotating coil (often refereed to as <em>emf</em>, although not a force but a voltage).
 To let a current flow, the end of the coil are connected to slip rings on the axle, enabling the generator to produce a current, ergo electric energy.</p>
 <p>In a uniform magnetic field, the induced voltage $V_{ind}$ is:
-$$ V_{ind} = - \frac{d\Phi_B}{dt} = -\frac{d/dt}\int \vec{\bf{B}} d\vec{\bf{A}} = - \frac{d}{dt}(B A \cos \theta) $$
-with $theta$ the angle between the magnetic field and the vector $\vec{\bf{A}}$ perpendicular to the area $A$ of the loop.</p>
+$$ V_{ind} = - \frac{d\Phi_B}{dt} = - \frac{d}{dt} \left( \int \vec{\bf{B}} d\vec{\bf{A}} \right) = - \frac{d}{dt}(B A \cos \theta) $$
+with $\theta$ the angle between the magnetic field and the vector $\vec{\bf{A}}$ perpendicular to the area $A$ of the loop.</p>
 <p>The equation does require us to differentiate w.r.t. time.
 Only the angle $\theta$ is time dependent (coil rotates, hence, orientation w.r.t. the magnetic field changes, field and area are constant).
 Assuming the initial angle is $\theta_0 = 0$ and a constant rotation velocity $\omega = \frac{d\theta}{dt}$ we can write:

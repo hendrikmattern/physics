@@ -7,7 +7,7 @@ def convert_notebook_to_slides(input_path, output_path):
         input_file = os.path.join(input_path, notebook)
         output_file = os.path.join(output_path, notebook.replace(".ipynb", ".slides.html"))
         command = (
-            f"jupyter nbconvert {input_file} --to html --post serve --no-input --no-prompt --output-dir {output_path}"
+            f"jupyter nbconvert {input_file} --to html --no-input --no-prompt --output-dir {output_path}"
         )
         os.system(command)
         print("Conversion complete. HTML slides saved in", output_file)

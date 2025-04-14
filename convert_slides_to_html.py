@@ -7,7 +7,7 @@ def convert_notebook_to_slides(input_path, output_path):
         input_file = os.path.join(input_path, notebook)
         output_file = os.path.join(output_path, notebook.replace(".ipynb", ".slides.html"))
         command = (
-            f"jupyter nbconvert {input_file} --to slides --post serve --no-input --no-prompt "
+            f"jupyter nbconvert {input_file} --to slides --no-input --no-prompt "
             f"--SlidesExporter.reveal_number='c/t' --SlidesExporter.reveal_scroll=True "
             #f"--SlidesExporter.reveal_height=800 --SlidesExporter.reveal_width=800 "
             f"--output-dir {output_path}"
