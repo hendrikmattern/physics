@@ -73,3 +73,61 @@
 <img src="../img/from_wiki/Simple-RC-circuit.png" alt="RC_circuit" width="500"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Simple-RC-circuit.png) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Geographical_and_Magnetic_Poles.png" alt="Earth's Magnetic Poles" width="500"/>
+
+*<sub>from [wikipedia](https://upload.wikimedia.org/wikipedia/commons/2/29/Geographical_and_Magnetic_Poles.png) under [CC Attribution 3.0 Unported
+](https://creativecommons.org/licenses/by/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Dynamo_Theory_-_Outer_core_convection_and_magnetic_field_generation.svg.png" alt="Earth's internal fluid motion generates magnetic field" width="500"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Dynamo_Theory_-_Outer_core_convection_and_magnetic_field_generation.svg) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/UNO_cards_deck_cropped.png" alt="Uno reverse" width="100"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:UNO_cards_deck.svg) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en); image has been cropped</sub>*
+
+---
+
+<img src="../img/from_wiki/350px-Right-hand_grip_rule.svg.png" alt="RHR-1" width="500"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Right-hand_grip_rule.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/RightHandOutline.png" alt="RHR-2" width="500"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:3-Finger-Regel.svg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Cathode_ray_tube_diagram-en.svg.png" alt="Cathode ray tube" width="500"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Cathode_ray_tube_diagram-en.svg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Lorentz_force_particle.svg.png" alt="Lorentz force on particle" width="100"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Lorentz_force_particle.svg) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/WeissDomains.png" alt="RHR-2" width="500"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Dominios.png) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/StonerWohlfarthMainLoop.svg.png" alt="Lorentz force on particle" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:StonerWohlfarthMainLoop.svg) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
