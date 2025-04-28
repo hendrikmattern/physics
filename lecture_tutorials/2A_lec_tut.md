@@ -20,8 +20,9 @@ A charged object touches the electroscope, transferring charge:
 Since the **rod and leaf acquire the same charge, they repel**, causing the leaf to rotate.
 
 **Charging by Induction:** A charged object brought near the knob causes charge redistribution:
-1. **Grounding**: Allows opposite charges to escape.
-2. **Removing the ground** and then the object leaves the electroscope charged.
+1. **Charged object close to electroscope**: Charge redistribution in the electroscope, but only as long as the charged object is close by
+2. **Grounding**: While charge objects is close by, connect to ground to allow opposite charges to escape the electroscope.
+3. **Removing the ground** and then the there is a net charge in the electroscope. Thus, electroscope remains charged even when charged object is removed.
 
 
 ## Task L2A.1. 
@@ -53,9 +54,9 @@ $$
 
 ---
 
-## Electrostatics vs. Gravitation: A comparison of Coulomb's and gravitational force
+## Electrostatics vs. gravitation: A comparison of Coulomb's and gravitational force
 
-### Overview of Coulomb's Law
+### Overview of Coulomb's law
 
 Coulomb's Law describes the force between two point charges. It is given by:
 
