@@ -202,6 +202,7 @@ $$ x = \sqrt{2} - 1 \approx 0.414 $$
 ## Electric field of an electric dipole
 An electric dipole consists of two equal charges but with opposite sign, i.e. $+Q$ and $-Q$. 
 The charges are separated by the distance $l$. 
+The simple concept of an electric dipole can be leveraged to understand capacitors, polar molecules, generators, motors, antennas, and many more applications.
 
 ## Task 2A.6.
 What is the strength of electric field produced by a dipole (assume no other external electric field present).
@@ -217,14 +218,14 @@ Let think about any point $P$ that is placed perpendicularly away from the bisec
 **Solution:**
 $$ \vec{\bf{E}} = \vec{\bf{E_+}} + \vec{\bf{E_-}} $$
 * only consider the components along x (y cancels due to symmetry, see above) with the angle $\theta$
-$$ E = 2E_+ \cos \theta = \frac{2}{4 \pi \varepsilon_0} \frac{Q}{r^2 + \frac{l^2}{4}}  $$
+$$ E = 2E_+ \cos \theta = \frac{2}{4 \pi \varepsilon_0} \frac{Q}{r^2 + \frac{l^2}{4}} \cos \theta $$
 * with $\cos \theta = \frac{l}{2\sqrt{r^2 + \frac{l^2}{4}}} $
 $$ E = \frac{2}{4 \pi \varepsilon_0} \frac{Q}{r^2 + \frac{l^2}{4}} \frac{l}{2\sqrt{r^2 + \frac{l^2}{4}}} $$
 
 $$ E = \frac{1}{4 \pi \varepsilon_0} \frac{Q}{r^2 + \frac{l^2}{4}} \frac{l}{(r^2 + \frac{l^2}{4})^{\frac{1}{2}}} = \frac{1}{4 \pi \varepsilon_0} \frac{Q l}{(r^2 + \frac{l^2}{4})^{\frac{3}{2}}}$$
 * with the **dipole moment** $p = Q l$
 $$ E = \frac{1}{4 \pi \varepsilon_0} \frac{p}{(r^2 + \frac{l^2}{4})^{\frac{3}{2}}}$$
-* for $l \gg r$:
+* for $r \gg l$:
 $$ E = \frac{1}{4 \pi \varepsilon_0} \frac{p}{r^3}$$
 
 Thus, the electric field of the dipole decreases rapidly with increasing distance. 
