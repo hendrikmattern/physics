@@ -311,11 +311,11 @@ Express the electric potential of a point charge.
 
 * combining all we know, the electric potential of a point charge can be expressed as:
 
-$$ V_{BA} = - \int_{A}^{B} \vec{\bf{E}} d\vec{\bf{l}} = - \frac{Q}{4 \pi \epsilon_0} \int_{r_A}^{r_B} \frac{1}{r^2} d r = -\frac{1}{4 \pi \epsilon_0} (\frac{Q}{r_B} - \frac{Q}{r_A}) $$
+$$ V_{BA} = - \int_{A}^{B} \vec{\bf{E}} d\vec{\bf{l}} = - \frac{Q}{4 \pi \epsilon_0} \int_{r_A}^{r_B} \frac{1}{r^2} d r = -\frac{1}{4 \pi \epsilon_0} (-\frac{Q}{r_B} -(- \frac{Q}{r_A})) $$
 
 * if we set the electric potential zero at infinity: $V_B = 0 \textrm{ at } r_B = \infty$, we obtain the voltage $V$ at the distance $r$ of a point charge:
 
-$$ V = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r} \quad \textrm{for a point charge with } V=0 \textrm{ at } r=\infty$$
+$$ V = -\frac{1}{4 \pi \epsilon_0} \frac{Q}{r} \quad \textrm{for a point charge with } V=0 \textrm{ at } r=\infty$$
 
 This expression is also called the *Coulomb potential* as it originates from Coulomb's law.
 The potential is zero at infinity and increase (decreases) linearly towards the positive (negative )charge.
@@ -323,7 +323,7 @@ The potential is zero at infinity and increase (decreases) linearly towards the 
 
 **FYI:** We can apply the principle of *superposition* to compute the potential due an *arbitrary charge distribution* by computing first the potential for each charge individually and, subsequently, obtain the total potential  by integrating over the potentials of all individual charges: 
 
-$$ V = \frac{1}{4 \pi \epsilon_0} \int \frac{dq}{r} $$
+$$ V = -\frac{1}{4 \pi \epsilon_0} \int \frac{dq}{r} $$
 
 with $dq$ being a infinitesimal small portion of the charge and $r$ its distance of the point where $V$ should be determined.
 
