@@ -7556,15 +7556,6 @@ $$ B = \frac{\mu_0 N I}{2 \pi r} $$</p>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -7630,9 +7621,9 @@ Magnetic flux is expressed in the units <em>weber</em> [Wb] = [T m²].</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Induced-voltage,-Faraday's-law-of-induction-&amp;-Lenz's-law">Induced voltage, Faraday's law of induction &amp; Lenz's law<a class="anchor-link" href="#Induced-voltage,-Faraday's-law-of-induction-&amp;-Lenz's-law">¶</a></h3><p>We can define the <em>induced voltage</em> $V_{ind}$ as the change in magnetic flux over time.
 This is the so-called <em>Faraday's law of induction</em>:
-$$ V_{ind} = - \frac{d\Phi_B}{dt} $$</p>
+$$V_{ind} = - \frac{d\Phi_B}{dt}$$</p>
 <p>If the coil used contains $N$ loops, we adapt the equation to:
-$$ V_{ind} = - N \frac{d\Phi_B}{dt} $$</p>
+$$V_{ind} = - N \frac{d\Phi_B}{dt}$$</p>
 <p>Note that we use $V_{ind}$ but in other resources you might find <em>emf</em> $\xi$ (greek lower case xi) for the electromotive force.
 Since it is not a force but a voltage, we stick with $V_{ind}$ to minimize potential confusion.</p>
 <p>The minus in Faraday's law give already a hint, what <em>Lenz's law</em> is about:</p>
@@ -7672,18 +7663,27 @@ Therefore, the voltage alternates between $+V_0$ and $-V_0$.</p>
 <p>Consequently, the current $I(t)$ is:
 $$ I(t) = \frac{V(t)}{R} = \frac{V_0}{R} \sin(2\pi f t) = I_0 \sin (\omega t) $$</p>
 <p>with $I_0$ being the <em>peak current</em>.</p>
-<p>While the average current over a full period (or multiple of it) is zero, the associated power is non-zero.
+<p>While the average current over a full period (or multiple of it) is zero, the associated average power is non-zero.
 Due to the resistance $R$, there will be loses (e.g. heat) and the power transformed is:
-$$ P = I^2 R = I_0^2 R \sin^2 (\omega t) $$</p>
+$$ \bar{P} = I(t)^2 R = I_0^2 R \sin^2 (\omega t) $$</p>
 <p>Since the average $\sin^2 (\omega t) = \frac{1}{2} $, the average power $\bar{P}$ is:
 $$ \bar{P} = \frac{1}{2} I_0^2 R = \frac{1}{2} \frac{V_0^2}{R} $$</p>
 <p>One should know that the voltage of an outlet does not refer to the peak voltage $V_0$ but the <em>root-mean-squared (RMS)</em> voltage.
 To obtain $I_{RMS}$ and $V_{RMS}$, we use the relation between peak and squared average $\bar{I^2} = \frac{1}{2} I_0^2$ &amp; $\bar{V^2} = \frac{1}{2} V_0^2$:</p>
-<p>$$ I_{rms} = \sqrt{\bar{I^2}} = \sqrt{\frac{1}{2} I_0^2} = \frac{I_0}{\sqrt{2}} $$
-$$ V_{rms} = \sqrt{\bar{V^2}} = \sqrt{\frac{1}{2} V_0^2} = \frac{V_0}{\sqrt{2}} $$</p>
+<p>$$ I_{RMS} = \sqrt{\bar{I^2}} = \sqrt{\frac{1}{2} I_0^2} = \frac{I_0}{\sqrt{2}} $$
+$$ V_{RMS} = \sqrt{\bar{V^2}} = \sqrt{\frac{1}{2} V_0^2} = \frac{V_0}{\sqrt{2}} $$</p>
 <p>Therefore, for a 220V outlet, the peak voltage is $\sqrt{2} \cdot 220 \textrm{V} \approx 311 \textrm{V}  $.</p>
 <p>The average power w.r.t. RMS voltage and current is:
 $$ \bar{P} =  I_{RMS} V_{RMS}= I_{RMS}^2 R = \frac{V_{RMS}^2}{R} $$</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Induction-in-a-moving-conductor">Induction in a moving conductor<a class="anchor-link" href="#Induction-in-a-moving-conductor">¶</a></h3><p>Lets imagine an uniform magnetic field $\vec{\bf{B}}$ and an U-shaped wire perpendicular to it.
 If we put a conducting rod with length $l$ across the U-shaped wire and move it with the constant speed $v$ along the U, in the induced voltage is:
 $$ V_{ind} = \frac{d\Phi_B}{dt} = \frac{B dA}{dt} $$</p>
@@ -7699,6 +7699,15 @@ As the absent U-shaped wire prevent a current running in a closed loop, the char
 The work required to move the electrons from one to the other side of the rod is $W = F l = q v B l$.
 We also defined voltage as work per unit charge.
 Hence the induced voltage is $V_{ind} = \frac{W}{q} = \frac{q v B l}{q} = v B l $ which is the same as the equation above.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Electric-generators">Electric generators<a class="anchor-link" href="#Electric-generators">¶</a></h3><p>Electric generators produce alternating currents (AC) from mechanical energy by leveraging electromagnetic induction.</p>
 <p>The most simple generators have a static magnetic field $\vec{\bf{B}}$ generated by magnet and, inside the field, a rotating <em>armature</em> with loops of wire wounded around it.
 As the connected axle rotate the armature, a voltage $V_{ind}$ is induced in the rotating coil (often refereed to as <em>emf</em>, although not a force but a voltage).
@@ -7729,10 +7738,19 @@ These currents, flowing through the core's resistance, generate heat, leading to
 <em>Lamination</em> mitigates this by constructing the core from thin sheets of electrically insulated conductive material, commonly steel.
 This layered structure disrupts the path of eddy currents, substantially decreasing their magnitude.
 By dividing the core into numerous thin, insulated layers, the available pathways for eddy current flow are restricted, minimizing the amount of circulating current.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Transformers">Transformers<a class="anchor-link" href="#Transformers">¶</a></h3><p>With transformers, we can increase of decrease the voltage in an AC circuit.
 In essence, a transformer consists of a <em>primary</em> and <em>secondary</em> coil, usually sharing an iron core to increase the magnetic field.
 Note that the two coils do not form a closed circuit, but only their proximity is essential for the transformer to work.
-In ideal conditions, i.e. no energy loses, an AC voltage in the primary coil, will induce the voltage $V_2$ in the second coil with $N_2$ loops du to a change in the magnetic flux $\Phi_B$:
+In ideal conditions, i.e. no energy loses, an AC voltage in the primary coil, will induce the voltage $V_2$ in the second coil with $N_2$ loops due to a change in the magnetic flux $\Phi_B$:
 $$ V_2 = N_2 \frac{d \Phi_B}{dt} $$</p>
 <p>There is also a <em>self-induction</em> in the primary coil because the field changes with in it as well:
 $$ V_1 = N_1 \frac{d \Phi_B}{dt} $$</p>
@@ -7748,6 +7766,15 @@ Assuming no loses, the power in the primary and secondary loop is equal $P_1 = P
 $$ I_1 V_1 = I_2 V_2 \leftrightarrow \frac{I_1}{I_2} = \frac{N_2}{N_1}$$</p>
 <p>Transformers are found everywhere in daily life, e.g. in the power grid and (wireless) chargers.</p>
 <p>Note that, direct currents (DC) would not work with transformers as the field ist not (constantly) changing.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Mutual-inductance">Mutual inductance<a class="anchor-link" href="#Mutual-inductance">¶</a></h3><p>Let's build on our knowledge of generators and transformers to investigate <em>mutual inductance</em>.
 Again, we place two coils close to each other.
 If the current is changing in coil $1$, then there will be a voltage induced in coil $2$ according to $ V_2 = N_2 \frac{d \Phi_B}{dt} $.
@@ -7755,7 +7782,7 @@ However, it might be handy to relate the induced voltage $V_2$, directly to the 
 To that end, we define the proportionality constant <em>mutual inductance</em> $M_{21}$ as:
 $$ M_{21} = \frac{N_2 \Phi_{21}}{I_1} $$</p>
 <p>Therefore, the voltage induced in coil $2$ can be expressed as:
-$$ V_2 = N_2 \frac{d \Phi_{21}}{dt}  = - M_{21} \frac{d I_1}{dt} $$</p>
+$$ V_2 = -N_2 \frac{d \Phi_{21}}{dt}  = - M_{21} \frac{d I_1}{dt} $$</p>
 <p>Consequently, a changing current in coil $2$ would induce the voltage $V_1$ in coil $1$ with the proportionality constant $M_{12}$
 $$ V_1  = - M_{12} \frac{d I_2}{dt} $$</p>
 <p>The mutual inductance only depends on geometric variables, i.e. the spacing between the coils and their individual shape, size, and number of loops.
@@ -7764,15 +7791,33 @@ $$ M = M_{21} = M_{12} $$</p>
 <p>and simplify the equations to:
 $$ V_1  = - M \frac{d I_2}{dt} \quad \textrm{\&amp;} \quad V_2  = - M \frac{d I_1}{dt} $$</p>
 <p>Inductance (regardless if "mutual" or "self") is expressed in units of <em>henry</em> [H] = [V s / A] = [$\Omega$ s]</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Self-inductance-&amp;-inductors">Self-inductance &amp; inductors<a class="anchor-link" href="#Self-inductance-&amp;-inductors">¶</a></h3><p>Even for a single coil, we found the phenomenon of inductance.
 This <em>self-inductance</em> stems from the fact that as the changing current passes through the coil, a voltage is induced in the coil itself (opposed direction).
 In line to mutual inductance, we define self-inductance $L$ as a proportionality constant of relate the induced voltage $V_{ind}$ directly to the change in current:
-$$ L = \frac{N \Phi_b}{I} $$
+$$ L = \frac{N \Phi_B}{I} $$
 $$ V_{ind} = - N \frac{d \Phi_B}{dt} = -L \frac{d I}{dt} $$</p>
 <p>Self-inductance is often referred to as simply inductance and, as stated before, measured in henry [H].
 The inductance of a coil depends on its geometry.
 Inductors are devices used in electric circuits and represent along resistors and capacitors the core building blocks.</p>
 <!--- todo: symbol inductor -->
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Energy-stored-in-the-magnetic-field">Energy stored in the magnetic field<a class="anchor-link" href="#Energy-stored-in-the-magnetic-field">¶</a></h3><p>Let's assume we run a changing current through an inductor with inductance $L$.
 The power would be:
 $$ P = I V_{ind} = I L \frac{d I}{dt} $$</p>

@@ -161,4 +161,9 @@
 
 *<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:VFPt_cylindrical_coil_real.svg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
 
+---
+
+<img src="../img/from_wiki/Tesla_coil_circuit.svg.png" alt="TeslaCoil" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Tesla_coil_circuit.svg) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
 

@@ -7441,7 +7441,37 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="2.6.-Electromagnets,-induction-&amp;-inductance">2.6. Electromagnets, induction &amp; inductance<a class="anchor-link" href="#2.6.-Electromagnets,-induction-&amp;-inductance">¶</a></h1><p><strong>TEASER?</strong></p>
+<h1 id="2.6.-Electromagnets,-induction-&amp;-inductance">2.6. Electromagnets, induction &amp; inductance<a class="anchor-link" href="#2.6.-Electromagnets,-induction-&amp;-inductance">¶</a></h1><p><strong>How does a microphone work?</strong></p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><img alt="dynamic mic" src="../img/from_wiki/Tauchspulenmikrofon-en.svg.png" width="300">
+<img alt="condenser mic" src="../img/from_wiki/Condenser_microphone.svg.png" width="300"/></img></p>
+<p><em><sub>[left] from <a href="https://en.wikipedia.org/wiki/File:Tauchspulenmikrofon-en.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC Attribution-ShareAlike 3.0 Unported</a>; [right] from <a href="https://en.wikipedia.org/wiki/File:Condenser_microphone.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC Attribution-ShareAlike 3.0 Unported</a></sub></em></p>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Interaction-of-coil-&amp;-magnet">Interaction of coil &amp; magnet<a class="anchor-link" href="#Interaction-of-coil-&amp;-magnet">¶</a></h2><ul>
+<li>previous lecture we used <strong>constant</strong> magnetic field to understand:<ol>
+<li>electric current produces magnetic field</li>
+<li>magnetic field exerts a force on electric currents/moving electric particles</li>
+</ol>
+</li>
+</ul>
+<p><strong>What happens when we change the magnetic field over time?</strong></p>
+<p><code>em18 - magnet drop</code></p>
 </div>
 </div>
 </div>
@@ -7452,7 +7482,13 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>ANSWER FRAGMENT</li>
+<li>Joseph Henry (1797-1878) &amp; Michael Faraday (1791-1867) described independently that <strong>changing magnetic field induces an electric field</strong></li>
+<li><strong>concepts to understand</strong>:<ul>
+<li>alternating voltage/current</li>
+<li>electromagnetic induction</li>
+<li>inductance &amp; electromagnets</li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -7463,170 +7499,394 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Electromagnets,-induction-&amp;-inductance">Electromagnets, induction &amp; inductance<a class="anchor-link" href="#Electromagnets,-induction-&amp;-inductance">¶</a></h2><ul>
-<li>explore the magnetic effects produced by electric currents</li>
-<li>understand electromagnets, induction and inductance</li>
-<li>introduce alternating current and its role in power distribution</li>
+<h2 id="What-influences-the-induced-voltage-?--(1/2)">What influences the induced voltage ?  (1/2)<a class="anchor-link" href="#What-influences-the-induced-voltage-?--(1/2)">¶</a></h2><p><code>em12 - flux</code></p>
+<p><strong>Impact of geometry and orientation</strong></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="The-flux-strikes-back:-Magnetic-flux">The flux strikes back: Magnetic flux<a class="anchor-link" href="#The-flux-strikes-back:-Magnetic-flux">¶</a></h2><p><code>simulation mag. flux</code></p>
+<ul>
+<li><p>magnetic flux $\Phi_B$ defined as:
+$$\Phi_B = \int \vec{\bf{B}}\, d\vec{\bf{A}}$$</p>
+</li>
+<li><p>here $\vec{\bf{A}}$ is the vector normal to the area $A$</p>
+</li>
+<li><p>in contrast to the electric flux $\Phi_E$, "regular" integral instead of closed surface integral</p>
+</li>
+<li><p>for a <strong>uniform field</strong> simplifies to:
+$$\Phi_B = B_\perp A = B A \cos\theta = \vec{\bf{B}} \cdot \vec{\bf{A}}$$</p>
+</li>
+<li><p>measured in <em>weber</em> [Wb] = [T m²]</p>
+</li>
 </ul>
-<h2 id="Electromagnets">Electromagnets<a class="anchor-link" href="#Electromagnets">¶</a></h2><ul>
-<li>devices that generate magnetic fields when current flows</li>
-<li>common configurations include solenoids and toroids</li>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="What-influences-the-induced-voltage-?--(2/2)">What influences the induced voltage ?  (2/2)<a class="anchor-link" href="#What-influences-the-induced-voltage-?--(2/2)">¶</a></h2><p><code>em12 - flux</code></p>
+<p><strong>Impact of change over time and number of loops</strong></p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
+<li><strong>only changing magnetic fields induce a voltage</strong></li>
+<li>rate of change scales with induced voltage, i.e. $\frac{d \Phi_B}{dt}$</li>
+<li>for same $\frac{d \Phi_B}{dt}$, coil with more loops shows higher induced voltage</li>
 </ul>
-<h3 id="Solenoids">Solenoids<a class="anchor-link" href="#Solenoids">¶</a></h3><p><a href="https://de.wikibooks.org/wiki/Datei:VFPt_cylindrical_coil_real.svg">https://de.wikibooks.org/wiki/Datei:VFPt_cylindrical_coil_real.svg</a></p>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Faraday's-law-of-induction">Faraday's law of induction<a class="anchor-link" href="#Faraday's-law-of-induction">¶</a></h2><ul>
+<li>$V_{ind} = - N \frac{d\Phi_B}{dt}$</li>
+<li>with:<ul>
+<li>N - number of loops in coil</li>
+<li>$\frac{d\Phi_B}{dt}$ - change in magnetic flux</li>
+</ul>
+</li>
+</ul>
+<p><strong>Why is there a minus?</strong></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Lenz's-law">Lenz's law<a class="anchor-link" href="#Lenz's-law">¶</a></h2><p><code>em14 - Rings</code></p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>A change in the magnetic flux through a conducting loop induces a voltage, so that the resulting current generates a magnetic field that opposes the change in magnetic flux</strong>.</p>
+<p><img alt="LenzLaw" src="../img/from_wiki/Lenz_law_demonstration_edit.png" width="600"/></p>
+<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Lenz_law_demonstration.png">wikipedia</a> under <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0 Universal</a>; image was edited</sub></em></p>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="E-field-from-electrostatics-vs.-electromagnetism">E-field from electrostatics vs. electromagnetism<a class="anchor-link" href="#E-field-from-electrostatics-vs.-electromagnetism">¶</a></h2><ul>
+<li><p>remember electrostatics: <strong>static charges generate electric field</strong>:</p>
+<ul>
+<li>$V_{AB} = \int_a^b \vec{\bf{E}} d\vec{\bf{l}}$</li>
+<li>thus, for closed path, $V = \oint \vec{\bf{E}} d\vec{\bf{l}} = 0$ $\rightarrow$ work is zero</li>
+<li><strong>conservative</strong> $\rightarrow$ path independence &amp; can define potential energy</li>
+</ul>
+</li>
+<li><p><strong>changing magnetic flux induce voltage that generate an electric field</strong>:</p>
+<ul>
+<li>voltage induced by changing magnetic flux is: $V_{ind} = -\frac{d\Phi_B}{dt}$</li>
+<li>work per unit charge due to induced voltage: $V_{ind} = \oint \vec{\bf{E}}\cdot d\vec{\bf{l}} $</li>
+<li><strong>general form of Faraday's law</strong> $\oint \vec{\bf{E}} \cdot d\vec{\bf{l}} = -\frac{d\Phi_B}{dt}$</li>
+<li>work for closed path not necessarily zero $\rightarrow$ <strong>non-conservative</strong></li>
+<li>changing magnetic field induces <strong>electric field with closed field lines</strong></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Eddy-currents">Eddy currents<a class="anchor-link" href="#Eddy-currents">¶</a></h2><p><code>em25 - Waltenhofen's pendulum</code></p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
+<li>conductor (pendulum) moves through magnetic field generated by an electromagnet</li>
+<li>$\rightarrow$ changing magnetic flux in conductor $\rightarrow$ voltage induced</li>
+<li>part leaving the electromagnetic field:<ul>
+<li>decrease in magnetic flux (number of field lines passing through)</li>
+<li>generates a field that repels this motion (Lenz's law), i.e. field generated that <strong>attracts</strong> towards the electromagnet</li>
+</ul>
+</li>
+<li>part entering the electromagnetic field:<ul>
+<li>increase in magnetic flux (number of field lines passing through)</li>
+<li>generates a field that repels this motion (Lenz's law), i.e. field generated that <strong>repels</strong> towards the electromagnet</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Eddy-currents-(cont')">Eddy currents (cont')<a class="anchor-link" href="#Eddy-currents-(cont')">¶</a></h2><p><code>em25 - Waltenhofen's pendulum</code></p>
+<p><img alt="Eddy" src="../img/from_wiki/Eddy_currents_due_to_magnet.svg.png" width="400"/></p>
+<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Eddy_currents_due_to_magnet.svg">wikipedia</a> under <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0 Universal</a></sub></em></p>
+<ul>
+<li><strong>direction of induced current via RHR-1'</strong></li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Electromagnets---solenoids">Electromagnets - solenoids<a class="anchor-link" href="#Electromagnets---solenoids">¶</a></h2><p><code>em10 + simulation B-field solenoid</code></p>
 <ul>
 <li>tightly wound helical coils of wire</li>
+<li>found in many devices: generators, loudspeakers, MRI scanners, and many more</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
 <li>produce an almost uniform magnetic field inside the coil and weak field outside</li>
-<li>using ampère's law:
-$$
-\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = B\,l = \mu_0 I_{\rm enc}
-$$</li>
-<li>with loop density $n$, the field is:
-$$
-B = \mu_0 n I
-$$</li>
-<li>used in electromagnets, inductors and mri machines</li>
+<li>with loop density $n$, the field is: $B = \mu_0 \frac{N}{l}I= \mu_0 n I$</li>
 </ul>
-<h3 id="Toroids">Toroids<a class="anchor-link" href="#Toroids">¶</a></h3><ul>
-<li>doughnut-shaped coils where the field is confined within the core</li>
-<li>applying ampère's law:
-$$
-\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = B\,2\pi r = \mu_0 I_{\rm enc}
-$$</li>
-<li>resulting in:
-$$
-B = \frac{\mu_0 N I}{2\pi r}
-$$</li>
-<li>commonly used in power supplies and transformers</li>
+<p><img alt="solenoid" src="../img/from_wiki/VFPt_cylindrical_coil_real.svg.png" width="300"/></p>
+<p><em><sub>from <a href="https://de.wikibooks.org/wiki/Datei:VFPt_cylindrical_coil_real.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC Attribution-ShareAlike 3.0 Unported</a></sub></em></p>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="AC-electric-generator">AC electric generator<a class="anchor-link" href="#AC-electric-generator">¶</a></h2><p><code>em38</code></p>
+<ul>
+<li><p>convert mechanical energy into electrical energy via a <strong>rotating armature</strong> in a <strong>static magnetic field</strong></p>
+</li>
+<li><p>assuming a uniform magnetic field, <strong>induced voltage in rotating coil</strong> is:
+$$V_{ind} = - \frac{d\Phi_B}{dt} = - \frac{d}{dt} \left( \int \vec{\bf{B}} d\vec{\bf{A}} \right) = - \frac{d}{dt}(B A \cos \theta)$$</p>
+</li>
+<li><p><strong>only angle $\theta$ is time dependent</strong></p>
+</li>
+<li><p>assuming initial angle $\theta_0 = 0$ and constant rotation velocity $\omega = \frac{d\theta}{dt}$:
+$$V_{ind} = - B A \frac{d \cos (\omega t)}{dt} = B A \omega \sin (\omega t)$$</p>
+</li>
+<li><p>for $N$ loops and maximally induced voltage $V_{ind, 0} = N B A \omega$ :
+$$V_{ind} = N B A \omega \sin (\omega t) = V_{ind, 0} \sin (\omega t)$$</p>
+</li>
+<li><p>principle can be <strong>reversed</strong> to work as <strong>electric motors</strong></p>
+</li>
 </ul>
-<h2 id="Electromagnetic-induction,-lenz's-law-&amp;-faraday's-law">Electromagnetic induction, lenz's law &amp; faraday's law<a class="anchor-link" href="#Electromagnetic-induction,-lenz's-law-&amp;-faraday's-law">¶</a></h2><ul>
-<li>a changing magnetic field induces an electric current</li>
-<li>discovered by henry and faraday independently</li>
-<li>forms the basis for generators, transformers and many other devices</li>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Primer-on-alternating-current-(AC)">Primer on alternating current (AC)<a class="anchor-link" href="#Primer-on-alternating-current-(AC)">¶</a></h2><ul>
+<li><p>AC == time varying voltage &amp; current</p>
+</li>
+<li><p>for sinusoidal behavior, with $\omega=2\pi f$, voltage alternates between $+V_0$ and $-V_0$ described as:
+$$V(t)= V_0 \sin(2\pi f t)= V_0 \sin(\omega t)$$</p>
+</li>
+<li><p>current is given by:
+$$I(t)=\frac{V(t)}{R}= I_0 \sin(\omega t)$$</p>
+</li>
 </ul>
-<h3 id="Magnetic-flux">Magnetic flux<a class="anchor-link" href="#Magnetic-flux">¶</a></h3><ul>
-<li>defined for a uniform field as:
-$$
-\Phi_B = B_\perp A = B A \cos\theta = \vec{\bf{B}} \cdot \vec{\bf{A}}
-$$</li>
-<li>here $\vec{\bf{A}}$ is the vector normal to the area $A$</li>
-<li>measured in weber [Wb]</li>
-<li>for non-uniform fields, integrate over the area:
-$$
-\Phi_B = \int \vec{\bf{B}}\, d\vec{\bf{A}}
-$$</li>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Using-Root-Mean-Squared-(RMS)-values">Using Root-Mean-Squared (RMS) values<a class="anchor-link" href="#Using-Root-Mean-Squared-(RMS)-values">¶</a></h2><ul>
+<li><p>often RMS values are used in AC:
+$$V_{\rm RMS} = \sqrt{V(t)^2} = \sqrt{V_0^2 \sin^2 (\omega t)}$$</p>
+</li>
+<li><p>with $\sin^2(\omega t) = \frac{1}{2}$
+$$V_{\rm RMS}= \frac{V_0}{\sqrt{2}}$$
+$$I_{\rm RMS}= \frac{I_0}{\sqrt{2}}$$</p>
+</li>
+<li><p>for example, a 220V outlet has a peak voltage $V_0\approx 311$ V</p>
+</li>
 </ul>
-<h3 id="Induced-voltage,-faraday's-law-of-induction-&amp;-lenz's-law">Induced voltage, faraday's law of induction &amp; lenz's law<a class="anchor-link" href="#Induced-voltage,-faraday's-law-of-induction-&amp;-lenz's-law">¶</a></h3><ul>
-<li>induced voltage is given by the rate of change of magnetic flux:
-$$
-V_{\rm ind} = -\frac{d\Phi_B}{dt}
-$$</li>
-<li>for a coil with $N$ loops:
-$$
-V_{\rm ind} = -N\frac{d\Phi_B}{dt}
-$$</li>
-<li>the negative sign shows that the induced current opposes the change in flux (lenz's law)</li>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Power-in-AC-circuits">Power in AC circuits<a class="anchor-link" href="#Power-in-AC-circuits">¶</a></h2><ul>
+<li>power is $P(t) = I(t) V(t)$</li>
+<li>for sinusoidal current/voltage, average power over a period is <strong>non-zero</strong>:
+$$\bar{P} = I_0 \sin (\omega t) V_0 \sin (\omega t)= I_0 V_0 \sin^2(\omega t)$$</li>
+<li>for one period $\sin^2 (\omega t) = \frac{1}{2}$, $I_{RMS} = \frac{I_0}{\sqrt{2}}$ and $ V_{RMS} = \frac{V_0}{\sqrt{2}}$
+$$\bar{P}=\sqrt{2} I_{RMS} \sqrt{2} V_{RMS} \frac{1}{2} = I_{RMS} V_{RMS}$$</li>
 </ul>
-<h3 id="General-form-of-faraday's-law">General form of faraday's law<a class="anchor-link" href="#General-form-of-faraday's-law">¶</a></h3><ul>
-<li>a changing magnetic flux produces an electric field:
-$$
-\oint \vec{\bf{E}} \cdot d\vec{\bf{l}} = -\frac{d\Phi_B}{dt}
-$$</li>
-<li>this relation holds in both conductors and free space</li>
-<li>distinguishes non-conservative induced electric fields from static ones</li>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Transformers">Transformers<a class="anchor-link" href="#Transformers">¶</a></h2><p><code>em46</code></p>
+<ul>
+<li>transformer consists of a <em>primary</em> and <em>secondary</em> coil</li>
+<li>two coils <strong>do not</strong> form a closed circuit, but only their proximity is essential for the transformer to work</li>
 </ul>
-<h2 id="Alternating-current,-generators-&amp;-transformers">Alternating current, generators &amp; transformers<a class="anchor-link" href="#Alternating-current,-generators-&amp;-transformers">¶</a></h2><ul>
-<li>alternating current (ac) is generated by converting mechanical energy into electrical energy</li>
-<li>ac circuits involve time-varying voltages and currents with sinusoidal behavior</li>
-<li>essential for generators, transformers and electric motors</li>
+<p><strong>What influences the voltage in the secondary coil?</strong></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Transformers---What-influences-the-voltage-in-the-secondary-coil?">Transformers - What influences the voltage in the secondary coil?<a class="anchor-link" href="#Transformers---What-influences-the-voltage-in-the-secondary-coil?">¶</a></h2><ul>
+<li><p>iron core (geometry, layered, etc.)</p>
+</li>
+<li><p>ratio of loops:</p>
+<ul>
+<li>without energy loss, the induced voltages in both coils are:
+$$V_2= N_2\frac{d\Phi_B}{dt} \quad \&amp; \quad V_1= N_1\frac{d\Phi_B}{dt}$$</li>
+<li>taking the voltage ratio &amp; using conservation of power, $P_1 = P_2$, we get:
+$$\frac{V_2}{V_1}= \frac{I_1}{I_2} = \frac{N_2}{N_1}$$</li>
 </ul>
-<h3 id="Ac-circuits">Ac circuits<a class="anchor-link" href="#Ac-circuits">¶</a></h3><ul>
-<li>sinusoidal voltage is described by:
-$$
-V(t)= V_0 \sin(2\pi f t)= V_0 \sin(\omega t)
-$$</li>
-<li>with $\omega=2\pi f$, voltage alternates between $+V_0$ and $-V_0$</li>
-<li>current is given by:
-$$
-I(t)=\frac{V(t)}{R}= I_0 \sin(\omega t)
-$$</li>
-<li>average power over a period is:
-$$
-\bar{P}= \frac{1}{2} I_0^2 R = \frac{1}{2}\frac{V_0^2}{R}
-$$</li>
-<li>rms values are defined as:
-$$
-I_{\rm RMS}= \frac{I_0}{\sqrt{2}},\quad V_{\rm RMS}= \frac{V_0}{\sqrt{2}}
-$$</li>
-<li>for example, a 220V outlet has a peak voltage $V_0\approx 311$ V</li>
+</li>
+<li><p>depending on the ratio of the loop numbers:</p>
+<ul>
+<li>step-up transformer: For $N_2 &gt; N_1$ the voltage $V_2$ will be larger than $V_1$</li>
+<li>step-down transformer: For $N_2 &lt; N_1$ the voltage $V_2$ will be smaller than $V_1$</li>
 </ul>
-<h3 id="Induction-in-a-moving-conductor">Induction in a moving conductor<a class="anchor-link" href="#Induction-in-a-moving-conductor">¶</a></h3><ul>
-<li>moving a conductor in a uniform magnetic field induces a voltage</li>
-<li>for a rod of length $l$ moving at speed $v$:
-$$
-V_{\rm ind}= B\,l\,v
-$$</li>
-<li>derived from the change in area $dA= l\,v\,dt$</li>
-<li>valid when $l$, $v$ and $B$ are mutually perpendicular</li>
+</li>
 </ul>
-<h3 id="Electric-generators">Electric generators<a class="anchor-link" href="#Electric-generators">¶</a></h3><ul>
-<li>convert mechanical energy into electrical energy via a rotating armature in a static magnetic field</li>
-<li>the induced voltage in a rotating coil is:
-$$
-V_{\rm ind}= -\frac{d}{dt}\left(BA\cos\theta\right)
-$$</li>
-<li>with constant angular velocity $\omega$, this becomes:
-$$
-V_{\rm ind}= BA\,\omega\,\sin(\omega t)
-$$</li>
-<li>for $N$ loops, the peak voltage is $V_{\rm ind,0}= NBA\omega$</li>
-<li>principle can be reversed in electric motors</li>
-</ul>
-<h3 id="Transformers">Transformers<a class="anchor-link" href="#Transformers">¶</a></h3><ul>
-<li>transfer ac voltage between coils through mutual induction</li>
-<li>primary voltage:
-$$
-V_1= N_1\frac{d\Phi_B}{dt}
-$$</li>
-<li>secondary voltage:
-$$
-V_2= N_2\frac{d\Phi_B}{dt}
-$$</li>
-<li>voltage ratio is:
-$$
-\frac{V_2}{V_1}= \frac{N_2}{N_1}
-$$</li>
-<li>conservation of power implies:
-$$
-I_1V_1= I_2V_2
-$$</li>
-<li>used as step-up or step-down transformers based on the turns ratio</li>
-</ul>
-<h3 id="Mutual-inductance">Mutual inductance<a class="anchor-link" href="#Mutual-inductance">¶</a></h3><ul>
-<li>relates the induced voltage in one coil to the rate of change of current in a neighboring coil</li>
-<li>defined as:
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Mutual-inductance">Mutual inductance<a class="anchor-link" href="#Mutual-inductance">¶</a></h2><ul>
+<li><p>relates the induced voltage in one coil to the rate of change of current in a neighboring coil</p>
+</li>
+<li><p>defined as proportionality constant:
 $$
 M_{21}= \frac{N_2\Phi_{21}}{I_1}
-$$</li>
-<li>the induced voltage in coil 2 is:
-$$
-V_2= -M_{21}\frac{dI_1}{dt}
-$$</li>
-<li>depends solely on the geometry and spacing of the coils</li>
+$$</p>
+</li>
+<li><p>the induced voltage in one coil can directly be related to change in current in the other coil:
+$$ 
+V_2 = -N_2 \frac{d \Phi_{21}}{dt}  = - M_{21} \frac{d I_1}{dt} \quad \&amp; \quad V_1  = - M_{12} \frac{d I_2}{dt} 
+$$</p>
+</li>
+<li><p>mutual inductance only depends on geometric variables, i.e. the spacing between the coils and their individual shape, size, and number of loops:
+$$ M = M_{21} = M_{12} $$</p>
+</li>
+<li><p><strong>inductance</strong> is expressed in <strong>units of henry</strong> [H] = [V s / A] = [$\Omega$ s]</p>
+</li>
 </ul>
-<h3 id="Self-inductance-&amp;-inductors">Self-inductance &amp; inductors<a class="anchor-link" href="#Self-inductance-&amp;-inductors">¶</a></h3><ul>
-<li>self-inductance relates the induced voltage in a coil to its own changing current:
-$$
-V_{\rm ind}= -L\frac{dI}{dt}
-$$</li>
-<li>inductance $L$ is measured in henry [H]</li>
-<li>inductors are fundamental circuit elements alongside resistors and capacitors</li>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Self-inductance-&amp;-inductors">Self-inductance &amp; inductors<a class="anchor-link" href="#Self-inductance-&amp;-inductors">¶</a></h2><p><code>em13</code></p>
+<ul>
+<li><p>even for a <strong>single coil</strong>, we find the phenomenon of inductance, a.k.a  <strong>self-inductance</strong></p>
+</li>
+<li><p><strong>changing current</strong> passes through the coil <strong>induces voltage in  coil itself</strong> with <strong>opposed direction</strong></p>
+</li>
+<li><p>defined as proportionality constant (depends on coil geometry):
+$$ L = \frac{N \Phi_B}{I} $$
+$$ V_{ind} = - N \frac{d \Phi_B}{dt} = -L \frac{d I}{dt} $$</p>
+</li>
+<li><p>often referred simply to as inductance and measured in henry [H].</p>
+</li>
+<li><p><strong>inductors are fundamental circuit elements alongside resistors and capacitors</strong></p>
+</li>
 </ul>
-<h3 id="Energy-stored-in-the-magnetic-field">Energy stored in the magnetic field<a class="anchor-link" href="#Energy-stored-in-the-magnetic-field">¶</a></h3><ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Energy-stored-in-the-magnetic-field">Energy stored in the magnetic field<a class="anchor-link" href="#Energy-stored-in-the-magnetic-field">¶</a></h2><p><code>em17 - Thomson</code></p>
+<ul>
 <li>power supplied to an inductor is:
 $$
 P= I\,V_{\rm ind}= I\,L\frac{dI}{dt}
 $$</li>
 <li>the work done to build up the current is:
+$$dW = P dt = I L \frac{dI}{dt} dt = I L dI $$
 $$
 W= \int_0^I I\,L\,dI= \frac{1}{2}LI^2
 $$</li>
