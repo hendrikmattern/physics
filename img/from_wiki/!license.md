@@ -131,3 +131,34 @@
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:StonerWohlfarthMainLoop.svg) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
 
 ---
+
+<img src="../img/from_wiki/Tauchspulenmikrofon-en.svg.png" alt="dynamic mic" width="500"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Tauchspulenmikrofon-en.svg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Condenser_microphone.svg.png" alt="conderser mic" width="500"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Condenser_microphone.svg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Lenz_law_demonstration_edit.png" alt="LenzLaw" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Lenz_law_demonstration.png) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en); image was edited</sub>*
+
+---
+
+<img src="../img/from_wiki/Eddy_currents_due_to_magnet.svg.png" alt="Eddy" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Eddy_currents_due_to_magnet.svg) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/VFPt_cylindrical_coil_real.svg.png" alt="solenoid" width="500"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:VFPt_cylindrical_coil_real.svg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+
