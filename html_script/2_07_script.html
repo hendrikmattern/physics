@@ -7534,6 +7534,15 @@ This LR-circuit is fundamental in electronics, particularly in applications like
 Unlike the RC-circuit, which involves a capacitor, the LR-circuit focuses on the behavior of an inductor.</p>
 <p>Let's investigate the LR-circuit is analyzed under two conditions: when the circuit is switched on and when it is switched off.
 Switching on the circuit allows the inductor to oppose the change in current, while switching off demonstrates the inductor's attempt to maintain current.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Switching-on-the-DC-supply">Switching on the DC supply<a class="anchor-link" href="#Switching-on-the-DC-supply">¶</a></h3><p>When the circuit is closed, the inductor initially opposes the change in current, causing the current to rise gradually over time instead of instantaneously from zero to its maximum value.
 To analyze this, we apply Kirchhoff's loop rule, which states that the sum of the voltage changes around a closed loop is zero.
 For the LR-circuit, the DC supply provides $V_0$, the voltage drop across the resistor is $ V_R = I R $, and the voltage across the inductor is $ V_L = L \frac{dI}{dt} $.</p>
@@ -7564,6 +7573,19 @@ $$ I(t) = \frac{V_0}{R} (1 - e^{-\frac{t}{\tau}}) \quad \textrm{with} \quad \tau
 <p>The current asymptotically approaches $ \frac{V_0}{R} $ with a time constant $ \tau = \frac{L}{R} $.
 In line with the RC-circuit, $\tau$ is in seconds ($\Omega$/H = (V/A)/(Vs/A) = s) and after $\tau$ the current $I(\tau)$ reached 63% of its maximum value.
 While the equations suggest, that $I(t)$ never reach their final value, it is fair to assume that after $5\tau$ the process is completed.</p>
+<p>The voltage over the inductor is therefore:
+$$V_L = L \frac{dI}{dt} = \frac{d}{dt}\Bigl( \frac{V_0}{R}\Bigl(1-e^{-tR/L}\Bigr) \Bigr)$$
+$$V_L = L \Bigl( \frac{V_0}{R} \cdot \frac{-R}{L} \cdot e^{-tR/L} \Bigr)$$
+$$V_L = - V_0 e^{-t/\tau}$$</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Switching-off-the-DC-supply">Switching off the DC supply<a class="anchor-link" href="#Switching-off-the-DC-supply">¶</a></h3><p>When the circuit is switched off, the same logic applied, i.e. the inductor impedes the change in current.
 Thus, the inductor attempts to maintain the current, leading to a gradual decay instead of a suddenly vanishing current.
 With the voltage source removed ($ V_0 = 0 $), Kirchhoff's loop rule gives:</p>
@@ -7576,6 +7598,9 @@ $$ \ln\left(\frac{I}{I_0}\right) = -\frac{R t}{L}$$
 $$ I(t) = I_0 e^{-\frac{t}{\tau}}  \quad \textrm{with} \quad \tau = \frac{L}{R} $$</p>
 <p>Again, $\tau$ is in units of seconds and after $\tau$ the current has decayed to 37% of its initial value.
 <em>To summarize, a resistor impedes current, i.e. "limits" the current flow, while a inductor impedes the *change in current</em>, i.e. "smooths out" changes in current flow.*</p>
+<p>The voltage over the inductor can be found:
+$$V_L = L \frac{dI}{dt} = \frac{d}{dt}\Bigl( I_0 e^{-tR/L} \Bigr) = \frac{-L R}{L} I_0 e^{-tR/L}$$
+$$V_L = - V_0 e^{-t/\tau}$$</p>
 </div>
 </div>
 </div>
@@ -7693,6 +7718,15 @@ Before combining the basic building elements of circuits, i.e. resistor, inducto
 However, in AC circuits, inductors and capacitors introduce an additional type of opposition known as <em>reactance</em> $X$.
 Unlike resistance, reactance depends on frequency and causes a phase shift between voltage and current.
 Reactance, measured in ohms ($\Omega$), is different from resistance because it does not dissipate energy as heat but instead temporarily stores it in magnetic (inductors) or electric (capacitors) fields.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Resistor-in-an-AC-Circuit">Resistor in an AC Circuit<a class="anchor-link" href="#Resistor-in-an-AC-Circuit">¶</a></h3><p>A resistor obeys <strong>Ohm's law</strong>, which states that the voltage across it is proportional to the current flowing through it:
 $$V = I R$$</p>
 <p>If the current is sinusoidal, i.e. $I = I_0 \cos(\omega t)$, the voltage across the resistor is:
@@ -7703,6 +7737,15 @@ That is, the peaks and zero crossings of the voltage and current waveforms occur
 <p>Unlike inductors and capacitors, resistors dissipate energy as heat.
 The average rate at which energy is transformed into heat, i.e. the average power is:
 $$\overline{P} = \overline{IV} = I_{rms} V_{rms} = I_{rms}^2 R = \frac{V_{rms}^2}{R}.$$</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Inductor-in-an-AC-Circuit">Inductor in an AC Circuit<a class="anchor-link" href="#Inductor-in-an-AC-Circuit">¶</a></h3><p>A voltage applied to an inductor with inductance $L$ will induce a voltage opposite to its origin in the inductor itself.
 According to Kirchhoff’s loop rule, the sum of the external and induced voltage must be zero:
 $$V - L \frac{dI}{dt} = 0 \leftrightarrow V = L \frac{dI}{dt} $$</p>
@@ -7720,6 +7763,15 @@ $$ V_0 = X_L I_0 \quad \&amp; \quad V_{RMS} = X_L I_{RMS} $$</p>
 <p>Note that, since $X_L$ increases with frequency, inductors resist high-frequency currents more than low-frequency ones.
 Since voltage and current are out of phase by $90^\circ$, the <em>average power dissipation is zero</em> in an ideal inductor.
 The energy is stored in the magnetic field and returned to the circuit.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Capacitor-in-an-AC-Circuit">Capacitor in an AC Circuit<a class="anchor-link" href="#Capacitor-in-an-AC-Circuit">¶</a></h3><p>A capacitor with capacitance $C$ in an AC circuit continuously charges and discharges as the voltage oscillates.
 According to Kirchhoff’s loop rule, the voltage applied to the capacitor is the same as the voltage across the capacitor:
 $$V = \frac{Q}{C}$$</p>
@@ -7742,6 +7794,15 @@ $$ V_0 = X_C I_0 \quad \&amp; \quad V_{RMS} = X_C I_{RMS} $$</p>
 <p>Note that, since $X_C$ decreases with frequency, capacitors allow high-frequency currents to pass more easily than low-frequency ones.
 Since voltage and current are out of phase by $90^\circ$, the <em>average power dissipation is zero</em> in an ideal capacitor.
 The energy is stored in the electric field and returned to the circuit.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Summary-of-AC-Circuit-Components">Summary of AC Circuit Components<a class="anchor-link" href="#Summary-of-AC-Circuit-Components">¶</a></h3><table>
 <thead>
 <tr>

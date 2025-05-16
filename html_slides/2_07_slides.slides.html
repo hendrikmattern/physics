@@ -7441,9 +7441,8 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="2.7.-TITLE">2.7. TITLE<a class="anchor-link" href="#2.7.-TITLE">¶</a></h1><p><strong>TEASER?</strong></p>
-<p><code>ew10 - Teslatransformator</code></p>
-<p>RECAP LENZ? <code>em17 - Thomson</code></p>
+<h1 id="2.7.-AC-circuits-&amp;-electromagnetic-oscillations">2.7. AC circuits &amp; electromagnetic oscillations<a class="anchor-link" href="#2.7.-AC-circuits-&amp;-electromagnetic-oscillations">¶</a></h1><p><strong>How does a Tesla coil work?</strong>
+<code>ew10</code></p>
 </div>
 </div>
 </div>
@@ -7454,7 +7453,211 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>ANSWER FRAGMENT</li>
+<li>electric resonant transformer circuit</li>
+<li>Tesla coil with primary and secondary winding, each forming its own LC-circuit</li>
+<li>spark gap (SG) acts as a switch</li>
+<li>need to understand: <strong>LRC-circuits, resonance, and impedance</strong></li>
+<li><strong>plan for today</strong>: investigate simply AC-circuits to derive deeper understanding of R, L, and C</li>
+</ul>
+<p><img alt="TeslaCoil" src="../img/from_wiki/Tesla_coil_circuit.svg.png" width="300"/></p>
+<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Tesla_coil_circuit.svg">wikipedia</a> under <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0 Universal</a></sub></em></p>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="LR-circuit">LR-circuit<a class="anchor-link" href="#LR-circuit">¶</a></h2><p><code>em45</code></p>
+<ul>
+<li>consider a simple DC circuit with the following elements in series:<ul>
+<li>ideal voltage source $V_0$</li>
+<li>resistor $R$</li>
+<li>inductor $L$</li>
+</ul>
+</li>
+</ul>
+<p><img alt="LR-circuit" src="../img/from_wiki/Series-RL.png" width="400"/></p>
+<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Series-RL.png">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC Attribution-ShareAlike 3.0 Unported</a></sub></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="LR-circuit:-Switching-DC-supply-on">LR-circuit: Switching DC supply on<a class="anchor-link" href="#LR-circuit:-Switching-DC-supply-on">¶</a></h2><ul>
+<li>applying Kirchhoff's loop rule gives<br/>
+$$V_0 = L\frac{dI}{dt} + IR$$</li>
+<li>rearrange and take integral ($0..I$ and $0..t$, i.e. current slowly builds up due to self-inductance):
+$$ \int_0^I \frac{dI}{V_0 - R I} = \int_0^t \frac{dt}{L}$$</li>
+<li>solving the differential equation yields<br/>
+$$I(t)=\frac{V_0}{R}\Bigl(1-e^{-tR/L}\Bigr)$$</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="LR-circuit:-Switching-DC-supply-on-(cont')">LR-circuit: Switching DC supply on (cont')<a class="anchor-link" href="#LR-circuit:-Switching-DC-supply-on-(cont')">¶</a></h2><ul>
+<li><p>find V_L:
+$$V_L = L \frac{dI}{dt} = \frac{d}{dt}\Bigl( \frac{V_0}{R}\Bigl(1-e^{-tR/L}\Bigr) \Bigr)$$
+$$V_L = L \Bigl( \frac{V_0}{R} \cdot \frac{-R}{L} \cdot e^{-tR/L} \Bigr)$$
+$$V_L = - V_0 e^{-tR/L}$$</p>
+</li>
+<li><p><strong>summary</strong>: self-inductance causes:</p>
+<ul>
+<li>voltage over $L$ to be first opposed to $V_0$ (Lenz's rule) and decaying over times</li>
+<li>current building up over time</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="LR-circuit:-Switching-DC-supply-off">LR-circuit: Switching DC supply off<a class="anchor-link" href="#LR-circuit:-Switching-DC-supply-off">¶</a></h2><ul>
+<li>when the DC supply is switched off ($V_0=0$) the inductor resists (again) change in current</li>
+<li>Kirchhoff's loop rule becomes<br/>
+$$L\frac{dI}{dt}+IR=0$$</li>
+<li>solution for decaying current is:
+$$I(t)=I_0e^{-tR/L}$$</li>
+<li>voltage over inductor is:</li>
+</ul>
+<p>$$V_L = L \frac{dI}{dt} = \frac{d}{dt}\Bigl( I_0 e^{-tR/L} \Bigr) = \frac{-L R}{L} I_0 e^{-tR/L}$$
+$$V_L = - V_0 e^{-tR/L}$$</p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="LC-circuit:-Fun-with-AC-circuit">LC-circuit: Fun with AC circuit<a class="anchor-link" href="#LC-circuit:-Fun-with-AC-circuit">¶</a></h2><p><code>ew04</code></p>
+<p><strong>What happens if we put $L$ and $C$ in series in a AC circuit?</strong></p>
+<p><img alt="LC-circuit" src="../img/from_wiki/LC_parallel_simple.svg.png" width="400"/></p>
+<p><em><sub>from <a href="https://commons.wikimedia.org/wiki/File:LC_parallel_simple.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC Attribution-ShareAlike 3.0 Unported</a></sub></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="LC-circuit:-The-equations">LC-circuit: The equations<a class="anchor-link" href="#LC-circuit:-The-equations">¶</a></h2><ul>
+<li>applying Kirchhoff's rule leads to:<br/>
+$$-L\frac{dI}{dt}+\frac{Q}{C}=0$$</li>
+<li>using $I=-\frac{dQ}{dt}$ (minus because capacitor discharges)
+$$\frac{d^2Q}{dt^2}+\frac{1}{LC}Q=0$$</li>
+<li>second order linear equation describing simple <strong>harmonic oscillator</strong> with general solution:<br/>
+$$Q(t)=Q_0\cos\Bigl(\omega t+\phi\Bigr) \quad \textrm{with the angular frequency} \, \omega=\sqrt{\frac{1}{LC}}$$</li>
+<li>current $I(t)$ is time derivative of charge:
+$$ I(t) = -\frac{dQ}{dt} = \omega Q_0 \sin(\omega t + \phi) = I_0 \sin(\omega t + \phi)$$</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="LC-circuit:-Electromagnetic-oscillations">LC-circuit: Electromagnetic oscillations<a class="anchor-link" href="#LC-circuit:-Electromagnetic-oscillations">¶</a></h2><ul>
+<li>the energy oscillates between capacitor (electric field) and inductor (magnetic field):
+$$ U  = U_B + U_E = \frac{Q_0^2}{2 C} \sin^2(\omega t + \phi) + \frac{Q_0^2}{2C} \cos^2(\omega t + \phi) = \frac{Q_0^2}{2C}$$</li>
+<li>losses are neglected</li>
+</ul>
+<p><img alt="LC-oscilations" src="../img/from_wiki/Tuned_circuit_animation_3_300ms.gif" width="350"/></p>
+<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Tuned_circuit_animation_3_300ms.gif">wikipedia</a> under <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0 Universal</a></sub></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="LRC-circuit">LRC-circuit<a class="anchor-link" href="#LRC-circuit">¶</a></h2><ul>
+<li>adding a resistor<ul>
+<li>introduces damping into oscillations</li>
+<li>models losses</li>
+</ul>
+</li>
+</ul>
+<p><img alt="LRC-circuit" src="../img/from_wiki/RLC_series_circuit_v1.svg.png" width="200"/></p>
+<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:RLC_series_circuit_v1.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC Attribution-ShareAlike 3.0 Unported</a></sub></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="LRC-circuit-(cont')">LRC-circuit (cont')<a class="anchor-link" href="#LRC-circuit-(cont')">¶</a></h2><p><code>sim - damping LRC-circuit</code></p>
+<ul>
+<li><p>apply Kirchhoff's loop rule and use $I = \frac{dQ}{dt}$:
+$$ - L \frac{dI}{dt} - I R + \frac{Q}{C} = 0 $$
+$$L\frac{d^2Q}{dt^2}+R\frac{dQ}{dt}+\frac{Q}{C}=0$$</p>
+</li>
+<li><p>second-order linear differential equation that describes <strong>damped harmonic oscillator</strong>:</p>
+<ul>
+<li>$R^2 &lt; \frac{4L}{C}$: Underdamped oscillation with exponential decay</li>
+<li>$R^2 &gt; \frac{4L}{C}$: Overdamped, i.e. the damping is too strong to allow any oscillations</li>
+<li>$R^2 = \frac{4L}{C}$: Critically damped oscillation with the angular frequency $\omega_d = \sqrt{\frac{1}{LC} - \frac{R^2}{4L^2} }$</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Resistance-vs.-reactance">Resistance vs. reactance<a class="anchor-link" href="#Resistance-vs.-reactance">¶</a></h2><p><code>ew01 - phase shift</code></p>
+<ul>
+<li><strong>LC-circuit</strong>: energy conserved, only exchanged between $L$ and $C$ $\rightarrow$ oscillation $\rightarrow$ phase shift between $V$ and $I$</li>
+<li><strong>LRC-circuit</strong>: beyond oscillation, energy dissipated as heat in $R$</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
+<li><strong>new concept</strong>:<ul>
+<li><strong>resistance</strong> $R$ is independent of frequency and dissipates energy as heat</li>
+<li><strong>reactance</strong> (inductive $X_L$ and capacitive $X_C$) depends on frequency and temporarily stores energy</li>
+<li>the <strong>phase difference</strong> between voltage and current arises due to reactance</li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -7465,161 +7668,204 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Ac-circuits-&amp;-electromagnetic-oscillations">Ac circuits &amp; electromagnetic oscillations<a class="anchor-link" href="#Ac-circuits-&amp;-electromagnetic-oscillations">¶</a></h2><ul>
-<li>in this chapter we combine resistance, capacity and inductance in ac circuits</li>
-<li>focus on electromagnetic oscillations and the exchange of energy between electric and magnetic fields</li>
+<h2 id="Resistor-in-AC-circuit">Resistor in AC circuit<a class="anchor-link" href="#Resistor-in-AC-circuit">¶</a></h2><ul>
+<li><p>follows Ohm's law: $V=IR$</p>
+</li>
+<li><p>if current is sinusoidal, i.e. $I = I_0 \cos(\omega t)$, the voltage is:
+$$V = (I_0 \cos(\omega t)) R = (I_0 R) \cos(\omega t) = V_{0} \cos(\omega t)$$</p>
+</li>
+<li><p>$\rightarrow$ voltage and current are <strong>in phase</strong></p>
+</li>
+<li><p>the average power is given by<br/>
+$$\bar{P}=I_{rms}^2R$$</p>
+</li>
 </ul>
-<hr/>
-<h2 id="The-lr-circuit">The lr-circuit<a class="anchor-link" href="#The-lr-circuit">¶</a></h2><h3 id="Switching-on-the-dc-supply">Switching on the dc supply<a class="anchor-link" href="#Switching-on-the-dc-supply">¶</a></h3><ul>
-<li>consider a simple dc circuit with an ideal voltage source $V_0$, a resistor $R$ and an inductor $L$ in series</li>
-<li>applying kirchhoff's loop rule gives<br/>
-$$V_0 = L\frac{dI}{dt} + IR$$</li>
-<li>solving the differential equation yields<br/>
-$$I(t)=\frac{V_0}{R}\Bigl(1-e^{-t/\tau}\Bigr)$$<br/>
-with the time constant<br/>
-$$\tau=\frac{L}{R}$$</li>
-<li>after about $5\tau$ the current nearly reaches its steady state value</li>
-</ul>
-<h3 id="Switching-off-the-dc-supply">Switching off the dc supply<a class="anchor-link" href="#Switching-off-the-dc-supply">¶</a></h3><ul>
-<li>when the dc supply is switched off ($V_0=0$) the inductor resists the change in current</li>
-<li>kirchhoff's loop rule becomes<br/>
-$$L\frac{dI}{dt}+IR=0$$</li>
-<li>the solution for the decaying current is<br/>
-$$I(t)=I_0e^{-t/\tau}$$<br/>
-with $$\tau=\frac{L}{R}$$</li>
-</ul>
-<hr/>
 </div>
 </div>
 </div>
-</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Electromagnetic-oscillations">Electromagnetic oscillations<a class="anchor-link" href="#Electromagnetic-oscillations">¶</a></h2><h3 id="Lc-circuit">Lc-circuit<a class="anchor-link" href="#Lc-circuit">¶</a></h3><ul>
-<li>the lc-circuit consists only of an inductor and a capacitor in series</li>
-<li>initially the capacitor is charged to $Q_0$, with voltage<br/>
-$$V=\frac{Q}{C}$$</li>
-<li>applying kirchhoff's rule leads to<br/>
-$$-L\frac{dI}{dt}+\frac{Q}{C}=0$$<br/>
-and using $I=-\frac{dQ}{dt}$, we obtain the differential equation<br/>
-$$\frac{d^2Q}{dt^2}+\frac{1}{LC}Q=0$$</li>
-<li>its general solution is<br/>
-$$Q(t)=Q_0\cos\Bigl(\omega t+\phi\Bigr)$$<br/>
-with the angular frequency<br/>
-$$\omega=\sqrt{\frac{1}{LC}}$$</li>
-<li>the energy oscillates between the capacitor (electric field) and the inductor (magnetic field)</li>
+<h2 id="Inductor-in-AC-circuit">Inductor in AC circuit<a class="anchor-link" href="#Inductor-in-AC-circuit">¶</a></h2><ul>
+<li>the voltage across an inductor is: $V=L\frac{dI}{dt}$</li>
+<li>for sinusoidal current $I(t)=I_0\cos(\omega t)$, the voltage is:
+$$V(t)=\omega LI_0\cos\Bigl(\omega t+\frac{\pi}{2}\Bigr) = X_L I_0\cos\Bigl(\omega t+\frac{\pi}{2}\Bigr)$$</li>
+<li>the inductive reactance is $X_L=\omega L = 2 \pi f L$</li>
+<li>the <strong>voltage leads the current by $90^\circ$</strong></li>
+<li>since <strong>$X_L$ increases with frequency</strong>, inductors resist high-frequency currents more than low-frequency ones</li>
 </ul>
-<h3 id="Lrc-circuit">Lrc-circuit<a class="anchor-link" href="#Lrc-circuit">¶</a></h3><ul>
-<li>adding a resistor introduces damping into the oscillations</li>
-<li>the governing equation becomes<br/>
-$$L\frac{d^2Q}{dt^2}+R\frac{dQ}{dt}+\frac{Q}{C}=0$$</li>
-<li>the system can be underdamped, overdamped or critically damped depending on the relation between $R^2$ and $4LC$</li>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Capacitor-in-AC-circuit">Capacitor in AC circuit<a class="anchor-link" href="#Capacitor-in-AC-circuit">¶</a></h2><ul>
+<li>the voltage across a capacitor is: $V=\frac{Q}{C}$</li>
+<li>for a sinusoidal current $I(t)=I_0\cos(\omega t)$, the voltage is:<br/>
+$$V(t)=\frac{I_0}{\omega C}\cos\Bigl(\omega t-\frac{\pi}{2}\Bigr)= X_C I_0\cos\Bigl(\omega t-\frac{\pi}{2}\Bigr)$$</li>
+<li>the capacitive reactance is $X_C=\frac{1}{\omega C} = \frac{1}{2 \pi f C} $</li>
+<li>the <strong>voltage lags the current by $90^\circ$</strong></li>
+<li>since <strong>$X_C$ decreases with frequency</strong>, capacitors resist low-frequency currents more than high-frequency ones</li>
 </ul>
-<hr/>
-<h2 id="Ac-circuits">Ac circuits<a class="anchor-link" href="#Ac-circuits">¶</a></h2><h3 id="Resistance-vs.-reactance">Resistance vs. reactance<a class="anchor-link" href="#Resistance-vs.-reactance">¶</a></h3><ul>
-<li>resistance $R$ is independent of frequency and dissipates energy as heat</li>
-<li>reactance (inductive $X_L$ and capacitive $X_C$) depends on frequency and temporarily stores energy</li>
-<li>the phase difference between voltage and current arises due to reactance</li>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Summary-of-AC-circuit-components">Summary of AC circuit components<a class="anchor-link" href="#Summary-of-AC-circuit-components">¶</a></h2><ul>
+<li>resistor:<ul>
+<li>no phase shift</li>
+<li>dissipates energy as heat</li>
 </ul>
-<h3 id="Resistor-in-an-ac-circuit">Resistor in an ac circuit<a class="anchor-link" href="#Resistor-in-an-ac-circuit">¶</a></h3><ul>
-<li>follows ohm's law:<br/>
-$$V=IR$$</li>
-<li>voltage and current are in phase</li>
-<li>the average power is given by<br/>
-$$\bar{P}=I_{rms}^2R$$</li>
+</li>
+<li>inductor:<ul>
+<li>voltage leads current</li>
+<li>reactance $X_L=\omega L$</li>
 </ul>
-<h3 id="Inductor-in-an-ac-circuit">Inductor in an ac circuit<a class="anchor-link" href="#Inductor-in-an-ac-circuit">¶</a></h3><ul>
-<li>the voltage across an inductor is<br/>
-$$V=L\frac{dI}{dt}$$</li>
-<li>for a sinusoidal current $I(t)=I_0\cos(\omega t)$ the voltage is<br/>
-$$V(t)=\omega LI_0\cos\Bigl(\omega t+\frac{\pi}{2}\Bigr)$$</li>
-<li>the inductive reactance is<br/>
-$$X_L=\omega L$$</li>
-<li>the voltage leads the current by $90^\circ$</li>
+</li>
+<li>capacitor:<ul>
+<li>voltage lags current</li>
+<li>reactance $X_C=\frac{1}{\omega C}$</li>
 </ul>
-<h3 id="Capacitor-in-an-ac-circuit">Capacitor in an ac circuit<a class="anchor-link" href="#Capacitor-in-an-ac-circuit">¶</a></h3><ul>
-<li>the voltage across a capacitor is determined by<br/>
-$$V=\frac{Q}{C}$$</li>
-<li>for a sinusoidal current the resulting voltage is<br/>
-$$V(t)=\frac{I_0}{\omega C}\cos\Bigl(\omega t-\frac{\pi}{2}\Bigr)$$</li>
-<li>the capacitive reactance is<br/>
-$$X_C=\frac{1}{\omega C}$$</li>
-<li>the voltage lags the current by $90^\circ$</li>
+</li>
 </ul>
-<h3 id="Summary-of-ac-circuit-components">Summary of ac circuit components<a class="anchor-link" href="#Summary-of-ac-circuit-components">¶</a></h3><ul>
-<li>resistor: no phase shift; dissipates energy as heat</li>
-<li>inductor: voltage leads current; reactance $X_L=\omega L$</li>
-<li>capacitor: voltage lags current; reactance $X_C=\frac{1}{\omega C}$</li>
-</ul>
-<hr/>
-<h2 id="Filters">Filters<a class="anchor-link" href="#Filters">¶</a></h2><ul>
-<li>high-pass filters allow high-frequency signals to pass while attenuating low-frequency ones</li>
-<li>low-pass filters allow low-frequency signals to pass while attenuating high-frequency ones</li>
-<li>these filters are common in signal processing and audio electronics</li>
-</ul>
-<hr/>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Impedance">Impedance<a class="anchor-link" href="#Impedance">¶</a></h2><ul>
-<li>impedance combines resistance and reactance into a complex quantity:<br/>
-$$Z=R+j\Bigl(X_L-X_C\Bigr)$$</li>
-<li>its magnitude is<br/>
-$$Z=\sqrt{R^2+\Bigl(X_L-X_C\Bigr)^2}$$</li>
-<li>the phase angle is given by<br/>
-$$\tan\phi=\frac{X_L-X_C}{R}$$</li>
-<li>impedance determines the relationship between voltage and current in ac circuits</li>
+<li><p>impedance determines the relationship between voltage and current in AC circuits</p>
+</li>
+<li><p>impedance combines resistance and reactance into a complex quantity:<br/>
+$$Z=R+j\Bigl(X_L-X_C\Bigr)$$</p>
+</li>
+<li><p>its magnitude is $Z=\sqrt{R^2+\Bigl(X_L-X_C\Bigr)^2}$ and its phase angle is $\tan\phi=\frac{X_L-X_C}{R}$</p>
+</li>
+<li><p>impedance in series: $ Z_{net} = \sum_i  Z_i$</p>
+</li>
+<li><p>impedance in parallel: $ \frac{1}{Z_{net}} = \sum_i \frac{1}{Z_i}$</p>
+</li>
 </ul>
-<hr/>
-<h2 id="Ac-lrc-circuit-&amp;-phasor-diagrams">Ac lrc-circuit &amp; phasor diagrams<a class="anchor-link" href="#Ac-lrc-circuit-&amp;-phasor-diagrams">¶</a></h2><ul>
-<li>in a series lrc-circuit the sum of the voltage drops equals the source voltage:<br/>
-$$V=V_R+V_L+V_C$$</li>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Impedance-matching">Impedance matching<a class="anchor-link" href="#Impedance-matching">¶</a></h2><p><code>el35 - CASSY</code></p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
+<li>maximum power transfer occurs when the source impedance matches the load impedance:<br/>
+$$Z_1=Z_2$$</li>
+<li>for purely resistive circuits, maximum power is delivered when $R_{\rm source}=R_{\rm load}$</li>
+<li>mismatched impedances lead to reduced power transfer efficiency and potential signal distortion</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Revisiting-AC-LRC-circuit:-Phasor-diagrams">Revisiting AC LRC-circuit: Phasor diagrams<a class="anchor-link" href="#Revisiting-AC-LRC-circuit:-Phasor-diagrams">¶</a></h2><p><code>sim - Phasor diagram</code></p>
+<ul>
+<li>in a series LRC-circuit the sum of the voltage drops equals the source voltage: $V=V_R+V_L+V_C$</li>
 <li>in the phasor diagram:<ul>
 <li>$V_R$ is drawn along the positive x-axis (in phase with the current)</li>
 <li>$V_L$ is drawn $90^\circ$ ahead of $V_R$</li>
 <li>$V_C$ is drawn $90^\circ$ behind $V_R$</li>
 </ul>
 </li>
-<li>the resultant voltage is found by vector addition:<br/>
-$$V_0=I_0Z$$<br/>
-with<br/>
-$$Z=\sqrt{R^2+\Bigl(X_L-X_C\Bigr)^2}$$</li>
-<li>similarly, for rms values:<br/>
-$$V_{rms}=I_{rms}Z$$</li>
-</ul>
-<hr/>
-<h2 id="Resonance-in-ac-circuits">Resonance in ac circuits<a class="anchor-link" href="#Resonance-in-ac-circuits">¶</a></h2><ul>
-<li>resonance occurs when the inductive and capacitive reactances cancel ($X_L=X_C$)</li>
-<li>the resonant angular frequency is<br/>
-$$\omega_0=\sqrt{\frac{1}{LC}}$$<br/>
-and the resonant frequency is<br/>
-$$f_0=\frac{1}{2\pi\sqrt{LC}}$$</li>
-<li>at resonance:<ul>
-<li>the impedance is purely resistive ($Z=R$)</li>
-<li>voltage and current are in phase ($\phi=0$)</li>
-<li>the current is maximized, with<br/>
-$$I_{max}=\frac{V_{rms}}{R}$$</li>
-</ul>
-</li>
-<li>the sharpness of the resonance depends on the value of $R$</li>
-</ul>
-<hr/>
-<h2 id="Impedance-matching">Impedance matching<a class="anchor-link" href="#Impedance-matching">¶</a></h2><ul>
-<li>maximum power transfer occurs when the source impedance matches the load impedance:<br/>
-$$Z_1=Z_2$$</li>
-<li>for purely resistive circuits, maximum power is delivered when $R_1=R_2$</li>
-<li>mismatched impedances lead to reduced power transfer efficiency and potential signal distortion</li>
+<li>the resultant voltage is found by vector addition:
+$$V_0=I_0Z \quad \textrm{with} \quad Z=\sqrt{R^2+\Bigl(X_L-X_C\Bigr)^2}$$</li>
 </ul>
 </div>
 </div>
 </div>
-</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Wah-Wah inc. schematics + hendrix video</p>
+<h2 id="Revisiting-AC-LRC-circuit:-Resonance">Revisiting AC LRC-circuit: Resonance<a class="anchor-link" href="#Revisiting-AC-LRC-circuit:-Resonance">¶</a></h2><p><code>sim - Resonance</code></p>
+<ul>
+<li>resonance occurs when the inductive and capacitive reactances cancel: $X_L=X_C$</li>
+<li>the impedance is purely resistive: $Z=\sqrt{R^2+\Bigl(X_L-X_C\Bigr)^2} = R$</li>
+<li>$\rightarrow$ the resonant (angular) frequency is<br/>
+$$\omega_0=\sqrt{\frac{1}{LC}} \, \leftrightarrow \, f_0=\frac{1}{2\pi\sqrt{LC}}$$</li>
+<li>$\rightarrow$ voltage and current are in phase: $\phi=0$</li>
+<li>shape of resonance curve depends on the value of $R$</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Filters">Filters<a class="anchor-link" href="#Filters">¶</a></h2><p><code>ew07 - high/low pass</code></p>
+<ul>
+<li>low-pass filters allow low-frequency signals to pass while attenuating high-frequency ones</li>
+<li>high-pass filters allow high-frequency signals to pass while attenuating low-frequency ones</li>
+<li>band-pass filters allow frequency band to pass while attenuating frequencies below and above the band</li>
+<li>these filters are common in signal processing and audio electronics</li>
+</ul>
+<p><img alt="RC_lowpass" src="../img/from_wiki/1st_Order_Lowpass_Filter_RC.svg.png" width="200"/>
+<img alt="RC_highpass" src="../img/from_wiki/CR_high_pass_filter.svg.png" width="200"/>
+<img alt="LRC_bandpass" src="../img/from_wiki/Band_pass_filter.svg.png" width="200"/></p>
+<p><em><sub>
+[left] from <a href="https://en.wikipedia.org/wiki/File:1st_Order_Lowpass_Filter_RC.svg">wikipedia</a>, public domain;
+[middle] from <a href="https://en.wikipedia.org/wiki/File:CR_high_pass_filter.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC Attribution-ShareAlike 4.0 International</a>;
+[right] from <a href="https://commons.wikimedia.org/wiki/File:Band_pass_filter.svg">wikipedia</a>, public domain
+</sub></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Demo-induction,-electromagnets,-filters,-and-resonance">Demo induction, electromagnets, filters, and resonance<a class="anchor-link" href="#Demo-induction,-electromagnets,-filters,-and-resonance">¶</a></h2><p><img alt="single_coil" src="../img/from_wiki/singlecoil.jpg" width="250"/>
+<img alt="animation single coil" src="../img/from_wiki/Single_coil_string_anim.gif" width="250"/></p>
+<p><em><sub>
+[left] from <a href="https://en.wikipedia.org/wiki/File:Strat_s%C3%A9rie_L.jpg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC Attribution-ShareAlike 4.0 International</a>
+[right] from <a href="https://commons.wikimedia.org/wiki/File:Single_coil_string_anim.gif">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC Attribution-ShareAlike 3.0 Unported</a>
+</sub></em></p>
+<p><a href="https://youtu.be/qFfnlYbFEiE?si=4BTKUSFEhJxvdXeL">YouTube - bandpass filter in action</a></p>
 </div>
 </div>
 </div>

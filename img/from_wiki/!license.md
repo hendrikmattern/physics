@@ -167,3 +167,58 @@
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Tesla_coil_circuit.svg) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
 
+---
+
+<img src="../img/from_wiki/LC_parallel_simple.svg.png" alt="LC-circuit" width="400"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:LC_parallel_simple.svg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Tuned_circuit_animation_3_300ms.gif" alt="LC-oscilations" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Tuned_circuit_animation_3_300ms.gif) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Series-RL.png" alt="LR-circuit" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Series-RL.png) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/RLC_series_circuit_v1.svg.png" alt="LRC-circuit" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:RLC_series_circuit_v1.svg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/CR_high_pass_filter.svg.png" alt="RC_highpass" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:CR_high_pass_filter.svg) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/1st_Order_Lowpass_Filter_RC.svg.png" alt="RC_lowpass" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:1st_Order_Lowpass_Filter_RC.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Band_pass_filter.svg.png" alt="LRC_bandpass" width="400"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Band_pass_filter.svg), public domain</sub>*
+
+
+---
+
+<img src="../img/from_wiki/singlecoil.jpg" alt="single_coil" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Strat_s%C3%A9rie_L.jpg) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Single_coil_string_anim.gif" alt="animation single coil" width="400"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Single_coil_string_anim.gif) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
