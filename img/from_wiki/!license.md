@@ -222,3 +222,75 @@
 <img src="../img/from_wiki/Single_coil_string_anim.gif" alt="animation single coil" width="400"/>
 
 *<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Single_coil_string_anim.gif) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Remote_central_locking.jpg" alt="CarKeyCentralLocking" width="200"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Remote_central_locking.jpg) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Displacement_current_in_capacitor.svg.png" alt="RC_lowpass" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Displacement_current_in_capacitor.svg), public domain</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Dipolentstehung.gif" alt="dipole_from_LC" width="400"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Dipolentstehung.gif) by user Averse under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Dipole_antenna_standing_waves_animation_6_-_5fps.gif" alt="AntennaTransmit" width="200"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Dipole_antenna_standing_waves_animation_6_-_5fps.gif) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Felder_um_Dipol.svg.png" alt="DipoleEBfield" width="200"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Felder_um_Dipol.svg) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Dipole_xmting_antenna_animation_4_408x318x150ms.gif" alt="DipoleEBfield_gif" width="200"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Dipole_xmting_antenna_animation_4_408x318x150ms.gif) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Electromagneticwave3D.gif" alt="EMwave" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Electromagneticwave3D.gif)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Dipole_receiving_antenna_animation_6_800x394x150ms.gif" alt="DipoleEBfield_receive" width="200"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Dipole_receiving_antenna_animation_6_800x394x150ms.gif) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Standing_waves_on_a_string.gif" alt="StandingWave" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Standing_waves_on_a_string.gif)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Wave_Polarisation.gif" alt="wave_polarization" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Wave_Polarisation.gif) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/EM_Spectrum_Properties_edit.svg.png" alt="EMSpectrum" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:EM_Spectrum_Properties_edit.svg)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+
+
