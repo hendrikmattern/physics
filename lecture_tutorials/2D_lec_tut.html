@@ -1,0 +1,74 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Markdown to HTML</title>
+        </head>
+        <body>
+            <h1>Lecture tutorial 2D</h1>
+<h2>Using E- and B-fields to deflect electrons: Velocity filter</h2>
+<p><code>el31</code></p>
+<p>$$F_e = F_b$$
+$$q E = q v B$$
+$$v = \frac{E}{B}$$</p>
+<hr />
+<h2>Determine $\frac{e}{m}$</h2>
+<p><code>em39</code></p>
+<p>Assuming a charged particle moving perpendicular to an uniform magnetic field, there will be a forces exerted on the particles.
+The force will deflect the particle and, as the force is always perpendicular to the direction of movement, causes the particle to move on a circular path (if the charged particles stays within the magnetic field the entire time) with a centripetal acceleration magnitude of $a = \frac{v^2}{r}$ (see mechanics lectures).
+For a circular trajectory, the centripetal force and the force due to the magnetic field must be equal
+$$ \sum F = m a$$
+$$F_b = F_r$$
+$$e v B = \frac{m v^2}{r}$$
+$$e B = \frac{m v}{r}$$
+$$\frac{e}{m} = \frac{v}{B r}$$</p>
+<p>The velocity of the charged particles, i.e. electrons, is unknown but we can derive it from the energy conservation at the anode-cathode, with the potential energy being equal to $U = q V$:
+$$U = K$$
+$$e V= \frac{m}{2}v^2$$
+$$v = \sqrt{\frac{2 e V}{m}}$$</p>
+<p>Putting everything together, we obtain
+$$\frac{e}{m} = \frac{\sqrt{\frac{2 e V}{m}}}{B r}$$</p>
+<p>Squaring the equation and we get our final relationship:
+$$\frac{e^2}{m^2} = \frac{\frac{2 e V}{m}}{B^2 r^2}$$</p>
+<p>$$\frac{e}{m} = \frac{2 V}{B^2 r^2}$$</p>
+<p>Now this servers for a single measurement, but if we repeat if while varying the magnetic field and measuring the resulting radius, we obtain can solve it via a <a href="https://hydra.ovgu.de/praktikumshelfer.html">linear regression</a>:
+$$\frac{1}{r} = \sqrt{\frac{e}{2 m V}} B$$</p>
+<p>The slope $s$ will be $\sqrt{\frac{e}{2 m V}}$. Thus, the $e/m$ is obtained from the slope as:
+$$\frac{e}{m} = 2 V s^2$$</p>
+<p><strong>Are the results the same for electrons traveling clock- or anti-clockwise?</strong></p>
+<p>FYI: The numerical value of $\frac{e}{m_e}$ is 1.759 $\times 10^{11}$ C/kg.</p>
+<hr />
+<h2>Long distance power lines</h2>
+<p><code>ew08</code></p>
+<p>$$\frac{V_1}{V_2} = \frac{I_2}{I_1} = \frac{N_1}{N_2}$$
+$$P = V I$$
+$$P_{\rm loss} = I^2 R_{\rm cable}$$</p>
+<hr />
+<h2>High voltage &amp; high current transformer</h2>
+<p><code>ew03</code></p>
+<p>$$\frac{V_1}{V_2} = \frac{I_2}{I_1} = \frac{N_1}{N_2}$$</p>
+<ul>
+<li>&quot;Hörner Blitzableiter&quot;</li>
+<li>break down voltage of air about $3 \times 10^6$ kV/m</li>
+<li>corona discharge a.k.a. &quot;weak spark&quot; around conductor but not &quot;jump across gap&quot; (corona discharge is a localized electrical discharge that occurs when the electric field near a conductor is strong enough to ionize the surrounding air, but not strong enough to cause a full electrical breakdown or arc)</li>
+<li><strong>lighter causes ionized air to generate plasma</strong> (<em>ionization</em> = breaking apart a neutral air molecule into a positive ion + free electron; <em>plasma</em> = ionized gas made of free electrons and positive ions that conducts electricity and responds to electric and magnetic fields)</li>
+<li>thermodynamics cause plasma beam to rise</li>
+</ul>
+
+            
+        <script>
+            MathJax = {
+                tex: {
+                    inlineMath: [['$', '$']],
+                    displayMath: [['$$', '$$']]
+                },
+                svg: {
+                    fontCache: 'global'
+                }
+            };
+        </script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+        
+        </body>
+        </html>
+        

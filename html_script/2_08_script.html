@@ -7517,7 +7517,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="2.8.-Maxwell%E2%80%99s-equations-&amp;-Electromagnetic-waves">2.8. Maxwell’s equations &amp; Electromagnetic waves<a class="anchor-link" href="#2.8.-Maxwell%E2%80%99s-equations-&amp;-Electromagnetic-waves">¶</a></h1><p>The development of electromagnetic theory in the 19th century was a collaborative effort involving key figures such as Oersted, Ampère, and Faraday.
+<h1 id="2.8.-Maxwell%E2%80%99s-equations-&amp;-electromagnetic-waves">2.8. Maxwell’s equations &amp; electromagnetic waves<a class="anchor-link" href="#2.8.-Maxwell%E2%80%99s-equations-&amp;-electromagnetic-waves">¶</a></h1><p>The development of electromagnetic theory in the 19th century was a collaborative effort involving key figures such as Oersted, Ampère, and Faraday.
 Initially, the understanding of electricity and magnetism was fragmented, with these phenomena being studied in isolation.
 <em>James Clerk Maxwell</em> (1831–1879) unified electricity and magnetism through four fundamental equations, known as Maxwell’s equations.
 Furthermore, he used the concept of fields, introduced by Faraday, and  predicted the existence of electromagnetic waves, which were later experimentally confirmed by <em>Heinrich Hertz</em> (1857-1894), providing a cornerstone for the development of modern communication technologies.
@@ -7533,15 +7533,15 @@ Moreover, Maxwell's equations are consistent with the theory of relativity, maki
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="2.8.1.-Revisiting-Amp%C3%A8re's-law:-Changing-electric-fields-produce-magnetic-fields">2.8.1. Revisiting Ampère's law: Changing electric fields produce magnetic fields<a class="anchor-link" href="#2.8.1.-Revisiting-Amp%C3%A8re's-law:-Changing-electric-fields-produce-magnetic-fields">¶</a></h3><p>Physicists are suckers for symmetry.
+<h2 id="2.8.1.-Revisiting-Amp%C3%A8re's-law:-Changing-electric-fields-produce-magnetic-fields">2.8.1. Revisiting Ampère's law: Changing electric fields produce magnetic fields<a class="anchor-link" href="#2.8.1.-Revisiting-Amp%C3%A8re's-law:-Changing-electric-fields-produce-magnetic-fields">¶</a></h2><p>Physicists are suckers for symmetry.
 We already know that:</p>
 <ol>
-<li>electric currents generate magnetic fields (first observed by Ørsted)</li>
-<li>magnetic fields generate electric fields (Faraday's law)
-Hence, it seems only intuitive that changing electric fields produce magnetic fields.
-It was actually one of Maxwell's key contributions to realize that a <em>changing electric field produces a magnetic field</em>, leading to the concept of <em>displacement current</em>.</li>
+<li>time-constant electric currents generate time-constant magnetic fields (first observed by Ørsted)</li>
+<li>changing magnetic fields generate electric fields (Faraday's law)</li>
 </ol>
-<h4 id="Maxwell's-correction-of-Amp%C3%A8re%E2%80%99s-law:-The-need-for-displacement-current">Maxwell's correction of Ampère’s law: The need for displacement current<a class="anchor-link" href="#Maxwell's-correction-of-Amp%C3%A8re%E2%80%99s-law:-The-need-for-displacement-current">¶</a></h4><p>From earlier discussions on electromagnetism, we recall Ampère’s law, which states that the circulation of the magnetic field $\vec{B}$ around a closed loop is proportional to the total current enclosed by that loop:</p>
+<p>Hence, it seems only intuitive that changing electric fields produce magnetic fields.
+It was actually one of Maxwell's key contributions to realize that a <em>changing electric field produces a magnetic field</em>, leading to the concept of <em>displacement current</em>.</p>
+<h3 id="Maxwell's-correction-of-Amp%C3%A8re%E2%80%99s-law:-The-need-for-displacement-current">Maxwell's correction of Ampère’s law: The need for displacement current<a class="anchor-link" href="#Maxwell's-correction-of-Amp%C3%A8re%E2%80%99s-law:-The-need-for-displacement-current">¶</a></h3><p>From earlier discussions on electromagnetism, we recall Ampère’s law, which states that the circulation of the magnetic field $\vec{B}$ around a closed loop is proportional to the total current enclosed by that loop:</p>
 <p>$$\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = \mu_0 I_{\text{enc}}$$
 with $\mu_0$ as the permeability of free space and $I_{\text{enc}}$ as the enclosed current.</p>
 <p>Maxwell realized that Ampère’s law runs into contradiction when observing the case of a charging capacitor.
@@ -7624,7 +7624,7 @@ This implies that magnetic field lines have no beginning or end, meaning no magn
 <h3 id="Faraday%E2%80%99s-law-of-induction:">Faraday’s law of induction:<a class="anchor-link" href="#Faraday%E2%80%99s-law-of-induction:">¶</a></h3><p>$$ \oint \vec{\bf{E}} d \vec{\bf{l}} = - \frac{d\Phi_B}{dt} $$
 This describes how a changing magnetic field induces an electric field, which is the principle behind electrical generators.</p>
 <p><small><code>Note: We take the integral around a closed path.</code></small></p>
-<h3 id="Amp%C3%A8re's-law-with-Maxwell-correction:">Ampère's law with Maxwell correction:<a class="anchor-link" href="#Amp%C3%A8re's-law-with-Maxwell-correction:">¶</a></h3><p>$$\oint \vec{B} \cdot d\vec{L} = \mu_0 I_{\text{enc}} + \mu_0 \epsilon_0 \frac{d\Phi_E}{dt} $$
+<h3 id="Amp%C3%A8re's-law-with-Maxwell-correction:">Ampère's law with Maxwell correction:<a class="anchor-link" href="#Amp%C3%A8re's-law-with-Maxwell-correction:">¶</a></h3><p>$$\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = \mu_0 I_{\text{enc}} + \mu_0 \epsilon_0 \frac{d\Phi_E}{dt} $$
 This states that an electric current and/or a changing electric field generates a magnetic field.</p>
 <p><small><code>Note: We take the integral around a closed path.</code></small></p>
 <h3 id="Summary">Summary<a class="anchor-link" href="#Summary">¶</a></h3><p>We can express Maxwell's equations in integral or differential form.
@@ -7660,7 +7660,7 @@ In the following table, the suffix "enc"/enclosed was dropped for simplicity:</p
 </tr>
 </tbody>
 </table>
-<p>with $\vec{\nabla} = \hat{\bf{i}} \frac{\delta}{\delta x} + \hat{\bf{j}} \frac{\delta}{\delta y} + \hat{\bf{k}} \frac{\delta}{\delta z}$, $\rho$, and $\vec{\bf{j}}$ as the current density.</p>
+<p>with $\vec{\nabla} = \hat{\bf{i}} \frac{\delta}{\delta x} + \hat{\bf{j}} \frac{\delta}{\delta y} + \hat{\bf{k}} \frac{\delta}{\delta z}$, $\rho$ as the total volume charge density, and $\vec{\bf{j}}$ as the current density.</p>
 <h3 id="Significance-of-Maxwell's-Equations">Significance of Maxwell's Equations<a class="anchor-link" href="#Significance-of-Maxwell's-Equations">¶</a></h3><p>Maxwell's Equations are much more than just a set of equations describing electricity and magnetism.
 Their significance is profound and far-reaching:</p>
 <ol>
@@ -7700,12 +7700,11 @@ This gives rise to <em>electromagnetic (EM) waves</em> which were proposed by Ma
 <h3 id="Basic-concept-&amp;-generation">Basic concept &amp; generation<a class="anchor-link" href="#Basic-concept-&amp;-generation">¶</a></h3><p>Consider two conducting rods that will serve as an "antenna" and are connected to the opposite terminals of a battery.
 Right after connecting the uncharged rods, one rod quickly becomes positively charged while the other one negatively charged.
 Hence, an electric field and a magnetic field are produced near the antenna and they are perpendicular to each other.
-Note that not just the current in the rods but the electric field itself.
 While the static field would go extent outwards indefinitely far (although with decreasing intensity), their propagation, i.e. transport of energy, is not instantaneous but bound to a finite speed (see later section).</p>
 <p>Now let us use an AC source instead of a battery.
 While alternating, the current will constantly produce changing fields.
 Interestingly, we can image the field lines from the previous cycle and current one to form closed loops while propagating through space.
-While magnetic field lines are inherently closed, in this scenario this also applies to the electric field lines.
+While magnetic field lines are inherently closed, in this scenario this also applies to the electric field lines (see script 6, electric fields from magnetic fields, i.e. no charges enclosed, have closed field lines).
 While complex to describe near the antenna, i.e. the <em>near field</em>, far away from the antenna, i.e. the <em>far field</em> or also called <em>radiation field</em>, the resulting EM waves are reasonably flat and can be approximated as <em>plane waves</em>.
 The EM waves are further characterized by the fact that electric $\vec{\bf{E}}$ and magnetic field $\vec{\bf{B}}$ are always <em>perpendicular</em> to each other and <em>waves travel perpendicular to the $\vec{\bf{E}} \times \vec{\bf{B}}$</em> with the wave velocity $\nu$ (greek lower-case nu).
 Hence, <em>EM waves are transverse waves</em>.

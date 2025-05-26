@@ -7508,7 +7508,7 @@ $$I(t)=\frac{V_0}{R}\Bigl(1-e^{-tR/L}\Bigr)$$</li>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="LR-circuit:-Switching-DC-supply-on-(cont')">LR-circuit: Switching DC supply on (cont')<a class="anchor-link" href="#LR-circuit:-Switching-DC-supply-on-(cont')">¶</a></h2><ul>
-<li><p>find V_L:
+<li><p>find $V_L$:
 $$V_L = L \frac{dI}{dt} = \frac{d}{dt}\Bigl( \frac{V_0}{R}\Bigl(1-e^{-tR/L}\Bigr) \Bigr)$$
 $$V_L = L \Bigl( \frac{V_0}{R} \cdot \frac{-R}{L} \cdot e^{-tR/L} \Bigr)$$
 $$V_L = - V_0 e^{-tR/L}$$</p>
@@ -7690,8 +7690,10 @@ $$\bar{P}=I_{rms}^2R$$</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Inductor-in-AC-circuit">Inductor in AC circuit<a class="anchor-link" href="#Inductor-in-AC-circuit">¶</a></h2><ul>
-<li>the voltage across an inductor is: $V=L\frac{dI}{dt}$</li>
+<li>the voltage across an inductor is: $V - L \frac{dI}{dt} = 0 \leftrightarrow V = L \frac{dI}{dt}$</li>
 <li>for sinusoidal current $I(t)=I_0\cos(\omega t)$, the voltage is:
+$$V(t)=L \frac{d(I_0 \cos(\omega t))}{dt} = - L \omega I_0 \sin(\omega t)$$</li>
+<li>with $\sin(t) = -\cos (t + \frac{\pi}{2})$
 $$V(t)=\omega LI_0\cos\Bigl(\omega t+\frac{\pi}{2}\Bigr) = X_L I_0\cos\Bigl(\omega t+\frac{\pi}{2}\Bigr)$$</li>
 <li>the inductive reactance is $X_L=\omega L = 2 \pi f L$</li>
 <li>the <strong>voltage leads the current by $90^\circ$</strong></li>
@@ -7707,9 +7709,10 @@ $$V(t)=\omega LI_0\cos\Bigl(\omega t+\frac{\pi}{2}\Bigr) = X_L I_0\cos\Bigl(\ome
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Capacitor-in-AC-circuit">Capacitor in AC circuit<a class="anchor-link" href="#Capacitor-in-AC-circuit">¶</a></h2><ul>
-<li>the voltage across a capacitor is: $V=\frac{Q}{C}$</li>
-<li>for a sinusoidal current $I(t)=I_0\cos(\omega t)$, the voltage is:<br/>
-$$V(t)=\frac{I_0}{\omega C}\cos\Bigl(\omega t-\frac{\pi}{2}\Bigr)= X_C I_0\cos\Bigl(\omega t-\frac{\pi}{2}\Bigr)$$</li>
+<li>for a sinusoidal current $I(t)=I_0\cos(\omega t) = \frac{dQ}{dt} $, charge at capacitor is:
+$$Q(t) = \int_0^t dQ = \int_0^t I_0 \cos(\omega t) dt = \frac{I_0}{\omega} \sin(\omega t)$$</li>
+<li>using $\sin \theta = \cos(\theta - \frac{\pi}{2})$, the voltage is:<br/>
+$$V(t) = \frac{Q}{C} = \frac{1}{\omega C} I_0 \sin(\omega t) =\frac{I_0}{\omega C}\cos\Bigl(\omega t-\frac{\pi}{2}\Bigr)= X_C I_0\cos\Bigl(\omega t-\frac{\pi}{2}\Bigr)$$</li>
 <li>the capacitive reactance is $X_C=\frac{1}{\omega C} = \frac{1}{2 \pi f C} $</li>
 <li>the <strong>voltage lags the current by $90^\circ$</strong></li>
 <li>since <strong>$X_C$ decreases with frequency</strong>, capacitors resist low-frequency currents more than high-frequency ones</li>
@@ -7771,6 +7774,27 @@ $$Z=R+j\Bigl(X_L-X_C\Bigr)$$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Revisiting-AC-LRC-circuit:-Phasor-diagrams">Revisiting AC LRC-circuit: Phasor diagrams<a class="anchor-link" href="#Revisiting-AC-LRC-circuit:-Phasor-diagrams">¶</a></h2><p><code>sim - Phasor diagram</code></p>
+<ul>
+<li>in a series LRC-circuit the sum of the voltage drops equals the source voltage: $V=V_R+V_L+V_C$</li>
+<li>in the phasor diagram:<ul>
+<li>$V_R$ is drawn along the positive x-axis (in phase with the current)</li>
+<li>$V_L$ is drawn $90^\circ$ ahead of $V_R$</li>
+<li>$V_C$ is drawn $90^\circ$ behind $V_R$</li>
+</ul>
+</li>
+<li>the resultant voltage is found by vector addition:
+$$V_0=I_0Z \quad \textrm{with} \quad Z=\sqrt{R^2+\Bigl(X_L-X_C\Bigr)^2}$$</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Impedance-matching">Impedance matching<a class="anchor-link" href="#Impedance-matching">¶</a></h2><p><code>el35 - CASSY</code></p>
 </div>
 </div>
@@ -7791,27 +7815,6 @@ $$Z_1=Z_2$$</li>
 </div>
 </div>
 </div></div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Revisiting-AC-LRC-circuit:-Phasor-diagrams">Revisiting AC LRC-circuit: Phasor diagrams<a class="anchor-link" href="#Revisiting-AC-LRC-circuit:-Phasor-diagrams">¶</a></h2><p><code>sim - Phasor diagram</code></p>
-<ul>
-<li>in a series LRC-circuit the sum of the voltage drops equals the source voltage: $V=V_R+V_L+V_C$</li>
-<li>in the phasor diagram:<ul>
-<li>$V_R$ is drawn along the positive x-axis (in phase with the current)</li>
-<li>$V_L$ is drawn $90^\circ$ ahead of $V_R$</li>
-<li>$V_C$ is drawn $90^\circ$ behind $V_R$</li>
-</ul>
-</li>
-<li>the resultant voltage is found by vector addition:
-$$V_0=I_0Z \quad \textrm{with} \quad Z=\sqrt{R^2+\Bigl(X_L-X_C\Bigr)^2}$$</li>
-</ul>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
