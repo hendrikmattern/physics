@@ -293,4 +293,11 @@
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:EM_Spectrum_Properties_edit.svg)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
 
 
+---
+
+<img src="../img/from_wiki/Lissajous_relaciones.png" alt="Lissajous" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Lissajous_relaciones.png) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+
 

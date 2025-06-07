@@ -48,9 +48,22 @@ FYI: The numerical value of $\frac{e}{m_e}$ is 1.759 $\times 10^{11}$ C/kg.
 ## Long distance power lines
 `ew08`	
 
+### Without transformers
+* find the current in the power line
+$$P_{out} = V_{out} I_{line} \leftrightarrow I_{line} = \frac{P_{out}}{V_{out}}$$
+* assuming 2,200 W and 220 V we get a current of 10A
+* the power loss is for 1 $\Omega$ resistance in the power line
+$$P_{loss} = V_{out} I_{line} = R_{line} I_{line}^2 = 100 W$$
+
+### With transformer
+* assuming the step-up transformer increases the voltage by a factor 10, the current in the power line is
+$$I_{line} = \frac{P_{out}}{10 \, V_{out}} = 1A$$
+* the power loss in the cable is therefore:
+
 $$\frac{V_1}{V_2} = \frac{I_2}{I_1} = \frac{N_1}{N_2}$$
 $$P = V I$$
 $$P_{\rm loss} = I^2 R_{\rm cable}$$
+$$P_{loss} = V_{out} I_{line} = R_{line} I_{line}^2 = 1 W$$
 
 ---
 ## High voltage &amp; high current transformer

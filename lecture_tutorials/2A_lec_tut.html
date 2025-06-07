@@ -171,7 +171,8 @@ $$ x = \sqrt{2} - 1 \approx 0.414 $$</p>
 <hr />
 <h2>Electric field of an electric dipole</h2>
 <p>An electric dipole consists of two equal charges but with opposite sign, i.e. $+Q$ and $-Q$.
-The charges are separated by the distance $l$.</p>
+The charges are separated by the distance $l$.
+The simple concept of an electric dipole can be leveraged to understand capacitors, polar molecules, generators, motors, antennas, and many more applications.</p>
 <h2>Task 2A.6.</h2>
 <p>What is the strength of electric field produced by a dipole (assume no other external electric field present).
 Let think about any point $P$ that is placed perpendicularly away from the bisector of the dipole and at a distance $r$.</p>
@@ -187,7 +188,7 @@ Let think about any point $P$ that is placed perpendicularly away from the bisec
 $$ \vec{\bf{E}} = \vec{\bf{E_+}} + \vec{\bf{E_-}} $$</p>
 <ul>
 <li>only consider the components along x (y cancels due to symmetry, see above) with the angle $\theta$
-$$ E = 2E_+ \cos \theta = \frac{2}{4 \pi \varepsilon_0} \frac{Q}{r^2 + \frac{l^2}{4}}  $$</li>
+$$ E = 2E_+ \cos \theta = \frac{2}{4 \pi \varepsilon_0} \frac{Q}{r^2 + \frac{l^2}{4}} \cos \theta $$</li>
 <li>with $\cos \theta = \frac{l}{2\sqrt{r^2 + \frac{l^2}{4}}} $
 $$ E = \frac{2}{4 \pi \varepsilon_0} \frac{Q}{r^2 + \frac{l^2}{4}} \frac{l}{2\sqrt{r^2 + \frac{l^2}{4}}} $$</li>
 </ul>
@@ -195,7 +196,7 @@ $$ E = \frac{2}{4 \pi \varepsilon_0} \frac{Q}{r^2 + \frac{l^2}{4}} \frac{l}{2\sq
 <ul>
 <li>with the <strong>dipole moment</strong> $p = Q l$
 $$ E = \frac{1}{4 \pi \varepsilon_0} \frac{p}{(r^2 + \frac{l^2}{4})^{\frac{3}{2}}}$$</li>
-<li>for $l \gg r$:
+<li>for $r \gg l$:
 $$ E = \frac{1}{4 \pi \varepsilon_0} \frac{p}{r^3}$$</li>
 </ul>
 <p>Thus, the electric field of the dipole decreases rapidly with increasing distance.
@@ -276,15 +277,15 @@ $$</p>
 <ul>
 <li>combining all we know, the electric potential of a point charge can be expressed as:</li>
 </ul>
-<p>$$ V_{BA} = - \int_{A}^{B} \vec{\bf{E}} d\vec{\bf{l}} = - \frac{Q}{4 \pi \epsilon_0} \int_{r_A}^{r_B} \frac{1}{r^2} d r = -\frac{1}{4 \pi \epsilon_0} (\frac{Q}{r_B} - \frac{Q}{r_A}) $$</p>
+<p>$$ V_{BA} = - \int_{A}^{B} \vec{\bf{E}} d\vec{\bf{l}} = - \frac{Q}{4 \pi \epsilon_0} \int_{r_A}^{r_B} \frac{1}{r^2} d r = -\frac{1}{4 \pi \epsilon_0} (-\frac{Q}{r_B} -(- \frac{Q}{r_A})) $$</p>
 <ul>
 <li>if we set the electric potential zero at infinity: $V_B = 0 \textrm{ at } r_B = \infty$, we obtain the voltage $V$ at the distance $r$ of a point charge:</li>
 </ul>
-<p>$$ V = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r} \quad \textrm{for a point charge with } V=0 \textrm{ at } r=\infty$$</p>
+<p>$$ V = -\frac{1}{4 \pi \epsilon_0} \frac{Q}{r} \quad \textrm{for a point charge with } V=0 \textrm{ at } r=\infty$$</p>
 <p>This expression is also called the <em>Coulomb potential</em> as it originates from Coulomb's law.
 The potential is zero at infinity and increase (decreases) linearly towards the positive (negative )charge.</p>
 <p><strong>FYI:</strong> We can apply the principle of <em>superposition</em> to compute the potential due an <em>arbitrary charge distribution</em> by computing first the potential for each charge individually and, subsequently, obtain the total potential  by integrating over the potentials of all individual charges:</p>
-<p>$$ V = \frac{1}{4 \pi \epsilon_0} \int \frac{dq}{r} $$</p>
+<p>$$ V = -\frac{1}{4 \pi \epsilon_0} \int \frac{dq}{r} $$</p>
 <p>with $dq$ being a infinitesimal small portion of the charge and $r$ its distance of the point where $V$ should be determined.</p>
 
             

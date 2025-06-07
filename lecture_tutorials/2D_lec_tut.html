@@ -40,9 +40,24 @@ $$\frac{e}{m} = 2 V s^2$$</p>
 <hr />
 <h2>Long distance power lines</h2>
 <p><code>ew08</code></p>
+<h3>Without transformers</h3>
+<ul>
+<li>find the current in the power line
+$$P_{out} = V_{out} I_{line} \leftrightarrow I_{line} = \frac{P_{out}}{V_{out}}$$</li>
+<li>assuming 2,200 W and 220 V we get a current of 10A</li>
+<li>the power loss is for 1 $\Omega$ resistance in the power line
+$$P_{loss} = V_{out} I_{line} = R_{line} I_{line}^2 = 100 W$$</li>
+</ul>
+<h3>With transformer</h3>
+<ul>
+<li>assuming the step-up transformer increases the voltage by a factor 10, the current in the power line is
+$$I_{line} = \frac{P_{out}}{10 , V_{out}} = 1A$$</li>
+<li>the power loss in the cable is therefore:</li>
+</ul>
 <p>$$\frac{V_1}{V_2} = \frac{I_2}{I_1} = \frac{N_1}{N_2}$$
 $$P = V I$$
-$$P_{\rm loss} = I^2 R_{\rm cable}$$</p>
+$$P_{\rm loss} = I^2 R_{\rm cable}$$
+$$P_{loss} = V_{out} I_{line} = R_{line} I_{line}^2 = 1 W$$</p>
 <hr />
 <h2>High voltage &amp; high current transformer</h2>
 <p><code>ew03</code></p>

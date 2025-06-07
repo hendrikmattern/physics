@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Markdown to HTML</title>
+        </head>
+        <body>
+            <h1>Lecture tutorial 2E</h1>
+<h2>LC parallel circuit</h2>
+<p><code>ew06</code></p>
+<p>Voltage and current characterized by parallel circuit design</p>
+<ul>
+<li>$V(t) = V_0 \cos(\omega t) = V_0 \cos(2 \pi f t) $</li>
+<li>$V_{L\parallel C} = V_L = V_C$</li>
+<li>$I = I_C + I_L$ (Kirchhoff's node rule)</li>
+</ul>
+<h3>Reactance &amp; impedance</h3>
+<p>In general:</p>
+<ul>
+<li>$Z_C = \frac{1}{j \omega C}$</li>
+<li>$Z_L = j \omega L$</li>
+</ul>
+<p>The impedance of the circuit is therefore (remember rule for resistance/impedance in parallel):
+$$\frac{1}{Z} = \frac{1}{Z_C} + \frac{1}{Z_L}$$
+$$\frac{1}{Z} = \frac{1}{\frac{1}{j \omega C}} + \frac{1}{j \omega L} = j \omega C + \frac{1}{j \omega L} $$</p>
+<ul>
+<li>we perform at trick based on $j^2 = -1$:
+$$\frac{1}{j} = \frac{1 \cdot j}{j \cdot j} = \frac{j}{-1} = -j$$</li>
+<li>thus, we can rearrange the inductive part:
+$$\frac{1}{Z} = j \omega C - \frac{j}{\omega L} = j (\omega C - \frac{1}{\omega L})$$</li>
+<li>take the reciprocal
+$$Z = \frac{1}{j (\omega C - \frac{1}{\omega L})} = \frac{- j}{ (\omega C - \frac{1}{\omega L})}$$</li>
+</ul>
+<h3>Phasor diagram</h3>
+<ul>
+<li>parallel circuit, so sensible to <strong>use $V_{L\parallel C}$ as reference</strong></li>
+<li>at <strong>capacitor</strong>: current <strong>$I_C$ lags 90° behind $V_{L\parallel C}$</strong></li>
+<li>at <strong>inductor</strong>: current <strong>$I_L$ lead 90° before $V_{L\parallel C}$</strong></li>
+<li><strong>$I_{L\parallel C}$: vector product of $I_C$ and $I_L$</strong></li>
+</ul>
+<h3>Frequency behavior &amp; (anti-)resonance</h3>
+<p>$$Z = \frac{1}{j (\omega C - \frac{1}{\omega L})}$$</p>
+<ul>
+<li><strong>if $\omega C = - \frac{1}{\omega L}$</strong> the denominate goes to zero and therefore, the <strong>impedance to infinity</strong> $\rightarrow$ so-called, <strong>anti-resonance</strong></li>
+<li>the resonance frequency therefore is:
+$$ \omega C - \frac{1}{\omega L} = 0$$
+$$ \omega C = \frac{1}{\omega L} $$
+$$ \omega^2 C = \frac{1}{L} $$
+$$ \omega^2 = \frac{1}{LC} $$
+$$ f = \sqrt{\frac{1}{2 \pi LC}} $$</li>
+</ul>
+<h2>Lissajous curve</h2>
+<p><code>ew16</code></p>
+<h2>Lissajous Curve</h2>
+<ul>
+<li><p>A <strong>Lissajous curve</strong> is formed by the <strong>superposition of two perpendicular harmonic oscillations</strong>, typically represented as:
+$$x(t) = A \sin(\omega_x t + \delta), \quad y(t) = B \sin(\omega_y t)$$</p>
+<ul>
+<li>$A$, $B$ as the amplitudes</li>
+<li>$\omega_x$, $\omega_y$ as the angular frequencies,</li>
+<li>$\delta$ is the phase difference between the oscillations</li>
+</ul>
+</li>
+<li><p>The <strong>ratio of the frequencies</strong> $\frac{\omega_x}{\omega_y}$ determines the <strong>shape and number of loops</strong> (or &quot;knots&quot;) in the figure.</p>
+<ul>
+<li>If the ratio is rational (e.g., 1:1, 2:3), the pattern is <strong>closed</strong> and periodic.</li>
+<li>If irrational, the figure never exactly closes and densely fills a region.</li>
+</ul>
+</li>
+<li><p>The <strong>relative phase</strong> $\delta$ affects the <strong>orientation and symmetry</strong> of the figure:</p>
+<ul>
+<li>$\delta = 0$ or $\pi$: the curve is symmetric and aligned with the axes</li>
+<li>$\delta = \frac{\pi}{2}$: the figure is often a ellipse (or circle if amplitudes are equal).</li>
+<li>Varying $\delta$ smoothly rotates or skews the figure.</li>
+</ul>
+</li>
+<li><p>Lissajous figures are often visualized on oscilloscopes using <strong>XY mode</strong>, where one channel drives horizontal deflection and the other vertical deflection.</p>
+</li>
+</ul>
+<p><img src="../img/from_wiki/Lissajous_relaciones.png" alt="Lissajous" width="400"/></p>
+<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Lissajous_relaciones.png">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC Attribution-ShareAlike 4.0 International</a></sub></em></p>
+<h2>Microwaves &amp; waveguides</h2>
+<p><code>ew13+ew14+ew15</code></p>
+<ul>
+<li>Microwaves propagate inside a waveguide via reflections and interference</li>
+<li>This forms TE (Transverse Electric) and TM (Transverse Magnetic) modes, depending on the field configuration (waveguides do not support TEM (Transverse Electromagnetic) modes).</li>
+<li>Only waves above the cutoff frequency $f_c$ can travel: $f_c = \frac{c}{2a}$ with<ul>
+<li>$c$ - speed of light</li>
+<li>$a$ - wider dimension of the waveguide cross-section</li>
+</ul>
+</li>
+<li>Waveguide confines and efficiently directs the energy with minimal loss.</li>
+</ul>
+
+            
+        <script>
+            MathJax = {
+                tex: {
+                    inlineMath: [['$', '$']],
+                    displayMath: [['$$', '$$']]
+                },
+                svg: {
+                    fontCache: 'global'
+                }
+            };
+        </script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+        
+        </body>
+        </html>
+        
