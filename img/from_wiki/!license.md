@@ -301,3 +301,120 @@
 
 
 
+---
+
+<img src="../img/from_wiki/Mount_Hood_reflected_in_Mirror_Lake,_Oregon.jpg" alt="MirrorLake" width="500"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Mount_Hood_reflected_in_Mirror_Lake,_Oregon.jpg), public domain</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Pen_in_water.jpg" alt="PenInWater" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Pen_in_water.jpg) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/960px-Rocca_dell'Abisso,_Fondachelli_Fantina,_Sicilia.jpg" alt="RaySicilia" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Rocca_dell%27Abisso,_Fondachelli_Fantina,_Sicilia.JPG) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/579px-Diffuse_refl.gif" alt="DiffuseReflection" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Diffuse_refl.gif)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Reflection_angles.svg.png" alt="Reflection" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Reflection_angles.svg)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Plane_mirror.svg.png" alt="PlaneMirror" width="200"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Plane_mirror.svg), public domain</sub>*
+
+
+---
+
+<img src="../img/from_wiki/ReflexionTotal_en.svg.png" alt="TotalReflection" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:ReflexionTotal_en.svg)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Electromagnetic_spectrum_-eng.svg.png" alt="LightSpectrum" width="400"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Electromagnetic_spectrum_-eng.svg) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Light_dispersion_conceptual_waves.gif" alt="PrismDispersion" width="200"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Light_dispersion_conceptual_waves.gif), public domain</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Total_internal_reflection_of_Chelonia_mydas.jpg" alt="ExampleTotalReflection" width="400"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Total_internal_reflection_of_Chelonia_mydas.jpg) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Pencil_in_a_bowl_of_water.svg.png" alt="RefractionPencil" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Pencil_in_a_bowl_of_water.svg)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Snells_law.svg.png" alt="SnellsLaw" width="200"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Snells_law.svg), public domain</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Mirage-diagram.svg.png" alt="Mirage" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Mirage-diagram.svg) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Convexmirror_raydiagram.svg.png" alt="ConvexMirror" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Convexmirror_raydiagram.svg)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Concavemirror_raydiagram_2F.svg.png" alt="ConcaveMirror2F" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Concavemirror_raydiagram_2F.svg)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Concavemirror_raydiagram_2FE.svg.png" alt="ConcaveMirror2FE" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Concavemirror_raydiagram_2FE.svg)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Concavemirror_raydiagram_F.svg.png" alt="ConcaveMirrorF" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Concavemirror_raydiagram_F.svg)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+
+
+
+
+
