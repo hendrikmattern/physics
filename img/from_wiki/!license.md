@@ -413,8 +413,141 @@
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Concavemirror_raydiagram_F.svg)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
 
+---
+
+<img src="../img/from_wiki/Lenses_en.svg.png" alt="LensShapes" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Lenses_en.svg)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Single_Thick_Lens_Imaging,_2024-10-07.png" alt="ThickLens" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Single_Thick_Lens_Imaging,_2024-10-07.png) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Cardinal-points-2.svg.png" alt="CardinalPoints" width="400"/>
+
+*<sub>from [wikipedia by DrBob](https://en.wikipedia.org/wiki/File:Cardinal-points-2.svg)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Single_Lens_Imaging,_2024-05-30.png" alt="ThinLens" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Single_Lens_Imaging,_2024-05-30.png) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/A_Diagram_for_a_Spherical_Lens_Equation_with_Paraxial_Rays,_2024-08-27.png" alt="LensMakerEquation" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:A_Diagram_for_a_Spherical_Lens_Equation_with_Paraxial_Rays,_2024-08-27.png) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Lens1.svg.png" alt="ThinConverging" width="400"/>
+
+*<sub>from [wikipedia by DrBob](https://en.wikipedia.org/wiki/File:Lens1.svg)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Lens1b.svg.png" alt="ThinDiverging" width="400"/>
+
+*<sub>from [wikipedia by DrBob](https://en.wikipedia.org/wiki/File:Lens1b.svg)[CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Thin_lens_images.svg.png" alt="ImageABC" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Thin_lens_images.svg) [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Lens3.svg.png" alt="ImageConvergingReal" width="400"/>
+
+*<sub>from [wikipedia by DrBob](https://en.wikipedia.org/wiki/File:Lens3.svg) [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Lens3b.svg.png" alt="ImageConvergingVirt" width="400"/>
+
+*<sub>from [wikipedia by DrBob](https://en.wikipedia.org/wiki/File:Lens3b.svg) [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Lens4.svg.png" alt="ImageDiverging" width="400"/>
+
+*<sub>from [wikipedia by DrBob](https://en.wikipedia.org/wiki/File:Lens4.svg) [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
 
 
+---
 
+<img src="../img/from_wiki/Three_Main_Layers_of_the_Eye.png" alt="AnatomyEye" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Three_Main_Layers_of_the_Eye.png) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Eye_and_ray_path3.svg.png" alt="EyeFocus" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Eye_and_ray_path3.svg) under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Optical_power_of_a_lens.svg.png" alt="OpticalPower" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Optical_power_of_a_lens.svg) under [CC Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Spherical_aberration_2.svg.png" alt="SphericalAberration" width="200"/>
+
+*<sub>from [wikipedia by Mglg](https://en.wikipedia.org/wiki/File:Spherical_aberration_2.svg), public domain</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Lens_coma.svg.png" alt="LensComa" width="400"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Lens_coma.svg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Astigmatism.svg.png" alt="Astigmatism" width="300"/>
+
+*<sub>from [wikipedia by Sebastian Kosch](https://en.wikipedia.org/wiki/File:Astigmatism.svg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/PSM_V01_D191_Astigmatism.jpg" alt="PSM_V01_D191_Astigmatism.jpg" width="200"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:PSM_V01_D191_Astigmatism.jpg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Field_curvature.svg.png" alt="Field_curvature.svg.png" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Field_curvature.svg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Globe_effect.gif" alt="Globe_effect.gif" width="200"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Globe_effect.gif) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Chromatic_aberration_lens_diagram.svg.png" alt="Chromatic_aberration_lens_diagram.svg.png" width="200"/>
+
+*<sub>from [wikipedia by DrBob](https://en.wikipedia.org/wiki/File:Chromatic_aberration_lens_diagram.svg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Chromatic_aberration_(comparison).jpg" alt="Chromatic_aberration_(comparison)" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Chromatic_aberration_(comparison).jpg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
 
 
