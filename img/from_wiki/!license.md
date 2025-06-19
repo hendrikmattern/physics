@@ -551,3 +551,11 @@
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Chromatic_aberration_(comparison).jpg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
 
 
+---
+
+<img src="../img/from_wiki/Abbildungsfehler_am_Hohlspiegel_(Katakaustik).svg.png" alt="Abbildungsfehler_am_Hohlspiegel_(Katakaustik).svg.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Abbildungsfehler_am_Hohlspiegel_(Katakaustik).svg) under [CC Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+
+
