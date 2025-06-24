@@ -559,3 +559,43 @@
 
 
 
+
+
+
+
+
+---
+
+<img src="../img/from_wiki/Lochkamera2.jpg" alt="Lochkamera2.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Lochkamera2.jpg), [GNU-Lizenz für freie Dokumentation](https://en.wikipedia.org/wiki/de:GNU-Lizenz_f%C3%BCr_freie_Dokumentation)</sub>*
+
+---
+
+<img src="../img/from_wiki/Kepschem-int.svg" alt="Kepschem-int.svg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Kepschem-int.svg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Pinhole-camera.svg" alt="Pinhole-camera.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Pinhole-camera.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Compound_microscope_geometric_optics.svg" alt="Compound_microscope_geometric_optics.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Compound_microscope_geometric_optics.svg), [Attribution 4.0 International](//creativecommons.org/licenses/by/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Apochromat.svg" alt="Apochromat.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Apochromat.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Newtonian_telescope2.svg" alt="Newtonian_telescope2.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Newtonian_telescope2.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
