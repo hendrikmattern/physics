@@ -7463,7 +7463,339 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>... dummy ...</p>
+<h2 id="michelson-interferometer">michelson interferometer<a class="anchor-link" href="#michelson-interferometer">¶</a></h2><p><code>os26</code></p>
+<ul>
+<li>splits a light beam into two paths using a beam splitter</li>
+<li>each path reflects off a mirror and recombines at the detector</li>
+<li>interference depends on <strong>optical path difference (OPD)</strong> between arms</li>
+<li>if one mirror moves by distance $\Delta x$, the OPD changes by $2 \Delta x$</li>
+<li>interference fringes shift, allowing precise distance or wavelength measurements</li>
+</ul>
+<p>$$
+\text{OPD} = 2 \Delta x \quad \Rightarrow \quad m \lambda = 2 \Delta x
+$$</p>
+<ul>
+<li>used in metrology, gravitational wave detection (LIGO), and coherence experiments</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="introduction-to-diffraction">introduction to diffraction<a class="anchor-link" href="#introduction-to-diffraction">¶</a></h2><ul>
+<li>building on interference and polarization (wave nature of light).</li>
+<li><strong>diffraction</strong>: bending of waves as they pass through an aperture or around an obstacle.</li>
+<li>direct consequence of light's wave nature.</li>
+<li>noticeable when aperture/obstacle size is comparable to wavelength.</li>
+</ul>
+<hr/>
+<h2 id="2.12.1-revisiting-the-double-slit-experiment:-diffraction">2.12.1 revisiting the double-slit experiment: diffraction<a class="anchor-link" href="#2.12.1-revisiting-the-double-slit-experiment:-diffraction">¶</a></h2><p><code>os05 - double slit w\ red and green</code></p>
+<ul>
+<li>previously, double-slit: interference of two discrete waves.</li>
+<li>waves <strong>bend</strong> (diffract) at interfaces comparable to wavelength.</li>
+<li>interference pattern: bright (constructive) and dark (destructive) fringes.</li>
+</ul>
+<hr/>
+<h3 id="the-catch:-intensity-modulation">the catch: intensity modulation<a class="anchor-link" href="#the-catch:-intensity-modulation">¶</a></h3><ul>
+<li>simple interference predicts equally bright fringes.</li>
+<li><strong>reality</strong>: intensity of fringes is modulated.<ul>
+<li>central ones brightest.</li>
+<li>intensity decreases away from center.</li>
+</ul>
+</li>
+<li>each slit acts as a source of waves (Huygens' principle) that interfere in a more complex way.</li>
+<li>this phenomenon, responsible for intensity variations, is <strong>diffraction</strong>.</li>
+</ul>
+<hr/>
+<h3 id="interference-vs.-diffraction">interference vs. diffraction<a class="anchor-link" href="#interference-vs.-diffraction">¶</a></h3><ul>
+<li><strong>fundamentally the same phenomenon</strong>: superposition of coherent waves.</li>
+<li><strong>distinction often lies in conceptualization/source arrangement</strong>:<ul>
+<li><strong>interference</strong>: superposition from a few discrete sources (e.g., two rays).</li>
+<li><strong>diffraction</strong>: superposition from a continuous distribution of sources or many closely spaced sources.</li>
+</ul>
+</li>
+<li>diffraction: interference of a wave with itself.</li>
+<li>each point on a wavefront acts as a source of secondary wavelets (Huygens' principle).</li>
+</ul>
+<hr/>
+<h2 id="2.12.2-diffraction-at-a-single-slit">2.12.2 diffraction at a single-slit<a class="anchor-link" href="#2.12.2-diffraction-at-a-single-slit">¶</a></h2><p><code>sim - single slit</code></p>
+<p><code>os05 - single slit</code></p>
+<ul>
+<li>easier setup before double-slit intensity.</li>
+<li>monochromatic light from coherent source ($\lambda$, phase).</li>
+<li>single narrow slit of width $D$ ($D \approx \lambda$).</li>
+<li>results in a diffraction pattern on a distant screen:<ul>
+<li>central bright maximum.</li>
+<li>flanked by minima and weaker secondary maxima.</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h3 id="single-slit-pattern-formation">single-slit pattern formation<a class="anchor-link" href="#single-slit-pattern-formation">¶</a></h3><ul>
+<li>arises from interference of waves originating from different parts of the slit.</li>
+<li>path difference: $\Delta = D \sin \theta$ (screen far from slit).</li>
+<li>relation to wavelength $\lambda$:</li>
+</ul>
+<p>$$
+D \sin \theta = m \lambda
+$$</p>
+<ul>
+<li>$m$ is the order.</li>
+<li><em>note</em>: for minima, $m$ is an integer. for higher-order maxima, $m$ is approximately a half-integer.</li>
+</ul>
+<hr/>
+<h3 id="single-slit-maxima-and-minima-summary">single-slit maxima and minima summary<a class="anchor-link" href="#single-slit-maxima-and-minima-summary">¶</a></h3><ul>
+<li><strong>central maximum</strong>:<ul>
+<li>rays passing straight through slit ($\theta = 0$) are in phase.</li>
+<li>creates a central bright region.</li>
+</ul>
+</li>
+<li><strong>minima</strong>:<ul>
+<li>occur at angles $\theta$ where path difference between rays from top and bottom of slit is an integer multiple of $\lambda$:</li>
+</ul>
+</li>
+</ul>
+<p>$$
+D \sin\theta = m\lambda, \quad m = \pm 1, \pm 2, ...
+$$</p>
+<ul>
+<li><strong>higher-order maxima</strong>:<ul>
+<li>weaker maxima appear between minima.</li>
+<li>approximately where path difference is a half-integer multiple of $\lambda$:</li>
+</ul>
+</li>
+</ul>
+<p>$$
+D \sin\theta \approx (m + \frac{1}{2})\lambda, \quad m \approx \pm \frac{3}{2}, \pm \frac{5}{2}, ...
+$$</p>
+<hr/>
+<h2 id="intensity-in-single-slit-diffraction-pattern">intensity in single-slit diffraction pattern<a class="anchor-link" href="#intensity-in-single-slit-diffraction-pattern">¶</a></h2><ul>
+<li>consider a slit split into $N$ thin strips, each thickness $\Delta y$.</li>
+<li>each strip emits coherent wavelets (Huygens' principle).</li>
+<li>consider parallel rays at angle $\theta$.</li>
+<li>path difference: $\Delta = \Delta y \sin \theta$.</li>
+<li>phase difference: $\Delta \beta = \frac{2 \pi}{\lambda} \Delta y \sin \theta$.</li>
+</ul>
+<hr/>
+<h3 id="phasor-technique-for-intensity">phasor technique for intensity<a class="anchor-link" href="#phasor-technique-for-intensity">¶</a></h3><ul>
+<li>each strip has electric field $\Delta E_0$ (amplitude).</li>
+<li>phase differs between strips. electric field is a vector (magnitude &amp; phase).</li>
+<li>intensity on screen: vector sum of all strips.</li>
+<li>total phase difference $\beta$ across all slits (width $D = N \Delta y$):</li>
+</ul>
+<p>$$
+\beta = N \Delta \beta = \frac{2 \pi}{\lambda} N \Delta y \sin \theta = \frac{2 \pi}{\lambda} D \sin \theta
+$$</p>
+<hr/>
+<h3 id="phasor-summation">phasor summation<a class="anchor-link" href="#phasor-summation">¶</a></h3><ul>
+<li>if $\beta = 2\pi$, all vectors cancel (first minimum).</li>
+<li>minima for $\beta = \pm 2\pi, \pm 4\pi, ...$.</li>
+<li>higher-order maxima for $\beta = \pm 3\pi, \pm 5\pi, ...$<ul>
+<li>portion of vectors cancel, reducing intensity.</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h3 id="deriving-the-intensity-formula">deriving the intensity formula<a class="anchor-link" href="#deriving-the-intensity-formula">¶</a></h3><ul>
+<li>central maximum ($\theta=0$): phasors in phase, resultant $E_0 = N \Delta E_0$.</li>
+<li>general angle $\theta$: phasors form circular arc.</li>
+<li>arc length $E_0 = r \beta$.</li>
+<li>resultant field $E_{\theta}$ is chord of arc:</li>
+</ul>
+<p>$$
+\sin\left(\frac{\beta}{2}\right) = \frac{E_{\theta}/2}{r}
+$$</p>
+<hr/>
+<h3 id="single-slit-intensity-formula">single-slit intensity formula<a class="anchor-link" href="#single-slit-intensity-formula">¶</a></h3><ul>
+<li>dividing relations:</li>
+</ul>
+<p>$$
+\frac{E_{\theta}}{E_0} = \frac{\sin(\beta/2)}{\beta/2}
+$$</p>
+<ul>
+<li>intensity is proportional to square of electric field amplitude ($I \propto E^2$):</li>
+</ul>
+<p>$$
+\frac{I_{\theta}}{I_0} = \left( \frac{E_{\theta}}{E_0} \right)^2 = \left( \frac{\sin(\beta/2)}{\beta/2} \right)^2
+$$</p>
+<ul>
+<li>substituting $\beta$:</li>
+</ul>
+<p>$$
+I_{\theta} = I_0 \left( \frac{\sin\left(\frac{\pi D \sin \theta}{\lambda}\right)}{\frac{\pi D \sin \theta}{\lambda}} \right)^2
+$$</p>
+<hr/>
+<h2 id="2.12.3-diffraction-at-a-double-slit">2.12.3 diffraction at a double-slit<a class="anchor-link" href="#2.12.3-diffraction-at-a-double-slit">¶</a></h2><ul>
+<li>previous interference analysis determines maxima/minima positions.</li>
+<li>reality: finite number of peaks, brightest at center, lower intensity surrounding.</li>
+<li>this is due to <strong>diffraction</strong> from each slit.</li>
+</ul>
+<hr/>
+<h3 id="combining-diffraction-and-interference">combining diffraction and interference<a class="anchor-link" href="#combining-diffraction-and-interference">¶</a></h3><ul>
+<li>double-slit: each slit has width $D$, separation $d$.</li>
+<li>each slit contributes an electric field modulated by its own diffraction:</li>
+</ul>
+<p>$$
+E_{single} = E_{0, single} \frac{\sin(\beta/2)}{\beta/2}
+$$</p>
+<ul>
+<li>where $\frac{\beta}{2} = \frac{\pi D \sin \theta}{\lambda}$</li>
+</ul>
+<hr/>
+<h3 id="phase-difference-between-slits">phase difference between slits<a class="anchor-link" href="#phase-difference-between-slits">¶</a></h3><ul>
+<li>path difference between light from two slits: $\Delta = d \sin \theta$.</li>
+<li>phase difference $\delta$:</li>
+</ul>
+<p>$$
+\delta = \frac{2 \pi}{\lambda} \Delta = \frac{2 \pi}{\lambda} d \sin \theta
+$$</p>
+<ul>
+<li>electric fields from the two slits:</li>
+</ul>
+<p>$$
+E_1 = E_{single} e^{i \delta/2}, \quad E_2 = E_{single} e^{-i \delta/2}
+$$</p>
+<hr/>
+<h3 id="total-electric-field-for-double-slit">total electric field for double slit<a class="anchor-link" href="#total-electric-field-for-double-slit">¶</a></h3><ul>
+<li>superposition:</li>
+</ul>
+<p>$$
+E_{total} = E_1 + E_2 = E_{single} (e^{i \delta/2} + e^{-i \delta/2})
+$$</p>
+<ul>
+<li>using $e^{ix} + e^{-ix} = 2 \cos x$:</li>
+</ul>
+<p>$$
+E_{total} = 2 E_{single} \cos\left(\frac{\delta}{2}\right)
+$$</p>
+<ul>
+<li>substituting $E_{single}$:</li>
+</ul>
+<p>$$
+E_{total} = 2 E_{0, single} \frac{\sin(\beta/2)}{\beta/2} \cos\left(\frac{\delta}{2}\right)
+$$</p>
+<hr/>
+<h3 id="double-slit-intensity-formula">double-slit intensity formula<a class="anchor-link" href="#double-slit-intensity-formula">¶</a></h3><ul>
+<li>intensity $I_{\theta} \propto E_{total}^2$</li>
+<li>let $I_0$ be the intensity of the central maximum:</li>
+</ul>
+<p>$$
+I_{\theta} = I_0 \left( \frac{\sin(\beta/2)}{\beta/2} \right)^2 \cos^2\left(\frac{\delta}{2}\right)
+$$</p>
+<hr/>
+<h3 id="interpretation-of-double-slit-intensity">interpretation of double-slit intensity<a class="anchor-link" href="#interpretation-of-double-slit-intensity">¶</a></h3><p><code>sim - intensity</code></p>
+<ul>
+<li><strong>diffraction factor (envelope)</strong>: $\left( \frac{\sin(\beta/2)}{\beta/2} \right)^2$ from each slit ($D$)</li>
+<li><strong>interference factor</strong>: $\cos^2\left(\frac{\delta}{2}\right)$ from path difference between slits ($d$)</li>
+<li>diffraction envelope modulates finer interference fringes</li>
+<li>zeros of diffraction pattern cause disappearance of interference fringes</li>
+</ul>
+<hr/>
+<h2 id="2.12.4-limits-of-resolution-&amp;-circular-apertures">2.12.4 limits of resolution &amp; circular apertures<a class="anchor-link" href="#2.12.4-limits-of-resolution-&amp;-circular-apertures">¶</a></h2><ul>
+<li>lenses (circular apertures of diameter $D$) cannot image a point perfectly (diffraction &amp; aberration)</li>
+<li>light from a point source forms an <strong>Airy disk</strong></li>
+<li>angular half-width $\theta$ of Airy disk:</li>
+</ul>
+<p>$$
+\theta \approx 1.22 \frac{\lambda}{D}
+$$</p>
+<h2 id="resolution-limit-of-a-pinhole-camera">resolution limit of a pinhole camera<a class="anchor-link" href="#resolution-limit-of-a-pinhole-camera">¶</a></h2><p><code>os07 - resolution limit</code></p>
+<ul>
+<li>the resolution is limited mainly by two effects: diffraction and geometric blur</li>
+<li>diffraction occurs because light waves spread out when passing through the pinhole, causing image blur</li>
+<li>geometric blur happens if the pinhole is too large, letting rays from one point spread on the image plane</li>
+<li>there is an optimal pinhole diameter balancing diffraction and geometric blur for the sharpest image</li>
+</ul>
+<hr/>
+<h2 id="diffraction-limit-and-optimal-pinhole-size">diffraction limit and optimal pinhole size<a class="anchor-link" href="#diffraction-limit-and-optimal-pinhole-size">¶</a></h2><ul>
+<li>diffraction-limited angular resolution $\theta$ for a circular aperture of diameter $d$ and wavelength $\lambda$ is approximately<br/>
+$$ \theta \approx 1.22 \frac{\lambda}{d} $$</li>
+<li>the optimal pinhole diameter to minimize blur is approximately<br/>
+$$ d_{\text{opt}} \approx 1.9 \sqrt{\lambda f} $$
+where $f$ is the distance from the pinhole to the image plane (focal length)</li>
+<li>this optimal diameter balances diffraction and geometric blur for best image sharpness</li>
+</ul>
+<h2 id="practical-considerations">practical considerations<a class="anchor-link" href="#practical-considerations">¶</a></h2><ul>
+<li>visible light wavelength $\lambda$ is about 550 nm (green light)</li>
+<li>for typical pinhole cameras with $f$ on the order of centimeters, optimal pinhole diameter is tens to hundreds of micrometers</li>
+<li>resolution limit corresponds roughly to the size of the diffraction spot on the image plane, often on the order of tens of micrometers</li>
+<li>this translates to an angular resolution of a few arcminutes in typical setups</li>
+</ul>
+<hr/>
+<h3 id="Rayleigh-criterion">Rayleigh criterion<a class="anchor-link" href="#Rayleigh-criterion">¶</a></h3><ul>
+<li>resolution limit: ability to distinguish two closely spaced objects</li>
+<li><strong>Rayleigh criterion</strong>: just resolvable when one center overlaps other’s first minimum</li>
+<li>minimum angular separation:</li>
+</ul>
+<p>$$
+\theta_{min} = 1.22 \frac{\lambda}{D}
+$$</p>
+<ul>
+<li>smaller $\theta_{min}$ → better resolution</li>
+<li>applies to telescopes and mirrors ($D$ = objective diameter)</li>
+<li><strong>ultimate limit of resolution</strong>: $RP \approx \frac{\lambda}{2}$</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><code>ow13 - spect grating</code>
+<code>ow10 + ow15 - spect lamps</code>
+ow13	Spektren am Reflexionsgitter
+ow10	Spektrum einer Quecksilberdampflampe
+ow15	Spektrum einer Natriumdampflampe</p>
+<h2 id="2.12.5-diffraction-grating-&amp;-spectroscopy">2.12.5 diffraction grating &amp; spectroscopy<a class="anchor-link" href="#2.12.5-diffraction-grating-&amp;-spectroscopy">¶</a></h2><ul>
+<li><strong>diffraction grating</strong>: many equally spaced slits (spacing $d$)</li>
+<li>thousands of lines per cm/mm</li>
+<li>used for precise wavelength measurements</li>
+<li>maxima occur at angles:</li>
+</ul>
+<p>$$
+\sin\theta = \frac{m\lambda}{d}, \quad m = 0, \pm 1, \pm 2, ...
+$$</p>
+<hr/>
+<h3 id="diffraction-grating-features">diffraction grating features<a class="anchor-link" href="#diffraction-grating-features">¶</a></h3><ul>
+<li>central (zero-order) maximum is brightest</li>
+<li><strong>sharper higher-order maxima</strong> than double-slit</li>
+<li>even slight angle change → destructive interference across many slits</li>
+<li><strong>transmission grating</strong>: light passes through</li>
+<li><strong>reflection grating</strong>: lines ruled on mirror → light reflected</li>
+</ul>
+<hr/>
+<h3 id="white-light-with-diffraction-grating">white light with diffraction grating<a class="anchor-link" href="#white-light-with-diffraction-grating">¶</a></h3><ul>
+<li>white light instead of monochromatic</li>
+<li><strong>central white peak</strong> ($m = 0$): all wavelengths overlap constructively</li>
+<li>for $m \neq 0$: different $\lambda$ diffract at different angles:</li>
+</ul>
+<p>$$
+\sin\theta = \frac{m\lambda}{d}
+$$</p>
+<ul>
+<li>result: spectrum of colors per order</li>
+<li>key principle behind <strong>spectroscopy</strong></li>
+</ul>
+<hr/>
+<h3 id="spectrometer-/-spectroscope">spectrometer / spectroscope<a class="anchor-link" href="#spectrometer-/-spectroscope">¶</a></h3><ul>
+<li>measures light wavelength with high precision</li>
+<li>uses diffraction grating or prism</li>
+<li><strong>components</strong>:<ol>
+<li>light enters slit in <strong>collimator</strong></li>
+<li>slit at focal point of lens → parallel beam</li>
+<li>beam sent to grating/prism</li>
+<li>movable telescope focuses dispersed light</li>
+</ol>
+</li>
+</ul>
+<hr/>
 </div>
 </div>
 </div>

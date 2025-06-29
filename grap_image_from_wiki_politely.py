@@ -4,49 +4,103 @@ from bs4 import BeautifulSoup
 
 def extract_and_format_license_md(soup):
     """
-    Extracts license info from the Wikipedia file page soup,
-    returns a properly formatted markdown string for license attribution.
+    Extracts license info from a Wikimedia Commons or Wikipedia file page soup.
+    Returns a markdown-formatted attribution string, using strict matching priority.
     """
-    license_url = None
-    license_text = None
 
-    # Try to find the license div first
-    license_div = soup.find("div", {"class": "fileinfotpl_license"})
-    if license_div:
-        a_tag = license_div.find("a", href=True)
-        if a_tag:
-            license_url = a_tag["href"]
-            license_text = a_tag.get_text(strip=True)
-        else:
-            license_text = license_div.get_text(strip=True)
+    def match_license(links, keywords):
+        for a in links:
+            href = a["href"].lower()
+            for key in keywords:
+                if key in href:
+                    return a.get_text(strip=True), a["href"]
+        return None, None
 
-    # Fallback: search in entire page text or links if license info missing
-    if not license_text:
-        text = soup.get_text(separator=' ').lower()        
-        if "cc0" in text:
-            license_text = "CC0 1.0 Universal"
-            license_url = "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    # === Step 1: Structured license blocks ===
+    license_blocks = soup.find_all("div", class_="licensetpl")
+
+    for block in license_blocks:
+        text = block.get_text(" ", strip=True).lower()
+        links = block.find_all("a", href=True)
+
+        if "cc by-sa 4.0" in text:
+            _, url = match_license(links, ["by-sa/4.0"])
+            if url: return f"[Attribution-Share Alike 4.0 International]({url})"
+        elif "cc by-sa 3.0" in text:
+            _, url = match_license(links, ["by-sa/3.0"])
+            if url: return f"[Attribution-Share Alike 3.0 Unported]({url})"
+        elif "cc by-sa 2.0" in text:
+            _, url = match_license(links, ["by-sa/2.0"])
+            if url: return f"[Attribution-Share Alike 2.0 Generic]({url})"
+        elif "cc by-sa 1.0" in text:
+            _, url = match_license(links, ["by-sa/1.0"])
+            if url: return f"[Attribution-Share Alike 1.0 Generic]({url})"
+        elif "cc by 2.0" in text:
+            _, url = match_license(links, ["by/2.0"])
+            if url: return f"[CC 2.0 Generic license]({url})"
+        elif "gfdl" in text or "gnu free" in text:
+            _, url = match_license(links, ["gnu.org"])
+            return f"[GNU Free Documentation License]({url})" if url else "GNU Free Documentation License"
+        elif "gemeinfrei" in text:
+            return "gemeinfrei"
         elif "public domain" in text:
-            license_text = "public domain"
-            license_url = None
-        else:
-            for a in soup.find_all("a", href=True):
-                href = a["href"].lower()
-                if "creativecommons.org/licenses" in href or "license" in href or "gnu" in href or "gfdl" in href:
-                    license_url = a["href"]
-                    license_text = a.get_text(strip=True)
-                    break
+            return "public domain"
+        elif "cc0" in text:
+            _, url = match_license(links, ["publicdomain/zero/1.0"])
+            return f"[CC0 1.0 Universal]({url})" if url else "CC0 1.0 Universal"
 
-    if not license_text:
-        raise Exception("License info not found.")
+    # === Step 2: Table fallback for Wikipedia ===
+    fileinfo_table = soup.find("table", class_="fileinfotpl")
+    if fileinfo_table:
+        for td in fileinfo_table.find_all("td"):
+            text = td.get_text(" ", strip=True).lower()
+            links = td.find_all("a", href=True)
 
-    # Format license markdown text 
-    if license_url:
-        license_md = f"[{license_text}]({license_url})"
-    else:
-        license_md = f"{license_text}"
+            if "cc by-sa 3.0" in text:
+                _, url = match_license(links, ["by-sa/3.0"])
+                if url: return f"[Attribution-Share Alike 3.0 Unported]({url})"
+            elif "cc by 2.0" in text:
+                _, url = match_license(links, ["by/2.0"])
+                if url: return f"[CC 2.0 Generic license]({url})"
+            elif "gfdl" in text or "gnu free" in text:
+                _, url = match_license(links, ["gnu.org"])
+                return f"[GNU Free Documentation License]({url})" if url else "GNU Free Documentation License"
+            elif "public domain" in text:
+                return "public domain"
+            elif "cc0" in text:
+                _, url = match_license(links, ["publicdomain/zero/1.0"])
+                return f"[CC0 1.0 Universal]({url})" if url else "CC0 1.0 Universal"
 
-    return license_md
+    # === Step 3: Search for plain-text public domain declarations ===
+    body_text = soup.get_text(" ", strip=True).lower()
+    if "i, the copyright holder of this work, release this work into the public domain" in body_text:
+        return "public domain"
+
+    # === Step 4: Fallback global link scan ===
+    all_links = soup.find_all("a", href=True)
+    for a in all_links:
+        href = a["href"].lower()
+        if "by-sa/4.0" in href:
+            return f"[Attribution-Share Alike 4.0 International]({a['href']})"
+        elif "by-sa/3.0" in href:
+            return f"[Attribution-Share Alike 3.0 Unported]({a['href']})"
+        elif "by-sa/2.0" in href:
+            return f"[Attribution-Share Alike 2.0 Generic]({a['href']})"
+        elif "by-sa/1.0" in href:
+            return f"[Attribution-Share Alike 1.0 Generic]({a['href']})"
+        elif "by/2.0" in href:
+            return f"[CC 2.0 Generic license]({a['href']})"
+        elif "gnu.org" in href:
+            return f"[GNU Free Documentation License]({a['href']})"
+        elif "publicdomain/zero/1.0" in href:
+            return f"[CC0 1.0 Universal]({a['href']})"
+        elif "gemeinfrei" in href:
+            return "gemeinfrei"
+        elif "publicdomain" in href:
+            return "public domain"
+
+    raise Exception("❌ License info not found or unsupported format.")
+
 
 def download_wikipedia_image_no_convert(wiki_file_url, save_dir, markdown_file):
     print(f"Processing: {wiki_file_url}")
@@ -112,13 +166,9 @@ def download_wikipedia_image_no_convert(wiki_file_url, save_dir, markdown_file):
 
 ### MAIN EXECUTION
 
-html_list = [
-    "https://de.wikipedia.org/wiki/Datei:Lochkamera2.jpg",
-    "https://commons.wikimedia.org/wiki/File:Kepschem-int.svg",
-    "https://en.wikipedia.org/wiki/File:Pinhole-camera.svg",
-    "https://en.wikipedia.org/wiki/File:Compound_microscope_geometric_optics.svg",    
-    "https://en.wikipedia.org/wiki/File:Apochromat.svg",
-    "https://en.wikipedia.org/wiki/File:Newtonian_telescope2.svg",
+html_list = [        
+    "https://de.wikibooks.org/wiki/Datei:Wavelength%3Dslitwidth.gif",
+    
 ]
 for html in html_list: 
     print(f"Processing: {html}")

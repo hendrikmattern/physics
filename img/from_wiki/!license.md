@@ -599,3 +599,229 @@
 <img src="../img/from_wiki/Newtonian_telescope2.svg" alt="Newtonian_telescope2.svg" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Newtonian_telescope2.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Plastic_Protractor_Polarized_05375.jpg" alt="Plastic_Protractor_Polarized_05375.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Plastic_Protractor_Polarized_05375.jpg), [GNU Free Documentation License](https://en.wikipedia.org/wiki/en:GNU_Free_Documentation_License)</sub>*
+
+---
+
+<img src="../img/from_wiki/Polarisationsapparat_nach_Noerrenberg.png" alt="Polarisationsapparat_nach_N%C3%B6rrenberg.png" width="300"/>
+
+*<sub>from [wikipedia](https://de.m.wikipedia.org/wiki/Datei:Polarisationsapparat_nach_N%C3%B6rrenberg.png), public domain)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Spherical_wave2.gif" alt="Spherical_wave2.gif" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Spherical_wave2.gif), public domain)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Wellenfront-2.svg" alt="Wellenfront-2.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Wellenfront-2.svg), by Expes, public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Wellenfront-1.svg" alt="Wellenfront-1.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Wellenfront-1.svg), by Expes, public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Refraction_on_an_aperture_-_Huygens-Fresnel_principle.svg" alt="Refraction_on_an_aperture_-_Huygens-Fresnel_principle.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Refraction_on_an_aperture_-_Huygens-Fresnel_principle.svg), by norro [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Refraction_-_Huygens-Fresnel_principle.svg" alt="Refraction_-_Huygens-Fresnel_principle.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Refraction_-_Huygens-Fresnel_principle.svg), by norro [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Positively_birefringent_material.svg" alt="Positively_birefringent_material.svg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Positively_birefringent_material.svg), public domain</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Reflection_Polarizer2.jpg" alt="Reflection_Polarizer2.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Reflection_Polarizer2.jpg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Wave_diffraction_at_the_Blue_Lagoon_Abereiddy.jpg" alt="Wave_diffraction_at_the_Blue_Lagoon%2C_Abereiddy.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Wave_diffraction_at_the_Blue_Lagoon,_Abereiddy.jpg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Diffraction_through_Slit.svg" alt="Diffraction_through_Slit.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Diffraction_through_Slit.svg), gemeinfrei</sub>*
+
+---
+
+<img src="../img/from_wiki/Diffraction_through_Pinhole.svg" alt="Diffraction_through_Pinhole.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Diffraction_through_Pinhole.svg), gemeinfrei</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Refraction_animation.gif" alt="Refraction_animation.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Refraction_animation.gif), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Refraction.svg" alt="Refraction.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Refraction.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Snells_law_wavefronts.gif" alt="Snells_law_wavefronts.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Snells_law_wavefronts.gif), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/TwoSlitInterference.svg" alt="TwoSlitInterference.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:TwoSlitInterference.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Polarizacio.jpg" alt="Polarizacio.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Polarizacio.jpg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Rising_circular.gif" alt="Rising_circular.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Rising_circular.gif), [Attribution-Share Alike 2.0 Generic](//creativecommons.org/licenses/by-sa/2.0/deed.en)</sub>*
+
+
+
+---
+
+<img src="../img/from_wiki/Animation_polariseur.gif" alt="Animation_polariseur.gif" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Animation_polariseur.gif), gemeinfrei</sub>*
+
+---
+
+<img src="../img/from_wiki/Cross_linear_polarization.gif" alt="Wave_diffraction_at_the_Blue_Lagoon%2C_Abereiddy.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Cross_linear_polarization.gif), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Brewster_angle.svg" alt="Brewster_angle.svg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Brewster_angle.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Majestic_Twilight.jpg" alt="Majestic_Twilight.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Majestic_Twilight.jpg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Rayleigh_sunlight_scattering.svg" alt="Rayleigh_sunlight_scattering.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Rayleigh_sunlight_scattering.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Interfering_surface_waves_on_a_lake.jpg" alt="Interfering_surface_waves_on_a_lake.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Interfering_surface_waves_on_a_lake.jpg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Two_sources_interference.gif" alt="Two_sources_interference.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Two_sources_interference.gif), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Optical_flat_interference.svg" alt="Optical_flat_interference.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Optical_flat_interference.svg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Newtons_rings_650nm_red_laser_light.jpeg" alt="Newton%27s_rings_%28650nm_red_laser_light%29.jpeg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Newton%27s_rings_(650nm_red_laser_light).jpeg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Newton_rings.jpg" alt="Newton_rings.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Newton_rings.jpg), public domain</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Soap_bubble_sky.jpg" alt="Soap_bubble_sky.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Soap_bubble_sky.jpg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Thin_film_interference_-_soap_bubble.gif" alt="Thin_film_interference_-_soap_bubble.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Thin_film_interference_-_soap_bubble.gif), public domain by Chanli44</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Thin_film_interference_-_oil_film.gif" alt="Thin_film_interference_-_oil_film.gif" width="200"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Thin_film_interference_-_oil_film.gif), public domain by Chanli44</sub>*
+
+---
+
+<img src="../img/from_wiki/Double_slit_experiment_schematic.svg" alt="Double_slit_experiment_%28schematic%29.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Double_slit_experiment_(schematic).svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Two-Slit_Experiment_Light.svg" alt="Two-Slit_Experiment_Light.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Two-Slit_Experiment_Light.svg), gemeinfrei</sub>*
+
+---
+
+<img src="../img/from_wiki/Interfere.gif" alt="Interfere.gif" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Interfere.gif), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Michelson_interferometer_fringe_formation.svg" alt="Michelson_interferometer_fringe_formation.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Michelson_interferometer_fringe_formation.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Wavelength_slitwidth.gif" alt="Wavelength%3Dslitwidth.gif" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Wavelength%3Dslitwidth.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.de)</sub>*
