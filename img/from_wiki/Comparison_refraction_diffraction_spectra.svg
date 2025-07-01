@@ -1,0 +1,84 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="128 80 256 384">
+ <title>Comparison of spectra obtained by diffraction and refraction</title>
+ <desc>Comparison of the spectra obtained from a diffraction grating by diffraction (1), and a prism by refraction (2), drawn by CMG Lee. Longer wavelengths (red) are diffracted more, but refracted less than shorter wavelengths (violet).</desc>
+ <defs>
+  <linearGradient id="grad_grating1" x1="55%" y1="0%" x2="0%" y2="100%">
+   <stop offset="20%" stop-color="#6600ff" stop-opacity="0"/>
+   <stop offset="22%" stop-color="#6600ff" stop-opacity="1"/>
+   <stop offset="31%" stop-color="#00cc00" stop-opacity="1"/>
+   <stop offset="50%" stop-color="#ff0000" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="grad_grating2" x1="80%" y1="0%" x2="0%" y2="100%">
+   <stop offset="28%" stop-color="#6600ff" stop-opacity="0"/>
+   <stop offset="40%" stop-color="#ffff00" stop-opacity="0.5"/>
+   <stop offset="47%" stop-color="#ff0000" stop-opacity="1"/>
+   <stop offset="48%" stop-color="#ff0000" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="grad_prism1" x1="55%" y1="0%" x2="0%" y2="100%">
+   <stop offset="20%" stop-color="#ff0000" stop-opacity="0"/>
+   <stop offset="22%" stop-color="#ff0000" stop-opacity="1"/>
+   <stop offset="31%" stop-color="#ffff00" stop-opacity="1"/>
+   <stop offset="50%" stop-color="#6600ff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="grad_prism2" x1="80%" y1="0%" x2="0%" y2="100%">
+   <stop offset="28%" stop-color="#ff0000" stop-opacity="0"/>
+   <stop offset="40%" stop-color="#00cc00" stop-opacity="0.5"/>
+   <stop offset="47%" stop-color="#6600ff" stop-opacity="1"/>
+   <stop offset="48%" stop-color="#6600ff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="grad_prism" x1="45%" y1="0%" x2="0%" y2="100%">
+   <stop offset="15%" stop-color="#ff9900"/>
+   <stop offset="25%" stop-color="#cccc00"/>
+   <stop offset="40%" stop-color="#00cc00"/>
+   <stop offset="60%" stop-color="#0033cc"/>
+  </linearGradient>
+  <linearGradient id="grad_white" x1="0%" y1="0%" x2="0%" y2="100%">
+   <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+   <stop offset="25%"  stop-color="#ffffff" stop-opacity="1"/>
+   <stop offset="75%"  stop-color="#ffffff" stop-opacity="1"/>
+   <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="grad_fade" x1="0%" y1="0%" x2="100%" y2="0%">
+   <stop offset="0%" stop-color="#999999" stop-opacity="0"/>
+   <stop offset="100%" stop-color="#999999" stop-opacity="1"/>
+  </linearGradient>
+  <rect id="order0" x="0" y="-12" width="1" height="24" fill="url(#grad_white)"/>
+  <path id="order1" transform="translate(200,0)" d="M 312 100 L 0 -10 V 10 L 312 200"/>
+  <path id="grating" d="M 200 -49 V 49" stroke-width="10"/>
+  <g id="orders">
+   <use xlink:href="#order1" fill="url(#grad_grating1)"/>
+   <use xlink:href="#order1" transform="scale(1,-1)" fill="url(#grad_grating1)"/>
+   <use xlink:href="#order1" fill="url(#grad_grating2)"/>
+   <use xlink:href="#order1" transform="scale(1,-1)" fill="url(#grad_grating2)"/>
+  </g>
+ </defs>
+ <g font-family="Helvetica,Arial,sans-serif" font-size="60" text-anchor="end">
+  <circle cx="0" cy="0" r="99999" fill="#cccccc"/>
+  <g transform="translate(0,200)">
+   <use xlink:href="#orders" transform="translate(66,0) scale(0.7,1.8)" fill-opacity="0.1"/>
+   <use xlink:href="#orders"/>
+   <use xlink:href="#order0" transform="scale(512,1)"/>
+   <use xlink:href="#grating" stroke="#99ccff"/>
+   <use xlink:href="#grating" stroke="#000000" stroke-dasharray="2,2"/>
+  </g>
+  <g transform="translate(0,312)">
+   <use xlink:href="#order1" fill="url(#grad_prism1)"/>
+   <use xlink:href="#order1" fill="url(#grad_prism2)"/>
+   <use xlink:href="#order0" transform="scale(200,1)"/>
+   <path d="M 200 -50 L 150 50 H 250 Z" stroke="#000000" fill="#99ccff"/>
+   <path d="M 180 -10 L 170 10 L 243 37 L 223.5 -2" fill="url(#grad_prism)" fill-opacity="0.5"/>
+  </g>
+  <rect x="256" y="0" width="256" height="512" fill="url(#grad_fade)"/>
+  <text x="380" y="299">1</text>
+  <text x="380" y="408">2</text>
+  <text x="256" y="444" font-size="22" text-anchor="middle"
+   ><tspan font-weight="bold" fill="#cc0000">R</tspan><tspan>ed&#160;</tspan
+   ><tspan font-weight="bold" fill="#cc0000">R</tspan><tspan>efraction&#160;</tspan
+   ><tspan font-weight="bold" fill="#cc0000">R</tspan><tspan>educed</tspan></text>
+  <text x="256" y="459" font-size="20" text-anchor="middle"><tspan font-size="15">(</tspan
+   ><tspan font-weight="bold" fill="#0000ff" dy="3">D</tspan><tspan>iffraction&#160;</tspan
+   ><tspan font-weight="bold" fill="#0000ff"       >D</tspan><tspan>ifferent</tspan
+   ><tspan font-size="15" dy="-3">)</tspan></text>
+ </g>
+</svg>

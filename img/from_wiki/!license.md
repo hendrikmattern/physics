@@ -825,3 +825,106 @@
 <img src="../img/from_wiki/Wavelength_slitwidth.gif" alt="Wavelength%3Dslitwidth.gif" width="300"/>
 
 *<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Wavelength%3Dslitwidth.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Single_Slit_Diffraction.svg" alt="Single_Slit_Diffraction.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Single_Slit_Diffraction.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Sin_drawing_process.gif" alt="Sin_drawing_process.gif" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Sin_drawing_process.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/3SlitInterferenceExpl.svg" alt="3SlitInterferenceExpl.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:3SlitInterferenceExpl.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.de)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/10SlitInterference.gif" alt="10SlitInterference.gif" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:10SlitInterference.gif), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Doubleslit3Dspectrum.gif" alt="Doubleslit3Dspectrum.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Doubleslit3Dspectrum.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Circularsegment.svg" alt="Circularsegment.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Circularsegment.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Si_cos.svg" alt="Si_cos.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Si_cos.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Lichtintensitaet_hinter_Doppelspalt.png" alt="Lichtintensit%C3%A4t_hinter_Doppelspalt.png" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Lichtintensit%C3%A4t_hinter_Doppelspalt.png), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Double_slit_simulated_2.jpg" alt="Double_slit_simulated_2.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Double_slit_simulated_2.jpg), gemeinfrei</sub>*
+
+---
+
+<img src="../img/from_wiki/2SlitInterference.gif" alt="2SlitInterference.gif" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:2SlitInterference.gif), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Single_slit_and_double_slit4.jpg" alt="Single_slit_and_double_slit4.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Single_slit_and_double_slit4.jpg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Beugungsscheibchen.k.720.jpg" alt="Beugungsscheibchen.k.720.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Beugungsscheibchen.k.720.jpg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Airy_disk_spacing_near_Rayleigh_criterion.png" alt="Airy_disk_spacing_near_Rayleigh_criterion.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Airy_disk_spacing_near_Rayleigh_criterion.png), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Diffraction_gration_experiment_schematic.svg" alt="Diffraction_gration_experiment_%28schematic%29.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Diffraction_gration_experiment_(schematic).svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Comparison_refraction_diffraction_spectra.svg" alt="Comparison_refraction_diffraction_spectra.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Comparison_refraction_diffraction_spectra.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/InterferenceGrating_flat.gif" alt="InterferenceGrating_flat.gif" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:InterferenceGrating_flat.gif), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Spectral_lines_en.PNG" alt="Spectral_lines_en.PNG" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Spectral_lines_en.PNG), gemeinfrei</sub>*

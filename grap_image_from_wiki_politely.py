@@ -167,7 +167,7 @@ def download_wikipedia_image_no_convert(wiki_file_url, save_dir, markdown_file):
 ### MAIN EXECUTION
 
 html_list = [        
-    "https://de.wikibooks.org/wiki/Datei:Wavelength%3Dslitwidth.gif",
+    "https://de.wikibooks.org/wiki/Datei:Spectral_lines_en.PNG",
     
 ]
 for html in html_list: 
