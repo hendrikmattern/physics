@@ -1,8 +1,8 @@
 import os
 
 
-def convert_notebook_to_slides(input_path, output_path):
-    for notebook in filtered_notebooks2:
+def convert_notebook_to_slides(input_path, output_path, curr_filtered_notebooks):
+    for notebook in curr_filtered_notebooks:
         # convert notebook to HTML slides
         input_file = os.path.join(input_path, notebook)
         output_file = os.path.join(output_path, notebook.replace(".ipynb", ".slides.html"))
@@ -30,7 +30,7 @@ filtered_notebooks1 = [nb for nb in notebooks1 if "script" in nb.lower() or "1_c
 filtered_notebooks2 = [nb for nb in notebooks2 if "script" in nb.lower() or "2_cheat_sheet" in nb.lower()]
 
 # Convert filtered notebooks to HTML slides
-convert_notebook_to_slides(physics1_folder, html_script_folder)
-#convert_notebook_to_slides(physics2_folder, html_script_folder)
+convert_notebook_to_slides(physics1_folder, html_script_folder, filtered_notebooks1)
+#convert_notebook_to_slides(physics2_folder, html_script_folder, filtered_notebooks2)
 
 
