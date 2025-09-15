@@ -30,7 +30,7 @@ filtered_notebooks1 = [nb for nb in notebooks1 if "script" in nb.lower() or "1_c
 filtered_notebooks2 = [nb for nb in notebooks2 if "script" in nb.lower() or "2_cheat_sheet" in nb.lower()]
 
 # Convert filtered notebooks to HTML slides
-#convert_notebook_to_slides(physics1_folder, html_script_folder)
-convert_notebook_to_slides(physics2_folder, html_script_folder)
+convert_notebook_to_slides(physics1_folder, html_script_folder)
+#convert_notebook_to_slides(physics2_folder, html_script_folder)
 
 

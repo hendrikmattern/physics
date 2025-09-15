@@ -1,13 +1,101 @@
 import os
+import time
+import json
+from urllib.parse import quote, unquote
 import requests
 from bs4 import BeautifulSoup
 
+HEADERS = {
+    "User-Agent": "FriendlyBot/1.0 (+https://example.org/contact) Python requests",
+    "Accept-Language": "en;q=0.9,de;q=0.8",
+}
+
+def _get_with_retries(url, params=None, max_tries=3, timeout=20):
+    for i in range(max_tries):
+        try:
+            r = requests.get(url, headers=HEADERS, params=params, timeout=timeout, allow_redirects=True)
+        except requests.RequestException:
+            r = None
+        if r is not None and r.ok:
+            return r
+        time.sleep(2 * (i + 1))
+    raise Exception(f"Failed to fetch after retries: {url}")
+
+def _title_from_file_url(wiki_file_url: str) -> str:
+    # Works for enwiki or commonswiki File:... pages
+    if "/wiki/File:" not in wiki_file_url:
+        raise ValueError("Not a File: page")
+    title = wiki_file_url.split("/wiki/")[-1]   # "File:....svg"
+    title = unquote(title).replace(" ", "_")
+    return title
+
+def fetch_commons_extmetadata(wiki_file_url: str):
+    """
+    Query Commons API for license + original URL. Returns dict:
+    {
+      "title": "File:...",
+      "original_url": "...",
+      "license_name": "...",
+      "license_url": "...",
+      "artist": "...",
+      "credit": "..."
+    }
+    """
+    title = _title_from_file_url(wiki_file_url)
+
+    api = "https://commons.wikimedia.org/w/api.php"
+    params = {
+        "action": "query",
+        "format": "json",
+        "prop": "imageinfo",
+        "titles": title,
+        "iiprop": "url|extmetadata",
+        "iiurlwidth": "0",
+    }
+    r = _get_with_retries(api, params=params, timeout=30)
+    data = r.json()
+
+    pages = data.get("query", {}).get("pages", {})
+    if not pages:
+        raise Exception("Commons API returned no pages")
+
+    page = next(iter(pages.values()))
+    if "imageinfo" not in page:
+        raise Exception("Commons API: no imageinfo (file might not be on Commons)")
+
+    ii = page["imageinfo"][0]
+    meta = ii.get("extmetadata", {})
+
+    license_name = meta.get("LicenseShortName", {}).get("value")
+    license_url  = meta.get("LicenseUrl", {}).get("value")
+    artist       = meta.get("Artist", {}).get("value")
+    credit       = meta.get("Credit", {}).get("value")
+    original_url = ii.get("url")
+
+    return {
+        "title": title,
+        "original_url": original_url,
+        "license_name": license_name,
+        "license_url": license_url,
+        "artist": artist,
+        "credit": credit,
+    }
+
+def license_md_from_extmetadata(meta: dict) -> str:
+    name = meta.get("license_name")
+    url  = meta.get("license_url")
+    if name and url:
+        return f"[{name}]({url})"
+    if name:
+        return name
+    if url:
+        return f"[License]({url})"
+    return "License: unknown"
+
 def extract_and_format_license_md(soup):
     """
-    Extracts license info from a Wikimedia Commons or Wikipedia file page soup.
-    Returns a markdown-formatted attribution string, using strict matching priority.
+    Your original fallback license scraper.
     """
-
     def match_license(links, keywords):
         for a in links:
             href = a["href"].lower()
@@ -16,13 +104,10 @@ def extract_and_format_license_md(soup):
                     return a.get_text(strip=True), a["href"]
         return None, None
 
-    # === Step 1: Structured license blocks ===
     license_blocks = soup.find_all("div", class_="licensetpl")
-
     for block in license_blocks:
         text = block.get_text(" ", strip=True).lower()
         links = block.find_all("a", href=True)
-
         if "cc by-sa 4.0" in text:
             _, url = match_license(links, ["by-sa/4.0"])
             if url: return f"[Attribution-Share Alike 4.0 International]({url})"
@@ -49,13 +134,11 @@ def extract_and_format_license_md(soup):
             _, url = match_license(links, ["publicdomain/zero/1.0"])
             return f"[CC0 1.0 Universal]({url})" if url else "CC0 1.0 Universal"
 
-    # === Step 2: Table fallback for Wikipedia ===
     fileinfo_table = soup.find("table", class_="fileinfotpl")
     if fileinfo_table:
         for td in fileinfo_table.find_all("td"):
             text = td.get_text(" ", strip=True).lower()
             links = td.find_all("a", href=True)
-
             if "cc by-sa 3.0" in text:
                 _, url = match_license(links, ["by-sa/3.0"])
                 if url: return f"[Attribution-Share Alike 3.0 Unported]({url})"
@@ -71,12 +154,10 @@ def extract_and_format_license_md(soup):
                 _, url = match_license(links, ["publicdomain/zero/1.0"])
                 return f"[CC0 1.0 Universal]({url})" if url else "CC0 1.0 Universal"
 
-    # === Step 3: Search for plain-text public domain declarations ===
     body_text = soup.get_text(" ", strip=True).lower()
     if "i, the copyright holder of this work, release this work into the public domain" in body_text:
         return "public domain"
 
-    # === Step 4: Fallback global link scan ===
     all_links = soup.find_all("a", href=True)
     for a in all_links:
         href = a["href"].lower()
@@ -101,47 +182,78 @@ def extract_and_format_license_md(soup):
 
     raise Exception("❌ License info not found or unsupported format.")
 
-
 def download_wikipedia_image_no_convert(wiki_file_url, save_dir, markdown_file):
     print(f"Processing: {wiki_file_url}")
 
-    # Fetch Wikipedia file page
-    response = requests.get(wiki_file_url)
-    if not response.ok:
+    # Fetch HTML page (needed for fallback + context)
+    page_resp = requests.get(
+        wiki_file_url,
+        headers=HEADERS,
+        timeout=20,
+        allow_redirects=True,
+    )
+    if not page_resp.ok:
+        print("status:", page_resp.status_code, page_resp.reason)
+        print("final_url:", page_resp.url)
+        print("first 300 chars:", page_resp.text[:300])
         raise Exception(f"Failed to fetch page: {wiki_file_url}")
-    soup = BeautifulSoup(response.text, "html.parser")
+    soup = BeautifulSoup(page_resp.text, "html.parser")
 
-    # Find image URL with proper prefix handling
-    file_div = soup.find("div", class_="fullImageLink")
-    if not file_div:
-        raise Exception("Image link not found on the page.")
-    file_link = file_div.find("a")["href"]
-    if file_link.startswith("//"):
-        image_url = "https:" + file_link
-    elif file_link.startswith("http"):
-        image_url = file_link
-    else:
-        image_url = "https://en.wikipedia.org" + file_link
+    # --- 1) Try Commons API ---
+    image_url = None
+    license_md = None
+    try:
+        meta = fetch_commons_extmetadata(wiki_file_url)
+        image_url = meta.get("original_url")
+        license_md = license_md_from_extmetadata(meta)
+    except Exception as e:
+        pass
 
-    image_name = os.path.basename(image_url)
+    # --- 2) Fallback DOM parsing ---
+    if not image_url:
+        full_media = soup.find("div", class_="fullMedia")
+        if full_media:
+            a = full_media.find("a", class_="internal", href=True)
+            if a:
+                href = a["href"]
+                image_url = ("https:" + href) if href.startswith("//") else href
+        if not image_url:
+            file_div = soup.find("div", class_="fullImageLink")
+            if file_div:
+                a = file_div.find("a", href=True)
+                if a:
+                    href = a["href"]
+                    if href.startswith("//"):
+                        image_url = "https:" + href
+                    elif href.startswith("http"):
+                        image_url = href
+                    else:
+                        image_url = "https://en.wikipedia.org" + href
+        if not image_url and "/wiki/File:" in wiki_file_url:
+            title = wiki_file_url.split("/wiki/")[-1].replace("File:", "")
+            image_url = f"https://commons.wikimedia.org/wiki/Special:FilePath/{quote(title)}"
 
-    # Download image with User-Agent header
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Python requests"
-    }
-    image_response = requests.get(image_url, headers=headers)
-    if not image_response.ok:
-        raise Exception(f"Failed to download image: {image_url} Status code: {image_response.status_code}")
+    if not image_url:
+        raise Exception("Image link not found via API or page DOM.")
 
-    # Ensure save directory exists
+    image_name = os.path.basename(image_url.split("?")[0])
+
+    # Download image
+    img_resp = _get_with_retries(image_url, timeout=60)
+    if not img_resp.ok:
+        raise Exception(f"Failed to download image: {image_url} Status code: {img_resp.status_code}")
+
     os.makedirs(save_dir, exist_ok=True)
     image_path = os.path.join(save_dir, image_name)
-
     with open(image_path, "wb") as f:
-        f.write(image_response.content)
+        f.write(img_resp.content)
 
-    # Get formatted license markdown text using helper
-    license_md = extract_and_format_license_md(soup)
+    # License fallback
+    if not license_md:
+        try:
+            license_md = extract_and_format_license_md(soup)
+        except Exception:
+            license_md = "License: unknown"
 
     # Compose markdown
     md_entry = f"""
@@ -151,7 +263,6 @@ def download_wikipedia_image_no_convert(wiki_file_url, save_dir, markdown_file):
 
 *<sub>from [wikipedia]({wiki_file_url}), {license_md}</sub>*
 """
-    # Ensure markdown directory exists
     md_dir = os.path.dirname(markdown_file)
     if md_dir and not os.path.exists(md_dir):
         os.makedirs(md_dir, exist_ok=True)
@@ -163,16 +274,14 @@ def download_wikipedia_image_no_convert(wiki_file_url, save_dir, markdown_file):
     print(f"Appended license info to: {markdown_file}")
     print(md_entry)
 
-
 ### MAIN EXECUTION
-
-html_list = [        
-    "https://de.wikibooks.org/wiki/Datei:Spectral_lines_en.PNG",
-    
-]
-for html in html_list: 
-    print(f"Processing: {html}")
-    download_wikipedia_image_no_convert(
-        wiki_file_url=html,
-        save_dir="img/from_wiki/",
-        markdown_file="img/from_wiki/!license.md")
+if __name__ == "__main__":
+    html_list = [
+        "https://en.wikipedia.org/wiki/File:Air_Canada_Flight_143_after_emergency_landing_2.jpg",
+    ]
+    for html in html_list:
+        download_wikipedia_image_no_convert(
+            wiki_file_url=html,
+            save_dir="img/from_wiki/",
+            markdown_file="img/from_wiki/!license.md"
+        )
