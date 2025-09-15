@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="400"
+   height="300"
+   id="svg2">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient2280">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1"
+         offset="0"
+         id="stop2282" />
+      <stop
+         style="stop-color:#ffc2cf;stop-opacity:1"
+         offset="1"
+         id="stop2284" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2240">
+      <stop
+         style="stop-color:#00007f;stop-opacity:1"
+         offset="0"
+         id="stop2242" />
+      <stop
+         style="stop-color:#6265dd;stop-opacity:1"
+         offset="1"
+         id="stop2244" />
+    </linearGradient>
+    <linearGradient
+       x1="20.030251"
+       y1="108"
+       x2="371.98001"
+       y2="108"
+       id="linearGradient2246"
+       xlink:href="#linearGradient2240"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="21.559307"
+       y1="173.0137"
+       x2="187.93378"
+       y2="173.0137"
+       id="linearGradient2254"
+       xlink:href="#linearGradient2240"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="208.03479"
+       y1="173.0137"
+       x2="371.96518"
+       y2="173.0137"
+       id="linearGradient2262"
+       xlink:href="#linearGradient2240"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-3.479004e-2,-7.629395e-6)" />
+    <linearGradient
+       x1="20.415993"
+       y1="240.9863"
+       x2="371.71085"
+       y2="240.9863"
+       id="linearGradient2270"
+       xlink:href="#linearGradient2240"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="84"
+       y1="139.45454"
+       x2="118"
+       y2="139.45454"
+       id="linearGradient2286"
+       xlink:href="#linearGradient2280"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="84"
+       y1="207.45454"
+       x2="118"
+       y2="207.45454"
+       id="linearGradient2294"
+       xlink:href="#linearGradient2280"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="272"
+       y1="143.45454"
+       x2="306"
+       y2="143.45454"
+       id="linearGradient2302"
+       xlink:href="#linearGradient2280"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="272"
+       y1="207.45454"
+       x2="306"
+       y2="207.45454"
+       id="linearGradient2310"
+       xlink:href="#linearGradient2280"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       width="176"
+       height="272"
+       x="204"
+       y="8"
+       style="opacity:1;fill:#93ffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2224" />
+    <rect
+       width="176"
+       height="272"
+       x="16"
+       y="8"
+       style="opacity:1;fill:#ffff86;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2220" />
+    <text
+       x="293.9223"
+       y="34"
+       style="font-size:16.78860092px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text1307"
+       xml:space="preserve"><tspan
+         x="293.9223"
+         y="34"
+         id="tspan1309">Deductive</tspan><tspan
+         x="293.9223"
+         y="54.985752"
+         id="tspan1311">Reasoning</tspan></text>
+    <text
+       x="99.676392"
+       y="34.755402"
+       style="font-size:16.78860092px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text1313"
+       xml:space="preserve"><tspan
+         x="99.676392"
+         y="34.755402"
+         id="tspan1315">Inductive</tspan><tspan
+         x="99.676392"
+         y="55.741154"
+         id="tspan1317">Reasoning</tspan></text>
+    <path
+       d="M 281.27273,222.90909 L 296.72727,222.90909 L 296.72727,207.45454 L 306,207.45454 L 289,192 L 272,207.45454 L 281.27273,207.45454 L 281.27273,222.90909 z "
+       style="fill:url(#linearGradient2310);fill-opacity:1;fill-rule:evenodd;stroke:#7c0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2232" />
+    <path
+       d="M 93.27273,192 L 108.72727,192 L 108.72727,207.45455 L 118,207.45455 L 101,222.90909 L 84,207.45455 L 93.27273,207.45455 L 93.27273,192 z "
+       style="fill:url(#linearGradient2294);fill-opacity:1;fill-rule:evenodd;stroke:#7c0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2234" />
+    <rect
+       width="350.29486"
+       height="37.972603"
+       x="20.915993"
+       y="222"
+       style="opacity:1;fill:url(#linearGradient2270);fill-opacity:1;fill-rule:evenodd;stroke:#160000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1341" />
+    <text
+       x="184.22214"
+       y="247.50793"
+       style="font-size:16.78860092px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text1319"
+       xml:space="preserve"><tspan
+         x="184.22214"
+         y="247.50793"
+         id="tspan1321">PARADIGM / THEORY</tspan></text>
+    <path
+       d="M 281.27273,158.90909 L 296.72727,158.90909 L 296.72727,143.45454 L 306,143.45454 L 289,128 L 272,143.45454 L 281.27273,143.45454 L 281.27273,158.90909 z "
+       style="fill:url(#linearGradient2302);fill-opacity:1;fill-rule:evenodd;stroke:#7c0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2230" />
+    <path
+       d="M 93.27273,124 L 108.72727,124 L 108.72727,139.45455 L 118,139.45455 L 101,154.90909 L 84,139.45455 L 93.27273,139.45455 L 93.27273,124 z "
+       style="fill:url(#linearGradient2286);fill-opacity:1;fill-rule:evenodd;stroke:#7c0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2236" />
+    <rect
+       width="350.94977"
+       height="40"
+       x="20.530251"
+       y="88"
+       style="opacity:1;fill:url(#linearGradient2246);fill-opacity:1;fill-rule:evenodd;stroke:#160000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1335" />
+    <text
+       x="189.98009"
+       y="113.50794"
+       style="font-size:16.78860092px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text1323"
+       xml:space="preserve"><tspan
+         x="189.98009"
+         y="113.50794"
+         id="tspan1325">OBSERVATION / EXPERIMENT</tspan></text>
+    <rect
+       width="162.9304"
+       height="37.972603"
+       x="208.5"
+       y="154.0274"
+       style="opacity:1;fill:url(#linearGradient2262);fill-opacity:1;fill-rule:evenodd;stroke:#160000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1343" />
+    <text
+       x="291.97192"
+       y="179.74588"
+       style="font-size:16.78860092px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text1327"
+       xml:space="preserve"><tspan
+         x="291.97192"
+         y="179.74588"
+         id="tspan1329">Predictions</tspan></text>
+    <rect
+       width="165.37447"
+       height="37.972603"
+       x="22.059307"
+       y="154.0274"
+       style="opacity:1;fill:url(#linearGradient2254);fill-opacity:1;fill-rule:evenodd;stroke:#160000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1337" />
+    <text
+       x="105.93607"
+       y="179.74588"
+       style="font-size:16.78860092px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text1331"
+       xml:space="preserve"><tspan
+         x="105.93608"
+         y="179.74588"
+         id="tspan1333">Generalizations</tspan></text>
+  </g>
+</svg>

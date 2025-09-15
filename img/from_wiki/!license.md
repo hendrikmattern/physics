@@ -928,3 +928,52 @@
 <img src="../img/from_wiki/Spectral_lines_en.PNG" alt="Spectral_lines_en.PNG" width="300"/>
 
 *<sub>from [wikipedia](https://de.wikibooks.org/wiki/Datei:Spectral_lines_en.PNG), gemeinfrei</sub>*
+
+---
+
+<img src="../img/from_wiki/SI_Illustration_Base_Units_and_Constants_Colour_Full.svg" alt="SI_Illustration_Base_Units_and_Constants_Colour_Full.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:SI_Illustration_Base_Units_and_Constants_Colour_Full.svg), License: unknown</sub>*
+
+---
+
+<img src="../img/from_wiki/Archimede_bain.jpg" alt="Archimede_bain.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Archimede_bain.jpg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Eureka_Archimede.jpg" alt="Eureka%21_Archimede.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Eureka!_Archimede.jpg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Inductive_Deductive_Reasoning.svg" alt="Inductive_Deductive_Reasoning.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Inductive_Deductive_Reasoning.svg), License: unknown</sub>*
+
+---
+
+<img src="../img/from_wiki/The_Scientific_Method.svg" alt="The_Scientific_Method.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:The_Scientific_Method.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Magdeburger-Halbkugeln.jpg" alt="Magdeburger-Halbkugeln.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Magdeburger-Halbkugeln.jpg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Black_body.svg" alt="Black_body.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Black_body.svg), public domain</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Air_Canada_Flight_143_after_emergency_landing_2.jpg" alt="Air_Canada_Flight_143_after_emergency_landing_2.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Air_Canada_Flight_143_after_emergency_landing_2.jpg), License: public domain</sub>*
