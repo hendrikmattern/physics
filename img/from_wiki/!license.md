@@ -977,3 +977,15 @@
 <img src="../img/from_wiki/Air_Canada_Flight_143_after_emergency_landing_2.jpg" alt="Air_Canada_Flight_143_after_emergency_landing_2.jpg" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Air_Canada_Flight_143_after_emergency_landing_2.jpg), License: public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Wikipage_pic.PNG" alt="Wikipage_pic.PNG" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Wikipage_pic.PNG), License: unknown</sub>*
+
+---
+
+<img src="../img/from_wiki/Distancedisplacement.svg" alt="Distancedisplacement.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Distancedisplacement.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
