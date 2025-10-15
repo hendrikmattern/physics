@@ -11,8 +11,15 @@ def html2pdf(input_html, output_pdf):
     options.add_argument("--headless=new")
     options.add_argument("--disable-gpu")
     options.add_argument("--disable-software-rasterizer")
+    # Reduce noisy Chrome/Chromedriver logs and background services
+    options.add_experimental_option('excludeSwitches', ['enable-logging'])
+    options.add_argument('--log-level=3')
+    options.add_argument('--disable-notifications')
+    options.add_argument('--disable-background-networking')
     
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    # Route Chromedriver logs away from console
+    service = Service(ChromeDriverManager().install(), log_path=os.devnull)
+    driver = webdriver.Chrome(service=service, options=options)
     driver.get(f"file:///{os.path.abspath(input_html)}")
     
     # Wait for MathJax to finish processing
