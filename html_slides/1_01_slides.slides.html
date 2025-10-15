@@ -5,7 +5,7 @@
 <meta content="chrome=1" http-equiv="X-UA-Compatible"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
-<title>1_00_introduction slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
+<title>1_01_slides slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
   import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
@@ -7441,14 +7441,39 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="Physics-I---Introduction">Physics I - Introduction<a class="anchor-link" href="#Physics-I---Introduction">¶</a></h1><p>We will study various aspects of mechanics this semester:</p>
+<h1 id="1.1.-Kinematics-in-one-dimension">1.1. Kinematics in one dimension<a class="anchor-link" href="#1.1.-Kinematics-in-one-dimension">¶</a></h1><p><strong>What are kinematics?</strong></p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>Kinematics &amp; Dynamics</li>
-<li>Work, Energy &amp; Conservation Laws</li>
-<li>Fluids: Hydrostatics &amp; Hydrodynamics</li>
-<li>Oscillations, Waves &amp; Acoustics</li>
+<li><strong>kinematics</strong> describes <em>how</em> objects move — not <em>why</em> they move</li>
+<li>focuses on the <strong>geometry of motion</strong> in space and time</li>
+<li>in <strong>one dimension</strong>, motion occurs along a single straight line (e.g. horizontal or vertical)</li>
 </ul>
-<p><small>see <a href="..%5CSyllabus.ipynb">Syllabus</a></small></p>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Frame-of-reference">Frame of reference<a class="anchor-link" href="#Frame-of-reference">¶</a></h2><ul>
+<li><strong>reference frame</strong> defines the stage on which motion is observed</li>
+<li>usually includes an <strong>origin</strong>, <strong>axes</strong>, a <strong>clock</strong>, and an <strong>observer</strong></li>
+<li>motion is always <strong>relative</strong>, e.g. a passenger can be at rest in the train but moving relative to the ground</li>
+<li>in everyday (Galilean) mechanics, switching frames means simply <strong>adding or subtracting velocities</strong></li>
+<li>$\rightarrow$ <strong>laws of physics stay the same</strong>; only the numerical values and signs may differ.</li>
+</ul>
+<p><img alt="Wikipage_pic.PNG" src="../img/from_wiki/Wikipage_pic.PNG" width="300"/></p>
+<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Wikipage_pic.PNG">wikipedia</a>, License: public domain by TheGreenOne</sub></em></p>
 </div>
 </div>
 </div>
@@ -7458,16 +7483,16 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Jun.-Prof.-Dr.-Ing.-Hendrik-Mattern">Jun.-Prof. Dr.-Ing. Hendrik Mattern<a class="anchor-link" href="#Jun.-Prof.-Dr.-Ing.-Hendrik-Mattern">¶</a></h2><ul>
-<li>background in engineering<ul>
-<li>Bachelor in Electrical Engineering and Information Technology</li>
-<li>Master in Medical Systems Engineering</li>
+<h2 id="Velocity-as-a-vector-(in-1D)">Velocity as a vector (in 1D)<a class="anchor-link" href="#Velocity-as-a-vector-(in-1D)">¶</a></h2><ul>
+<li><strong>velocity</strong> is a <strong>vector</strong> $\rightarrow$ has magnitude and direction</li>
+<li>in 1D, direction is given by the <strong>sign</strong>:<ul>
+<li>positive $\rightarrow$ motion along $+\hat\imath$ (or $+\hat\jmath$)</li>
+<li>negative $\rightarrow$ motion in the opposite direction</li>
 </ul>
 </li>
-<li>PhD and research on high field magnetic resonance imaging</li>
-<li>mail: hendrik.mattern@ovgu.de</li>
-<li>office: H92/005 (on medical campus)</li>
-<li>homepage: <a href="https://hendrikmattern.github.io/">https://hendrikmattern.github.io/</a></li>
+<li>using $\vec v = v\,\hat\imath$ or $\vec v = v\,\hat\jmath$ keeps direction explicit.</li>
+<li>changing the <strong>coordinate convention</strong> (origin or positive direction) affects all signs equally,<br/>
+but <strong>does not change the underlying physics</strong></li>
 </ul>
 </div>
 </div>
@@ -7478,174 +7503,15 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Course-Structure:">Course Structure:<a class="anchor-link" href="#Course-Structure:">¶</a></h2><ul>
-<li><strong>weekly lecture:</strong><ul>
-<li>presentation of the theoretical foundations of physics</li>
-<li>demonstration of experiments</li>
-</ul>
-</li>
-<li><strong>bi-weekly lecture tutorial:</strong><ul>
-<li>led by the instructor/teaching staff</li>
-<li>focus on conceptual exercises</li>
-<li>additional demonstrations/experiments</li>
-</ul>
-</li>
-<li><strong>bi-weekly class tutorial:</strong><ul>
-<li>active student participation (<em>voting system</em>)</li>
-<li>students present solutions to assigned physics problems</li>
-<li>tutor provides guidance and problem-solving support</li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Class-tutorial-voting-system">Class tutorial voting system<a class="anchor-link" href="#Class-tutorial-voting-system">¶</a></h2><ul>
-<li>class exercise tasks will be posted on eLearning platform approx. one week before the exercise takes place</li>
-<li>tasks should be solved before the exercise takes place</li>
-<li>prior to the exercise, you indicate, which tasks you solved (in eLearning)</li>
-<li>through selection/"voting", you agree that you are able to explain and present the task and your proposed solution</li>
-<li>the solution does not have to be completely correct, however, it must be clear that you conscientiously dealt with the task and seriously attempted to solve it (otherwise all your selections/"votes"  for that exercise will be revoked)</li>
-<li>exercise instructor will pick the presenting student randomly from all students who selected the particular task</li>
-</ul>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Exam:">Exam:<a class="anchor-link" href="#Exam:">¶</a></h2><ul>
-<li>written exam (90 min) on the contents of Physics I</li>
-<li>requirement for eligibility:<ul>
-<li>vote for at least <strong>40%</strong> of all class tutorial task</li>
-</ul>
-</li>
-<li>allowed are: pen, ruler, pocket calculators (not graphical, not programmable), blank pieces of paper.</li>
-<li>no cheat sheet allowed!</li>
-<li>points are distributed following this scheme: 25% for level 1 task, 25% for level 2 task, 25% for level 3 tasks, 25% for multiple choice theory questions</li>
-</ul>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Course--resources:">Course  resources:<a class="anchor-link" href="#Course--resources:">¶</a></h2><ul>
-<li>script and slides openly available as Jupyter notebooks<ul>
-<li><a href="https://github.com/hendrikmattern/physics">https://github.com/hendrikmattern/physics</a></li>
-<li><a href="https://colab.research.google.com/github/hendrikmattern/physics">https://colab.research.google.com/github/hendrikmattern/physics</a></li>
-<li><strong>FYI:</strong> lecture/slides complement script and vice versa</li>
-</ul>
-</li>
-<li>book:<ul>
-<li><code>GIANCOLI, Douglas C. Physics for scientists and engineers with modern physics. Pearson Education, 2023.</code></li>
-</ul>
-</li>
-<li><a href="https://elearning.ovgu.de/">eLearning course</a> (enrollment required)</li>
-<li><a href="https://lsf.ovgu.de/">LSF</a> (enrollment required)</li>
-<li><a href="..%5CHowToSolvePhysicsProblems.ipynb">How to solve physics problems</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="What-is-science?">What is science?<a class="anchor-link" href="#What-is-science?">¶</a></h2><p>Definition by <a href="https://dictionary.cambridge.org/dictionary/english/science">Cambridge Dictionary</a>: <strong>Science</strong>, <em>noun</em> /ˈsaɪ.əns/</p>
-<p>(knowledge from) the careful study of the structure and behaviour of the physical world, especially by watching, measuring, and doing experiments, and the development of theories to describe the results of these activities</p>
-<p><img alt="Archimede_bain.jpg" src="../img/from_wiki/Archimede_bain.jpg" width="225">
-<img alt="Eureka!_Archimede.jpg" src="../img/from_wiki/Eureka_Archimede.jpg" width="325"/></img></p>
-<p><em><sub>[left] from <a href="https://en.wikipedia.org/wiki/File:Archimede_bain.jpg">wikipedia</a>, public domain;
-[right] from <a href="https://en.wikipedia.org/wiki/File:Eureka!_Archimede.jpg">wikipedia</a>, public domain</sub></em></p>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="How-science-works">How science works<a class="anchor-link" href="#How-science-works">¶</a></h2><ul>
-<li>Science seeks order in observations and proposes testable explanations</li>
-<li>Absolute proof is impossible — confidence grows with experimental agreement</li>
-<li>Hallmark of science: interplay of imagination and disciplined testing</li>
-</ul>
-<p><img alt="Inductive_Deductive_Reasoning.svg" src="../img/from_wiki/Inductive_Deductive_Reasoning.svg" width="325"/>
-<img alt="The_Scientific_Method.svg" src="../img/from_wiki/The_Scientific_Method.svg" width="275"/></p>
-<p><em><sub>[left] from <a href="https://en.wikipedia.org/wiki/File:Inductive_Deductive_Reasoning.svg">wikipedia</a> by  Brian Brondel, License:  <a href="https://creativecommons.org/licenses/by-sa/2.5/deed.en">CC BY-SA 2.5</a>
-[right] from <a href="https://en.wikipedia.org/wiki/File:The_Scientific_Method.svg">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/4.0/deed.en">Attribution-Share Alike 4.0 International</a></sub></em></p>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Experiments:-Breaking-beliefs,-building-Knowledge">Experiments: Breaking beliefs, building Knowledge<a class="anchor-link" href="#Experiments:-Breaking-beliefs,-building-Knowledge">¶</a></h2><ul>
-<li>Careful experiments test and refine ideas, making science more than speculation</li>
-<li>Reproducibility ensures that results hold beyond a single observer or setup</li>
-<li>Surprising experiments often overturn long-held beliefs</li>
-<li>From ancient thought to modern labs, progress rests on experimental evidence</li>
-</ul>
-<p><img alt="Magdeburger-Halbkugeln.jpg" src="../img/from_wiki/Magdeburger-Halbkugeln.jpg" width="400"/></p>
-<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Magdeburger-Halbkugeln.jpg">wikipedia</a>, public domain</sub></em></p>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Models,-theories,-and-laws">Models, theories, and laws<a class="anchor-link" href="#Models,-theories,-and-laws">¶</a></h2><ul>
-<li>Model: simplified picture (e.g. sound as a wave)</li>
-<li>Theory: broader, connects many phenomena, yields quantitative predictions</li>
-<li>Law: concise general relationship, often an equation</li>
-<li>Descriptive, not prescriptive — they report what nature does</li>
-<li>Each has a range of validity; crucial to recognize limits</li>
-</ul>
-<p><img alt="Black_body.svg" src="../img/from_wiki/Black_body.svg" width="400"/></p>
-<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Black_body.svg">wikipedia</a>, public domain</sub></em></p>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Units,-standards,-&amp;-motivation-for-the-SI-system">Units, standards, &amp; motivation for the SI system<a class="anchor-link" href="#Units,-standards,-&amp;-motivation-for-the-SI-system">¶</a></h2><ul>
-<li>A physical quantity = number + unit</li>
-<li>Standards must be stable, reproducible, widely available</li>
-<li>SI system (Système international d’unités):<ul>
-<li>Prevents confusion and reduces mistakes</li>
-<li>Ensures comparability across labs and countries</li>
-<li>Based on universal constants (stable, reproducible, transferable)</li>
+<h2 id="Average-velocity">Average velocity<a class="anchor-link" href="#Average-velocity">¶</a></h2><p><code>sim avg. vs inst. Velocity</code></p>
+<ul>
+<li>describes motion over a <strong>finite time interval</strong>:
+$$\bar{v} = \frac{\Delta x}{\Delta t}$$<ul>
+<li>based on <strong>displacement</strong> from initial position, not total distance traveled</li>
+<li>on an $x(t)$ graph, it is the <strong>slope of the secant line</strong> between two points</li>
 </ul>
 </li>
 </ul>
-<p><img alt="Air_Canada_Flight_143_after_emergency_landing_2.jpg" src="../img/from_wiki/Air_Canada_Flight_143_after_emergency_landing_2.jpg" width="300"/></p>
-<p><em><sub>Gimli Glider (1983): An Air Canada Boeing 767 ran out of fuel mid-flight because ground crew <strong>calculated fuel in pounds instead of kilograms</strong>, leading to half the needed fuel onboard. ;from <a href="https://en.wikipedia.org/wiki/File:Air_Canada_Flight_143_after_emergency_landing_2.jpg">wikipedia</a>, License: public domain</sub></em></p>
 </div>
 </div>
 </div>
@@ -7655,62 +7521,164 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="SI-base-units-and-definitions">SI base units and definitions<a class="anchor-link" href="#SI-base-units-and-definitions">¶</a></h2><p><img alt="SI_Illustration_Base_Units_and_Constants_Colour_Full.svg" src="../img/from_wiki/SI_Illustration_Base_Units_and_Constants_Colour_Full.svg" width="300"/></p>
-<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:SI_Illustration_Base_Units_and_Constants_Colour_Full.svg">wikipedia</a>, License: public domain</sub></em></p>
-<table>
-<thead>
-<tr>
-<th>Quantity</th>
-<th>Unit</th>
-<th>Symbol</th>
-<th>Definition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Length</td>
-<td>meter</td>
-<td>m</td>
-<td>Speed of light $c$ in vacuum</td>
-</tr>
-<tr>
-<td>Time</td>
-<td>second</td>
-<td>s</td>
-<td>Cesium-133 transition frequency</td>
-</tr>
-<tr>
-<td>Mass</td>
-<td>kilogram</td>
-<td>kg</td>
-<td>Planck constant $h$</td>
-</tr>
-<tr>
-<td>Electric current</td>
-<td>ampere</td>
-<td>A</td>
-<td>Elementary charge $e$</td>
-</tr>
-<tr>
-<td>Temperature</td>
-<td>kelvin</td>
-<td>K</td>
-<td>Boltzmann constant $k_B$</td>
-</tr>
-<tr>
-<td>Amount of substance</td>
-<td>mole</td>
-<td>mol</td>
-<td>Avogadro constant $N_A$</td>
-</tr>
-<tr>
-<td>Luminous intensity</td>
-<td>candela</td>
-<td>cd</td>
-<td>Radiation at $540\times10^{12}$ Hz</td>
-</tr>
-</tbody>
-</table>
+<h2 id="Instantaneous-velocity">Instantaneous velocity<a class="anchor-link" href="#Instantaneous-velocity">¶</a></h2><p><code>sim avg. vs inst. Velocity</code></p>
+<ul>
+<li>captures motion <strong>at a specific instant</strong>:
+$$v(t) = \lim_{\Delta t\to 0} \frac{\Delta x}{\Delta t} = \frac{dx}{dt}$$<ul>
+<li>it is the <strong>slope of the tangent</strong> to the $x(t)$ curve</li>
+<li>gives the <strong>rate and direction</strong> of change of position</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Distance-vs.-displacement-&amp;-speed-vs.-velocity">Distance vs. displacement &amp; speed vs. velocity<a class="anchor-link" href="#Distance-vs.-displacement-&amp;-speed-vs.-velocity">¶</a></h2><ul>
+<li><strong>displacement</strong> measures the net change in position</li>
+<li><strong>distance</strong> is the <strong>total path length</strong> traveled</li>
+<li><strong>speed</strong> is the <strong>magnitude</strong> of velocity, computed from the (total) distance traveled, and is always positive</li>
+<li><strong>velocity</strong> includes direction (can be positive or negative) and is computed from the (net) displacement</li>
+</ul>
+<p><img alt="Distancedisplacement.svg" src="../img/from_wiki/Distancedisplacement.svg" width="300"/></p>
+<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Distancedisplacement.svg">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/3.0/deed.en">Attribution-Share Alike 3.0 Unported</a></sub></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Acceleration">Acceleration<a class="anchor-link" href="#Acceleration">¶</a></h2><ul>
+<li><p>describes how velocity changes with time:
+$$a(t) = \frac{dv}{dt}$$</p>
+<ul>
+<li>is the <strong>slope of the tangent</strong> to the $v(t)$ curve</li>
+<li>indicates the <strong>rate of change of velocity</strong></li>
+</ul>
+</li>
+<li><p><strong>sign of $a$</strong> determines how $v$ changes:</p>
+<ul>
+<li>$a&gt;0$ $\rightarrow$ velocity increases (speeds up in the positive direction)</li>
+<li>$a&lt;0$ $\rightarrow$ velocity decreases (slows down or speeds up in the negative direction)</li>
+</ul>
+</li>
+<li><p><em>deceleration</em> simply means acceleration opposite to motion</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Uniform-motion">Uniform motion<a class="anchor-link" href="#Uniform-motion">¶</a></h2><p><code>mb06</code></p>
+<ul>
+<li><strong>velocity remains constant</strong> ($v = \text{const}$)</li>
+<li>equal displacements occur in equal time intervals:
+$$x(t) = x_0 + vt$$</li>
+<li>zero acceleration ($a = 0$)</li>
+<li><strong>average velocity = instantaneous velocity</strong></li>
+<li><strong>graphical view:</strong><ul>
+<li>$x(t)$ → straight line (slope = $v$)</li>
+<li>$v(t)$ → horizontal line (constant value)</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Uniformly-accelerated-motion">Uniformly accelerated motion<a class="anchor-link" href="#Uniformly-accelerated-motion">¶</a></h2><p><code>mb06</code></p>
+<ul>
+<li>constant acceleration ($a = \text{const}$)</li>
+<li>velocity changes <strong>linearly</strong> with time
+$$v(t) = v_0 + at$$
+$$x(t) = x_0 + v_0t + \tfrac{1}{2}at^2$$</li>
+<li><strong>graphical view:</strong><ul>
+<li>$v(t)$ is a <strong>straight line</strong> (slope = $a$)</li>
+<li>$x(t)$ is a <strong>parabola</strong> (slope = $v$)</li>
+</ul>
+</li>
+<li>applies to:<ul>
+<li>motion under steady thrust or uniform braking</li>
+<li>free fall near Earth’s surface (neglecting air resistance)</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Relations-between-Position,-Velocity,-&amp;-Acceleration">Relations between Position, Velocity, &amp; Acceleration<a class="anchor-link" href="#Relations-between-Position,-Velocity,-&amp;-Acceleration">¶</a></h2><p><code>sim x, v, a relation</code></p>
+<ul>
+<li><p><strong>Position, velocity, and acceleration</strong> are linked by <strong>derivatives and integrals</strong>:
+$$v(t) = \frac{dx}{dt}, \quad \&amp; \quad a(t) = \frac{dv}{dt}$$
+$$x(t) = \int v(t)\,dt, \quad \&amp; \quad v(t) = \int a(t)\,dt$$</p>
+</li>
+<li><p><strong>slopes</strong> and <strong>areas</strong> connect them graphically:</p>
+<ul>
+<li>slope of $x(t)$ $\rightarrow$ velocity</li>
+<li>slope of $v(t)$ $\rightarrow$ acceleration</li>
+<li>area under $v(t)$ $\rightarrow$ displacement</li>
+<li>area under $a(t)$ $\rightarrow$ change in velocity</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Free-Fall-and-Its-Equations">Free Fall and Its Equations<a class="anchor-link" href="#Free-Fall-and-Its-Equations">¶</a></h2><p><code>mb04</code></p>
+<ul>
+<li><strong>free fall</strong> is a case of <strong>uniformly accelerated motion</strong> under gravity:
+$$a = \pm g, \quad g \approx 9.81\,\text{m/s}^2$$</li>
+<li>choose sign convention, e.g. “up” positive $\rightarrow$ $a = -g$ or “down” positive $\rightarrow$ $a = +g$</li>
+<li>equations of motion:
+$$v(t) = v_0 \pm gt, \qquad y(t) = y_0 + v_0t \pm \tfrac{1}{2}gt^2$$</li>
+<li>if the object starts from rest and in origin ($v_0 = 0$ &amp; $y_0 = 0$):
+$$v(t) = \pm gt, \qquad y(t) = \pm \tfrac{1}{2}gt^2$$</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Universality-of-free-fall">Universality of free fall<a class="anchor-link" href="#Universality-of-free-fall">¶</a></h2><ul>
+<li>near Earth’s surface, <strong>all bodies accelerate equally</strong>, regardless of mass</li>
+<li>in <strong>vacuum</strong>, light and heavy objects fall at the same rate $\rightarrow$ <strong>Otto von Guericke’s vacuum experiments</strong></li>
+<li>real conditions include <strong>air resistance</strong>, which grows with speed and cross-section</li>
+<li>at high speeds, air resistance balances gravity, leading to <strong>terminal velocity</strong>, where acceleration effectively becomes zero</li>
+</ul>
 </div>
 </div>
 </div>

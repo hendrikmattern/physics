@@ -982,7 +982,7 @@
 
 <img src="../img/from_wiki/Wikipage_pic.PNG" alt="Wikipage_pic.PNG" width="300"/>
 
-*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Wikipage_pic.PNG), License: unknown</sub>*
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Wikipage_pic.PNG), License: public domain by TheGreenOne</sub>*
 
 ---
 
