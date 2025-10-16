@@ -1,0 +1,13 @@
+<svg width="201mm" height="207mm" version="1.1" viewBox="0 0 201 207" xmlns="http://www.w3.org/2000/svg">
+ <g fill="none" stroke="#000"><path d="m3 113h193m-101-103v195" stroke="#00f"/><path d="m95 113 42-72"/><path d="m105 96c7 5 8 10 8 17m-18-77h45v77" stroke="#f00" stroke-width=".5"/><circle cx="95" cy="113" r="89"/></g>
+ <path d="m199 113-10 3 2-3-2-3zm-104-111l3 10-3-2-3 2z" fill="#00f"/><path d="m140 36-2.4 10.2-1.4-3.5-3.6.5z"/><circle cx="95" cy="24" r="2"/><circle cx="184" cy="113" r="2"/>
+ <g font-family="Times" font-size="10px"><text x="80" y="12" fill="#00f">Im<tspan x="187" y="109">Re</tspan></text><text x="88" y="122">0</text><text x="175" y="109">1</text><text x="89" y="21" font-style="italic">i</text><text x="99" y="34">cos
+ <tspan font-style="italic">φ</tspan></text><text x="103" y="107"><tspan font-style="italic">φ</tspan></text>
+ <text x="119" y="84">sin
+ <tspan font-style="italic">φ</tspan></text><text x="100" y="20">e<tspan dy="-4" font-size="8px"><tspan font-style="italic">iφ</tspan></tspan>
+ <tspan dy="4"> = cos
+ <tspan font-style="italic">φ</tspan>
+ + 
+ <tspan font-style="italic">i</tspan>
+ sin
+ <tspan font-style="italic">φ</tspan></tspan></text></g></svg>
