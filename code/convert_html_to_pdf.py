@@ -1,79 +1,210 @@
 import os
 import base64
-import time
+from pathlib import Path
+from typing import Iterable, List, Optional, Set
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import ChromiumOptions
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import TimeoutException
 from webdriver_manager.chrome import ChromeDriverManager
 
-def html2pdf(input_html, output_pdf):
-    """Converts a single HTML file to a PDF."""
-    options = webdriver.ChromeOptions()
-    options.add_argument("--headless=new")
-    options.add_argument("--disable-gpu")
-    options.add_argument("--disable-software-rasterizer")
-    # Reduce noisy Chrome/Chromedriver logs and background services
-    options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    options.add_argument('--log-level=3')
-    options.add_argument('--disable-notifications')
-    options.add_argument('--disable-background-networking')
-    
-    # Route Chromedriver logs away from console
+try:
+    from selenium.webdriver.common.print_page_options import PrintOptions
+    HAS_PRINT_OPTIONS = True
+except Exception:
+    HAS_PRINT_OPTIONS = False
+
+
+# ---------- Chrome setup ----------
+
+def build_chrome_options() -> ChromiumOptions:
+    opts = webdriver.ChromeOptions()
+    opts.add_argument("--headless=new")
+    opts.add_argument("--disable-gpu")
+    opts.add_argument("--disable-software-rasterizer")
+    opts.add_argument("--disable-notifications")
+    opts.add_argument("--disable-background-networking")
+    opts.add_argument("--allow-file-access-from-files")
+    opts.add_argument("--no-sandbox")
+    opts.add_argument("--disable-dev-shm-usage")
+    opts.add_experimental_option("excludeSwitches", ["enable-logging"])
+    opts.add_argument("--log-level=3")
+    return opts
+
+def make_driver() -> webdriver.Chrome:
     service = Service(ChromeDriverManager().install(), log_path=os.devnull)
-    driver = webdriver.Chrome(service=service, options=options)
-    driver.get(f"file:///{os.path.abspath(input_html)}")
-    
-    # Wait for MathJax to finish processing
-    mathjax_loaded = False
-    for _ in range(30):  # 15 seconds max
-        mathjax_loaded = driver.execute_script("""
-            if (window.MathJax) {
-                return MathJax.typesetPromise ? true : false;
-            }
-            return false;
-        """)
-        if mathjax_loaded:
-            break
-        time.sleep(0.5)
-    
-    if mathjax_loaded:
-        driver.execute_script("MathJax.typesetPromise()")
-        time.sleep(2)  # Ensure rendering is complete
-    
-    settings = {
-        "landscape": False,
-        "displayHeaderFooter": False,
-        "printBackground": True,
-        "preferCSSPageSize": True,
-    }
-    
-    result = driver.execute_cdp_cmd("Page.printToPDF", settings)
-    
-    with open(output_pdf, "wb") as f:
-        f.write(base64.b64decode(result['data']))
-    
-    driver.quit()
-    print(f"PDF saved to {output_pdf}")
+    return webdriver.Chrome(service=service, options=build_chrome_options())
 
-def convert_folder(input_folder, output_folder):
-    """Converts all HTML files in a folder to PDFs."""
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
-    
-    for file in os.listdir(input_folder):
-        if file.endswith(".html"):
-            input_html = os.path.join(input_folder, file)
-            output_pdf = os.path.join(output_folder, file.replace(".html", ".pdf"))
-            html2pdf(input_html, output_pdf)
 
-# --- MAIN ---
+# ---------- MathJax handling ----------
 
-# Compute base path as project root (one level up from /code)
-script_dir = os.path.dirname(os.path.abspath(__file__))
-base_path = os.path.abspath(os.path.join(script_dir, ".."))
-output_folder = os.path.join(base_path, "pdf_export")
+def wait_for_mathjax(driver: webdriver.Chrome, timeout_s: float = 15.0) -> None:
+    def mathjax_ready(drv):
+        return drv.execute_script(
+            "return (window.MathJax && typeof MathJax.typesetPromise === 'function') || false;"
+        )
+    try:
+        WebDriverWait(driver, timeout_s, poll_frequency=0.25).until(mathjax_ready)
+    except TimeoutException:
+        return
+    driver.execute_script("""
+        if (!window.__mj_done) {
+            window.__mj_done = false;
+            MathJax.typesetPromise().then(function(){ window.__mj_done = true; });
+        }
+    """)
+    try:
+        WebDriverWait(driver, timeout_s, poll_frequency=0.25).until(
+            lambda d: d.execute_script("return !!window.__mj_done;")
+        )
+    except TimeoutException:
+        pass
 
-folders = ["html_script", "html_slides"]
 
-for folder in folders:
-    input_folder = os.path.join(base_path, folder)
-    convert_folder(input_folder, output_folder)
+# ---------- Print helpers ----------
+
+def build_print_settings():
+    if HAS_PRINT_OPTIONS:
+        po = PrintOptions()
+        po.background = True
+        po.landscape = False
+        po.prefer_css_page_size = True
+        return po
+    else:
+        return {
+            "landscape": False,
+            "displayHeaderFooter": False,
+            "printBackground": True,
+            "preferCSSPageSize": True,
+        }
+
+def print_to_pdf(driver: webdriver.Chrome, out_pdf: Path, settings) -> None:
+    if HAS_PRINT_OPTIONS:
+        pdf_base64 = driver.print_page(settings)
+    else:
+        result = driver.execute_cdp_cmd("Page.printToPDF", settings)
+        pdf_base64 = result["data"]
+    out_pdf.parent.mkdir(parents=True, exist_ok=True)
+    out_pdf.write_bytes(base64.b64decode(pdf_base64))
+
+
+# ---------- File selection ----------
+
+def collect_html_files(
+    inputs: Iterable[Path],
+    *,
+    contains: Optional[str] = None,
+    patterns: Optional[Iterable[str]] = None,
+    recursive: bool = False,
+    extensions: Iterable[str] = (".html", ".htm"),
+) -> List[Path]:
+    """
+    Accepts files and/or folders. From folders, collects files that:
+      - match 'patterns' (glob), OR
+      - have an allowed extension (default .html/.htm),
+    and then (optionally) filters by substring 'contains' (case-insensitive).
+    Deduplicates and returns a sorted list.
+    """
+    contains_lower = contains.lower() if contains else None
+    exts = tuple(e.lower() for e in extensions)
+    pats = list(patterns or [])
+    seen: Set[Path] = set()
+    out: List[Path] = []
+
+    def maybe_add(p: Path):
+        p = p.resolve()
+        if not p.is_file():
+            return
+        if contains_lower and contains_lower not in p.name.lower():
+            return
+        if p not in seen:
+            seen.add(p)
+            out.append(p)
+
+    for item in inputs:
+        item = item.resolve()
+        if item.is_file():
+            # Respect explicit file even if it doesn't match patterns/exts
+            maybe_add(item)
+        elif item.is_dir():
+            if pats:
+                iters = []
+                for pat in pats:
+                    iters.append(item.rglob(pat) if recursive else item.glob(pat))
+                for it in iters:
+                    for p in it:
+                        maybe_add(p)
+            else:
+                it = item.rglob("*") if recursive else item.glob("*")
+                for p in it:
+                    if p.is_file() and p.suffix.lower() in exts:
+                        maybe_add(p)
+        else:
+            # path does not exist; ignore silently
+            continue
+
+    return sorted(out)
+
+
+# ---------- Core API ----------
+
+def html2pdf(driver: webdriver.Chrome, input_html: Path, output_pdf: Path) -> None:
+    driver.get(input_html.resolve().as_uri())
+    wait_for_mathjax(driver, timeout_s=15.0)
+    settings = build_print_settings()
+    print_to_pdf(driver, output_pdf, settings)
+
+def convert_files(
+    inputs: Iterable[Path],
+    output_folder: Path,
+    *,
+    contains: Optional[str] = None,
+    patterns: Optional[Iterable[str]] = None,
+    recursive: bool = False,
+) -> None:
+    """
+    Convert a mixed list of files/folders. Use 'contains' and/or 'patterns'
+    to select from folders. Reuses one Chrome session for speed.
+    """
+    files = collect_html_files(
+        inputs, contains=contains, patterns=patterns, recursive=recursive
+    )
+    if not files:
+        print("[info] No matching files found.")
+        return
+
+    with make_driver() as driver:
+        for html in files:
+            out_pdf = output_folder / (html.stem + ".pdf")
+            try:
+                html2pdf(driver, html, out_pdf)
+                print(f"[ok] {html} -> {out_pdf}")
+            except Exception as e:
+                print(f"[fail] {html}: {e}")
+
+
+# ---------- MAIN ----------
+
+if __name__ == "__main__":
+    # Project root = parent of this script's directory
+    script_dir = Path(__file__).resolve().parent
+    base_path = script_dir.parent
+
+    output_folder = base_path / "pdf_export"
+
+    # Example inputs: mix of folders and individual files
+    inputs = [
+        base_path / "html_script",
+        base_path / "html_slides",
+        base_path / "html_lec_tut",
+    ]
+
+    # --- Choose ONE of the following usages ---
+
+    # A) Filter by substring anywhere in filename (case-insensitive)
+    convert_files(inputs, output_folder, contains="1_01")
+
+    # B) Filter by glob pattern(s)
+    # convert_files(inputs, output_folder, patterns=["*slides*.html", "*scripts*.html"])

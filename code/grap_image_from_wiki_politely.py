@@ -287,8 +287,10 @@ if __name__ == "__main__":
 
     # define htmls
     html_list = [
-        "https://en.wikipedia.org/wiki/File:Wikipage_pic.PNG",
-        "https://en.wikipedia.org/wiki/File:Distancedisplacement.svg"
+        "https://en.wikipedia.org/wiki/File:Trigonometry_triangle.svg",
+        "https://en.wikipedia.org/wiki/File:Imaginarynumber2.svg",
+        "https://en.wikipedia.org/wiki/File:Euler%27s_formula.svg",
+        "https://en.wikipedia.org/wiki/File:Polar_to_cartesian.svg"
     ]
   
     # loop and download
