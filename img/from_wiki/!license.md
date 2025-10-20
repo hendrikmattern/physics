@@ -1019,3 +1019,63 @@
 <img src="../img/from_wiki/Polar_to_cartesian.svg" alt="Polar_to_cartesian.svg" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Polar_to_cartesian.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Compound_Motion.gif" alt="Compound_Motion.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Compound_Motion.gif), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Ferde_hajitas3.svg" alt="Ferde_hajitas3.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Ferde_hajitas3.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Ideal_projectile_motion_for_different_angles.svg" alt="Ideal_projectile_motion_for_different_angles.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Ideal_projectile_motion_for_different_angles.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Ferde_hajitas2.svg" alt="Ferde_hajitas2.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Ferde_hajitas2.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Relative_velocity.svg" alt="Relative_velocity.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Relative_velocity.svg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Anas_platyrhynchos_with_ducklings_reflecting_water.jpg" alt="Anas_platyrhynchos_with_ducklings_reflecting_water.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Anas_platyrhynchos_with_ducklings_reflecting_water.jpg), [CC 2.0 Generic license](//creativecommons.org/licenses/by/2.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Rolling_animation.gif" alt="Rolling_animation.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Rolling_animation.gif), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Circle_radians.gif" alt="Circle_radians.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Circle_radians.gif), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Uniform_circular_motion.svg" alt="Uniform_circular_motion.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Uniform_circular_motion.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Nonuniform_circular_motion.svg" alt="Nonuniform_circular_motion.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Nonuniform_circular_motion.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*

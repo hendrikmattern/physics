@@ -1,0 +1,889 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-64 -535 1120 560">
+ <title>Trajectories of ideal projectiles launched at different angles</title>
+ <desc>Plot of trajectories of projectiles launched at different elevation angles but the same speed of 10 m/s in a vacuum and uniform downward gravity of 10 m/s^2; t = time from launch, T = time of flight, R = range and H = highest point of trajectory (indicated with arrows); points are at 0.05 s intervals and length of their tails is linearly proportional to their speed; conceived and drawn by CMG Lee.</desc>
+ <style type="text/css">
+  #main:hover { stroke-opacity:0.1; fill-opacity:0.1; }
+  .nofade     { stroke-opacity:1;   fill-opacity:1; }
+  .time:hover { stroke-opacity:1;   fill-opacity:1; cursor:pointer;
+                -webkit-filter: drop-shadow(0 0 16px #000000);
+                filter:         drop-shadow(0 0 16px #000000); }
+ </style>
+ <defs>
+  <linearGradient id="ground" x1="0%" y1="0%" x2="0%" y2="100%">
+   <stop offset="0%" stop-color="#00ff00"/>
+   <stop offset="100%" stop-color="#ffffff"/>
+  </linearGradient>
+  <path id="arrow" transform="translate(0,-2)" d="M -10 -10 L 0 0 L 10 -10 M 0 -15 V 0" stroke="#000000"/>
+ </defs>
+ <g id="main" font-family="sans-serif" letter-spacing="-1" text-anchor="start">
+  <rect x="-64" y="-544" width="1120" height="560" fill="#ffffff" class="nofade"/>
+  <g font-size="24" stroke-width="4" fill="none">
+   <g class="nofade">
+   <circle cx="830" cy="-520" r="6" fill="#333333"/>
+   <line x1="830" y1="-520" x2="810" y2="-520" stroke="#333333"/>
+   <text x="840" y="-510" fill="#000000"><tspan font-style="italic">t</tspan><tspan> : 0.05 &#8211; 0.20 s</tspan></text>
+   <circle cx="830" cy="-488" r="6" fill="#996600"/>
+   <line x1="830" y1="-488" x2="810" y2="-488" stroke="#996600"/>
+   <text x="840" y="-478" fill="#000000"><tspan font-style="italic">t</tspan><tspan> : 0.25 &#8211; 0.40 s</tspan></text>
+   <circle cx="830" cy="-456" r="6" fill="#ff0000"/>
+   <line x1="830" y1="-456" x2="810" y2="-456" stroke="#ff0000"/>
+   <text x="840" y="-446" fill="#000000"><tspan font-style="italic">t</tspan><tspan> : 0.45 &#8211; 0.60 s</tspan></text>
+   <circle cx="830" cy="-424" r="6" fill="#ff6600"/>
+   <line x1="830" y1="-424" x2="810" y2="-424" stroke="#ff6600"/>
+   <text x="840" y="-414" fill="#000000"><tspan font-style="italic">t</tspan><tspan> : 0.65 &#8211; 0.80 s</tspan></text>
+   <circle cx="830" cy="-392" r="6" fill="#cccc00"/>
+   <line x1="830" y1="-392" x2="810" y2="-392" stroke="#cccc00"/>
+   <text x="840" y="-382" fill="#000000"><tspan font-style="italic">t</tspan><tspan> : 0.85 &#8211; 1.00 s</tspan></text>
+   <circle cx="830" cy="-360" r="6" fill="#009900"/>
+   <line x1="830" y1="-360" x2="810" y2="-360" stroke="#009900"/>
+   <text x="840" y="-350" fill="#000000"><tspan font-style="italic">t</tspan><tspan> : 1.05 &#8211; 1.20 s</tspan></text>
+   <circle cx="830" cy="-328" r="6" fill="#0000ff"/>
+   <line x1="830" y1="-328" x2="810" y2="-328" stroke="#0000ff"/>
+   <text x="840" y="-318" fill="#000000"><tspan font-style="italic">t</tspan><tspan> : 1.25 &#8211; 1.40 s</tspan></text>
+   <circle cx="830" cy="-296" r="6" fill="#9900cc"/>
+   <line x1="830" y1="-296" x2="810" y2="-296" stroke="#9900cc"/>
+   <text x="840" y="-286" fill="#000000"><tspan font-style="italic">t</tspan><tspan> : 1.45 &#8211; 1.60 s</tspan></text>
+   <circle cx="830" cy="-264" r="6" fill="#999999"/>
+   <line x1="830" y1="-264" x2="810" y2="-264" stroke="#999999"/>
+   <text x="840" y="-254" fill="#000000"><tspan font-style="italic">t</tspan><tspan> : 1.65 &#8211; 1.80 s</tspan></text>
+   <circle cx="830" cy="-232" r="6" fill="#6699ff"/>
+   <line x1="830" y1="-232" x2="810" y2="-232" stroke="#6699ff"/>
+   <text x="840" y="-222" fill="#000000"><tspan font-style="italic">t</tspan><tspan> : 1.85 &#8211; 2.00 s</tspan></text>
+   </g>
+
+   <use transform="translate(250,-33.494)" xlink:href="#arrow" />
+   <text x="240" y="-51.494" fill="#000000">
+   <tspan font-weight="bold">15&#176; </tspan>
+   <tspan dx="0.1em" font-style="italic">R</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">5.0m</tspan>
+   <tspan dx="0.1em" font-style="italic">H</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">0.3m</tspan>
+   <tspan dx="0.1em" font-style="italic">T</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">0.52s</tspan></text>
+
+   <path d="M 0 0 L 48.296 -11.691 L 96.593 -20.882 L 144.889 -27.573 L 193.185 -31.764 L 241.481 -33.455 L 289.778 -32.646 L 338.074 -29.337 L 386.37 -23.528 L 434.667 -15.219 L 482.963 -4.41 L 531.259 8.9 L 500 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <use transform="translate(433.013,-125)" xlink:href="#arrow" />
+   <text x="240" y="-143" fill="#000000">
+   <tspan font-weight="bold">30&#176; </tspan>
+   <tspan dx="0.1em" font-style="italic">R</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">8.7m</tspan>
+   <tspan dx="0.1em" font-style="italic">H</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">1.2m</tspan>
+   <tspan dx="0.1em" font-style="italic">T</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">1.00s</tspan></text>
+
+   <path d="M 0 0 L 43.301 -23.75 L 86.603 -45 L 129.904 -63.75 L 173.205 -80 L 216.506 -93.75 L 259.808 -105 L 303.109 -113.75 L 346.41 -120 L 389.711 -123.75 L 433.013 -125 L 476.314 -123.75 L 519.615 -120 L 562.917 -113.75 L 606.218 -105 L 649.519 -93.75 L 692.82 -80 L 736.122 -63.75 L 779.423 -45 L 822.724 -23.75 L 866.025 0 L 866.025 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <use transform="translate(500,-250)" xlink:href="#arrow" />
+   <text x="240" y="-268" fill="#000000">
+   <tspan font-weight="bold">45&#176; </tspan>
+   <tspan dx="0.1em" font-style="italic">R</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">10.0m</tspan>
+   <tspan dx="0.1em" font-style="italic">H</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">2.5m</tspan>
+   <tspan dx="0.1em" font-style="italic">T</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">1.41s</tspan></text>
+
+   <path d="M 0 0 L 35.355 -34.105 L 70.711 -65.711 L 106.066 -94.816 L 141.421 -121.421 L 176.777 -145.527 L 212.132 -167.132 L 247.487 -186.237 L 282.843 -202.843 L 318.198 -216.948 L 353.553 -228.553 L 388.909 -237.659 L 424.264 -244.264 L 459.619 -248.369 L 494.975 -249.975 L 530.33 -249.08 L 565.685 -245.685 L 601.041 -239.791 L 636.396 -231.396 L 671.751 -220.501 L 707.107 -207.107 L 742.462 -191.212 L 777.817 -172.817 L 813.173 -151.923 L 848.528 -128.528 L 883.883 -102.633 L 919.239 -74.239 L 954.594 -43.344 L 989.949 -9.949 L 1025.305 25.945 L 1000 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <use transform="translate(433.013,-375)" xlink:href="#arrow" />
+   <text x="240" y="-393" fill="#000000">
+   <tspan font-weight="bold">60&#176; </tspan>
+   <tspan dx="0.1em" font-style="italic">R</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">8.7m</tspan>
+   <tspan dx="0.1em" font-style="italic">H</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">3.7m</tspan>
+   <tspan dx="0.1em" font-style="italic">T</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">1.73s</tspan></text>
+
+   <path d="M 0 0 L 25 -42.051 L 50 -81.603 L 75 -118.654 L 100 -153.205 L 125 -185.256 L 150 -214.808 L 175 -241.859 L 200 -266.41 L 225 -288.461 L 250 -308.013 L 275 -325.064 L 300 -339.615 L 325 -351.667 L 350 -361.218 L 375 -368.269 L 400 -372.82 L 425 -374.872 L 450 -374.423 L 475 -371.474 L 500 -366.025 L 525 -358.077 L 550 -347.628 L 575 -334.679 L 600 -319.23 L 625 -301.282 L 650 -280.833 L 675 -257.884 L 700 -232.436 L 725 -204.487 L 750 -174.038 L 775 -141.089 L 800 -105.641 L 825 -67.692 L 850 -27.243 L 875 15.706 L 866.025 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <use transform="translate(250,-466.506)" xlink:href="#arrow" />
+   <text x="240" y="-484.506" fill="#000000">
+   <tspan font-weight="bold">75&#176; </tspan>
+   <tspan dx="0.1em" font-style="italic">R</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">5.0m</tspan>
+   <tspan dx="0.1em" font-style="italic">H</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">4.7m</tspan>
+   <tspan dx="0.1em" font-style="italic">T</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">1.93s</tspan></text>
+
+   <path d="M 0 0 L 12.941 -47.046 L 25.882 -91.593 L 38.823 -133.639 L 51.764 -173.185 L 64.705 -210.231 L 77.646 -244.778 L 90.587 -276.824 L 103.528 -306.37 L 116.469 -333.417 L 129.41 -357.963 L 142.35 -380.009 L 155.291 -399.555 L 168.232 -416.602 L 181.173 -431.148 L 194.114 -443.194 L 207.055 -452.741 L 219.996 -459.787 L 232.937 -464.333 L 245.878 -466.38 L 258.819 -465.926 L 271.76 -462.972 L 284.701 -457.518 L 297.642 -449.565 L 310.583 -439.111 L 323.524 -426.157 L 336.465 -410.704 L 349.406 -392.75 L 362.347 -372.296 L 375.288 -349.342 L 388.229 -323.889 L 401.17 -295.935 L 414.11 -265.481 L 427.051 -232.528 L 439.992 -197.074 L 452.933 -159.12 L 465.874 -118.666 L 478.815 -75.713 L 491.756 -30.259 L 504.697 17.695 L 500 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <use transform="translate(0,-500)" xlink:href="#arrow" />
+   <text x="-60" y="-518" fill="#000000">
+   <tspan font-weight="bold">90&#176; </tspan>
+   <tspan dx="0.1em" font-style="italic">R</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">0.0m</tspan>
+   <tspan dx="0.1em" font-style="italic">H</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">5.0m</tspan>
+   <tspan dx="0.1em" font-style="italic">T</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">2.00s</tspan></text>
+
+   <path d="M 0 0 L 0 -48.75 L 0 -95 L 0 -138.75 L 0 -180 L 0 -218.75 L 0 -255 L 0 -288.75 L 0 -320 L 0 -348.75 L 0 -375 L 0 -398.75 L 0 -420 L 0 -438.75 L 0 -455 L 0 -468.75 L 0 -480 L 0 -488.75 L 0 -495 L 0 -498.75 L 0 -500 L 0 -498.75 L 0 -495 L 0 -488.75 L 0 -480 L 0 -468.75 L 0 -455 L 0 -438.75 L 0 -420 L 0 -398.75 L 0 -375 L 0 -348.75 L 0 -320 L 0 -288.75 L 0 -255 L 0 -218.75 L 0 -180 L 0 -138.75 L 0 -95 L 0 -48.75 L 0 0 L 0 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <path d="M 0 0 L 49.81 -3.108 L 99.619 -3.716 L 149.429 -1.823 L 199.239 2.569 L 173.648 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <path d="M 0 0 L 49.24 -7.432 L 98.481 -12.365 L 147.721 -14.797 L 196.962 -14.73 L 246.202 -12.162 L 295.442 -7.094 L 344.683 0.473 L 342.02 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <path d="M 0 0 L 46.985 -15.851 L 93.969 -29.202 L 140.954 -40.053 L 187.939 -48.404 L 234.923 -54.255 L 281.908 -57.606 L 328.892 -58.457 L 375.877 -56.808 L 422.862 -52.659 L 469.846 -46.01 L 516.831 -36.861 L 563.816 -25.212 L 610.8 -11.063 L 657.785 5.586 L 642.788 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <path d="M 0 0 L 45.315 -19.881 L 90.631 -37.262 L 135.946 -52.143 L 181.262 -64.524 L 226.577 -74.405 L 271.892 -81.785 L 317.208 -86.666 L 362.523 -89.047 L 407.839 -88.928 L 453.154 -86.309 L 498.469 -81.19 L 543.785 -73.571 L 589.1 -63.452 L 634.415 -50.833 L 679.731 -35.714 L 725.046 -18.095 L 770.362 2.024 L 766.044 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <path d="M 0 0 L 40.958 -27.429 L 81.915 -52.358 L 122.873 -74.786 L 163.83 -94.715 L 204.788 -112.144 L 245.746 -127.073 L 286.703 -139.502 L 327.661 -149.431 L 368.618 -156.859 L 409.576 -161.788 L 450.534 -164.217 L 491.491 -164.146 L 532.449 -161.575 L 573.406 -156.504 L 614.364 -148.932 L 655.322 -138.861 L 696.279 -126.29 L 737.237 -111.219 L 778.194 -93.648 L 819.152 -73.576 L 860.11 -51.005 L 901.067 -25.934 L 942.025 1.637 L 939.693 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <path d="M 0 0 L 38.302 -30.889 L 76.604 -59.279 L 114.907 -85.168 L 153.209 -108.558 L 191.511 -129.447 L 229.813 -147.836 L 268.116 -163.726 L 306.418 -177.115 L 344.72 -188.004 L 383.022 -196.394 L 421.324 -202.283 L 459.627 -205.673 L 497.929 -206.562 L 536.231 -204.951 L 574.533 -200.841 L 612.836 -194.23 L 651.138 -185.119 L 689.44 -173.509 L 727.742 -159.398 L 766.044 -142.788 L 804.347 -123.677 L 842.649 -102.066 L 880.951 -77.956 L 919.253 -51.345 L 957.556 -22.235 L 995.858 9.376 L 984.808 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <path d="M 0 0 L 32.139 -37.052 L 64.279 -71.604 L 96.418 -103.657 L 128.558 -133.209 L 160.697 -160.261 L 192.836 -184.813 L 224.976 -206.866 L 257.115 -226.418 L 289.254 -243.47 L 321.394 -258.022 L 353.533 -270.074 L 385.673 -279.627 L 417.812 -286.679 L 449.951 -291.231 L 482.091 -293.283 L 514.23 -292.836 L 546.369 -289.888 L 578.509 -284.44 L 610.648 -276.492 L 642.788 -266.044 L 674.927 -253.097 L 707.066 -237.649 L 739.206 -219.701 L 771.345 -199.253 L 803.485 -176.306 L 835.624 -150.858 L 867.763 -122.91 L 899.903 -92.462 L 932.042 -59.514 L 964.181 -24.067 L 996.321 13.881 L 984.808 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <path d="M 0 0 L 28.679 -39.708 L 57.358 -76.915 L 86.036 -111.623 L 114.715 -143.83 L 143.394 -173.538 L 172.073 -200.746 L 200.752 -225.453 L 229.431 -247.661 L 258.109 -267.368 L 286.788 -284.576 L 315.467 -299.284 L 344.146 -311.491 L 372.825 -321.199 L 401.504 -328.406 L 430.182 -333.114 L 458.861 -335.322 L 487.54 -335.029 L 516.219 -332.237 L 544.898 -326.944 L 573.576 -319.152 L 602.255 -308.86 L 630.934 -296.067 L 659.613 -280.775 L 688.292 -262.982 L 716.971 -242.69 L 745.649 -219.898 L 774.328 -194.605 L 803.007 -166.813 L 831.686 -136.52 L 860.365 -103.728 L 889.043 -68.436 L 917.722 -30.643 L 946.401 9.649 L 939.693 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <path d="M 0 0 L 21.131 -44.065 L 42.262 -85.631 L 63.393 -124.696 L 84.524 -161.262 L 105.655 -195.327 L 126.785 -226.892 L 147.916 -255.958 L 169.047 -282.523 L 190.178 -306.589 L 211.309 -328.154 L 232.44 -347.219 L 253.571 -363.785 L 274.702 -377.85 L 295.833 -389.415 L 316.964 -398.481 L 338.095 -405.046 L 359.226 -409.112 L 380.356 -410.677 L 401.487 -409.742 L 422.618 -406.308 L 443.749 -400.373 L 464.88 -391.939 L 486.011 -381.004 L 507.142 -367.569 L 528.273 -351.635 L 549.404 -333.2 L 570.535 -312.266 L 591.666 -288.831 L 612.796 -262.896 L 633.927 -234.462 L 655.058 -203.527 L 676.189 -170.092 L 697.32 -134.158 L 718.451 -95.723 L 739.582 -54.789 L 760.713 -11.354 L 781.844 34.581 L 766.044 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <path d="M 0 0 L 17.101 -45.735 L 34.202 -88.969 L 51.303 -129.704 L 68.404 -167.939 L 85.505 -203.673 L 102.606 -236.908 L 119.707 -267.642 L 136.808 -295.877 L 153.909 -321.612 L 171.01 -344.846 L 188.111 -365.581 L 205.212 -383.816 L 222.313 -399.55 L 239.414 -412.785 L 256.515 -423.519 L 273.616 -431.754 L 290.717 -437.489 L 307.818 -440.723 L 324.919 -441.458 L 342.02 -439.693 L 359.121 -435.427 L 376.222 -428.662 L 393.323 -419.397 L 410.424 -407.631 L 427.525 -393.366 L 444.626 -376.6 L 461.727 -357.335 L 478.828 -335.57 L 495.929 -311.304 L 513.03 -284.539 L 530.131 -255.274 L 547.232 -223.508 L 564.333 -189.243 L 581.434 -152.477 L 598.535 -113.212 L 615.636 -71.447 L 632.737 -27.181 L 649.838 19.584 L 642.788 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <path d="M 0 0 L 8.682 -47.99 L 17.365 -93.481 L 26.047 -136.471 L 34.73 -176.962 L 43.412 -214.952 L 52.094 -250.442 L 60.777 -283.433 L 69.459 -313.923 L 78.142 -341.913 L 86.824 -367.404 L 95.506 -390.394 L 104.189 -410.885 L 112.871 -428.875 L 121.554 -444.365 L 130.236 -457.356 L 138.919 -467.846 L 147.601 -475.837 L 156.283 -481.327 L 164.966 -484.317 L 173.648 -484.808 L 182.331 -482.798 L 191.013 -478.289 L 199.695 -471.279 L 208.378 -461.769 L 217.06 -449.76 L 225.743 -435.25 L 234.425 -418.24 L 243.107 -398.731 L 251.79 -376.721 L 260.472 -352.212 L 269.155 -325.202 L 277.837 -295.692 L 286.519 -263.683 L 295.202 -229.173 L 303.884 -192.164 L 312.567 -152.654 L 321.249 -110.644 L 329.932 -66.135 L 338.614 -19.125 L 347.296 30.384 L 342.02 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <path d="M 0 0 L 4.358 -48.56 L 8.716 -94.619 L 13.073 -138.179 L 17.431 -179.239 L 21.789 -217.799 L 26.147 -253.858 L 30.505 -287.418 L 34.862 -318.478 L 39.22 -347.038 L 43.578 -373.097 L 47.936 -396.657 L 52.293 -417.717 L 56.651 -436.277 L 61.009 -452.336 L 65.367 -465.896 L 69.725 -476.956 L 74.082 -485.515 L 78.44 -491.575 L 82.798 -495.135 L 87.156 -496.195 L 91.514 -494.754 L 95.871 -490.814 L 100.229 -484.374 L 104.587 -475.434 L 108.945 -463.993 L 113.302 -450.053 L 117.66 -433.613 L 122.018 -414.673 L 126.376 -393.232 L 130.734 -369.292 L 135.091 -342.852 L 139.449 -313.912 L 143.807 -282.471 L 148.165 -248.531 L 152.523 -212.091 L 156.88 -173.15 L 161.238 -131.71 L 165.596 -87.77 L 169.954 -41.33 L 174.311 7.611 L 173.648 0" stroke="#000000" stroke-width="1" stroke-opacity="0.3"/>
+   <g class="time">
+    <circle cx="48.296" cy="-11.691" r="6" fill="#333333"/>
+    <line x1="48.296" y1="-11.691" x2="19.319" y2="-5.426" stroke="#333333"/>
+    <circle cx="43.301" cy="-23.75" r="6" fill="#333333"/>
+    <line x1="43.301" y1="-23.75" x2="17.321" y2="-10.25" stroke="#333333"/>
+    <circle cx="35.355" cy="-34.105" r="6" fill="#333333"/>
+    <line x1="35.355" y1="-34.105" x2="14.142" y2="-14.392" stroke="#333333"/>
+    <circle cx="25" cy="-42.051" r="6" fill="#333333"/>
+    <line x1="25" y1="-42.051" x2="10" y2="-17.571" stroke="#333333"/>
+    <circle cx="12.941" cy="-47.046" r="6" fill="#333333"/>
+    <line x1="12.941" y1="-47.046" x2="5.176" y2="-19.569" stroke="#333333"/>
+    <circle cx="0" cy="-48.75" r="6" fill="#333333"/>
+    <line x1="0" y1="-48.75" x2="0" y2="-20.25" stroke="#333333"/>
+    <rect x="760" y="-535" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="96.593" cy="-20.882" r="6" fill="#333333"/>
+    <line x1="96.593" y1="-20.882" x2="67.615" y2="-16.117" stroke="#333333"/>
+    <circle cx="86.603" cy="-45" r="6" fill="#333333"/>
+    <line x1="86.603" y1="-45" x2="60.622" y2="-33" stroke="#333333"/>
+    <circle cx="70.711" cy="-65.711" r="6" fill="#333333"/>
+    <line x1="70.711" y1="-65.711" x2="49.497" y2="-47.497" stroke="#333333"/>
+    <circle cx="50" cy="-81.603" r="6" fill="#333333"/>
+    <line x1="50" y1="-81.603" x2="35" y2="-58.622" stroke="#333333"/>
+    <circle cx="25.882" cy="-91.593" r="6" fill="#333333"/>
+    <line x1="25.882" y1="-91.593" x2="18.117" y2="-65.615" stroke="#333333"/>
+    <circle cx="0" cy="-95" r="6" fill="#333333"/>
+    <line x1="0" y1="-95" x2="0" y2="-68" stroke="#333333"/>
+    <rect x="760" y="-527" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="144.889" cy="-27.573" r="6" fill="#333333"/>
+    <line x1="144.889" y1="-27.573" x2="115.911" y2="-24.308" stroke="#333333"/>
+    <circle cx="129.904" cy="-63.75" r="6" fill="#333333"/>
+    <line x1="129.904" y1="-63.75" x2="103.923" y2="-53.25" stroke="#333333"/>
+    <circle cx="106.066" cy="-94.816" r="6" fill="#333333"/>
+    <line x1="106.066" y1="-94.816" x2="84.853" y2="-78.103" stroke="#333333"/>
+    <circle cx="75" cy="-118.654" r="6" fill="#333333"/>
+    <line x1="75" y1="-118.654" x2="60" y2="-97.173" stroke="#333333"/>
+    <circle cx="38.823" cy="-133.639" r="6" fill="#333333"/>
+    <line x1="38.823" y1="-133.639" x2="31.058" y2="-109.161" stroke="#333333"/>
+    <circle cx="0" cy="-138.75" r="6" fill="#333333"/>
+    <line x1="0" y1="-138.75" x2="0" y2="-113.25" stroke="#333333"/>
+    <rect x="760" y="-519" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="193.185" cy="-31.764" r="6" fill="#333333"/>
+    <line x1="193.185" y1="-31.764" x2="164.207" y2="-29.999" stroke="#333333"/>
+    <circle cx="173.205" cy="-80" r="6" fill="#333333"/>
+    <line x1="173.205" y1="-80" x2="147.224" y2="-71" stroke="#333333"/>
+    <circle cx="141.421" cy="-121.421" r="6" fill="#333333"/>
+    <line x1="141.421" y1="-121.421" x2="120.208" y2="-106.208" stroke="#333333"/>
+    <circle cx="100" cy="-153.205" r="6" fill="#333333"/>
+    <line x1="100" y1="-153.205" x2="85" y2="-133.224" stroke="#333333"/>
+    <circle cx="51.764" cy="-173.185" r="6" fill="#333333"/>
+    <line x1="51.764" y1="-173.185" x2="43.999" y2="-150.207" stroke="#333333"/>
+    <circle cx="0" cy="-180" r="6" fill="#333333"/>
+    <line x1="0" y1="-180" x2="0" y2="-156" stroke="#333333"/>
+    <rect x="760" y="-511" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="241.481" cy="-33.455" r="6" fill="#996600"/>
+    <line x1="241.481" y1="-33.455" x2="212.504" y2="-33.19" stroke="#996600"/>
+    <circle cx="216.506" cy="-93.75" r="6" fill="#996600"/>
+    <line x1="216.506" y1="-93.75" x2="190.526" y2="-86.25" stroke="#996600"/>
+    <circle cx="176.777" cy="-145.527" r="6" fill="#996600"/>
+    <line x1="176.777" y1="-145.527" x2="155.563" y2="-131.813" stroke="#996600"/>
+    <circle cx="125" cy="-185.256" r="6" fill="#996600"/>
+    <line x1="125" y1="-185.256" x2="110" y2="-166.776" stroke="#996600"/>
+    <circle cx="64.705" cy="-210.231" r="6" fill="#996600"/>
+    <line x1="64.705" y1="-210.231" x2="56.94" y2="-188.754" stroke="#996600"/>
+    <circle cx="0" cy="-218.75" r="6" fill="#996600"/>
+    <line x1="0" y1="-218.75" x2="0" y2="-196.25" stroke="#996600"/>
+    <rect x="760" y="-503" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="289.778" cy="-32.646" r="6" fill="#996600"/>
+    <line x1="289.778" y1="-32.646" x2="260.8" y2="-33.881" stroke="#996600"/>
+    <circle cx="259.808" cy="-105" r="6" fill="#996600"/>
+    <line x1="259.808" y1="-105" x2="233.827" y2="-99" stroke="#996600"/>
+    <circle cx="212.132" cy="-167.132" r="6" fill="#996600"/>
+    <line x1="212.132" y1="-167.132" x2="190.919" y2="-154.919" stroke="#996600"/>
+    <circle cx="150" cy="-214.808" r="6" fill="#996600"/>
+    <line x1="150" y1="-214.808" x2="135" y2="-197.827" stroke="#996600"/>
+    <circle cx="77.646" cy="-244.778" r="6" fill="#996600"/>
+    <line x1="77.646" y1="-244.778" x2="69.881" y2="-224.8" stroke="#996600"/>
+    <circle cx="0" cy="-255" r="6" fill="#996600"/>
+    <line x1="0" y1="-255" x2="0" y2="-234" stroke="#996600"/>
+    <rect x="760" y="-495" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="338.074" cy="-29.337" r="6" fill="#996600"/>
+    <line x1="338.074" y1="-29.337" x2="309.096" y2="-32.072" stroke="#996600"/>
+    <circle cx="303.109" cy="-113.75" r="6" fill="#996600"/>
+    <line x1="303.109" y1="-113.75" x2="277.128" y2="-109.25" stroke="#996600"/>
+    <circle cx="247.487" cy="-186.237" r="6" fill="#996600"/>
+    <line x1="247.487" y1="-186.237" x2="226.274" y2="-175.524" stroke="#996600"/>
+    <circle cx="175" cy="-241.859" r="6" fill="#996600"/>
+    <line x1="175" y1="-241.859" x2="160" y2="-226.378" stroke="#996600"/>
+    <circle cx="90.587" cy="-276.824" r="6" fill="#996600"/>
+    <line x1="90.587" y1="-276.824" x2="82.822" y2="-258.346" stroke="#996600"/>
+    <circle cx="0" cy="-288.75" r="6" fill="#996600"/>
+    <line x1="0" y1="-288.75" x2="0" y2="-269.25" stroke="#996600"/>
+    <rect x="760" y="-487" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="386.37" cy="-23.528" r="6" fill="#996600"/>
+    <line x1="386.37" y1="-23.528" x2="357.393" y2="-27.763" stroke="#996600"/>
+    <circle cx="346.41" cy="-120" r="6" fill="#996600"/>
+    <line x1="346.41" y1="-120" x2="320.429" y2="-117" stroke="#996600"/>
+    <circle cx="282.843" cy="-202.843" r="6" fill="#996600"/>
+    <line x1="282.843" y1="-202.843" x2="261.63" y2="-193.63" stroke="#996600"/>
+    <circle cx="200" cy="-266.41" r="6" fill="#996600"/>
+    <line x1="200" y1="-266.41" x2="185" y2="-252.429" stroke="#996600"/>
+    <circle cx="103.528" cy="-306.37" r="6" fill="#996600"/>
+    <line x1="103.528" y1="-306.37" x2="95.763" y2="-289.393" stroke="#996600"/>
+    <circle cx="0" cy="-320" r="6" fill="#996600"/>
+    <line x1="0" y1="-320" x2="0" y2="-302" stroke="#996600"/>
+    <rect x="760" y="-479" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="434.667" cy="-15.219" r="6" fill="#ff0000"/>
+    <line x1="434.667" y1="-15.219" x2="405.689" y2="-20.954" stroke="#ff0000"/>
+    <circle cx="389.711" cy="-123.75" r="6" fill="#ff0000"/>
+    <line x1="389.711" y1="-123.75" x2="363.731" y2="-122.25" stroke="#ff0000"/>
+    <circle cx="318.198" cy="-216.948" r="6" fill="#ff0000"/>
+    <line x1="318.198" y1="-216.948" x2="296.985" y2="-209.235" stroke="#ff0000"/>
+    <circle cx="225" cy="-288.461" r="6" fill="#ff0000"/>
+    <line x1="225" y1="-288.461" x2="210" y2="-275.981" stroke="#ff0000"/>
+    <circle cx="116.469" cy="-333.417" r="6" fill="#ff0000"/>
+    <line x1="116.469" y1="-333.417" x2="108.704" y2="-317.939" stroke="#ff0000"/>
+    <circle cx="0" cy="-348.75" r="6" fill="#ff0000"/>
+    <line x1="0" y1="-348.75" x2="0" y2="-332.25" stroke="#ff0000"/>
+    <rect x="760" y="-471" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="482.963" cy="-4.41" r="6" fill="#ff0000"/>
+    <line x1="482.963" y1="-4.41" x2="453.985" y2="-11.645" stroke="#ff0000"/>
+    <circle cx="433.013" cy="-125" r="6" fill="#ff0000"/>
+    <line x1="433.013" y1="-125" x2="407.032" y2="-125" stroke="#ff0000"/>
+    <circle cx="353.553" cy="-228.553" r="6" fill="#ff0000"/>
+    <line x1="353.553" y1="-228.553" x2="332.34" y2="-222.34" stroke="#ff0000"/>
+    <circle cx="250" cy="-308.013" r="6" fill="#ff0000"/>
+    <line x1="250" y1="-308.013" x2="235" y2="-297.032" stroke="#ff0000"/>
+    <circle cx="129.41" cy="-357.963" r="6" fill="#ff0000"/>
+    <line x1="129.41" y1="-357.963" x2="121.645" y2="-343.985" stroke="#ff0000"/>
+    <circle cx="0" cy="-375" r="6" fill="#ff0000"/>
+    <line x1="0" y1="-375" x2="0" y2="-360" stroke="#ff0000"/>
+    <rect x="760" y="-463" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="531.259" cy="8.9" r="6" fill="#ff0000"/>
+    <line x1="531.259" y1="8.9" x2="502.281" y2="0.164" stroke="#ff0000"/>
+    <circle cx="476.314" cy="-123.75" r="6" fill="#ff0000"/>
+    <line x1="476.314" y1="-123.75" x2="450.333" y2="-125.25" stroke="#ff0000"/>
+    <circle cx="388.909" cy="-237.659" r="6" fill="#ff0000"/>
+    <line x1="388.909" y1="-237.659" x2="367.696" y2="-232.946" stroke="#ff0000"/>
+    <circle cx="275" cy="-325.064" r="6" fill="#ff0000"/>
+    <line x1="275" y1="-325.064" x2="260" y2="-315.583" stroke="#ff0000"/>
+    <circle cx="142.35" cy="-380.009" r="6" fill="#ff0000"/>
+    <line x1="142.35" y1="-380.009" x2="134.586" y2="-367.531" stroke="#ff0000"/>
+    <circle cx="0" cy="-398.75" r="6" fill="#ff0000"/>
+    <line x1="0" y1="-398.75" x2="0" y2="-385.25" stroke="#ff0000"/>
+    <rect x="760" y="-455" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="519.615" cy="-120" r="6" fill="#ff0000"/>
+    <line x1="519.615" y1="-120" x2="493.634" y2="-123" stroke="#ff0000"/>
+    <circle cx="424.264" cy="-244.264" r="6" fill="#ff0000"/>
+    <line x1="424.264" y1="-244.264" x2="403.051" y2="-241.051" stroke="#ff0000"/>
+    <circle cx="300" cy="-339.615" r="6" fill="#ff0000"/>
+    <line x1="300" y1="-339.615" x2="285" y2="-331.634" stroke="#ff0000"/>
+    <circle cx="155.291" cy="-399.555" r="6" fill="#ff0000"/>
+    <line x1="155.291" y1="-399.555" x2="147.527" y2="-388.578" stroke="#ff0000"/>
+    <circle cx="0" cy="-420" r="6" fill="#ff0000"/>
+    <line x1="0" y1="-420" x2="0" y2="-408" stroke="#ff0000"/>
+    <rect x="760" y="-447" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="562.917" cy="-113.75" r="6" fill="#ff6600"/>
+    <line x1="562.917" y1="-113.75" x2="536.936" y2="-118.25" stroke="#ff6600"/>
+    <circle cx="459.619" cy="-248.369" r="6" fill="#ff6600"/>
+    <line x1="459.619" y1="-248.369" x2="438.406" y2="-246.656" stroke="#ff6600"/>
+    <circle cx="325" cy="-351.667" r="6" fill="#ff6600"/>
+    <line x1="325" y1="-351.667" x2="310" y2="-345.186" stroke="#ff6600"/>
+    <circle cx="168.232" cy="-416.602" r="6" fill="#ff6600"/>
+    <line x1="168.232" y1="-416.602" x2="160.468" y2="-407.124" stroke="#ff6600"/>
+    <circle cx="0" cy="-438.75" r="6" fill="#ff6600"/>
+    <line x1="0" y1="-438.75" x2="0" y2="-428.25" stroke="#ff6600"/>
+    <rect x="760" y="-439" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="606.218" cy="-105" r="6" fill="#ff6600"/>
+    <line x1="606.218" y1="-105" x2="580.237" y2="-111" stroke="#ff6600"/>
+    <circle cx="494.975" cy="-249.975" r="6" fill="#ff6600"/>
+    <line x1="494.975" y1="-249.975" x2="473.762" y2="-249.762" stroke="#ff6600"/>
+    <circle cx="350" cy="-361.218" r="6" fill="#ff6600"/>
+    <line x1="350" y1="-361.218" x2="335" y2="-356.237" stroke="#ff6600"/>
+    <circle cx="181.173" cy="-431.148" r="6" fill="#ff6600"/>
+    <line x1="181.173" y1="-431.148" x2="173.409" y2="-423.17" stroke="#ff6600"/>
+    <circle cx="0" cy="-455" r="6" fill="#ff6600"/>
+    <line x1="0" y1="-455" x2="0" y2="-446" stroke="#ff6600"/>
+    <rect x="760" y="-431" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="649.519" cy="-93.75" r="6" fill="#ff6600"/>
+    <line x1="649.519" y1="-93.75" x2="623.538" y2="-101.25" stroke="#ff6600"/>
+    <circle cx="530.33" cy="-249.08" r="6" fill="#ff6600"/>
+    <line x1="530.33" y1="-249.08" x2="509.117" y2="-250.367" stroke="#ff6600"/>
+    <circle cx="375" cy="-368.269" r="6" fill="#ff6600"/>
+    <line x1="375" y1="-368.269" x2="360" y2="-364.788" stroke="#ff6600"/>
+    <circle cx="194.114" cy="-443.194" r="6" fill="#ff6600"/>
+    <line x1="194.114" y1="-443.194" x2="186.35" y2="-436.717" stroke="#ff6600"/>
+    <circle cx="0" cy="-468.75" r="6" fill="#ff6600"/>
+    <line x1="0" y1="-468.75" x2="0" y2="-461.25" stroke="#ff6600"/>
+    <rect x="760" y="-423" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="692.82" cy="-80" r="6" fill="#ff6600"/>
+    <line x1="692.82" y1="-80" x2="666.84" y2="-89" stroke="#ff6600"/>
+    <circle cx="565.685" cy="-245.685" r="6" fill="#ff6600"/>
+    <line x1="565.685" y1="-245.685" x2="544.472" y2="-248.472" stroke="#ff6600"/>
+    <circle cx="400" cy="-372.82" r="6" fill="#ff6600"/>
+    <line x1="400" y1="-372.82" x2="385" y2="-370.84" stroke="#ff6600"/>
+    <circle cx="207.055" cy="-452.741" r="6" fill="#ff6600"/>
+    <line x1="207.055" y1="-452.741" x2="199.291" y2="-447.763" stroke="#ff6600"/>
+    <circle cx="0" cy="-480" r="6" fill="#ff6600"/>
+    <line x1="0" y1="-480" x2="0" y2="-474" stroke="#ff6600"/>
+    <rect x="760" y="-415" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="736.122" cy="-63.75" r="6" fill="#cccc00"/>
+    <line x1="736.122" y1="-63.75" x2="710.141" y2="-74.25" stroke="#cccc00"/>
+    <circle cx="601.041" cy="-239.791" r="6" fill="#cccc00"/>
+    <line x1="601.041" y1="-239.791" x2="579.828" y2="-244.078" stroke="#cccc00"/>
+    <circle cx="425" cy="-374.872" r="6" fill="#cccc00"/>
+    <line x1="425" y1="-374.872" x2="410" y2="-374.391" stroke="#cccc00"/>
+    <circle cx="219.996" cy="-459.787" r="6" fill="#cccc00"/>
+    <line x1="219.996" y1="-459.787" x2="212.232" y2="-456.309" stroke="#cccc00"/>
+    <circle cx="0" cy="-488.75" r="6" fill="#cccc00"/>
+    <line x1="0" y1="-488.75" x2="0" y2="-484.25" stroke="#cccc00"/>
+    <rect x="760" y="-407" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="779.423" cy="-45" r="6" fill="#cccc00"/>
+    <line x1="779.423" y1="-45" x2="753.442" y2="-57" stroke="#cccc00"/>
+    <circle cx="636.396" cy="-231.396" r="6" fill="#cccc00"/>
+    <line x1="636.396" y1="-231.396" x2="615.183" y2="-237.183" stroke="#cccc00"/>
+    <circle cx="450" cy="-374.423" r="6" fill="#cccc00"/>
+    <line x1="450" y1="-374.423" x2="435" y2="-375.442" stroke="#cccc00"/>
+    <circle cx="232.937" cy="-464.333" r="6" fill="#cccc00"/>
+    <line x1="232.937" y1="-464.333" x2="225.173" y2="-462.355" stroke="#cccc00"/>
+    <circle cx="0" cy="-495" r="6" fill="#cccc00"/>
+    <line x1="0" y1="-495" x2="0" y2="-492" stroke="#cccc00"/>
+    <rect x="760" y="-399" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="822.724" cy="-23.75" r="6" fill="#cccc00"/>
+    <line x1="822.724" y1="-23.75" x2="796.743" y2="-37.25" stroke="#cccc00"/>
+    <circle cx="671.751" cy="-220.501" r="6" fill="#cccc00"/>
+    <line x1="671.751" y1="-220.501" x2="650.538" y2="-227.788" stroke="#cccc00"/>
+    <circle cx="475" cy="-371.474" r="6" fill="#cccc00"/>
+    <line x1="475" y1="-371.474" x2="460" y2="-373.993" stroke="#cccc00"/>
+    <circle cx="245.878" cy="-466.38" r="6" fill="#cccc00"/>
+    <line x1="245.878" y1="-466.38" x2="238.114" y2="-465.902" stroke="#cccc00"/>
+    <circle cx="0" cy="-498.75" r="6" fill="#cccc00"/>
+    <line x1="0" y1="-498.75" x2="0" y2="-497.25" stroke="#cccc00"/>
+    <rect x="760" y="-391" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="866.025" cy="0" r="6" fill="#cccc00"/>
+    <line x1="866.025" y1="0" x2="840.045" y2="-15" stroke="#cccc00"/>
+    <circle cx="707.107" cy="-207.107" r="6" fill="#cccc00"/>
+    <line x1="707.107" y1="-207.107" x2="685.894" y2="-215.894" stroke="#cccc00"/>
+    <circle cx="500" cy="-366.025" r="6" fill="#cccc00"/>
+    <line x1="500" y1="-366.025" x2="485" y2="-370.045" stroke="#cccc00"/>
+    <circle cx="258.819" cy="-465.926" r="6" fill="#cccc00"/>
+    <line x1="258.819" y1="-465.926" x2="251.054" y2="-466.948" stroke="#cccc00"/>
+    <circle cx="0" cy="-500" r="6" fill="#cccc00"/>
+    <line x1="0" y1="-500" x2="0" y2="-500" stroke="#cccc00"/>
+    <rect x="760" y="-383" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="742.462" cy="-191.212" r="6" fill="#009900"/>
+    <line x1="742.462" y1="-191.212" x2="721.249" y2="-201.499" stroke="#009900"/>
+    <circle cx="525" cy="-358.077" r="6" fill="#009900"/>
+    <line x1="525" y1="-358.077" x2="510" y2="-363.596" stroke="#009900"/>
+    <circle cx="271.76" cy="-462.972" r="6" fill="#009900"/>
+    <line x1="271.76" y1="-462.972" x2="263.995" y2="-465.494" stroke="#009900"/>
+    <circle cx="0" cy="-498.75" r="6" fill="#009900"/>
+    <line x1="0" y1="-498.75" x2="0" y2="-500.25" stroke="#009900"/>
+    <rect x="760" y="-375" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="777.817" cy="-172.817" r="6" fill="#009900"/>
+    <line x1="777.817" y1="-172.817" x2="756.604" y2="-184.604" stroke="#009900"/>
+    <circle cx="550" cy="-347.628" r="6" fill="#009900"/>
+    <line x1="550" y1="-347.628" x2="535" y2="-354.647" stroke="#009900"/>
+    <circle cx="284.701" cy="-457.518" r="6" fill="#009900"/>
+    <line x1="284.701" y1="-457.518" x2="276.936" y2="-461.541" stroke="#009900"/>
+    <circle cx="0" cy="-495" r="6" fill="#009900"/>
+    <line x1="0" y1="-495" x2="0" y2="-498" stroke="#009900"/>
+    <rect x="760" y="-367" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="813.173" cy="-151.923" r="6" fill="#009900"/>
+    <line x1="813.173" y1="-151.923" x2="791.96" y2="-165.21" stroke="#009900"/>
+    <circle cx="575" cy="-334.679" r="6" fill="#009900"/>
+    <line x1="575" y1="-334.679" x2="560" y2="-343.198" stroke="#009900"/>
+    <circle cx="297.642" cy="-449.565" r="6" fill="#009900"/>
+    <line x1="297.642" y1="-449.565" x2="289.877" y2="-455.087" stroke="#009900"/>
+    <circle cx="0" cy="-488.75" r="6" fill="#009900"/>
+    <line x1="0" y1="-488.75" x2="0" y2="-493.25" stroke="#009900"/>
+    <rect x="760" y="-359" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="848.528" cy="-128.528" r="6" fill="#009900"/>
+    <line x1="848.528" y1="-128.528" x2="827.315" y2="-143.315" stroke="#009900"/>
+    <circle cx="600" cy="-319.23" r="6" fill="#009900"/>
+    <line x1="600" y1="-319.23" x2="585" y2="-329.25" stroke="#009900"/>
+    <circle cx="310.583" cy="-439.111" r="6" fill="#009900"/>
+    <line x1="310.583" y1="-439.111" x2="302.818" y2="-446.133" stroke="#009900"/>
+    <circle cx="0" cy="-480" r="6" fill="#009900"/>
+    <line x1="0" y1="-480" x2="0" y2="-486" stroke="#009900"/>
+    <rect x="760" y="-351" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="883.883" cy="-102.633" r="6" fill="#0000ff"/>
+    <line x1="883.883" y1="-102.633" x2="862.67" y2="-118.92" stroke="#0000ff"/>
+    <circle cx="625" cy="-301.282" r="6" fill="#0000ff"/>
+    <line x1="625" y1="-301.282" x2="610" y2="-312.801" stroke="#0000ff"/>
+    <circle cx="323.524" cy="-426.157" r="6" fill="#0000ff"/>
+    <line x1="323.524" y1="-426.157" x2="315.759" y2="-434.68" stroke="#0000ff"/>
+    <circle cx="0" cy="-468.75" r="6" fill="#0000ff"/>
+    <line x1="0" y1="-468.75" x2="0" y2="-476.25" stroke="#0000ff"/>
+    <rect x="760" y="-343" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="919.239" cy="-74.239" r="6" fill="#0000ff"/>
+    <line x1="919.239" y1="-74.239" x2="898.026" y2="-92.026" stroke="#0000ff"/>
+    <circle cx="650" cy="-280.833" r="6" fill="#0000ff"/>
+    <line x1="650" y1="-280.833" x2="635" y2="-293.852" stroke="#0000ff"/>
+    <circle cx="336.465" cy="-410.704" r="6" fill="#0000ff"/>
+    <line x1="336.465" y1="-410.704" x2="328.7" y2="-420.726" stroke="#0000ff"/>
+    <circle cx="0" cy="-455" r="6" fill="#0000ff"/>
+    <line x1="0" y1="-455" x2="0" y2="-464" stroke="#0000ff"/>
+    <rect x="760" y="-335" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="954.594" cy="-43.344" r="6" fill="#0000ff"/>
+    <line x1="954.594" y1="-43.344" x2="933.381" y2="-62.631" stroke="#0000ff"/>
+    <circle cx="675" cy="-257.884" r="6" fill="#0000ff"/>
+    <line x1="675" y1="-257.884" x2="660" y2="-272.404" stroke="#0000ff"/>
+    <circle cx="349.406" cy="-392.75" r="6" fill="#0000ff"/>
+    <line x1="349.406" y1="-392.75" x2="341.641" y2="-404.272" stroke="#0000ff"/>
+    <circle cx="0" cy="-438.75" r="6" fill="#0000ff"/>
+    <line x1="0" y1="-438.75" x2="0" y2="-449.25" stroke="#0000ff"/>
+    <rect x="760" y="-327" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="989.949" cy="-9.949" r="6" fill="#0000ff"/>
+    <line x1="989.949" y1="-9.949" x2="968.736" y2="-30.736" stroke="#0000ff"/>
+    <circle cx="700" cy="-232.436" r="6" fill="#0000ff"/>
+    <line x1="700" y1="-232.436" x2="685" y2="-248.455" stroke="#0000ff"/>
+    <circle cx="362.347" cy="-372.296" r="6" fill="#0000ff"/>
+    <line x1="362.347" y1="-372.296" x2="354.582" y2="-385.318" stroke="#0000ff"/>
+    <circle cx="0" cy="-420" r="6" fill="#0000ff"/>
+    <line x1="0" y1="-420" x2="0" y2="-432" stroke="#0000ff"/>
+    <rect x="760" y="-319" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="1025.305" cy="25.945" r="6" fill="#9900cc"/>
+    <line x1="1025.305" y1="25.945" x2="1004.092" y2="3.658" stroke="#9900cc"/>
+    <circle cx="725" cy="-204.487" r="6" fill="#9900cc"/>
+    <line x1="725" y1="-204.487" x2="710" y2="-222.006" stroke="#9900cc"/>
+    <circle cx="375.288" cy="-349.342" r="6" fill="#9900cc"/>
+    <line x1="375.288" y1="-349.342" x2="367.523" y2="-363.865" stroke="#9900cc"/>
+    <circle cx="0" cy="-398.75" r="6" fill="#9900cc"/>
+    <line x1="0" y1="-398.75" x2="0" y2="-412.25" stroke="#9900cc"/>
+    <rect x="760" y="-311" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="750" cy="-174.038" r="6" fill="#9900cc"/>
+    <line x1="750" y1="-174.038" x2="735" y2="-193.057" stroke="#9900cc"/>
+    <circle cx="388.229" cy="-323.889" r="6" fill="#9900cc"/>
+    <line x1="388.229" y1="-323.889" x2="380.464" y2="-339.911" stroke="#9900cc"/>
+    <circle cx="0" cy="-375" r="6" fill="#9900cc"/>
+    <line x1="0" y1="-375" x2="0" y2="-390" stroke="#9900cc"/>
+    <rect x="760" y="-303" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="775" cy="-141.089" r="6" fill="#9900cc"/>
+    <line x1="775" y1="-141.089" x2="760" y2="-161.609" stroke="#9900cc"/>
+    <circle cx="401.17" cy="-295.935" r="6" fill="#9900cc"/>
+    <line x1="401.17" y1="-295.935" x2="393.405" y2="-313.457" stroke="#9900cc"/>
+    <circle cx="0" cy="-348.75" r="6" fill="#9900cc"/>
+    <line x1="0" y1="-348.75" x2="0" y2="-365.25" stroke="#9900cc"/>
+    <rect x="760" y="-295" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="800" cy="-105.641" r="6" fill="#9900cc"/>
+    <line x1="800" y1="-105.641" x2="785" y2="-127.66" stroke="#9900cc"/>
+    <circle cx="414.11" cy="-265.481" r="6" fill="#9900cc"/>
+    <line x1="414.11" y1="-265.481" x2="406.346" y2="-284.504" stroke="#9900cc"/>
+    <circle cx="0" cy="-320" r="6" fill="#9900cc"/>
+    <line x1="0" y1="-320" x2="0" y2="-338" stroke="#9900cc"/>
+    <rect x="760" y="-287" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="825" cy="-67.692" r="6" fill="#999999"/>
+    <line x1="825" y1="-67.692" x2="810" y2="-91.211" stroke="#999999"/>
+    <circle cx="427.051" cy="-232.528" r="6" fill="#999999"/>
+    <line x1="427.051" y1="-232.528" x2="419.287" y2="-253.05" stroke="#999999"/>
+    <circle cx="0" cy="-288.75" r="6" fill="#999999"/>
+    <line x1="0" y1="-288.75" x2="0" y2="-308.25" stroke="#999999"/>
+    <rect x="760" y="-279" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="850" cy="-27.243" r="6" fill="#999999"/>
+    <line x1="850" y1="-27.243" x2="835" y2="-52.262" stroke="#999999"/>
+    <circle cx="439.992" cy="-197.074" r="6" fill="#999999"/>
+    <line x1="439.992" y1="-197.074" x2="432.228" y2="-219.096" stroke="#999999"/>
+    <circle cx="0" cy="-255" r="6" fill="#999999"/>
+    <line x1="0" y1="-255" x2="0" y2="-276" stroke="#999999"/>
+    <rect x="760" y="-271" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="875" cy="15.706" r="6" fill="#999999"/>
+    <line x1="875" y1="15.706" x2="860" y2="-10.814" stroke="#999999"/>
+    <circle cx="452.933" cy="-159.12" r="6" fill="#999999"/>
+    <line x1="452.933" y1="-159.12" x2="445.169" y2="-182.642" stroke="#999999"/>
+    <circle cx="0" cy="-218.75" r="6" fill="#999999"/>
+    <line x1="0" y1="-218.75" x2="0" y2="-241.25" stroke="#999999"/>
+    <rect x="760" y="-263" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="465.874" cy="-118.666" r="6" fill="#999999"/>
+    <line x1="465.874" y1="-118.666" x2="458.11" y2="-143.689" stroke="#999999"/>
+    <circle cx="0" cy="-180" r="6" fill="#999999"/>
+    <line x1="0" y1="-180" x2="0" y2="-204" stroke="#999999"/>
+    <rect x="760" y="-255" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="478.815" cy="-75.713" r="6" fill="#6699ff"/>
+    <line x1="478.815" y1="-75.713" x2="471.051" y2="-102.235" stroke="#6699ff"/>
+    <circle cx="0" cy="-138.75" r="6" fill="#6699ff"/>
+    <line x1="0" y1="-138.75" x2="0" y2="-164.25" stroke="#6699ff"/>
+    <rect x="760" y="-247" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="491.756" cy="-30.259" r="6" fill="#6699ff"/>
+    <line x1="491.756" y1="-30.259" x2="483.992" y2="-58.281" stroke="#6699ff"/>
+    <circle cx="0" cy="-95" r="6" fill="#6699ff"/>
+    <line x1="0" y1="-95" x2="0" y2="-122" stroke="#6699ff"/>
+    <rect x="760" y="-239" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="504.697" cy="17.695" r="6" fill="#6699ff"/>
+    <line x1="504.697" y1="17.695" x2="496.933" y2="-11.828" stroke="#6699ff"/>
+    <circle cx="0" cy="-48.75" r="6" fill="#6699ff"/>
+    <line x1="0" y1="-48.75" x2="0" y2="-77.25" stroke="#6699ff"/>
+    <rect x="760" y="-231" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+   <g class="time">
+    <circle cx="0" cy="0" r="6" fill="#6699ff"/>
+    <line x1="0" y1="0" x2="0" y2="-30" stroke="#6699ff"/>
+    <rect x="760" y="-223" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>
+  </g>
+  <g class="nofade">
+   <rect x="-64" y="0" width="1120" height="32" fill="url(#ground)"/>
+   <g font-size="20" text-anchor="middle" stroke="#000000" fill="#000000">
+   <line x1="0" y1="0" x2="0" y2="10"/>
+   <text x="0" y="24" stroke="none">0 m</text>
+   <line x1="10" y1="0" x2="10" y2="5"/>
+   <line x1="20" y1="0" x2="20" y2="5"/>
+   <line x1="30" y1="0" x2="30" y2="5"/>
+   <line x1="40" y1="0" x2="40" y2="5"/>
+   <line x1="50" y1="0" x2="50" y2="10"/>
+   <line x1="60" y1="0" x2="60" y2="5"/>
+   <line x1="70" y1="0" x2="70" y2="5"/>
+   <line x1="80" y1="0" x2="80" y2="5"/>
+   <line x1="90" y1="0" x2="90" y2="5"/>
+   <line x1="100" y1="0" x2="100" y2="10"/>
+   <text x="100" y="24" stroke="none">1 m</text>
+   <line x1="110" y1="0" x2="110" y2="5"/>
+   <line x1="120" y1="0" x2="120" y2="5"/>
+   <line x1="130" y1="0" x2="130" y2="5"/>
+   <line x1="140" y1="0" x2="140" y2="5"/>
+   <line x1="150" y1="0" x2="150" y2="10"/>
+   <line x1="160" y1="0" x2="160" y2="5"/>
+   <line x1="170" y1="0" x2="170" y2="5"/>
+   <line x1="180" y1="0" x2="180" y2="5"/>
+   <line x1="190" y1="0" x2="190" y2="5"/>
+   <line x1="200" y1="0" x2="200" y2="10"/>
+   <text x="200" y="24" stroke="none">2 m</text>
+   <line x1="210" y1="0" x2="210" y2="5"/>
+   <line x1="220" y1="0" x2="220" y2="5"/>
+   <line x1="230" y1="0" x2="230" y2="5"/>
+   <line x1="240" y1="0" x2="240" y2="5"/>
+   <line x1="250" y1="0" x2="250" y2="10"/>
+   <line x1="260" y1="0" x2="260" y2="5"/>
+   <line x1="270" y1="0" x2="270" y2="5"/>
+   <line x1="280" y1="0" x2="280" y2="5"/>
+   <line x1="290" y1="0" x2="290" y2="5"/>
+   <line x1="300" y1="0" x2="300" y2="10"/>
+   <text x="300" y="24" stroke="none">3 m</text>
+   <line x1="310" y1="0" x2="310" y2="5"/>
+   <line x1="320" y1="0" x2="320" y2="5"/>
+   <line x1="330" y1="0" x2="330" y2="5"/>
+   <line x1="340" y1="0" x2="340" y2="5"/>
+   <line x1="350" y1="0" x2="350" y2="10"/>
+   <line x1="360" y1="0" x2="360" y2="5"/>
+   <line x1="370" y1="0" x2="370" y2="5"/>
+   <line x1="380" y1="0" x2="380" y2="5"/>
+   <line x1="390" y1="0" x2="390" y2="5"/>
+   <line x1="400" y1="0" x2="400" y2="10"/>
+   <text x="400" y="24" stroke="none">4 m</text>
+   <line x1="410" y1="0" x2="410" y2="5"/>
+   <line x1="420" y1="0" x2="420" y2="5"/>
+   <line x1="430" y1="0" x2="430" y2="5"/>
+   <line x1="440" y1="0" x2="440" y2="5"/>
+   <line x1="450" y1="0" x2="450" y2="10"/>
+   <line x1="460" y1="0" x2="460" y2="5"/>
+   <line x1="470" y1="0" x2="470" y2="5"/>
+   <line x1="480" y1="0" x2="480" y2="5"/>
+   <line x1="490" y1="0" x2="490" y2="5"/>
+   <line x1="500" y1="0" x2="500" y2="10"/>
+   <text x="500" y="24" stroke="none">5 m</text>
+   <line x1="510" y1="0" x2="510" y2="5"/>
+   <line x1="520" y1="0" x2="520" y2="5"/>
+   <line x1="530" y1="0" x2="530" y2="5"/>
+   <line x1="540" y1="0" x2="540" y2="5"/>
+   <line x1="550" y1="0" x2="550" y2="10"/>
+   <line x1="560" y1="0" x2="560" y2="5"/>
+   <line x1="570" y1="0" x2="570" y2="5"/>
+   <line x1="580" y1="0" x2="580" y2="5"/>
+   <line x1="590" y1="0" x2="590" y2="5"/>
+   <line x1="600" y1="0" x2="600" y2="10"/>
+   <text x="600" y="24" stroke="none">6 m</text>
+   <line x1="610" y1="0" x2="610" y2="5"/>
+   <line x1="620" y1="0" x2="620" y2="5"/>
+   <line x1="630" y1="0" x2="630" y2="5"/>
+   <line x1="640" y1="0" x2="640" y2="5"/>
+   <line x1="650" y1="0" x2="650" y2="10"/>
+   <line x1="660" y1="0" x2="660" y2="5"/>
+   <line x1="670" y1="0" x2="670" y2="5"/>
+   <line x1="680" y1="0" x2="680" y2="5"/>
+   <line x1="690" y1="0" x2="690" y2="5"/>
+   <line x1="700" y1="0" x2="700" y2="10"/>
+   <text x="700" y="24" stroke="none">7 m</text>
+   <line x1="710" y1="0" x2="710" y2="5"/>
+   <line x1="720" y1="0" x2="720" y2="5"/>
+   <line x1="730" y1="0" x2="730" y2="5"/>
+   <line x1="740" y1="0" x2="740" y2="5"/>
+   <line x1="750" y1="0" x2="750" y2="10"/>
+   <line x1="760" y1="0" x2="760" y2="5"/>
+   <line x1="770" y1="0" x2="770" y2="5"/>
+   <line x1="780" y1="0" x2="780" y2="5"/>
+   <line x1="790" y1="0" x2="790" y2="5"/>
+   <line x1="800" y1="0" x2="800" y2="10"/>
+   <text x="800" y="24" stroke="none">8 m</text>
+   <line x1="810" y1="0" x2="810" y2="5"/>
+   <line x1="820" y1="0" x2="820" y2="5"/>
+   <line x1="830" y1="0" x2="830" y2="5"/>
+   <line x1="840" y1="0" x2="840" y2="5"/>
+   <line x1="850" y1="0" x2="850" y2="10"/>
+   <line x1="860" y1="0" x2="860" y2="5"/>
+   <line x1="870" y1="0" x2="870" y2="5"/>
+   <line x1="880" y1="0" x2="880" y2="5"/>
+   <line x1="890" y1="0" x2="890" y2="5"/>
+   <line x1="900" y1="0" x2="900" y2="10"/>
+   <text x="900" y="24" stroke="none">9 m</text>
+   <line x1="910" y1="0" x2="910" y2="5"/>
+   <line x1="920" y1="0" x2="920" y2="5"/>
+   <line x1="930" y1="0" x2="930" y2="5"/>
+   <line x1="940" y1="0" x2="940" y2="5"/>
+   <line x1="950" y1="0" x2="950" y2="10"/>
+   <line x1="960" y1="0" x2="960" y2="5"/>
+   <line x1="970" y1="0" x2="970" y2="5"/>
+   <line x1="980" y1="0" x2="980" y2="5"/>
+   <line x1="990" y1="0" x2="990" y2="5"/>
+   <line x1="1000" y1="0" x2="1000" y2="10"/>
+   <text x="1000" y="24" stroke="none">10 m</text>
+   </g>
+  </g>
+ </g>
+</svg>
+
+<!-- Perl script to create above; please do not remove.
+#!/usr/bin/perl
+use POSIX;
+use Math::Trig;
+my @angles = (
+ [15, 240, "#009900"],
+ [30, 240, "#996600"],
+ [45, 240, "#cc0000"],
+ [60, 240, "#990099"],
+ [75, 240, "#0000cc"],
+ [90, -60, "#006699"],
+ [5, 0, ""],
+ [10, 0, ""],
+ [20, 0, ""],
+ [25, 0, ""],
+ [35, 0, ""],
+ [40, 0, ""],
+ [50, 0, ""],
+ [55, 0, ""],
+ [65, 0, ""],
+ [70, 0, ""],
+ [80, 0, ""],
+ [85, 0, ""],
+ undef);
+my @time_colours = ("#333333", "#996600", "#ff0000", "#ff6600", "#cccc00",
+ "#009900", "#0000ff", "#9900cc", "#999999", "#6699ff");
+my $dt = 0.05;
+my $nt = 4;
+my $scalev = 0.03;
+my $scalex = 100;
+my $scaley = 100;
+my $u = 10;
+my $a = 10;
+my $r = 6;
+my $double_dash = "-" . "-";
+my $out_ticks = "";
+my $out_legend = "";
+my $out_plot = "";
+my $out_tmp;
+my $deg, $offset, $colour;
+my $rad, $x, $y, $ux, $uy, $vx, $vy, $t, $it, $cx, $cy, $cx2, $cy2, $fill;
+my $file_out = $0;
+$file_out =~ s/[^\.]*$/svg/;
+
+sub round {
+ my $unit = $_[1] || 1;
+ return floor($_[0] * $unit + 0.5) / $unit;
+}
+sub x { return &round($scalex * $_[0], 1e3); }
+sub y { return &round(-$scaley * $_[0], 1e3); }
+
+for ($t = 0; $t <= 100; ++$t) {
+ $x = $t / 10;
+ $cx = &x($x);
+ if ($t % 5 == 0) {
+  $out_ticks .= qq`
+   <line x1="${cx}" y1="0" x2="${cx}" y2="10"/>`;
+ } else {
+  $out_ticks .= qq`
+   <line x1="${cx}" y1="0" x2="${cx}" y2="5"/>`;
+ }
+ if ($t % 10 == 0) {
+  $out_ticks .= qq`
+   <text x="${cx}" y="24" stroke="none">${x} m</text>`;
+ }
+}
+
+for ($y = 0; $y < @time_colours; ++$y) {
+ $fill = $time_colours[$y];
+ $cx = 830;
+ $cy = $y * 32 - 520;
+ $cx2 = $cx + 10;
+ $cy2 = $cy + 10;
+ $x = $cx - 20;
+ $out_tmp = sprintf(qq`<tspan font-style="italic">t</tspan><tspan> : %.2f &#8211; %.2f s</tspan>`,
+                    $dt * (1 + $nt * $y), $dt * $nt * ($y + 1));
+ $out_legend .= qq`
+   <circle cx="${cx}" cy="${cy}" r="${r}" fill="${fill}"/>
+   <line x1="${cx}" y1="${cy}" x2="${x}" y2="${cy}" stroke="${fill}"/>
+   <text x="${cx2}" y="${cy2}" fill="#000000">${out_tmp}</text>`;
+}
+
+my @out_plot_times;
+foreach (@angles) {
+ $_ || next;
+ $deg = $_->[0];
+ $offset = $_->[1];
+ $colour = $_->[2];
+ print "${deg}\n";
+ $out_tmp = "";
+ $rad = $deg * pi / 180;
+ $uy = $u * sin($rad);
+ $ux = $u * cos($rad);
+ $vx = $ux;
+ $it = 0;
+ for ($t = $dt; $t <= $dt || $y > 0; $t += $dt) {
+  $x = $ux * $t;
+  $vy = $uy - $a * $t;
+  $y = $uy * $t - $a * $t * $t / 2;
+  $fill = $time_colours[int($it / $nt) % @time_colours];
+  $cx = &x($x);
+  $cy = &y($y);
+  $cx2 = &x($x - $vx * $scalev);
+  $cy2 = &y($y - $vy * $scalev);
+  if ($colour) {
+   $out_plot_times[$it] .= qq`
+    <circle cx="${cx}" cy="${cy}" r="${r}" fill="${fill}"/>
+    <line x1="${cx}" y1="${cy}" x2="${cx2}" y2="${cy2}" stroke="${fill}"/>`;
+  }
+  $out_tmp .= qq` L ${cx} ${cy}`;
+  ++$it;
+ }
+ $t = 2 * $uy / $a;
+ $x = 2 * $ux * $uy / $a;
+ $y = $uy * $uy / (2 * $a);
+ $cx = &x($x);
+ if ($colour) {
+  $cy = &y($y);
+  $cx2 = &x($x / 2);
+  $cy2 = &y($y) - 18;
+  $out_plot .= qq`
+   <use transform="translate(${cx2},${cy})" xlink:href="#arrow" />
+   <text x="${offset}" y="${cy2}" fill="#000000">` . sprintf(qq`
+   <tspan font-weight="bold">%d&#176; </tspan>
+   <tspan dx="0.1em" font-style="italic">R</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">%.1fm</tspan>
+   <tspan dx="0.1em" font-style="italic">H</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">%.1fm</tspan>
+   <tspan dx="0.1em" font-style="italic">T</tspan><tspan dx="0.1em">:</tspan><tspan dx="0.1em" font-weight="bold">%.2fs</tspan>`,
+   $deg, $x, $y, $t) . qq`</text>
+`;
+ }
+ $colour = "#000000";
+ $out_plot .= qq`
+   <path d="M 0 0${out_tmp} L ${cx} 0" stroke="${colour}" stroke-width="1" stroke-opacity="0.3"/>`;
+}
+
+for ($i = 0; $i < @out_plot_times; ++$i) {
+ $y = -535 + $i * 8;
+ $out_plot_time = $out_plot_times[$i];
+ $out_plot .= qq`
+   <g class="time">${out_plot_time}
+    <rect x="760" y="${y}" width="280" height="8" fill="#000000" opacity="0.1"/>
+   </g>`;
+}
+
+open (FILE_OUT, ">$file_out");
+print FILE_OUT qq`<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-64 -535 1120 560">
+ <title>Trajectories of ideal projectiles launched at different angles</title>
+ <desc>Plot of trajectories of projectiles launched at different elevation angles but the same speed of 10 m/s in a vacuum and uniform downward gravity of 10 m/s^2; t = time from launch, T = time of flight, R = range and H = highest point of trajectory (indicated with arrows); points are at 0.05 s intervals and length of their tails is linearly proportional to their speed; conceived and drawn by CMG Lee.</desc>
+ <style type="text/css">
+  #main:hover { stroke-opacity:0.1; fill-opacity:0.1; }
+  .nofade     { stroke-opacity:1;   fill-opacity:1; }
+  .time:hover { stroke-opacity:1;   fill-opacity:1; cursor:pointer;
+                -webkit-filter: drop-shadow(0 0 16px #000000);
+                filter:         drop-shadow(0 0 16px #000000); }
+ </style>
+ <defs>
+  <linearGradient id="ground" x1="0%" y1="0%" x2="0%" y2="100%">
+   <stop offset="0%" stop-color="#00ff00"/>
+   <stop offset="100%" stop-color="#ffffff"/>
+  </linearGradient>
+  <path id="arrow" transform="translate(0,-2)" d="M -10 -10 L 0 0 L 10 -10 M 0 -15 V 0" stroke="#000000"/>
+ </defs>
+ <g id="main" font-family="sans-serif" letter-spacing="-1" text-anchor="start">
+  <rect x="-64" y="-544" width="1120" height="560" fill="#ffffff" class="nofade"/>
+  <g font-size="24" stroke-width="4" fill="none">
+   <g class="nofade">${out_legend}
+   </g>
+${out_plot}
+  </g>
+  <g class="nofade">
+   <rect x="-64" y="0" width="1120" height="32" fill="url(#ground)"/>
+   <g font-size="20" text-anchor="middle" stroke="#000000" fill="#000000">${out_ticks}
+   </g>
+  </g>
+ </g>
+</svg>
+
+<!${double_dash} Perl script to create above; please do not remove.
+`;
+open (FILE_IN, $0);
+while (<FILE_IN>) { print FILE_OUT $_; }
+close FILE_IN;
+print FILE_OUT "${double_dash}>";
+close FILE_OUT;
+-->
