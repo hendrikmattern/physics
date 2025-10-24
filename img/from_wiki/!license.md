@@ -1079,3 +1079,21 @@
 <img src="../img/from_wiki/Nonuniform_circular_motion.svg" alt="Nonuniform_circular_motion.svg" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Nonuniform_circular_motion.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Dot_Product.svg" alt="Dot_Product.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Dot_Product.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Cross_product_vector.svg" alt="Cross_product_vector.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Cross_product_vector.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Right_hand_rule_cross_product.svg" alt="Right_hand_rule_cross_product.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Right_hand_rule_cross_product.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
