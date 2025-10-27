@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>1_02_script</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>1_03_script</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7517,7 +7517,10 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="1.2.-Kinematics-beyond-one-dimension-&amp;-projectile-motion">1.2. Kinematics beyond one dimension &amp; projectile motion<a class="anchor-link" href="#1.2.-Kinematics-beyond-one-dimension-&amp;-projectile-motion">¶</a></h1><p>In this chapter, motion is described as a vector phenomenon extending from one to multiple dimensions, introducing component analysis for 2D and 3D motion, projectile trajectories, relative velocity, and circular motion.</p>
+<h1 id="1.3.-Dynamics:-Newton's-Laws-of-Motion">1.3. Dynamics: Newton's Laws of Motion<a class="anchor-link" href="#1.3.-Dynamics:-Newton's-Laws-of-Motion">¶</a></h1><p>In this chapter, ...</p>
+<p>3 4. Newton's laws of motion/Dynamics
+5. Using Newton's laws: Friction,  drag forces
+short ?6 gravitation? as dedicated HStut on that</p>
 </div>
 </div>
 </div>
@@ -7527,33 +7530,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="1.2.1.-Moving-to-higher-dimensions:-Basic-Concept">1.2.1. Moving to higher dimensions: Basic Concept<a class="anchor-link" href="#1.2.1.-Moving-to-higher-dimensions:-Basic-Concept">¶</a></h2><p>To describe motion in a plane, we need <strong>two perpendicular coordinate axes</strong>, usually $x$ (horizontal) and $y$ (vertical). The corresponding <strong>unit vectors</strong> $\hat{\imath}$ and $\hat{\jmath}$ point in the positive directions of these axes and have unit magnitude:
-$$
-|\hat{\imath}| = |\hat{\jmath}| = 1, \qquad 
-\hat{\imath}\!\cdot\!\hat{\jmath} = 0.
-$$</p>
-<p>Any vector quantity—position, velocity, or acceleration—can then be written in <strong>component form</strong>:
-$$
-\vec{r} = x\,\hat{\imath} + y\,\hat{\jmath}, \qquad
-\vec{v} = v_x\,\hat{\imath} + v_y\,\hat{\jmath}, \qquad
-\vec{a} = a_x\,\hat{\imath} + a_y\,\hat{\jmath}.
-$$
-Each component behaves like an independent one-dimensional motion, so all 1D kinematic equations still apply separately to $x(t)$ and $y(t)$. Vector operations such as addition, subtraction, or differentiation act <strong>component-wise</strong>:
-$$
-\frac{d\vec{r}}{dt} = \frac{dx}{dt}\,\hat{\imath} + \frac{dy}{dt}\,\hat{\jmath}.
-$$</p>
-<p>The chosen <strong>reference frame</strong> defines the origin and the orientation of the coordinate axes. Once set, all components must be expressed relative to that frame. Changing frames (for example, from a moving train to the ground) alters the numerical components of $\vec{r}$ or $\vec{v}$ but never the physical event itself.</p>
-<p>The concept can be extended to beyond 2D. In three dimensions, a third perpendicular axis $z$ is added together with the unit vector $\hat{k}$. The <strong>Cartesian basis</strong> $\{\hat{\imath}, \hat{\jmath}, \hat{k}\}$ is <strong>orthonormal</strong>:
-$$
-\hat{\imath}\!\cdot\!\hat{\jmath} = 
-\hat{\jmath}\!\cdot\!\hat{k} = 
-\hat{k}\!\cdot\!\hat{\imath} = 0, \qquad
-|\hat{\imath}|=|\hat{\jmath}|=|\hat{k}|=1.
-$$</p>
-<p>To conclude, beyond 1D, position $\vec r(t)$, velocity $\vec v(t)$, and acceleration $\vec a(t)$ must be treated as vectors. The <strong>position vector</strong> $\vec r(t)$ points from the chosen origin to the object (represented as an infinitesimal small point). The <strong>displacement</strong> over an interval is $\Delta \vec r = \vec r - \vec r_0$. The <strong>velocity</strong> is the time derivative of position,
-$$\vec v(t) = \frac{d\vec r}{dt},$$
-and the <strong>acceleration</strong> is the time derivative of velocity,
-$$\vec a(t) = \frac{d\vec v}{dt} = \frac{d^2\vec r}{dt^2}.$$</p>
+<h2 id="1.3.1.-Force">1.3.1. Force<a class="anchor-link" href="#1.3.1.-Force">¶</a></h2><p>A force is any interaction capable of changing an object’s motion—e.g. experienced as a push or a pull. Forces may involve physical contact (pushing a door, friction, normal force, tension) or act at a distance (gravity, electromagnetism). A stationary object requires a force to start moving, and a moving object requires a force to change its velocity in magnitude or direction—that is, to accelerate. The magnitude of a force can be measured with a spring scale, which relies on the proportional stretch of a calibrated spring. Because forces have both magnitude and direction, they are <strong>vectors</strong> and combine by vector addition; the <strong>net force</strong> (resultant) is the vector sum of all forces acting on an object and is what determines its acceleration.</p>
 </div>
 </div>
 </div>
@@ -7563,17 +7540,14 @@ $$\vec a(t) = \frac{d\vec v}{dt} = \frac{d^2\vec r}{dt^2}.$$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="1.2.2.-Projectile-motion-&amp;-the-superposition-of-motions">1.2.2. Projectile motion &amp; the superposition of motions<a class="anchor-link" href="#1.2.2.-Projectile-motion-&amp;-the-superposition-of-motions">¶</a></h2><p>A simple yet striking observation reveals a key idea of two-dimensional motion: if one ball is dropped from the edge of a table and another is rolled horizontally off the same table at the same instant, <strong>both hit the floor simultaneously</strong>. The horizontal motion of the second ball has no influence on how fast it falls vertically. This experiment demonstrates the <strong>independence of motion along perpendicular directions</strong>, or in mathematical terms, the <strong>superposition principle</strong> for kinematics.</p>
-<p>Superposition means that the overall motion of an object can be seen as the <strong>vector sum of independent component motions</strong>. In the case of a projectile, one motion occurs horizontally (constant velocity, no acceleration), and the other vertically (uniform acceleration due to gravity). These act simultaneously but independently, linked only by the shared time variable $t$.</p>
-<p>This idea allows a <strong>component-wise analysis</strong> of motion. Each coordinate axis is treated separately using the one-dimensional equations of motion, while the full trajectory and velocity are obtained by recombining the components into vector form:
-$$
-\vec{r}(t) = x(t)\,\hat{\imath} + y(t)\,\hat{\jmath}, \qquad 
-\vec{v}(t) = v_x(t)\,\hat{\imath} + v_y(t)\,\hat{\jmath}, \qquad 
-\vec{a}(t) = a_x(t)\,\hat{\imath} + a_y(t)\,\hat{\jmath}.
-$$
-Because $\hat{\imath}$ and $\hat{\jmath}$ are perpendicular, their contributions do not interfere. One can analyze e.g. $x(t)$ and $y(t)$ independently and then reconstruct $\vec{r}(t)$.</p>
-<p>The superposition principle is <strong>not limited to projectiles</strong>. It is a powerful concept that reappears throughout physics. For instance, in <strong>electromagnetic motion</strong> (a charged particle moving simultaneously under electric and magnetic fields), in <strong>wave interference</strong>, and in <strong>circular motion</strong> (as the sum of two perpendicular harmonic motions).</p>
-<p>Projectile motion thus serves as the first and simplest illustration of this universal idea: complex motion can often be understood as the sum of simpler, independent parts.</p>
+<h2 id="1.3.2.-Newton%E2%80%99s-first-law-of-motion:-The-law-of-inertia">1.3.2. Newton’s first law of motion: The law of inertia<a class="anchor-link" href="#1.3.2.-Newton%E2%80%99s-first-law-of-motion:-The-law-of-inertia">¶</a></h2><p>Early thinkers such as Aristotle believed that a force was needed to keep an object moving; in their view, rest was the "natural" state, and motion required continuous pushing or pulling. However, Galileo challenged this idea by imagining motion on a perfectly smooth surface with no friction. He realized that as friction is reduced, less and less force is needed to maintain constant motion. In the ideal limit of zero friction, no force at all is needed to keep an object moving at constant speed in a straight line.</p>
+<p>From this reasoning, Galileo concluded that an object will continue moving with constant velocity unless a force acts to change that state of motion. He further recognized that friction is simply another real force that resists motion, rather than proof that continuous effort is needed to maintain motion. This was a revolutionary insight: forces are required not to keep things moving, but to change their motion.</p>
+<p>Building on Galileo’s work, Newton formulated his <strong>first law of motion</strong>:</p>
+<blockquote>
+<p>Every object continues in its state of rest or of uniform motion in a straight line unless acted upon by a net external force.</p>
+</blockquote>
+<p>This property of matter, the tendency to resist changes in motion, is called <strong>inertia</strong>, and the law is therefore also known as the <strong>Law of Inertia</strong>. A body will remain at rest or continue to move at constant velocity unless the vector sum of all forces acting on it (the <strong>net force</strong>) is nonzero. If the forces on an object balance each other so that the net force is zero, its velocity remains constant, including the special case of remaining at rest.</p>
+<p>For example, a puck gliding on an air table moves almost without friction and will continue in a straight line at constant speed. Similarly, a school bus that suddenly stops causes backpacks to slide forward, not because a forward force acts on them, but because they maintain their previous motion until a force (friction with the floor) slows them down.</p>
 </div>
 </div>
 </div>
@@ -7583,100 +7557,128 @@ Because $\hat{\imath}$ and $\hat{\jmath}$ are perpendicular, their contributions
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="1.2.3.-Kinematics-of-projectile-motion">1.2.3. Kinematics of projectile motion<a class="anchor-link" href="#1.2.3.-Kinematics-of-projectile-motion">¶</a></h2><p>Having established that motion along perpendicular directions can be treated independently, we now apply this principle to a projectile launched near Earth’s surface, where gravity is the only acting force and air resistance is neglected. The acceleration is constant and directed downward:
+<h2 id="1.3.3.-Inertial-reference-frames-&amp;-when-the-first-law-holds">1.3.3. Inertial reference frames &amp; when the first law holds<a class="anchor-link" href="#1.3.3.-Inertial-reference-frames-&amp;-when-the-first-law-holds">¶</a></h2><p>Newton’s first law is not valid in all reference frames. If you observe motion from an accelerating frame, such as a car speeding up, slowing down, or turning, objects appear to move even though no physical force acts on them. A smartphone sliding backward on the dashboard of a car that accelerates forward does so because it tends to remain at rest while the car moves ahead.</p>
+<p>Reference frames in which Newton’s first law holds are called <strong>inertial reference frames</strong>. In these frames, an object not acted upon by a net force moves with constant velocity. Reference frames that accelerate or rotate relative to an inertial frame are <strong>non-inertial</strong>, and within them, apparent motions can occur that cannot be explained by real forces.</p>
+<p>For most everyday purposes, we can treat the <strong>Earth</strong> as an approximately inertial reference frame. Although the Earth rotates and revolves around the Sun, these accelerations are small enough that their effects on most laboratory or classroom experiments can be neglected.</p>
+<p>Any frame moving with <strong>constant velocity</strong> relative to an inertial frame (for instance, a smoothly moving car or airplane) is itself inertial. Newton’s first law therefore provides both a description of motion and a <strong>definition of inertial frames</strong>: a frame is inertial if, and only if, an object free of forces moves in a straight line at constant speed.</p>
+<p>Any frame moving with <strong>constant velocity</strong> relative to an inertial frame (for instance, a vehicle with constant velocity) is itself inertial. Newton’s first law therefore provides both a description of motion and a <strong>definition of inertial frames</strong>: a frame is inertial if, and only if, an object free of forces either remains at rest or moves in a straight line at constant speed.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="1.3.4.-Mass-&amp;-Inertia">1.3.4. Mass &amp; Inertia<a class="anchor-link" href="#1.3.4.-Mass-&amp;-Inertia">¶</a></h2><p><strong>Mass</strong> quantifies an object’s inertia, its resistance to acceleration or change in motion. It measures how strongly an object resists being accelerated by a given force. The larger the mass, the greater the force required to produce the same change in velocity. A heavy truck, for example, needs much more force than a bicycle to achieve the same acceleration.</p>
+<p>Mass is an intrinsic property of matter and does not depend on location. It is measured in <strong>kilograms (kg)</strong>, the SI unit of mass.</p>
+<p><strong>Weight</strong>, in contrast, is a <strong>force</strong>—the gravitational pull on a mass:<br/>
+$\vec W = m\vec g$, directed toward Earth’s center, with $|\vec g| \approx 9.81\,\text{m/s}^2$ near the surface.</p>
+<p>An object’s mass remains the same everywhere, but its weight changes with the local gravitational field. On the Moon, where gravity is weaker, an object weighs only about one-sixth as much as on Earth but has the same mass and inertia. This distinction clarifies that gravity provides one particular force acting on mass, while mass itself expresses resistance to <em>any</em> change in motion.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="1.3.5.-Newton%E2%80%99s-second-law-of-motion">1.3.5. Newton’s second law of motion<a class="anchor-link" href="#1.3.5.-Newton%E2%80%99s-second-law-of-motion">¶</a></h2><p>Newton’s first law describes what happens when no net force acts on an object. The <strong>second law</strong> explains what occurs when a net force <em>is</em> present: an object’s velocity changes, meaning it accelerates. If the net force acts in the same direction as motion, the object speeds up; if it acts in the opposite direction, it slows down; and if it acts sideways, it changes direction. In all cases, a net force causes acceleration.</p>
+<p>Newton’s <strong>second law of motion</strong> is defined as:</p>
+<blockquote>
+<p>At any instant of time, the net force on a body is equal to the body's acceleration multiplied by its mass or, equivalently, the rate at which the body's momentum is changing with time.</p>
+</blockquote>
+<p>Thus, the acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass.<br/>
+Further, the direction of the acceleration is the same as that of the net force.</p>
+<p>In vector form, the law can be stated as
+$\vec F_{\text{net}} = m \vec a$</p>
+<p>Since the net force is the vector sum of all individual forces,<br/>
+$\vec F_{\text{net}} = \sum_i \vec F_i$.</p>
+<p>Further, each Cartesian component can be treated separately:
 $$
-\vec{a} = -g\,\hat{\jmath}, \qquad g \approx 9.81\,\text{m/s}^2.
+\sum F_x = m a_x, \qquad
+\sum F_y = m a_y, \qquad
+\sum F_z = m a_z.
 $$</p>
-<h3 id="Horizontal-motion">Horizontal motion<a class="anchor-link" href="#Horizontal-motion">¶</a></h3><p>Along the $x$-axis, no acceleration acts once the object is in flight:
+<p>Force is measured in <strong>Newton (N)</strong>, which is defined as<br/>
+$1\,\text{N} = 1\,\tfrac{\text{kg m}}{\text{s}^2}.$</p>
+<p>Applying the second law requires identifying all forces acting on the object and correctly resolving them into components. The challenge is often not in evaluating the equation itself, but in constructing an accurate <strong>force model</strong> that captures the physical situation.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="1.3.6.-Newton%E2%80%99s-third-law-of-motion">1.3.6. Newton’s third law of motion<a class="anchor-link" href="#1.3.6.-Newton%E2%80%99s-third-law-of-motion">¶</a></h2><p>Newton’s second law describes how a force changes motion, but it does not explain <strong>where forces come from</strong>. Observation shows that forces always arise from <strong>interactions between two objects</strong>: a hammer pushes on a nail, a hand presses on a desk, a rocket pushes on exhaust gases. In every such interaction, <strong>both objects exert forces on each other</strong>.</p>
+<p>Newton’s <strong>third law of motion</strong> states:</p>
+<blockquote>
+<p>If two bodies exert forces on each other, these forces have the same magnitude but opposite directions.</p>
+</blockquote>
+<p>Thus, whenever one object exerts a force on a second object, the second object exerts an equal force in the opposite direction on the first. This principle is sometimes summarized as: <strong>To every action there is an equal and opposite reaction.</strong></p>
+<p>In symbolic form:
 $$
-a_x = 0.
+\vec F_{AB} = -\vec F_{BA},
 $$
-Hence, the horizontal velocity remains constant:
-$$
-v_x(t) = v_{0x} = v_0 \cos\theta_0,
-$$
-and the horizontal position changes linearly with time:
-$$
-x(t) = x_0 + v_{0x}\,t.
-$$
-This is a case of <strong>uniform motion</strong>, i.e. the projectile covers equal horizontal distances in equal time intervals.</p>
-<h3 id="Vertical-motion">Vertical motion<a class="anchor-link" href="#Vertical-motion">¶</a></h3><p>Along the $y$-axis, gravity produces a constant downward acceleration:
-$$
-a_y = -g.
-$$
-The velocity and position along $y$ evolve as
-$$
-v_y(t) = v_{0y} - g\,t, \qquad 
-y(t) = y_0 + v_{0y}\,t - \tfrac{1}{2}g\,t^2,
-$$
-where $v_{0y} = v_0 \sin\theta_0$.<br/>
-This is <strong>uniformly accelerated motion</strong>, identical in form to one-dimensional free fall.</p>
-<h3 id="Combining-the-components">Combining the components<a class="anchor-link" href="#Combining-the-components">¶</a></h3><p>The total position and velocity vectors follow from their components:
-$$
-\vec{r}(t) = x(t)\,\hat{\imath} + y(t)\,\hat{\jmath}, \qquad 
-\vec{v}(t) = v_x(t)\,\hat{\imath} + v_y(t)\,\hat{\jmath}.
-$$
-Eliminating $t$ between $x(t)$ and $y(t)$ yields the trajectory:</p>
+where $\vec F_{AB}$ is the force exerted on object B by object A, and $\vec F_{BA}$ is the force exerted on object A by object B.</p>
+<p>While it may seem trivial that the two forces are <strong>equal in magnitude</strong> and <strong>opposite in direction</strong>, there is a small, but <strong>crucial point</strong> to keep in mind when applying the third law: Force $F_{AB}$ is exerted by object $A$ on object $B$ and force $F_{BA}$ is exerted by object $B$ on object $A$. Thus, <strong>the two forces act on different bodies</strong>. They therefore never cancel within a single free-body diagram (see later).</p>
+<p>To better illustrate this point, let's look at some examples:</p>
+<h3 id="Example-1:-Ice-Skater-&amp;-wall">Example 1: Ice Skater &amp; wall<a class="anchor-link" href="#Example-1:-Ice-Skater-&amp;-wall">¶</a></h3><p>An ice skater pushes backward against the wall of a rink. Because friction with the ice is minimal, she moves backward freely. The force she exerts on the wall acts <strong>on the wall</strong>, not on herself. Her own acceleration results from the <strong>reaction force</strong>: the wall pushing forward on her with equal magnitude and opposite direction. Thus, the skater moves because of the force exerted <em>by the wall on her</em>.</p>
+<h3 id="Example-2:-Walking-&amp;-propulsion">Example 2: Walking &amp; propulsion<a class="anchor-link" href="#Example-2:-Walking-&amp;-propulsion">¶</a></h3><p>Walking also illustrates the third law. When you step, your foot pushes <strong>backward</strong> against the ground. In response, the ground pushes <strong>forward</strong> on your foot with equal magnitude. It is this forward reaction force from the ground that propels you ahead.<br/>
+Without friction (for example, on smooth ice), your foot cannot push effectively, and you cannot walk normally.</p>
+<p>The same reasoning explains <strong>rocket propulsion</strong>: a rocket engine pushes hot gases backward, and the gases push the rocket forward. The rocket accelerates because of the force <strong>on it</strong> exerted by the escaping gases, not because the gases “push against the air or the ground.”</p>
+<h3 id="Example-3:-Different-masses,-equal-corces">Example 3: Different masses, equal corces<a class="anchor-link" href="#Example-3:-Different-masses,-equal-corces">¶</a></h3><p>Equal and opposite forces do not imply equal accelerations. According to the second law, acceleration depends on both force and mass ($a = F/m$). When a rocket expels gas, the gas (small mass) gains large acceleration, while the rocket (large mass) gains smaller acceleration in the opposite direction. The forces are equal, but their effects differ.</p>
+<h3 id="Example-4:-Clarifying-action-&amp;-reaction">Example 4: Clarifying action &amp; reaction<a class="anchor-link" href="#Example-4:-Clarifying-action-&amp;-reaction">¶</a></h3><p>It is essential to distinguish <strong>which object</strong> each force acts on and <strong>which object</strong> exerts it.<br/>
+For example, when a person $P$ pulls a sled $S$:</p>
 <ul>
-<li><p>rearrange $x(t)$:
-$$
-x = x_0 + v_{0x}\,t \leftrightarrow t = \frac{x - x_0}{v_{0x}}
-$$</p>
-</li>
-<li><p>substitute this expression for $t$ into $y(t)$:
-$$
-y = y_0 + v_{0y}\left(\frac{x - x_0}{v_{0x}}\right) - \tfrac{1}{2}g\left(\frac{x - x_0}{v_{0x}}\right)^2
-$$</p>
-</li>
-<li><p>rearrange:
-$$
-y(x) = y_0 + \left(\frac{v_{0y}}{v_{0x}}\right)(x-x_0) - \frac{g}{2v_{0x}^2}(x-x_0)^2
-$$</p>
-</li>
+<li>The person exerts a forward force on the sled, $\vec F_{PS}$.</li>
+<li>The sled exerts an equal and opposite backward force on the person, $\vec F_{SP} = -\vec F_{PS}$.</li>
 </ul>
-<p>This a <strong>parabola</strong> opening downward.<br/>
-At the apex, the vertical velocity vanishes ($v_y=0$), while the horizontal component remains unchanged.</p>
-<h3 id="Characteristic-quantities">Characteristic quantities<a class="anchor-link" href="#Characteristic-quantities">¶</a></h3><p>If the projectile lands at the same height from which it was launched ($y=y_0$), several useful quantities follow directly:</p>
-<ul>
-<li><p><strong>Time of flight:</strong>
-$$
-y = 0 = v_{0y}T - \tfrac{1}{2}gT^2
-$$
-$$
-T = \frac{2v_{0y}}{g} = \frac{2v_0\sin\theta_0}{g}
-$$</p>
-</li>
-<li><p><strong>Range (horizontal distance):</strong>
-$$
-x(t) = R = v_{0x}T = \dfrac{2\,v_{0x}\,v_{0y}}{g} = \frac{v_0^2\sin2\theta_0}{g}
-$$</p>
-</li>
-<li><p><strong>Maximum height:</strong>
-$$
-v_y (t) = 0 = v_{0y} - gt_H \leftrightarrow t_H = \frac{v_{0y}}{g}
-$$
-$$
-y(t_H) = H = 0 + v_{0y} t_H - \frac{1}{2}g t_H^2
-$$
-$$
-H = \frac{v_{0y}^2}{2g} = \frac{v_0^2\sin^2\theta_0}{2g}
-$$</p>
-</li>
+<p>These two forces act on <strong>different objects</strong>, so they cannot cancel each other. The <strong>sled moves forward if the pull on it exceeds friction with the ground</strong>, while <strong>the person moves if the ground’s forward reaction on their feet exceeds the backward pull from the sled</strong>.</p>
+<h3 id="Key-points">Key points<a class="anchor-link" href="#Key-points">¶</a></h3><ul>
+<li><strong>Forces always occur in pairs.</strong> A single, isolated force does not exist.</li>
+<li><strong>Action–reaction forces act on different bodies.</strong> Only the forces acting <em>on a single body</em> enter its $\sum \vec F = m\vec a$ equation.</li>
+<li><strong>The origin of forces is mutual interaction.</strong> Both objects experience forces of equal strength at the same instant.</li>
+<li><strong>Equal forces can produce different accelerations</strong>, depending on each object’s mass.</li>
 </ul>
-<p>The range $R$ is maximized when $\sin2\theta_0=1$, i.e. at $\theta_0=45^\circ$. Launch angles $\theta_0$ and $(90^\circ-\theta_0)$ produce equal ranges, though with different flight times and heights.</p>
-<h3 id="Relation-between-velocity-and-direction">Relation between velocity and direction<a class="anchor-link" href="#Relation-between-velocity-and-direction">¶</a></h3><p>At any instant,
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="1.3.7.-Solving-problems-with-Newton%E2%80%99s-laws:-Free-body-diagrams">1.3.7. Solving problems with Newton’s laws: Free-body diagrams<a class="anchor-link" href="#1.3.7.-Solving-problems-with-Newton%E2%80%99s-laws:-Free-body-diagrams">¶</a></h2><p>Newton’s laws connect forces and motion, but applying them effectively requires clear, systematic reasoning.<br/>
+The central tool is the <strong>free-body diagram (FBD)</strong>.</p>
+<p>A <strong>free-body diagram isolates one object and shows all external forces* acting on it</strong> (e.g. gravity, normal, friction, tension, applied forces). The forces acting are drawn as vectors from the object’s center.<br/>
+Forces <strong>exerted by the object on others</strong>, or internal forces within a system, <strong>are not included</strong>.</p>
+<h3 id="Drawing-&amp;-analyzing-forces-using-the-FBD:">Drawing &amp; analyzing forces using the FBD:<a class="anchor-link" href="#Drawing-&amp;-analyzing-forces-using-the-FBD:">¶</a></h3><ol>
+<li><p><strong>Choose one object</strong> to analyze.<br/>
+Draw it as a point (for pure translation) and sketch all forces acting on it.</p>
+</li>
+<li><p><strong>Label each force</strong> with its source and direction (e.g., $\vec F_N$, $\vec F_g$, $\vec F_T$).<br/>
+If multiple objects interact, draw a separate FBD for each.</p>
+</li>
+<li><p><strong>Select a coordinate system</strong> that simplifies the problem, e.g. by aligning one axis along the motion or incline.<br/>
+Forces are resolved into components along these axes.</p>
+</li>
+<li><p><strong>Apply Newton’s second law</strong> along each axis:
 $$
-|\vec{v}| = \sqrt{v_x^2 + v_y^2}, \qquad 
-\tan\phi = \frac{v_y}{v_x},
-$$
-where $\phi$ is the angle of motion relative to the horizontal. During flight, $\phi$ continuously decreases as $v_y$ changes from positive to negative while $v_x$ remains constant.</p>
-<h3 id="Limiting-and-special-cases">Limiting and special cases<a class="anchor-link" href="#Limiting-and-special-cases">¶</a></h3><p>For a purely <strong>vertical launch</strong> ($\theta_0 = 90^\circ$), $v_{0x}=0$ and the motion reduces to <strong>one-dimensional free fall</strong>.<br/>
-For a <strong>horizontal launch</strong> ($\theta_0 = 0^\circ$), $v_{0y}=0$ and the path simplifies to
-$$
-y = y_0 - \tfrac{1}{2}g\,t^2,
-$$
-with the same vertical fall time as a dropped object from height $y_0$.</p>
-<h3 id="Concluding-remarks">Concluding remarks<a class="anchor-link" href="#Concluding-remarks">¶</a></h3><p>Projectile motion elegantly demonstrates the <strong>superposition principle</strong>: horizontal and vertical components evolve independently yet describe one coherent trajectory when combined. This <strong>decomposition by components is a universal method</strong>. We can apply the same reasoning to more complex cases such as charged particles in electric or magnetic fields, where forces act in perpendicular directions but can be analyzed using the same vector framework.</p>
+\sum F_x = m a_x, \qquad \sum F_y = m a_y.
+$$</p>
+</li>
+<li><p><strong>Be consistent</strong> with sign conventions and units.<br/>
+Opposite directions must carry opposite signs.</p>
+</li>
+</ol>
+<h3 id="Net-force-composition">Net force composition<a class="anchor-link" href="#Net-force-composition">¶</a></h3><p>When two or more forces act at a point, the <strong>net (resultant) force</strong> is their vector sum.<br/>
+For two forces, this is geometrically represented by parallelogram of forces. The diagonal of the parallelogram built on the force vectors gives the resultant in both magnitude and direction.</p>
 </div>
 </div>
 </div>
@@ -7687,7 +7689,7 @@ with the same vertical fall time as a dropped object from height $y_0$.</p>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>VBox(children=(HBox(children=(FloatSlider(value=1.0, continuous_update=False, description='y0 (m)', max=20.0, …</pre>
+<pre>VBox(children=(HBox(children=(FloatSlider(value=5.0, continuous_update=False, description='F1 |N|', layout=Lay…</pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
@@ -7703,16 +7705,25 @@ with the same vertical fall time as a dropped object from height $y_0$.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="1.2.4.-Relative-velocity">1.2.4. Relative velocity<a class="anchor-link" href="#1.2.4.-Relative-velocity">¶</a></h2><p>Velocity is always defined <strong>relative to a chosen reference frame</strong>.<br/>
-In <strong>Galilean kinematics</strong>—the framework of Newtonian mechanics valid at speeds much smaller than the speed of light—<strong>space and time are absolute</strong>, and <strong>velocities add vectorially</strong> between inertial observers.</p>
-<p>If object A moves with velocity $\vec{v}_{AB}$ relative to observer B, and observer B moves with velocity $\vec{v}_{BC}$ relative to observer C, then the velocity of A relative to C is</p>
-<p>$$
-\vec{v}_{AC} = \vec{v}_{AB} + \vec{v}_{BC}.
-$$</p>
-<p>Each term represents how motion appears <strong>from the perspective of a different observer</strong>. In two or three dimensions, components add independently along each axis.
-Classic examples include a <strong>boat crossing a river</strong>. Its velocity relative to the shore equals its velocity relative to the water plus the river’s current.<br/>
-While different observers may measure different <strong>velocities</strong>, all <strong>inertial frames</strong> (those moving at constant velocity relative to each other) agree on <strong>accelerations</strong> caused by the same physical forces, such as gravity $g$.</p>
-<p>At very high speeds ($v \sim c$), this Galilean picture no longer holds, and the addition law is replaced by <strong>Einstein’s relativistic velocity formula</strong>. However, for all everyday and and most engineering-scale motions, Galilean kinematics provides an excellent approximation.</p>
+<h2 id="1.3.8.-Normal-force-&amp;-inclined-planes">1.3.8. Normal force &amp; inclined planes<a class="anchor-link" href="#1.3.8.-Normal-force-&amp;-inclined-planes">¶</a></h2><p>Many problems in dynamics involve objects resting or moving on a surface.<br/>
+The <strong>normal force</strong> $\vec N$ (or $\vec F_N$) is the <strong>contact force</strong> exerted by that surface, always acting <strong>perpendicular</strong> (“normal”) to it. It arises from the surface’s slight elastic deformation, which pushes back on the object to prevent interpenetration. On a horizontal surface with no vertical acceleration, $N = W = m g$. If the surface tilts, as on an incline of angle $\theta$, the normal force decreases because only the perpendicular component of weight presses on the surface.</p>
+<h3 id="Resolving-Forces-on-an-Incline">Resolving Forces on an Incline<a class="anchor-link" href="#Resolving-Forces-on-an-Incline">¶</a></h3><p>For an object of mass $m$ on a plane inclined at angle $\theta$, the weight $\vec W = m\vec g$ can be resolved into:</p>
+<ul>
+<li><strong>Perpendicular component:</strong> $W_y = -m g \cos\theta$</li>
+<li><strong>Parallel component:</strong> $W_x = -m g \sin\theta$</li>
+</ul>
+<p>The <strong>normal force</strong> balances the perpendicular component when there is no motion normal to the surface:
+$$
+N = m g \cos\theta.
+$$
+The downslope component $m g \sin\theta$ makes the object slide (neglecting friction).</p>
+<h3 id="Effect-of-the-Normal-Force-in-Vertical-Motion">Effect of the Normal Force in Vertical Motion<a class="anchor-link" href="#Effect-of-the-Normal-Force-in-Vertical-Motion">¶</a></h3><p>The normal force can also vary with <strong>vertical acceleration</strong>:</p>
+<ul>
+<li>Elevator accelerating upward: $N &gt; W$</li>
+<li>Elevator accelerating downward: $N &lt; W$</li>
+<li>Free fall: $N = 0$ (apparent weightlessness)</li>
+</ul>
+<p>In all cases, $N$ adjusts to satisfy Newton’s second law in the vertical direction, reflecting how the contact force responds to motion constraints.</p>
 </div>
 </div>
 </div>
@@ -7722,69 +7733,43 @@ While different observers may measure different <strong>velocities</strong>, all
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="1.2.5-Uniform-circular-motion">1.2.5 Uniform circular motion<a class="anchor-link" href="#1.2.5-Uniform-circular-motion">¶</a></h2><p>Circular motion occurs whenever an object moves around a fixed point at constant distance $r$, continuously changing the <strong>direction</strong> of its velocity.<br/>
-Even if the <strong>speed</strong> remains constant, the change in direction means the object is accelerating (acceleration vector always directed toward the center of the circle).</p>
-<h3 id="Angular-quantities-and-their-relations">Angular quantities and their relations<a class="anchor-link" href="#Angular-quantities-and-their-relations">¶</a></h3><p>The position of the object on the circle can be described by the <strong>angular position</strong> $\phi(t)$ measured in radians and with respect to the $+x$-axis.<br/>
-The corresponding angular quantities are defined as</p>
-<p>$$
-\omega = \frac{d\phi}{dt}, \qquad \alpha = \frac{d\omega}{dt}.
-$$</p>
-<p>Here, $\omega$ is the <strong>angular velocity</strong>, and $\alpha$ is the <strong>angular acceleration</strong>.<br/>
-For uniform circular motion, $\omega$ is constant and $\alpha = 0$, giving</p>
-<p>$$
-\phi(t) = \phi_0 + \omega t, \qquad T = \frac{2\pi}{\omega}, \qquad f = \frac{1}{T}.
-$$</p>
-<p>The arc length $s$ along the circle relates to the angle via $s = r\phi$. Differentiating links linear and angular quantities:</p>
-<p>$$
-v = \frac{ds}{dt} = r\frac{d\phi}{dt} = r\omega.
-$$</p>
-<p>Thus, the familiar linear relation “$v = s/t$” generalizes to “$\omega = \phi/t$” for uniform angular motion.</p>
-<h3 id="Centripetal-acceleration">Centripetal acceleration<a class="anchor-link" href="#Centripetal-acceleration">¶</a></h3><p>The angular acceleration $\alpha$ measures how fast the angular velocity $\omega$ changes in time.
-For a uniform circular motion $\alpha = \frac{d\omega}{dt} = 0$, but there is still an acceleration at play due to the circular motion which causes the direction of the <strong>velocity vector</strong> $\vec v$ to change over time. This change in velocity (direction) is captured by the <strong>centripetal acceleration</strong> $a_r$. Let's derive its direction and magnitude.</p>
-<p>At any instant, the velocity vector $\vec v$ is <strong>tangent</strong> to the circular path.<br/>
-As the object moves from point A to point B, the direction of $\vec v$ changes by an angle $\Delta\phi$, though its magnitude remains constant.<br/>
-The <strong>change in velocity vector</strong> $\Delta\vec v = \vec v_2 - \vec v_1$ points toward the center of the circle for small $\Delta\vec v$.</p>
-<p>This can be seen geometrically: for small $\Delta\phi$, the velocity vectors $\vec v_1$ and $\vec v_2$ form a triangle similar to the one formed by the radius vectors $\vec r_1$ and $\vec r_2$.<br/>
-As $\Delta t \to 0$, $\Delta\vec v$ becomes perpendicular to $\vec v$, pointing directly inward.</p>
-<p>Since acceleration is the rate of change of velocity, $\vec a$ must point in the same direction as $\Delta\vec v$, i.e. toward the center.<br/>
-This inward-directed acceleration is the <strong>centripetal</strong> (center-seeking) or <strong>radial acceleration</strong>, denoted by $\vec a_r$.</p>
-<p>From the geometric similarity of the small triangles formed by $\vec r$ and $\vec v$:</p>
-<p>$$
-\frac{|\Delta \vec v|}{v} \approx \frac{|\Delta \vec r|}{r}, 
-$$</p>
-<p>which we can rearrange into:
+<h2 id="1.3.9.-Tension,-Pulleys,-&amp;-Atwood%E2%80%99s-Machine">1.3.9. Tension, Pulleys, &amp; Atwood’s Machine<a class="anchor-link" href="#1.3.9.-Tension,-Pulleys,-&amp;-Atwood%E2%80%99s-Machine">¶</a></h2><p>A <strong>tension force</strong> arises in a rope, string, or cable that transmits a pulling interaction between connected objects. A taut, <strong>massless cord</strong> exerts equal tension at all points along its length; cords can <strong>pull but not push</strong>.</p>
+<p>When two or more bodies are connected by cords and pulleys, the <strong>tension</strong> transmits force between them while allowing each body to be treated with its own free-body diagram. The net force on each object can then be related by Newton’s second law, and the same acceleration links them through the rope constraint.</p>
+<h3 id="Example-1:-Boxes-Connected-by-a-Cord">Example 1: Boxes Connected by a Cord<a class="anchor-link" href="#Example-1:-Boxes-Connected-by-a-Cord">¶</a></h3><p>Two boxes, $A$ and $B$, of masses $m_A$ and $m_B$, are connected by a massless cord on a frictionless table. A horizontal pull $\vec F_P$ acts on $A$ to the right and accelerates the system.</p>
+<p><strong>Free-body equations (horizontal).</strong><br/>
+Box $A$ (pulled by $\vec F_P$ to the right, rope tension $T$ to the left):
 $$
-|\Delta \vec v| \approx \frac{|\Delta \vec r|}{r} \vec v. 
+\sum F_x:\quad F_P - T = m_A\,a.
+$$
+Box $B$ (pulled to the right by the rope tension $T$ only):
+$$
+\sum F_x:\quad T = m_B\,a.
+$$
+Because the cord constrains the motion, both boxes share the same acceleration $a$.</p>
+<p><strong>Solve for $a$.</strong><br/>
+Substitute $T = m_B a$ into equation for box $A$:
+$$
+F_P - m_B a = m_A a \;\;\Rightarrow\;\; a = \frac{F_P}{m_A + m_B}.
 $$</p>
-<p>Acceleration is defined as the rate of change of the velocity. Combining this with our previous equation gives us :
+<p><strong>Whole-system check (sanity test).</strong><br/>
+Treat $A+B$ as a single body. The only external horizontal force is $F_P$, so
 $$
-a_r = \lim_{\Delta t \to 0}\frac{|\Delta \vec v|}{\Delta t} = \lim_{\Delta t \to 0} \frac{\frac{|\Delta \vec r|}{r} \vec v}{\Delta t}  = \lim_{\Delta t \to 0} \frac{|\Delta \vec r| \vec v}{r \Delta t} = \lim_{\Delta t \to 0} \frac{|\Delta \vec r| }{\Delta t} \frac{\vec v}{r}.
-$$</p>
-<p>Since $\lim_{\Delta t \to 0} \frac{|\Delta \vec r| }{\Delta t} = \frac{d r}{dt} = v $, we obtain our final equation for $a_r$:</p>
-<p>$$
-a_r = \frac{v^2}{r} = \omega^2 r.
-$$</p>
-<p>Thus, the magnitude of $\vec a_r$ increases quadratically with speed and decreases inversely with radius.<br/>
-The faster the motion or the tighter the curve, the larger the inward acceleration required.</p>
-<h3 id="Conceptual-link:-superposition-viewpoint-&amp;-Cartesian-representation">Conceptual link: superposition viewpoint &amp; Cartesian representation<a class="anchor-link" href="#Conceptual-link:-superposition-viewpoint-&amp;-Cartesian-representation">¶</a></h3><p>Uniform circular motion can also be seen as the <strong>superposition of two perpendicular simple harmonic motions (SHMs)</strong> of equal amplitude $r$, equal frequency $\omega$, and a $90^\circ$ phase difference:</p>
-<p>$$
-x(t) = r\cos(\omega t), \qquad y(t) = r\sin(\omega t) = r\cos\!\left(\omega t - \frac{\pi}{2}\right).
-$$</p>
-<p>Each coordinate oscillates harmonically; their combination produces the circular path<br/>
+F_P = (m_A + m_B)\,a \;\;\Rightarrow\;\; a = \frac{F_P}{m_A + m_B},
 $$
-x^2 + y^2 = r^2.
-$$</p>
-<p>This interpretation highlights the general <strong>superposition principle</strong> introduced earlier:<br/>
-Therefore, complex motion (like circular motion) can be decomposed into the sum of simpler, independent motions along perpendicular axes.
-We can apply $\vec v = \frac{d \vec r}{d t}$ and $\vec a = \frac{d \vec v}{d t}$ to describe kinematics for uniform circular motion in Cartesian coordinates as:</p>
-<p>$$
-\vec r(t) = r\cos(\omega t)\,\hat{\imath} + r\sin(\omega t)\,\hat{\jmath},
+which matches the result above.</p>
+<p><strong>FYI.</strong> There are vertical forces at play (normal and weight), but they are balanced and do not change, i.e. $N = W = m g$ for each box; the acceleration is determined solely by the horizontal forces.</p>
+<h3 id="Example-2:-Atwood%E2%80%99s-Machine">Example 2: Atwood’s Machine<a class="anchor-link" href="#Example-2:-Atwood%E2%80%99s-Machine">¶</a></h3><p>Two masses $m_1$ and $m_2$ hang vertically over a <strong>frictionless, massless pulley</strong> connected by a massless cord. The heavier mass accelerates downward, the lighter upward.<br/>
+For each mass:
 $$
+m_1 g - T = m_1 a, \qquad T - m_2 g = m_2 a.
 $$
-\vec v(t) = -\omega r\sin(\omega t)\,\hat{\imath} + \omega r\cos(\omega t)\,\hat{\jmath},
+Adding these eliminates $T$ and gives the acceleration:
 $$
+a = \frac{(m_1 - m_2)g}{m_1 + m_2},
 $$
-\vec a(t) = -\omega^2 r\cos(\omega t)\,\hat{\imath} - \omega^2 r\sin(\omega t)\,\hat{\jmath} = -\omega^2 \vec r(t).
+and the tension:
+$$
+T = m_1 (g - a).
 $$</p>
 </div>
 </div>
@@ -7795,44 +7780,131 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="1.2.7.-Non%E2%80%91uniform-circular-motion">1.2.7. Non‑uniform circular motion<a class="anchor-link" href="#1.2.7.-Non%E2%80%91uniform-circular-motion">¶</a></h2><p>When the speed changes, the acceleration decomposes into perpendicular components. The <strong>radial</strong> component,
-$$a_r=\frac{v^2}{r},$$
-continually redirects $\vec v$ toward the center. The <strong>tangential</strong> component,
-$$a_{\text{tan}}=\frac{dv}{dt},$$
-changes the speed along the path (parallel to $\vec v$ when speeding up, antiparallel when slowing down). The total acceleration is
-$$\vec a=\vec a_{\text{tan}}+\vec a_r,\qquad |\vec a|=\sqrt{a_{\text{tan}}^2+a_r^2}.$$
-This framework extends to any curved trajectory by introducing the instantaneous <strong>radius of curvature</strong> $r$; locally the path is an arc of a circle, so the same decomposition applies with the local $r$ and instantaneous $v$.</p>
-<h2 id="1.2.8.-Summary-circular-motion">1.2.8. Summary circular motion<a class="anchor-link" href="#1.2.8.-Summary-circular-motion">¶</a></h2><table>
-<thead>
-<tr>
-<th>Quantity</th>
-<th>Expression</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Angular velocity</td>
-<td>$\omega = \dfrac{d\phi}{dt}$</td>
-<td>rate of change of angular position</td>
-</tr>
-<tr>
-<td>Linear speed</td>
-<td>$v = r\omega$</td>
-<td>constant for uniform motion</td>
-</tr>
-<tr>
-<td>Centripetal acceleration</td>
-<td>$a_r = \dfrac{v^2}{r} = \omega^2 r$</td>
-<td>directed toward the center</td>
-</tr>
-<tr>
-<td>Angular acceleration</td>
-<td>$\alpha = \dfrac{d\omega}{dt}$</td>
-<td>zero for uniform motion</td>
-</tr>
-</tbody>
-</table>
+<h2 id="1.3.10.-Using-Newton%E2%80%99s-laws-with-friction">1.3.10. Using Newton’s laws with friction<a class="anchor-link" href="#1.3.10.-Using-Newton%E2%80%99s-laws-with-friction">¶</a></h2><p>Friction is the omnipresent interaction between solid surfaces that <strong>resists relative motion</strong>. Even “smooth” materials are microscopically rough; tiny asperities interlock and atoms at contacts form and break weak bonds, making sliding irregular at the microscopic scale. In our empirical model, the friction magnitude is proportional to the <strong>normal force</strong> $N$ (perpendicular to the surface), whereas friction itself acts <strong>parallel</strong> to the surface and opposes motion or the incipient tendency to move.</p>
+<h3 id="Types-of-friction">Types of friction<a class="anchor-link" href="#Types-of-friction">¶</a></h3><ul>
+<li><p><strong>Static friction</strong> (no slipping) adjusts up to a maximum:
+$$
+F_{\text{fr}} \le \mu_s N.
+$$
+Motion begins when the required tangential force exceeds $\mu_s N$.</p>
+</li>
+<li><p><strong>Kinetic friction</strong> (slipping) has approximately constant magnitude:
+$$
+F_{\text{fr}} = \mu_k N,
+$$
+directed opposite the velocity.</p>
+</li>
+<li><p><strong>Rolling resistance</strong> is usually much smaller, arising from slight deformation of the rolling bodies and surface.</p>
+</li>
+</ul>
+<p>The coefficients $\mu_s$ and $\mu_k$ depend on materials and surface conditions (dry, wet, lubricated) and are nearly independent of speed and apparent contact area. Typically $\mu_s &gt; \mu_k$ (starting is harder than keeping motion).</p>
+<h3 id="Example:-Block-on-an-incline-with-friction">Example: Block on an incline with friction<a class="anchor-link" href="#Example:-Block-on-an-incline-with-friction">¶</a></h3><p>Choose axes with $+x$ <strong>up the plane</strong> and $+y$ <strong>perpendicular</strong> to it. Resolve weight $\vec W = m\vec g$:</p>
+<ul>
+<li>$W_x = -m g \sin\theta$,</li>
+<li>$W_y = -m g \cos\theta$.</li>
+</ul>
+<p>Normal force (no motion through the surface):<br/>
+$$
+N = m g \cos\theta.
+$$</p>
+<p><strong>Static equilibrium (no motion).</strong><br/>
+Along the plane,
+$$
+\sum F_x = 0 \;\Rightarrow\; F_{\text{fr}} = m g \sin\theta,
+$$
+valid only if
+$$
+F_{\text{fr}} \le \mu_s N \;\Rightarrow\; \tan\theta \le \mu_s.
+$$
+If $\tan\theta$ exceeds $\mu_s$, the block starts to slide.</p>
+<p><strong>Kinetic sliding (down the plane).</strong><br/>
+With $F_{\text{fr}} = \mu_k N = \mu_k m g \cos\theta$,
+$$
+\sum F_x = m a_x = m g \sin\theta - \mu_k m g \cos\theta
+\;\Rightarrow\;
+a_x = g\bigl(\sin\theta - \mu_k \cos\theta\bigr).
+$$
+Acceleration is downslope when $\sin\theta &gt; \mu_k \cos\theta$.</p>
+<h3 id="Practical-note">Practical note<a class="anchor-link" href="#Practical-note">¶</a></h3><p>Because $F_{\text{fr}} \propto N$, <strong>pulling</strong> an object with an upward-angled force reduces $N$ and friction; <strong>pushing</strong> downward increases $N$ and friction. This is often the decisive step in setting up $\sum F = m a$ correctly in problems.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="1.3.11.-Dynamics-of-uniform-circular-motion">1.3.11. Dynamics of uniform circular motion<a class="anchor-link" href="#1.3.11.-Dynamics-of-uniform-circular-motion">¶</a></h2><p>An object moving in a circle at constant speed is continuously accelerating toward the center of its path.<br/>
+According to Newton’s second law, a <strong>net inward (radial) force</strong> is required:</p>
+<p>$$
+\sum F_R = m a_R = m \frac{v^2}{r} = m \omega^2 r.
+$$</p>
+<p>This is the <strong>centripetal force</strong>, with is direction being defined by the centripetal acceleration $a_R$, i.e. always inwards to the center of rotation.</p>
+<p>Note that there is <strong>no actual outward force</strong> acting on the object. The so-called <em>centrifugal force</em> is merely an <strong>apparent effect</strong> experienced in a <strong>non-inertial (accelerating) frame</strong>.</p>
+<p>What one <em>feels</em> in a turning car is not an outward pull, but rather the <strong>seat’s inward push</strong> that continually changes the body’s direction. The body’s <strong>inertia</strong> resists this change, giving the <strong>illusion</strong> of an outward force.</p>
+<p>To see that no centrifugal force truly acts, consider circling a ball attached to a string. When you <strong>release the string</strong>, the <strong>inward (centripetal) force</strong> suddenly disappears. The ball then continues in a <strong>tangential straight line</strong>, as Newton’s first law dictates.<br/>
+If a real outward (centrifugal) force existed, the ball would instead fly <strong>radially away</strong> from you — but it doesn’t.</p>
+<h3 id="Vertical-Circles">Vertical Circles<a class="anchor-link" href="#Vertical-Circles">¶</a></h3><p>When motion occurs in a vertical plane, the <strong>tension</strong> or <strong>normal force</strong> varies with position because weight adds or subtracts from the required inward force.<br/>
+At the top of the circle:</p>
+<p>$$
+T_\text{top} + mg = m\frac{v_\text{top}^2}{r}.
+$$</p>
+<p>At the bottom:</p>
+<p>$$
+T_\text{bottom} - mg = m\frac{v_\text{bottom}^2}{r}.
+$$</p>
+<p>For a string under tension (i.e. taut string), the minimum speed at the top occurs when tension just reaches zero:
+$$
+v_\text{min} = \sqrt{gr}.
+$$
+Below this speed the string would go slack and the motion cease to be circular.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="1.3.12.-Gravitational-forces-&amp;-planetary-motion">1.3.12. Gravitational forces &amp; planetary motion<a class="anchor-link" href="#1.3.12.-Gravitational-forces-&amp;-planetary-motion">¶</a></h2><p>Newton’s <strong>law of universal gravitation</strong> extends the ideas of force and motion to the scale of planets and stars. Every mass attracts every other mass with a force acting along the line joining their centers:</p>
+<p>$$
+F_G = G \frac{m_1 m_2}{r^2},
+$$</p>
+<p>where $G = 6.67 \times 10^{-11}\,\text{N m}^2/\text{kg}^2$ is the <strong>gravitational constant</strong>, $m_1$ and $m_2$ are the interacting masses, and $r$ is the distance between them.<br/>
+The force is <strong>mutual</strong> and follows an <strong>inverse-square law</strong>, decreasing rapidly with distance.</p>
+<h3 id="Gravity-near-Earth%E2%80%99s-surface">Gravity near Earth’s surface<a class="anchor-link" href="#Gravity-near-Earth%E2%80%99s-surface">¶</a></h3><p>For an object of mass $m$ near the Earth’s surface, the gravitational force simplifies to its familiar weight:</p>
+<p>$$
+F_G = m g, \qquad g = G\frac{m_E}{r_E^2} \approx 9.81\,\text{m/s}^2,
+$$</p>
+<p>where $m_E$ and $r_E$ are Earth’s mass and radius.<br/>
+This expression connects the local gravitational acceleration $g$ to Newton’s universal law and explains why $g$ is slightly smaller at high altitude or near the equator.</p>
+<h3 id="Satellites-&amp;-orbits">Satellites &amp; orbits<a class="anchor-link" href="#Satellites-&amp;-orbits">¶</a></h3><p>For a body of mass $m$ moving in a circular orbit of radius $r$ around a planet of mass $M$, Newton’s second law gives</p>
+<p>$$
+\frac{G M m}{r^2} = m \frac{v^2}{r},
+$$
+so the <strong>orbital speed</strong> and <strong>period</strong> are
+$$
+v = \sqrt{\frac{G M}{r}}, \qquad
+T = 2\pi\sqrt{\frac{r^3}{G M}}.
+$$</p>
+<p>Hence, <strong>all objects at the same orbital radius move with the same speed and period</strong>, regardless of their own mass. This is why a satellite, an astronaut, or even a small screw floating in the same orbit all travel together.</p>
+<p>Although objects in orbit seem weightless, they are not free from gravity. In fact, <strong>gravity provides the centripetal acceleration</strong> that keeps them on their curved path. The sensation of weightlessness arises because both the object and its surroundings (e.g. the spacecraft) <strong>fall together</strong> toward the Earth at the same rate. Since there is no contact force between them (no floor pushing upward), no weight is felt. This is called <strong>continuous free fall</strong>.</p>
+<h3 id="Kepler%E2%80%99s-laws-of-planetary-motion">Kepler’s laws of planetary motion<a class="anchor-link" href="#Kepler%E2%80%99s-laws-of-planetary-motion">¶</a></h3><p>More than half a century before Newton, <strong>Johannes Kepler</strong> described planetary motion empirically from precise observations.<br/>
+Newton later showed that these laws follow directly from his law of gravitation.</p>
+<p><strong>1. Kepler’s First Law (Elliptical Orbits)</strong><br/>
+Planets move in <strong>ellipses</strong> with the Sun at one focus.<br/>
+For nearly circular orbits, the ellipse reduces to a circle of radius $r$.</p>
+<p><strong>2. Kepler’s Second Law (Equal Areas)</strong><br/>
+A line joining a planet and the Sun sweeps out <strong>equal areas in equal times</strong>.<br/>
+Planets move faster when nearer the Sun and slower when farther away.</p>
+<p><strong>3. Kepler’s Third Law (Harmonic Law)</strong><br/>
+The square of the orbital period is proportional to the cube of the orbit’s semimajor axis:
+$$
+T^2 = \frac{4\pi^2}{G M_S} r^3.
+$$
+The ratio $T^2/r^3$ is the same for all planets orbiting the same central mass $M_S$ (e.g., the Sun).</p>
 </div>
 </div>
 </div>
