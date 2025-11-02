@@ -1097,3 +1097,39 @@
 <img src="../img/from_wiki/Right_hand_rule_cross_product.svg" alt="Right_hand_rule_cross_product.svg" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Right_hand_rule_cross_product.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/NewtonsPrincipia.jpg" alt="NewtonsPrincipia.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:NewtonsPrincipia.jpg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Mass_versus_weight_in_earth_and_mars.svg" alt="Mass_versus_weight_in_earth_and_mars.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Mass_versus_weight_in_earth_and_mars.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Breaking_String.PNG" alt="Breaking_String.PNG" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Breaking_String.PNG), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Free_body1.3.svg" alt="Free_body1.3.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Free_body1.3.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/NewtonsLawOfUniversalGravitation.svg" alt="NewtonsLawOfUniversalGravitation.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:NewtonsLawOfUniversalGravitation.svg), by Dennis Nilsson under [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Gravity_field_near_earth.gif" alt="Gravity_field_near_earth.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Gravity_field_near_earth.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*

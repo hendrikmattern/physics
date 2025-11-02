@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<linearGradient id="a">
+		<stop stop-color="#fff" offset="0"/>
+		<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+	</linearGradient>
+	<radialGradient id="b" cx="57" cy="50" r="20" gradientTransform="matrix(.75 0 0 .75 308 11)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+	<radialGradient id="c" cx="57" cy="50" r="20" gradientTransform="matrix(1 0 0 1 -17 -14)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+	<circle cx="60" cy="60" r="50" fill="#0000ab" stroke-dasharray="16, 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+	<circle cx="360" cy="60" r="30" fill="#008e00"/>
+	<circle cx="350" cy="48" r="15" fill="url(#b)" stroke-linejoin="round" stroke-width="2"/>
+	<circle cx="40" cy="35" r="20" fill="url(#c)" stroke-linejoin="round" stroke-width="2"/>
+	<path d="m220 210h125" stroke="#000"/>
+	<path d="m92 60h68" stroke="#0000ab" stroke-width="6"/>
+	<path d="m146 51 24 9-24 9c4-5 4-13 0-18z" fill="#0000ab"/>
+	<path d="m330 60h-50" fill="#008e00" stroke="#008e00" stroke-width="6"/>
+	<path d="m294 51-24 9 24 9c-4-5-4-13 0-18z" fill="#008e00"/>
+	<g stroke-width="2">
+		<path d="m60 105v55" stroke="#999" stroke-dasharray="8, 4" stroke-linecap="round"/>
+		<path d="m360 85v75" stroke="#999" stroke-dasharray="8, 4" stroke-linecap="round"/>
+		<path d="m75 150h270" stroke="#000"/>
+	</g>
+	<path d="m359 150-20 6v-12z"/>
+	<path d="m61 150 20 6v-12z"/>
+	<g font-family="DejaVu Sans" font-size="27" font-style="oblique">
+		<g font-weight="bold">
+			<text x="202" y="145">r</text>
+			<text fill="#ffffff"><tspan x="41" y="65">m<tspan baseline-shift="sub" font-size="17">1</tspan></tspan></text>
+			<text fill="#ffffff"><tspan x="340" y="65">m<tspan baseline-shift="sub" font-size="17">2</tspan></tspan></text>
+			<text fill="#0000ab"><tspan x="154" y="90">F<tspan baseline-shift="sub" font-size="17">1</tspan></tspan></text>
+			<text fill="#008e00"><tspan x="260" y="90">F<tspan baseline-shift="sub" font-size="17">2</tspan></tspan></text>
+		</g>
+		<text x="276" y="239">r<tspan baseline-shift="super" font-size="17">2</tspan></text>
+		<text x="58" y="219"><tspan fill="#0000ab">F<tspan baseline-shift="sub" font-size="17">1</tspan></tspan> = <tspan fill="#008e00">F<tspan baseline-shift="sub" font-size="17">2</tspan></tspan> = G</text>
+		<text x="232" y="199">m<tspan baseline-shift="sub" font-size="17">1</tspan> x m<tspan baseline-shift="sub" font-size="17">2</tspan></text>
+	</g>
+</svg>
