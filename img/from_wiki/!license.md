@@ -1133,3 +1133,57 @@
 <img src="../img/from_wiki/Gravity_field_near_earth.gif" alt="Gravity_field_near_earth.gif" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Gravity_field_near_earth.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Leapsecond2016.png" alt="Leapsecond2016.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Leapsecond2016.png), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Unit_relations_in_the_new_SI.svg" alt="Unit_relations_in_the_new_SI.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Unit_relations_in_the_new_SI.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Measurement_distribution_with_systematic_and_random_errors.svg" alt="Measurement_distribution_with_systematic_and_random_errors.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Measurement_distribution_with_systematic_and_random_errors.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/High_accuracy_Low_precision.svg" alt="High_accuracy_Low_precision.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:High_accuracy_Low_precision.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/High_precision_Low_accuracy.svg" alt="High_precision_Low_accuracy.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:High_precision_Low_accuracy.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/AMT_Fehler.svg" alt="AMT_Fehler.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:AMT_Fehler.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Linear_least_squares_example2.svg" alt="Linear_least_squares_example2.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Linear_least_squares_example2.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Standard_deviation_diagram.svg" alt="Standard_deviation_diagram.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Standard_deviation_diagram.svg), [Attribution 2.5 Generic Deed](//creativecommons.org/licenses/by-sa/2.5/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Normal_Distribution_PDF.svg" alt="Normal_Distribution_PDF.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Normal_Distribution_PDF.svg), public domain</sub>*
