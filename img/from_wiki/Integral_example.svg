@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0"
+		width="420px" height="420px" viewBox="0 0 1400 1400"
+		xmlns="http://www.w3.org/2000/svg" xml:lang="en-US"
+		xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style type="text/css">
+		text { /* safer than 'font' shorthand */
+				font-style: normal; font-weight: normal; font-size: 40px;
+				font-family: Nimbus Roman No9 L, Times, Liberation Serif, serif;
+				white-space: nowrap}
+		.bord {stroke: none; stroke-width: 0.010; fill: #ffffff}
+		.ref {stroke: black; stroke-width: 0.017; fill: none}
+		.dot {stroke: black; stroke-width: 0.085; stroke-linecap: round}
+		.crv {stroke: black}
+		.edge {stroke: black}
+		.R {stroke: #bc1e47; fill: #bc1e47}
+		.Y {stroke: #fec200; fill: #fec200}
+		.G {stroke: #009246; fill: #009246}
+		.B {stroke: #0081cd; fill: #0081cd}
+		.W {stroke: #ffffff; fill: #ffffff}
+		.K {stroke: #000000; fill: #000000}
+		.N {stroke: #b3b3b3; fill: #b3b3b3}
+		.crv {stroke-width: 0.05; fill: none}
+		.edge {stroke-width: 0.02; fill: none}
+		.area {stroke: none}
+		text {stroke-width: 0}
+	</style>
+	<title>Integral example</title>
+	<desc >Plot of function showing integral as area</desc >
+	<!-- Function is 0.644 + 0.588*x + 0.222*x^2 + 0.006*x^3 - 4.8*x/(1+x^2) -->
+	<defs>
+		<path id="ahd" d="M 0.2,0 0,0.05 0.05,0 0,-0.05 Z" />
+		<g id="axes">
+			<path d="M -2.25,0 2.25,0 M 0,-1.25 0,3" class="ref" /><!--coordinate axes -->
+			<use xlink:href="#ahd" transform="translate(2.15,0)" class="K area" />
+			<use xlink:href="#ahd" transform="translate(0,2.85) rotate(90)" class="K area" />
+			<!--path d="M -2,0 V-0.1 M-1,0 V-0.1 M 1,0 V -0.1 M 2,0 V -0.1 M 0,-1 H 0.1 M 0,1 H 0.1 M 0,2 H 0.1" class="ref" /--><!-- tix -->
+		</g>
+		<g id="fInt">
+			<path d="
+					M -2,0
+					L -2,2.228
+					C -1.7968294261289268,2.2987033597071336 -1.6199680699752022,2.392793639822818 -1.4622946999912910004,2.4766753112845949502
+					C -1.2569955362408303,2.585893735466503 -1.0838125965907635,2.6780391524599683185 -0.928347991422022053,2.6780391524599683185
+					C -0.4881381467283077,2.6780391524599683185 -0.2923132254187954,1.8752233054639662 0,0.644
+					L -0.015409595576946995,0.7089403502787698
+					C 0.04230807525043546,0.46563615068378594 0.09974535410555463,0.2235149248415118 0.1586696635105060276,0
+					M 1.5894439941511918762,0
+					C 1.7304102372615355,0.27183387600630365 1.8753361372503443,0.5712139555197315 2,0.836
+					L 2,0
+					Z
+					" class="B area" /><!-- positive area -->
+			<path d="
+					M 0.1586696635105060276,0
+					C 0.33630462795367827,-0.6738146976637108 0.5055957613326534,-1.092085801863390246 0.7361939025123384114,-1.092085801863390246
+					C 0.9459474692937626,-1.092085801863390246 1.2001875109962539,-0.7506272157211599 1.5894439941511918762,0
+					Z
+					" class="Y area" /><!-- negative area -->
+		</g>
+		<path id="f" d="
+				M -2.25,2.15797
+				C -2.16232,2.17645 -2.07911,2.20047 -2,2.228
+				C -1.7968294261289268,2.2987033597071336 -1.6199680699752022,2.392793639822818 -1.4622946999912910004,2.4766753112845949502
+				C -1.2569955362408303,2.585893735466503 -1.0838125965907635,2.6780391524599683185 -0.928347991422022053,2.6780391524599683185
+				C -0.4881381467283077,2.6780391524599683185 -0.2923132254187954,1.8752233054639662 0,0.644
+				L -0.015409595576946995,0.7089403502787698
+				C 0.04230807525043546,0.46563615068378594 0.09974535410555463,0.2235149248415118 0.1586696635105060276,0
+				C 0.33630462795367827,-0.6738146976637108 0.5055957613326534,-1.092085801863390246 0.7361939025123384114,-1.092085801863390246
+				C 0.9459474692937626,-1.092085801863390246 1.2001875109962539,-0.7506272157211599 1.5894439941511918762,0
+				C 1.7304102372615355,0.27183387600630365 1.8753361372503443,0.5712139555197315 2,0.836
+				C 2.0656,0.975329 2.15036,1.1577 2.25,1.37778
+				" class="crv" /><!-- extra,end,inflect,max,axis,inflect,zero,min,zero,end,extra -->
+	</defs>
+	<rect x="0" y="0" width="1400" height="1400" class="bord" />
+	<g transform="scale(10) translate(68,97) scale(1,-1) scale(28)">
+		<use xlink:href="#axes" />
+		<use xlink:href="#fInt" />
+		<path d="M -2,2.228 -2,0 2,0 2,0.836" class="edge" />
+		<use xlink:href="#f" />
+		<g>
+			<g transform="translate(-0.928,1.199)">
+				<title >label of positive area</title >
+				<text transform="scale(1,-1) scale(0.01)" style="text-anchor:middle;font-size:80px" class="W">+</text>
+			</g>
+			<g transform="translate(0.736,-0.786)">
+				<title >label of negative area</title >
+				<text transform="scale(1,-1) scale(0.01)" style="text-anchor:middle;font-size:80px" class="K">&#x2212;</text>
+			</g>
+			<g transform="translate(-0.928,2.878)">
+				<title >label of curve to be integrated</title >
+				<text transform="scale(1,-1) scale(0.01)" style="text-anchor:middle" class="K"><tspan style="font-style:italic">f</tspan>(<tspan style="font-style:italic">x</tspan>)</text>
+			</g>
+			<path d="M -2,0 V -0.12" class="edge" />
+			<g transform="translate(-2,-0.42)">
+				<title >label of integration lower limit</title >
+				<text transform="scale(1,-1) scale(0.01)" style="text-anchor:start" class="K"><tspan style="font-style:italic">a</tspan></text>
+			</g>
+			<path d="M 2,0 V -0.12" class="edge" />
+			<g transform="translate(2,-0.42)">
+				<title >label of integration upper limit</title >
+				<text transform="scale(1,-1) scale(0.01)" style="text-anchor:end;" class="K"><tspan style="font-style:italic">b</tspan></text>
+			</g>
+			<g transform="translate(2.25,0.13)">
+				<title >label of x axis</title >
+				<text transform="scale(1,-1) scale(0.01)" style="text-anchor:middle" class="K"><tspan style="font-style:italic">x</tspan></text>
+			</g>
+			<g transform="translate(0.15,2.88)">
+				<title >label of y axis</title >
+				<text transform="scale(1,-1) scale(0.01)" style="text-anchor:start" class="K"><tspan style="font-style:italic">y</tspan></text>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1187,3 +1187,69 @@
 <img src="../img/from_wiki/Normal_Distribution_PDF.svg" alt="Normal_Distribution_PDF.svg" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Normal_Distribution_PDF.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Baseball_pitching_motion_2004.jpg" alt="Baseball_pitching_motion_2004.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Baseball_pitching_motion_2004.jpg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Definicion_del_Joule.svg" alt="Definicion_del_Joule.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Definici%C3%B3n_del_Joule.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Integral_example.svg" alt="Integral_example.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Integral_example.svg) by KSmrq, [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Line_integral_of_scalar_field.gif" alt="Line_integral_of_scalar_field.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Line_integral_of_scalar_field.gif), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Spring-elongation-and-forces.svg" alt="Spring-elongation-and-forces.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Spring-elongation-and-forces.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Energy_and_life.svg" alt="Energy_and_life.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Energy_and_life.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Mediaeval_archery_reenactment.jpg" alt="Mediaeval_archery_reenactment.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Mediaeval_archery_reenactment.jpg) by Penny Mayes, [Attribution-Share Alike 2.0 Generic](//creativecommons.org/licenses/by-sa/2.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/3d-gradient-cos.svg" alt="3d-gradient-cos.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:3d-gradient-cos.svg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Conservative_Force_Gravity_Example.svg" alt="Conservative_Force_Gravity_Example.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Conservative_Force_Gravity_Example.svg) by  CompuChip, public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Wooden_roller_coaster_txgi.jpg" alt="Wooden_roller_coaster_txgi.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Wooden_roller_coaster_txgi.jpg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Horsepower_plain.svg" alt="Horsepower_plain.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Horsepower_plain.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
