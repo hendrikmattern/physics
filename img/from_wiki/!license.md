@@ -1253,3 +1253,141 @@
 <img src="../img/from_wiki/Horsepower_plain.svg" alt="Horsepower_plain.svg" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Horsepower_plain.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Bauzustand_Neues_Schiffshebewerk_Niederfinow_%2849516010122%29.jpg" alt="Bauzustand_Neues_Schiffshebewerk_Niederfinow_%2849516010122%29.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Bauzustand_Neues_Schiffshebewerk_Niederfinow_(49516010122).jpg), [CC 2.0 Generic license](//creativecommons.org/licenses/by/2.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Niederfinow_-_od_strony_Odry_-_panoramio.jpg" alt="Niederfinow_-_od_strony_Odry_-_panoramio.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:%22Winda%22_dla_statk%C3%B3w_w_Niederfinow_-_od_strony_Odry_-_panoramio.jpg) by 7alaskan, [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Niederfinow_-_panoramio.jpg" alt="Niederfinow_-_panoramio.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:%22Winda%22_dla_statk%C3%B3w_-_Niederfinow_-_panoramio.jpg) by 7alaskan, [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Altes_Schiffshebewerk_Niederfinow.jpg" alt="Altes_Schiffshebewerk_Niederfinow.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Altes_Schiffshebewerk_Niederfinow_(52405604557).jpg), [CC 2.0 Generic license](//creativecommons.org/licenses/by/2.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/2006-09-11-niederfinow-17.jpg" alt="2006-09-11-niederfinow-17.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:2006-09-11-niederfinow-17.jpg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/2006-09-11-niederfinow-13.jpg" alt="2006-09-11-niederfinow-13.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:2006-09-11-niederfinow-13.jpg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</sub>*
+
+---
+
+<img src="../img/from_wiki/Schiffshebewerk_Niederfinow.jpg" alt="Schiffshebewerk_Niederfinow.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Schiffshebewerk_Niederfinow_(25992355234).jpg), [CC 2.0 Generic license](//creativecommons.org/licenses/by/2.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/2009-07-29-schiffshebewerk-ndf-by-RalfR-16.jpg" alt="2009-07-29-schiffshebewerk-ndf-by-RalfR-16.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:2009-07-29-schiffshebewerk-ndf-by-RalfR-16.jpg), [GNU Free Documentation License](http://www.gnu.org/copyleft/fdl.html)</sub>*
+
+---
+
+<img src="../img/from_wiki/Niederfinow_Stahlkonstruktion_Trog02.jpg" alt="Niederfinow_Stahlkonstruktion_Trog02.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Niederfinow_Stahlkonstruktion_Trog02.jpg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Magdeburg_Rothensee_ship_lift.jpg" alt="Magdeburg_Rothensee_ship_lift.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Magdeburg_Rothensee_ship_lift.jpg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Atwood.svg" alt="Atwood.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Atwood.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Zero_gravity_flight_trajectory_C9-565_vector.svg" alt="Zero_gravity_flight_trajectory_C9-565_vector.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Zero_gravity_flight_trajectory_C9-565_vector.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Earth_gravity_vs._altitude.svg" alt="Earth_gravity_vs._altitude.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Earth_gravity_vs._altitude.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Comparison_satellite_navigation_orbits.svg" alt="Comparison_satellite_navigation_orbits.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Comparison_satellite_navigation_orbits.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Orbital_motion.gif" alt="Orbital_motion.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Orbital_motion.gif), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Ellipse_latus_rectum.svg" alt="Ellipse_latus_rectum.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Ellipse_latus_rectum.svg), License: unknown</sub>*
+
+---
+
+<img src="../img/from_wiki/Ellipse-def0.svg" alt="Ellipse-def0.svg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Ellipse-def0.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Kepler-first-law.svg" alt="Kepler-first-law.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Kepler-first-law.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Kepler-second-law.gif" alt="Kepler-second-law.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Kepler-second-law.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Solar_system_orrery_inner_planets.gif" alt="Solar_system_orrery_inner_planets.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Solar_system_orrery_inner_planets.gif), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Cavendish_Experiment.png" alt="Cavendish_Experiment.png" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Cavendish_Experiment.png), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Cavendish_Torsion_Balance_Diagram.svg" alt="Cavendish_Torsion_Balance_Diagram.svg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Cavendish_Torsion_Balance_Diagram.svg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</sub>*
+
+---
+
+<img src="../img/from_wiki/Lagrangian_points_equipotential.gif" alt="Lagrangian_points_equipotential.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Lagrangian_points_equipotential.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="250" viewBox="-175 -125 350 250">
+<title>Kepler's first law</title>
+<ellipse rx="170" ry="120" fill="none" stroke="blue" stroke-width="3"/>
+<circle cx="120" r="3"/><circle cx="-120" r="7"/><circle cx="-100" cy="-97" r="5"/>
+<text font-size="20"><tspan x="-105" y="7">Sun</tspan><tspan x="-95" y="-85">planet</tspan></text>
+</svg>
