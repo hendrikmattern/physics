@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3202"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   width="191.175"
+   height="403.42499"
+   xml:space="preserve"
+   sodipodi:docname="FHcollisions-1.svg"><metadata
+     id="metadata3208"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+     id="defs3206"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3330"><path
+         d="m 115.92,470.52 6.96,0 0,9.18 -6.96,0 0,-9.18 z"
+         id="path3332"
+         inkscape:connector-curvature="0" /></clipPath></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="778"
+     id="namedview3204"
+     showgrid="false"
+     fit-margin-left="0.1"
+     fit-margin-top="0.1"
+     fit-margin-right="0.1"
+     fit-margin-bottom="0.1"
+     showborder="false"
+     inkscape:zoom="0.95353533"
+     inkscape:cx="-37.543468"
+     inkscape:cy="163.62082"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3210"
+     units="in" /><g
+     id="g3210"
+     inkscape:groupmode="layer"
+     inkscape:label="FHcollisions"
+     transform="matrix(1.25,0,0,-1.25,-106.575,904.8)"><text
+   transform="matrix(1,0,0,-1,231,408.3)"
+   id="text3212"
+   style="-inkscape-font-specification:Bitstream Vera Sans;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   sodipodi:linespacing="125%"><tspan
+     style="font-size:12px;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans;font-style:normal;text-anchor:start;text-align:start;line-height:125%"
+     x="0"
+     y="0"
+     id="tspan3214"> </tspan></text>
+
+
+
+
+<text
+   transform="scale(1,-1)"
+   id="text3216"
+   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+   sodipodi:linespacing="125%"
+   x="194.50093"
+   y="-655.5"><tspan
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+     x="194.50093"
+     y="-655.5"
+     sodipodi:role="line"
+     id="tspan3220">elastic</tspan><tspan
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+     x="194.50093"
+     y="-640.5"
+     sodipodi:role="line"
+     id="tspan3072">collision</tspan></text>
+
+
+
+
+<path
+   d="m 160.92,521.16 68.88,0 0,20.52 -68.88,0 0,-20.52 z"
+   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+   id="path3222"
+   inkscape:connector-curvature="0" /><text
+   id="text3224"
+   transform="scale(1,-1)"
+   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+   sodipodi:linespacing="125%"
+   x="170.34"
+   y="-526.74011"><tspan
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+     x="170.34"
+     y="-526.74011"
+     sodipodi:role="line"
+     id="tspan3226">inelastic </tspan></text>
+
+
+
+
+<path
+   d="m 161.58,422.58 68.82,0 0,38.4 -68.82,0 0,-38.4 z"
+   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+   id="path3228"
+   inkscape:connector-curvature="0" /><text
+   transform="scale(1,-1)"
+   id="text3230"
+   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+   sodipodi:linespacing="125%"
+   x="197.25485"
+   y="-446.10001"><tspan
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+     sodipodi:role="line"
+     id="tspan3234"
+     x="197.25485"
+     y="-446.10001">light</tspan><tspan
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+     sodipodi:role="line"
+     x="197.25485"
+     y="-431.10001"
+     id="tspan3076">emission</tspan></text>
+
+
+
+
+<g
+   id="g3236"
+   transform="translate(172.98,689.76)"><path
+     d="m 0,0 c 0,11.76 9.48,21.24 21.24,21.24 11.7,0 21.18,-9.48 21.18,-21.24 0,-11.7 -9.48,-21.24 -21.18,-21.24 C 9.48,-21.24 0,-11.7 0,0"
+     style="fill:#95b3d7;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     id="path3238"
+     inkscape:connector-curvature="0" /></g><g
+   id="g3240"
+   transform="translate(171.48,689.7)"><path
+     d="M 0,0 0,1.2 0.12,2.34 C 3.873,29.521 41.48,29.549 45.3,2.4 l 0.12,-1.14 0,-1.14 C 44.491,-27.954 5.616,-30.999 0.24,-3.42 L 0.12,-2.28 0.06,-1.14 0,0 z m 3,-0.9 0.12,-1.02 0.12,-0.96 c 4.315,-23.421 37.101,-21.773 39.18,1.92 l 0,1.98 C 40.329,25.298 6.483,26.241 3.12,2.1 L 3,1.14 3,0.12"
+     style="fill:#385d8a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="path3242"
+     inkscape:connector-curvature="0" /></g><text
+   transform="matrix(1,0,0,-1,187.86,691.38)"
+   id="text3244"
+   style="-inkscape-font-specification:Bitstream Vera Sans;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   sodipodi:linespacing="125%"><tspan
+     style="font-size:12px;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans;font-style:normal;text-anchor:start;text-align:start;line-height:125%"
+     x="0 6.7680001 12.483"
+     y="0"
+     sodipodi:role="line"
+     id="tspan3246">Hg </tspan></text>
+
+
+
+
+<g
+   id="g3248"
+   transform="translate(129.24,666.06)"><path
+     d="m 0,0 32.52,13.2 -1.2,2.88 8.16,-3.42 L 36,4.5 34.86,7.38 2.34,-5.82"
+     style="fill:#c4bd97;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     id="path3250"
+     inkscape:connector-curvature="0" /></g><g
+   id="g3252"
+   transform="translate(127.92,666.6)"><path
+     d="M 0,0 33.42,13.62 32.88,12.3 30.78,17.4 42.12,12.66 37.32,1.38 35.22,6.48 36.54,5.94 3.12,-7.62 0,0 z M 4.62,-5.94 3.3,-5.4 36.72,8.16 l 1.56,-3.84 -1.86,0.06 3.42,8.16 0.54,-1.32 -8.16,3.42 1.32,1.32 1.56,-3.84 -33.42,-13.56 0.6,1.26"
+     style="fill:#385d8a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="path3254"
+     inkscape:connector-curvature="0" /></g><g
+   id="g3256"
+   transform="translate(167.1,696.06)"><path
+     d="m 0,0 -33.72,9.48 -0.84,-3 -4.32,7.74 7.68,4.32 -0.84,-3 L 1.68,6"
+     style="fill:#c4bd97;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     id="path3258"
+     inkscape:connector-curvature="0" /></g><g
+   id="g3260"
+   transform="translate(167.82,694.8)"><path
+     d="m 0,0 -34.74,9.78 1.26,0.72 -1.5,-5.34 -6,10.68 10.68,6 -1.5,-5.34 -0.66,1.26 L 2.22,7.98 0,0 z m 0,7.56 0.72,-1.26 -34.68,9.78 1.08,3.96 1.44,-1.14 -7.68,-4.32 0.36,1.38 4.32,-7.74 -1.8,-0.18 1.08,3.96 34.74,-9.78 -1.26,-0.66"
+     style="fill:#385d8a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="path3262"
+     inkscape:connector-curvature="0" /></g><g
+   id="g3264"
+   transform="translate(93.72,526.26)"><path
+     d="m 0,0 66.12,26.88 -1.14,2.88 8.1,-3.42 -3.42,-8.16 -1.14,2.88 L 2.4,-5.82"
+     style="fill:#c4bd97;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     id="path3266"
+     inkscape:connector-curvature="0" /></g><g
+   id="g3268"
+   transform="translate(92.46,526.8)"><path
+     d="m 0,0 67.02,27.24 -0.54,-1.32 -2.1,5.16 11.28,-4.8 L 70.92,15 68.82,20.16 70.14,19.62 3.12,-7.62 0,0 z M 4.56,-5.94 3.24,-5.4 70.32,21.84 71.88,18 l -1.86,0 3.42,8.16 0.54,-1.32 -8.16,3.48 1.32,1.26 L 68.7,25.74 1.68,-1.5 2.22,-0.18"
+     style="fill:#385d8a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="path3270"
+     inkscape:connector-curvature="0" /></g><g
+   id="g3272"
+   transform="translate(168.96,577.92)"><path
+     d="m 0,0 -16.38,14.46 -2.04,-2.34 -0.54,8.82 8.76,0.54 -2.04,-2.34 L 4.14,4.62"
+     style="fill:#c4bd97;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     id="path3274"
+     inkscape:connector-curvature="0" /></g><g
+   id="g3276"
+   transform="translate(169.02,576.48)"><path
+     d="m 0,0 -17.1,15.18 1.38,0.06 -3.66,-4.14 -0.72,12.24 12.18,0.72 -3.66,-4.14 -0.06,1.38 L 5.46,6.18 0,0 z m 3.3,6.72 0.12,-1.38 -17.16,15.18 2.76,3.06 0.78,-1.68 -8.76,-0.54 0.9,1.08 0.54,-8.82 -1.74,0.6 2.7,3.12 L 0.6,2.16 -0.78,2.1"
+     style="fill:#385d8a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="path3278"
+     inkscape:connector-curvature="0" /></g><g
+   id="g3280"
+   transform="translate(171.84,564.18)"><path
+     d="M 0,0 C 0,13.08 10.62,23.7 23.7,23.7 36.78,23.7 47.4,13.08 47.4,0 47.4,-13.14 36.78,-23.7 23.7,-23.7 10.62,-23.7 0,-13.14 0,0"
+     style="fill:#95b3d7;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     id="path3282"
+     inkscape:connector-curvature="0" /></g><g
+   id="g3284"
+   transform="translate(169.56,564.12)"><path
+     d="M 0,0 0.06,1.32 0.18,2.64 0.3,3.9 c 1.878,12.182 11.969,21.401 24.3,22.08 l 2.64,0 C 39.591,25.355 49.704,16.197 51.66,4.02 L 51.78,2.76 51.9,1.44 51.96,0.12 51.9,-1.26 C 51.373,-13.479 42.083,-23.758 30,-25.62 l -1.32,-0.18 -1.32,-0.06 C 14.615,-26.66 3.18,-17.718 0.54,-5.28 L 0.36,-3.96 0.18,-2.7 0.06,-1.38 0,0 z M 4.56,-1.02 4.62,-2.1 4.74,-3.18 C 9.586,-28.599 45.075,-26.897 47.4,-1.14 L 47.46,0 47.4,1.08 C 45.203,27.483 8.391,28.528 4.62,2.28 L 4.5,0.12"
+     style="fill:#c0504d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="path3286"
+     inkscape:connector-curvature="0" /></g><text
+   transform="matrix(1,0,0,-1,188.22,564.96)"
+   id="text3288"
+   style="-inkscape-font-specification:Bitstream Vera Sans;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   sodipodi:linespacing="125%"><tspan
+     style="font-size:12px;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans;font-style:normal;text-anchor:start;text-align:start;line-height:125%"
+     x="0 6.7680001 12.483"
+     y="0"
+     sodipodi:role="line"
+     id="tspan3290">Hg </tspan></text>
+
+
+
+
+<text
+   transform="matrix(1,0,0,-1,139.68,675.6)"
+   id="text3292"
+   style="-inkscape-font-specification:Bitstream Vera Sans;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   sodipodi:linespacing="125%"><tspan
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans;text-anchor:start;text-align:start;line-height:125%"
+     x="0"
+     y="0"
+     id="tspan3294">e</tspan></text>
+
+
+
+
+<text
+   transform="matrix(1,0,0,-1,147.06,684.6)"
+   id="text3296"
+   sodipodi:linespacing="125%"
+   style="line-height:125%;-inkscape-font-specification:Bitstream Vera Sans;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr"><tspan
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+     x="0"
+     y="0"
+     id="tspan3298">-</tspan></text>
+
+
+
+
+<text
+   transform="matrix(1,0,0,-1,120.54,541.98)"
+   id="text3300"
+   style="-inkscape-font-specification:Bitstream Vera Sans;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   sodipodi:linespacing="125%"><tspan
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans;text-anchor:start;text-align:start;line-height:125%"
+     x="0"
+     y="0"
+     id="tspan3302">e</tspan></text>
+
+
+
+
+<text
+   transform="matrix(1,0,0,-1,127.92,550.98)"
+   id="text3304"
+   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+   sodipodi:linespacing="125%"><tspan
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+     x="0"
+     y="0"
+     id="tspan3306">-</tspan></text>
+
+
+
+
+<g
+   id="g3308"
+   transform="translate(173.4,481.14)"><path
+     d="M 0,0 C 0,11.7 9.48,21.18 21.18,21.18 32.94,21.18 42.42,11.7 42.42,0 42.42,-11.7 32.94,-21.24 21.18,-21.24 9.48,-21.24 0,-11.7 0,0"
+     style="fill:#95b3d7;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     id="path3310"
+     inkscape:connector-curvature="0" /></g><g
+   id="g3312"
+   transform="translate(171.9,481.08)"><path
+     d="m 0,0 0.06,1.14 0.06,1.2 C 3.861,29.453 41.471,29.471 45.3,2.4 l 0.06,-1.14 0.06,-1.2 C 44.397,-27.924 5.609,-30.991 0.3,-3.48 L 0.12,-2.34 0.06,-1.14 0,0 z m 3,-0.96 0.12,-0.96 0.12,-1.02 c 4.366,-23.341 37.085,-21.686 39.12,1.92 L 42.42,0 42.36,1.02 C 40.33,25.239 6.507,26.18 3.12,2.1 L 3.06,1.08 3,0.06"
+     style="fill:#385d8a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="path3314"
+     inkscape:connector-curvature="0" /></g><text
+   transform="matrix(1,0,0,-1,188.28,481.86)"
+   id="text3316"
+   style="-inkscape-font-specification:Bitstream Vera Sans;font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   sodipodi:linespacing="125%"><tspan
+     style="font-size:12px;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans;font-style:normal;text-anchor:start;text-align:start;line-height:125%"
+     x="0 6.7680001 12.483"
+     y="0"
+     sodipodi:role="line"
+     id="tspan3318">Hg </tspan></text>
+
+
+
+
+<path
+   d="m 92.58,625.68 12,0 0,-3 -12,0 0,3 z m 21,0 12,0 0,-3 -12,0 0,3 z m 21,0 12,0 0,-3 -12,0 0,3 z m 21,0 12,0 0,-3 -12,0 0,3 z m 21,0 12,0 0,-3 -12,0 0,3 z m 21,0 12,0 0,-3 -12,0 0,3 z m 21,0 0.78,0 0,-3 -0.78,0 0,3 z"
+   style="fill:#7f7f7f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+   id="path3320"
+   inkscape:connector-curvature="0" /><g
+   id="g3322"
+   transform="translate(167.94,475.86)"><path
+     d="M 0,0 -0.96,1.5 C -2.151,3.229 -3.894,6.158 -5.7,7.26 L -6,7.38 -5.82,7.32 -6.24,7.44 -6,7.38 -6.24,7.44 -6.3,7.44 -6.36,7.38 C -6.703,7.184 -7.047,6.951 -7.26,6.6 L -7.62,6.18 -7.98,5.7 C -8.848,4.4 -9.872,2.721 -10.5,1.32 l -0.36,-0.6 -0.36,-0.66 -0.12,-0.24 c -1.392,-2.736 -1.658,-7.38 -3.24,-9.9 l -0.18,-0.3 -0.24,-0.3 c -0.06,-0.06 -0.18,-0.12 -0.24,-0.18 l -0.12,-0.12 c -0.12,-0.06 -0.18,-0.06 -0.3,-0.12 l -0.12,-0.06 c -0.12,-0.06 -0.24,-0.12 -0.36,-0.12 l -0.18,0 c -0.12,-0.06 -0.3,-0.06 -0.42,0 l -0.18,0 c -0.12,0 -0.24,0.06 -0.36,0.12 l -0.18,0.06 c -0.06,0 -0.18,0.06 -0.24,0.12 l -0.18,0.12 -0.3,0.3 c -1.576,1.517 -2.96,5.944 -3.96,7.98 l -0.36,0.78 -0.36,0.72 c -1.017,1.529 -3.08,4.825 -4.56,5.82 l -0.3,0.18 -0.18,0.06 0.18,-0.06 -0.36,0.12 0.18,-0.06 -0.36,0 -0.12,-0.12 -0.24,-0.12 -0.18,-0.12 -0.18,-0.18 -0.36,-0.42 C -30.404,2.876 -31.25,1.546 -32.1,0.24 l -1.44,-2.16 -0.42,-0.66 c -0.798,-1.268 -1.467,-1.994 -2.1,-3.42 l -0.54,-1.26 -0.3,-0.66 c -0.678,-1.336 -0.9,-2.015 -1.92,-3.18 l -0.3,-0.18 -0.3,-0.24 -0.3,-0.18 c -0.06,0 -0.12,-0.06 -0.18,-0.06 l -0.24,-0.06 -0.36,-0.12 c -0.06,0 -0.18,0 -0.24,0 L -40.92,-12 c -0.12,0 -0.18,0 -0.24,0.06 l -0.18,0 c -0.12,0 -0.18,0 -0.24,0.06 l -0.24,0.06 c -0.06,0 -0.18,0.06 -0.24,0.06 l -0.18,0.12 c -3.421,1.76 -5.719,9.429 -9.42,10.38 l -0.48,0.12 0.84,2.88 0.66,-0.18 c 4.606,-1.414 6.431,-7.442 9.6,-10.5 l 0.24,-0.06 -0.24,0.06 0.24,-0.06 -0.24,0.06 0.18,-0.06 -0.18,0 0.18,0.06 -0.24,-0.06 0.18,0.06 -0.18,-0.12 0,0.06 0.06,0 0.06,0.06 c 1.983,2.684 2.273,5.399 4.92,8.64 l 0.96,1.44 c 1.281,1.916 4.135,7.016 6.9,6.84 l 0.6,0 c 0.12,0 0.18,-0.06 0.24,-0.06 l 0.42,-0.12 c 0.06,0 0.12,0 0.24,-0.06 l 0.54,-0.24 0.54,-0.36 c 1.88,-1.377 4.228,-4.897 5.46,-6.9 l 0.36,-0.78 0.42,-0.84 c 0.965,-1.977 1.968,-5.326 3.24,-6.96 l 0,-0.06 0.12,-0.12 -0.24,0.18 0.18,-0.06 -0.42,0.06 0.18,0 -0.42,0 0.12,0 -0.36,-0.12 0.12,0.12 -0.24,-0.18 0.12,0.12 -0.24,-0.18 0.06,0 0.06,0.06 c 1.321,2.752 1.628,6.754 3.06,9.72 l 0.54,0.9 c 1.418,2.567 3.882,8.381 7.38,8.34 l 0.36,-0.06 0.18,0 c 0.12,0 0.18,-0.06 0.24,-0.06 l 0.48,-0.12 c 0.06,-0.06 0.12,-0.06 0.18,-0.12 l 0.6,-0.3 C -1.827,8.458 0.105,5.229 1.56,3.12 L 2.52,1.62 0,0 z m -51.72,0.3 5.58,-7.8 -14.58,8.28 15.42,6.66"
+     style="fill:#c0504d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="path3324"
+     inkscape:connector-curvature="0" /></g><g
+   id="g3326"><g
+     id="g3328"
+     clip-path="url(#clipPath3330)" /></g></g></svg>

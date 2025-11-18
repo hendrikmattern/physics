@@ -1391,3 +1391,75 @@
 <img src="../img/from_wiki/Lagrangian_points_equipotential.gif" alt="Lagrangian_points_equipotential.gif" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Lagrangian_points_equipotential.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/FHcollisions.svg" alt="FHcollisions.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:FHcollisions.svg) by E. A. Schiff, [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Japanese_car_accident_blur.jpg" alt="Japanese_car_accident_blur.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Japanese_car_accident_blur.jpg), [Attribution-Share Alike 2.0 Generic](//creativecommons.org/licenses/by-sa/2.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Newtons_cradle_animation_book.gif" alt="Newtons_cradle_animation_book.gif" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Newtons_cradle_animation_book.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Elastischer_stoss.gif" alt="Elastischer_stoss.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Elastischer_sto%C3%9F.gif), [Attribution 2.5 Generic Deed](//creativecommons.org/licenses/by-sa/2.5/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Elastischer_stoss2.gif" alt="Elastischer_stoss2.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Elastischer_sto%C3%9F2.gif), [Attribution 2.5 Generic Deed](//creativecommons.org/licenses/by-sa/2.5/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Elastischer_stoss3.gif" alt="Elastischer_stoss3.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Elastischer_sto%C3%9F3.gif), [Attribution 2.5 Generic Deed](//creativecommons.org/licenses/by-sa/2.5/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Inelastischer_stoss.gif" alt="Inelastischer_stoss.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Inelastischer_sto%C3%9F.gif), [Attribution 2.5 Generic Deed](//creativecommons.org/licenses/by-sa/2.5/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Billard.JPG" alt="Billard.JPG" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Billard.JPG), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Bird_toy_showing_center_of_gravity.jpg" alt="Bird_toy_showing_center_of_gravity.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Bird_toy_showing_center_of_gravity.jpg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Variable-mass_system_derivation.svg" alt="Variable-mass_system_derivation.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Variable-mass_system_derivation.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Goodbye_2012.JPG" alt="Goodbye_2012.JPG" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Goodbye_2012.JPG), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Budweiser_Rocket_Car.jpg" alt="Budweiser_Rocket_Car.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Budweiser_Rocket_Car.jpg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</sub>*
