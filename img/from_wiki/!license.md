@@ -1463,3 +1463,69 @@
 <img src="../img/from_wiki/Budweiser_Rocket_Car.jpg" alt="Budweiser_Rocket_Car.jpg" width="300"/>
 
 *<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Budweiser_Rocket_Car.jpg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)</sub>*
+
+---
+
+<img src="../img/from_wiki/Vector-omega.svg" alt="Vector-omega.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Vector-omega.svg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Impulsmoment_van_autowiel_onder_inversie.svg" alt="Impulsmoment_van_autowiel_onder_inversie.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Impulsmoment_van_autowiel_onder_inversie.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/nl/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Moment_arm.svg" alt="Moment_arm.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Moment_arm.svg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Moment_of_inertia_rod_center.svg" alt="Moment_of_inertia_rod_center.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Moment_of_inertia_rod_center.svg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Steiner.png" alt="Steiner.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Steiner.png), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Moment_of_inertia_examples.gif" alt="Moment_of_inertia_examples.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Moment_of_inertia_examples.gif), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Components_stress_tensor.svg" alt="Components_stress_tensor.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Components_stress_tensor.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Tensor_dimensions.svg" alt="Tensor_dimensions.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Tensor_dimensions.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Torque_animation.gif" alt="Torque_animation.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Torque_animation.gif), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Schwungrad02.jpg" alt="Schwungrad02.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Schwungrad02.jpg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Lanz_Bulldog_1928-crop.jpg" alt="Lanz_Bulldog_1928-crop.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Lanz_Bulldog_1928-crop.jpg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.de)</sub>*
