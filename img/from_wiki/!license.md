@@ -1529,3 +1529,93 @@
 <img src="../img/from_wiki/Lanz_Bulldog_1928-crop.jpg" alt="Lanz_Bulldog_1928-crop.jpg" width="300"/>
 
 *<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Lanz_Bulldog_1928-crop.jpg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Coriolis.gif" alt="Coriolis.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Coriolis.gif), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Carousel_walk.PNG" alt="Carousel_walk.PNG" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Carousel_walk.PNG), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Carousel.gif" alt="Carousel.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Carousel.gif), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Coriolis_effect14.png" alt="Coriolis_effect14.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Coriolis_effect14.png), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Animated_Rotating_Frame.gif" alt="Animated_Rotating_Frame.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Animated_Rotating_Frame.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Noninertial_reference_frames.gif" alt="Noninertial_reference_frames.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Noninertial_reference_frames.gif), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Foucault_pendulum_animated.gif" alt="Foucault_pendulum_animated.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Foucault_pendulum_animated.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/FoucaultMultiAnima.gif" alt="FoucaultMultiAnima.gif" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:FoucaultMultiAnima.gif), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Earth_coordinates.svg" alt="Earth_coordinates.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Earth_coordinates.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/PrecessionOfATop.svg" alt="PrecessionOfATop.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:PrecessionOfATop.svg), [Attribution 2.5 Generic Deed](//creativecommons.org/licenses/by-sa/2.5/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Kreiselmoment_Drehimpuls.svg" alt="Kreiselmoment_Drehimpuls.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Kreiselmoment_Drehimpuls.svg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Gyroscope_operation.gif" alt="Gyroscope_operation.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Gyroscope_operation.gif), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/DG_interior.png" alt="DG_interior.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:DG_interior.png), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Blausen_0329_EarAnatomy_InternalEar.png" alt="Blausen_0329_EarAnatomy_InternalEar.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Blausen_0329_EarAnatomy_InternalEar.png), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Cochlea_and_vestibular_system.gif" alt="Cochlea_and_vestibular_system.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Cochlea_and_vestibular_system.gif) by Nevit Dilmen, [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
