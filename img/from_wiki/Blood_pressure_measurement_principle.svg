@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-33 -45 240 240">
+ <title>blood pressure measurement principle</title>
+ <desc>Measurement of systolic and diastolic blood pressure using a mercury sphygmomanometer by CMG Lee based on http://researchgate.net/figure/The-principle-of-noninvasive-systolic-and-diastolic-blood-pressure-measurement-by-using_fig2_329554481 .</desc>
+ <defs>
+  <pattern id="pattern_grid" patternUnits="userSpaceOnUse" width="8" height="20">
+   <path d="M 0,2 H 8 M 0,6 H 4 M 0,10 H 4 M 0,14 H 4 M 0,18 H 4" stroke="#9900cc" stroke-width="0.5"/>
+  </pattern>
+  <path id="pulse" d="M 0,49 C 4,49 0,1 3,1 S 7,23 8,23 S 9,20 10,20 S 15,49 21,49 V -1 H 0" fill="#ffffff"/>
+  <pattern id="pattern_outline" patternUnits="userSpaceOnUse" width="20" height="50">
+   <use xlink:href="#pulse" stroke="#ff00cc"/>
+  </pattern>
+  <pattern id="pattern_no_outline" patternUnits="userSpaceOnUse" width="20" height="50">
+   <use xlink:href="#pulse"/>
+  </pattern>
+  <g id="pulses">
+   <path d="M 40,0 H 200 V 50 H 140" fill="#ff9999"/>
+   <path d="M 0,0 H 200 V 50 H 0"/>
+  </g>
+  <clipPath id="clip_envelope">
+   <path id="envelope" d="M 0,50 H 43 C 80,0 140,0 140,40 L 180,50 H 200 M 141,39 l 5,-5"/>
+  </clipPath>
+  <path id="tubes" d="M 0,-40 V 135 h 60 v -10 q -5,-5 -10,0 v 10 h 5 v -13 c -2,-8 20,-30 20,48 h -20 h 20 q 0,18 25,18" stroke-linejoin="round" stroke-linecap="round"/>
+ </defs>
+ <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+ <g font-family="Helvetica,Arial,sans-serif" font-size="12" text-anchor="start" fill="#000000" stroke="none">
+  <g transform="translate(0,0)">
+   <use xlink:href="#pulses" fill="url(#pattern_outline)"/>
+   <path d="M -20,-30 l 174,87" stroke="#cc00ff" stroke-dasharray="8,2,2,2"/>
+  </g>
+  <g transform="translate(0,55)">
+   <g clip-path="url(#clip_envelope)">
+    <circle cx="0" cy="0" r="99999" fill="#ff9999"/>
+    <use xlink:href="#pulses" fill="url(#pattern_no_outline)" transform="matrix(1,-19.6 0,40 0,700)"/>
+   </g>
+   <use xlink:href="#envelope" fill="none" stroke="#cc0000" stroke-dasharray="7,2"/>
+  </g>
+  <g fill="none" stroke-dasharray="1.1,1">
+   <path d="M  43,105 V 2 H -15 m 7,-4 l -7,4 l 7,4" stroke="#009966"/>
+   <path d="M 140,90 V 50 H -15 m 7,-4 l -7,4 l 7,4" stroke="#0000ff"/>
+  </g>
+  <g transform="translate(-20,0)" fill="none" stroke="#000000">
+   <path d="M 110,192 c 120,5 120,-9 90,-7 c 26,0 26,-9 0,-6 c 28,0 28,-9 0,-6 c 25,0 25,-9 -4,-5 c 16,-2 16,-9 0,-6 c -30,12 -50,-6 -81,4" fill="#ffcc99"/>
+   <path d="M 122,175 a 2,2 0 1 0 0,1 q 20,0 20,-20 m -20,-30 a 3,2 0 1 0 0,-1 c -20,40 60,40 40,0 a 3,2 0 1 0 0,1" stroke="#cc0000" stroke-width="4"/>
+   <path d="M 110,193 c -20,0 -25,-45 20,-30 c -20,0 -20,30 0,30 z" fill="#ffcc00"/>
+   <use xlink:href="#tubes" stroke-width="8"/>
+   <use xlink:href="#tubes" stroke-width="6" stroke="#ccffff"/>
+   <path d="M 0,-29 V 135 h 60 v -5 h -13" stroke-width="6" stroke="#9900cc"/>
+   <path d="M -10,-40 h 6 v 104 h -6" fill="url(#pattern_grid)" stroke="none"/>
+   <ellipse cx="23" cy="170" rx="20" ry="14" fill="#99cc00"/>
+   <path d="M 53,165 a 7,7 0 1 0 0.1,0.1 l -10,10 m 0,-10 l 10,10 M 0,165 h 4 v 10 h -4 z" fill="#cccccc"/>
+  </g>
+  <use xlink:href="#labels" stroke="#ffffff" stroke-width="2"/>
+  <g id="labels">
+   <text transform="translate(150,-22)" x="0" y="0.6ex">time &#8594;</text>
+   <text transform="translate(-14,-39)" x="0" y="0.6ex">mmHg</text>
+   <text transform="translate(  5,-22)" x="0" y="0.6ex" fill="#cc00ff">Cuff pressure</text>
+   <text transform="translate(115, -6)" x="0" y="0.6ex" fill="#ff00cc">Cordis pressure</text>
+   <text transform="translate( -4, -6)" x="0" y="0.6ex" fill="#009966">Systolic pressure</text>
+   <text transform="translate( -4, 57)" x="0" y="0.6ex" fill="#0000ff">Diastolic pressure</text>
+   <text transform="translate( 60,113)" x="0" y="0.6ex" fill="#cc0000">Korotkoff sound intensity</text>
+   <text transform="translate(145, 75)" x="0" y="0.6ex" fill="#cc0000"><tspan>Sound</tspan><tspan x="0" dy="1.6ex">change</tspan></text>
+   <text transform="translate(-14, 78)" x="0" y="0.6ex"><tspan>Mercury</tspan><tspan x="0" dy="1.6ex">column</tspan></text>
+   <text transform="translate(-12,150)" x="0" y="0.6ex">Pump</text>
+   <text transform="translate( 20,185)" x="0" y="0.6ex">Valve</text>
+   <text transform="translate( 65,155)" x="0" y="0.6ex">Cuff</text>
+   <text transform="translate(150,135)" x="0" y="0.6ex"><tspan>Stetho-</tspan><tspan x="0.5ex" dy="1.6ex">scope</tspan></text>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,534 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2.6a -->
+<!-- CreationDate: 2022-02-13 21:24:40 -->
+<!-- Magnification: 1.05 -->
+<svg	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="186pt" height="96pt"
+	viewBox="-1092 -1227 2949 1509">
+<desc> Erstellt mit druck.py am 13.02.2022 um 19:34 Uhr </desc>
+<g fill="none">
+<!-- Line -->
+<rect x="-1080" y="-1215" width="2925" height="1485" fill="#ffffff"
+	stroke="#ffffff" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -813,-337 808,-542"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 1425,-213 307,-566"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -629,-261 1023,-477"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 1089,-162 0,-529"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -433,-179 1250,-409"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 741,-110 -317,-491"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -223,-92 1492,-337"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 378,-56 -646,-451"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 0,0 1748,-261 604,-602 -987,-409 0,0"
+	stroke="#000000" stroke-width="30px"/>
+<!-- Line -->
+<polyline points=" 0,-329 1760,-561 608,-864 -993,-693 0,-329"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -819,-629 813,-810"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 1435,-518 309,-832"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -633,-561 1029,-753"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 1097,-474 0,-799"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -436,-489 1259,-693"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 746,-427 -319,-765"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -225,-411 1502,-629"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 380,-379 -651,-729"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp0">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 588,-724 558,-694 528,-724 549,-547 563,-547z"/>
+</clipPath>
+</defs>
+<polyline points=" 556,-554 559,-821" clip-path="url(#cp0)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 556,-554 -->
+<polygon points=" 528,-724 556,-574 588,-724 558,-694 528,-724"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp1">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 795,-660 765,-631 735,-661 755,-484 769,-484z"/>
+</clipPath>
+</defs>
+<polyline points=" 762,-491 767,-765" clip-path="url(#cp1)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 762,-491 -->
+<polygon points=" 735,-661 762,-511 795,-660 765,-631 735,-661"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp2">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 1015,-592 984,-563 955,-594 974,-416 988,-416z"/>
+</clipPath>
+</defs>
+<polyline points=" 981,-423 988,-705" clip-path="url(#cp2)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 981,-423 -->
+<polygon points=" 955,-594 981,-443 1015,-592 984,-563 955,-594"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp3">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 1248,-521 1217,-492 1188,-523 1206,-345 1220,-345z"/>
+</clipPath>
+</defs>
+<polyline points=" 1213,-352 1221,-642" clip-path="url(#cp3)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 1213,-352 -->
+<polygon points=" 1188,-523 1214,-372 1248,-521 1217,-492 1188,-523"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp4">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 1495,-446 1464,-417 1435,-448 1452,-270 1466,-270z"/>
+</clipPath>
+</defs>
+<polyline points=" 1459,-277 1469,-575" clip-path="url(#cp4)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 1459,-277 -->
+<polygon points=" 1435,-448 1460,-297 1495,-446 1464,-417 1435,-448"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp5">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 282,-686 252,-656 222,-686 244,-509 258,-509z"/>
+</clipPath>
+</defs>
+<polyline points=" 251,-516 253,-788" clip-path="url(#cp5)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 251,-516 -->
+<polygon points=" 222,-686 251,-536 282,-686 252,-656 222,-686"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp6">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 484,-621 454,-591 424,-621 445,-444 459,-444z"/>
+</clipPath>
+</defs>
+<polyline points=" 452,-451 455,-729" clip-path="url(#cp6)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 452,-451 -->
+<polygon points=" 424,-621 452,-471 484,-621 454,-591 424,-621"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp7">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 698,-550 668,-521 638,-551 659,-374 673,-374z"/>
+</clipPath>
+</defs>
+<polyline points=" 666,-381 670,-668" clip-path="url(#cp7)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 666,-381 -->
+<polygon points=" 638,-551 666,-401 698,-550 668,-521 638,-551"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp8">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 925,-476 895,-447 865,-477 885,-300 899,-300z"/>
+</clipPath>
+</defs>
+<polyline points=" 892,-307 898,-602" clip-path="url(#cp8)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 892,-307 -->
+<polygon points=" 865,-477 892,-327 925,-476 895,-447 865,-477"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp9">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 1167,-398 1137,-369 1107,-400 1126,-222 1140,-222z"/>
+</clipPath>
+</defs>
+<polyline points=" 1133,-229 1141,-533" clip-path="url(#cp9)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 1133,-229 -->
+<polygon points=" 1107,-400 1134,-249 1167,-398 1137,-369 1107,-400"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp10">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M -34,-647 -64,-617 -94,-647 -70,-470 -56,-470z"/>
+</clipPath>
+</defs>
+<polyline points=" -63,-477 -64,-753" clip-path="url(#cp10)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point -63,-477 -->
+<polygon points=" -94,-647 -63,-497 -34,-647 -64,-617 -94,-647"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp11">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 162,-579 131,-549 102,-579 124,-402 138,-402z"/>
+</clipPath>
+</defs>
+<polyline points=" 131,-409 132,-693" clip-path="url(#cp11)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 131,-409 -->
+<polygon points=" 102,-579 131,-429 162,-579 131,-549 102,-579"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp12">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 370,-507 340,-477 310,-507 332,-330 346,-330z"/>
+</clipPath>
+</defs>
+<polyline points=" 339,-337 341,-629" clip-path="url(#cp12)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 339,-337 -->
+<polygon points=" 310,-507 339,-357 370,-507 340,-477 310,-507"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp13">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 591,-430 561,-401 531,-431 552,-254 566,-254z"/>
+</clipPath>
+</defs>
+<polyline points=" 559,-261 563,-561" clip-path="url(#cp13)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 559,-261 -->
+<polygon points=" 531,-431 559,-281 591,-430 561,-401 531,-431"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp14">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 827,-348 796,-319 767,-349 787,-172 801,-172z"/>
+</clipPath>
+</defs>
+<polyline points=" 794,-179 799,-489" clip-path="url(#cp14)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 794,-179 -->
+<polygon points=" 767,-349 794,-199 827,-348 796,-319 767,-349"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp15">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M -361,-607 -391,-577 -421,-607 -397,-430 -383,-430z"/>
+</clipPath>
+</defs>
+<polyline points=" -390,-437 -392,-717" clip-path="url(#cp15)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point -390,-437 -->
+<polygon points=" -421,-607 -390,-457 -361,-607 -391,-577 -421,-607"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp16">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M -172,-537 -201,-507 -232,-537 -208,-360 -194,-360z"/>
+</clipPath>
+</defs>
+<polyline points=" -201,-367 -202,-655" clip-path="url(#cp16)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point -201,-367 -->
+<polygon points=" -232,-537 -201,-387 -172,-537 -201,-507 -232,-537"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp17">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 30,-462 0,-432 -30,-462 -7,-285 7,-285z"/>
+</clipPath>
+</defs>
+<polyline points=" 0,-292 0,-589" clip-path="url(#cp17)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 0,-292 -->
+<polygon points=" -30,-462 0,-312 30,-462 0,-432 -30,-462"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp18">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 244,-383 214,-353 184,-383 206,-206 220,-206z"/>
+</clipPath>
+</defs>
+<polyline points=" 213,-213 215,-518" clip-path="url(#cp18)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 213,-213 -->
+<polygon points=" 184,-383 213,-233 244,-383 214,-353 184,-383"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp19">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 473,-297 443,-268 413,-298 434,-121 448,-121z"/>
+</clipPath>
+</defs>
+<polyline points=" 441,-128 445,-443" clip-path="url(#cp19)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 441,-128 -->
+<polygon points=" 413,-298 441,-148 473,-297 443,-268 413,-298"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp20">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M -701,-565 -730,-535 -761,-564 -735,-388 -721,-388z"/>
+</clipPath>
+</defs>
+<polyline points=" -728,-395 -733,-680" clip-path="url(#cp20)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point -728,-395 -->
+<polygon points=" -761,-564 -728,-415 -701,-565 -730,-535 -761,-564"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp21">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M -517,-492 -547,-462 -577,-491 -552,-315 -538,-315z"/>
+</clipPath>
+</defs>
+<polyline points=" -545,-322 -549,-616" clip-path="url(#cp21)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point -545,-322 -->
+<polygon points=" -577,-491 -545,-342 -517,-492 -547,-462 -577,-491"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp22">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M -323,-415 -352,-385 -383,-415 -358,-238 -344,-238z"/>
+</clipPath>
+</defs>
+<polyline points=" -351,-245 -354,-547" clip-path="url(#cp22)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point -351,-245 -->
+<polygon points=" -383,-415 -351,-265 -323,-415 -352,-385 -383,-415"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp23">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M -116,-332 -145,-302 -176,-332 -152,-155 -138,-155z"/>
+</clipPath>
+</defs>
+<polyline points=" -145,-162 -146,-474" clip-path="url(#cp23)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point -145,-162 -->
+<polygon points=" -176,-332 -145,-182 -116,-332 -145,-302 -176,-332"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp24">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 105,-244 75,-214 45,-244 68,-67 82,-67z"/>
+</clipPath>
+</defs>
+<polyline points=" 75,-74 75,-395" clip-path="url(#cp24)"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Backward arrow to point 75,-74 -->
+<polygon points=" 45,-244 75,-94 105,-244 75,-214 45,-244"
+	stroke="#ff0000" stroke-width="8px" stroke-miterlimit="8" fill="#ff0000"/>
+<!-- Line -->
+<polyline points=" 604,-602 608,-864"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 808,-542 813,-810"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 1023,-477 1029,-753"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 1250,-409 1259,-693"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 1492,-337 1502,-629"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 1748,-261 1760,-561"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 307,-566 309,-832"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 505,-504 509,-776"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 715,-437 720,-717"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 938,-367 944,-655"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 1174,-292 1182,-589"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 1425,-213 1435,-518"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 0,-529 0,-799"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 192,-464 194,-741"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 397,-395 399,-680"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 614,-322 618,-616"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 844,-245 850,-547"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 1089,-162 1097,-474"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -317,-491 -319,-765"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -130,-423 -131,-705"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 67,-352 67,-642"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 278,-277 279,-575"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 502,-196 505,-504"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 741,-110 746,-427"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -646,-451 -651,-729"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -466,-381 -469,-668"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -274,-307 -276,-602"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -70,-229 -71,-533"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 146,-145 147,-458"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 378,-56 380,-379"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -987,-409 -993,-693"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -813,-337 -819,-629"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -629,-261 -633,-561"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -433,-179 -436,-489"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -223,-92 -225,-411"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" 0,0 0,-329"
+	stroke="#ff0000" stroke-width="8px"/>
+<!-- Line -->
+<polyline points=" -223,-92 0,0 0,-329 -225,-411 -223,-92" fill="#ffffff"
+	stroke="#ffffff" stroke-width="30px"/>
+<!-- Line -->
+<polyline points=" 0,0 378,-56 380,-379 0,-329 0,0" fill="#ffffff"
+	stroke="#ffffff" stroke-width="30px"/>
+<!-- Line -->
+<polyline points=" 378,-56 146,-145 147,-458 380,-379 378,-56" fill="#ffffff"
+	stroke="#ffffff" stroke-width="30px"/>
+<!-- Line -->
+<polyline points=" 146,-145 -223,-92 -225,-411 147,-458 146,-145" fill="#ffffff"
+	stroke="#ffffff" stroke-width="30px"/>
+<!-- Line -->
+<polyline points=" -223,-92 0,0 0,-329 -225,-411 -223,-92" fill="#ffffff"
+	stroke="#ffffff" stroke-width="30px"/>
+<!-- Line -->
+<polyline points=" 0,0 378,-56 146,-145 -223,-92 0,0"
+	stroke="#0000ff" stroke-width="30px"/>
+<!-- Line -->
+<defs>
+<clipPath id="cp25">
+	<path clip-rule="evenodd" d="M -1092,-1227 H 1857 V 282 H -1092 z
+		M 105,-244 75,-214 45,-244 57,-56 93,-56z"/>
+</clipPath>
+</defs>
+<polyline points=" 75,-74 75,-395" clip-path="url(#cp25)"
+	stroke="#8f0000" stroke-width="30px"/>
+<!-- Backward arrow to point 75,-74 -->
+<polygon points=" 45,-244 75,-94 105,-244 75,-214 45,-244"
+	stroke="#8f0000" stroke-width="8px" stroke-miterlimit="8" fill="#8f0000"/>
+<!-- Line -->
+<polyline points=" 0,0 0,-329"
+	stroke="#8f0000" stroke-width="30px"/>
+<!-- Line -->
+<polyline points=" 378,-56 380,-379"
+	stroke="#8f0000" stroke-width="30px"/>
+<!-- Line -->
+<polyline points=" 146,-145 147,-458"
+	stroke="#8f0000" stroke-width="30px"/>
+<!-- Line -->
+<polyline points=" -223,-92 -225,-411"
+	stroke="#8f0000" stroke-width="30px"/>
+<!-- Line -->
+<polyline points=" 0,-329 380,-379 147,-458 -225,-411 0,-329"
+	stroke="#8f0000" stroke-width="30px"/>
+<!-- Text -->
+<text xml:space="preserve" x="270" y="225" fill="#0000ff" font-family="Times" font-style="normal" font-weight="normal" font-size="360" text-anchor="start">d</text>
+<!-- Text -->
+<text xml:space="preserve" x="495" y="225" fill="#0000ff" font-family="Times" font-style="italic" font-weight="normal" font-size="360" text-anchor="start">A</text>
+<!-- Text -->
+<text xml:space="preserve" x="-540" y="180" fill="#8f0000" font-family="Times" font-style="italic" font-weight="normal" font-size="360" text-anchor="start">F</text>
+<!-- Text -->
+<text xml:space="preserve" x="-720" y="180" fill="#8f0000" font-family="Times" font-style="normal" font-weight="normal" font-size="360" text-anchor="start">d</text>
+<!-- Text -->
+<text xml:space="preserve" x="-735" y="-945" fill="#ff0000" font-family="Times" font-style="italic" font-weight="normal" font-size="360" text-anchor="start">p</text>
+<!-- Text -->
+<text xml:space="preserve" x="-360" y="225" fill="#8f0000" font-family="Times" font-style="italic" font-weight="normal" font-size="300" text-anchor="start">n</text>
+</g>
+</svg>

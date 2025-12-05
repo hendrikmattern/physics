@@ -1,0 +1,11 @@
+<svg width="88mm" height="76mm" version="1.1" viewBox="0 0 88 76" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect width="88" height="76" fill="#fff"/><path d="m-3 76v-53c31-17 61-21 94-2v55" fill="#6bf" stroke="#57c" stroke-width="5"/>
+ <g id="e"><circle cx="29" cy="54" r="2"/>
+ <g id="b">
+ <g id="a"><path d="m29 50v-6" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".5"/><path d="m29 40 2 5.001-2-1-2 1z"/></g>
+ <use transform="rotate(45 29 54)" xlink:href="#a"/></g>
+ <use transform="rotate(90 29 54)" xlink:href="#b"/><use transform="rotate(180 29 54)" xlink:href="#b"/><use transform="rotate(-90 29 54)" xlink:href="#b"/></g>
+ <use transform="translate(39.5)" xlink:href="#e"/>
+ <g id="c"><use transform="rotate(165 29 32.8)" xlink:href="#a"/><circle cx="23" cy="12" r="2"/><use transform="rotate(120 38.6 32)" xlink:href="#a"/><use transform="rotate(210 20.3 34.5)" xlink:href="#a"/>
+ <g id="d"><path d="m27.4 10.8 5.9-1.3" fill="none" stroke="#f00" stroke-width=".5"/><path d="m37.2 8.6-4.4 3 .5-2.2-1.4-1.7z" fill="#f00"/></g>
+ <use transform="rotate(171.6 22.3 11.8)" xlink:href="#d"/></g>
+ <use transform="rotate(29.2 46.5 94.4)" xlink:href="#c"/></svg>

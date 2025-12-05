@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="650" height="860" viewBox="55 60 650 860"
+     id="svg2" sodipodi:version="0.32" inkscape:version="0.46" sodipodi:docname="barometer.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs id="defs4">
+    <inkscape:perspective sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 526.18109 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="744.09448 : 526.18109 : 1" inkscape:persp3d-origin="372.04724 : 350.78739 : 1" id="perspective10"/>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" gridtolerance="10000" guidetolerance="10" objecttolerance="10" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="1.979899" inkscape:cx="479.80687" inkscape:cy="222.89314" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="true" inkscape:window-width="1151" inkscape:window-height="998" inkscape:window-x="121" inkscape:window-y="0">
+    <inkscape:grid type="xygrid" id="grid3157"/>
+  </sodipodi:namedview>
+  <metadata id="metadata7">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
+    <!-- mercury -->
+    <g style="fill: rgb(200, 200, 200); fill-opacity: 1; fill-rule: evenodd; stroke: none;">
+      <rect id="Hg in basin top left" width="90" height="70" x="270" y="832.36218" rx="17" ry="17"/>
+      <rect id="Hg in basin top left" width="90" height="70" x="400" y="832.36218" rx="17" ry="17"/>
+      <rect id="Hg in basin bottom" width="220" height="50" x="270" y="852.36218" rx="10" ry="10"/>
+      <rect id="Hg in tube" width="40" height="700" x="360" y="162.36218" rx="17" ry="17"/>
+    </g>
+    <!--basin-->
+    <path style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 3.44537; stroke-linecap: round; stroke-opacity: 1;" d="M 490,791.83277              L 490,891.83277              A 10 10 0 0 1 480,901.83277              L 280,901.83277              A 10 10 0 0 1 270,891.83277              L 270,791.83277" id="basin"/>
+    <!--tube-->
+    <path style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 3.44537; stroke-linecap: round; stroke-opacity: 1;" d="M 360,862.88861              L 360,82.584866              A 10 10 0 0 1 370,72.584866              L 390,72.584866              A 10 10 0 0 1 400,82.584866              L 400,862.88861" id="tube"/>
+    <!--ruler/body-->
+    <rect style="fill: rgb(255, 153, 85); stroke: rgb(0, 0, 0); stroke-width: 1.01071; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" id="rect3201" width="14.989285" height="230.01151" x="390.00537" y="92.345314"/>
+    <!--ruler/gradations-->
+    <g style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 1px; stroke-linecap: butt; stroke-opacity: 1;">
+      <path d="M 390,317.36218 l  5,0"/>
+      <path d="M 390,312.36218 l  5,0"/>
+      <path d="M 390,307.36218 l  5,0"/>
+      <path d="M 390,302.36218 l  5,0"/>
+      <path d="M 390,292.36218 l  5,0"/>
+      <path d="M 390,297.36218 l 10,0"/>
+      <path d="M 390,287.36218 l  5,0"/>
+      <path d="M 390,282.36218 l  5,0"/>
+      <path d="M 390,277.36218 l  5,0"/>
+      <path d="M 390,272.36218 l 10,0"/>
+      <path d="M 390,267.36218 l  5,0"/>
+      <path d="M 390,262.36218 l  5,0"/>
+      <path d="M 390,257.36218 l  5,0"/>
+      <path d="M 390,252.36218 l  5,0"/>
+      <path d="M 390,247.36218 l 10,0"/>
+      <path d="M 390,242.36218 l  5,0"/>
+      <path d="M 390,237.36218 l  5,0"/>
+      <path d="M 390,232.36218 l  5,0"/>
+      <path d="M 390,227.36218 l  5,0"/>
+      <path d="M 390,222.36218 l 10,0"/>
+      <path d="M 390,217.36218 l  5,0"/>
+      <path d="M 390,212.36218 l  5,0"/>
+      <path d="M 390,207.36218 l  5,0"/>
+      <path d="M 390,202.36218 l  5,0"/>
+      <path d="M 390,197.36218 l 10,0"/>
+      <path d="M 390,192.36218 l  5,0"/>
+      <path d="M 390,187.36218 l  5,0"/>
+      <path d="M 390,182.36218 l  5,0"/>
+      <path d="M 390,177.36218 l  5,0"/>
+      <path d="M 390,172.36218 l 10,0"/>
+      <path d="M 390,167.36218 l  5,0"/>
+      <path d="M 390,162.36218 l  5,0"/>
+      <path d="M 390,157.36218 l  5,0"/>
+      <path d="M 390,152.36218 l  5,0"/>
+      <path d="M 390,147.36218 l 10,0"/>
+      <path d="M 390,142.36218 l  5,0"/>
+      <path d="M 390,137.36218 l  5,0"/>
+      <path d="M 390,132.36218 l  5,0"/>
+      <path d="M 390,127.36218 l  5,0"/>
+      <path d="M 390,122.36218 l 10,0"/>
+      <path d="M 390,117.36218 l  5,0"/>
+      <path d="M 390,112.36218 l  5,0"/>
+      <path d="M 390,107.36218 l  5,0"/>
+      <path d="M 390,102.36218 l  5,0"/>
+      <path d="M 390,97.362183 l 10,0"/>
+    </g>
+  </g>
+</svg>
