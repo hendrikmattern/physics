@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="562.89" height="190.18" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata2445">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path d="m204.45 111.57c-2.4573-9.2713 20.922-14.291 28.034-15.347 6.9144-0.85792 16.265-0.32936 23.225 0 16.783 0.87834 33.259 3.0635 48.905 7.2642 29.816 9.489 60.219 20.834 87.784 32.842 5.1553 2.2618 16.679 7.845 16.984 7.9804-26.741-7.3042-54.706-8.8249-81.236-11.05-16.706-1.4274-39.022-2.8134-55.76-3.7856-20.845-1.4415-63.388-0.74798-67.935-17.905z" stroke="#000" stroke-linejoin="round" stroke-width="1.0667px"/>
+ <g fill="none" stroke-width="3.2">
+  <path d="m5.7945 108.19 192.73 0.28937c6.6864-10.754 18.625-15.127 30.096-17.363 9.6409-1.8224 22.912-1.2565 32.7-0.57876 63.776 6.4567 103.69 27.348 156.56 51.51h120.09" stroke="#0000ea" stroke-linejoin="round"/>
+  <path d="m533.05 138.87 4.9195 3.1832-5.2089 2.3151z" stroke="#0000ea"/>
+  <path d="m6.6626 116 192.73 0.86815s10.641 10.164 16.495 11.865c47.567 13.822 99.719 7.9451 146.43 13.312 13.775 1.6791 30.651 4.3107 44.276 6.9452 3.9952 0.77254 10.4 2.0382 14.469 2.0257 35.316-0.10635 116.91 0 116.91 0" stroke="#e50000"/>
+  <path d="m532.91 149.18 5.4983 2.3151-5.2089 2.3151z" stroke="#e50000"/>
+ </g>
+ <path d="m249.38 78.315-0.0413-35.894-2.969 0.12536 4.0824-13.372 4.1236 13.246-3.5051 0.08357-0.0413 35.894z"/>
+ <path d="m295.76 78.315-0.0413-35.894-2.969 0.12536 4.0824-13.372 4.1236 13.246-3.5051 0.08357-0.0413 35.894z"/>
+ <path d="m280.3 78.315-0.0413-35.894-2.969 0.12536 4.0824-13.372 4.1236 13.246-3.5051 0.08357-0.0413 35.894z"/>
+ <path d="m264.84 78.315-0.0413-35.894-2.969 0.12536 4.0824-13.372 4.1236 13.246-3.5051 0.08357-0.0413 35.894z"/>
+ <g font-family="Bitstream Vera Sans">
+  <text x="135.01965" y="21.010633" fill="#000000" font-size="21.333px">Lift does not work like this</text>
+  <text x="3.7553122" y="94.573029" fill="#0000ff" font-size="14.933px">Upper streamline</text>
+  <text x="2.6268647" y="136.84906" fill="#ff0000" font-size="14.933px">Lower streamline</text>
+  <text x="340.36172" y="75.77182" fill="#0000ff" font-size="14.933px">Low pressure,<tspan x="340.36172" y="94.438484">high velocity</tspan></text>
+  <text x="241.17789" y="163.38756" fill="#ff0000" font-size="14.933px">High pressure,<tspan x="241.17789" y="182.05423">low velocity</tspan></text>
+  <text x="435.13986" y="126.97391" fill="#0000ff" font-size="14.933px">Longer distance</text>
+  <text x="436.82718" y="175.31845" fill="#ff0000" font-size="14.933px">Shorter distance</text>
+  <text transform="rotate(7.5123 112.61 59.55)" x="218.70226" y="102.53755" font-size="18.667px" style="inline-size:192.97" fill="#ff03ff">This is incorrect.</text>
+ </g>
+</svg>

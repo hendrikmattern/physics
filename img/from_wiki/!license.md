@@ -1781,3 +1781,105 @@
 <img src="../img/from_wiki/MercuryBarometer.svg" alt="MercuryBarometer.svg" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:MercuryBarometer.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Magnus_force_on_corner_kick_goals.svg" alt="Magnus_force_on_corner_kick_goals.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Magnus_force_on_corner_kick_goals.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Flow_around_a_wing.gif" alt="Flow_around_a_wing.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Flow_around_a_wing.gif), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Cessna_182_model-wingtip-vortex.jpg" alt="Cessna_182_model-wingtip-vortex.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Cessna_182_model-wingtip-vortex.jpg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Volumetric-flow-rate.svg" alt="Volumetric-flow-rate.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Volumetric-flow-rate.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/BernoullisLawDerivationDiagram.svg" alt="BernoullisLawDerivationDiagram.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:BernoullisLawDerivationDiagram.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/TorricelliLawDiagram.svg" alt="TorricelliLawDiagram.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:TorricelliLawDiagram.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Venturi5.svg" alt="Venturi5.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Venturi5.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Equal_transit-time_NASA_wrong1_en.svg" alt="Equal_transit-time_NASA_wrong1_en.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Equal_transit-time_NASA_wrong1_en.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Karman_trefftz.gif" alt="Karman_trefftz.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Karman_trefftz.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Airfoil_Kutta_condition.jpg" alt="Airfoil_Kutta_condition.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Airfoil_Kutta_condition.jpg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Viscosities.gif" alt="Viscosities.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Viscosities.gif), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Laminar_shear.svg" alt="Laminar_shear.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Laminar_shear.svg) by Duk, [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Laminar_flow_profile.gif" alt="Laminar_flow_profile.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Laminar_flow_profile.gif), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Magnus_effect_Strmung.png" alt="Magnus_effect_Strmung.png" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Magnus_effect_Str%C3%B6mung.png), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Buckau_Flettner_Rotor_Ship_LOC_37764u.jpg" alt="Buckau_Flettner_Rotor_Ship_LOC_37764u.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Buckau_Flettner_Rotor_Ship_LOC_37764u.jpg), no known copyright restrictions</sub>*
+
+---
+
+<img src="../img/from_wiki/Flettner_rotor_forces.svg" alt="Flettner_rotor_forces.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Flettner_rotor_forces.svg), gemeinfrei</sub>*
+
+---
+
+<img src="../img/from_wiki/Points_of_sail_for_rotorships.svg" alt="Points_of_sail_for_rotorships.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Points_of_sail_for_rotorships.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.de)</sub>*
