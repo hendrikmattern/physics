@@ -7686,27 +7686,30 @@ $$</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Pressure-&amp;-Depth---Derivation">Pressure &amp; Depth - Derivation<a class="anchor-link" href="#Pressure-&amp;-Depth---Derivation">¶</a></h2><ul>
-<li><p>thin fluid layer of thickness $\mathrm{d}y$ and area $A$</p>
-</li>
-<li><p>mass: $\rho A\,\mathrm{d}y$, weight: $\rho g A\,\mathrm{d}y$</p>
-</li>
-<li><p>Pressure forces:</p>
+<h2 id="Pressure-&amp;-Depth-%E2%80%93-Derivation">Pressure &amp; Depth – Derivation<a class="anchor-link" href="#Pressure-&amp;-Depth-%E2%80%93-Derivation">¶</a></h2><p>(Take $y$ as vertical coordinate, positive upward.)</p>
 <ul>
-<li>upward: $(P + \mathrm{d}P)A$</li>
-<li>downward: $PA$</li>
+<li><p>thin fluid layer of thickness $\mathrm{d}y$, area $A$, and mass $\rho A\,\mathrm{d}y$</p>
+</li>
+<li><p>Pressure forces &amp; weight:</p>
+<ul>
+<li><strong>upward</strong> (from the bottom surface): $(P + \mathrm{d}P)A$</li>
+<li><strong>downward</strong> (from the top surface): $PA$</li>
+<li><strong>downward</strong> weight: $\rho g A\,\mathrm{d}y$</li>
 </ul>
 </li>
-<li><p>Force balance (no acceleration):
+<li><p>Force balance in $y$ (no acceleration):
 $$
-(P + \mathrm{d}P)A - PA = \rho g\,A\,\mathrm{d}y
+(P + \mathrm{d}P)A \;-\; PA \;-\; \rho g\,A\,\mathrm{d}y = 0
+\quad\Rightarrow\quad
+\mathrm{d}P\,A - \rho g\,A\,\mathrm{d}y = 0
+\quad\Rightarrow\quad
+\boxed{\mathrm{d}P = \rho g\,\mathrm{d}y}
+
 $$</p>
 </li>
-<li><p>Simplifies to the <strong>hydrostatic relation</strong> for a fluid at rest:
+<li><p>Since pressure increases <strong>downward</strong> while $y$ increases <strong>upward</strong>, we have
 $$
-\boxed{\mathrm{d}P = \rho g\,\mathrm{d}y}
-\qquad \leftrightarrow \qquad
-\boxed{\frac{\mathrm{d}P}{\mathrm{d}y} = \rho g}
+\boxed{\frac{\mathrm{d}P}{\mathrm{d}y} = -\,\rho g}
 $$</p>
 </li>
 </ul>
@@ -7842,7 +7845,7 @@ The height over which pressure drops by a factor of $e$ (Earth: $h_0 \approx 8.4
 <h2 id="An-Ode-to-Ordinary-Differential-Equations-(ODE)">An Ode to Ordinary Differential Equations (ODE)<a class="anchor-link" href="#An-Ode-to-Ordinary-Differential-Equations-(ODE)">¶</a></h2><ul>
 <li>Hydrostatic relation is a <strong>differential equation</strong>:
 $$
-\frac{\mathrm{d}P}{\mathrm{d}h} = -\rho(h)\, g
+\frac{\mathrm{d}P}{\mathrm{d}h} = -\rho g
 $$</li>
 <li>Its solution depends on the model for density:<ul>
 <li><strong>Constant $\rho$</strong> → linear law<br/>
@@ -7996,7 +7999,7 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Hydraulic-Press---Demo">Hydraulic Press - Demo<a class="anchor-link" href="#Hydraulic-Press---Demo">¶</a></h2><p><code>mf45- Hydraulik</code></p>
+<h2 id="Hydraulic-Press---Demo">Hydraulic Press - Demo<a class="anchor-link" href="#Hydraulic-Press---Demo">¶</a></h2><p><code>mf03- Hydraulik</code></p>
 <p><strong>How does it work?</strong></p>
 <p><strong>Is there energy created "from nothing"?</strong></p>
 </div>
