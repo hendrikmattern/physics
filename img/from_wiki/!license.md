@@ -1883,3 +1883,63 @@
 <img src="../img/from_wiki/Points_of_sail_for_rotorships.svg" alt="Points_of_sail_for_rotorships.svg" width="300"/>
 
 *<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Points_of_sail_for_rotorships.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Simple_harmonic_motion_animation.gif" alt="Simple_harmonic_motion_animation.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Simple_harmonic_motion_animation.gif), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Simple_gravity_pendulum.svg" alt="Simple_gravity_pendulum.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Simple_gravity_pendulum.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Pendulum_gravity.svg" alt="Pendulum_gravity.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Pendulum_gravity.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Small-angle_approximation_for_sine_function.svg" alt="Small-angle_approximation_for_sine_function.svg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Small-angle_approximation_for_sine_function.svg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Federpendel_verschiedene_Daempfungen.gif" alt="Federpendel_verschiedene_Daempfungen.gif" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Federpendel_verschiedene_D%C3%A4mpfungen.gif), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Damped_oscillation_graph2.svg" alt="Damped_oscillation_graph2.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Damped_oscillation_graph2.svg) by Jahobr, gemeinfrei</sub>*
+
+---
+
+<img src="../img/from_wiki/Harmonic_oscillator.svg" alt="Harmonic_oscillator.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Harmonic_oscillator.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Sine_and_cosine_animation.gif" alt="Sine_and_cosine_animation.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Sine_and_cosine_animation.gif), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Damped_oscillations.gif" alt="Damped_oscillations.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Damped_oscillations.gif), License: public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Mplwp_resonance_zeta_envelope.svg" alt="Mplwp_resonance_zeta_envelope.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Mplwp_resonance_zeta_envelope.svg), [GNU Free Documentation License](https://en.wikipedia.org/wiki/en:GNU_Free_Documentation_License)*
