@@ -2015,3 +2015,28 @@
 <img src="../img/from_wiki/Taipei_101_Tuned_Mass_Damper.png" alt="Taipei_101_Tuned_Mass_Damper.png" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Taipei_101_Tuned_Mass_Damper.png), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Complex_conjugate_picture.svg" alt="Complex_conjugate_picture.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Complex_conjugate_picture.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Komplexe_multiplikation.svg" alt="Komplexe_multiplikation.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Komplexe_multiplikation.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Convolution_of_spiky_function_with_box2.gif" alt="Convolution_of_spiky_function_with_box2.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Convolution_of_spiky_function_with_box2.gif) by Tinos, [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/2D_Convolution_Animation.gif" alt="2D_Convolution_Animation.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:2D_Convolution_Animation.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
