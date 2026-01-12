@@ -1943,3 +1943,75 @@
 <img src="../img/from_wiki/Mplwp_resonance_zeta_envelope.svg" alt="Mplwp_resonance_zeta_envelope.svg" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Mplwp_resonance_zeta_envelope.svg), [GNU Free Documentation License](https://en.wikipedia.org/wiki/en:GNU_Free_Documentation_License)*
+
+---
+
+<img src="../img/from_wiki/Eulers_formula_proof.gif" alt="Eulers_formula_proof.gif" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Euler%27s_formula_proof.gif), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Sine_Cosine_Exponential_qtl1.svg" alt="Sine_Cosine_Exponential_qtl1.svg" width="300"/>
+
+*<sub>from [wikipedia](https://de.wikipedia.org/wiki/Datei:Sine_Cosine_Exponential_qtl1.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.de)</sub>*
+
+---
+
+<img src="../img/from_wiki/Fourier_transform_time_and_frequency_domains_small.gif" alt="Fourier_transform_time_and_frequency_domains_small.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Fourier_transform_time_and_frequency_domains_(small).gif), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Bass_Guitar_Time_Signal_of_open_string_A_note_55_Hz.png" alt="Bass_Guitar_Time_Signal_of_open_string_A_note_55_Hz.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Bass_Guitar_Time_Signal_of_open_string_A_note_(55_Hz).png), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Fourier_Transform_of_bass_guitar_time_signal.png" alt="Fourier_Transform_of_bass_guitar_time_signal.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Fourier_Transform_of_bass_guitar_time_signal.png), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/MRI_frequency_encoding.png" alt="MRI_frequency_encoding.png" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:MRI_frequency_encoding.png), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Ultrasound_range_diagram.svg" alt="Ultrasound_range_diagram.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Ultrasound_range_diagram.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/EM_spectrum.svg" alt="EM_spectrum.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:EM_spectrum.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Membrane-normal-modes.gif" alt="Membrane-normal-modes.gif" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Membrane-normal-modes.gif), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Spectrogram-19thC.png" alt="Spectrogram-19thC.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Spectrogram-19thC.png), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Taipei_101_Tuned_Mass_Damper_2010.jpg" alt="Taipei_101_Tuned_Mass_Damper_2010.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Taipei_101_Tuned_Mass_Damper_2010.jpg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Taipei_101_Tuned_Mass_Damper.png" alt="Taipei_101_Tuned_Mass_Damper.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Taipei_101_Tuned_Mass_Damper.png), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
