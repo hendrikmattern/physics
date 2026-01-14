@@ -1,0 +1,6 @@
+<svg width="332mm" height="70mm" version="1.1" viewBox="0 0 332 70" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect width="332" height="70" fill="#fff"/><rect x="128" width="72" height="70" fill="#ddb"/>
+ <g fill="none" stroke="#00f"><path id="d" d="m155 35c6-32 12-32 18 0"/><path id="c" d="m102 35c8.7-16 17.3-24 26-24m-78 24c17.3 32 34.7 32 52 0m-104 0c17.3-32 34.7-32 52 0"/>
+ <g id="e"><use transform="matrix(1 0 0-1 18 70)" xlink:href="#d"/><path d="m191 35c3-16 6-24 9-24"/></g>
+ <use transform="matrix(-1 0 0 1 328 0)" xlink:href="#e"/><use transform="matrix(-1 0 0 1 328 0)" xlink:href="#c"/></g>
+ <path d="m146 33v4m-18-4v4m-18-4v4m-18-4v4m-18-4v4m-18-4v4m-18-4v4m-18-4v4m-18-4v4m324-4v4m-18-4v4m-18-4v4m-18-4v4m-18-4v4m-18-4v4m-18-4v4m-18-4v4m-18-4v4m-18-4v4m0-4v4m-166-2h332" stroke="#000" stroke-width=".5"/>
+ <g font-family="Times" font-size="11px" font-style="italic"><text id="a" x="20" y="65">n<tspan dy="2" font-size="8px" font-style="normal">0</tspan></text><text x="71" y="19">&lt;</text><text id="b" x="162" y="65">n<tspan dy="2" font-size="8px" font-style="normal">1</tspan></text><use transform="translate(282)" xlink:href="#a"/><use transform="translate(37-47)" xlink:href="#a"/><use transform="translate(-81-47)" xlink:href="#b"/></g></svg>

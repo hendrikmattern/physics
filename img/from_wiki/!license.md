@@ -2040,3 +2040,82 @@
 <img src="../img/from_wiki/2D_Convolution_Animation.gif" alt="2D_Convolution_Animation.gif" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:2D_Convolution_Animation.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Nonsinusoidal_wavelength.svg" alt="Nonsinusoidal_wavelength.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Nonsinusoidal_wavelength.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Molecule4.gif" alt="Molecule4.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Molecule4.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Spherical_Wave.gif" alt="Spherical_Wave.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Spherical_Wave.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Plane_wave_wavefronts_3D.svg" alt="Plane_wave_wavefronts_3D.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Plane_wave_wavefronts_3D.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Onde_cisaillement_impulsion_1d_30_petit.gif" alt="Onde_cisaillement_impulsion_1d_30_petit.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Onde_cisaillement_impulsion_1d_30_petit.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Ondes_cisaillement_2d_20_petit.gif" alt="Ondes_cisaillement_2d_20_petit.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Ondes_cisaillement_2d_20_petit.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Onde_compression_impulsion_1d_30_petit.gif" alt="Onde_compression_impulsion_1d_30_petit.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Onde_compression_impulsion_1d_30_petit.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Ondes_compression_2d_20_petit.gif" alt="Ondes_compression_2d_20_petit.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Ondes_compression_2d_20_petit.gif), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Interference_of_two_waves.svg" alt="Interference_of_two_waves.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Interference_of_two_waves.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Standing_wave_2.gif" alt="Standing_wave_2.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Standing_wave_2.gif), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Waves_in_Box.svg" alt="Waves_in_Box.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Waves_in_Box.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Local_wavelength.svg" alt="Local_wavelength.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Local_wavelength.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+
+<img src="../img/from_wiki/Wavelength_refractive_index.svg" alt="Wavelength_refractive_index.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Wavelength_%26_refractive_index.svg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
