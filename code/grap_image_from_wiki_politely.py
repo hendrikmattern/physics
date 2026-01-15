@@ -215,14 +215,14 @@ def download_wikipedia_image_no_convert(wiki_file_url, save_dir, markdown_file):
         if full_media:
             a = full_media.find("a", class_="internal", href=True)
             if a:
-                href = a["href"]
+                href = str(a.get("href", ""))
                 image_url = ("https:" + href) if href.startswith("//") else href
         if not image_url:
             file_div = soup.find("div", class_="fullImageLink")
             if file_div:
                 a = file_div.find("a", href=True)
                 if a:
-                    href = a["href"]
+                    href = str(a.get("href", ""))
                     if href.startswith("//"):
                         image_url = "https:" + href
                     elif href.startswith("http"):
@@ -287,7 +287,7 @@ if __name__ == "__main__":
 
     # define htmls
     html_list = [
-        "https://en.wikipedia.org/wiki/File:Wavelength_%26_refractive_index.svg",
+        "https://en.wikipedia.org/wiki/File:Sound_pressure_diagram.svg",
         #"https://en.wikipedia.org/wiki/File:Japanese_car_accident_blur.jpg",
         #"https://de.wikipedia.org/wiki/Datei:2009-07-29-schiffshebewerk-ndf-by-RalfR-16.jpg",
     ]
