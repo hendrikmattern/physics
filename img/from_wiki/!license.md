@@ -2119,3 +2119,9 @@
 <img src="../img/from_wiki/Wavelength_refractive_index.svg" alt="Wavelength_refractive_index.svg" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Wavelength_%26_refractive_index.svg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Sound_pressure_diagram.svg" alt="Sound_pressure_diagram.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Sound_pressure_diagram.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
