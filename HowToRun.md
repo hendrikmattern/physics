@@ -22,8 +22,9 @@
     * jupyter notebook
     * jupyterlab_hide_code
     * jupyter lab
-    * (optional) selenium and webdriver-manager selenium for html2pdf print
-    * (optional) mistune for markdown to html conversion
+    * selenium and webdriver-manager for html to pdf print
+    * requests and beautifulsoup4 for automatically saving images from Wikipedia 
+    * (optional) mistune for old lecture tutorial handling (now handled as html->pdf and not md->pdf)
 	
 # Run notebook with VSCode and Jupyter
 * in VS code the individual notebook cells can be run by pressing `Ctrl + Enter` (double click if you want to enter a rendered cell)
@@ -33,15 +34,6 @@
     * use either Juypter Lab or Notebook with the file of your choice
     * `jupyter lab .\<filename>.ipynb`
     * `jupyter notebook .\<filename>.ipynb`
-
-
-# Convert slides notebook to static page (*.ipynb -> *.html)
-* *make sure slide/sub-slide types properly set*
-* run `jupyter nbconvert notebook_name.ipynb --to slides --post serve --no-input --no-prompt --SlidesExporter.reveal_number='c/t' --SlidesExporter.reveal_scroll=True` 
-* `--SlidesExporter.reveal_number='c/t'` enables slide numbers
-* `--SlidesExporter.reveal_scroll=True` enables scrolling on slides (not through slides)
-* one can add additional argument like `--mathjax` to enable math rendering via mathjax
-* open html in browser
 
 # Convert to html or pdf
 * we first convert to html and, subsequently, to pdf via headless web browser print
