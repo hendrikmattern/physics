@@ -224,4 +224,5 @@ if __name__ == "__main__":
         base_path / "html_lec_tut",
     ]
 
-    convert_files(inputs, output_folder, contains="1F")
+    #convert_files(inputs, output_folder, contains="1_10")
+    convert_files(inputs, output_folder, contains=".slides")
