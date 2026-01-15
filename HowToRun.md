@@ -43,19 +43,6 @@
 * one can add additional argument like `--mathjax` to enable math rendering via mathjax
 * open html in browser
 
-# Convert script to html or pdf (requires pandoc and latex) or webpdf (requires nbconvert[webpdf] and chromium)
-## html
-jupyter nbconvert 'physics2/2_01_script.ipynb' --no-input --to html
-
-# html print
-pip install selenium 
-pip install webdriver-manager selenium
-
-## pdf with intermediate tex (not working properly)
-jupyter nbconvert '.\physics2\2_02_script.ipynb' --to latex --no-input --no-prompt
-pdflatex .\physics2\2_02_script.tex
-
-# pdf (not working properly)
-pandoc -f html -t pdf .\html_slides\2_02_slides.slides.html -o test.pdf --resource-path .\img\ --pdf-engine xelatex
-jupyter nbconvert 'physics2/2_01_script.ipynb' --no-input --to pdf  
-jupyter nbconvert 'physics2/2_01_script.ipynb' --no-input --no-prompt --to webpdf --allow-chromium-download
+# Convert to html or pdf
+* we first convert to html and, subsequently, to pdf via headless web browser print
+* there are dedicated scripts for this, please check ./code folder
