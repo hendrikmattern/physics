@@ -7616,11 +7616,13 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Inducing-charge-by-conduction">Inducing charge by conduction<a class="anchor-link" href="#Inducing-charge-by-conduction">¶</a></h2><p><code>es09 + es10</code></p>
+<h2 id="Inducing-charge-by-conduction">Inducing charge by conduction<a class="anchor-link" href="#Inducing-charge-by-conduction">¶</a></h2><p><code>es13 + es04</code></p>
 <ul>
+<li>two conductors (one charged, one neutral)</li>
 <li><strong>contact required</strong></li>
-<li>free electrons move from one conductor to another</li>
-<li>after contact, both objects have the <strong>same charge</strong></li>
+<li>electrons redistribute</li>
+<li>both objects end up with the same polarity</li>
+<li>charge distribution depends on geometry</li>
 </ul>
 </div>
 </div>
@@ -7631,8 +7633,7 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Inducing-charge-by-(electrostatic)-induction">Inducing charge by (electrostatic) induction<a class="anchor-link" href="#Inducing-charge-by-(electrostatic)-induction">¶</a></h2><p><code>es09 + es10</code></p>
-<ul>
+<h2 id="Inducing-charge-by-(electrostatic)-induction">Inducing charge by (electrostatic) induction<a class="anchor-link" href="#Inducing-charge-by-(electrostatic)-induction">¶</a></h2><ul>
 <li><strong>no contact required</strong></li>
 </ul>
 <p><img alt="Influence" src="../img/from_wiki/Influenz_und_Stoerung_des_Feldbildes.svg.png" width="500"/></p>
@@ -7646,14 +7647,13 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Inducing-charge-by-(electrostatic)-induction">Inducing charge by (electrostatic) induction<a class="anchor-link" href="#Inducing-charge-by-(electrostatic)-induction">¶</a></h2><p><code>es09 + es10</code></p>
-<ul>
+<h2 id="Inducing-charge-by-(electrostatic)-induction">Inducing charge by (electrostatic) induction<a class="anchor-link" href="#Inducing-charge-by-(electrostatic)-induction">¶</a></h2><ul>
 <li><strong>no contact required</strong></li>
-<li>in conductor/influence:<ul>
+<li>in conductor/influence: <code>es10</code><ul>
 <li><strong>redistribution of free electrons</strong> in nearby conductor which causes charge separation</li>
 </ul>
 </li>
-<li>in insulators/polarization:<ul>
+<li>in insulators/polarization: <code>es09</code><ul>
 <li>electrons cannot move freely</li>
 <li><strong>molecules change their orientation</strong> which causes charge separation</li>
 </ul>
@@ -7669,7 +7669,7 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Electrostatic-force-&amp;-Coulomb's-law">Electrostatic force &amp; Coulomb's law<a class="anchor-link" href="#Electrostatic-force-&amp;-Coulomb's-law">¶</a></h2><p><code>es08 + script simulation</code></p>
+<h2 id="Electrostatic-force-&amp;-Coulomb's-law">Electrostatic force &amp; Coulomb's law<a class="anchor-link" href="#Electrostatic-force-&amp;-Coulomb's-law">¶</a></h2><p><code>es08 + sim Coulomb</code></p>
 <ul>
 <li>how to quantify/compute electrostatic force?</li>
 <li>investigated by <strong>Charles Augustin de Coulomb</strong> (1736–1806)</li>
@@ -7753,14 +7753,20 @@ main {
 <li><p><strong>idea</strong>: measure field created by charge $Q$ by placing a small <em>test charge</em> $q$ ($q$ has negatable effect of $Q$)</p>
 </li>
 <li><p>using Coulomb's law, $\vec{\bf{E}}$ is then:
-$$ \vec{\bf{E}}= \frac{\vec{\bf{F}}}{q} =  \frac{1}{4 \pi \epsilon_0} \frac{Q q}{r^2}  \hat{r}_{21} \, \frac{1}{q} = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2} \hat{r}_{21} $$</p>
+$$
+\vec{\bf{E}}= \frac{\vec{\bf{F}}}{q} =  \frac{1}{4 \pi \epsilon_0} \frac{Q q}{r^2}  \hat{r}_{21} \, \frac{1}{q} = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2} \hat{r}_{21}
+$$</p>
 </li>
 <li><p><strong>superposition principle</strong>: net field is the sum of individual fields:
 $$ \vec{\bf{E}}_{net} = \vec{\bf{E}}_A + \vec{\bf{E}}_B + \vec{\bf{E}}_C + \dots $$</p>
 </li>
 <li><p><strong>integral form</strong>: integrate over distribution of <strong>infinitesimal small charges</strong> $dQ$
-$$ d\vec{\bf{E}} = \frac{1}{4 \pi \epsilon_0} \frac{dQ}{r^2} \hat{r} $$<br/>
-$$ \vec{\bf{E}} = \int d \vec{\bf{E}} $$</p>
+$$
+d\vec{\bf{E}} = \frac{1}{4 \pi \epsilon_0} \frac{dQ}{r^2} \hat{r}
+$$<br/>
+$$
+\vec{\bf{E}} = \int d \vec{\bf{E}}
+$$</p>
 </li>
 </ul>
 </div>
@@ -7772,7 +7778,7 @@ $$ \vec{\bf{E}} = \int d \vec{\bf{E}} $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Field-lines-of-electric-field">Field lines of electric field<a class="anchor-link" href="#Field-lines-of-electric-field">¶</a></h2><p><code>script simulation</code></p>
+<h2 id="Field-lines-of-electric-field">Field lines of electric field<a class="anchor-link" href="#Field-lines-of-electric-field">¶</a></h2><p><code>sim field lines</code></p>
 <ul>
 <li>motivation:<ul>
 <li>$\vec{\bf{E}}$ is a vector field, i.e. each point in space is represented by a vector</li>
@@ -7807,7 +7813,6 @@ $$ \vec{\bf{F}} = q \vec{\bf{E}} $$</p>
 $$ a = \frac{-e E}{m_e} $$</p>
 </li>
 </ul>
-<p><code>see lecture tutorial</code></p>
 </div>
 </div>
 </div>
@@ -7844,6 +7849,22 @@ $$ a = \frac{-e E}{m_e} $$</p>
 </ul>
 <p><img alt="Faraday cage animation" src="../img/from_wiki/Faraday_cage.gif" width="500"/></p>
 <p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Faraday_cage.gif">wikipedia</a>, public domain</sub></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
+<h1 id="2.1.-Electric-charge-&amp;-electric-field">2.1. Electric charge &amp; electric field<a class="anchor-link" href="#2.1.-Electric-charge-&amp;-electric-field">¶</a></h1><ul>
+<li>Get ready for journey through electromagnetism in the comming weeks</li>
+<li>Revisit basics &amp; go beyond (Maxwell waiting); waves/optics for the finish</li>
+<li>Stay open-minded &amp; challenge you assumption!</li>
+</ul>
+<p><a href="https://www.youtube.com/watch?v=R-FxmoVM7X4">Danger! High Voltage</a></p>
 </div>
 </div>
 </div>
