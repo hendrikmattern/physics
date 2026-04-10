@@ -2125,3 +2125,118 @@
 <img src="../img/from_wiki/Sound_pressure_diagram.svg" alt="Sound_pressure_diagram.svg" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Sound_pressure_diagram.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Cherry_tree_moving_in_the_wind_1.gif" alt="Cherry_tree_moving_in_the_wind_1.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Cherry_tree_moving_in_the_wind_1.gif), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Map_prevailing_winds_on_earth.png" alt="Map_prevailing_winds_on_earth.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Map_prevailing_winds_on_earth.png), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/ERA5_global_mean_sea_level_pressure.png" alt="ERA5_global_mean_sea_level_pressure.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:ERA5_global_mean_sea_level_pressure.png), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Earth-moon-field.svg" alt="Earth-moon-field.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Earth-moon-field.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/VFPt_cylindermagnet_field-representations.svg" alt="VFPt_cylindermagnet_field-representations.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:VFPt_cylindermagnet_field-representations.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Scalar_field.png" alt="Scalar_field.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Scalar_field.png), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/General_flux_diagram.svg" alt="General_flux_diagram.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:General_flux_diagram.svg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Divergence_captions.svg" alt="Divergence_captions.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Divergence_(captions).svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Uniform_curl.svg" alt="Uniform_curl.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Uniform_curl.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Curl_of_uniform_curl.png" alt="Curl_of_uniform_curl.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Curl_of_uniform_curl.png), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Nonuniform_curl.svg" alt="Nonuniform_curl.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Nonuniform_curl.svg), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/Curl_of_nonuniform_curl.png" alt="Curl_of_nonuniform_curl.png" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Curl_of_nonuniform_curl.png), public domain</sub>*
+
+
+---
+
+<img src="../img/from_wiki/Surface_integral_-_definition.svg" alt="Surface_integral_-_definition.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Surface_integral_-_definition.svg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Line_integral_of_vector_field.gif" alt="Line_integral_of_vector_field.gif" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Line_integral_of_vector_field.gif), public domain</sub>*
+
+---
+
+<img src="../img/from_wiki/3d-gradient-cos.svg" alt="3d-gradient-cos.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:3d-gradient-cos.svg), [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Sarrus_rule_cross_product_ab.svg" alt="Sarrus_rule_cross_product_ab.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Sarrus_rule_cross_product_ab.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Txantxangorriak_robotak_dira.jpg" alt="Txantxangorriak_robotak_dira.jpg" width="300"/>
+
+*<sub>from [wikipedia](https://commons.wikimedia.org/wiki/File:Txantxangorriak_robotak_dira.jpg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/VFPt_plus_thumb_potential2Bcontour.svg" alt="VFPt_plus_thumb_potential%2Bcontour.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:VFPt_plus_thumb_potential%2Bcontour.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/VFPt_minus_thumb_potential2Bcontour.svg" alt="VFPt_minus_thumb_potential%2Bcontour.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:VFPt_minus_thumb_potential%2Bcontour.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*

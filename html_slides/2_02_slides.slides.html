@@ -7473,10 +7473,12 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Electric-flux-for-uniform-electric-field">Electric flux for uniform electric field<a class="anchor-link" href="#Electric-flux-for-uniform-electric-field">¶</a></h2><p><code>script simulation: rectangle in field</code></p>
+<h2 id="Electric-flux-for-uniform-electric-field">Electric flux for uniform electric field<a class="anchor-link" href="#Electric-flux-for-uniform-electric-field">¶</a></h2><p><code>sim: rectangle in field</code></p>
 <ul>
 <li>For a uniform electric field, the electric flux is defined as<br/>
-$$\Phi_E = \vec{\bf{E}} \vec{\bf{A}}$$<br/>
+$$
+\Phi_E = \vec{\bf{E}} \vec{\bf{A}}
+$$<br/>
 where $\vec{\bf{A}}$ is the vector perpendicular to the surface with magnitude $A$</li>
 <li>Using $\cos\theta$ as the angle between $\vec{\bf{E}}$ and $\vec{\bf{A}}$, the equation can be rewritten as<br/>
 $$\Phi_E = EA\cos\theta = E_\perp A = EA_\perp$$</li>
@@ -7515,7 +7517,7 @@ $$\Phi_E = \oint \vec{\bf{E}}\, d\vec{\bf{A}}$$</p>
 </ul>
 </li>
 </ul>
-<p><code>script simulation circle in field</code></p>
+<p><code>sim: circle in field</code></p>
 </div>
 </div>
 </div>
@@ -7547,11 +7549,19 @@ $$\oint \vec{\bf{E}}\, d\vec{\bf{A}} = \oint \left(\sum_i \vec{\bf{E}}_i\right) 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Examples-for-Gauss's-law">Examples for Gauss's law<a class="anchor-link" href="#Examples-for-Gauss's-law">¶</a></h2><p>$$\Phi_E = \oint \vec{\bf{E}}\, d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0} &gt; 0 $$</p>
-<p><img alt="Electric-flux-surface-example" src="../img/from_wiki/Electric-flux-surface-example.svg.png" width="500"/></p>
+<p><img alt="Electric-flux-surface-example" src="../img/from_wiki/Electric-flux-surface-example.svg.png" width="400"/></p>
 <p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Electric-flux-surface-example.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC 4.0 International license</a>, unedited</sub></em></p>
-<hr/>
-<p>$$\Phi_E = \oint \vec{\bf{E}}\, d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0} = 0 $$</p>
-<p><img alt="Electric-flux-no-charge-inside" src="../img/from_wiki/Electric-flux-no-charge-inside.svg.png" width="500"/></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Examples-for-Gauss's-law-(cont')">Examples for Gauss's law (cont')<a class="anchor-link" href="#Examples-for-Gauss's-law-(cont')">¶</a></h2><p>$$\Phi_E = \oint \vec{\bf{E}}\, d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0} = 0 $$</p>
+<p><img alt="Electric-flux-no-charge-inside" src="../img/from_wiki/Electric-flux-no-charge-inside.svg.png" width="400"/></p>
 <p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Electric-flux-no-charge-inside.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC 3.0 Unported license</a>, unedited</sub></em></p>
 </div>
 </div>
@@ -7625,7 +7635,9 @@ $$E = \frac{1}{4\pi\epsilon_0}\frac{Q}{r^2} \quad \textrm{with} \quad Q_{enc} = 
 <li>concept of <strong>conservation of energy</strong> in electricity is analogous to mechanics</li>
 <li><strong>electric potential energy is defined for conservative forces</strong>, e.g. the electrostatic force $\vec{\bf{F}}= \vec{\bf{E}}q$ (conservative force $\rightarrow$ path independence)</li>
 <li><strong>in uniform electric field</strong>, the <strong>work</strong> to move a test charge $q$ over a distance $d$ is:<br/>
-$$W = Fd = qEd$$</li>
+$$
+W = Fd = qEd
+$$</li>
 <li>change in <strong>potential energy</strong> $\Delta U$ from point $A$ to $B$ is:
 $$\Delta U = U_B = -W$$</li>
 <li>note the similarity to mechanics, i.e. $m g h$, but as we have two types of charge:<ul>
@@ -7646,7 +7658,9 @@ $$\Delta U = U_B = -W$$</li>
 <li><strong>electric potential</strong> $V$ is defined as the electric potential energy per unit charge<br/>
 $$V = \frac{U}{q}$$</li>
 <li><strong>voltage is the difference in potential</strong> between points $A$ and $B$:<br/>
-$$V_{BA} = V_B - V_A \quad \textrm{in [J/C] = [V]} $$</li>
+$$
+V_{BA} = V_B - V_A \quad \textrm{in [J/C] = [V]}
+$$</li>
 <li>acknowledging Alessandro Volta, the unit is called <strong>volt</strong> [V]</li>
 <li><strong>reference point</strong> (typically ground or infinity) is chosen where $V = 0$</li>
 </ul>
@@ -7664,7 +7678,9 @@ $$V_{BA} = V_B - V_A \quad \textrm{in [J/C] = [V]} $$</li>
 <li>only potential <strong>differences</strong>, i.e. voltage, are <strong>measurable</strong></li>
 <li><strong>reference point</strong> with zero potential is <strong>defined arbitrarily</strong></li>
 <li>combining the definitions gives<br/>
-$$V_{BA} = V_B - V_A = \frac{U_B}{q} - \frac{U_A}{q} = \frac{\Delta U_{BA}}{q} = -\frac{W_{BA}}{q}$$</li>
+$$
+V_{BA} = V_B - V_A = \frac{U_B}{q} - \frac{U_A}{q} = \frac{\Delta U_{BA}}{q} = -\frac{W_{BA}}{q}
+$$</li>
 <li><strong>work</strong> performed on a charge is given by<br/>
 $$W_{BA} = F d= -qV_{BA}$$</li>
 <li>$\rightarrow$ <strong>voltage is a measure of the work a charge can perform</strong></li>
@@ -7708,10 +7724,14 @@ $$ V_{BA} = - \int_A^B \vec{\bf{E}} d\vec{\bf{l}}$$</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Relating-electric-potential-&amp;-electric-field-(cont'd)">Relating electric potential &amp; electric field (cont'd)<a class="anchor-link" href="#Relating-electric-potential-&amp;-electric-field-(cont'd)">¶</a></h2><p>$$ V_{BA} = - \int_A^B \vec{\bf{E}} d\vec{\bf{l}}$$</p>
+<h2 id="Relating-electric-potential-&amp;-electric-field-(cont'd)">Relating electric potential &amp; electric field (cont'd)<a class="anchor-link" href="#Relating-electric-potential-&amp;-electric-field-(cont'd)">¶</a></h2><p>$$
+V_{BA} = - \int_A^B \vec{\bf{E}} d\vec{\bf{l}}
+$$</p>
 <ul>
 <li>in <strong>uniform electric field</strong>, the integral simplifies to<br/>
-$$V_{BA} = -Ed \quad \textrm{with distance} \, d$$</li>
+$$
+V_{BA} = -Ed \quad \textrm{with distance} \, d
+$$</li>
 <li>for an infinitesimal change, the relation is<br/>
 $$dV = -\vec{\bf{E}}\, d\vec{\bf{l}}$$</li>
 <li>therefore, electric field is the gradient of the electric potential:
@@ -7726,11 +7746,84 @@ $$\vec{\bf{E}} = -\textrm{grad}V = -\nabla V$$</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Equipotential-lines-&amp;-surfaces">Equipotential lines &amp; surfaces<a class="anchor-link" href="#Equipotential-lines-&amp;-surfaces">¶</a></h2><p><code>script simulation: equipotential</code></p>
+<h2 id="Electric-potential-of-a-point-source">Electric potential of a point source<a class="anchor-link" href="#Electric-potential-of-a-point-source">¶</a></h2><ul>
+<li>Start from voltage definition: $V_{BA} = - \int_A^B \vec{E} \cdot d\vec{l}$</li>
+<li>Point charge field: $E = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2}$</li>
+<li>Radial symmetry ⇒ $d\vec{l} \rightarrow dr$</li>
+<li>Integrate: $V_{BA} = \frac{Q}{4 \pi \epsilon_0} \left( \frac{1}{r_B} - \frac{1}{r_A} \right)$</li>
+<li>Choose reference: $V(\infty) = 0$</li>
+<li>Coulomb potential: $V(r) = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r}$</li>
+</ul>
+<p><img alt="VFPt_plus_thumb_potential%2Bcontour.svg" src="../img/from_wiki/VFPt_plus_thumb_potential2Bcontour.svg" width="200"/>
+<img alt="VFPt_minus_thumb_potential%2Bcontour.svg" src="../img/from_wiki/VFPt_minus_thumb_potential2Bcontour.svg" width="200"/></p>
+<p><em><sub>[left:] from <a href="https://en.wikipedia.org/wiki/File:VFPt_plus_thumb_potential%2Bcontour.svg">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/4.0/deed.en">Attribution-Share Alike 4.0 International</a>;
+[right:] from <a href="https://en.wikipedia.org/wiki/File:VFPt_minus_thumb_potential%2Bcontour.svg">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/4.0/deed.en">Attribution-Share Alike 4.0 International</a></sub></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Equipotential-lines-&amp;-surfaces">Equipotential lines &amp; surfaces<a class="anchor-link" href="#Equipotential-lines-&amp;-surfaces">¶</a></h2><p><code>sim: equipotential</code></p>
 <ul>
 <li>equipotential lines (2D) and surfaces (3D) represent regions where the <strong>electric potential is constant</strong></li>
 <li><strong>moving perpendicular</strong> to the electric field ($\vec{\bf{E}}_\perp d\vec{\bf{l}}$) does not change the potential</li>
 </ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.png" width="300"/>
+<h2 id="Revisiting-initial-question">Revisiting initial question<a class="anchor-link" href="#Revisiting-initial-question">¶</a></h2><p><strong>Why do birds sitting on high voltage power lines not get electrocuted?</strong></p>
+<ul>
+<li>Feet nearly same potential, negligible voltage difference</li>
+<li>Current prefers low-resistance wire path, not high resistance path through bird</li>
+<li>Virtually no current $\rightarrow$ no electric shock</li>
+<li>Bridging potentials causes dangerous current flow</li>
+</ul>
+<p><img alt="Txantxangorriak_robotak_dira.jpg" src="../img/from_wiki/Txantxangorriak_robotak_dira.jpg" width="300"/></p>
+<p><em><sub>from <a href="https://commons.wikimedia.org/wiki/File:Txantxangorriak_robotak_dira.jpg">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/4.0/deed.en">Attribution-Share Alike 4.0 International</a></sub></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.png" width="300"/>
+<h2 id="Revisiting-initial-question:-Back-of-the-envelope-calculation">Revisiting initial question: Back-of-the-envelope calculation<a class="anchor-link" href="#Revisiting-initial-question:-Back-of-the-envelope-calculation">¶</a></h2><p>Assume:</p>
+<ul>
+<li>Line current: $I \approx 500\,\mathrm{A}$</li>
+<li>Line resistance: $R' \approx 0.05\,\Omega/\mathrm{km}$</li>
+<li>Distance between feet: $d \approx 5\,\mathrm{cm}$</li>
+<li>Bird resistance: $R_{\text{bird}} \sim 10^3\,\Omega$</li>
+</ul>
+<p>Resistance between the feet:
+$$
+R = R' d = 0.05 \cdot 5 \times 10^{-5} = 2.5 \times 10^{-6}\,\Omega
+$$</p>
+<p>Voltage difference between the feet:
+$$
+\Delta V = IR = 500 \cdot 2.5 \times 10^{-6} = 1.25 \times 10^{-3}\,\mathrm{V} \approx 1.3\,\mathrm{mV}
+$$</p>
+<p><em><sub>For comparison, 90 to 140 mV are required to for human heart contractions</sub></em></p>
+<p>Current through the bird (overestimation as $R_{\text{wire}} \ll R_{\text{bird}}$):
+$$
+I_{\text{bird}} = \frac{\Delta V}{R_{\text{bird}}}
+= \frac{1.3 \times 10^{-3}}{10^3}
+\approx 1.3 \times 10^{-6}\,\mathrm{A}
+\approx 1\,\mu\mathrm{A}
+$$</p>
 </div>
 </div>
 </div>
