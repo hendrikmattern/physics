@@ -7441,7 +7441,7 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.png" width="300"/>
-<h1 id="2.2.-Electric-Flux-&amp;-Electric-Potential">2.2. Electric Flux &amp; Electric Potential<a class="anchor-link" href="#2.2.-Electric-Flux-&amp;-Electric-Potential">¶</a></h1><p><strong>Why do birds sitting on high voltage power lines not get electrocuted?</strong></p>
+<h1 id="2.2.-Electric-Flux-&amp;-Electric-Potential">2.2. Electric Flux &amp; Electric Potential<a class="anchor-link" href="#2.2.-Electric-Flux-&amp;-Electric-Potential">¶</a></h1><p><strong>Why do birds sitting on high voltage power lines do not get electrocuted?</strong></p>
 <p><code>es03</code></p>
 </div>
 </div>
@@ -7495,29 +7495,13 @@ $$N \propto E_\perp A = \Phi_E$$</li>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Electric-flux-for-non-uniform-electric-field">Electric flux for non-uniform electric field<a class="anchor-link" href="#Electric-flux-for-non-uniform-electric-field">¶</a></h2><ul>
-<li><p>arbitrary surface can be decomposed into infinitesimal areas $d\vec{\bf{A}}$</p>
-</li>
-<li><p>for each $d\vec{\bf{A}}$, associated field is uniform</p>
-</li>
-<li><p>integral over closed surface gives the <strong>total flux though closed surface</strong>:<br/>
-$$\Phi_E = \oint \vec{\bf{E}}\, d\vec{\bf{A}}$$</p>
-</li>
-<li><p><strong>by conventions</strong></p>
-<ul>
-<li>$d\vec{\bf{A}}$ points outwards from the surface of the enclosed volume</li>
-<li>flux leaving the surface is positive</li>
-<li>flux entering the surface is negative</li>
+<li>arbitrary surface can be decomposed into infinitesimal areas $d\vec{\bf{A}}$</li>
+<li>for each $d\vec{\bf{A}}$, associated field is uniform</li>
+<li>integral over surface gives the total flux:<br/>
+$$\Phi_E = \int \vec{\bf{E}}\cdot d\vec{\bf{A}}$$</li>
 </ul>
-</li>
-<li><p><strong>consequences on net flux</strong>:</p>
-<ul>
-<li>if $\Phi_E$ is positive, there is a net flux out of the volume</li>
-<li>if $\Phi_E$ is negative, there is a net flux into the volume</li>
-<li>if $\Phi_E = 0$, there is no net flux</li>
-</ul>
-</li>
-</ul>
-<p><code>sim: circle in field</code></p>
+<p><img alt="Surface_integral_-_definition.svg" src="../img/from_wiki/Surface_integral_-_definition.svg" width="500"/></p>
+<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Surface_integral_-_definition.svg">wikipedia</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0 Universal</a></sub></em></p>
 </div>
 </div>
 </div>
@@ -7530,14 +7514,22 @@ $$\Phi_E = \oint \vec{\bf{E}}\, d\vec{\bf{A}}$$</p>
 <h2 id="Gauss's-law">Gauss's law<a class="anchor-link" href="#Gauss's-law">¶</a></h2><ul>
 <li>named after Karl Friedrich Gauss (1777-1855)</li>
 <li><strong>Gauss's law</strong>: <strong>Electric flux through a closed surface is equal to the net enclosed charge divided by the permittivity of free space</strong>:<br/>
-$$\Phi_E = \oint \vec{\bf{E}}\, d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0}$$</li>
-<li>flux through surface is <strong>independent</strong> of:<ul>
-<li>distribution of the enclosed charge within the volume</li>
-<li>charges outside the surface that may affect the position but not the number of field lines</li>
+$$\Phi_E = \oint \vec{\bf{E}}\cdot d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0}$$</li>
+</ul>
+<p><em><sub>Note sometimes you find different notations of the integral such as</sub></em> $\oiint_S$</p>
+<ul>
+<li><strong>by conventions</strong><ul>
+<li>$d\vec{\bf{A}}$ points outwards from the surface of the enclosed volume</li>
+<li>flux leaving the surface is positive</li>
+<li>flux entering the surface is negative</li>
 </ul>
 </li>
-<li><strong>principle of superposition applicable</strong>:
-$$\oint \vec{\bf{E}}\, d\vec{\bf{A}} = \oint \left(\sum_i \vec{\bf{E}}_i\right) d\vec{\bf{A}} = \sum_i \frac{Q_i}{\epsilon_0} = \frac{Q_{enc}}{\epsilon_0}$$</li>
+<li><strong>consequences on net flux</strong>:<ul>
+<li>if $\Phi_E$ is positive, there is a net flux out of the volume</li>
+<li>if $\Phi_E$ is negative, there is a net flux into the volume</li>
+<li>if $\Phi_E = 0$, there is no net flux</li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -7548,7 +7540,26 @@ $$\oint \vec{\bf{E}}\, d\vec{\bf{A}} = \oint \left(\sum_i \vec{\bf{E}}_i\right) 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Examples-for-Gauss's-law">Examples for Gauss's law<a class="anchor-link" href="#Examples-for-Gauss's-law">¶</a></h2><p>$$\Phi_E = \oint \vec{\bf{E}}\, d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0} &gt; 0 $$</p>
+<h2 id="Gauss's-law-(cont')">Gauss's law (cont')<a class="anchor-link" href="#Gauss's-law-(cont')">¶</a></h2><p><code>sim: circle in field</code></p>
+<ul>
+<li>flux through surface is <strong>independent</strong> of:<ul>
+<li>distribution of the enclosed charge within the volume</li>
+<li>charges outside the surface that may affect the position but not the number of field lines</li>
+</ul>
+</li>
+<li><strong>principle of superposition applicable</strong>:
+$$\oint \vec{\bf{E}}\cdot d\vec{\bf{A}} = \oint \left(\sum_i \vec{\bf{E}}_i\right)\cdot d\vec{\bf{A}} = \sum_i \frac{Q_i}{\epsilon_0} = \frac{Q_{enc}}{\epsilon_0}$$</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Examples-for-Gauss's-law">Examples for Gauss's law<a class="anchor-link" href="#Examples-for-Gauss's-law">¶</a></h2><p>$$\Phi_E = \oint \vec{\bf{E}}\cdot d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0} &gt; 0 $$</p>
 <p><img alt="Electric-flux-surface-example" src="../img/from_wiki/Electric-flux-surface-example.svg.png" width="400"/></p>
 <p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Electric-flux-surface-example.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC 4.0 International license</a>, unedited</sub></em></p>
 </div>
@@ -7560,7 +7571,7 @@ $$\oint \vec{\bf{E}}\, d\vec{\bf{A}} = \oint \left(\sum_i \vec{\bf{E}}_i\right) 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Examples-for-Gauss's-law-(cont')">Examples for Gauss's law (cont')<a class="anchor-link" href="#Examples-for-Gauss's-law-(cont')">¶</a></h2><p>$$\Phi_E = \oint \vec{\bf{E}}\, d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0} = 0 $$</p>
+<h2 id="Examples-for-Gauss's-law-(cont')">Examples for Gauss's law (cont')<a class="anchor-link" href="#Examples-for-Gauss's-law-(cont')">¶</a></h2><p>$$\Phi_E = \oint \vec{\bf{E}}\cdot d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0} = 0 $$</p>
 <p><img alt="Electric-flux-no-charge-inside" src="../img/from_wiki/Electric-flux-no-charge-inside.svg.png" width="400"/></p>
 <p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Electric-flux-no-charge-inside.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC 3.0 Unported license</a>, unedited</sub></em></p>
 </div>
@@ -7631,7 +7642,7 @@ $$E = \frac{1}{4\pi\epsilon_0}\frac{Q}{r^2} \quad \textrm{with} \quad Q_{enc} = 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Electricity-&amp;-engery?">Electricity &amp; engery?<a class="anchor-link" href="#Electricity-&amp;-engery?">¶</a></h2><p><code>es01 - elest. Bell</code></p>
+<h2 id="Electricity-&amp;-energy?">Electricity &amp; energy?<a class="anchor-link" href="#Electricity-&amp;-energy?">¶</a></h2><p><code>es01 - elest. Bell</code></p>
 <p><img alt="Point_Charge_q_in_an_electric_field.svg" src="../img/from_wiki/Point_Charge_q_in_an_electric_field.svg" width="300"/></p>
 <p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Point_Charge_q_in_an_electric_field.svg">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/3.0/deed.en">Attribution-Share Alike 3.0 Unported</a></sub></em></p>
 </div>
@@ -7651,9 +7662,10 @@ $$
 W = Fd = qEd
 $$</li>
 <li>change in <strong>potential energy</strong> $\Delta U$ from point $A$ to $B$ is:
-$$\Delta U = U_B = -W$$</li>
+$$\Delta U = U_B - U_A = -W_{AB} = -q\,E\,d_{AB}$$</li>
 <li>note the similarity to mechanics, i.e. $m g h$, but as we have two types of charge:<ul>
-<li>$\rightarrow$ <strong>the closer a charge is to a charge of the same polarity, the higher the electrostatic force, thus, the higher the electric potential energy</strong></li>
+<li>like charges $\rightarrow$ high potential energy when close</li>
+<li>opposite charges $\rightarrow$ low potential energy when close</li>
 </ul>
 </li>
 </ul>
@@ -7667,7 +7679,7 @@ $$\Delta U = U_B = -W$$</li>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Voltage:-The-difference-in-electric-potential">Voltage: The difference in electric potential<a class="anchor-link" href="#Voltage:-The-difference-in-electric-potential">¶</a></h2><ul>
-<li><strong>electric potential</strong> $V$ is defined as the electric potential energy per unit charge<br/>
+<li><strong>electric potential</strong> $V$ is defined as the <strong>electric potential energy per unit charge</strong><br/>
 $$V = \frac{U}{q}$$</li>
 <li><strong>voltage is the difference in potential</strong> between points $A$ and $B$:<br/>
 $$
@@ -7675,6 +7687,27 @@ V_{BA} = V_B - V_A \quad \textrm{in [J/C] = [V]}
 $$</li>
 <li>acknowledging Alessandro Volta, the unit is called <strong>volt</strong> [V]</li>
 <li><strong>reference point</strong> (typically ground or infinity) is chosen where $V = 0$</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Gravitational-analogue">Gravitational analogue<a class="anchor-link" href="#Gravitational-analogue">¶</a></h2><p>In gravity near Earth, potential energy: $U = m g h$</p>
+<p>Divide by mass $m$, to get <strong>gravitational potential</strong>:
+$$
+V_g = \frac{U}{m} = g h \quad \leftrightarrow \quad V = \frac{U}{q}
+$$</p>
+<p><strong>Intuition</strong></p>
+<ul>
+<li>Height $h$ ↔ electric potential $V$</li>
+<li>Mass $m$ ↔ charge $q$</li>
+<li>$\rightarrow$ heavy object ↔ large charge</li>
+<li>$\rightarrow$ same “height” → same potential, regardless of mass/charge</li>
 </ul>
 </div>
 </div>
@@ -7695,7 +7728,7 @@ V_{BA} = V_B - V_A = \frac{U_B}{q} - \frac{U_A}{q} = \frac{\Delta U_{BA}}{q} = -
 $$</li>
 <li><strong>work</strong> performed on a charge is given by<br/>
 $$W_{BA} = F d= -qV_{BA}$$</li>
-<li>$\rightarrow$ <strong>voltage is a measure of the work a charge can perform</strong></li>
+<li>$\rightarrow$ <strong>Voltage (potential difference) tells you how much energy per unit charge is available between two points.</strong></li>
 </ul>
 </div>
 </div>
@@ -7761,8 +7794,10 @@ $$\vec{\bf{E}} = -\textrm{grad}V = -\nabla V$$</li>
 <h2 id="Electric-potential-of-a-point-source">Electric potential of a point source<a class="anchor-link" href="#Electric-potential-of-a-point-source">¶</a></h2><ul>
 <li>Start from voltage definition: $V_{BA} = - \int_A^B \vec{E} \cdot d\vec{l}$</li>
 <li>Point charge field: $E = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2}$</li>
-<li>Radial symmetry ⇒ $d\vec{l} \rightarrow dr$</li>
-<li>Integrate: $V_{BA} = \frac{Q}{4 \pi \epsilon_0} \left( \frac{1}{r_B} - \frac{1}{r_A} \right)$</li>
+<li>Radial symmetry ⇒ $\vec{E} \cdot d\vec{l} = E\,dr$</li>
+<li>Integrate: $V_{BA} = - \int_{r_A}^{r_B} \frac{1}{4 \pi \epsilon_0} \frac{Q}{r^2}\,dr
+= -\frac{Q}{4 \pi \epsilon_0} \left( -\frac{1}{r_B} - (- \frac{1}{r_A}) \right)
+= \frac{Q}{4 \pi \epsilon_0} \left( \frac{1}{r_B} - \frac{1}{r_A} \right)$</li>
 <li>Choose reference: $V(\infty) = 0$</li>
 <li>Coulomb potential: $V(r) = \frac{1}{4 \pi \epsilon_0} \frac{Q}{r}$</li>
 </ul>
