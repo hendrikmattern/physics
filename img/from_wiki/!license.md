@@ -2240,3 +2240,15 @@
 <img src="../img/from_wiki/VFPt_minus_thumb_potential2Bcontour.svg" alt="VFPt_minus_thumb_potential%2Bcontour.svg" width="300"/>
 
 *<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:VFPt_minus_thumb_potential%2Bcontour.svg), [Attribution-Share Alike 4.0 International](//creativecommons.org/licenses/by-sa/4.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Point_Charge_q_in_an_electric_field.svg" alt="Point_Charge_q_in_an_electric_field.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Point_Charge_q_in_an_electric_field.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
+
+---
+
+<img src="../img/from_wiki/Simplified_scheme_of_Millikans_oil-drop_experiment.svg" alt="Simplified_scheme_of_Millikan%E2%80%99s_oil-drop_experiment.svg" width="300"/>
+
+*<sub>from [wikipedia](https://en.wikipedia.org/wiki/File:Simplified_scheme_of_Millikan%E2%80%99s_oil-drop_experiment.svg), [Attribution-Share Alike 3.0 Unported](//creativecommons.org/licenses/by-sa/3.0/deed.en)</sub>*
