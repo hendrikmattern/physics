@@ -7441,7 +7441,8 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="2.3.-Capacitance,-resistance-&amp;-current">2.3. Capacitance, resistance &amp; current<a class="anchor-link" href="#2.3.-Capacitance,-resistance-&amp;-current">¶</a></h1><p><strong>How can we store electric energy?</strong></p>
+<h1 id="2.3.-Capacitance,-resistance-&amp;-current">2.3. Capacitance, resistance &amp; current<a class="anchor-link" href="#2.3.-Capacitance,-resistance-&amp;-current">¶</a></h1><p><code>el25 - apple power</code></p>
+<p><strong>How can we store electric energy?</strong></p>
 </div>
 </div>
 </div>
@@ -7595,7 +7596,7 @@ $$ U = \frac{1}{2} \frac{Q^2}{C} = \frac{1}{2} C V^2 = \frac{1}{2} Q V$$</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Concept-of-electric-battery">Concept of electric battery<a class="anchor-link" href="#Concept-of-electric-battery">¶</a></h2><p><code>el23 + el25</code></p>
+<h2 id="Concept-of-electric-battery">Concept of electric battery<a class="anchor-link" href="#Concept-of-electric-battery">¶</a></h2><p><code>el23 &amp; revisist el25</code></p>
 <ul>
 <li>battery consists of:<ul>
 <li><strong>electrodes</strong> - metal rods connected to terminals:<ul>
@@ -7730,12 +7731,47 @@ $$ P = V I = I^2 R = \frac{V^2}{R} $$</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Current-density">Current density<a class="anchor-link" href="#Current-density">¶</a></h2><p><code>el07</code></p>
+<h2 id="Why-current-density?">Why current density?<a class="anchor-link" href="#Why-current-density?">¶</a></h2><p><code>el07</code></p>
 <ul>
-<li>switch from macro- to microscopic perspective</li>
-<li><strong>current density</strong> $j$: current per unit cross-sectional area: $j = \frac{I}{A} \leftrightarrow I = j A$</li>
-<li>for non-uniform current: $I = \int \vec{\bf{j}} \cdot d\vec{\bf{A}}$</li>
-<li>$I$ is a macroscopic quantity, defined for e.g. the entire cross-section of a wire, while $\vec{\bf{j}}$ is a microscopic quantity, defined for each point.</li>
+<li>current $I$ tells us <strong>how much charge per second</strong> passes through a surface</li>
+<li>but $I$ alone does <strong>not</strong> tell us how this flow is distributed</li>
+<li>the same current can flow through:<ul>
+<li>a <strong>thick</strong> wire</li>
+<li>a <strong>thin</strong> wire</li>
+<li>a conductor with <strong>non-uniform flow</strong></li>
+</ul>
+</li>
+<li>therefore we need a <strong>local quantity</strong></li>
+<li><strong>current density</strong> describes charge flow <strong>per unit area</strong> and <strong>at each point</strong></li>
+<li>it tells us where charge flow is strong, weak, or non-uniform</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Current-density">Current density<a class="anchor-link" href="#Current-density">¶</a></h2><ul>
+<li>current density $\vec{\bf{j}}$ describes the <strong>local flow of charge</strong></li>
+<li>its direction is the direction of <strong>positive charge flow</strong></li>
+<li>for uniform flow through a flat cross-section:
+$$
+j = \frac{I}{A}
+\qquad \leftrightarrow \qquad
+I = jA
+$$</li>
+<li>for non-uniform current flow:
+$$
+I = \int \vec{\bf{j}} \cdot d\vec{\bf{A}}
+$$</li>
+<li>thus:<ul>
+<li>$I$ is the <strong>total current</strong> through a surface</li>
+<li>$\vec{\bf{j}}$ tells us <strong>locally</strong> how much current passes through unit area</li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -7770,29 +7806,80 @@ $$ j = \frac{I}{A} = -e n v_d $$</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Microscopic-view-on-Ohm's-law">Microscopic view on Ohm's law<a class="anchor-link" href="#Microscopic-view-on-Ohm's-law">¶</a></h2><ul>
-<li>relate current density and electric field in idealized conditions:<ul>
-<li>resistances is related to the conductors geometry and resistivity: $R = \rho \frac{l}{A}$</li>
-<li>in a uniform field: $V = \int E dl = E l$</li>
-<li>current $I$ is: $I = j A$</li>
-<li>Ohm's law states: $V= RI$
-$$ V = IR $$
-$$ El = j A \rho \frac{l}{A}$$
-$$ El = j \rho l $$
-$$ E = j \rho $$</li>
+<li><p>macroscopic Ohm's law:
+$$
+V = RI
+$$</p>
+</li>
+<li><p>for a homogeneous conductor: $R = \rho \frac{l}{A}, \quad V = El, \quad I = jA$</p>
+</li>
+<li><p>insert into Ohm's law:
+$$
+El = \rho \frac{l}{A} jA
+$$
+$$
+E = \rho j
+$$</p>
+</li>
+<li><p>microscopic form of Ohm's law:
+$$
+\vec{\bf{E}} = \rho \vec{\bf{j}}
+\qquad \leftrightarrow \qquad
+\vec{\bf{j}} = \frac{1}{\rho} \vec{\bf{E}}
+$$</p>
+</li>
+<li><p>interpretation:</p>
+<ul>
+<li>$\vec{\bf{E}}$ drives the charges $\rightarrow$ proxy for $V$</li>
+<li>$\vec{\bf{j}}$ describes the resulting local current flow $\rightarrow$ proxy for $I$</li>
+<li>$\rho$ is a material property $\rightarrow$ proxy for $R$</li>
 </ul>
 </li>
-<li><strong>generalization to microscopic view of Ohm's law</strong><ul>
-<li>electric field as proxy for $V$</li>
-<li>current density as proxy for $I$</li>
-<li>resistivity as proxy for $R$
-$$\vec{\bf{E}} = \rho \vec{\bf{j}} \quad \leftrightarrow \quad  \vec{\bf{j}} = \frac{1}{\rho} \vec{\bf{E}}$$</li>
-</ul>
-</li>
 </ul>
 </div>
 </div>
 </div>
-</div></section></section>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
+<h1 id="2.3.-Capacitance,-resistance-&amp;-current">2.3. Capacitance, resistance &amp; current<a class="anchor-link" href="#2.3.-Capacitance,-resistance-&amp;-current">¶</a></h1><p><code>el33 - TOLMAN-Experiment</code></p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>Experiment shows:</strong></p>
+<ul>
+<li>electrons have mass &amp; interia (start / stop)</li>
+<li>sign of current $\rightarrow$ carriers are negative $\rightarrow$ electrons</li>
+</ul>
+<p><strong>Calculating the voltage:</strong></p>
+<p>$$
+F_C = F_Z
+$$</p>
+<p>$$
+eE = m_e \, \omega^2 r \quad \Rightarrow \quad E = \frac{m_e}{e} \, \omega^2 r
+$$</p>
+<p>$$
+
+$$</p>
+<p>$$
+V = \int_0^R E(r)\, dr
+= \int_0^R \frac{m_e}{e} \, \omega^2 r \, dr
+= \frac{m_e}{2e} \, \omega^2 R^2
+$$</p>
+</div>
+</div>
+</div>
+</div></div></section></section>
 </div>
 </div>
 </main>
