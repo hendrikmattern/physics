@@ -7544,16 +7544,34 @@ In general, the capacitance of a capacitor does not depend on $Q$ or $V$ but the
 As seen in the equation, the capacitance is expressed as [C/V] which is called a <em>farad</em> [F].
 Typically capacitors are on the order of picofarad to microfarad.</p>
 <!--- todo: add symbol cap and battery-->
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Determining-capacitance-analytically">Determining capacitance analytically<a class="anchor-link" href="#Determining-capacitance-analytically">¶</a></h3><p>While the capacitance can be determined experimentally for any capacitor, for simple geometries and idealized conditions we can compute the capacitance analytically.
 The general concept is to estimate the capacitance by first deriving an expression of charge $Q$ in dependence of the voltage $V$ and, subsequently use the relation
 $$Q =C V \leftrightarrow C = \frac{Q}{V}$$</p>
 <p>For a capacitor with <em>two parallel plates</em>, each with area $A$ and both separated by distance $d$, we can reuse the equation for electric field $E$ of such configuration:
 $$ E = \frac{\sigma}{\epsilon_0} = \frac{Q}{\epsilon_0 A} $$
 with the charge density, i.e. charge per unit area $\sigma$.</p>
-<p>In general, the voltage $V$ dependence on the electric field $E$, but for the given geometry the path will be antiparallel to the field, i.e. pointing along the same axis but in opposite direction, it simplifies:
-$$ V = V_B - V_A = - \int_A^B \vec{\bf{E}} d \vec{\bf{l}} = +E \int_A^B l = \frac{Q}{\epsilon_0 A} d $$</p>
-<p>The change in sign is because the angle between $\vec{\bf{E}}$ and $d\vec{\bf{l}}$ is 180° and, therefore, $E l \cos(180°) = - E l$.</p>
-<p>Using this equation we derive at our solution of:
+<p>The voltage between the plates follows from the electric field:</p>
+<p>$$
+V = V_B - V_A = - \int_A^B \vec{\mathbf{E}} \cdot d\vec{\mathbf{l}}.
+$$</p>
+<p>If we choose the path from the "-" to the "+" plate, then $d\vec{\mathbf{l}}$ is antiparallel to $\vec{\mathbf{E}}$, i.e. the angle is $180^\circ$:</p>
+<p>$$
+\vec{\mathbf{E}} \cdot d\vec{\mathbf{l}} = E \, dl \cos(180^\circ) = -E \, dl.
+$$</p>
+<p>Therefore,</p>
+<p>$$
+V = - \int_A^B (-E)\,dl = E \int_A^B dl = Ed = \frac{Q}{\epsilon_0 A} d.
+$$</p>
+<p>Using this equation we derive at the solution for a parallel-plate capacitor:
 $$  C = \frac{Q}{V} = \epsilon_0 \frac{A}{d} \quad \textrm{for a parallel-plate capacitor}$$</p>
 <p>For a <em>single isolated conductor</em>, we define the potential at infinity to be zero, i.e. $V = 0 \textrm{ at } r = \infty$.
 If we let $r_A$ converge to infinity and use $A = 4 \pi r$, the above equations can be adapted to:
@@ -7567,16 +7585,34 @@ $$  C = \frac{Q}{V} = \frac{2\pi \epsilon_0 l}{\ln{(r_I / r_O)}} \quad \textrm{f
 <p>For a <em>spherical cylindrical capacitor</em> with two thin spherical shells with an inner and outer radius $r_I$, $r_O$,  the capacitance is:
 $$  C = \frac{Q}{V} = 4\pi \epsilon_0 \frac{r_I r_O}{r_O - r_I} \quad \textrm{for a spherical cylindrical capacitor}$$</p>
 <!--- todo: add subsection on examples such as condenser microphone-->
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Storing-electric-energy">Storing electric energy<a class="anchor-link" href="#Storing-electric-energy">¶</a></h3><p>Motivated by conservation, the work $W$ required to charge the capacitor is equal to the electric energy stored in the capacitor $U$.
 Initially, a capacitor is uncharged.
 Connecting a battery will over time charge the capacitor but the work required to move a charge to the plate of same polarity will increase the more charge is already on that plate.
-The work $dW$ required to move a small amount of charge $dq$ in presence of the potential difference $V$ is $dW = V dq$.
+The work $dW$ required to move a small amount of charge $dq$ in presence of the potential difference $V$ is $V = \frac{W}{q} \, \leftrightarrow \, dW = V dq$.
 Integrating over the entire charge $Q$ and leveraging $V = \frac{q}{C}$ yields:
 $$ W = \int_0^Q V dq = \frac{1}{C} \int_0^Q q dq = \frac{1}{2} \frac{Q^2}{C}$$</p>
 <p>Hence, the energy $U$ "stored" is:
 $$ U = \frac{1}{2} \frac{Q^2}{C} = \frac{1}{2} C V^2 = \frac{1}{2} Q V$$</p>
 <!--- todo: add U as fct(E) and energy density u -->
 <!--- todo: add defibrillator -->
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Dielectrics">Dielectrics<a class="anchor-link" href="#Dielectrics">¶</a></h3><p>So far we considered the gap between the plates of the capacitor to be a vacuum, i.e. have the permittivity $\epsilon_0$.
 In practice, this gap is filled with an insulating material such as paper of plastic, the so-called <em>dielectric</em>.
 The advantage is that an additional insulator allows for higher voltages compared with vacuum or air before the plates/conductors discharge across the gap.
@@ -7621,26 +7657,45 @@ Otherwise a force acts on the free electrons violating the static condition.
 It is time to look what happens in a conductor if an external source generates an electric potential difference, i.e. voltage is applied.
 The associated electric field will exert a force on the free electrons causing a "flow" of electrons, the so-called <em>electric current</em>.
 Note that everything we learned about the static condition is still valid, we just expand our understanding to non-static condition.</p>
-<h3 id="Electric-battery">Electric battery<a class="anchor-link" href="#Electric-battery">¶</a></h3><p>In order to keep charges moving, we need an electric field, hence, a difference in electric potential.
-This voltage can be provided by an <em>electric battery</em>.
-The history of the battery involves frog legs, dissimilar metals, and two great scientists, i.e. Luigi Galvani (1737-1798) and Alessandro Volta (1745-1827).
-While Galvani discovered that two dissimilar metals can be used to cause the muscles of a frog leg to contract, terming is "animal electricity" and suspecting it so be the "life-force", Volta was sceptic, but realized the potential (pun intended) of dissimilar metal.
-In 1800, Volta presented the first electric battery by combining two dissimilar metals, i.e. zinc and silver and soaking them in a salt solution.
-Two increase the overall electric potential, he combined several of these zinc-silver cells to form a <em>battery</em>.</p>
-<p>Nowadays batteries follow the same principle and we call even a single cell a battery, although zinc-carbon is the most common combination.
-To understand how batteries work, we imagine the most simple battery, a single cell of a zinc and a carbon rod in a sulfuric acid.
-Without going into detail, the acid will dissolve the zinc, i.e. the atoms enters the acid while two electrons remain in the zinc rod.
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Electric-battery">Electric battery<a class="anchor-link" href="#Electric-battery">¶</a></h3><p>In order to keep charges moving, we need an electric field, hence a difference in electric potential.
+This voltage can be provided by an <em>electric battery</em>.</p>
+<p>The history of the battery involves frog legs, dissimilar metals, and two great scientists: Luigi Galvani (1737–1798) and Alessandro Volta (1745–1827).
+Galvani discovered that two dissimilar metals can cause the muscles of a frog leg to contract, terming it "animal electricity" and suspecting it to be a "life force".
+Volta was skeptical, but realized the potential (pun intended) of dissimilar metals.
+In 1800, Volta presented the first electric battery by combining two dissimilar metals, i.e. zinc and silver, and placing them in a salt solution.
+To increase the overall electric potential, he combined several of these zinc–silver cells to form a <em>battery</em>.
+Nowadays, batteries follow the same principle, and we often call even a single cell a battery, although zinc–carbon is a common combination.</p>
+<p>To understand how batteries work, we consider a simple cell consisting of a zinc electrode and a carbon rod in sulfuric acid.
+Without going into detail, the acid dissolves the zinc, i.e. zinc atoms enter the solution while two electrons remain in the zinc rod.
 Hence, the zinc rod becomes negatively charged.
-The acid becomes positively charged, pulling electrodes from the carbon rod, causing the rod to become positively charged as well.
-Not that no charges are generated, merely separated, obeying the laws of conservation.
-If nothing is connected to the battery, this charge separation is eventually hampered as the negatively charged zinc rod will attract positive charges from the acid.
-Therefore, a constant voltage between the rods is reached.
-Only if connected, the free electrons can move which enables more zinc to be dissolved until, eventually, the battery becomes "dead".</p>
-<p>The rods are called <em>electrodes</em> and their portion outside the solution (where we would connect wires), are called <em>terminals</em>.
-The negative electrode is called the <em>cathode</em> and the positive electrode is called the <em>anode</em>.
-The acid is called the <em>electrolyte</em></p>
-<p>The total charge available from a specific battery is expressed often in ampere-hours [A h].</p>
+The solution becomes positively charged, drawing electrons from the carbon rod and causing it to become positively charged as well.
+Note that no charges are generated, only separated, in accordance with the conservation of charge.
+If nothing is connected to the battery, this charge separation is eventually limited, as the negatively charged zinc rod attracts positive charges from the solution.
+Therefore, a constant voltage between the electrodes is established.
+Only when the battery is connected can the electrons move, which enables more zinc to dissolve until, eventually, the battery becomes "dead".
+The rods are called <em>electrodes</em>, and their portions outside the solution (where we connect wires) are called <em>terminals</em>.
+The negative electrode is called the <em>anode</em> (oxidation: electrons are released), and the positive electrode is called the <em>cathode</em> (reduction: electrons are taken up).
+The solution is called the <em>electrolyte</em>.</p>
+<p>The total charge available from a battery is often expressed in ampere-hours [A h].</p>
 <!--- todo: add symbol battery-->
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Electric-current">Electric current<a class="anchor-link" href="#Electric-current">¶</a></h3><p>If a wire is connected to the battery, the voltage causes charges to move through the wire.
 We define the average <em>electric current</em> $\bar{I}$ as the number of charges $\Delta Q$ over a certain period of time $\Delta t$:
 $$ \bar{I} = \frac{\Delta Q}{\Delta t}$$</p>
@@ -7657,24 +7712,33 @@ Even if the single wire would be connected to a battery of device such as a heat
 </ul>
 <p>Both directions are (for most cases) equivalent (exception e.g. Hall effect) and the conventional current is a historical convention (see previous chapter; arbitrary choice).
 Note that in fluids and gases positively and negatively charged ions can move.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Ohm's-law-&amp;-resistors">Ohm's law &amp; resistors<a class="anchor-link" href="#Ohm's-law-&amp;-resistors">¶</a></h3><p>Georg Simon Ohm (1787-1854) discovered that in a metal wire, the current is proportional to the potential difference.
 The proportionality constant is called the <em>resistance</em> $R$ and we imaging it as how much the flow of free electrons is hindered by collisions with the atoms/lattice.
 If $R$ is constant and independent of the voltage applied, we can interpret the current in a wire the response to a voltage scaled by the resistance:</p>
 <p>$$ V = I R \leftrightarrow I = \frac{V}{R}$$</p>
 <p>While this is called <em>Ohm's law</em>, is is not a fundamental law of nature.
 In reality, not all <em>resistors</em> has a constant resistance and factors such as temperature can influence resistance.
-We call a resistor with constant resistance <em>ohmic</em>, i.e. metal conductors with temperature independent resistance, and, consequently, the others <em>non-ohmic</em>
+We call a resistor with constant resistance <em>ohmic</em>, i.e. metal conductors with temperature independent resistance, and, consequently, the others <em>non-ohmic</em>.
 In recognition of his contribution, resistance is measure in <em>Ohm</em> [$ \Omega $] = [V/A] (capital greek omega) and all electric devices are associated with their own resistance (although we often neglect the resistance of wires in a circuit).</p>
 <p>Beyond resistors and resistance, there is <em>resistivity</em>.
 Resistivity $\rho$ is yet another experimentally found proportionality constant.
 In a simple conducting wire, the resistance depends on geometric properties, i.e. cross-sectional area $A$ and wire length $l$, but also on the material used, i.e. the resistivity of the material [$\Omega$ m]:
 $$ R = \rho \frac{l}{A} $$</p>
-<p>In addition to resistivity, conductivity $\sigma$ is defined the reciprocal of the resistivity:
+<p>In addition to resistivity, conductivity $\sigma$ is defined as the reciprocal of the resistivity:
 $$ \sigma = \frac{1}{\rho} $$</p>
 <p>The <em>temperature dependency</em> of a resistor is defined via its resistivity.
 For moderate temperature changes and metals, this dependency can be approximated as linear and with respect to the resistivity $\rho_0$ at some reference temperature $T_0$ :
 $$ \rho (T) = \rho_0 (1 + \alpha (T - T_0)) $$</p>
-<p>with $alpha$ being the material-specific <em>temperature coefficient</em> of resistivity.
+<p>with $\alpha$ being the material-specific <em>temperature coefficient</em> of resistivity.
 Besides ohmic resistors, i.e. conductors with a temperature coefficient of 0, we can differentiate between:</p>
 <ul>
 <li>negative temperature coefficients (NTC), i.e. lower resistance when heated, such as semiconductor which have more free electrons available at higher temperatures</li>
@@ -7695,13 +7759,22 @@ $$ P = V I $$</p>
 <p>By applying Ohm's law $V = RI$ we can extend this to
 $$ P = V I = I^2 R = \frac{V^2}{R} $$</p>
 <p>In general, the unit for power is Watt [W] = [J/s], but you will find (on your electric bill) kilowatt-hours (kWh) as well which is simply using $1000 \textrm{W} \times 3600 \textrm{s} = 3.6  \times 10^6 \textrm{J} $.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Current-density-&amp;-drift-speed">Current density &amp; drift speed<a class="anchor-link" href="#Current-density-&amp;-drift-speed">¶</a></h3><p>So far we have used a macroscopic perspective to understand current.
 By investigating current from the microscopic perspective we can extent our understanding.
 Let's define the <em>current density</em> $\vec{\bf{j}}$ as the electric current per unit cross-sectional area $A$.
 Assuming a uniform electric current density yields:
-$$ j = \frac{I}{A} \leftrightarrow I = j A $$</p>
+$$j = \frac{I}{A} \leftrightarrow I = j A$$</p>
 <p>For non-uniform current densities, we obtain:
-$$ I = \int \vec{\bf{j}} d \vec{\bf{A}} $$</p>
+$$I = \int \vec{\bf{j}} d \vec{\bf{A}}$$</p>
 <p>with $I$ as the current through the entire surface and $d\vec{\bf{A}}$ the infinitesimal small elements of that surface.
 Note that, $I$ is a macroscopic quantity, defined for e.g. the entire cross-section of a wire, while $\vec{\bf{j}}$ is a microscopic quantity, defined for each point.</p>
 <p>The direction of electric field and current density align, i.e. $\vec{\bf{E}} \shortparallel \vec{\bf{j}}$.
@@ -7716,8 +7789,8 @@ Note that this average drift speed of electrons is relatively small ( $\approx 0
 <li>the average distance $l$ an electron travels in a time $\Delta t$ as $l=v_d \Delta l$.</li>
 </ul>
 <p>Therefore we obtain:
-$$I = \frac{\Delta Q}{\Delta t}  = \frac{-e N }{\Delta t} = \frac{-e n A l}{\Delta t} = \frac{-e n A v_d \Delta t}{\Delta t}  = -e n A v_d $$
-$$ j = \frac{I}{A} = -e n v_d $$</p>
+$$I = \frac{\Delta Q}{\Delta t}  = \frac{-e N }{\Delta t} = \frac{-e n A l}{\Delta t} = \frac{-e n A v_d \Delta t}{\Delta t}  = -e n A v_d$$
+$$j = \frac{I}{A} = -e n v_d$$</p>
 <p>The minus sign indicates that the average drift velocity of electrons and macroscopic current as opposite to each other.
 If we have different pools of charges, we can generalize these equations to
 $$I = \sum_i q_i n_i A v_{d,i}$$
@@ -7734,7 +7807,7 @@ $$V = IR = j A \rho \frac{l}{A}$$
 $$El = j \rho l$$
 $$E = j \rho$$</p>
 <p>This can be generalized to the so-called "microscopic" view of Ohm's law, relating the electric field (proxy for $V$) to the current density (proxy for $I$) and resistivity (proxy for $R$)):
-$$ \vec{\bf{E}} = \rho \vec{\bf{j}} \leftrightarrow \vec{\bf{j}} = \frac{1}{\rho} \vec{\bf{E}} $$</p>
+$$\vec{\bf{E}} = \rho \vec{\bf{j}} \leftrightarrow \vec{\bf{j}} = \frac{1}{\rho} \vec{\bf{E}}$$</p>
 <!--- todo: add subsection on superconductivity; human nerve-->
 </div>
 </div>

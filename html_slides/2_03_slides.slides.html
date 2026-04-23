@@ -7473,6 +7473,7 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Capacitors---Basic-concept">Capacitors - Basic concept<a class="anchor-link" href="#Capacitors---Basic-concept">¶</a></h2><ul>
 <li>two plates with opposite charge produce an electric field</li>
+<li>example for parallel plates:</li>
 </ul>
 <p><img alt="E-field capacitor" src="../img/from_wiki/capacitor_E_phi.svg.png" width="500"/></p>
 <p><em><sub>from <a href="https://de.wikibooks.org/wiki/Datei:VFPt_capacitor_E_phi.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC Attribution-ShareAlike 4.0 International</a>, unedited</sub></em></p>
@@ -7485,14 +7486,11 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Capacitors---Relation-of-$V$-and-$d$">Capacitors - Relation of $V$ and $d$<a class="anchor-link" href="#Capacitors---Relation-of-$V$-and-$d$">¶</a></h2><p><code>es27</code></p>
+<h2 id="Capacitors---Relation-of-$V$-and-$d$-at-parallel-plates">Capacitors - Relation of $V$ and $d$ at parallel plates<a class="anchor-link" href="#Capacitors---Relation-of-$V$-and-$d$-at-parallel-plates">¶</a></h2><p><code>es27</code></p>
 <ul>
-<li>simple configuration:<ul>
 <li>two parallel plates of area $A$ separated by distance $d$</li>
 <li>voltage source connected</li>
 <li>$\rightarrow$ plates accumulate charge $Q$ with equal magnitude but opposite sign</li>
-</ul>
-</li>
 </ul>
 <p><strong>What happens if we change the distance?</strong> (if $Q=\textrm{const}$)</p>
 </div>
@@ -7511,7 +7509,7 @@ $$V = V_B - V_A = - \int_A^B \vec{\bf{E}} d \vec{\bf{l}} = +E \int_A^B dl = E d 
 <p><strong>Notes</strong>:</p>
 <ul>
 <li>electric field for two parallel planes: $E = \frac{Q}{\epsilon_0 A}$</li>
-<li>angle between $\vec{\bf{E}}$ and $d\vec{\bf{l}}$ is 180° $\rightarrow E l \cos(180°) = - E l$.</li>
+<li>choose path from "-" to "+": $d\vec{\mathbf{l}}$ antiparallel to $\vec{\mathbf{E}}$ ($180^\circ$)</li>
 </ul>
 </div>
 </div>
@@ -7530,7 +7528,7 @@ $$V = V_B - V_A = - \int_A^B \vec{\bf{E}} d \vec{\bf{l}} = +E \int_A^B dl = E d 
 <li>capacitance determined by <strong>geometry</strong>: size, shape, relative position of plates</li>
 </ul>
 </li>
-<li>determining capacitance <strong>analytically</strong> for uniform $\vec{\bf{E}}$:
+<li>determining capacitance <strong>analytically</strong> for an uniform electric field $E = \frac{Q}{\epsilon_0 A}$:
 $$V = E d = \frac{Q d}{\epsilon_0 A}$$
 $$\frac{V}{Q} =  \frac{d}{\epsilon_0 A}$$
 $$C =\frac{Q}{V}=\frac{\epsilon_0 A}{d}$$</li>
@@ -7544,15 +7542,15 @@ $$C =\frac{Q}{V}=\frac{\epsilon_0 A}{d}$$</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Storing-electric-energy">Storing electric energy<a class="anchor-link" href="#Storing-electric-energy">¶</a></h2><ul>
+<h2 id="Storing-electric-energy">Storing electric energy<a class="anchor-link" href="#Storing-electric-energy">¶</a></h2><p><code>sim: C, Q, E, U</code></p>
+<ul>
 <li><strong>conservation of energy</strong>:  the work $W$ required to charge the capacitor is equal to the electric energy stored in the capacitor $U$</li>
 <li>work required to move small amount of charge in presence of potential difference: $dW = -V dq$</li>
 <li>integrating over the entire charge $Q$ and with $V = \frac{q}{C}$, we get:
-$$ W = -\int_0^Q V dq = -\frac{1}{C} \int_0^Q q dq = -\frac{1}{2} \frac{Q^2}{C}$$</li>
+$$ W = -\int_0^Q V dq = -\frac{1}{C} \int_0^Q q\,dq = -\frac{1}{2} \frac{Q^2}{C}$$</li>
 <li>$\rightarrow$ energy $U$ "stored" is:
 $$ U = \frac{1}{2} \frac{Q^2}{C} = \frac{1}{2} C V^2 = \frac{1}{2} Q V$$</li>
 </ul>
-<p><code>script simulation: C, Q, E, U</code></p>
 </div>
 </div>
 </div>
@@ -7564,12 +7562,44 @@ $$ U = \frac{1}{2} \frac{Q^2}{C} = \frac{1}{2} C V^2 = \frac{1}{2} Q V$$</li>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Dielectrics">Dielectrics<a class="anchor-link" href="#Dielectrics">¶</a></h2><p><code>es21</code></p>
 <ul>
-<li>dielectrics are <strong>insulating material</strong></li>
-<li>dielectric increases capacitance by a factor $K$: $C = K\,C_0$</li>
-<li>material permittivity is defined as $\epsilon = K\,\epsilon_0$</li>
-<li>for a parallel-plate capacitor with a dielectric: $C = \frac{\epsilon A}{d}$</li>
-<li>inserting a dielectric increases the breakdown voltage and allows smaller gaps between plates</li>
+<li>so far: <strong>vacuum between plates</strong> ($\epsilon_0$)</li>
+<li>goal: <strong>store more energy at higher voltage safely</strong></li>
+<li><strong>dielectrics are insulating materials</strong></li>
+<li>inserting a dielectric allows higher breakdown voltage → smaller gaps &amp; more compact capacitors</li>
+<li><strong>capacitance increases by factor $K$: $C = K\,C_0$</strong></li>
+<li>material permittivity: $\epsilon = K\,\epsilon_0$</li>
+<li>parallel-plate capacitor: $C = \frac{\epsilon A}{d}$</li>
 </ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Dielectrics:-fixed-$Q$-vs.-fixed-$V$">Dielectrics: fixed $Q$ vs. fixed $V$<a class="anchor-link" href="#Dielectrics:-fixed-$Q$-vs.-fixed-$V$">¶</a></h2><p><strong>Case 1: isolated capacitor (fixed $Q$)</strong></p>
+<ul>
+<li>no battery → charge cannot change</li>
+<li>inserting dielectric:<ul>
+<li>electric field <strong>decreases</strong></li>
+<li>voltage <strong>decreases</strong> ($V = \frac{Q}{C}$, $C \uparrow$)</li>
+<li>stored energy <strong>decreases</strong></li>
+</ul>
+</li>
+</ul>
+<p><strong>Case 2: connected to battery (fixed $V$)</strong></p>
+<ul>
+<li>battery keeps voltage constant</li>
+<li>inserting dielectric:<ul>
+<li>electric field <strong>unchanged</strong> ($E = V/d$)</li>
+<li>additional charge flows → $Q \uparrow$</li>
+<li>stored energy <strong>increases</strong></li>
+</ul>
+</li>
+</ul>
+<p><strong>Summary:</strong> dielectric always increases $C$, but what changes depends on constraints</p>
 </div>
 </div>
 </div>
