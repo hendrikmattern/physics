@@ -7563,9 +7563,9 @@ $$\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = \mu_0 I_{\text{enc}} + \mu_0 \epsilon
 <h2 id="Physics-&amp;-symmetry-(obsession):-Gauss's-law-for-magnetism">Physics &amp; symmetry (obsession): Gauss's law for magnetism<a class="anchor-link" href="#Physics-&amp;-symmetry-(obsession):-Gauss's-law-for-magnetism">¶</a></h2><p><code>sim - Gausss' laws</code></p>
 <ul>
 <li><strong>we already know</strong>, the electric flux through a closed surface is<br/>
-$$\Phi_E = \oint \vec{\bf{E}} \cdot d\vec{\bf{A}} = \frac{Q_{\text{enc}}}{\epsilon_0}$$</li>
+$$\Phi_E = \oint_{\partial S}  \vec{\bf{E}} \cdot d\vec{\bf{A}} = \frac{Q_{\text{enc}}}{\epsilon_0}$$</li>
 <li><strong>since no magnetic monopoles exist</strong>, the magnetic flux through a close surface is<br/>
-$$\Phi_B = \oint \vec{\bf{B}} \cdot d\vec{\bf{A}} = 0$$</li>
+$$\Phi_B = \oint_{\partial S}  \vec{\bf{B}} \cdot d\vec{\bf{A}} = 0$$</li>
 </ul>
 </div>
 </div>
@@ -7578,8 +7578,8 @@ $$\Phi_B = \oint \vec{\bf{B}} \cdot d\vec{\bf{A}} = 0$$</li>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Putting-everything-together:-Maxwell%E2%80%99s-equations">Putting everything together: Maxwell’s equations<a class="anchor-link" href="#Putting-everything-together:-Maxwell%E2%80%99s-equations">¶</a></h2><ul>
 <li><strong>4 equations to unify electricity and magnetism into electromagnetism</strong><ul>
-<li>Gauss's law for electricity: $$\oint \vec{\bf{E}} \cdot d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0}$$</li>
-<li>Gauss's law for magnetism: $$\oint \vec{\bf{B}} \cdot d\vec{\bf{A}} = 0$$</li>
+<li>Gauss's law for electricity: $$\oint_{\partial S}  \vec{\bf{E}} \cdot d\vec{\bf{A}} = \frac{Q_{enc}}{\epsilon_0}$$</li>
+<li>Gauss's law for magnetism: $$\oint_{\partial S}  \vec{\bf{B}} \cdot d\vec{\bf{A}} = 0$$</li>
 <li>Faraday's law of induction: $$\oint \vec{\bf{E}} \cdot d\vec{\bf{l}} = -\frac{d\Phi_B}{dt}$$</li>
 <li>Ampère's law with Maxwell correction: $$\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = \mu_0 I + \mu_0 \epsilon_0 \frac{d\Phi_E}{dt}$$</li>
 </ul>
@@ -7594,7 +7594,7 @@ $$\Phi_B = \oint \vec{\bf{B}} \cdot d\vec{\bf{A}} = 0$$</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Maxwell%E2%80%99s-Equations:-(1)-Gauss's-law-for-electricity">Maxwell’s Equations: (1) Gauss's law for electricity<a class="anchor-link" href="#Maxwell%E2%80%99s-Equations:-(1)-Gauss's-law-for-electricity">¶</a></h2><p>$$ \oint \vec{\bf{E}} d\vec{\bf{A}}  = \frac{Q_{enc}}{\epsilon_0} $$</p>
+<h2 id="Maxwell%E2%80%99s-Equations:-(1)-Gauss's-law-for-electricity">Maxwell’s Equations: (1) Gauss's law for electricity<a class="anchor-link" href="#Maxwell%E2%80%99s-Equations:-(1)-Gauss's-law-for-electricity">¶</a></h2><p>$$ \oint_{\partial S}  \vec{\bf{E}} d\vec{\bf{A}}  = \frac{Q_{enc}}{\epsilon_0} $$</p>
 <p>This states that <strong>electric charges produce electric fields</strong>, and the <strong>total electric flux</strong> of $ \bf{E} $ <strong>through a closed surface</strong> is <strong>proportional to the charge enclosed</strong>.</p>
 <p><small><code>Note: We take the integral over a closed surface.</code></small></p>
 </div>
@@ -7606,7 +7606,7 @@ $$\Phi_B = \oint \vec{\bf{B}} \cdot d\vec{\bf{A}} = 0$$</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Maxwell%E2%80%99s-Equations:-(2)-Gauss%E2%80%99s-law-for-magnetism">Maxwell’s Equations: (2) Gauss’s law for magnetism<a class="anchor-link" href="#Maxwell%E2%80%99s-Equations:-(2)-Gauss%E2%80%99s-law-for-magnetism">¶</a></h2><p>$$ \oint \vec{\bf{B}} d\vec{\bf{A}}  = 0$$
+<h2 id="Maxwell%E2%80%99s-Equations:-(2)-Gauss%E2%80%99s-law-for-magnetism">Maxwell’s Equations: (2) Gauss’s law for magnetism<a class="anchor-link" href="#Maxwell%E2%80%99s-Equations:-(2)-Gauss%E2%80%99s-law-for-magnetism">¶</a></h2><p>$$ \oint_{\partial S}  \vec{\bf{B}} d\vec{\bf{A}}  = 0$$
 This implies that magnetic field lines have no beginning or end, meaning <strong>no magnetic monopoles exist</strong>.</p>
 <p><small><code>Note: We take the integral over a closed surface.</code></small></p>
 </div>
@@ -7690,8 +7690,8 @@ This states that an <strong>electric current and/or a changing electric field ge
 <li>Maxwell equations for empty space</li>
 <li>no charges $\rightarrow$ <strong>closed E-field lines</strong> &amp; <strong>only displacement current</strong></li>
 </ul>
-<p>$$\oint \vec{\bf{E}} \cdot d\vec{\bf{A}} = 0$$
-$$\oint \vec{\bf{B}} \cdot d\vec{\bf{A}} = 0$$
+<p>$$\oint_{\partial S}  \vec{\bf{E}} \cdot d\vec{\bf{A}} = 0$$
+$$\oint_{\partial S}  \vec{\bf{B}} \cdot d\vec{\bf{A}} = 0$$
 $$\oint \vec{\bf{E}} \cdot d\vec{\bf{l}} = -\frac{d\Phi_B}{dt}$$
 $$ \oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = \mu_0 \epsilon_0 \frac{d\Phi_E}{dt}$$</p>
 <p><strong>changing electric field produces a changing magnetic field and vice versa $\rightarrow$ wave propagation</strong></p>

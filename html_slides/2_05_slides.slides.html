@@ -7501,7 +7501,7 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Magnetic-field">Magnetic field<a class="anchor-link" href="#Magnetic-field">¶</a></h2><p><code>simulation two bar magnets</code></p>
+<h2 id="Magnetic-field">Magnetic field<a class="anchor-link" href="#Magnetic-field">¶</a></h2><p><code>sim two bar magnets</code></p>
 <ul>
 <li>field line density is <strong>proportional</strong> to the strength of the magnetic field</li>
 <li>the magnetic field direction is <strong>tangent</strong> to the field lines at any point</li>
@@ -7538,7 +7538,7 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Electric-currents-produce-magnetic-fields">Electric currents produce magnetic fields<a class="anchor-link" href="#Electric-currents-produce-magnetic-fields">¶</a></h2><p><code>em01 + simulation B-field of wire</code></p>
+<h2 id="Electric-currents-produce-magnetic-fields">Electric currents produce magnetic fields<a class="anchor-link" href="#Electric-currents-produce-magnetic-fields">¶</a></h2><p><code>em01 + sim B-field of wire</code></p>
 <ul>
 <li><strong>static</strong> electric charge and magnet show no interaction</li>
 <li>Hans Christian Ørsted (1777-1851) found that compass needle deflect if put near a wire running current</li>
@@ -7565,8 +7565,8 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Magnetic-fields-exert-a-force-on-currents">Magnetic fields exert a force on currents<a class="anchor-link" href="#Magnetic-fields-exert-a-force-on-currents">¶</a></h2><p><code>em02 + simulation straight wires in B-field</code></p>
-<p><img alt="Uno reverse" src="../img/from_wiki/UNO_cards_deck_cropped.png" width="100"/></p>
+<h2 id="Magnetic-fields-exert-a-force-on-currents">Magnetic fields exert a force on currents<a class="anchor-link" href="#Magnetic-fields-exert-a-force-on-currents">¶</a></h2><p><code>em02 + sim straight wires in B-field</code></p>
+<p><img alt="Uno reverse" src="../img/from_wiki/UNO_cards_deck_cropped.png" width="50"/></p>
 <ul>
 <li>Hans Christian Ørsted (1777-1851) found that a <strong>current-carrying wire in a magnetic field experiences a force</strong></li>
 <li>observations for straight wire in homogenous magnetic field (approximated by horseshoe magnet):<ul>
@@ -7595,7 +7595,7 @@ main {
 <li>fingers curl in the direction the magnetic field $\vec{\bf{B}}$</li>
 </ul>
 </li>
-<li><em>Right-Hand Rule 2</em> (RHR-2): *<ul>
+<li><em>Right-Hand Rule 2</em> (RHR-2):<ul>
 <li>index finger pointing along the direction of the current $I$</li>
 <li>middle finger points perpendicular to your thumb along the direction of the magnetic field $\vec{\bf{B}}$</li>
 <li>thumb perpendicular to index &amp; middle finger, points in the direction of the force</li>
@@ -7615,9 +7615,9 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Amp%C3%A8re's-law">Ampère's law<a class="anchor-link" href="#Amp%C3%A8re's-law">¶</a></h2><ul>
+<h2 id="Magnetostatics:-Amp%C3%A8re's-law">Magnetostatics: Ampère's law<a class="anchor-link" href="#Magnetostatics:-Amp%C3%A8re's-law">¶</a></h2><ul>
 <li>So far, know only B-field for a long straight, current-running wire:  $B = \frac{\mu_0}{2 \pi} \frac{I}{r}$</li>
-<li><strong>how to generalize to arbitrary configurations?</strong></li>
+<li><strong>how to generalize to arbitrary configurations?</strong> (for constant $I$, thus, magnetostatics)</li>
 <li>solution by André Marie Ampère (1775-1836)<ul>
 <li>considered a closed path around a current $I_{enc}$</li>
 <li>decompose path into many, (infinitesimally) short, straight segments</li>
@@ -7626,6 +7626,7 @@ main {
 </ul>
 </li>
 </ul>
+<p><img alt="Ampère's law" src="../img/ampereslaw.png" width="300"/></p>
 </div>
 </div>
 </div>
@@ -7689,7 +7690,7 @@ $$\vec{\bf{F}} = q \vec{\bf{v}} \times \vec{\bf{B}}$$</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Lorentz-equation">Lorentz equation<a class="anchor-link" href="#Lorentz-equation">¶</a></h2><ul>
 <li>the total force on a charged particle due to electric and magnetic fields is given by<br/>
-$$\vec{\bf{F}}=q\Bigl(\vec{\bf{E}}+\vec{\bf{v}}\times\vec{\bf{B}}\Bigr)$$</li>
+$$\vec{\bf{F}}= \vec{\bf{F}}_{\textrm{ele}} + \vec{\bf{F}}_{\textrm{mag}}=q\Bigl(\vec{\bf{E}}+\vec{\bf{v}}\times\vec{\bf{B}}\Bigr)$$</li>
 </ul>
 <p><img alt="Lorentz force on particle" src="../img/from_wiki/Lorentz_force_particle.svg.png" width="300"/></p>
 <p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Lorentz_force_particle.svg">wikipedia</a> under <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0 Universal</a></sub></em></p>
@@ -7712,7 +7713,7 @@ $$e E_H = e v_d B$$
 $$E_H = v_d B$$</li>
 <li><strong>Hall voltage</strong> $V_H$ in the presence of uniform, perpendicular fields and thin, but long conducting wire is:
 $$ V_H = E_H d = v_d B d $$</li>
-<li>with <strong>Hall effect</strong> we can differentiate between positive and negative charges</li>
+<li>with <strong>Hall effect/probe</strong> we can differentiate between positive and negative charges, measure magnetic fields, and estimate the drift velocity of electrons</li>
 </ul>
 </div>
 </div>
@@ -7723,7 +7724,7 @@ $$ V_H = E_H d = v_d B d $$</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Microscopic-view-of-ferromagnetism">Microscopic view of ferromagnetism<a class="anchor-link" href="#Microscopic-view-of-ferromagnetism">¶</a></h2><p><code>em21</code></p>
+<h2 id="Microscopic-view-of-ferromagnetism">Microscopic view of ferromagnetism<a class="anchor-link" href="#Microscopic-view-of-ferromagnetism">¶</a></h2><p><code>em21</code> &amp; <code>em33</code></p>
 <ul>
 <li>ferromagnetic materials are divided into domains that act like tiny bar magnets</li>
 <li>in an unmagnetized state, the domains are randomly oriented so their fields cancel</li>
@@ -7773,24 +7774,6 @@ $$ V_H = E_H d = v_d B d $$</li>
 </ul>
 </li>
 </ul>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Hysteresis">Hysteresis<a class="anchor-link" href="#Hysteresis">¶</a></h2><ul>
-<li>hysteresis describes the lag in a material’s magnetic response to an external field</li>
-<li>as the external field is increased, the material’s magnetic field increases until saturation</li>
-<li>when the external field is reduced, the material retains some magnetization</li>
-<li>completely removing the magnetization requires applying a reverse external field</li>
-<li>permanent magnets exhibit broad hysteresis loops while electromagnets show shallower curves</li>
-</ul>
-<p><img alt="Lorentz force on particle" src="../img/from_wiki/StonerWohlfarthMainLoop.svg.png" width="500"/></p>
-<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:StonerWohlfarthMainLoop.svg">wikipedia</a> under <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0 Universal</a></sub></em></p>
 </div>
 </div>
 </div>

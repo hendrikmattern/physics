@@ -7492,9 +7492,11 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="LR-circuit:-Switching-DC-supply-on">LR-circuit: Switching DC supply on<a class="anchor-link" href="#LR-circuit:-Switching-DC-supply-on">¶</a></h2><ul>
 <li>applying Kirchhoff's loop rule gives<br/>
-$$V_0 = L\frac{dI}{dt} + IR$$</li>
+$$V_0 = L\frac{dI}{dt} + IR$$<ul>
 <li>rearrange and take integral ($0..I$ and $0..t$, i.e. current slowly builds up due to self-inductance):
-$$ \int_0^I \frac{dI}{V_0 - R I} = \int_0^t \frac{dt}{L}$$</li>
+$$\int_0^I \frac{dI}{V_0 - R I} = \int_0^t \frac{dt}{L}$$</li>
+</ul>
+</li>
 <li>solving the differential equation yields<br/>
 $$I(t)=\frac{V_0}{R}\Bigl(1-e^{-tR/L}\Bigr)$$</li>
 </ul>
@@ -7508,13 +7510,11 @@ $$I(t)=\frac{V_0}{R}\Bigl(1-e^{-tR/L}\Bigr)$$</li>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="LR-circuit:-Switching-DC-supply-on-(cont')">LR-circuit: Switching DC supply on (cont')<a class="anchor-link" href="#LR-circuit:-Switching-DC-supply-on-(cont')">¶</a></h2><ul>
-<li><p>find $V_L$:
+<li>find $V_L$:
 $$V_L = L \frac{dI}{dt} = \frac{d}{dt}\Bigl( \frac{V_0}{R}\Bigl(1-e^{-tR/L}\Bigr) \Bigr)$$
 $$V_L = L \Bigl( \frac{V_0}{R} \cdot \frac{-R}{L} \cdot e^{-tR/L} \Bigr)$$
-$$V_L = - V_0 e^{-tR/L}$$</p>
-</li>
-<li><p><strong>summary</strong>: self-inductance causes:</p>
-<ul>
+$$V_L = - V_0 e^{-tR/L}$$</li>
+<li><strong>summary</strong>: self-inductance causes:<ul>
 <li>voltage over $L$ to be first opposed to $V_0$ (Lenz's rule) and decaying over times</li>
 <li>current building up over time</li>
 </ul>
@@ -7535,10 +7535,10 @@ $$V_L = - V_0 e^{-tR/L}$$</p>
 $$L\frac{dI}{dt}+IR=0$$</li>
 <li>solution for decaying current is:
 $$I(t)=I_0e^{-tR/L}$$</li>
-<li>voltage over inductor is:</li>
+<li>voltage over inductor is:
+$$V_L = L \frac{dI}{dt} = \frac{d}{dt}\Bigl( I_0 e^{-tR/L} \Bigr) = \frac{-L R}{L} I_0 e^{-tR/L}$$
+$$V_L = - V_0 e^{-tR/L}$$</li>
 </ul>
-<p>$$V_L = L \frac{dI}{dt} = \frac{d}{dt}\Bigl( I_0 e^{-tR/L} \Bigr) = \frac{-L R}{L} I_0 e^{-tR/L}$$
-$$V_L = - V_0 e^{-tR/L}$$</p>
 </div>
 </div>
 </div>
@@ -7617,7 +7617,7 @@ $$ U  = U_B + U_E = \frac{Q_0^2}{2 C} \sin^2(\omega t + \phi) + \frac{Q_0^2}{2C}
 <h2 id="LRC-circuit-(cont')">LRC-circuit (cont')<a class="anchor-link" href="#LRC-circuit-(cont')">¶</a></h2><p><code>sim - damping LRC-circuit</code></p>
 <ul>
 <li><p>apply Kirchhoff's loop rule and use $I = \frac{dQ}{dt}$:
-$$ - L \frac{dI}{dt} - I R + \frac{Q}{C} = 0 $$
+$$- L \frac{dI}{dt} - I R + \frac{Q}{C} = 0$$
 $$L\frac{d^2Q}{dt^2}+R\frac{dQ}{dt}+\frac{Q}{C}=0$$</p>
 </li>
 <li><p>second-order linear differential equation that describes <strong>damped harmonic oscillator</strong>:</p>
@@ -7790,31 +7790,6 @@ $$V_0=I_0Z \quad \textrm{with} \quad Z=\sqrt{R^2+\Bigl(X_L-X_C\Bigr)^2}$$</li>
 </div>
 </div>
 </div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Impedance-matching">Impedance matching<a class="anchor-link" href="#Impedance-matching">¶</a></h2><p><code>el35 - CASSY</code></p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>maximum power transfer occurs when the source impedance matches the load impedance:<br/>
-$$Z_1=Z_2$$</li>
-<li>for purely resistive circuits, maximum power is delivered when $R_{\rm source}=R_{\rm load}$</li>
-<li>mismatched impedances lead to reduced power transfer efficiency and potential signal distortion</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">

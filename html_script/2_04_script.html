@@ -7581,34 +7581,52 @@ The proper choice of option 1 or 2 depends on the resistor we want to characteri
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="2.4.2.-Analysis-circuits-and-Kirchhoff's-Rules">2.4.2. Analysis circuits and Kirchhoff's Rules<a class="anchor-link" href="#2.4.2.-Analysis-circuits-and-Kirchhoff's-Rules">¶</a></h2><h3 id="Resistors-in-series-&amp;-parallel">Resistors in series &amp; parallel<a class="anchor-link" href="#Resistors-in-series-&amp;-parallel">¶</a></h3><p>The <em>equivalent</em> $R_{eq}$ of several resistors connected in series is simply found by adding all individual resistors.
 This is because the voltage drop $V$ over all resistors is equal to the sum of the voltage drops $V_i$ of each individual resistor:
-$$ V = \sum V_i = \sum I R_i = I \sum R_i = I R_{eq} $$
-$$ R_{eq} = \sum R_i $$</p>
+$$V = \sum V_i = \sum I R_i = I \sum R_i = I R_{eq}$$
+$$R_{eq} = \sum R_i$$</p>
 <p>Hence, we can imagine the individual resistors as pieces of a bigger <em>net resistance</em>.</p>
 <p>If connected <em>parallel</em> to each other, the voltage drop per resistor is the same but the total current $I$ will split between the parallel resistors:
-$$ I = \sum I_i  $$
-$$ \frac{V}{R_{eq}} = \sum \frac{V}{R_i} = V\frac{1}{R_i}$$
-with $V = RI \leftrightarrow I ={V}{R} $.
+$$I = \sum I_i$$
+$$\frac{V}{R_{eq}} = \sum \frac{V}{R_i} = V\frac{1}{R_i}$$
+with $V = RI \leftrightarrow I ={V}{R}$.
 Therefore, we can express the equivalent resistance of resistors in parallel as:
 $$ \frac{1}{R_{eq}} = \frac{1}{R_i}$$</p>
 <p>This means that the net resistance is smaller than the smallest individual resistance.
 In a nutshell, resistors in parallel could be seen as building a resistor with a bigger cross-section $A$.
 Since $R = \rho \frac{l}{A}$, the resistance needs to decrease of parallel resistors.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Capacitors-in-series-&amp;-parallel">Capacitors in series &amp; parallel<a class="anchor-link" href="#Capacitors-in-series-&amp;-parallel">¶</a></h3><p>Capacitors in <em>parallel</em> have the same voltage drop, i.e. the plates connected to the negative terminal of the battery have the same potential and the same is true for the plates connected to the positive terminal.
 Therefore, for each capacitor the respective charge $Q_i$ is $ Q_i = V C_i $
 The total charge $Q$ is the sum of all individual charges $Q_i$ .
 We can represent the individual capacitors as an <em>equivalent</em> capacitance $ C_{eq} $:
-$$ Q = V C_{eq} = V \sum C_i $$
-$$ C_{eq} = \sum C_i $$</p>
+$$Q_i = V C_i \quad \Rightarrow \quad Q = V \sum C_i = V C_{eq}$$
+$$C_{eq} = \sum C_i$$</p>
 <p>Therefore, capacitors in parallel can be summed to determine their net effect/equivalent capacitance $C_{eq}$.
 Effectively, putting capacitors in parallel acts as "building a bigger capacitor" (similar to increasing the area of a capacitor).</p>
 <p>Capacitors in <em>series</em> behave differently.
 While each capacitor will have a different voltage/potential difference $V = \sum V_i$ the charge associated with each capacitor will be the same.
 If we imaging two capacitors in series connected to a battery, the most outer plates will be connected directly to the battery and, therefore, obtain a charge of $+Q$/$-Q$. The inner plates will "react" by "acquiring" the same magnitude of charge but with opposite sign.
-The equivalent capacitance $C_{eq}$ can be estimated as:
-$$ \frac{Q}{C_{eq}} = V = \sum V_i = Q \sum \frac{1}{C_i}$$</p>
+The equivalent capacitance $C_{eq}$ can be estimated by first considering the voltage drop at each capacitor. We realize the charge is the same, thus, factors out, and find $C_{eq}$ by summing the individual voltages to estimate. the total voltage drop:
+$$V_i = \frac{Q}{C_i} \quad \Rightarrow \quad V = \sum V_i = Q \sum \frac{1}{C_i} = \frac{Q}{C_{eq}}$$</p>
 <p>Therefore, capacitors in parallel can be determined as:
 $$ \frac{1}{C_{eq}} = \sum \frac{1}{C_i}$$</p>
 <p>As a consequence, $C_{eq}$ will always be smaller as the smallest $C_i$.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Kirchhoff's-rules">Kirchhoff's rules<a class="anchor-link" href="#Kirchhoff's-rules">¶</a></h3><p>Named after Gustav Robert Kirchhoff (1824-1887), Kirchhoff's rules allow us to analyze complex circuits.</p>
 <h4 id="Junction-rule">Junction rule<a class="anchor-link" href="#Junction-rule">¶</a></h4><p>The first rule states that <strong>at any junction point, the sum of all currents entering the junction must be equal to the sum of all currents leaving the junction</strong>
 $$ \sum_i I_i = 0 \quad \leftrightarrow \quad  \sum_j I_{in, j} = \sum_k I_{out, k}$$</p>
@@ -7641,6 +7659,15 @@ In most application, the RC-circuit is not used in a steady state, but rather sw
 When switched on, the capacitor is charged.
 When switched off, the capacitor is discharged.</p>
 <p>Let's investigate both scenarios individually, before looking what happens if we switch on and off repeatedly.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h4 id="Switching-on-to-charge-the-capacitor">Switching on to charge the capacitor<a class="anchor-link" href="#Switching-on-to-charge-the-capacitor">¶</a></h4><p>When the circuit is closed, the capacitor is charged.
 This process is not instantaneous but takes a time.
 To understand this process, lets start with Kirchhoff's loop rule.
@@ -7681,13 +7708,22 @@ We define $\tau = RC$ as the time constant of the RC-circuit, representing how f
 It takes $\tau$ for the voltage to reach 63% of its maximum amplitude.
 Consequently, after $\tau$ the current has decayed to 37% of its initial value.
 While the equations suggest, that $V_C(t)$ and $I$ never reach their final value, it is fair to assume that after $5\tau$ the process of charging is completed.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h4 id="Switching-off-to-discharge-the-capacitor">Switching off to discharge the capacitor<a class="anchor-link" href="#Switching-off-to-discharge-the-capacitor">¶</a></h4><p>The same logic as for charging can be applied when studying how the capacitor discharges.
 Note that for discharging the battery is removed from the closed circuit.</p>
 <p>Applying Kirchhoff's loop rule yields:
-$$ V_R = V_C $$
-$$ I R = Q /C $$</p>
-<p>As before the current depends on the charge over time, but this time with opposite sign due to the inverted direction of flow $I = -\frac{dQ}{dt} $:
-$$ - \frac{dQ}{dt} R = \frac{Q}{C}$$
+$$ 0 = V_R + V_C $$
+$$ I R = - \frac{Q}{C}$$</p>
+<p>As before the current depends on the charge over time $I = \frac{dQ}{dt} $:
+$$ \frac{dQ}{dt} R = -\frac{Q}{C}$$
 We do the following to solve this equation:</p>
 <ul>
 <li>separate $dQ$ &amp; $Q$ from $dt$
@@ -7700,9 +7736,18 @@ $$ \ln(\frac{Q}{Q_0})  = - \frac{t}{RC} $$</li>
 $$ Q = Q_0 e^{-\frac{t}{RC}} $$</li>
 <li>therefore, the capacitor voltage $V_C$ and current $I$ are:
 $$ V_C(t) = \frac{Q}{C} = V_0 e^{-\frac{t}{RC}} = V_0 e^{-\frac{t}{\tau}} $$
-$$ I(t) = - \frac{dQ}{dt} = -\frac{Q_0}{-RC} e^{-\frac{t}{RC}} = \frac{Q_0}{\tau} e^{-\frac{t}{RC}} =I_0 e^{-\frac{t}{RC}} =I_0 e^{-\frac{t}{\tau}}$$</li>
+$$ I(t) = \frac{dQ}{dt} = \frac{Q_0}{-RC} e^{-\frac{t}{RC}} = -\frac{Q_0}{\tau} e^{-\frac{t}{RC}} =-I_0 e^{-\frac{t}{RC}} =-I_0 e^{-\frac{t}{\tau}}$$</li>
 </ul>
-<p>Note that voltage and current are decaying over time.</p>
+<p>Note that voltage and current are decaying over time. The minus sign indicates that the current flows in the opposite direction compared to the charging case.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h4 id="Periodically-switching-on-off">Periodically switching on-off<a class="anchor-link" href="#Periodically-switching-on-off">¶</a></h4><p>By periodically switching a RC-circuit, we can create a <em>sawtooth voltage</em>.
 In practice, this involves a voltage source, an capacitor, two resistors, and a tube.
 One loop is battery, resistor, capacitor and used for charging.

@@ -7511,6 +7511,7 @@ main {
 $$V = V_0 - I R_{int}$$</li>
 <li><strong>Non-constant $R_{int}$:</strong> Leads to non-linear current-voltage characteristics</li>
 </ul>
+<p><em><sub>Note: You may find electromotive force (EMF) instead of $V_0$, but there is no force. Thus, this is misleading and we stick with open-circuit voltage $V_0$ which is equivalent to EMF if there are no leaking currents within the voltage source</sub></em></p>
 </div>
 </div>
 </div>
@@ -7542,22 +7543,31 @@ $$V = V_0 - I R_{int}$$</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Resistors-in-series-&amp;-parallel">Resistors in series &amp; parallel<a class="anchor-link" href="#Resistors-in-series-&amp;-parallel">¶</a></h2><p><code>el41</code></p>
+<h2 id="Resistors-in-series">Resistors in series<a class="anchor-link" href="#Resistors-in-series">¶</a></h2><p><code>el41</code> &amp; <code>el10</code></p>
+<p>$$V = \sum V_i = \sum I R_i = I \sum R_i = I R_{eq}$$</p>
 <ul>
-<li><strong>Series resistors:</strong><ul>
 <li>equivalent resistance: $R_{eq} = \sum R_i$</li>
 <li>voltage drops add up</li>
 <li><strong>interpretation for equivalent resistor:</strong> increase effective length</li>
+<li>special case / circuit element: <strong>potentiometer</strong></li>
 </ul>
-</li>
-<li><strong>Parallel Resistors:</strong><ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Resistors-in-parallel">Resistors in parallel<a class="anchor-link" href="#Resistors-in-parallel">¶</a></h2><p><code>el41</code>
+$$I = \sum I_i \quad \textrm{with} \quad \frac{V}{R_{eq}} = \sum \frac{V}{R_i} = V\frac{1}{R_i}$$</p>
+<ul>
 <li>equivalent resistance: $\frac{1}{R_{eq}} = \sum \frac{1}{R_i}$</li>
 <li>current splits</li>
 <li>net resistance is smaller than the smallest individual resistance</li>
 <li><strong>interpretation for equivalent resistor:</strong> increase effective cross-sectional area</li>
 </ul>
-</li>
-</ul>
 </div>
 </div>
 </div>
@@ -7567,23 +7577,31 @@ $$V = V_0 - I R_{int}$$</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Capacitors-in-series-&amp;-parallel">Capacitors in series &amp; parallel<a class="anchor-link" href="#Capacitors-in-series-&amp;-parallel">¶</a></h2><p><code>el23</code></p>
+<h2 id="Capacitors-in-parallel">Capacitors in parallel<a class="anchor-link" href="#Capacitors-in-parallel">¶</a></h2><p><code>es23</code></p>
+<p>$$Q_i = V C_i \quad \Rightarrow \quad Q = V \sum C_i = V C_{eq}$$</p>
 <ul>
-<li><strong>Parallel Capacitors:</strong><ul>
 <li>equivalent capacitance: $C_{eq} = \sum C_i$</li>
 <li>voltage is the same</li>
 <li>total charge adds up</li>
 <li><strong>interpretation for equivalent capacitor:</strong> increase effective plate area</li>
 </ul>
-</li>
-<li><strong>Series Capacitors:</strong><ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Capacitors-in-series">Capacitors in series<a class="anchor-link" href="#Capacitors-in-series">¶</a></h2><p><code>es23</code></p>
+<p>$$V_i = \frac{Q}{C_i} \quad \Rightarrow \quad V = \sum V_i = Q \sum \frac{1}{C_i} = \frac{Q}{C_{eq}}$$</p>
+<ul>
 <li>equivalent capacitance: $\frac{1}{C_{eq}} = \sum \frac{1}{C_i}$</li>
-<li>charge is the same</li>
+<li>same charge Q flows onto each capacitor</li>
 <li>voltage drops add up</li>
 <li>net capacitance is smaller than the smallest individual capacitance</li>
 <li><strong>interpretation for equivalent capacitor:</strong> increase effective plate distance</li>
-</ul>
-</li>
 </ul>
 </div>
 </div>
@@ -7594,18 +7612,33 @@ $$V = V_0 - I R_{int}$$</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Kirchhoff's-Rules">Kirchhoff's Rules<a class="anchor-link" href="#Kirchhoff's-Rules">¶</a></h2><ul>
-<li><strong>Junction rule</strong><br/>
-$$\sum_i I_i = 0 \quad \leftrightarrow \quad \sum_j I_{in,j} = \sum_k I_{out,k}$$<ul>
-<li>$\rightarrow$  <strong>current conservation</strong></li>
-</ul>
-</li>
-<li><strong>Loop rule</strong>
-$$\sum_i V_i = 0$$<ul>
-<li>$\rightarrow$  <strong>energy conservation</strong></li>
-</ul>
-</li>
-<li><strong>Circuit analysis steps:</strong><ol>
+<h2 id="Kirchhoff's-junction-rule">Kirchhoff's junction rule<a class="anchor-link" href="#Kirchhoff's-junction-rule">¶</a></h2><p>$$\sum_i I_i = 0 \quad \leftrightarrow \quad \sum_j I_{in,j} = \sum_k I_{out,k}$$
+$\rightarrow$  <strong>current conservation</strong></p>
+<p><img alt="Kirchhoff junction rule" src="../img/from_wiki/Stromknoten.svg.png" width="200"/></p>
+<p><em><sup>from <a href="https://de.wikipedia.org/wiki/Datei:Stromknoten.svg">wikipedia</a> public domain</sup></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Kirchhoff's-loop-rule">Kirchhoff's loop rule<a class="anchor-link" href="#Kirchhoff's-loop-rule">¶</a></h2><p>$$\sum_i V_i = 0$$
+$\rightarrow$  <strong>energy conservation</strong></p>
+<p><img alt="Kirchhoff loop rule" src="../img/from_wiki/Kirshhoff-example.svg.png" width="300"/></p>
+<p><em><sup>from <a href="https://en.wikipedia.org/wiki/File:Kirshhoff-example.svg">wikipedia</a> under <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0 Universal</a></sup></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Circuit-analysis-steps">Circuit analysis steps<a class="anchor-link" href="#Circuit-analysis-steps">¶</a></h2><ol>
 <li>Label currents</li>
 <li>Identify unknowns</li>
 <li>Apply junction rule</li>
@@ -7613,12 +7646,10 @@ $$\sum_i V_i = 0$$<ul>
 <li>Solve equations</li>
 <li>Vector/matrix form of equation</li>
 </ol>
-</li>
-</ul>
+<p><img alt="Kirchhoff junction rule" src="../img/from_wiki/Stromknoten.svg.png" width="200"/>
+<img alt="Kirchhoff loop rule" src="../img/from_wiki/Kirshhoff-example.svg.png" width="300"/></p>
 <p><em><sup> Left: from <a href="https://de.wikipedia.org/wiki/Datei:Stromknoten.svg">wikipedia</a> public domain;
 Right: from <a href="https://en.wikipedia.org/wiki/File:Kirshhoff-example.svg">wikipedia</a> under <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0 Universal</a></sup></em></p>
-<p><img align="left" alt="Kirchhoff junction rule" src="../img/from_wiki/Stromknoten.svg.png" width="200"/></p>
-<p><img align="right" alt="Kirchhoff loop rule" src="../img/from_wiki/Kirshhoff-example.svg.png" width="300"/></p>
 </div>
 </div>
 </div>
@@ -7650,7 +7681,7 @@ Right: from <a href="https://en.wikipedia.org/wiki/File:Kirshhoff-example.svg">w
 <h2 id="RC-circuit:-Charging">RC-circuit: Charging<a class="anchor-link" href="#RC-circuit:-Charging">¶</a></h2><ul>
 <li><strong>Circuit:</strong> Resistor, capacitor, voltage source in series</li>
 <li><strong>Kirchhoff's loop rule:</strong>
-$$V_0 = IR + \frac{Q}{C}$$</li>
+$$V_0 = V_R + V_C = IR + \frac{Q}{C}$$</li>
 <li><strong>Differential equation:</strong> ($I=\frac{dQ}{dt}$)
 $$V_0 = R\frac{dQ}{dt} + \frac{Q}{C}$$
 $$ \frac{dt}{RC} = \frac{dQ}{V_0 C - Q} $$
@@ -7672,7 +7703,8 @@ $$ \frac{1}{RC} \int_0^t dt = \int_0^Q \frac{dQ}{V_0 C - Q} $$</li>
 $$Q(t) = Q_0(1 - e^{-t/RC})$$
 $$V_C(t) = V_0(1 - e^{-t/RC})$$
 $$I(t) = \frac{V_0}{R}e^{-t/RC}$$</li>
-<li>$\rightarrow$ <strong>Decaying current</strong> and <strong>increasing charge &amp; voltage</strong> over time</li>
+<li>$\rightarrow$ At capacitor, <strong>increasing charge &amp; voltage</strong> over time</li>
+<li>$\rightarrow$ In circuit, <strong>decaying current</strong> and, eventually, <strong>no voltage drop over resistor</strong></li>
 <li><strong>Time constant ($\tau = RC$):</strong><ul>
 <li>Time for $V_C$ to reach 63% of $V_0$</li>
 <li>Time for $I$ to decay to 37% of initial value</li>
@@ -7692,9 +7724,9 @@ $$I(t) = \frac{V_0}{R}e^{-t/RC}$$</li>
 <h2 id="RC-circuit:-Discharging">RC-circuit: Discharging<a class="anchor-link" href="#RC-circuit:-Discharging">¶</a></h2><ul>
 <li><strong>Circuit:</strong> Capacitor and resistor in series; <strong>no voltage source</strong></li>
 <li><strong>Kirchhoff's Loop Rule:</strong>
-$$IR = \frac{Q}{C}$$</li>
-<li><strong>Differential Equation:</strong>
-$$-\frac{dQ}{dt}R = \frac{Q}{C}$$
+$$0 = V_R + V_C \quad \Rightarrow \quad IR = - \frac{Q}{C}$$</li>
+<li><strong>Differential Equation with $I = \frac{dQ}{dt}$:</strong>
+$$\frac{dQ}{dt}R = -\frac{Q}{C}$$
 $$ \frac{dQ}{Q} = - \frac{dt}{RC}$$
 $$ \int_{Q_0}^Q \frac{1}{Q} dQ  = - \frac{1}{RC} \int_0^t dt $$</li>
 </ul>
@@ -7713,8 +7745,9 @@ $$ \int_{Q_0}^Q \frac{1}{Q} dQ  = - \frac{1}{RC} \int_0^t dt $$</li>
 <li><strong>Solution:</strong>
 $$Q(t) = Q_0e^{-t/RC}$$
 $$V_C(t) = V_0e^{-t/RC}$$
-$$I(t) = I_0e^{-t/RC}$$</li>
-<li>$\rightarrow$ <strong>Decaying voltage and current over time</strong></li>
+$$I(t) = -I_0e^{-t/RC}$$</li>
+<li>$\rightarrow$ Capacitor voltage decays exponentially</li>
+<li>$\rightarrow$ Current has same decay but opposite sign</li>
 </ul>
 </div>
 </div>
@@ -7725,15 +7758,14 @@ $$I(t) = I_0e^{-t/RC}$$</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="RC-circuit:-Periodically-switching">RC-circuit: Periodically switching<a class="anchor-link" href="#RC-circuit:-Periodically-switching">¶</a></h2><p><code>Script simulation RC-circuit</code></p>
-<p><code>el11</code></p>
+<h2 id="RC-circuit:-Periodically-switching">RC-circuit: Periodically switching<a class="anchor-link" href="#RC-circuit:-Periodically-switching">¶</a></h2><p><code>sim RC-circuit</code> &amp; <code>el11</code></p>
 <ul>
 <li><strong>Sawtooth Voltage:</strong> Created by periodic charging and discharging</li>
 <li><strong>Practical Implementation:</strong> Voltage source, capacitor, two resistors, and a tube</li>
 <li><strong>Charging Loop:</strong> Capacitor charges through one resistor</li>
 <li><strong>Discharging Loop:</strong> Tube conducts at breakdown voltage, discharging capacitor through the other resistor</li>
 <li><strong>Repeat Cycle:</strong> Sawtooth waveform generated</li>
-<li><strong>Application:</strong> Heart pacemaker, (music) , etc.</li>
+<li><strong>Application:</strong> oscillators, (heart) pacemakers, wipers, synthesizers</li>
 </ul>
 </div>
 </div>
