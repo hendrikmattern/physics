@@ -7441,7 +7441,8 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="2.6.-Electromagnets,-induction-&amp;-inductance">2.6. Electromagnets, induction &amp; inductance<a class="anchor-link" href="#2.6.-Electromagnets,-induction-&amp;-inductance">¶</a></h1><p><strong>How does a microphone work?</strong></p>
+<h1 id="2.6.-Electromagnets,-induction-&amp;-inductance">2.6. Electromagnets, induction &amp; inductance<a class="anchor-link" href="#2.6.-Electromagnets,-induction-&amp;-inductance">¶</a></h1><p><code>em17 - Thomson</code></p>
+<p><strong>Where does the energy come from?</strong></p>
 </div>
 </div>
 </div>
@@ -7451,9 +7452,12 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><img alt="dynamic mic" src="../img/from_wiki/Tauchspulenmikrofon-en.svg.png" width="300">
-<img alt="condenser mic" src="../img/from_wiki/Condenser_microphone.svg.png" width="300"/></img></p>
-<p><em><sub>[left] from <a href="https://en.wikipedia.org/wiki/File:Tauchspulenmikrofon-en.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC Attribution-ShareAlike 3.0 Unported</a>; [right] from <a href="https://en.wikipedia.org/wiki/File:Condenser_microphone.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC Attribution-ShareAlike 3.0 Unported</a></sub></em></p>
+<p>New concepts:</p>
+<ul>
+<li>magnetic flux &amp; induction</li>
+<li>electromagnets &amp; transformers</li>
+<li>alternating current (AC)</li>
+</ul>
 </div>
 </div>
 </div>
@@ -7510,7 +7514,7 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="The-flux-strikes-back:-Magnetic-flux">The flux strikes back: Magnetic flux<a class="anchor-link" href="#The-flux-strikes-back:-Magnetic-flux">¶</a></h2><p><code>simulation mag. flux</code></p>
+<h2 id="The-flux-strikes-back:-Magnetic-flux">The flux strikes back: Magnetic flux<a class="anchor-link" href="#The-flux-strikes-back:-Magnetic-flux">¶</a></h2><p><code>sim mag flux</code></p>
 <ul>
 <li><p>magnetic flux $\Phi_B$ defined as:
 $$\Phi_B = \int \vec{\bf{B}}\, d\vec{\bf{A}}$$</p>
@@ -7599,21 +7603,48 @@ $$\Phi_B = B_\perp A = B A \cos\theta = \vec{\bf{B}} \cdot \vec{\bf{A}}$$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="E-field-from-electrostatics-vs.-electromagnetism">E-field from electrostatics vs. electromagnetism<a class="anchor-link" href="#E-field-from-electrostatics-vs.-electromagnetism">¶</a></h2><ul>
-<li><p>remember electrostatics: <strong>static charges generate electric field</strong>:</p>
+<h2 id="E-field-from-electrostatics-vs.-electromagnetism">E-field from electrostatics vs. electromagnetism<a class="anchor-link" href="#E-field-from-electrostatics-vs.-electromagnetism">¶</a></h2><table>
+<thead>
+<tr>
+<th>Electrostatics</th>
+<th>Electromagnetism</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>static charges generate electric fields</td>
+<td>changing magnetic flux induces electric fields</td>
+</tr>
+<tr>
+<td>field lines start/end on charges</td>
+<td>field lines can form closed loops</td>
+</tr>
+<tr>
+<td>voltage between two points: $V_{AB} = -\int_A^B \vec{\bf{E}} \cdot d\vec{\bf{l}}$</td>
+<td>induced voltage: $V_{ind} = -\frac{d\Phi_B}{dt}$</td>
+</tr>
+<tr>
+<td>$\oint \vec{\bf{E}} \cdot d\vec{\bf{l}} = 0$</td>
+<td>$\oint \vec{\bf{E}} \cdot d\vec{\bf{l}} = -\frac{d\Phi_B}{dt}$</td>
+</tr>
+<tr>
+<td>conservative field / path independent</td>
+<td>non-conservative field / closed-loop work can be non-zero</td>
+</tr>
+</tbody>
+</table>
 <ul>
-<li>$V_{AB} = \int_a^b \vec{\bf{E}} d\vec{\bf{l}}$</li>
-<li>thus, for closed path, $V = \oint \vec{\bf{E}} d\vec{\bf{l}} = 0$ $\rightarrow$ work is zero</li>
-<li><strong>conservative</strong> $\rightarrow$ path independence &amp; can define potential energy</li>
+<li><p>electrostatics:</p>
+<ul>
+<li>after returning to the starting point, a charge has no net energy gain</li>
+<li>positive and negative work cancel exactly</li>
 </ul>
 </li>
-<li><p><strong>changing magnetic flux induce voltage that generate an electric field</strong>:</p>
+<li><p>changing magnetic fields:</p>
 <ul>
-<li>voltage induced by changing magnetic flux is: $V_{ind} = -\frac{d\Phi_B}{dt}$</li>
-<li>work per unit charge due to induced voltage: $V_{ind} = \oint \vec{\bf{E}}\cdot d\vec{\bf{l}} $</li>
-<li><strong>general form of Faraday's law</strong> $\oint \vec{\bf{E}} \cdot d\vec{\bf{l}} = -\frac{d\Phi_B}{dt}$</li>
-<li>work for closed path not necessarily zero $\rightarrow$ <strong>non-conservative</strong></li>
-<li>changing magnetic field induces <strong>electric field with closed field lines</strong></li>
+<li>induced electric field continuously pushes charges around the loop</li>
+<li>force on the charge always points along the loop</li>
+<li>after one full loop, charges can gain energy</li>
 </ul>
 </li>
 </ul>
@@ -7638,15 +7669,17 @@ $$\Phi_B = B_\perp A = B A \cos\theta = \vec{\bf{B}} \cdot \vec{\bf{A}}$$</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
 <li>conductor (pendulum) moves through magnetic field generated by an electromagnet</li>
-<li>$\rightarrow$ changing magnetic flux in conductor $\rightarrow$ voltage induced</li>
-<li>part leaving the electromagnetic field:<ul>
+<li>$\rightarrow$ changing magnetic flux in conductor $\rightarrow$ induced eddy currents</li>
+<li>part leaving the magnetic field:<ul>
 <li>decrease in magnetic flux (number of field lines passing through)</li>
-<li>generates a field that repels this motion (Lenz's law), i.e. field generated that <strong>attracts</strong> towards the electromagnet</li>
+<li>induced currents generate magnetic fields opposing the decrease (Lenz's law)</li>
+<li>resulting force pulls the conductor back toward the electromagnet</li>
 </ul>
 </li>
-<li>part entering the electromagnetic field:<ul>
+<li>part entering the magnetic field:<ul>
 <li>increase in magnetic flux (number of field lines passing through)</li>
-<li>generates a field that repels this motion (Lenz's law), i.e. field generated that <strong>repels</strong> towards the electromagnet</li>
+<li>induced currents generate magnetic fields opposing the increase (Lenz's law)</li>
+<li>resulting force pushes the conductor away from the electromagnet</li>
 </ul>
 </li>
 </ul>
@@ -7663,7 +7696,7 @@ $$\Phi_B = B_\perp A = B A \cos\theta = \vec{\bf{B}} \cdot \vec{\bf{A}}$$</p>
 <p><img alt="Eddy" src="../img/from_wiki/Eddy_currents_due_to_magnet.svg.png" width="400"/></p>
 <p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Eddy_currents_due_to_magnet.svg">wikipedia</a> under <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0 Universal</a></sub></em></p>
 <ul>
-<li><strong>direction of induced current via RHR-1'</strong></li>
+<li><strong>direction of $B$ via RHR-1 by matching curl of fingers to induced current</strong></li>
 </ul>
 </div>
 </div>
@@ -7703,23 +7736,15 @@ $$\Phi_B = B_\perp A = B A \cos\theta = \vec{\bf{B}} \cdot \vec{\bf{A}}$$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="AC-electric-generator">AC electric generator<a class="anchor-link" href="#AC-electric-generator">¶</a></h2><p><code>em38</code></p>
+<h2 id="From-induction-to-alternating-current">From induction to alternating current<a class="anchor-link" href="#From-induction-to-alternating-current">¶</a></h2><ul>
+<li>Faraday's law: <strong>changing magnetic flux induces voltage</strong>
+$$V_{ind} = -\frac{d\Phi_B}{dt}$$</li>
+<li>$\rightarrow$ if magnetic flux changes periodically, <strong>induced voltage also changes periodically</strong></li>
+<li>induced voltage therefore naturally alternates between positive and negative values</li>
+</ul>
+<p>$$V(t)=V_0\sin(\omega t)$$</p>
 <ul>
-<li><p>convert mechanical energy into electrical energy via a <strong>rotating armature</strong> in a <strong>static magnetic field</strong></p>
-</li>
-<li><p>assuming a uniform magnetic field, <strong>induced voltage in rotating coil</strong> is:
-$$V_{ind} = - \frac{d\Phi_B}{dt} = - \frac{d}{dt} \left( \int \vec{\bf{B}} d\vec{\bf{A}} \right) = - \frac{d}{dt}(B A \cos \theta)$$</p>
-</li>
-<li><p><strong>only angle $\theta$ is time dependent</strong></p>
-</li>
-<li><p>assuming initial angle $\theta_0 = 0$ and constant rotation velocity $\omega = \frac{d\theta}{dt}$:
-$$V_{ind} = - B A \frac{d \cos (\omega t)}{dt} = B A \omega \sin (\omega t)$$</p>
-</li>
-<li><p>for $N$ loops and maximally induced voltage $V_{ind, 0} = N B A \omega$ :
-$$V_{ind} = N B A \omega \sin (\omega t) = V_{ind, 0} \sin (\omega t)$$</p>
-</li>
-<li><p>principle can be <strong>reversed</strong> to work as <strong>electric motors</strong></p>
-</li>
+<li>this is called <strong>alternating current (AC)</strong></li>
 </ul>
 </div>
 </div>
@@ -7731,13 +7756,20 @@ $$V_{ind} = N B A \omega \sin (\omega t) = V_{ind, 0} \sin (\omega t)$$</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Primer-on-alternating-current-(AC)">Primer on alternating current (AC)<a class="anchor-link" href="#Primer-on-alternating-current-(AC)">¶</a></h2><ul>
-<li><p>AC == time varying voltage &amp; current</p>
+<li>AC = periodically changing voltage and current</li>
+<li>sinusoidal AC is the most important case:</li>
+</ul>
+<p>$$V(t)=V_0\sin(2\pi f t)=V_0\sin(\omega t)$$</p>
+<p>$$I(t)=I_0\sin(\omega t)$$</p>
+<ul>
+<li><p>angular frequency:
+$$\omega = 2\pi f$$</p>
 </li>
-<li><p>for sinusoidal behavior, with $\omega=2\pi f$, voltage alternates between $+V_0$ and $-V_0$ described as:
-$$V(t)= V_0 \sin(2\pi f t)= V_0 \sin(\omega t)$$</p>
-</li>
-<li><p>current is given by:
-$$I(t)=\frac{V(t)}{R}= I_0 \sin(\omega t)$$</p>
+<li><p>standard power grid:</p>
+<ul>
+<li>most of the world: $50\,\mathrm{Hz}$</li>
+<li>north America: $60\,\mathrm{Hz}$</li>
+</ul>
 </li>
 </ul>
 </div>
@@ -7886,7 +7918,7 @@ $$ V_{ind} = - N \frac{d \Phi_B}{dt} = -L \frac{d I}{dt} $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Energy-stored-in-the-magnetic-field">Energy stored in the magnetic field<a class="anchor-link" href="#Energy-stored-in-the-magnetic-field">¶</a></h2><p><code>em17 - Thomson</code></p>
+<h2 id="Revisit-inital-experiment-&amp;-energy-stored-in-the-magnetic-field">Revisit inital experiment &amp; energy stored in the magnetic field<a class="anchor-link" href="#Revisit-inital-experiment-&amp;-energy-stored-in-the-magnetic-field">¶</a></h2><p><code>em17 - Thomson</code></p>
 <ul>
 <li>power supplied to an inductor is:
 $$
@@ -7897,14 +7929,8 @@ $$dW = P dt = I L \frac{dI}{dt} dt = I L dI $$
 $$
 W= \int_0^I I\,L\,dI= \frac{1}{2}LI^2
 $$</li>
-<li>energy stored in the magnetic field is:
-$$
-U= \frac{1}{2}LI^2
-$$</li>
-<li>analogous to the energy stored in a capacitor:
-$$
-U= \frac{1}{2}CV^2
-$$</li>
+<li>energy stored in the magnetic field is: $U= \frac{1}{2}LI^2$</li>
+<li>analogous to the energy stored in a capacitor: $U= \frac{1}{2}CV^2$</li>
 </ul>
 </div>
 </div>
