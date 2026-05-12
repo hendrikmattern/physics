@@ -7631,8 +7631,8 @@ $$ Q = Q_0 \cos(\omega t + \phi)$$</p>
 We should further examine the implication of these equation.
 Lets apply the general solution of our initial differential equation.
 With $ \frac{d^2 Q}{dt^2} = -\omega^2 Q_0 \cos(\omega t + \phi) $, we obtain:
-$$ -\omega^2 Q_0 \cos(\omega t + \phi) + \frac{1}{LC} Q_0 \cos(\omega t + \phi) = 0$$
-$$ (-\omega^2 + \frac{1}{LC}) (Q_0 \cos(\omega t + \phi)) = 0$$</p>
+$$-\omega^2 Q_0 \cos(\omega t + \phi) + \frac{1}{LC} Q_0 \cos(\omega t + \phi) = 0$$
+$$(-\omega^2 + \frac{1}{LC}) (Q_0 \cos(\omega t + \phi)) = 0$$</p>
 <p>This equation is true for all case were $ (-\omega^2 + \frac{1}{LC}) = 0$.
 Thus, the angular frequency of oscillation $\omega = 2 \pi f$ is:
 $$ \omega = \sqrt{\frac{1}{LC} } $$</p>
@@ -7670,9 +7670,9 @@ Unlike the energy conversion in the LC-circuit, the resistor adds losses in form
 <p>Assume the capacitor is fully charged at $t = 0$, with an initial charge $Q_0$, and no battery or other energy source is present.
 The capacitor begins to discharge through the inductor and resistor.
 Applying Kirchhoff’s loop rule to the LRC-circuit, give use the same equation as in the LC-circuit with the addition of the resistors voltage drop $IR$:
-$$ - L \frac{dI}{dt} - I R + \frac{Q}{C} = 0 $$</p>
+$$- L \frac{dI}{dt} - I R + \frac{Q}{C} = 0$$</p>
 <p>Since the current of the capacitor is decreasing and current is derivative of charge w.r.t. time, i.e. $I = -\frac{dQ}{dt}$, we obtain:
-$$ L \frac{d^2 Q}{dt^2} + R \frac{dQ}{dt} + \frac{Q}{C}  = 0 $$</p>
+$$L \frac{d^2 Q}{dt^2} + R \frac{dQ}{dt} + \frac{Q}{C}  = 0$$</p>
 <p>This is a second-order linear differential equation that describes damped oscillations.
 The behavior of the solution depends on the damping factor, which is determined by the relationship between $R$, $L$, and $C$.
 As we seen before, the general form a damped harmonic oscillator is $ m \frac{d^2 x}{dt^2} + b \frac{dx}{dt} + kx  = 0 $ and the conditions for the dampening case are specified as $ b^2 \gtrless 4mk$.
@@ -7736,7 +7736,7 @@ $$V = (I_0 \cos(\omega t)) R = (I_0 R) \cos(\omega t) = V_{0} \cos(\omega t)$$</
 That is, the peaks and zero crossings of the voltage and current waveforms occur at the same time.</p>
 <p>Unlike inductors and capacitors, resistors dissipate energy as heat.
 The average rate at which energy is transformed into heat, i.e. the average power is:
-$$\overline{P} = \overline{IV} = I_{rms} V_{rms} = I_{rms}^2 R = \frac{V_{rms}^2}{R}.$$</p>
+$$\overline{P} = \overline{IV} = I_{rms} V_{rms} = I_{rms}^2 R = \frac{V_{rms}^2}{R}$$</p>
 </div>
 </div>
 </div>
@@ -7748,7 +7748,7 @@ $$\overline{P} = \overline{IV} = I_{rms} V_{rms} = I_{rms}^2 R = \frac{V_{rms}^2
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Inductor-in-an-AC-Circuit">Inductor in an AC Circuit<a class="anchor-link" href="#Inductor-in-an-AC-Circuit">¶</a></h3><p>A voltage applied to an inductor with inductance $L$ will induce a voltage opposite to its origin in the inductor itself.
 According to Kirchhoff’s loop rule, the sum of the external and induced voltage must be zero:
-$$V - L \frac{dI}{dt} = 0 \leftrightarrow V = L \frac{dI}{dt} $$</p>
+$$V + V_{\textrm{ind}} = V - L \frac{dI}{dt} = 0 \leftrightarrow V = L \frac{dI}{dt} $$</p>
 <p>For sinusoidal current $I(t) = I_0 \cos(\omega t)$, we obtain:
 $$V = L \frac{d(I_0 \cos(\omega t))}{dt} = - L \omega I_0 \sin(\omega t)$$</p>
 <p>Rewriting using trigonometric identities, i.e. $ \sin \theta = - \cos(\theta + \frac{\pi}{2} )$:
@@ -7759,7 +7759,7 @@ Alternatively, we could say the current lags the voltage by $90^\circ$.</p>
 <p>The inductor's opposition to AC is given by its <em>inductive reactance</em>:
 $$X_L = \omega L = 2 \pi f L$$
 For the peak voltage $V_0$ and peak current $I_0$ as well as the their RMS equivalents, we can write:
-$$ V_0 = X_L I_0 \quad \&amp; \quad V_{RMS} = X_L I_{RMS} $$</p>
+$$ V_0 = X_L I_0 \quad \&amp; \quad V_{RMS} = X_L I_{RMS}$$</p>
 <p>Note that, since $X_L$ increases with frequency, inductors resist high-frequency currents more than low-frequency ones.
 Since voltage and current are out of phase by $90^\circ$, the <em>average power dissipation is zero</em> in an ideal inductor.
 The energy is stored in the magnetic field and returned to the circuit.</p>
@@ -7947,13 +7947,13 @@ In purely resistive circuits, $\cos \phi = 1$, all supplied power is dissipated,
 <h3 id="Resonance-in-AC-circuits">Resonance in AC circuits<a class="anchor-link" href="#Resonance-in-AC-circuits">¶</a></h3><p><em>Resonance</em> in an LRC series circuit occurs when the inductive reactance $X_L$ and capacitive reactance $X_C$ are equal, resulting in a purely resistive impedance.
 This phenomenon has significant practical applications, such as in radio tuning and power transfer optimization.</p>
 <p>To understand the phenomenon, lets start by investigating the <em>RMS current</em> in the circuit:
-$$I_{rms} = \frac{V_{rms}}{Z} = \frac{V_{rms}}{\sqrt{R^2 + (X_L - X_C)^2}} = \frac{V_{rms}}{\sqrt{R^2 + (\omega L - \frac{1}{\omega C} )^2}} $$</p>
+$$I_{rms} = \frac{V_{rms}}{Z} = \frac{V_{rms}}{\sqrt{R^2 + (X_L - X_C)^2}} = \frac{V_{rms}}{\sqrt{R^2 + (\omega L - \frac{1}{\omega C} )^2}}$$</p>
 <p>Since <em>$X_L$ and $X_C$ are frequency dependent</em>, the circuit's current varies with the source frequency.
 The current is maximized when <em>resonance occurs</em>, at which point the inductive reactance and capacitive reactance cancel out:
 $$X_L = X_C$$
-$$\omega L = \frac{1}{\omega C}.$$</p>
+$$\omega L = \frac{1}{\omega C}$$</p>
 <p>Solving this equation gives us the <em>resonant frequency</em>  $\omega_0$:
-$$\omega_0 = \sqrt{\frac{1}{LC}},$$</p>
+$$\omega_0 = \sqrt{\frac{1}{LC}}$$</p>
 <p>Therefore, the resonance frequency $f_0$ is:
 $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$</p>
 <p>So summarize, at resonance:</p>
@@ -7963,7 +7963,7 @@ $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$</p>
 <li>The current is maximized, given by $I_{max} = \frac{V_{rms}}{R}$</li>
 </ul>
 <p>The <em>average power dissipated</em> in the circuit at resonance is maximal, because $\cos \phi = \frac{R}{Z} = 1$:
-$$P = V_{rms} I_{rms} \cos \phi = V_{rms} I_{rms} $$</p>
+$$P = V_{rms} I_{rms} \cos \phi = V_{rms} I_{rms}$$</p>
 <p>The shape of the current vs. frequency response can be change by adapting the resistance $R$.
 When $R$ is small, the resonance curve is narrow and the peak is high, indicating strong resonance.
 Consequently, when $R$ is large, the resonance effect is weaker, and the peak is broader.
