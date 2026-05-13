@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+          "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="373"
+   height="1100"
+   id="svg2">
+  <rect
+       width="230"
+       height="130"
+       x="65"
+       y="17.000002"
+       id="rect3184"
+       style="fill:#ffcc00;fill-opacity:1;fill-rule:nonzero;stroke:#161411;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <use
+     transform="translate(0,502.875)"
+     id="use3970"
+     x="0"
+     y="0"
+     width="373"
+     height="702"
+     xlink:href="#rect3184" />
+  <use
+     transform="translate(0,250)"
+     id="use3968"
+     x="0"
+     y="0"
+     width="373"
+     height="702"
+     xlink:href="#rect3184" />
+  <rect
+     width="270"
+     height="100"
+     x="45"
+     y="32.000004"
+     id="rect3956"
+     style="fill:#ffff99;fill-opacity:1;fill-rule:nonzero;stroke:#161411;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path
+     d="M 97.5,267 L 322.5,267 C 322.5,317 267.5,347 267.05557,397 L 37.5,397 C 37.5,347 97.5,317 97.5,267 z"
+     id="rect3960"
+     style="fill:#ffff99;fill-opacity:1;fill-rule:nonzero;stroke:#161411;stroke-width:3.00000024;stroke-linecap:butt;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:6.00000007, 6.00000007;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path
+     d="M 65.22222,537 C 119.77778,532 139.77778,507 179.77778,507 C 219.77778,507 244.77778,532 294.77778,537 L 294.77778,662.75 C 244.77778,657 219.77778,632 179.77778,632 C 139.77778,632 119.77778,657 65.22222,662.75 L 65.22222,537 z"
+     id="rect3963"
+     style="fill:#ffff99;fill-opacity:1;fill-rule:nonzero;stroke:#161411;stroke-width:3.00000024;stroke-linecap:butt;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:6.00000021, 6.00000021;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path
+     d="M 160,287 L 160,297 L 200,297 L 200,304 L 240,292 L 200,280 L 200,287 L 160,287 z"
+     id="path3972"
+     style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+  <use
+     transform="matrix(-1,0,0,1,360,80)"
+     id="use3974"
+     x="0"
+     y="0"
+     width="373"
+     height="702"
+     xlink:href="#path3972" />
+  <use
+     transform="matrix(0,1,-1,0,392.00002,392.875)"
+     id="use3976"
+     x="0"
+     y="0"
+     width="373"
+     height="702"
+     xlink:href="#path3972" />
+  <use
+     transform="matrix(0,-1,1,0,-112,770.87502)"
+     id="use3978"
+     x="0"
+     y="0"
+     width="373"
+     height="702"
+     xlink:href="#path3972" />
+  <use
+     transform="matrix(0,1,-1,0,552.00002,392.875)"
+     id="use3980"
+     x="0"
+     y="0"
+     width="373"
+     height="702"
+     xlink:href="#path3972" />
+  <g
+     transform="translate(-193.5,-181.36218)"
+     id="g3994">
+    <rect
+       width="60"
+       height="30"
+       x="343.5"
+       y="248.36218"
+       id="rect3982"
+       style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="M 215,77 L 225,77 L 225,72 L 245,82 L 225,92 L 225,87 L 215,87 L 215,77 z"
+       transform="translate(188.5,181.36218)"
+       id="path3986"
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <use
+       transform="matrix(-1,0,0,1,747,0)"
+       id="use3988"
+       x="0"
+       y="0"
+       width="373"
+       height="702"
+       xlink:href="#path3986" />
+    <path
+       d="M 180,102 L 185,97 L 190,102 L 188,102 L 188,111 L 182,111 L 182,102 L 180,102 z"
+       transform="translate(188.5,181.36218)"
+       id="path3990"
+       style="fill:#ffcccc;fill-opacity:1;fill-rule:evenodd;stroke:#ff9793;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+    <use
+       transform="matrix(1,0,0,-1,0,526.72436)"
+       id="use3992"
+       x="0"
+       y="0"
+       width="373"
+       height="702"
+       xlink:href="#path3990" />
+  </g>
+  <g
+     transform="translate(-3.1233766,702.97548)"
+     id="g3209">
+    <rect
+       width="230"
+       height="130"
+       x="70"
+       y="42"
+       id="rect2827"
+       style="fill:#ffcc00;fill-opacity:1;fill-rule:nonzero;stroke:#161411;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="M 310,182 C 195,182 195,162 80,162 C 80,102 60,97 60,32 C 175,32 175,52 290,52 C 290,112 310,122 310,182 z"
+       id="path2829"
+       style="fill:#ffff99;fill-opacity:1;fill-rule:nonzero;stroke:#161411;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;marker:none;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="M 155,135.75 L 155,143.25 L 185,143.25 L 185,148.5 L 215,139.5 L 185,130.5 L 185,135.75 L 155,135.75 z"
+       id="path3972a"
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+    <use
+       transform="matrix(-1,0,0,1,370,-65)"
+       id="use3064"
+       x="0"
+       y="0"
+       width="373"
+       height="702"
+       xlink:href="#path3972a" />
+    <use
+       transform="matrix(0,-1,1,0,-39.166672,284)"
+       id="use3066"
+       x="0"
+       y="0"
+       width="373"
+       height="702"
+       xlink:href="#path3972a" />
+    <use
+       transform="matrix(0,1,-1,0,409.16666,-70)"
+       id="use3068"
+       x="0"
+       y="0"
+       width="373"
+       height="702"
+       xlink:href="#path3972a" />
+  </g>
+  <g
+     transform="translate(-115,875.22078)"
+     id="g3217">
+    <path
+       d="M 434,124.86218 L 427,124.86218 L 437,149.86218 L 447,124.86218 L 440,124.86218 L 440,109.86218 L 447,109.86218 L 437,84.862181 L 427,109.86218 L 434,109.86218 L 434,124.86218 z"
+       id="path3159"
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+    <path
+       d="M 180,132.36218 L 410,132.36218 L 410,122.36218 L 270,122.36218 L 270,112.36218 L 410,112.36218 L 410,102.36218 L 180,102.36218 L 180,132.36218 z"
+       id="path3121"
+       style="fill:#ffcc00;fill-opacity:1;fill-rule:nonzero;stroke:#161411;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="M 270,112.36218 C 270,112.36218 345,112.36218 410,102.36218 L 410,92.362183 C 345,102.36218 270,102.36218 270,102.36218 L 270,112.36218 z"
+       id="path3140"
+       style="fill:#ffff99;fill-opacity:1;fill-rule:nonzero;stroke:#161411;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;marker:none;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <use
+       transform="matrix(1,0,0,-1,0,234.72436)"
+       id="use3159"
+       x="0"
+       y="0"
+       width="744.09448"
+       height="1052.3622"
+       xlink:href="#path3140" />
+  </g>
+  <switch>
+    <text
+         x="50"
+         y="190"
+         style="font-size:24px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial"
+         systemLanguage="de">Längsschwinger</text>
+    <text
+         x="50"
+         y="190"
+         style="font-size:24px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial"
+         systemLanguage="en">Longitudinal mode</text>
+    <text
+         x="50"
+         y="190"
+         style="font-size:24px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial"
+         systemLanguage="cs">podélné kmity</text>
+  </switch>
+  <switch>
+    <text
+         x="50"
+         y="440"
+         style="font-size:24px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial"
+         systemLanguage="de">Dickenschwinger</text>
+    <text
+         x="50"
+         y="440"
+         style="font-size:24px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial"
+         systemLanguage="en">Thickness shear mode</text>
+    <text
+         x="50"
+         y="440"
+         style="font-size:24px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial"
+         systemLanguage="cs">střižné kmity</text>
+  </switch>
+  <switch>
+    <text
+         x="50"
+         y="700"
+         style="font-size:24px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial"
+         systemLanguage="de">Biegeschwinger</text>
+    <text
+         x="50"
+         y="700"
+         style="font-size:24px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial"
+         systemLanguage="en">Flexural mode</text>
+    <text
+         x="50"
+         y="700"
+         style="font-size:24px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial"
+         systemLanguage="cs">ohybové kmity</text>
+  </switch>
+  <switch>
+    <text
+         x="50"
+         y="920"
+         style="font-size:24px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial"
+         systemLanguage="de">Scherschwinger</text>
+    <text
+         x="50"
+         y="920"
+         style="font-size:24px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial"
+         systemLanguage="en">Face shear mode</text>
+    <text
+         x="50"
+         y="920"
+         style="font-size:24px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial"
+         systemLanguage="cs">face shear kmity</text>
+  </switch>
+  <switch>
+    <text
+         x="50"
+         y="1060"
+         style="font-size:24px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial"
+         systemLanguage="de">Stimmgabel</text>
+    <text
+         x="50"
+         y="1060"
+         style="font-size:24px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial"
+         systemLanguage="en">Tuning fork</text>
+    <text
+         x="50"
+         y="1060"
+         style="font-size:24px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial"
+         systemLanguage="cs">tuning fork kmity</text>
+  </switch>
+</svg>
