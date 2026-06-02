@@ -7550,27 +7550,30 @@ Let's start with two observations:</p>
 <li>Charges do not pass the gap between the plates of the capacitor.</li>
 <li>During (dis)charing, the current in the wire generates a magnetic field</li>
 </ol>
-<p>Imagine the surface used to evaluate Ampère’s law is not a circle but a open bag, like a garbage bag.
-We "pull" the bag over one plate of the capacitor and up to the wire without closing the bag.
-Thus, the bag, a.k.a. surface "senses" a magnetic field, i.e. $\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} \neq 0$, but there is no current flowing through our surface because we do not cross the wire and inside the capacitor gap no current is flowing.
-Since the (dis)charging means the electric field changes, Maxwell proposed that the change in electric field induces a magnetic field.
+<p>Imagine that the closed loop used in Ampère’s law is the rim of an open surface, like the rim of a garbage bag.
+The surface itself can be shaped in different ways, as long as it has the same boundary loop.
+We "pull" the bag over one plate of the capacitor and up to the wire without closing the bag.</p>
+<p>Thus, the boundary loop of the bag surface has a non-zero magnetic circulation, i.e. $\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} \neq 0$, but there is no current flowing through our surface because we do not cross the wire and inside the capacitor gap no current is flowing.
+Since charging or discharging means that the electric field between the plates changes, Maxwell proposed that a changing electric flux contributes to the magnetic field in the same way as a current.
 Further, this change in electric field is represented by the (somewhat misleadingly named) <em>displacement current</em> $I_D$.
 There is no actual flow of charges, it is only the equivalent produced by the change in electric field.
 For further differentiation, conventional flow of charges is called <em>conduction current</em>.</p>
 <p>Let's describe the displacement current mathematically, by assuming we have a changing electric field inside a capacitor.
 First, we combine three equations which we already know to describe charge $Q$, capacitance $C$, and voltage $V$ in presence of an uniform electrical field $E$ in between the capacitor's plates with distance $d$:
 $$ Q = C V = (\epsilon_0 \frac{A}{d} ) (E d) = \epsilon_0 A E $$</p>
-<p>The current of the (dis)charging capacitor can be described as:
+<p>The current of the charging or discharging capacitor can be described as:
 $$ I = \frac{d Q}{dt} = \epsilon_0 A  \frac{dE}{dt} = \epsilon_0 \frac{d\Phi_E}{dt} $$
-with the electric flux $\Phi_E = A E$ through the surface (our "garbage bag").
-Hence, this current through the garbage bag, which is actually just a changing electric flux over time, is our displacement current:
-$$ I_D = \epsilon_0 \frac{\Phi_E}{dt} $$</p>
+with the electric flux $\Phi_E = A E$ through the part of the chosen surface that lies between the capacitor plates.
+Hence, the quantity that replaces the missing conduction current through the capacitor gap is the displacement current:
+$$ I_D = \epsilon_0 \frac{d \Phi_E}{dt} $$
+It is not a real flow of charge through the gap, but it has the same magnetic effect as a conduction current.</p>
 <p>Now we combine provide Maxwell's correction, i.e. the contribution due to displacement currents, to Ampère's law:
-$$\oint \vec{B} \cdot d\vec{L} = \mu_0 I_{\text{enc}} + \mu_0 \epsilon_0 \frac{d\Phi_E}{dt} $$</p>
+$$\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = \mu_0 I_{\text{enc}} + \mu_0 \epsilon_0 \frac{d\Phi_E}{dt} $$</p>
 <p>Note that, the addition of the displacement current is the basis for electromagnetic waves (see later section) as it shows that electric fields can generate magnetic fields.</p>
-<h4 id="Magnetic-Field-Outside-the-Plates">Magnetic Field Outside the Plates<a class="anchor-link" href="#Magnetic-Field-Outside-the-Plates">¶</a></h4><p>Outside the plates, the field satisfies the equation:
-$$B = \frac{\mu_0 I}{2\pi r}$$</p>
-<p>which matches the field of a current-carrying wire, showing that the displacement current generates the same magnetic field as a conduction current.</p>
+<p><strong>Magnetic field around the wire</strong></p>
+<p>For a circular Ampèrian loop around a long straight wire carrying current $I$, the magnetic field is</p>
+<p>$$B = \frac{\mu_0 I}{2\pi r}$$</p>
+<p>The same result is obtained for the displacement current between the capacitor plates if the loop encloses the full changing electric flux. Thus, in Ampère-Maxwell’s law, the displacement current contributes to the magnetic circulation in the same way as a conduction current.</p>
 </div>
 </div>
 </div>
@@ -7627,6 +7630,15 @@ This describes how a changing magnetic field induces an electric field, which is
 <h3 id="Amp%C3%A8re's-law-with-Maxwell-correction:">Ampère's law with Maxwell correction:<a class="anchor-link" href="#Amp%C3%A8re's-law-with-Maxwell-correction:">¶</a></h3><p>$$\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = \mu_0 I_{\text{enc}} + \mu_0 \epsilon_0 \frac{d\Phi_E}{dt} $$
 This states that an electric current and/or a changing electric field generates a magnetic field.</p>
 <p><small><code>Note: We take the integral around a closed path.</code></small></p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Summary">Summary<a class="anchor-link" href="#Summary">¶</a></h3><p>We can express Maxwell's equations in integral or differential form.
 In the following table, the suffix "enc"/enclosed was dropped for simplicity:</p>
 <table>
@@ -7661,6 +7673,15 @@ In the following table, the suffix "enc"/enclosed was dropped for simplicity:</p
 </tbody>
 </table>
 <p>with $\vec{\nabla} = \hat{\bf{i}} \frac{\delta}{\delta x} + \hat{\bf{j}} \frac{\delta}{\delta y} + \hat{\bf{k}} \frac{\delta}{\delta z}$, $\rho$ as the total volume charge density, and $\vec{\bf{j}}$ as the current density.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Significance-of-Maxwell's-Equations">Significance of Maxwell's Equations<a class="anchor-link" href="#Significance-of-Maxwell's-Equations">¶</a></h3><p>Maxwell's Equations are much more than just a set of equations describing electricity and magnetism.
 Their significance is profound and far-reaching:</p>
 <ol>
@@ -7694,7 +7715,7 @@ The fact that the speed of light is constant for all observers, a postulate of s
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="2.8.4.-Electromagnetic-Waves">2.8.4. Electromagnetic Waves<a class="anchor-link" href="#2.8.4.-Electromagnetic-Waves">¶</a></h2><p>For simplicity, we assume empty space, thus, no charges are present.
-Nevertheless, a changing electric field (due to the concept of the displacement current) would produce and changing magnetic field, which again would produce a changing electric field.
+Nevertheless, a changing electric field (due to the concept of the displacement current) would produce a changing magnetic field, which again would produce a changing electric field.
 Hence, the fields interact with each other and in doing so would propagate through space even without any matter being present.
 This gives rise to <em>electromagnetic (EM) waves</em> which were proposed by Maxwell and later experimentally proven by Hertz.</p>
 <h3 id="Basic-concept-&amp;-generation">Basic concept &amp; generation<a class="anchor-link" href="#Basic-concept-&amp;-generation">¶</a></h3><p>Consider two conducting rods that will serve as an "antenna" and are connected to the opposite terminals of a battery.

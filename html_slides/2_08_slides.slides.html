@@ -7504,7 +7504,7 @@ $$\oint \vec{\bf{E}} \cdot d\vec{\bf{l}} = -\frac{d\Phi_B}{dt}$$</li>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Maxwell's-correction-of-Amp%C3%A8re's-law:-The-need-for-displacement-current">Maxwell's correction of Ampère's law: The need for displacement current<a class="anchor-link" href="#Maxwell's-correction-of-Amp%C3%A8re's-law:-The-need-for-displacement-current">¶</a></h2><ul>
 <li>Ampère's law: $\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = \mu_0 I_{\text{enc}}$<ul>
-<li>$\rightarrow$ <strong>magnetic field $\vec{\bf{B}}$ around a closed loop is proportional to enclosed current $I_{\text{enc}}$</strong></li>
+<li>$\rightarrow$ <strong>magnetic field $\vec{\bf{B}}$ around a closed loop is proportional to enclosed current $I_{\text{enc}}$ by the surface</strong></li>
 </ul>
 </li>
 <li>Maxwell realized there are <strong>scenarios where Ampère's law fails</strong>:<ul>
@@ -7642,14 +7642,57 @@ This states that an <strong>electric current and/or a changing electric field ge
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Summary">Summary<a class="anchor-link" href="#Summary">¶</a></h2><p>We can express Maxwell's equations in integral or differential form.
+In the following table, the suffix "enc"/enclosed was dropped for simplicity:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Equation Name</strong></th>
+<th><strong>Integral Form</strong></th>
+<th><strong>Differential Form</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gauss's law for electricity</td>
+<td>$\oint_{\partial S}  \vec{\bf{E}} \cdot d\vec{\bf{A}} = \frac{Q}{\epsilon_0}$</td>
+<td>$\vec{\nabla} \cdot \vec{\bf{E}} = \frac{\rho}{\epsilon_0}$</td>
+</tr>
+<tr>
+<td>Gauss's law for magnetism</td>
+<td>$\oint_{\partial S}  \vec{\bf{B}} \cdot d\vec{\bf{A}} = 0$</td>
+<td>$\vec{\nabla} \cdot \vec{\bf{B}} = 0$</td>
+</tr>
+<tr>
+<td>Faraday's law of induction</td>
+<td>$\oint \vec{\bf{E}} \cdot d\vec{\bf{l}} = -\frac{d\Phi_B}{dt}$</td>
+<td>$\vec{\nabla} \times \vec{\bf{E}} = -\frac{\partial \vec{\bf{B}}}{\partial t}$</td>
+</tr>
+<tr>
+<td>Ampère's law with Maxwell's correction</td>
+<td>$\oint \vec{\bf{B}} \cdot d\vec{\bf{l}} = \mu_0 I + \mu_0 \epsilon_0 \frac{d\Phi_E}{dt}$</td>
+<td>$\vec{\nabla} \times \vec{\bf{B}} = \mu_0 \vec{\bf{j}} + \mu_0 \epsilon_0 \frac{\partial \vec{\bf{E}}}{\partial t}$</td>
+</tr>
+</tbody>
+</table>
+<p>with $\vec{\nabla} = \hat{\bf{i}} \frac{\delta}{\delta x} + \hat{\bf{j}} \frac{\delta}{\delta y} + \hat{\bf{k}} \frac{\delta}{\delta z}$, $\rho$ as the total volume charge density, and $\vec{\bf{j}}$ as the current density.</p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Significance-of-Maxwell's-equations">Significance of Maxwell's equations<a class="anchor-link" href="#Significance-of-Maxwell's-equations">¶</a></h2><ol>
 <li><p><strong>Unification of electricity and magnetism:</strong>  Electricity and magnetism are intrinsically linked</p>
 </li>
 <li><p><strong>Prediction of electromagnetic waves and light:</strong>  Predicted existence of electromagnetic waves that propagate at a speed calculated from $\epsilon_0$ and $\mu_0$ (speed of light). Light itself is an electromagnetic wave, i.e. unifying optics with electromagnetism.</p>
 </li>
-<li><p><strong>Foundation of Classical Electromagnetism:</strong> Maxwell's equations form the complete and consistent foundation of classical electromagnetism and describe all classical electromagnetic phenomena.</p>
+<li><p><strong>Foundation of classical electromagnetism:</strong> Maxwell's equations form the complete and consistent foundation of classical electromagnetism and describe all classical electromagnetic phenomena.</p>
 </li>
-<li><p><strong>Basis for Special Relativity:</strong>  While formulated within classical physics, Maxwell's equations played crucial role in development of Special Relativity, i.e. the fact that speed of light is constant for all observers.</p>
+<li><p><strong>Basis for special relativity:</strong>  While formulated within classical physics, Maxwell's equations played crucial role in development of special relativity, i.e. the fact that speed of light is constant for all observers.</p>
 </li>
 </ol>
 </div>
