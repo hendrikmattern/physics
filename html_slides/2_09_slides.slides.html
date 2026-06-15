@@ -7457,7 +7457,6 @@ main {
 <li>mirrors &amp; reflection</li>
 <li>real &amp; virtual images</li>
 </ul>
-<p><a href="https://lp.uni-goettingen.de/get/text/921">solution 1</a> &amp; <a href="https://wissenstexte.de/physik/zauber.htm">solution 2</a></p>
 </div>
 </div>
 </div>
@@ -7529,7 +7528,7 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Diffuse-vs.-specular-reflection">Diffuse vs. specular reflection<a class="anchor-link" href="#Diffuse-vs.-specular-reflection">¶</a></h2><p><code>sim - (bumpy) mirror</code></p>
 <ul>
-<li>eye perceives an image when reflected light rays enter the eye in a converging (or nearly parallel) pattern</li>
+<li>our brains are used to interpreting <strong>diverging rays entering the eye</strong> as coming from an object point or image point.</li>
 <li><strong>specular reflection</strong>: occurs on smooth surfaces; parallel incident rays remain parallel after reflection.</li>
 <li><strong>diffuse reflection</strong>: occurs on rough surfaces; parallel rays are reflected in many directions due to surface irregularities</li>
 <li>"eye see's" specular reflections only from specific viewing angles; diffuse reflections are visible from most directions</li>
@@ -7547,9 +7546,9 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Image-formation-at-plane-mirrors:-Every-day-observations">Image formation at plane mirrors: Every-day observations<a class="anchor-link" href="#Image-formation-at-plane-mirrors:-Every-day-observations">¶</a></h3><ul>
 <li>although the <strong>object is in front of the mirror</strong>, the <strong>brain perceives</strong> its <strong>image as behind the mirror</strong></li>
-<li><strong>left and right flipped but not up and down</strong></li>
 <li>the object distance $d_o$ (measured perpendicular to the mirror) equals the image distance $d_i$</li>
 <li>the object's height $h_o$ equals the image's height $h_i$</li>
+<li><strong>left and right flipped but not up and down!</strong> <strong>why?</strong></li>
 </ul>
 </div>
 </div>
@@ -7565,6 +7564,7 @@ main {
 <li>an object in front of a plane mirror produces two rays per point that obey the law $\theta_i = \theta_r$</li>
 <li>image reconstruction is achieved by extending the reflected rays behind the mirror</li>
 <li>images that cannot be projected (because the rays do not actually intersect) are called virtual images</li>
+<li><strong>FYI</strong> mirror flips front-back, not left-right; the left-right reversal is only our interpretation when we mentally rotate ourselves into the mirror image</li>
 </ul>
 <p><img alt="PlaneMirror" src="../img/from_wiki/Plane_mirror.svg.png" width="300"/></p>
 <p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Plane_mirror.svg">wikipedia</a>, public domain</sub></em></p>
@@ -7580,8 +7580,8 @@ main {
 <h3 id="Curved-mirrors">Curved mirrors<a class="anchor-link" href="#Curved-mirrors">¶</a></h3><p><code>os01 - Haftoptik: bendable mirror</code></p>
 <ul>
 <li>curved mirrors are typically spherical and can be:<ul>
-<li><strong>convex</strong> – surface bulges toward the viewer; extends the field of view</li>
-<li><strong>concave</strong> – surface bulges inward; used for magnifying images</li>
+<li><strong>convex</strong> – surface bulges toward the viewer</li>
+<li><strong>concave</strong> – surface bulges inward</li>
 </ul>
 </li>
 <li>the <strong>principal axis</strong> is the straight line perpendicular to the mirror at its center</li>
@@ -7714,13 +7714,15 @@ main {
 </table>
 <ul>
 <li><strong>real image:</strong><ul>
-<li>formed where reflected rays converge (on opposite side of mirror surface)</li>
+<li>formed where reflected rays converge</li>
 <li>can be projected onto a screen</li>
+<li>inverted: image &amp; object lie on opposite sides of the principal axis</li>
 </ul>
 </li>
 <li><strong>virtual image:</strong><ul>
 <li>formed where rays appear to diverge from</li>
 <li>located behind the mirror (same side as object); cannot be projected</li>
+<li>upright: image &amp; object lie on the same side of the principal axis</li>
 </ul>
 </li>
 </ul>
@@ -7735,7 +7737,11 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Image-formation-at-curved-mirrors:-Equations">Image formation at curved mirrors: Equations<a class="anchor-link" href="#Image-formation-at-curved-mirrors:-Equations">¶</a></h3><ul>
 <li><strong>mirror equation</strong>:<br/>
-$$\frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{f}$$</li>
+$$\frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{f}$$<ul>
+<li>for $d_o = \infty \; \rightarrow \; d_i = f$ (focal point def.)</li>
+<li>for $r = \infty \; \rightarrow \; f = \infty \; \rightarrow \; d_i = d_o$ (plane mirror)</li>
+</ul>
+</li>
 <li><strong>lateral magnification</strong> is given by:<br/>
 $$m = \frac{h_i}{h_o} = -\frac{d_i}{d_o}$$<ul>
 <li>$h_o$ positive by convention; $h_i &gt; 0$ for upright image; $h_i &lt; 0$ for inverted images</li>
@@ -7820,7 +7826,7 @@ $$n=\frac{c}{v}$$</li>
 <h2 id="Refraction:-Mirage">Refraction: Mirage<a class="anchor-link" href="#Refraction:-Mirage">¶</a></h2><ul>
 <li>temperature gradient causes a gradient in refraction index</li>
 <li>light is bend onto a curved path</li>
-<li>rays going straight and as well as tangent extensions of bend rays form mirage</li>
+<li>rays going straight &amp; tangent extensions of bend rays form mirage</li>
 </ul>
 <p><img alt="Mirage" src="../img/from_wiki/Mirage-diagram.svg.png" width="400"/></p>
 <p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Mirage-diagram.svg">wikipedia</a> under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC Attribution-ShareAlike 4.0 International</a></sub></em></p>
@@ -7901,10 +7907,28 @@ $$n=\frac{c}{v}$$</li>
 <li>the index of refraction $n$ depends on the wavelength $\lambda$ of light</li>
 <li>the frequency $f$ remains constant across media</li>
 <li>in a medium, the wavelength is given by:<br/>
-$$\lambda_n=\frac{v}{f}=\frac{c}{nf}$$</li>
+$$ \lambda_n=\frac{v}{f}=\frac{c}{nf}$$</li>
 </ul>
 <p><img alt="PrismDispersion" src="../img/from_wiki/Light_dispersion_conceptual_waves.gif" width="300"/></p>
 <p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Light_dispersion_conceptual_waves.gif">wikipedia</a>, public domain</sub></em></p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
+<h2 id="Revisit-initial-experiment">Revisit initial experiment<a class="anchor-link" href="#Revisit-initial-experiment">¶</a></h2><p><code>os21 - magic mirror</code></p>
+<p><strong>How does this set-up work?</strong></p>
+<ul>
+<li>ray model</li>
+<li>mirrors &amp; reflection</li>
+<li>real &amp; virtual images</li>
+</ul>
+<p><a href="https://lp.uni-goettingen.de/get/text/921">solution 1</a> &amp; <a href="https://wissenstexte.de/physik/zauber.htm">solution 2</a></p>
 </div>
 </div>
 </div>
