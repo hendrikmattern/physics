@@ -1,4 +1,5 @@
 # hm: VSCode workspace
+.vscode/
 *.code-workspace
 .hm_local/ 
 

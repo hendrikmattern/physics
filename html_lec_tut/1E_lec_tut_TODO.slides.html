@@ -5,7 +5,7 @@
 <meta content="chrome=1" http-equiv="X-UA-Compatible"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
-<title>1F_lec_tut slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
+<title>1E_lec_tut_TODO slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
   import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
@@ -7441,15 +7441,7 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <img align="right" alt="OVGU_FNW_Logo" src="../img/Signet_FNW_1.svg" width="300"/>
-<h1 id="Lecture-Tutorial-1F:-Fourier-Analysis">Lecture Tutorial 1F: Fourier Analysis<a class="anchor-link" href="#Lecture-Tutorial-1F:-Fourier-Analysis">¶</a></h1><ul>
-<li><strong>Complex numbers</strong> &amp; revisiting <strong>oscillations</strong></li>
-<li><strong>Fourier series</strong>: From <strong>single frequencies</strong> to <strong>many frequencies</strong></li>
-<li><strong>Fourier transform</strong>: analyzing non-periodic signals</li>
-<li><strong>Examples &amp; applications</strong>: Why the <strong>frequency domain</strong> is to powerful</li>
-</ul>
-<p>$\Rightarrow$ Please download the <a href="https://phyphox.org/"><strong>phyphox app</strong></a> for some live demos</p>
-<p><img alt="Fourier_transform_time_and_frequency_domains_small.gif" src="../img/from_wiki/Fourier_transform_time_and_frequency_domains_small.gif" width="300"/></p>
-<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Fourier_transform_time_and_frequency_domains_(small">wikipedia</a>.gif), public domain</sub></em></p>
+<h1 id="Lecture-Tutorial-1E:-TBA">Lecture Tutorial 1E: TBA<a class="anchor-link" href="#Lecture-Tutorial-1E:-TBA">¶</a></h1>
 </div>
 </div>
 </div>
@@ -7459,19 +7451,9 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Reminder:-Polar-Coordinates">Reminder: Polar Coordinates<a class="anchor-link" href="#Reminder:-Polar-Coordinates">¶</a></h2><ul>
-<li>Represent point by $(r,\theta)$ instead of $(x,y)$.</li>
-<li>Conversion:<ul>
-<li>$x=r\cos\theta, \quad y=r\sin\theta$</li>
-</ul>
-</li>
-<li>Inverse:<ul>
-<li>$r=\sqrt{x^2+y^2}$, $\theta=\arctan(y/x)$</li>
-</ul>
-</li>
-</ul>
-<p><img alt="Polar_to_cartesian.svg" src="../img/from_wiki/Polar_to_cartesian.svg" width="250"/></p>
-<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Polar_to_cartesian.svg">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/3.0/deed.en">Attribution-Share Alike 3.0 Unported</a></sub></em></p>
+<h2 id="tba">tba<a class="anchor-link" href="#tba">¶</a></h2><p>5 11. Static Equilibrium, elasticity, and fracture; elasticity: stress/strain
+--&gt; +  windturbine? mehr fluid experimente?</p>
+<p>Bonus: (how to do) science / good scientific practice  -&gt; sicience as a pizza receipt (scientific writing)</p>
 </div>
 </div>
 </div>
@@ -7481,19 +7463,152 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Complex-Numbers-%E2%80%94-A-Geometric-View">Complex Numbers — A Geometric View<a class="anchor-link" href="#Complex-Numbers-%E2%80%94-A-Geometric-View">¶</a></h2><ul>
-<li>A complex number is <strong>not mysterious</strong>: it is a 2D quantity:<br/>
+<h2 id="12.1.-The-Conditions-for-Equilibrium">12.1. The Conditions for Equilibrium<a class="anchor-link" href="#12.1.-The-Conditions-for-Equilibrium">¶</a></h2><p>In mechanics, many real-world systems — from bridges and buildings to human limbs — remain motionless even though multiple forces act on them.<br/>
+Such systems are said to be in <strong>equilibrium</strong>, a state where the combined effects of all external forces and torques produce no motion.</p>
+<p>Understanding equilibrium is essential for analyzing stationary structures and mechanical systems in static balance.</p>
+<hr/>
+<h3 id="Definition-of-Equilibrium">Definition of Equilibrium<a class="anchor-link" href="#Definition-of-Equilibrium">¶</a></h3><p>A body is in <strong>equilibrium</strong> when both its <strong>translational</strong> and <strong>rotational</strong> motions are absent or constant.<br/>
+That is, there is no linear acceleration and no angular acceleration.</p>
+<p>Thus, equilibrium implies both:</p>
+<ol>
+<li><p><strong>Translational equilibrium</strong><br/>
+The vector sum of all external forces acting on the body is zero:
 $$
-z = x + iy, \qquad i^2 = -1
-$$</li>
-<li>Can be viewed as a <strong>vector in a plane</strong> with <strong>real part</strong> $x$ on horizontal axis &amp; <strong>imaginary part</strong> $y$ on vertical axis</li>
-<li>Length (magnitude) &amp; direction (phase)
+\sum \vec{F} = 0.
+$$</p>
+</li>
+<li><p><strong>Rotational equilibrium</strong><br/>
+The vector sum of all external torques about any axis is zero:
 $$
-|z| = \sqrt{x^2 + y^2}  \qquad \varphi = \tan^{-1}\!\left(\frac{y}{x}\right)
-$$</li>
+\sum \vec{\tau} = 0.
+$$</p>
+</li>
+</ol>
+<p>When these two conditions are simultaneously satisfied, the object is in complete mechanical equilibrium.</p>
+<hr/>
+<h3 id="Static-Equilibrium">Static Equilibrium<a class="anchor-link" href="#Static-Equilibrium">¶</a></h3><p>If, in addition, the object is <strong>at rest</strong> (not moving at constant velocity), the equilibrium is called <strong>static equilibrium</strong>.</p>
+<p>Examples include:</p>
+<ul>
+<li>A ladder leaning against a wall,</li>
+<li>A bridge supporting its own weight,</li>
+<li>A person standing still.</li>
 </ul>
-<p><img alt="Imaginarynumber2.svg" src="../img/from_wiki/Imaginarynumber2.svg" width="275"/></p>
-<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Imaginarynumber2.svg">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a></sub></em></p>
+<hr/>
+<h3 id="Translational-Equilibrium-in-Components">Translational Equilibrium in Components<a class="anchor-link" href="#Translational-Equilibrium-in-Components">¶</a></h3><p>The condition $\sum \vec{F} = 0$ means that the net force must vanish in every coordinate direction:</p>
+<p>$$
+\sum F_x = 0, \quad \sum F_y = 0, \quad \sum F_z = 0.
+$$</p>
+<p>For planar (two-dimensional) problems, the $z$-component is zero by definition, leaving two scalar equations.</p>
+<hr/>
+<h3 id="Rotational-Equilibrium-in-Components">Rotational Equilibrium in Components<a class="anchor-link" href="#Rotational-Equilibrium-in-Components">¶</a></h3><p>The second equilibrium condition, $\sum \vec{\tau} = 0$, ensures no net angular acceleration.<br/>
+Torque about a point or axis is defined as:</p>
+<p>$$
+\vec{\tau} = \vec{r} \times \vec{F},
+$$</p>
+<p>with magnitude:</p>
+<p>$$
+\tau = r F \sin\theta,
+$$</p>
+<p>where $\theta$ is the angle between $\vec{r}$ (the position vector from the axis) and $\vec{F}$.</p>
+<p>The rotational equilibrium condition means:</p>
+<p>$$
+\sum \tau = 0,
+$$</p>
+<p>which must hold for any axis chosen.</p>
+<hr/>
+<h3 id="Choice-of-Axis">Choice of Axis<a class="anchor-link" href="#Choice-of-Axis">¶</a></h3><p>The torque equilibrium equation is true for <strong>any</strong> axis, but it is often convenient to choose one that simplifies the calculation — for example, through a point where an unknown force acts, so that its torque contribution is zero.</p>
+<hr/>
+<h3 id="Example-12.1.-Equilibrium-of-a-Beam-Supported-by-a-Cable">Example 12.1. Equilibrium of a Beam Supported by a Cable<a class="anchor-link" href="#Example-12.1.-Equilibrium-of-a-Beam-Supported-by-a-Cable">¶</a></h3><p>A uniform horizontal beam of weight $W_b = 200~\text{N}$ and length $L = 4.0~\text{m}$ is hinged to a wall at one end and supported by a cable making an angle $\theta = 30°$ with the beam.<br/>
+Find the tension in the cable and the horizontal and vertical components of the hinge force.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p><strong>Step 1. Identify forces</strong></p>
+<ul>
+<li>Weight of the beam acts downward at its center ($L/2$).</li>
+<li>Tension $T$ acts upward and to the left at the beam’s end.</li>
+<li>Hinge exerts reaction forces $H_x$ and $H_y$.</li>
+</ul>
+<p><strong>Step 2. Torque equilibrium</strong></p>
+<p>Take torques about the hinge:</p>
+<p>$$
+\sum \tau = 0 \Rightarrow T\sin\theta(L) - W_b(L/2) = 0.
+$$</p>
+<p>Solve for $T$:</p>
+<p>$$
+T = \frac{W_b/2}{\sin\theta} = \frac{200/2}{\sin30°} = \frac{100}{0.5} = 200~\text{N}.
+$$</p>
+<p><strong>Step 3. Force equilibrium</strong></p>
+<p>Horizontal:
+$$
+\sum F_x = 0 \Rightarrow H_x - T\cos\theta = 0 \Rightarrow H_x = T\cos30° = 200(0.866) = 173~\text{N}.
+$$</p>
+<p>Vertical:
+$$
+\sum F_y = 0 \Rightarrow H_y + T\sin\theta - W_b = 0.
+$$</p>
+<p>$$
+H_y = W_b - T\sin30° = 200 - 200(0.5) = 100~\text{N}.
+$$</p>
+<p><strong>Results:</strong></p>
+<ul>
+<li>$T = 200~\text{N}$</li>
+<li>$H_x = 173~\text{N}$</li>
+<li>$H_y = 100~\text{N}$</li>
+</ul>
+<hr/>
+<h3 id="Example-12.2.-Two-Force-Member">Example 12.2. Two-Force Member<a class="anchor-link" href="#Example-12.2.-Two-Force-Member">¶</a></h3><p>A light bar is pinned at both ends with equal and opposite forces $F$.<br/>
+Show that the forces must act along the line of the bar.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>For equilibrium:</p>
+<ul>
+<li>$\sum \vec{F} = 0$ requires the two forces be equal and opposite.</li>
+<li>$\sum \vec{\tau} = 0$ can only hold if the forces produce <strong>no torque</strong>, which occurs only when their lines of action are <strong>collinear</strong> with the bar.</li>
+</ul>
+<p>Therefore, any <strong>two-force member</strong> (a rigid body acted on by only two forces) must have those forces <strong>equal, opposite, and collinear</strong>.</p>
+<hr/>
+<h3 id="Example-12.3.-Ladder-Against-a-Wall">Example 12.3. Ladder Against a Wall<a class="anchor-link" href="#Example-12.3.-Ladder-Against-a-Wall">¶</a></h3><p>A uniform ladder of length $L = 6.0~\text{m}$ and weight $W = 180~\text{N}$ rests against a smooth wall at an angle $\theta = 53°$ with the floor.<br/>
+The floor is rough enough to prevent slipping.<br/>
+Find the forces on the ladder.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>Forces:</p>
+<ul>
+<li>Weight $W$ acts at the midpoint downward.</li>
+<li>Normal force from wall $N_w$ acts horizontally.</li>
+<li>Normal force from floor $N_f$ acts vertically.</li>
+<li>Friction $f$ acts horizontally at the base.</li>
+</ul>
+<p><strong>Torque equilibrium about the base:</strong>
+$$
+N_w(L)\sin\theta - W(L/2)\cos\theta = 0.
+$$
+$$
+N_w = \frac{W}{2}\cot\theta = \frac{180}{2}\cot53° = 90(0.75) = 67.5~\text{N}.
+$$</p>
+<p><strong>Horizontal equilibrium:</strong>
+$$
+f = N_w = 67.5~\text{N}.
+$$</p>
+<p><strong>Vertical equilibrium:</strong>
+$$
+N_f = W = 180~\text{N}.
+$$</p>
+<p>Hence, the floor exerts a vertical normal force of <strong>180 N</strong> and a horizontal friction force of <strong>67.5 N</strong> to prevent slipping.</p>
+<hr/>
+<h3 id="General-Strategy-for-Equilibrium-Problems">General Strategy for Equilibrium Problems<a class="anchor-link" href="#General-Strategy-for-Equilibrium-Problems">¶</a></h3><ol>
+<li><strong>Draw a free-body diagram (FBD)</strong> showing all external forces.</li>
+<li><strong>Choose a convenient coordinate system.</strong></li>
+<li><strong>Apply the equilibrium conditions:</strong>
+$$
+\sum F_x = 0, \quad \sum F_y = 0, \quad \sum \tau = 0.
+$$</li>
+<li><strong>Choose the axis</strong> to simplify torque calculations (preferably through unknown forces).</li>
+<li><strong>Solve the resulting equations</strong> for the unknown quantities.</li>
+</ol>
+<hr/>
+<h3 id="Conceptual-Notes">Conceptual Notes<a class="anchor-link" href="#Conceptual-Notes">¶</a></h3><ul>
+<li>Both translational and rotational equilibrium must hold simultaneously.</li>
+<li>Torques depend on the <strong>choice of reference point</strong>, but if $\sum \vec{F} = 0$, $\sum \tau = 0$ about one point implies it is zero about all points.</li>
+<li>In static systems, static friction often prevents motion but does <strong>no work</strong> if there is no slipping.</li>
+<li>The ability to choose the pivot point freely is a powerful simplification tool in statics.</li>
+</ul>
+<hr/>
+<p>In the next section, we will develop systematic procedures for <strong>solving statics problems</strong>, applying these equilibrium conditions to a wide variety of mechanical systems.</p>
 </div>
 </div>
 </div>
@@ -7503,28 +7618,161 @@ $$</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Complex-numbers-%E2%80%93-Polar-form">Complex numbers – Polar form<a class="anchor-link" href="#Complex-numbers-%E2%80%93-Polar-form">¶</a></h2><ul>
-<li>Using Euler’s formula $e^{i\theta} = \cos\theta + i\sin\theta$:</li>
-</ul>
-<p>$$z = x + iy \quad \Leftrightarrow \quad z=r(\cos\theta+i\sin\theta)=re^{i\theta}$$</p>
-<p>$\Rightarrow$ $e^{i\theta}$ = <strong>point at angle $\theta$ on the unit circle</strong></p>
-<ul>
-<li><p>Definitions of cosine and sine via complex exponentials:
+<h2 id="12.2.-Solving-Statics-Problems">12.2. Solving Statics Problems<a class="anchor-link" href="#12.2.-Solving-Statics-Problems">¶</a></h2><p>Statics problems involve determining unknown forces, torques, or reactions that keep an object in equilibrium.<br/>
+Such analyses are fundamental in engineering, biomechanics, and architecture, where loads must be supported without motion or failure.</p>
+<p>This section presents a systematic procedure for solving equilibrium problems efficiently and accurately.</p>
+<hr/>
+<h3 id="The-Two-Equilibrium-Conditions">The Two Equilibrium Conditions<a class="anchor-link" href="#The-Two-Equilibrium-Conditions">¶</a></h3><p>A rigid body is in <strong>equilibrium</strong> when both conditions are satisfied:</p>
+<ol>
+<li><p><strong>Translational equilibrium</strong>
 $$
-\cos\theta = \frac{e^{i\theta}+e^{-i\theta}}{2},
-\qquad
-\sin\theta = \frac{e^{i\theta}-e^{-i\theta}}{2i}
+\sum \vec{F} = 0.
 $$</p>
+<p>This means there is no net linear acceleration — the center of mass is at rest or moves at constant velocity.</p>
 </li>
-<li><p>Essential for SHM, damping, resonance, waves, AC circuits, ...</p>
+<li><p><strong>Rotational equilibrium</strong>
+$$
+\sum \vec{\tau} = 0.
+$$</p>
+<p>There is no net torque; the object does not begin to rotate or change its rotational speed.</p>
 </li>
+</ol>
+<p>For planar systems, we typically resolve forces into two components ($x$ and $y$) and write one torque equation, giving three independent scalar equations.</p>
+<hr/>
+<h3 id="Step-by-Step-Procedure">Step-by-Step Procedure<a class="anchor-link" href="#Step-by-Step-Procedure">¶</a></h3><h4 id="Step-1.-Identify-the-Object-in-Equilibrium">Step 1. Identify the Object in Equilibrium<a class="anchor-link" href="#Step-1.-Identify-the-Object-in-Equilibrium">¶</a></h4><p>Determine which object or subsystem is to be analyzed.<br/>
+If the problem involves several connected parts, isolate one part at a time for analysis.</p>
+<h4 id="Step-2.-Draw-the-Free-Body-Diagram-(FBD)">Step 2. Draw the Free-Body Diagram (FBD)<a class="anchor-link" href="#Step-2.-Draw-the-Free-Body-Diagram-(FBD)">¶</a></h4><p>Draw the object and show <strong>all external forces</strong> acting on it, including:</p>
+<ul>
+<li>Weights,</li>
+<li>Tensions,</li>
+<li>Normal forces,</li>
+<li>Friction forces,</li>
+<li>Reaction forces at supports or hinges.</li>
 </ul>
-<p><img alt="Eulers_formula.svg" src="../img/from_wiki/Eulers_formula.svg" width="250"/>
-<img alt="Sine_Cosine_Exponential_qtl1.svg" src="../img/from_wiki/Sine_Cosine_Exponential_qtl1.svg" width="250"/>
-<img alt="Eulers_formula_proof.gif" src="../img/from_wiki/Eulers_formula_proof.gif" width="300"/></p>
-<p><em><sub>[left] from <a href="https://en.wikipedia.org/wiki/File:Euler%27s_formula.svg">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/3.0/deed.en">Attribution-Share Alike 3.0 Unported</a>
-[middle] from <a href="https://de.wikipedia.org/wiki/Datei:Sine_Cosine_Exponential_qtl1.svg">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/3.0/deed.de">Attribution-Share Alike 3.0 Unported</a>
-[right] from <a href="https://de.wikipedia.org/wiki/Datei:Euler%27s_formula_proof.gif">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/4.0/deed.de">Attribution-Share Alike 4.0 International</a></sub></em></p>
+<p>Internal forces between connected parts are omitted in each FBD because they cancel pairwise when analyzing the full system.</p>
+<h4 id="Step-3.-Choose-a-Convenient-Coordinate-System">Step 3. Choose a Convenient Coordinate System<a class="anchor-link" href="#Step-3.-Choose-a-Convenient-Coordinate-System">¶</a></h4><p>Align axes with the directions of known forces (for example, horizontal and vertical).<br/>
+This minimizes the need for trigonometric components.</p>
+<h4 id="Step-4.-Choose-a-Convenient-Axis-for-Torques">Step 4. Choose a Convenient Axis for Torques<a class="anchor-link" href="#Step-4.-Choose-a-Convenient-Axis-for-Torques">¶</a></h4><p>Select a pivot point to simplify torque calculations.<br/>
+If possible, choose a point through which one or more unknown forces pass — their torques will be zero.</p>
+<h4 id="Step-5.-Write-Out-the-Equilibrium-Equations">Step 5. Write Out the Equilibrium Equations<a class="anchor-link" href="#Step-5.-Write-Out-the-Equilibrium-Equations">¶</a></h4><p>Use the scalar forms:
+$$
+\sum F_x = 0, \quad \sum F_y = 0, \quad \sum \tau = 0.
+$$</p>
+<p>Include signs carefully:</p>
+<ul>
+<li>Forces to the right or upward are positive.</li>
+<li>Counterclockwise torques are positive (by convention).</li>
+</ul>
+<h4 id="Step-6.-Solve-for-Unknowns">Step 6. Solve for Unknowns<a class="anchor-link" href="#Step-6.-Solve-for-Unknowns">¶</a></h4><p>Use the resulting algebraic equations to find the unknown forces or torques.<br/>
+Check that the number of independent equations equals the number of unknowns.</p>
+<h4 id="Step-7.-Verify-Results">Step 7. Verify Results<a class="anchor-link" href="#Step-7.-Verify-Results">¶</a></h4><p>Confirm that all equilibrium conditions are satisfied and that the answers are physically reasonable (e.g., normal forces cannot be negative unless the contact is lost).</p>
+<hr/>
+<h3 id="Example-12.4.-Hanging-Sign">Example 12.4. Hanging Sign<a class="anchor-link" href="#Example-12.4.-Hanging-Sign">¶</a></h3><p>A $3.0~\text{m}$ uniform beam of mass $20~\text{kg}$ supports a $30~\text{kg}$ sign at its end.<br/>
+The beam is hinged to a wall and supported by a cable attached to its end, making an angle of $37°$ with the beam.<br/>
+Find the tension in the cable and the reaction forces at the hinge.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p><strong>Step 1. Identify forces</strong></p>
+<ul>
+<li>Beam’s weight: $W_b = 20(9.8) = 196~\text{N}$, acts at midpoint.</li>
+<li>Sign’s weight: $W_s = 30(9.8) = 294~\text{N}$, acts at the beam’s end.</li>
+<li>Tension $T$ in the cable acts upward at $37°$.</li>
+<li>Hinge reactions: $H_x$, $H_y$.</li>
+</ul>
+<p><strong>Step 2. Torque equilibrium about hinge</strong></p>
+<p>$$
+\sum \tau = 0 \Rightarrow T\sin37°(3.0) - W_b(1.5) - W_s(3.0) = 0.
+$$</p>
+<p>$$
+T = \frac{W_b(1.5) + W_s(3.0)}{3.0\sin37°} = \frac{(196)(1.5) + (294)(3.0)}{3.0(0.601)} = 676~\text{N}.
+$$</p>
+<p><strong>Step 3. Force equilibrium</strong></p>
+<p>Horizontal:
+$$
+\sum F_x = 0 \Rightarrow H_x = T\cos37° = 676(0.799) = 540~\text{N}.
+$$</p>
+<p>Vertical:
+$$
+\sum F_y = 0 \Rightarrow H_y + T\sin37° - W_b - W_s = 0.
+$$</p>
+<p>$$
+H_y = W_b + W_s - T\sin37° = (196 + 294) - (676)(0.601) = 490 - 406 = 84~\text{N}.
+$$</p>
+<p><strong>Results:</strong></p>
+<ul>
+<li>$T = 676~\text{N}$</li>
+<li>$H_x = 540~\text{N}$</li>
+<li>$H_y = 84~\text{N}$</li>
+</ul>
+<hr/>
+<h3 id="Example-12.5.-Person-on-a-Diving-Board">Example 12.5. Person on a Diving Board<a class="anchor-link" href="#Example-12.5.-Person-on-a-Diving-Board">¶</a></h3><p>A uniform $4.0~\text{m}$ diving board of mass $20~\text{kg}$ is supported by two pillars, one at the left end (A) and one $1.5~\text{m}$ from that end (B).<br/>
+A $70~\text{kg}$ diver stands at the free end.<br/>
+Find the forces on the supports.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p><strong>Step 1. Forces</strong></p>
+<ul>
+<li>Board weight: $W_b = 20(9.8) = 196~\text{N}$, acts at $2.0~\text{m}$ from A.</li>
+<li>Diver weight: $W_d = 70(9.8) = 686~\text{N}$, acts at $4.0~\text{m}$.</li>
+<li>Reactions: $N_A$ at A, $N_B$ at B.</li>
+</ul>
+<p><strong>Step 2. Torque equilibrium about A</strong>
+$$
+\sum \tau_A = 0 \Rightarrow N_B(1.5) - W_b(2.0) - W_d(4.0) = 0.
+$$
+$$
+N_B = \frac{W_b(2.0) + W_d(4.0)}{1.5} = \frac{(196)(2.0) + (686)(4.0)}{1.5} = 2142~\text{N}.
+$$</p>
+<p><strong>Step 3. Vertical force equilibrium</strong>
+$$
+\sum F_y = 0 \Rightarrow N_A + N_B - W_b - W_d = 0.
+$$
+$$
+N_A = W_b + W_d - N_B = (196 + 686) - 2142 = -1260~\text{N}.
+$$</p>
+<p>A <strong>negative sign</strong> indicates that the left support exerts a <strong>downward force</strong> (it pushes down on the board).<br/>
+Thus:</p>
+<ul>
+<li>$N_B = 2140~\text{N}$ upward,</li>
+<li>$N_A = 1260~\text{N}$ downward.</li>
+</ul>
+<hr/>
+<h3 id="Example-12.6.-Supported-Rod-with-Hanging-Mass">Example 12.6. Supported Rod with Hanging Mass<a class="anchor-link" href="#Example-12.6.-Supported-Rod-with-Hanging-Mass">¶</a></h3><p>A $2.0~\text{m}$ uniform rod of mass $5.0~\text{kg}$ is supported at its left end and by a cable attached $1.5~\text{m}$ from the left end.<br/>
+A $10~\text{kg}$ mass hangs from the right end.<br/>
+The cable makes an angle of $30°$ with the horizontal.<br/>
+Find the tension in the cable and the reaction at the support.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>Weights:
+$$
+W_r = 5.0(9.8) = 49~\text{N}, \quad W_m = 10(9.8) = 98~\text{N}.
+$$</p>
+<p>Torque equilibrium about the left end:
+$$
+T\sin30°(1.5) - W_r(1.0) - W_m(2.0) = 0.
+$$
+$$
+T = \frac{W_r(1.0) + W_m(2.0)}{1.5\sin30°} = \frac{(49)(1.0) + (98)(2.0)}{0.75} = \frac{245}{0.75} = 327~\text{N}.
+$$</p>
+<p>Horizontal equilibrium:
+$$
+H_x = T\cos30° = 327(0.866) = 283~\text{N}.
+$$</p>
+<p>Vertical equilibrium:
+$$
+H_y = W_r + W_m - T\sin30° = (49 + 98) - 327(0.5) = 147 - 164 = -17~\text{N}.
+$$</p>
+<p>A small negative value implies that the cable nearly supports all the weight, slightly pulling the hinge upward.</p>
+<hr/>
+<h3 id="Common-Mistakes-in-Statics-Problems">Common Mistakes in Statics Problems<a class="anchor-link" href="#Common-Mistakes-in-Statics-Problems">¶</a></h3><ul>
+<li><strong>Forgetting reaction components:</strong> At a hinge or pin, both horizontal and vertical components must be considered.</li>
+<li><strong>Incorrect torque sign:</strong> Always maintain a consistent convention (counterclockwise positive).</li>
+<li><strong>Using wrong lever arm:</strong> The perpendicular distance from the pivot to the line of action of the force determines torque, not the direct distance to the point of application.</li>
+<li><strong>Neglecting weight of the object:</strong> Even light members can contribute significant torque if long.</li>
+</ul>
+<hr/>
+<h3 id="Conceptual-Notes">Conceptual Notes<a class="anchor-link" href="#Conceptual-Notes">¶</a></h3><ul>
+<li>The number of independent equilibrium equations equals the number of unknowns in planar systems (typically three).</li>
+<li>A system in equilibrium can still move at constant velocity — static equilibrium requires the velocity to be <strong>zero</strong>.</li>
+<li>For multiple-body systems, consider each component separately but ensure that action–reaction forces between them cancel internally.</li>
+<li>The free-body diagram is the most critical tool — it must include all forces and moments acting on the chosen body.</li>
+</ul>
+<hr/>
+<p>In the next section, we apply the equilibrium principles to <strong>biological systems</strong>, analyzing forces in <strong>muscles and joints</strong> to understand how the human body maintains static and dynamic stability.</p>
 </div>
 </div>
 </div>
@@ -7534,43 +7782,141 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Complex-conjugate-&amp;-multiplication">Complex conjugate &amp; multiplication<a class="anchor-link" href="#Complex-conjugate-&amp;-multiplication">¶</a></h2><p><strong>Complex conjugate reflects the vector (mirror at the real axis):</strong>
-$$
-z = x + iy
-\quad\Rightarrow\quad
-z^* = x - iy
+<h2 id="12.3.-Applications-to-Muscles-and-Joints">12.3. Applications to Muscles and Joints<a class="anchor-link" href="#12.3.-Applications-to-Muscles-and-Joints">¶</a></h2><p>The principles of static equilibrium are not limited to bridges and beams — they also apply to the <strong>human body</strong>.<br/>
+Bones act as rigid levers, and muscles apply forces to maintain balance or movement.<br/>
+Because of the geometry of joints and the need for precise control, muscles often exert forces much larger than the weights they support.</p>
+<p>In this section, we apply the conditions of equilibrium to analyze typical biomechanical systems such as the forearm, the upper arm, and the lower leg.</p>
+<hr/>
+<h3 id="The-Human-Body-as-a-System-of-Levers">The Human Body as a System of Levers<a class="anchor-link" href="#The-Human-Body-as-a-System-of-Levers">¶</a></h3><p>A <strong>lever</strong> consists of:</p>
+<ol>
+<li>A <strong>pivot point</strong> (the joint),</li>
+<li>A <strong>rigid arm</strong> (the bone), and</li>
+<li>One or more <strong>forces</strong> (muscles, weights, contact forces).</li>
+</ol>
+<p>Muscles usually attach close to the joint, while external loads act farther away.<br/>
+As a result, muscles must generate large forces to maintain equilibrium, despite producing only small displacements.</p>
+<hr/>
+<h3 id="Example-12.7.-The-Forearm-and-Biceps">Example 12.7. The Forearm and Biceps<a class="anchor-link" href="#Example-12.7.-The-Forearm-and-Biceps">¶</a></h3><p>The forearm is supported horizontally by the biceps muscle.<br/>
+The biceps attaches to the forearm at a point $d = 5.0~\text{cm}$ from the elbow joint.<br/>
+The forearm and hand together have a weight of $W_a = 20~\text{N}$ acting at the center of mass, $15~\text{cm}$ from the elbow.<br/>
+A $100~\text{N}$ weight is held in the hand, $35~\text{cm}$ from the elbow.<br/>
+Find the tension $T$ in the biceps and the force at the elbow joint.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p><strong>Step 1. Free-body diagram</strong></p>
+<p>Forces acting:</p>
+<ul>
+<li>Biceps tension $T$ upward at $d = 5.0~\text{cm}$,</li>
+<li>Arm weight $W_a = 20~\text{N}$ downward at $r_1 = 15~\text{cm}$,</li>
+<li>Hand weight $W_h = 100~\text{N}$ downward at $r_2 = 35~\text{cm}$,</li>
+<li>Elbow joint reaction $R$ (with components $R_x$ and $R_y$).</li>
+</ul>
+<p><strong>Step 2. Torque equilibrium about the elbow</strong></p>
+<p>Take counterclockwise as positive:</p>
+<p>$$
+T(d) - W_a(r_1) - W_h(r_2) = 0.
 $$</p>
-<p><strong>Multiplication of complex numbers (rotation + scaling):</strong>
-$$
-z_1 z_2
-=
-r_1 r_2\, e^{i(\varphi_1 + \varphi_2)}
+<p>Substitute distances in meters:</p>
+<p>$$
+T(0.05) = (20)(0.15) + (100)(0.35) = 3.0 + 35.0 = 38.0~\text{N·m}.
 $$</p>
-<p><strong>Multiplication with the complex conjugate:</strong>
-$$
-z = r\,e^{i\varphi},
-\qquad
-z^* = r\,e^{-i\varphi}
+<p>Solve for $T$:</p>
+<p>$$
+T = \frac{38.0}{0.05} = 760~\text{N}.
+$$</p>
+<p>The biceps exerts a tension of <strong>760 N</strong>, about eight times the weight being held.</p>
+<p><strong>Step 3. Force equilibrium</strong></p>
+<p>Vertical forces:</p>
+<p>$$
+R_y + T - W_a - W_h = 0 \Rightarrow R_y = W_a + W_h - T = 120 - 760 = -640~\text{N}.
+$$</p>
+<p>A negative sign means the elbow joint exerts a <strong>downward</strong> force of <strong>640 N</strong> on the forearm.</p>
+<p><strong>Result:</strong></p>
+<ul>
+<li>$T = 760~\text{N}$ (biceps tension),</li>
+<li>$R_y = 640~\text{N}$ (downward joint force).</li>
+</ul>
+<hr/>
+<h3 id="Mechanical-Disadvantage-of-Muscles">Mechanical Disadvantage of Muscles<a class="anchor-link" href="#Mechanical-Disadvantage-of-Muscles">¶</a></h3><p>Although the biceps force is large, its small lever arm provides <strong>fine control</strong> and rapid response.<br/>
+Muscles trade mechanical advantage for <strong>speed and precision</strong>.</p>
+<p>The <strong>mechanical advantage</strong> (MA) is the ratio of load arm to effort arm:</p>
+<p>$$
+\text{MA} = \frac{d_{\text{load}}}{d_{\text{muscle}}} = \frac{35}{5} = 7.
+$$</p>
+<p>Thus, the muscle must exert seven times the force of the load to maintain equilibrium.</p>
+<hr/>
+<h3 id="Example-12.8.-Forces-in-the-Shoulder-Joint">Example 12.8. Forces in the Shoulder Joint<a class="anchor-link" href="#Example-12.8.-Forces-in-the-Shoulder-Joint">¶</a></h3><p>A 3.0-kg weight is held with the arm extended horizontally, the center of gravity of the arm being 30 cm from the shoulder joint.<br/>
+The deltoid muscle attaches 12 cm from the joint at an angle of $15°$ above the arm.<br/>
+Find the tension in the deltoid and the vertical force at the shoulder joint.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p><strong>Step 1. Forces</strong></p>
+<ul>
+<li>Arm weight: $W_a = 3.0(9.8) = 29.4~\text{N}$, acts at $0.30~\text{m}$.</li>
+<li>Muscle tension $T$ acts upward at $0.12~\text{m}$, at $15°$ above the horizontal.</li>
+<li>Shoulder reaction $R_y$ acts vertically.</li>
+</ul>
+<p><strong>Step 2. Torque equilibrium about the shoulder</strong></p>
+<p>$$
+T\sin15°(0.12) = W_a(0.30).
 $$</p>
 <p>$$
-z\,z^*
-=
-\left(r\,e^{i\varphi}\right)
-\left(r\,e^{-i\varphi}\right)
-=
-r^2\,e^{\,i\varphi - i\varphi}
-=
-r^2\,e^{0}
-=
-r^2
-=
-x^2 + y^2
-\in \mathbb{R}
+T = \frac{W_a(0.30)}{0.12\sin15°} = \frac{(29.4)(0.30)}{0.12(0.259)} = 285~\text{N}.
 $$</p>
-<p><img alt="Complex_conjugate_picture.svg" src="../img/from_wiki/Complex_conjugate_picture.svg" width="150"/>
-<img alt="Komplexe_multiplikation.svg" src="../img/from_wiki/Komplexe_multiplikation.svg" width="400"/></p>
-<p><em><sub>[left] from <a href="https://en.wikipedia.org/wiki/File:Complex_conjugate_picture.svg">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/3.0/deed.en">Attribution-Share Alike 3.0 Unported</a>
-[right] from <a href="https://de.wikipedia.org/wiki/Datei:Komplexe_multiplikation.svg">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/4.0/deed.en">Attribution-Share Alike 4.0 International</a></sub></em></p>
+<p><strong>Step 3. Vertical equilibrium</strong></p>
+<p>$$
+R_y + T\sin15° - W_a = 0.
+$$</p>
+<p>$$
+R_y = W_a - T\sin15° = 29.4 - 285(0.259) = 29.4 - 74 = -45~\text{N}.
+$$</p>
+<p>The negative sign indicates the shoulder joint exerts a <strong>downward</strong> force of <strong>45 N</strong> on the arm.</p>
+<hr/>
+<h3 id="Example-12.9.-The-Triceps-and-the-Forearm">Example 12.9. The Triceps and the Forearm<a class="anchor-link" href="#Example-12.9.-The-Triceps-and-the-Forearm">¶</a></h3><p>When the forearm extends, the <strong>triceps muscle</strong> applies a force near the elbow to counteract weights acting farther away.<br/>
+Suppose the triceps attaches 2.5 cm from the joint, the forearm weighs 20 N acting 15 cm away, and a 30 N weight is held 35 cm away.<br/>
+Find the force the triceps must exert to keep the forearm horizontal.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>Torque equilibrium about the elbow:</p>
+<p>$$
+T(0.025) = (20)(0.15) + (30)(0.35) = 3.0 + 10.5 = 13.5~\text{N·m}.
+$$</p>
+<p>$$
+T = \frac{13.5}{0.025} = 540~\text{N}.
+$$</p>
+<p>Thus, the triceps must exert a force of <strong>540 N</strong> — much greater than the weights being supported.</p>
+<hr/>
+<h3 id="Muscular-Efficiency">Muscular Efficiency<a class="anchor-link" href="#Muscular-Efficiency">¶</a></h3><p>Even though muscles operate at a <strong>mechanical disadvantage</strong>, they achieve <strong>energetic efficiency</strong> by working through small displacements.<br/>
+For every small shortening of the muscle, the hand moves through a much larger distance, allowing precise control of motion.</p>
+<p>If the biceps shortens by $\Delta x_m$ while the hand rises by $\Delta x_h$, the work done by both is equal:</p>
+<p>$$
+T\Delta x_m = W\Delta x_h.
+$$</p>
+<p>Since $\Delta x_h / \Delta x_m = d_{\text{load}} / d_{\text{muscle}}$, the large mechanical disadvantage is compensated by a large motion advantage.</p>
+<hr/>
+<h3 id="Example-12.10.-Lifting-a-Weight:-Energy-and-Work">Example 12.10. Lifting a Weight: Energy and Work<a class="anchor-link" href="#Example-12.10.-Lifting-a-Weight:-Energy-and-Work">¶</a></h3><p>A person holds a 5-kg weight in the hand, 30 cm from the elbow joint.<br/>
+The biceps attaches 4 cm from the joint and exerts a force of 400 N.<br/>
+If the forearm rotates through $60°$, find the work done by the biceps and by the weight.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>Arc distance of hand:
+$$
+s_h = (0.30)(60° \times \pi/180) = 0.314~\text{m}.
+$$</p>
+<p>Arc distance of biceps insertion:
+$$
+s_m = (0.04)(60° \times \pi/180) = 0.042~\text{m}.
+$$</p>
+<p>Work by muscle:
+$$
+W_m = T s_m = 400(0.042) = 16.8~\text{J}.
+$$</p>
+<p>Work by weight (negative):
+$$
+W_w = -mgh = -(5)(9.8)(0.314) = -15.4~\text{J}.
+$$</p>
+<p>The work magnitudes are nearly equal, showing that most of the muscle’s effort balances the gravitational torque.</p>
+<hr/>
+<h3 id="Conceptual-Notes">Conceptual Notes<a class="anchor-link" href="#Conceptual-Notes">¶</a></h3><ul>
+<li>Muscles typically operate at <strong>mechanical disadvantage</strong>, producing large forces over short distances.</li>
+<li>The <strong>torque</strong> generated by a muscle depends on both the <strong>magnitude</strong> of its tension and its <strong>lever arm</strong> about the joint.</li>
+<li>Even though the forces in joints can be very large, they are balanced by corresponding reaction forces, keeping the system in equilibrium.</li>
+<li>These static analyses assume steady positions; in dynamic motion, additional inertial torques must be considered.</li>
+</ul>
+<hr/>
+<p>In the next section, we explore <strong>stability and balance</strong> — how the center of gravity and support base determine whether an object or person remains upright under small disturbances.</p>
 </div>
 </div>
 </div>
@@ -7580,32 +7926,140 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Complex-Exponentials-for-Oscillations:-How-They-Appear-Naturally">Complex Exponentials for Oscillations: How They Appear Naturally<a class="anchor-link" href="#Complex-Exponentials-for-Oscillations:-How-They-Appear-Naturally">¶</a></h2><ul>
-<li><p>Equation of motion (real coefficients):
-$$
-\ddot x = -\frac{k}{m}x
-$$</p>
-</li>
-<li><p>Inserting <strong>exponential trial solution</strong> $x(t)=X\,e^{\lambda t}$ gives:
-$$
-\lambda^2 X\,e^{\lambda t}
-=
--\frac{k}{m}\,X\,e^{\lambda t}
-$$</p>
-</li>
-<li><p>Cancel the common factor $X\,e^{\lambda t}$:
-$$
-\lambda^2 = -\frac{k}{m}
-$$</p>
-</li>
-<li><p><strong>Allowing complex solutions gives two eigenvalues</strong>:
-$$
-\lambda = \pm i\omega,
-\qquad
-\omega=\sqrt{\frac{k}{m}}
-$$</p>
-</li>
+<h2 id="12.4.-Stability-and-Balance">12.4. Stability and Balance<a class="anchor-link" href="#12.4.-Stability-and-Balance">¶</a></h2><p>Equilibrium can exist under different conditions of <strong>stability</strong>.<br/>
+An object may return to equilibrium after a small disturbance, move farther away from it, or remain in its new position.<br/>
+Understanding these behaviors is crucial in designing structures, vehicles, and in analyzing the balance of the human body.</p>
+<hr/>
+<h3 id="Types-of-Equilibrium">Types of Equilibrium<a class="anchor-link" href="#Types-of-Equilibrium">¶</a></h3><p>There are <strong>three types</strong> of mechanical equilibrium, depending on how the center of gravity (CG) moves when the object is displaced slightly.</p>
+<ol>
+<li><p><strong>Stable equilibrium:</strong><br/>
+When displaced, the object experiences a restoring torque or force that returns it to its original position.</p>
+<ul>
+<li>The center of gravity rises when displaced.</li>
+<li>Potential energy increases, then decreases back to the minimum when released.</li>
 </ul>
+<p>Example: A pendulum at its lowest point, or a cone resting on its base.</p>
+</li>
+<li><p><strong>Unstable equilibrium:</strong><br/>
+A small displacement causes the object to move farther from equilibrium.</p>
+<ul>
+<li>The center of gravity lowers when displaced.</li>
+<li>Potential energy decreases, so the object continues to move away.</li>
+</ul>
+<p>Example: A pencil balanced on its tip, or a cone resting on its vertex.</p>
+</li>
+<li><p><strong>Neutral equilibrium:</strong><br/>
+When displaced, the object neither returns nor moves farther away — it stays in the new position.</p>
+<ul>
+<li>The center of gravity remains at the same height.</li>
+<li>Potential energy stays constant.</li>
+</ul>
+<p>Example: A ball on a flat horizontal surface.</p>
+</li>
+</ol>
+<hr/>
+<h3 id="Center-of-Gravity-and-Stability">Center of Gravity and Stability<a class="anchor-link" href="#Center-of-Gravity-and-Stability">¶</a></h3><p>The <strong>center of gravity (CG)</strong> is the point at which the entire weight of an object can be considered to act.<br/>
+An object remains in equilibrium as long as the vertical line through its CG falls <strong>within its base of support</strong>.</p>
+<p>If this line passes outside the base, a <strong>torque due to gravity</strong> causes the object to tip over.</p>
+<hr/>
+<h3 id="Condition-for-Stability">Condition for Stability<a class="anchor-link" href="#Condition-for-Stability">¶</a></h3><p>Consider an object of weight $W$ resting on a base.<br/>
+When tilted by a small angle $\theta$, the CG moves horizontally by a distance $x = h\sin\theta$, where $h$ is the height of the CG above the pivot point.</p>
+<p>The restoring torque about the pivot is:</p>
+<p>$$
+\tau = W x = W h \sin\theta.
+$$</p>
+<ul>
+<li>If the torque acts to restore the object to equilibrium, the position is <strong>stable</strong>.</li>
+<li>If it acts to increase the displacement, the position is <strong>unstable</strong>.</li>
+</ul>
+<hr/>
+<h3 id="Example-12.11.-Stability-of-a-Tipping-Block">Example 12.11. Stability of a Tipping Block<a class="anchor-link" href="#Example-12.11.-Stability-of-a-Tipping-Block">¶</a></h3><p>A uniform block of height $h$ and base width $b$ rests on a horizontal surface.<br/>
+At what tilt angle $\theta_c$ will it begin to tip over?</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>When the block just begins to tip, the line of action of its weight passes through the pivot at the lower edge.</p>
+<p>From geometry:</p>
+<p>$$
+\tan\theta_c = \frac{b/2}{h}.
+$$</p>
+<p>Thus, the critical angle is:</p>
+<p>$$
+\theta_c = \tan^{-1}\left(\frac{b}{2h}\right).
+$$</p>
+<p>For example, if $b = 0.20~\text{m}$ and $h = 0.50~\text{m}$:</p>
+<p>$$
+\theta_c = \tan^{-1}\left(\frac{0.20}{1.00}\right) = 11.3°.
+$$</p>
+<p>So the block will tip when tilted more than <strong>11.3°</strong>.</p>
+<hr/>
+<h3 id="Potential-Energy-and-Stability">Potential Energy and Stability<a class="anchor-link" href="#Potential-Energy-and-Stability">¶</a></h3><p>The condition of equilibrium can be analyzed in terms of potential energy $U$.<br/>
+For small displacements:</p>
+<ul>
+<li><strong>Stable equilibrium:</strong> $U$ has a <strong>minimum</strong> (second derivative positive).</li>
+<li><strong>Unstable equilibrium:</strong> $U$ has a <strong>maximum</strong> (second derivative negative).</li>
+<li><strong>Neutral equilibrium:</strong> $U$ is <strong>constant</strong>.</li>
+</ul>
+<p>This is analogous to a ball resting at the bottom, top, or flat portion of a curved surface.</p>
+<hr/>
+<h3 id="Example-12.12.-Ball-in-a-Bowl">Example 12.12. Ball in a Bowl<a class="anchor-link" href="#Example-12.12.-Ball-in-a-Bowl">¶</a></h3><p>A ball of mass $m$ rests in a hemispherical bowl of radius $R$.<br/>
+If displaced horizontally by a small distance $x$, find the restoring force.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>When displaced, the center of mass rises by $h \approx \frac{x^2}{2R}$ for small $x$.<br/>
+The increase in potential energy is:</p>
+<p>$$
+U = mg h = \frac{mgx^2}{2R}.
+$$</p>
+<p>The restoring force is:</p>
+<p>$$
+F = -\frac{dU}{dx} = -\frac{mg}{R}x.
+$$</p>
+<p>This is the equation of a <strong>simple harmonic oscillator</strong>, showing the motion is stable and oscillatory about equilibrium.</p>
+<hr/>
+<h3 id="Stability-in-Human-Balance">Stability in Human Balance<a class="anchor-link" href="#Stability-in-Human-Balance">¶</a></h3><p>The human body maintains balance by keeping its <strong>center of gravity</strong> above its <strong>support base</strong> (the area between the feet).</p>
+<ul>
+<li>Standing upright: CG is above the midpoint of the feet.</li>
+<li>Leaning: CG shifts toward the edge of the base; muscles generate restoring torques to keep balance.</li>
+<li>Falling: Occurs when CG passes outside the base of support.</li>
+</ul>
+<p>Increasing the <strong>base width</strong> or <strong>lowering the CG</strong> improves stability — a principle used in athletics and engineering design alike.</p>
+<hr/>
+<h3 id="Example-12.13.-Balance-While-Carrying-a-Load">Example 12.13. Balance While Carrying a Load<a class="anchor-link" href="#Example-12.13.-Balance-While-Carrying-a-Load">¶</a></h3><p>A person of mass $70~\text{kg}$ holds a $20~\text{kg}$ weight at arm’s length, 0.70 m in front of the body.<br/>
+Where must the person’s center of gravity shift to maintain balance?</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>The combined torques about the feet must sum to zero.</p>
+<p>Let $x$ be the horizontal shift of the body’s center of gravity backward.</p>
+<p>$$
+(70)(9.8)x = (20)(9.8)(0.70).
+$$</p>
+<p>$$
+x = \frac{20(0.70)}{70} = 0.20~\text{m}.
+$$</p>
+<p>Thus, the person must lean <strong>20 cm backward</strong> to remain balanced.</p>
+<hr/>
+<h3 id="Design-Principles-for-Stability">Design Principles for Stability<a class="anchor-link" href="#Design-Principles-for-Stability">¶</a></h3><p>To improve stability:</p>
+<ol>
+<li><strong>Lower the center of gravity ($h$):</strong> decreases the potential for tipping.</li>
+<li><strong>Increase the base width ($b$):</strong> increases $\theta_c$ and the support area.</li>
+<li><strong>Widen the mass distribution:</strong> increases moment of inertia, resisting rotational acceleration.</li>
+<li><strong>Ensure weight acts within the base area:</strong> prevents net torque from developing.</li>
+</ol>
+<hr/>
+<h3 id="Example-12.14.-Stability-of-a-Car-on-a-Hill">Example 12.14. Stability of a Car on a Hill<a class="anchor-link" href="#Example-12.14.-Stability-of-a-Car-on-a-Hill">¶</a></h3><p>A car of width $1.6~\text{m}$ and height of CG $0.80~\text{m}$ drives on a slope.<br/>
+At what maximum angle $\theta$ will it begin to tip sideways?</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>Critical condition:</p>
+<p>$$
+\tan\theta_c = \frac{b/2}{h} = \frac{0.80}{1.6} = 0.50.
+$$</p>
+<p>$$
+\theta_c = \tan^{-1}(0.5) = 26.6°.
+$$</p>
+<p>Thus, the car will tip sideways at slopes greater than <strong>26.6°</strong>.</p>
+<hr/>
+<h3 id="Conceptual-Notes">Conceptual Notes<a class="anchor-link" href="#Conceptual-Notes">¶</a></h3><ul>
+<li>The <strong>stability</strong> of an equilibrium depends on the position of the center of gravity relative to the base of support.</li>
+<li>When the vertical projection of the CG passes <strong>outside</strong> the base, the system becomes <strong>unstable</strong> and tips.</li>
+<li>Lowering the CG or widening the base enhances stability.</li>
+<li>In energy terms, equilibrium is stable when potential energy is at a <strong>minimum</strong>.</li>
+<li>Human posture, animal stance, and engineered designs (cars, towers, robots) all rely on maintaining stable equilibrium.</li>
+</ul>
+<hr/>
+<p>In the next section, we will examine how materials deform under stress, introducing the concepts of <strong>elasticity, stress, and strain</strong>, which determine the strength and flexibility of physical structures.</p>
 </div>
 </div>
 </div>
@@ -7615,73 +8069,389 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="From-Complex-Solutions-to-Real-Oscillations">From Complex Solutions to Real Oscillations<a class="anchor-link" href="#From-Complex-Solutions-to-Real-Oscillations">¶</a></h2><ul>
-<li><p><strong>General solution as a linear combination of the two eigenmodes</strong>:
-$$
-x(t)=c_1 e^{i\omega t}+c_2 e^{-i\omega t}
-$$</p>
-</li>
-<li><p>Real motion requires <strong>complex conjugate coefficients</strong>, $c_2 = c_1^*$:
-$$
-x(t)
-= c_1 e^{i\omega t}+c_1^* e^{-i\omega t}
-$$</p>
-</li>
-<li><p>Write the complex amplitude in polar form, $c_1 = |c_1| e^{i\phi}$:
-$$
-x(t)
-= |c_1| e^{i\phi} e^{i\omega t}
-  + |c_1| e^{-i\phi} e^{-i\omega t}
-=
-|c_1|\!\left(
-e^{i(\omega t+\phi)} + e^{-i(\omega t+\phi)}
-\right)
-$$</p>
-</li>
-<li><p>Using Euler’s identity, $\cos\theta = \tfrac{e^{i\theta}+e^{-i\theta}}{2}$, the motion becomes:
-$$
-x(t)=2|c_1|\cos(\omega t+\phi)
-$$</p>
-</li>
-<li><p>Final physical solution with $A = 2|c_1|$:
-$$
-x(t)=A\cos(\omega t+\phi)
-$$</p>
-</li>
+<h2 id="12.5.-Elasticity;-Stress-and-Strain">12.5. Elasticity; Stress and Strain<a class="anchor-link" href="#12.5.-Elasticity;-Stress-and-Strain">¶</a></h2><p>In real materials, applied forces do not always cause motion — they often produce <strong>deformation</strong> instead.<br/>
+When the force is removed, the material may return to its original shape.<br/>
+This property of returning to the original configuration after being deformed is called <strong>elasticity</strong>.<br/>
+If the deformation remains, the material has undergone <strong>plastic (permanent) deformation</strong>.</p>
+<p>Understanding elasticity is essential for engineering, architecture, and biomechanics, as it determines how structures and materials respond to forces without breaking.</p>
+<hr/>
+<h3 id="Deformation-and-Elastic-Behavior">Deformation and Elastic Behavior<a class="anchor-link" href="#Deformation-and-Elastic-Behavior">¶</a></h3><p>When an external force acts on a solid body, the object changes its dimensions slightly.<br/>
+The type of deformation depends on the nature of the applied force:</p>
+<ul>
+<li><strong>Tensile (stretching)</strong> – forces act to elongate the body.</li>
+<li><strong>Compressive</strong> – forces act to shorten or squeeze it.</li>
+<li><strong>Shear</strong> – forces act tangentially, distorting the shape.</li>
+<li><strong>Torsional</strong> – forces twist the body about an axis.</li>
 </ul>
+<p>If the force is removed and the body returns to its original shape, the deformation is <strong>elastic</strong>.<br/>
+For small deformations, most materials obey <strong>Hooke’s Law</strong>, where deformation is proportional to the applied force.</p>
+<hr/>
+<h3 id="Hooke%E2%80%99s-Law-(General-Form)">Hooke’s Law (General Form)<a class="anchor-link" href="#Hooke%E2%80%99s-Law-(General-Form)">¶</a></h3><p>Within the elastic limit, the <strong>stress</strong> is directly proportional to the <strong>strain</strong>:</p>
+<p>$$
+\text{Stress} \propto \text{Strain}, \quad \text{or} \quad \frac{\text{Stress}}{\text{Strain}} = \text{constant}.
+$$</p>
+<p>The constant of proportionality is the <strong>elastic modulus</strong>, which depends on the type of deformation and the material.</p>
+<hr/>
+<h3 id="Stress-and-Strain-Defined">Stress and Strain Defined<a class="anchor-link" href="#Stress-and-Strain-Defined">¶</a></h3><ol>
+<li><p><strong>Stress (Force per Unit Area)</strong><br/>
+Stress quantifies the intensity of the internal forces that resist deformation:</p>
+<p>$$
+\text{Stress} = \frac{F}{A},
+$$</p>
+<p>where:</p>
+<ul>
+<li>$F$ is the external force,</li>
+<li>$A$ is the cross-sectional area.</li>
+</ul>
+<p>Units: <strong>N/m² = Pa (Pascal)</strong>.</p>
+</li>
+<li><p><strong>Strain (Relative Deformation)</strong><br/>
+Strain measures the fractional change in the object’s dimensions:</p>
+<p>$$
+\text{Strain} = \frac{\Delta L}{L_0},
+$$</p>
+<p>where:</p>
+<ul>
+<li>$\Delta L$ is the change in length,</li>
+<li>$L_0$ is the original length.</li>
+</ul>
+<p>Strain is dimensionless.</p>
+</li>
+</ol>
+<hr/>
+<h3 id="Types-of-Elastic-Moduli">Types of Elastic Moduli<a class="anchor-link" href="#Types-of-Elastic-Moduli">¶</a></h3><p>There are three principal types of elasticity constants depending on the type of deformation:</p>
+<ol>
+<li><p><strong>Young’s Modulus (E)</strong> — longitudinal stretching or compression<br/>
+$$
+E = \frac{\text{Stress}}{\text{Strain}} = \frac{F/A}{\Delta L / L_0} = \frac{F L_0}{A \Delta L}.
+$$</p>
+</li>
+<li><p><strong>Shear Modulus (G)</strong> — deformation due to tangential (shear) forces<br/>
+$$
+G = \frac{\text{Shear Stress}}{\text{Shear Strain}} = \frac{F/A}{x/h} = \frac{Fh}{A x}.
+$$</p>
+</li>
+<li><p><strong>Bulk Modulus (B)</strong> — deformation due to uniform compression (change in volume)<br/>
+$$
+B = -\frac{\text{Stress}}{\text{Volume Strain}} = -\frac{\Delta P}{\Delta V / V_0}.
+$$</p>
+</li>
+</ol>
+<p>The negative sign indicates that an increase in pressure ($\Delta P &gt; 0$) leads to a <strong>decrease</strong> in volume ($\Delta V &lt; 0$).</p>
+<hr/>
+<h3 id="Example-12.15.-Stretching-a-Steel-Wire">Example 12.15. Stretching a Steel Wire<a class="anchor-link" href="#Example-12.15.-Stretching-a-Steel-Wire">¶</a></h3><p>A steel wire of diameter $1.0~\text{mm}$ and length $2.0~\text{m}$ supports a load of $10~\text{kg}$.<br/>
+How much does the wire stretch?<br/>
+(Take $E_{\text{steel}} = 2.0\times10^{11}~\text{Pa}$.)</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>Given:
+$$
+F = mg = (10)(9.8) = 98~\text{N}, \quad A = \pi r^2 = \pi(0.0005)^2 = 7.85\times10^{-7}~\text{m}^2.
+$$</p>
+<p>$$
+\Delta L = \frac{F L_0}{A E} = \frac{(98)(2.0)}{(7.85\times10^{-7})(2.0\times10^{11})} = 1.25\times10^{-3}~\text{m} = 1.25~\text{mm}.
+$$</p>
+<p>The wire stretches by <strong>1.25 mm</strong> under the 10-kg load.</p>
+<hr/>
+<h3 id="Example-12.16.-Shear-Deformation-of-a-Bolt">Example 12.16. Shear Deformation of a Bolt<a class="anchor-link" href="#Example-12.16.-Shear-Deformation-of-a-Bolt">¶</a></h3><p>A bolt with cross-sectional area $A = 8.0\times10^{-5}~\text{m}^2$ holds two plates together.<br/>
+A shear force of $F = 400~\text{N}$ is applied.<br/>
+If the distance between plates is $h = 5.0~\text{mm}$ and $G = 8.0\times10^{10}~\text{Pa}$, find the relative displacement of the plates.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>Shear strain:
+$$
+\frac{x}{h} = \frac{F/A}{G} = \frac{400 / (8.0\times10^{-5})}{8.0\times10^{10}} = \frac{5.0\times10^6}{8.0\times10^{10}} = 6.25\times10^{-5}.
+$$</p>
+<p>Displacement:
+$$
+x = h \times 6.25\times10^{-5} = (5.0\times10^{-3})(6.25\times10^{-5}) = 3.13\times10^{-7}~\text{m}.
+$$</p>
+<p>The top plate shifts by only <strong>0.31 μm</strong>, showing the rigidity of steel under shear.</p>
+<hr/>
+<h3 id="Example-12.17.-Volume-Compression-of-Water">Example 12.17. Volume Compression of Water<a class="anchor-link" href="#Example-12.17.-Volume-Compression-of-Water">¶</a></h3><p>The bulk modulus of water is $B = 2.2\times10^9~\text{Pa}$.<br/>
+Find the fractional decrease in volume of a water sample under a pressure increase of $3.0\times10^6~\text{Pa}$.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>$$
+\frac{\Delta V}{V_0} = -\frac{\Delta P}{B} = -\frac{3.0\times10^6}{2.2\times10^9} = -1.36\times10^{-3}.
+$$</p>
+<p>Thus, the volume decreases by only <strong>0.136%</strong>, confirming that water is nearly incompressible.</p>
+<hr/>
+<h3 id="Elastic-Energy-Stored-in-a-Stretched-Wire">Elastic Energy Stored in a Stretched Wire<a class="anchor-link" href="#Elastic-Energy-Stored-in-a-Stretched-Wire">¶</a></h3><p>The work done in stretching an elastic material is stored as <strong>potential energy</strong>.<br/>
+If the force increases linearly with elongation (Hooke’s law), the elastic energy is:</p>
+<p>$$
+U = \frac{1}{2}F\Delta L = \frac{1}{2}\frac{E A}{L_0}(\Delta L)^2.
+$$</p>
+<p>The corresponding <strong>energy density</strong> (energy per unit volume) is:</p>
+<p>$$
+u = \frac{U}{A L_0} = \frac{1}{2}E\left(\frac{\Delta L}{L_0}\right)^2 = \frac{1}{2}E(\text{strain})^2.
+$$</p>
+<hr/>
+<h3 id="Example-12.18.-Energy-in-a-Guitar-String">Example 12.18. Energy in a Guitar String<a class="anchor-link" href="#Example-12.18.-Energy-in-a-Guitar-String">¶</a></h3><p>A steel string ($L_0 = 0.60~\text{m}$, diameter $1.0~\text{mm}$, $E = 2.0\times10^{11}~\text{Pa}$) is stretched by $1.2~\text{mm}$.<br/>
+Find the tension and elastic energy stored.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>$$
+A = \pi(0.0005)^2 = 7.85\times10^{-7}~\text{m}^2.
+$$</p>
+<p>Tension:
+$$
+F = \frac{E A \Delta L}{L_0} = \frac{(2.0\times10^{11})(7.85\times10^{-7})(1.2\times10^{-3})}{0.60} = 314~\text{N}.
+$$</p>
+<p>Energy:
+$$
+U = \frac{1}{2}F\Delta L = 0.5(314)(1.2\times10^{-3}) = 0.19~\text{J}.
+$$</p>
+<p>The stretched string stores about <strong>0.19 J</strong> of potential energy.</p>
+<hr/>
+<h3 id="Stress%E2%80%93Strain-Curve">Stress–Strain Curve<a class="anchor-link" href="#Stress%E2%80%93Strain-Curve">¶</a></h3><p>When a material is tested by gradually increasing stress, the <strong>stress–strain graph</strong> typically exhibits several regions:</p>
+<ol>
+<li><p><strong>Linear (Elastic) region:</strong><br/>
+Stress and strain are proportional (Hooke’s law applies).<br/>
+The slope equals the elastic modulus.</p>
+</li>
+<li><p><strong>Yield point:</strong><br/>
+Material begins to deform permanently; Hooke’s law no longer holds.</p>
+</li>
+<li><p><strong>Plastic region:</strong><br/>
+Permanent deformation occurs; material hardens until fracture.</p>
+</li>
+<li><p><strong>Fracture point:</strong><br/>
+Material breaks when maximum stress is exceeded.</p>
+</li>
+</ol>
+<hr/>
+<h3 id="Typical-Elastic-Moduli">Typical Elastic Moduli<a class="anchor-link" href="#Typical-Elastic-Moduli">¶</a></h3><table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Young’s Modulus (Pa)</th>
+<th>Shear Modulus (Pa)</th>
+<th>Bulk Modulus (Pa)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Steel</td>
+<td>2.0×10¹¹</td>
+<td>8.0×10¹⁰</td>
+<td>1.6×10¹¹</td>
+</tr>
+<tr>
+<td>Copper</td>
+<td>1.1×10¹¹</td>
+<td>4.2×10¹⁰</td>
+<td>1.4×10¹¹</td>
+</tr>
+<tr>
+<td>Aluminum</td>
+<td>7.0×10¹⁰</td>
+<td>2.5×10¹⁰</td>
+<td>7.5×10¹⁰</td>
+</tr>
+<tr>
+<td>Glass</td>
+<td>7.0×10¹⁰</td>
+<td>3.0×10¹⁰</td>
+<td>3.5×10¹⁰</td>
+</tr>
+<tr>
+<td>Concrete</td>
+<td>2.0×10¹⁰</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Bone (human)</td>
+<td>1.5×10¹⁰</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Rubber</td>
+<td>5.0×10⁶</td>
+<td>3.0×10⁶</td>
+<td>1.6×10⁹</td>
+</tr>
+<tr>
+<td>Water</td>
+<td>—</td>
+<td>—</td>
+<td>2.2×10⁹</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h3 id="Conceptual-Notes">Conceptual Notes<a class="anchor-link" href="#Conceptual-Notes">¶</a></h3><ul>
+<li><strong>Stress</strong> measures internal forces; <strong>strain</strong> measures relative deformation.</li>
+<li>Within the <strong>elastic limit</strong>, stress and strain are proportional (Hooke’s law).</li>
+<li>Beyond the <strong>yield point</strong>, deformation becomes permanent.</li>
+<li>Stiff materials (like steel) have high elastic moduli; soft materials (like rubber) have low moduli.</li>
+<li>Elastic energy is stored during deformation and recovered when the material returns to equilibrium.</li>
+</ul>
+<hr/>
+<p>In the next section, we examine what happens when materials are stressed beyond their elastic limits — the process of <strong>fracture</strong>, including breaking stress and safety considerations.</p>
 </div>
 </div>
 </div>
 </div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=09821dd9">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0683f704">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="The-Superpower-of-Euler%E2%80%99s-Formula">The Superpower of Euler’s Formula<a class="anchor-link" href="#The-Superpower-of-Euler%E2%80%99s-Formula">¶</a></h2><ul>
-<li><p>Exponentials reproduce themselves under differentiation:
-$$
-\frac{d}{dt} e^{\lambda t} = \lambda e^{\lambda t}
+<h2 id="12.6.-Fracture">12.6. Fracture<a class="anchor-link" href="#12.6.-Fracture">¶</a></h2><p>When a material is subjected to increasing stress, it eventually reaches a point where it can no longer sustain the load — it <strong>fractures</strong>.<br/>
+Fracture marks the transition from elastic or plastic deformation to complete structural failure.<br/>
+Understanding the factors that lead to fracture is essential for the design of safe structures, tools, and biological tissues.</p>
+<hr/>
+<h3 id="The-Breaking-Stress">The Breaking Stress<a class="anchor-link" href="#The-Breaking-Stress">¶</a></h3><p>Every material has a characteristic <strong>breaking stress</strong> (also called <strong>ultimate tensile strength</strong>).<br/>
+This is the maximum stress that the material can withstand before breaking.</p>
+<p>$$
+\sigma_{\text{break}} = \frac{F_{\text{max}}}{A}.
 $$</p>
+<p>Beyond this limit, cracks propagate rapidly through the material, and failure occurs.</p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Ultimate Tensile Strength (Pa)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Steel (high-carbon)</td>
+<td>1.8×10⁹</td>
+</tr>
+<tr>
+<td>Aluminum</td>
+<td>5.0×10⁸</td>
+</tr>
+<tr>
+<td>Concrete</td>
+<td>2.0×10⁷</td>
+</tr>
+<tr>
+<td>Bone (human femur)</td>
+<td>1.3×10⁸</td>
+</tr>
+<tr>
+<td>Spider silk</td>
+<td>1.0×10⁹</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h3 id="Stress%E2%80%93Strain-Behavior-and-Fracture-Point">Stress–Strain Behavior and Fracture Point<a class="anchor-link" href="#Stress%E2%80%93Strain-Behavior-and-Fracture-Point">¶</a></h3><p>A <strong>stress–strain curve</strong> provides a visual representation of a material’s behavior under tension.</p>
+<ol>
+<li><p><strong>Elastic region:</strong><br/>
+The curve is linear; stress is proportional to strain (Hooke’s law).<br/>
+The slope gives Young’s modulus $E$.</p>
 </li>
-<li><p>Allowing complex numbers unlocks a <strong>larger solution space</strong>
-(e.g. $\sqrt{-1}$ is permitted)</p>
+<li><p><strong>Yield point:</strong><br/>
+Marks the onset of plastic deformation; strain increases faster than stress.</p>
 </li>
-<li><p>Negative eigenvalues lead to imaginary exponents:
-$$
-\lambda = \pm i\omega
+<li><p><strong>Plastic region:</strong><br/>
+Material elongates permanently; internal microcracks begin to form.</p>
+</li>
+<li><p><strong>Ultimate tensile stress (UTS):</strong><br/>
+The highest point on the curve — maximum stress the material can bear.</p>
+</li>
+<li><p><strong>Fracture point:</strong><br/>
+Material fails and breaks apart; stress suddenly drops to zero.</p>
+</li>
+</ol>
+<hr/>
+<h3 id="Ductile-vs.-Brittle-Materials">Ductile vs. Brittle Materials<a class="anchor-link" href="#Ductile-vs.-Brittle-Materials">¶</a></h3><p><strong>Ductile materials</strong> (e.g., steel, copper, aluminum) exhibit significant plastic deformation before breaking.<br/>
+They can be drawn into wires or reshaped under stress.</p>
+<p><strong>Brittle materials</strong> (e.g., glass, ceramics, concrete) fracture suddenly with little or no plastic deformation.<br/>
+They tend to fail catastrophically once cracks initiate.</p>
+<hr/>
+<h3 id="Example-12.19.-Tensile-Stress-in-a-Steel-Cable">Example 12.19. Tensile Stress in a Steel Cable<a class="anchor-link" href="#Example-12.19.-Tensile-Stress-in-a-Steel-Cable">¶</a></h3><p>A steel cable of cross-sectional area $A = 2.5~\text{cm}^2$ supports a $2000~\text{kg}$ load.<br/>
+Determine the stress in the cable and whether it is safe if the breaking stress is $1.5\times10^9~\text{Pa}$.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>$$
+A = 2.5\times10^{-4}~\text{m}^2, \quad F = mg = (2000)(9.8) = 1.96\times10^4~\text{N}.
 $$</p>
-</li>
-<li><p>Imaginary exponents describe <strong>periodic motion</strong>:
+<p>Stress:
 $$
-e^{i\omega t}
+\sigma = \frac{F}{A} = \frac{1.96\times10^4}{2.5\times10^{-4}} = 7.84\times10^7~\text{Pa}.
 $$</p>
+<p>The stress is about <strong>78 MPa</strong>, which is well below the breaking stress of <strong>1.5 GPa</strong>, so the cable is safe with a large safety margin.</p>
+<hr/>
+<h3 id="The-Safety-Factor">The Safety Factor<a class="anchor-link" href="#The-Safety-Factor">¶</a></h3><p>Engineers never design structures to operate near the breaking stress.<br/>
+Instead, they apply a <strong>safety factor</strong> (SF) to provide a margin against unexpected loads, imperfections, or fatigue.</p>
+<p>$$
+\text{Allowable Stress} = \frac{\sigma_{\text{break}}}{\text{SF}}.
+$$</p>
+<p>Typical safety factors:</p>
+<ul>
+<li><strong>Bridges, cranes:</strong> SF = 5 to 10</li>
+<li><strong>Aircraft parts:</strong> SF = 1.5 to 3</li>
+<li><strong>Biomedical implants:</strong> SF ≈ 3</li>
+</ul>
+<hr/>
+<h3 id="Example-12.20.-Safety-Factor-in-a-Suspension-Cable">Example 12.20. Safety Factor in a Suspension Cable<a class="anchor-link" href="#Example-12.20.-Safety-Factor-in-a-Suspension-Cable">¶</a></h3><p>A bridge cable has a breaking stress of $1.2\times10^9~\text{Pa}$ and is designed with SF = 6.<br/>
+What maximum load per unit area can it safely support?</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>$$
+\sigma_{\text{safe}} = \frac{\sigma_{\text{break}}}{\text{SF}} = \frac{1.2\times10^9}{6} = 2.0\times10^8~\text{Pa}.
+$$</p>
+<p>Hence, the cable must be designed so that the stress never exceeds <strong>200 MPa</strong> under normal load.</p>
+<hr/>
+<h3 id="Fatigue-and-Microcracks">Fatigue and Microcracks<a class="anchor-link" href="#Fatigue-and-Microcracks">¶</a></h3><p>Repeated or cyclic loading below the breaking stress can still cause failure over time — a phenomenon known as <strong>fatigue</strong>.</p>
+<ul>
+<li>Microscopic cracks form and propagate with each stress cycle.</li>
+<li>Once cracks reach a critical size, fracture occurs suddenly.</li>
+<li>Fatigue failure explains why rotating machinery, airplane wings, or bridges can fail unexpectedly even when stresses are moderate.</li>
+</ul>
+<p>Factors that affect fatigue:</p>
+<ul>
+<li>Frequency and amplitude of load cycles,</li>
+<li>Temperature and corrosion,</li>
+<li>Surface roughness and imperfections.</li>
+</ul>
+<hr/>
+<h3 id="Brittle-Fracture-and-Crack-Propagation">Brittle Fracture and Crack Propagation<a class="anchor-link" href="#Brittle-Fracture-and-Crack-Propagation">¶</a></h3><p>In brittle materials, fracture begins at microscopic flaws or <strong>stress concentrators</strong> (scratches, voids, or sharp corners).<br/>
+The local stress near a crack tip can be much larger than the average applied stress:</p>
+<p>$$
+\sigma_{\text{local}} \approx \sigma_{\text{applied}}\left(1 + 2\sqrt{\frac{a}{r}}\right),
+$$</p>
+<p>where:</p>
+<ul>
+<li>$a$ = half-length of the crack,</li>
+<li>$r$ = radius of curvature at the crack tip.</li>
+</ul>
+<p>Reducing sharp edges or surface imperfections helps prevent premature fracture.</p>
+<hr/>
+<h3 id="Example-12.21.-Estimating-Stress-Near-a-Crack">Example 12.21. Estimating Stress Near a Crack<a class="anchor-link" href="#Example-12.21.-Estimating-Stress-Near-a-Crack">¶</a></h3><p>A glass plate under tension experiences an average stress of $2.0\times10^7~\text{Pa}$.<br/>
+If it contains a surface crack of half-length $a = 0.5~\text{mm}$ and tip radius $r = 1~\mu\text{m}$, estimate the local stress at the crack tip.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>$$
+\sigma_{\text{local}} = 2.0\times10^7\left(1 + 2\sqrt{\frac{a}{r}}\right)
+= 2.0\times10^7\left(1 + 2\sqrt{\frac{5.0\times10^{-4}}{1.0\times10^{-6}}}\right)
+= 2.0\times10^7(1 + 2\sqrt{500}) = 2.0\times10^7(1 + 44.7) = 9.1\times10^8~\text{Pa}.
+$$</p>
+<p>This local stress exceeds the breaking stress of glass (~$7\times10^7~\text{Pa}$), explaining why even small cracks can cause sudden failure.</p>
+<hr/>
+<h3 id="Brittle-vs.-Ductile-Fracture-Patterns">Brittle vs. Ductile Fracture Patterns<a class="anchor-link" href="#Brittle-vs.-Ductile-Fracture-Patterns">¶</a></h3><ul>
+<li><p><strong>Brittle fracture:</strong><br/>
+Occurs suddenly, with little warning.<br/>
+Fracture surfaces are smooth and flat, often following grain boundaries.</p>
 </li>
-<li><p>Euler’s formula: $e^{i\omega t} = \cos(\omega t) + i\sin(\omega t)$</p>
-</li>
-<li><p><strong>Dynamics reduces to complex-number algebra</strong></p>
+<li><p><strong>Ductile fracture:</strong><br/>
+Preceded by necking and plastic deformation.<br/>
+Fracture surfaces are rough and fibrous, absorbing much more energy before failure.</p>
 </li>
 </ul>
+<hr/>
+<h3 id="Example-12.22.-Bone-Fracture-under-Bending">Example 12.22. Bone Fracture under Bending<a class="anchor-link" href="#Example-12.22.-Bone-Fracture-under-Bending">¶</a></h3><p>A human femur (cross-section $A = 5.0~\text{cm}^2$) breaks when the compressive stress reaches $1.3\times10^8~\text{Pa}$.<br/>
+Estimate the maximum force it can support.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>$$
+A = 5.0\times10^{-4}~\text{m}^2, \quad \sigma_{\text{break}} = 1.3\times10^8~\text{Pa}.
+$$</p>
+<p>$$
+F_{\text{max}} = \sigma_{\text{break}} A = (1.3\times10^8)(5.0\times10^{-4}) = 6.5\times10^4~\text{N}.
+$$</p>
+<p>Thus, the femur can support about <strong>65,000 N</strong> (roughly six times body weight) before breaking.</p>
+<hr/>
+<h3 id="Conceptual-Notes">Conceptual Notes<a class="anchor-link" href="#Conceptual-Notes">¶</a></h3><ul>
+<li><strong>Breaking stress</strong> is a material constant independent of geometry (for a given material and temperature).</li>
+<li>The <strong>safety factor</strong> ensures that operational stresses remain well below breaking limits.</li>
+<li><strong>Fatigue</strong> and <strong>crack growth</strong> can lead to failure even when stresses are within the elastic range.</li>
+<li>Materials with greater <strong>ductility</strong> can absorb more energy before fracture.</li>
+<li><strong>Brittle materials</strong> fail suddenly without warning — safety margins must be larger.</li>
+</ul>
+<hr/>
+<p>In the next section, we study how complex structures such as <strong>trusses and bridges</strong> distribute forces efficiently, allowing them to remain in equilibrium under heavy loads.</p>
 </div>
 </div>
 </div>
@@ -7691,21 +8461,168 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Wave-synthesis-%E2%80%93-From-single-to-many-frequencies">Wave synthesis – From single to many frequencies<a class="anchor-link" href="#Wave-synthesis-%E2%80%93-From-single-to-many-frequencies">¶</a></h2><p><code>sim – Wave Synthesis</code></p>
+<h2 id="12.7.-Trusses-and-Bridges">12.7. Trusses and Bridges<a class="anchor-link" href="#12.7.-Trusses-and-Bridges">¶</a></h2><p>Large structures such as roofs, cranes, and bridges rely on a network of slender members joined together — called <strong>trusses</strong> — to support heavy loads efficiently.<br/>
+Each member in a truss is designed to carry either <strong>tension</strong> or <strong>compression</strong>, while the joints are assumed to act as <strong>frictionless pins</strong>.<br/>
+In this section, we apply the equilibrium conditions to determine the forces in truss members and understand how such structures remain stable.</p>
+<hr/>
+<h3 id="The-Truss:-Basic-Assumptions">The Truss: Basic Assumptions<a class="anchor-link" href="#The-Truss:-Basic-Assumptions">¶</a></h3><p>A <strong>truss</strong> is an assembly of straight members connected at their ends by frictionless pins.<br/>
+The main simplifying assumptions are:</p>
+<ol>
+<li>All members are <strong>connected only at their ends</strong>.</li>
+<li><strong>Loads and reactions</strong> act only at the joints.</li>
+<li>Each member is either in <strong>tension</strong> (pulling apart) or <strong>compression</strong> (pushing together).</li>
+<li>The <strong>weight of members</strong> is small compared with the applied loads and is often neglected.</li>
+</ol>
+<p>Under these conditions, every joint of the truss can be treated as a <strong>particle in equilibrium</strong>, and the forces in the members can be found using the laws of statics.</p>
+<hr/>
+<h3 id="Methods-of-Analysis">Methods of Analysis<a class="anchor-link" href="#Methods-of-Analysis">¶</a></h3><p>There are two principal approaches:</p>
+<ol>
+<li><p><strong>Method of Joints:</strong></p>
 <ul>
-<li><p>Single oscillation:
-$$
-x(t)=A\cos(\omega t+\phi_n)
-$$</p>
-</li>
-<li><p>Superposition:
-$$
-x(t)=\sum_n A_n\cos(\omega_n t+\phi_n)
-$$</p>
-</li>
-<li><p>Adding frequencies $\rightarrow$ more complex signals</p>
-</li>
+<li>Apply $\sum F_x = 0$ and $\sum F_y = 0$ at each joint.</li>
+<li>Useful for finding the forces in all members of a small truss.</li>
 </ul>
+</li>
+<li><p><strong>Method of Sections:</strong></p>
+<ul>
+<li>Cut through the truss to expose a few members of interest.</li>
+<li>Apply $\sum F_x = 0$, $\sum F_y = 0$, and $\sum \tau = 0$ to the resulting section.</li>
+<li>More efficient for finding only a few specific member forces.</li>
+</ul>
+</li>
+</ol>
+<hr/>
+<h3 id="Example-12.23.-Simple-Triangular-Truss">Example 12.23. Simple Triangular Truss<a class="anchor-link" href="#Example-12.23.-Simple-Triangular-Truss">¶</a></h3><p>A simple triangular truss supports a $1000~\text{N}$ load at its apex $C$.<br/>
+It is pinned at $A$ and supported by a roller at $B$.<br/>
+Each side of the triangle is $3.0~\text{m}$.</p>
+<p>Find the forces in members $AC$, $BC$, and $AB$.</p>
+<h4 id="Step-1.-Free-body-diagram-of-the-whole-truss">Step 1. Free-body diagram of the whole truss<a class="anchor-link" href="#Step-1.-Free-body-diagram-of-the-whole-truss">¶</a></h4><p>Because the structure is symmetric:
+$$
+R_A = R_B = \frac{1000}{2} = 500~\text{N}.
+$$</p>
+<h4 id="Step-2.-Analyze-joint-$C$">Step 2. Analyze joint $C$<a class="anchor-link" href="#Step-2.-Analyze-joint-$C$">¶</a></h4><p>Forces at $C$:</p>
+<ul>
+<li>Downward load $1000~\text{N}$,</li>
+<li>Tension or compression in $AC$ and $BC$ (assume tension initially).</li>
+</ul>
+<p>Geometry: sides form $60°$ angles with the base.</p>
+<p>Vertical equilibrium:
+$$
+2F_{AC}\sin60° = 1000.
+$$</p>
+<p>$$
+F_{AC} = F_{BC} = \frac{1000}{2\sin60°} = \frac{1000}{1.732} = 577~\text{N}.
+$$</p>
+<p>Horizontal equilibrium:
+$$
+F_{AB} = F_{AC}\cos60° - F_{BC}\cos60° = 0,
+$$
+so the base member $AB$ is <strong>in compression or zero force</strong>, depending on external loads.</p>
+<p>Result:</p>
+<ul>
+<li>$F_{AC} = F_{BC} = 577~\text{N}$ (tension),</li>
+<li>$F_{AB} = 0$ (no load).</li>
+</ul>
+<hr/>
+<h3 id="Example-12.24.-Asymmetric-Truss">Example 12.24. Asymmetric Truss<a class="anchor-link" href="#Example-12.24.-Asymmetric-Truss">¶</a></h3><p>A truss with base $AB = 4.0~\text{m}$ and height $2.0~\text{m}$ supports a $1200~\text{N}$ load at the apex $C$.<br/>
+Supports: pin at $A$, roller at $B$.<br/>
+Find the forces in $AC$, $BC$, and $AB$.</p>
+<h4 id="Step-1.-Reaction-forces">Step 1. Reaction forces<a class="anchor-link" href="#Step-1.-Reaction-forces">¶</a></h4><p>Because the load acts vertically at $C$, symmetry does not apply.<br/>
+Taking torques about $A$:</p>
+<p>$$
+R_B(4.0) = 1200(2.0) \Rightarrow R_B = 600~\text{N}.
+$$
+$$
+R_A = 1200 - 600 = 600~\text{N}.
+$$</p>
+<h4 id="Step-2.-Joint-$C$">Step 2. Joint $C$<a class="anchor-link" href="#Step-2.-Joint-$C$">¶</a></h4><p>Vertical equilibrium:
+$$
+F_{AC}\sin\theta_1 + F_{BC}\sin\theta_2 = 1200.
+$$</p>
+<p>Horizontal equilibrium:
+$$
+F_{AC}\cos\theta_1 = F_{BC}\cos\theta_2.
+$$</p>
+<p>From geometry:
+$$
+\tan\theta_1 = \frac{2.0}{2.0} = 1.0 \Rightarrow \theta_1 = 45°, \quad
+\tan\theta_2 = \frac{2.0}{2.0} = 45°.
+$$</p>
+<p>Thus, $\theta_1 = \theta_2 = 45°$ (symmetrical).<br/>
+So:
+$$
+2F_{AC}\sin45° = 1200 \Rightarrow F_{AC} = 424~\text{N}.
+$$</p>
+<p>Hence $F_{BC} = 424~\text{N}$, both in <strong>tension</strong>.</p>
+<hr/>
+<h3 id="Example-12.25.-Bridge-Truss-Section-(Method-of-Sections)">Example 12.25. Bridge Truss Section (Method of Sections)<a class="anchor-link" href="#Example-12.25.-Bridge-Truss-Section-(Method-of-Sections)">¶</a></h3><p>In a bridge truss, a diagonal member connects joints $B$ and $D$.<br/>
+The truss is loaded with a $400~\text{N}$ downward force at $C$.<br/>
+Each span is $3.0~\text{m}$.<br/>
+Find the force in the diagonal $BD$.</p>
+<h4 id="Step-1.-Reaction-forces">Step 1. Reaction forces<a class="anchor-link" href="#Step-1.-Reaction-forces">¶</a></h4><p>By symmetry, $R_A = R_E = 200~\text{N}$.</p>
+<h4 id="Step-2.-Cut-through-the-section">Step 2. Cut through the section<a class="anchor-link" href="#Step-2.-Cut-through-the-section">¶</a></h4><p>Cut through members $BD$, $BC$, and $CD$.<br/>
+Take moments about point $C$ (to eliminate $BC$ and $CD$):</p>
+<p>$$
+\sum \tau_C = 0 = R_A(6.0) - F_{BD}(3.0\sin45°) - 400(3.0).
+$$</p>
+<p>$$
+F_{BD} = \frac{R_A(6.0) - 400(3.0)}{3.0\sin45°}
+= \frac{(200)(6.0) - 1200}{2.12} = \frac{0}{2.12} = 0.
+$$</p>
+<p>Thus, $F_{BD} = 0$.<br/>
+In some loading configurations, certain truss members experience <strong>no force</strong> — they serve to stabilize the structure geometrically.</p>
+<hr/>
+<h3 id="Tension-and-Compression-in-Members">Tension and Compression in Members<a class="anchor-link" href="#Tension-and-Compression-in-Members">¶</a></h3><ul>
+<li><strong>Tension:</strong> Members are being stretched; internal forces pull <strong>away</strong> from the joint.</li>
+<li><strong>Compression:</strong> Members are being shortened; internal forces push <strong>toward</strong> the joint.</li>
+</ul>
+<p>In free-body diagrams:</p>
+<ul>
+<li>Tension arrows point <strong>away</strong> from the joint.</li>
+<li>Compression arrows point <strong>toward</strong> the joint.</li>
+</ul>
+<hr/>
+<h3 id="Example-12.26.-Determining-Member-Forces-by-Inspection">Example 12.26. Determining Member Forces by Inspection<a class="anchor-link" href="#Example-12.26.-Determining-Member-Forces-by-Inspection">¶</a></h3><p>In a simple truss, any member connected to a joint that has only <strong>two collinear members and no external load</strong> is a <strong>zero-force member</strong>.</p>
+<p>Such members are important for <strong>stability</strong> under different load conditions but carry no load in the given configuration.</p>
+<hr/>
+<h3 id="Design-Considerations-for-Trusses-and-Bridges">Design Considerations for Trusses and Bridges<a class="anchor-link" href="#Design-Considerations-for-Trusses-and-Bridges">¶</a></h3><ol>
+<li><p><strong>Triangular Geometry:</strong><br/>
+Triangles are inherently stable — their shape cannot change without altering member lengths.</p>
+</li>
+<li><p><strong>Load Path:</strong><br/>
+Loads are transmitted from the point of application to the supports through members under tension or compression.</p>
+</li>
+<li><p><strong>Efficiency:</strong><br/>
+Using slender members reduces weight while maintaining strength.</p>
+</li>
+<li><p><strong>Safety Factor:</strong><br/>
+Each member is designed to carry stresses below a safe fraction of its yield strength.</p>
+</li>
+<li><p><strong>Redundancy:</strong><br/>
+Extra members are often added to provide alternative load paths in case of failure.</p>
+</li>
+</ol>
+<hr/>
+<h3 id="Example-12.27.-Determining-the-Load-on-a-Bridge-Cable">Example 12.27. Determining the Load on a Bridge Cable<a class="anchor-link" href="#Example-12.27.-Determining-the-Load-on-a-Bridge-Cable">¶</a></h3><p>A suspension bridge cable spans $120~\text{m}$ between supports and carries a uniformly distributed load of $w = 20,000~\text{N/m}$.<br/>
+Find the horizontal component of the tension at the lowest point if the cable forms a parabolic arc with a central sag $h = 12~\text{m}$.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>For a parabolic cable under uniform load, the horizontal tension is:</p>
+<p>$$
+T_H = \frac{w L^2}{8h}.
+$$</p>
+<p>$$
+T_H = \frac{(20,000)(120)^2}{8(12)} = \frac{(20,000)(14,400)}{96} = 3.0\times10^9~\text{N}.
+$$</p>
+<p>Hence, the horizontal tension at midspan is <strong>3.0×10⁹ N</strong>, illustrating the enormous forces in bridge cables.</p>
+<hr/>
+<h3 id="Conceptual-Notes">Conceptual Notes<a class="anchor-link" href="#Conceptual-Notes">¶</a></h3><ul>
+<li>Trusses efficiently distribute loads using members under pure tension or compression.</li>
+<li>Triangular arrangements prevent shape distortion and provide high rigidity.</li>
+<li>The <strong>method of joints</strong> and <strong>method of sections</strong> are systematic ways to solve for member forces.</li>
+<li>Members carrying <strong>zero force</strong> still play an essential role in maintaining structural stability.</li>
+<li>Safety and redundancy are built into all large truss and bridge designs to prevent catastrophic failure.</li>
+</ul>
+<hr/>
+<p>In the next section, we explore how <strong>arches and domes</strong> carry loads primarily through <strong>compression</strong>, allowing them to span wide spaces without tensile failure.</p>
 </div>
 </div>
 </div>
@@ -7715,18 +8632,145 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Fourier-series-%E2%80%93-Building-periodic-signals">Fourier series – Building periodic signals<a class="anchor-link" href="#Fourier-series-%E2%80%93-Building-periodic-signals">¶</a></h2><ul>
-<li>Any <strong>periodic signal</strong> can be written as a sum of sine and cosine waves:
-$$
-x(t)=a_0+\sum_{n=1}^{\infty}\big[a_n\cos(n\omega_0 t)+b_n\sin(n\omega_0 t)\big]
-$$</li>
-<li>$\omega_0=2\pi/T$ is the <strong>fundamental frequency</strong></li>
-<li>Higher terms ($n=2,3,\dots$) are <strong>harmonics</strong></li>
-<li>Each harmonic contributes a <strong>frequency</strong> $n\omega_0$, a <strong>phase</strong>, an <strong>amplitude</strong></li>
-<li>More terms $\rightarrow$ better approximation</li>
+<h2 id="12.8.-Arches-and-Domes">12.8. Arches and Domes<a class="anchor-link" href="#12.8.-Arches-and-Domes">¶</a></h2><p>Arches and domes are curved structural forms that efficiently support heavy loads primarily through <strong>compression</strong>.<br/>
+Unlike beams and trusses, which experience both tension and bending, arches and domes are designed so that most of the internal forces are <strong>compressive</strong>, minimizing tensile stress and allowing materials such as stone, brick, or concrete to be used effectively.</p>
+<p>These structures have been employed since antiquity — from Roman aqueducts to modern bridges and cathedrals — and remain fundamental in architecture and engineering.</p>
+<hr/>
+<h3 id="The-Principle-of-the-Arch">The Principle of the Arch<a class="anchor-link" href="#The-Principle-of-the-Arch">¶</a></h3><p>An <strong>arch</strong> is a curved structure that spans an opening and supports a load from above.<br/>
+The forces from the load are transmitted along the curve of the arch into its <strong>supports (abutments)</strong>, which provide equal and opposite reaction forces.</p>
+<p>Because the material is mainly in compression, arches can support much greater loads than straight beams of the same material.</p>
+<hr/>
+<h3 id="Load-Transmission-in-an-Arch">Load Transmission in an Arch<a class="anchor-link" href="#Load-Transmission-in-an-Arch">¶</a></h3><p>When a vertical load acts on an arch, each small element of the arch transmits the force to its neighbors.<br/>
+This produces a <strong>compressive force</strong> along the curve and a small <strong>horizontal thrust</strong> at the supports.</p>
+<p>The supports must resist both:</p>
+<ul>
+<li>The <strong>vertical reaction</strong> (weight of the structure and applied load), and</li>
+<li>The <strong>horizontal thrust</strong>, which tends to push the supports outward.</li>
 </ul>
-<p><img alt="Fourier_transform_time_and_frequency_domains_small.gif" src="../img/from_wiki/Fourier_transform_time_and_frequency_domains_small.gif" width="300"/></p>
-<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Fourier_transform_time_and_frequency_domains_(small">wikipedia</a>.gif), public domain</sub></em></p>
+<p>If not properly contained, this horizontal component can cause the arch to collapse.</p>
+<hr/>
+<h3 id="Conditions-for-Equilibrium-of-an-Arch-Segment">Conditions for Equilibrium of an Arch Segment<a class="anchor-link" href="#Conditions-for-Equilibrium-of-an-Arch-Segment">¶</a></h3><p>For a segment of an arch to be in equilibrium:
+$$
+\sum F_x = 0, \quad \sum F_y = 0, \quad \sum \tau = 0.
+$$</p>
+<p>These conditions ensure that:</p>
+<ol>
+<li>The <strong>compressive forces</strong> within the arch balance the applied loads, and</li>
+<li>The <strong>reactions at the supports</strong> counter the outward thrust.</li>
+</ol>
+<hr/>
+<h3 id="Example-12.28.-Horizontal-Thrust-in-a-Semicircular-Arch">Example 12.28. Horizontal Thrust in a Semicircular Arch<a class="anchor-link" href="#Example-12.28.-Horizontal-Thrust-in-a-Semicircular-Arch">¶</a></h3><p>A semicircular stone arch of radius $R = 5.0~\text{m}$ supports a uniform load (its own weight plus additional) of $w = 20,000~\text{N/m}$.<br/>
+Find the horizontal reaction at each support.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>For a semicircular arch carrying a uniform load along its span, the horizontal thrust $H$ at each support is approximately:</p>
+<p>$$
+H = \frac{w R}{\pi}.
+$$</p>
+<p>Substitute:</p>
+<p>$$
+H = \frac{(20,000)(5.0)}{3.1416} = 3.18\times10^4~\text{N}.
+$$</p>
+<p>Thus, each support must resist a <strong>horizontal thrust of 31.8 kN</strong> in addition to the vertical load.</p>
+<hr/>
+<h3 id="Example-12.29.-Parabolic-Arch-with-Uniform-Load">Example 12.29. Parabolic Arch with Uniform Load<a class="anchor-link" href="#Example-12.29.-Parabolic-Arch-with-Uniform-Load">¶</a></h3><p>A parabolic arch with a span $L = 40~\text{m}$ and central height $h = 10~\text{m}$ carries a uniformly distributed load $w = 5.0\times10^3~\text{N/m}$.<br/>
+Find the horizontal thrust at the supports.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>For a parabolic arch under uniform load:</p>
+<p>$$
+H = \frac{w L^2}{8h}.
+$$</p>
+<p>Substitute:</p>
+<p>$$
+H = \frac{(5.0\times10^3)(40)^2}{8(10)} = \frac{(5.0\times10^3)(1600)}{80} = 1.0\times10^5~\text{N}.
+$$</p>
+<p>Hence, the horizontal thrust at each support is <strong>100 kN</strong>.</p>
+<hr/>
+<h3 id="Stability-of-Arches">Stability of Arches<a class="anchor-link" href="#Stability-of-Arches">¶</a></h3><p>The <strong>stability</strong> of an arch depends on how well the internal compressive forces follow the <strong>line of thrust</strong> — the path of resultant forces through the arch.</p>
+<ul>
+<li>If the line of thrust lies entirely <strong>within the arch</strong>, it remains stable.</li>
+<li>If it passes <strong>outside</strong> the structure, tensile stresses develop and cracks may appear, leading to failure.</li>
+</ul>
+<p>Architectural designs (e.g., Gothic pointed arches) help ensure the line of thrust stays within the arch geometry under typical loads.</p>
+<hr/>
+<h3 id="Buttresses-and-Tie-Rods">Buttresses and Tie Rods<a class="anchor-link" href="#Buttresses-and-Tie-Rods">¶</a></h3><p>To resist the <strong>outward horizontal thrust</strong>, engineers use:</p>
+<ul>
+<li><strong>Buttresses:</strong> Massive supports built at the sides of the arch.<ul>
+<li>Common in cathedrals and bridges.</li>
+</ul>
+</li>
+<li><strong>Tie rods:</strong> Steel rods connecting the arch bases, converting horizontal thrust into <strong>tension</strong> rather than outward push.<ul>
+<li>Common in modern arch bridges.</li>
+</ul>
+</li>
+</ul>
+<p>These structural features allow slender arches to carry large loads without spreading at their bases.</p>
+<hr/>
+<h3 id="Example-12.30.-Thrust-Reduction-by-a-Tie-Rod">Example 12.30. Thrust Reduction by a Tie Rod<a class="anchor-link" href="#Example-12.30.-Thrust-Reduction-by-a-Tie-Rod">¶</a></h3><p>A parabolic arch of span $L = 30~\text{m}$ and height $h = 6.0~\text{m}$ carries a uniform load $w = 3.0\times10^4~\text{N/m}$.<br/>
+If a horizontal tie rod connects the two ends, what is the tension in the rod?</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>The tie rod must carry the horizontal thrust $H$ that each support would otherwise resist:</p>
+<p>$$
+H = \frac{w L^2}{8h} = \frac{(3.0\times10^4)(30)^2}{8(6)} = \frac{(3.0\times10^4)(900)}{48} = 5.63\times10^5~\text{N}.
+$$</p>
+<p>Hence, the tie rod must sustain a tension of <strong>563 kN</strong>.</p>
+<hr/>
+<h3 id="Domes:-Three-Dimensional-Arches">Domes: Three-Dimensional Arches<a class="anchor-link" href="#Domes:-Three-Dimensional-Arches">¶</a></h3><p>A <strong>dome</strong> can be thought of as a three-dimensional arch rotated around its vertical axis.<br/>
+Like an arch, it carries loads primarily through <strong>compression</strong>.</p>
+<ul>
+<li>The <strong>vertical component</strong> of compression supports the load.</li>
+<li>The <strong>horizontal component</strong> produces an outward thrust along the base, which must be resisted by the supporting ring or foundations.</li>
+</ul>
+<p>If the horizontal thrust is not properly balanced, the dome may crack or collapse outward.</p>
+<hr/>
+<h3 id="Example-12.31.-Horizontal-Force-at-the-Base-of-a-Dome">Example 12.31. Horizontal Force at the Base of a Dome<a class="anchor-link" href="#Example-12.31.-Horizontal-Force-at-the-Base-of-a-Dome">¶</a></h3><p>A hemispherical concrete dome of radius $R = 10~\text{m}$ weighs $5.0\times10^6~\text{N}$.<br/>
+Estimate the horizontal thrust at its base.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>For a hemispherical dome under its own weight, the horizontal thrust at the base is approximately:</p>
+<p>$$
+H = \frac{W}{\pi R}.
+$$</p>
+<p>$$
+H = \frac{5.0\times10^6}{3.1416(10)} = 1.59\times10^5~\text{N}.
+$$</p>
+<p>Each meter of the base circumference must resist an <strong>outward thrust of about 1.6×10⁵ N/m</strong>.</p>
+<hr/>
+<h3 id="Structural-Advantages-of-Arches-and-Domes">Structural Advantages of Arches and Domes<a class="anchor-link" href="#Structural-Advantages-of-Arches-and-Domes">¶</a></h3><ol>
+<li><p><strong>Efficient load distribution:</strong><br/>
+Forces flow smoothly through compression without generating bending moments.</p>
+</li>
+<li><p><strong>Material economy:</strong><br/>
+Since tension is minimized, materials with high compressive strength (stone, brick, concrete) can be used effectively.</p>
+</li>
+<li><p><strong>Aesthetic and functional design:</strong><br/>
+Curved forms provide both structural strength and architectural elegance.</p>
+</li>
+<li><p><strong>Scalability:</strong><br/>
+From small doorways to massive bridges or stadium roofs, the same principles apply.</p>
+</li>
+</ol>
+<hr/>
+<h3 id="Example-12.32.-The-Arch-Bridge">Example 12.32. The Arch Bridge<a class="anchor-link" href="#Example-12.32.-The-Arch-Bridge">¶</a></h3><p>An arch bridge of span $L = 100~\text{m}$ and rise $h = 20~\text{m}$ supports a uniform load of $w = 2.5\times10^4~\text{N/m}$.<br/>
+Find the horizontal thrust at the supports and comment on its significance.</p>
+<h4 id="Solution">Solution<a class="anchor-link" href="#Solution">¶</a></h4><p>$$
+H = \frac{w L^2}{8h} = \frac{(2.5\times10^4)(100)^2}{8(20)} = \frac{(2.5\times10^4)(10,000)}{160} = 1.56\times10^6~\text{N}.
+$$</p>
+<p>The supports must resist a <strong>horizontal thrust of 1.56 MN</strong>, showing that the foundations must be extremely strong or reinforced by tie elements.</p>
+<hr/>
+<h3 id="Historical-and-Modern-Examples">Historical and Modern Examples<a class="anchor-link" href="#Historical-and-Modern-Examples">¶</a></h3><ul>
+<li><strong>Roman aqueducts:</strong> Early semicircular stone arches.</li>
+<li><strong>Gothic cathedrals:</strong> Pointed arches and flying buttresses.</li>
+<li><strong>Modern concrete bridges:</strong> Parabolic arches with internal steel reinforcement.</li>
+<li><strong>Geodesic domes:</strong> Lightweight frameworks distributing compression through interconnected triangles.</li>
+</ul>
+<p>These structures illustrate the enduring utility of the arch and dome principle.</p>
+<hr/>
+<h3 id="Conceptual-Notes">Conceptual Notes<a class="anchor-link" href="#Conceptual-Notes">¶</a></h3><ul>
+<li>Arches and domes carry loads mainly by <strong>compression</strong>, minimizing bending stresses.</li>
+<li>The <strong>horizontal thrust</strong> at the supports must be balanced by abutments or tie rods.</li>
+<li>The <strong>line of thrust</strong> should remain within the structure for stability.</li>
+<li>Curved geometry distributes forces more uniformly than flat beams.</li>
+<li>Modern materials (reinforced concrete, steel) allow for thinner and larger arches than those possible with stone alone.</li>
+</ul>
+<hr/>
+<p>This concludes <strong>Chapter 12: Equilibrium and Elasticity</strong>.<br/>
+We have seen how structures — from muscles and ladders to bridges and domes — achieve stability by balancing forces and torques, and how materials resist deformation through elasticity and strength.<br/>
+In the next chapter, we will extend these principles to <strong>fluid statics and dynamics</strong>, exploring how forces act in fluids and how pressure and flow are related.</p>
 </div>
 </div>
 </div>
@@ -7736,28 +8780,7 @@ $$</li>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Fourier-transform-%E2%80%93-Analyzing-non-periodic-signals">Fourier transform – Analyzing non-periodic signals<a class="anchor-link" href="#Fourier-transform-%E2%80%93-Analyzing-non-periodic-signals">¶</a></h2><ul>
-<li><p>Real signals are often <strong>not periodic</strong></p>
-</li>
-<li><p>Idea:</p>
-<ul>
-<li>Fourier <strong>series</strong> $\rightarrow$ discrete frequencies (periodic signals)</li>
-<li>Fourier <strong>transform</strong> $\rightarrow$ continuous frequencies (non-periodic signals)</li>
-</ul>
-</li>
-<li><p>Time signal $\rightarrow$ frequency spectrum
-$$
-X(\omega)=\int_{-\infty}^{\infty} x(t)\,e^{-i\omega t}\,dt
-$$</p>
-</li>
-<li><p>Inverse transform (back to time domain):
-$$
-x(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty} X(\omega)\,e^{i\omega t}\,d\omega
-$$</p>
-</li>
-<li><p>Reminder: Euler’s formula $e^{i\omega t} = \cos(\omega t) + i\sin(\omega t)$</p>
-</li>
-</ul>
+<h2 id="tba">tba<a class="anchor-link" href="#tba">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7767,25 +8790,7 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Fourier-transform-%E2%80%93-Building-intuition">Fourier transform – Building intuition<a class="anchor-link" href="#Fourier-transform-%E2%80%93-Building-intuition">¶</a></h2><p>$$
-X(\omega)=\int_{-\infty}^{\infty} x(t)\,e^{-i\omega t}\,dt
-$$</p>
-<ul>
-<li><p><strong>Idea</strong>: Compare the signal with a <strong>test oscillation</strong> $e^{-i\omega t}$ to measure how strongly this oscillation is present in $x(t)$</p>
-</li>
-<li><p><strong>Output</strong>: <strong>Complex frequency spectrum</strong></p>
-<ul>
-<li>$|X(\omega)|$ $\rightarrow$  strength (amplitude) of frequency $\omega$</li>
-<li>$\arg X(\omega)$ $\rightarrow$  phase of that frequency</li>
-</ul>
-</li>
-<li><p><strong>Key message</strong>:</p>
-<ul>
-<li><strong>Any signal = sum of many oscillations</strong></li>
-<li>Fourier transform reveals which frequencies are present and how strongly</li>
-</ul>
-</li>
-</ul>
+<h2 id="tba">tba<a class="anchor-link" href="#tba">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7795,33 +8800,7 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Fourier-transform-%E2%80%93-Frequency-spectrum-of-bass-guitar-(A-at-55-Hz)">Fourier transform – Frequency spectrum of bass guitar (A at 55 Hz)<a class="anchor-link" href="#Fourier-transform-%E2%80%93-Frequency-spectrum-of-bass-guitar-(A-at-55-Hz)">¶</a></h2><p><img alt="Bass_Guitar_Time_Signal_of_open_string_A_note_55_Hz.png" src="../img/from_wiki/Bass_Guitar_Time_Signal_of_open_string_A_note_55_Hz.png" width="400"/>
-<img alt="Fourier_Transform_of_bass_guitar_time_signal.png" src="../img/from_wiki/Fourier_Transform_of_bass_guitar_time_signal.png" width="400"/></p>
-<p><em><sub>[left] from <a href="https://en.wikipedia.org/wiki/File:Bass_Guitar_Time_Signal_of_open_string_A_note_(55_Hz">wikipedia</a>.png), <a href="//creativecommons.org/licenses/by-sa/4.0/deed.en">Attribution-Share Alike 4.0 International</a>
-[right] from <a href="https://en.wikipedia.org/wiki/File:Fourier_Transform_of_bass_guitar_time_signal.png">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/4.0/deed.en">Attribution-Share Alike 4.0 International</a></sub></em></p>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4a879aa1">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Time-windowed-Fourier-transform-&amp;-spectrograms">Time-windowed Fourier transform &amp; spectrograms<a class="anchor-link" href="#Time-windowed-Fourier-transform-&amp;-spectrograms">¶</a></h2><p><code>phyphox / ma19+ma05</code></p>
-<ul>
-<li>Real signals often change in time</li>
-<li>Apply Fourier transform on <strong>short time windows</strong></li>
-<li>Reveals <strong>how frequencies evolve over time</strong></li>
-<li>Result visualized as a <strong>spectrogram</strong> with the frequencies' amplitude encoded as <strong>intensity</strong> of the plot</li>
-<li>Key trade-off:<ul>
-<li>short window → good time resolution</li>
-<li>long window → good frequency resolution</li>
-</ul>
-</li>
-</ul>
-<p><img alt="Spectrogram-19thC.png" src="../img/from_wiki/Spectrogram-19thC.png" width="350"/></p>
-<p><em><sub>from <a href="https://en.wikipedia.org/wiki/File:Spectrogram-19thC.png">wikipedia</a>, public domain</sub></em></p>
+<h2 id="tba">tba<a class="anchor-link" href="#tba">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7831,46 +8810,17 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Fourier-in-action">Fourier in action<a class="anchor-link" href="#Fourier-in-action">¶</a></h2><ul>
-<li>Please open <strong>phyphox</strong> $\rightarrow$ <strong>Acoustics</strong> $\rightarrow$ <strong>Tone gnerator</strong></li>
-<li>Set <strong>frequency</strong> to: $\text{Row number of your seat} \times 100 \text{Hz}$</li>
-<li><strong>Press play</strong> and maximize volume</li>
-</ul>
+<h2 id="tba">tba<a class="anchor-link" href="#tba">¶</a></h2>
 </div>
 </div>
 </div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=577255cf">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>$\Rightarrow$ <strong>MRI frequency encoding</strong> shows how spatial position is converted into frequency information — the same Fourier principles behind FT-NMR (Ernst, Nobel Chemistry 1991) and modern MRI imaging (Lauterbur &amp; Mansfield, Nobel Medicine 2003).</p>
-<p><img alt="MRI_frequency_encoding.png" src="../img/from_wiki/MRI_frequency_encoding.png" width="300"/></p>
-<p><em><sub>from <a href="https://commons.wikimedia.org/wiki/File:MRI_frequency_encoding.png">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/3.0/deed.en">Attribution-Share Alike 3.0 Unported</a></sub></em></p>
-</div>
-</div>
-</div>
-</div></div></section></section><section><section>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a66ee59e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="2D-Fourier-transform-%E2%80%93-spatial-frequencies">2D Fourier transform – spatial frequencies<a class="anchor-link" href="#2D-Fourier-transform-%E2%80%93-spatial-frequencies">¶</a></h2><p><code>sim - 2D FT</code>
-<a href="https://monman53.github.io/2dfft/">link</a> and <a href="https://github.com/monman53/2dfft">github</a></p>
-<ul>
-<li>Fourier analysis applied to images (space instead of time)</li>
-<li>Performed as <strong>two 1D Fourier transforms</strong>:<ul>
-<li>once in $x$-direction</li>
-<li>once in $y$-direction</li>
-</ul>
-</li>
-<li>Low spatial frequencies → smooth, large-scale structure</li>
-<li>High spatial frequencies → edges and fine detail</li>
-</ul>
-<p><img alt="Membrane-normal-modes.gif" src="../img/from_wiki/Membrane-normal-modes.gif" width="100"/></p>
-<p><em><sub>from <a href="https://commons.wikimedia.org/wiki/File:Membrane-normal-modes.gif">wikipedia</a>, public domain</sub></em></p>
+<h2 id="tba">tba<a class="anchor-link" href="#tba">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7880,23 +8830,17 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Why-frequency-space-simplifies-convolution">Why frequency space simplifies convolution<a class="anchor-link" href="#Why-frequency-space-simplifies-convolution">¶</a></h2><ul>
-<li>Convolution in real space is computationally expensive</li>
-<li>In frequency space:<ul>
-<li>convolution → <strong>multiplication</strong></li>
-</ul>
-</li>
-<li>Filtering becomes simple and intuitive<ul>
-<li>low-pass → blur</li>
-<li>high-pass → edge enhancement</li>
-</ul>
-</li>
-<li>Core tool in signal and image processing</li>
-</ul>
-<p><img alt="Convolution_of_spiky_function_with_box2.gif" src="../img/from_wiki/Convolution_of_spiky_function_with_box2.gif" width="400"/>
-<img alt="2D_Convolution_Animation.gif" src="../img/from_wiki/2D_Convolution_Animation.gif" width="250"/></p>
-<p><em><sub>[left] from <a href="https://en.wikipedia.org/wiki/File:Convolution_of_spiky_function_with_box2.gif">wikipedia</a> by Tinos, <a href="//creativecommons.org/licenses/by-sa/3.0/deed.en">Attribution-Share Alike 3.0 Unported</a></sub></em>
-<em><sub>[right] from <a href="https://en.wikipedia.org/wiki/File:2D_Convolution_Animation.gif">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/3.0/deed.en">Attribution-Share Alike 3.0 Unported</a></sub></em></p>
+<h2 id="tba">tba<a class="anchor-link" href="#tba">¶</a></h2>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=29d85722">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="tba">tba<a class="anchor-link" href="#tba">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7906,17 +8850,67 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Fourier-Transform---Big-picture">Fourier Transform - Big picture<a class="anchor-link" href="#Fourier-Transform---Big-picture">¶</a></h2><ul>
-<li>Waves and oscillations all around us</li>
-<li>Complex signals become simple spectra $\rightarrow$ underlying patterns becomes visible</li>
-<li>Dynamics become algebra (differential $\rightarrow$ algebraic equations e.g. wave equation, heat equation, diffusion)</li>
-<li>Basis for/related to other transforms such as Laplace &amp; Wavelet</li>
-<li><strong>Fourier analysis changes how we think about problems</strong></li>
-</ul>
-<p><img alt="Ultrasound_range_diagram.svg" src="../img/from_wiki/Ultrasound_range_diagram.svg" width="400"/>
-<img alt="EM_spectrum.svg" src="../img/from_wiki/EM_spectrum.svg" width="450"/></p>
-<p><em><sub>[left] from <a href="https://en.wikipedia.org/wiki/File:Ultrasound_range_diagram.svg">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/3.0/deed.en">Attribution-Share Alike 3.0 Unported</a>
-[right] from <a href="https://en.wikipedia.org/wiki/File:EM_spectrum.svg">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/3.0/deed.en">Attribution-Share Alike 3.0 Unported</a></sub></em></p>
+<h2 id="tba">tba<a class="anchor-link" href="#tba">¶</a></h2>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=86b6aabd">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="tba">tba<a class="anchor-link" href="#tba">¶</a></h2>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f6a68902">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="tba">tba<a class="anchor-link" href="#tba">¶</a></h2>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9dc6b481">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="tba">tba<a class="anchor-link" href="#tba">¶</a></h2>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f14eb732">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="tba">tba<a class="anchor-link" href="#tba">¶</a></h2>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e257adb5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="tba">tba<a class="anchor-link" href="#tba">¶</a></h2>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5e59e1c2">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="tba">tba<a class="anchor-link" href="#tba">¶</a></h2>
 </div>
 </div>
 </div>

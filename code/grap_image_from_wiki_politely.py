@@ -287,7 +287,7 @@ if __name__ == "__main__":
 
     # define htmls
     html_list = [
-        "https://en.wikipedia.org/wiki/File:Sound_pressure_diagram.svg",
+        "https://en.wikipedia.org/wiki/File:Galvanometer_diagram.svg",
         #"https://en.wikipedia.org/wiki/File:Japanese_car_accident_blur.jpg",
         #"https://de.wikipedia.org/wiki/Datei:2009-07-29-schiffshebewerk-ndf-by-RalfR-16.jpg",
     ]
