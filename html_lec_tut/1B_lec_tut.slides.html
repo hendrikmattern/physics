@@ -7464,11 +7464,12 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Leap-second">Leap second<a class="anchor-link" href="#Leap-second">¶</a></h2><ul>
-<li>1-s adjustment to <strong>UTC</strong> to keep it aligned with <strong>solar time (UT1)</strong></li>
-<li>Compensates for <strong>Earth’s irregular, slowing rotation</strong> vs <strong>atomic time (TAI)</strong></li>
-<li>Introduced <strong>1972</strong> to keep UTC – UT1 &lt; 0.9 s $\rightarrow$ <strong>27 leap seconds</strong> added (last: <strong>Dec 31 2016</strong>)</li>
-<li>Causes <strong>issues in precise systems</strong> (computers, GPS, etc.)</li>
-<li><strong>CGPM 2022</strong>: leap seconds will be <strong>abolished by $\leq$ 2035</strong>, let discrepancy increase to a full minute ($\approx$ 50-100 years) $\rightarrow$ last minute of the day taking two minutes</li>
+<li>1-s adjustment to <strong>UTC</strong> to keep it aligned with <strong>Earth's rotation (UT1)</strong></li>
+<li>Compensates for <strong>irregular variations in Earth's rotation</strong> relative to uniform <strong>atomic time (TAI)</strong></li>
+<li>Introduced <strong>1972</strong> to keep $|UTC - UT1| &lt; 0.9$ s; <strong>27 leap seconds</strong> added so far (last: <strong>Dec 31, 2016</strong>)</li>
+<li>A positive leap second makes the last minute of the day <strong>61 s long</strong>: 23:59:59 → 23:59:60 → 00:00:00</li>
+<li>Can cause <strong>problems in precise digital systems</strong> (computer networks, telecommunications, GNSS, etc.)</li>
+<li><strong>CGPM 2022:</strong> decided to discontinue regular leap-second adjustments by increasing the allowed $|UTC-UT1|$ by or before <strong>2035</strong></li>
 </ul>
 </div>
 </div>
@@ -7480,7 +7481,7 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="General-Conference-on-Weights-and-Measures-(CGPM)">General Conference on Weights and Measures (CGPM)<a class="anchor-link" href="#General-Conference-on-Weights-and-Measures-(CGPM)">¶</a></h2><ul>
-<li>Established <strong>1875</strong> by the <strong>Metre Convention</strong>, ensuring international coordination of measurement standards</li>
+<li>Created under the Metre Convention (1875); first CGPM held in 1889, ensuring international coordination of measurement standards</li>
 <li>Defines, maintains, and updates base units and constants<ul>
 <li>$\rightarrow$ <strong>universal, precise, and stable units</strong> for science, engineering, and technology</li>
 <li>$\rightarrow$ <strong>very active &amp; important part of science</strong>, e.g. national institutes such as Physikalisch-Technische Bundesanstalt (PTB)</li>
@@ -7938,7 +7939,7 @@ $$</p>
 <h2 id="Measurement-errors:-Manufacturer-error-limits">Measurement errors: Manufacturer error limits<a class="anchor-link" href="#Measurement-errors:-Manufacturer-error-limits">¶</a></h2><ul>
 <li>Analog: Typically expressed as percentage of full scale or absolute value</li>
 <li>Digital: Typically expressed as  percentage of reading + digits [+ possibly % of range].</li>
-<li><strong>Use as systematic limits for direct measurements</strong> (if calibration not possible/imperfect)</li>
+<li>If no better calibration information is available, use the manufacturer specification as an error bound for direct measurements</li>
 </ul>
 <p><img alt="AMT_Fehler.svg" src="../img/from_wiki/AMT_Fehler.svg" width="500"/></p>
 <p><em><sub>from <a href="https://de.wikipedia.org/wiki/Datei:AMT_Fehler.svg">wikipedia</a>, <a href="//creativecommons.org/licenses/by-sa/3.0/deed.de">Attribution-Share Alike 3.0 Unported</a></sub></em></p>
@@ -8105,6 +8106,7 @@ $$ b=\frac{\overline{xy}-\bar x\,\bar y}{\overline{x^2}-(\bar x)^2}, \qquad a=\b
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Measurement-errors:-Example-linear-regression">Measurement errors: Example linear regression<a class="anchor-link" href="#Measurement-errors:-Example-linear-regression">¶</a></h2><p><code>mb05 - Fallbeschleunigung</code></p>
+<p><code>Excel sheet for demo</code></p>
 <p>When an object is dropped from rest and air resistance is neglected, its motion follows a simple kinematic relation between <strong>height</strong> and <strong>fall time</strong>.</p>
 <p>The distance fallen after time $t$ is<br/>
 $$
@@ -8139,7 +8141,7 @@ $$
 \Delta F = \sum_i \left|\frac{\partial F}{\partial x_i}\right| \Delta x_i
 $$<br/>
 links measured errors to derived quantities.</li>
-<li><strong>Linear Regression:</strong> Fit $y = a x + b$ to data; slope $a$ and intercept $b$ from least squares give <strong>best estimates</strong> and their uncertainties.</li>
+<li><strong>Linear Regression:</strong> Fit $y = a x + b$ to data; least-squares fitting gives estimates of slope $m$ and intercept $b$ and their uncertainties.</li>
 </ul>
 </div>
 </div>
